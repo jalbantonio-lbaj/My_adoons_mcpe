@@ -1,0 +1,96 @@
+{
+  "namespace": "infinitychest_standalone_close",
+  "close_button": {
+    "type": "button",
+    "size": [
+      12,
+      12
+    ],
+    "layer": 100,
+    "focus_enabled": true,
+    "default_control": "default",
+    "hover_control": "hover",
+    "pressed_control": "pressed",
+    "controls": [
+      {
+        "default": {
+          "type": "image",
+          "texture": "textures/ui/cancel",
+          "size": [
+            8,
+            8
+          ],
+          "layer": 101,
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      },
+      {
+        "hover": {
+          "type": "image",
+          "texture": "textures/ui/cancel",
+          "size": [
+            10,
+            10
+          ],
+          "layer": 101,
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      },
+      {
+        "pressed": {
+          "type": "image",
+          "texture": "textures/ui/cancel",
+          "size": [
+            8,
+            8
+          ],
+          "layer": 101,
+          "color": [
+            0.65,
+            0.65,
+            0.65
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+  "close_layer": {
+    "type": "panel",
+    "$frame_size|default": [
+      176,
+      166
+    ],
+    "size": "$frame_size",
+    "layer": 100,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "infinitychest_standalone_close_btn@infinitychest_standalone_close.close_button": {
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "offset": [
+            -3,
+            3
+          ]
+        }
+      }
+    ]
+  }
+}

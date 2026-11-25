@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vge:light_gray_stained_glass_chest_boat"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "vge:light_gray_stained_glass_boat"
+      },
+      {
+        "item": "minecraft:chest"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "vge:light_gray_stained_glass_boat"
+      }
+    ],
+    "result": {
+      "item": "vge:light_gray_stained_glass_chest_boat",
+      "count": 1
+    }
+  }
+}

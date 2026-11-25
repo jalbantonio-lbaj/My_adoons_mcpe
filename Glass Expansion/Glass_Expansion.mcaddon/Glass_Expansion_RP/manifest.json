@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Glass Expansion",
+    "description": "Expands glass in Minecraft! Adds many new glass block variations such as stairs, slabs, doors, trapdoors, fences, fence gates, walls, bars, buttons, pressure plates, carpets, bricks, tiles and chests, plus glass tools, armor, shields, horse armor and boats. Available in clear, all 16 stained colours and tinted glass.",
+    "uuid": "d39ee0d6-48f6-5ea9-bedb-8e8eb1efe1ff",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "37665398-9a4a-5a9d-b3ec-346febb58ff6",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c426ec5f-1eaa-5ccf-a247-44cbf006024a",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

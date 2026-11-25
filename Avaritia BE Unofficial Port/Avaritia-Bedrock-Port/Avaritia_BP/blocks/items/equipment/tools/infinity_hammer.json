@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:world_breaker_hammer",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_hammer",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:geometry": "geometry.animated_item_hammer"
+    }
+  }
+}

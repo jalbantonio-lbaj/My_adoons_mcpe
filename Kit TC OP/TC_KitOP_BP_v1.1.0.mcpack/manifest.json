@@ -1,0 +1,44 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "TC KitOP (BH) v1.1.0",
+    "description": "TC KitOP - One /tc:kitop command spawning a single OP chest in front of you\nBy ToanCao",
+    "uuid": "34b2022f-34f8-43d6-bfa0-9fa4468d65e3",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "TC KitOP Script Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e8af6c00-ef44-4093-8f4d-0d188be44b95",
+      "version": [
+        1,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": [
+      "ToanCao"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:black_stained_glass_wall"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:black_stained_glass_pane"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:black_stained_glass_pane"
+      }
+    ],
+    "result": {
+      "item": "vge:black_stained_glass_wall",
+      "count": 6
+    }
+  }
+}

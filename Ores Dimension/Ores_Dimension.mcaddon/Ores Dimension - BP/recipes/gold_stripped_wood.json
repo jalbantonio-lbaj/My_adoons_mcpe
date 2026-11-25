@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:gold_stripped_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:gold_stripped_log"
+      }
+    },
+    "result": {
+      "item": "oredim:gold_stripped_wood",
+      "count": 3
+    },
+    "unlock": [
+      {
+        "item": "oredim:gold_stripped_log"
+      }
+    ]
+  }
+}

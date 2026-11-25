@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:infinity_shears"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " I",
+      "I "
+    ],
+    "key": {
+      "I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "avaritia:infinity_ingot"
+      }
+    ],
+    "result": {
+      "item": "avaritia:infinity_shears",
+      "count": 1
+    }
+  }
+}

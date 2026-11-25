@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_elytra",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/models/armor/infinity_elytra"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.infinity_elytra"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal"
+      ]
+    }
+  }
+}

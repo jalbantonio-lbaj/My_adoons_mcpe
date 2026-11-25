@@ -1,0 +1,2868 @@
+{
+  "namespace": "avaritia_tesseract",
+  "tesseract_grid": {
+    "type": "grid",
+    "size": [
+      198,
+      396
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [
+      11,
+      22
+    ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "ts_count_column": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      36,
+      396
+    ],
+    "controls": [
+      {
+        "label_v1@avaritia_tesseract._ts_count_label_v1": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "ts_count_labels": {
+    "type": "collection_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      198,
+      396
+    ],
+    "collection_name": "container_items",
+    "layer": 20,
+    "controls": [
+      {
+        "col_000@avaritia_tesseract.ts_count_column": {
+          "collection_index": 242,
+          "offset": [
+            -20,
+            6
+          ]
+        }
+      },
+      {
+        "col_001@avaritia_tesseract.ts_count_column": {
+          "collection_index": 243,
+          "offset": [
+            -2,
+            6
+          ]
+        }
+      },
+      {
+        "col_002@avaritia_tesseract.ts_count_column": {
+          "collection_index": 244,
+          "offset": [
+            16,
+            6
+          ]
+        }
+      },
+      {
+        "col_003@avaritia_tesseract.ts_count_column": {
+          "collection_index": 245,
+          "offset": [
+            34,
+            6
+          ]
+        }
+      },
+      {
+        "col_004@avaritia_tesseract.ts_count_column": {
+          "collection_index": 246,
+          "offset": [
+            52,
+            6
+          ]
+        }
+      },
+      {
+        "col_005@avaritia_tesseract.ts_count_column": {
+          "collection_index": 247,
+          "offset": [
+            70,
+            6
+          ]
+        }
+      },
+      {
+        "col_006@avaritia_tesseract.ts_count_column": {
+          "collection_index": 248,
+          "offset": [
+            88,
+            6
+          ]
+        }
+      },
+      {
+        "col_007@avaritia_tesseract.ts_count_column": {
+          "collection_index": 249,
+          "offset": [
+            106,
+            6
+          ]
+        }
+      },
+      {
+        "col_008@avaritia_tesseract.ts_count_column": {
+          "collection_index": 250,
+          "offset": [
+            124,
+            6
+          ]
+        }
+      },
+      {
+        "col_009@avaritia_tesseract.ts_count_column": {
+          "collection_index": 251,
+          "offset": [
+            142,
+            6
+          ]
+        }
+      },
+      {
+        "col_010@avaritia_tesseract.ts_count_column": {
+          "collection_index": 252,
+          "offset": [
+            160,
+            6
+          ]
+        }
+      }
+    ]
+  },
+  "tesseract_content": {
+    "type": "panel",
+    "size": [
+      199,
+      396
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "grid@avaritia_tesseract.tesseract_grid": {
+          "layer": 1
+        }
+      },
+      {
+        "labels@avaritia_tesseract.ts_count_labels": {
+          "layer": 20
+        }
+      },
+      {
+        "search_dim@avaritia_tesseract.ts_search_dim_layer": {
+          "layer": 22
+        }
+      }
+    ]
+  },
+  "ts_scroll_thumb": {
+    "type": "image",
+    "texture": "textures/ui/infinity_chest_scroll_button",
+    "size": [
+      12,
+      15
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle"
+  },
+  "ts_scrollbar_track": {
+    "type": "scroll_track",
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.scrollbar_skip_track",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+  "ts_bar_and_track@common.empty_panel": {
+    "size": "$scroll_stack_size",
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "layer": 8,
+    "controls": [
+      {
+        "centered_panel@common.empty_panel": {
+          "size": "$scroll_stack_size",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": "$bar_and_track_offset",
+          "layer": 10,
+          "controls": [
+            {
+              "track@avaritia_tesseract.ts_scrollbar_track": {
+                "layer": 2,
+                "size": "$scroll_size",
+                "anchor_from": "center",
+                "anchor_to": "center"
+              }
+            },
+            {
+              "scroll_box@common.empty_panel": {
+                "controls": [
+                  {
+                    "box": {
+                      "type": "scrollbar_box",
+                      "layer": 5,
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "contained": true,
+                      "draggable": "vertical",
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "button.menu_select",
+                          "mapping_type": "pressed",
+                          "button_up_right_of_first_refusal": true
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "thumb@avaritia_tesseract.ts_scroll_thumb": {}
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ts_scrolling_panel": {
+    "type": "scroll_view",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "scroll_speed": 6,
+    "scrollbar_track_button": "button.scrollbar_skip_track",
+    "scrollbar_touch_button": "button.scrollbar_touch",
+    "always_listen_to_input": true,
+    "always_handle_pointer": true,
+    "always_handle_scrolling": false,
+    "scrollbar_always_visible": true,
+    "scrollbar_track": "track",
+    "scrollbar_box": "box",
+    "scroll_content": "scrolling_content",
+    "scroll_view_port": "scrolling_view_port",
+    "scroll_box_and_track_panel": "centered_panel",
+    "jump_to_bottom_on_update": false,
+    "$scroll_stack_size|default": [
+      12,
+      160
+    ],
+    "$scroll_view_port_size|default": [
+      199,
+      "100%"
+    ],
+    "$view_port_size|default": [
+      199,
+      "100%"
+    ],
+    "$scroll_size|default": [
+      12,
+      "100%"
+    ],
+    "$scroll_bar_left_padding|default": [
+      4,
+      "fill"
+    ],
+    "$bar_and_track_offset|default": [
+      0,
+      0
+    ],
+    "$scroll_viewport_offset|default": [
+      0,
+      0
+    ],
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "controls": [
+            {
+              "scroll_viewport_holder@common.empty_panel": {
+                "size": "$view_port_size",
+                "anchor_to": "left_middle",
+                "anchor_from": "left_middle",
+                "clips_children": true,
+                "controls": [
+                  {
+                    "scrolling_view_port@common.empty_panel": {
+                      "size": "$scroll_view_port_size",
+                      "offset": "$scroll_viewport_offset",
+                      "clips_children": true,
+                      "controls": [
+                        {
+                          "scrolling_content@$scrolling_content": {
+                            "anchor_to": "top_left",
+                            "anchor_from": "top_left"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "filler@common.empty_panel": {
+                "size": "$scroll_bar_left_padding"
+              }
+            },
+            {
+              "bar_and_track@avaritia_tesseract.ts_bar_and_track": {}
+            }
+          ]
+        }
+      }
+    ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.scrollbar_touch",
+        "mapping_type": "pressed",
+        "button_up_right_of_first_refusal": true
+      }
+    ]
+  },
+  "tesseract_top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      181
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {
+          "offset": [
+            7,
+            12
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "localize": true,
+          "text": "entity.avaritia:tesseract.name"
+        }
+      },
+      {
+        "inventory_label@chest.chest_label": {
+          "offset": [
+            31,
+            189
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "localize": true,
+          "text": "entity.avaritia:inventory_label.name"
+        }
+      },
+      {
+        "scroll@avaritia_tesseract.ts_scrolling_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [
+            216,
+            162
+          ],
+          "offset": [
+            7,
+            23
+          ],
+          "layer": 1,
+          "$scroll_stack_size": [
+            12,
+            160
+          ],
+          "$scrolling_content": "avaritia_tesseract.tesseract_content"
+        }
+      }
+    ]
+  },
+  "tesseract_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {
+          "control_name": "@chest.selected_item_details"
+        }
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {
+          "control_name": "@common.item_lock_notification"
+        }
+      },
+      {
+        "root_panel@common.root_panel": {
+          "size": [
+            230,
+            274
+          ],
+          "layer": 1,
+          "controls": [
+            {
+              "gui_art": {
+                "type": "image",
+                "texture": "textures/ui/tesseract_gui",
+                "size": [
+                  230,
+                  274
+                ],
+                "layer": 2,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "offset": [
+                  0,
+                  -8
+                ],
+                "controls": [
+                  {
+                    "tesseract_top_half@avaritia_tesseract.tesseract_top_half": {}
+                  },
+                  {
+                    "inventory_panel_bottom_half@common.inventory_panel_bottom_half": {}
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+              "search_bar@avaritia_tesseract.ts_search_bar": {}
+            },
+            {
+              "avaritia_close_layer@avaritia_close.close_layer": {
+                "$frame_size": [
+                  12,
+                  12
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  206,
+                  189
+                ],
+                "controls": [
+                  {
+                    "avaritia_close_btn@avaritia_close.close_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_ts_count_label_v1": {
+    "type": "label",
+    "text": "#hover_text",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      36,
+      396
+    ],
+    "layer": 20,
+    "text_alignment": "right",
+    "font_scale_factor": 0.5,
+    "line_padding": 26.0,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_name": "#hover_text",
+        "binding_type": "collection",
+        "binding_collection_name": "container_items"
+      }
+    ]
+  },
+  "_ts_count_label_v2": {
+    "type": "label",
+    "text": "#displaying_text",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      36,
+      396
+    ],
+    "layer": 20,
+    "text_alignment": "right",
+    "font_scale_factor": 0.5,
+    "line_padding": 26.0,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_name": "#hover_text",
+        "binding_name_override": "#always_text",
+        "binding_condition": "always",
+        "binding_type": "collection",
+        "binding_collection_name": "container_items"
+      },
+      {
+        "binding_name": "#hover_text",
+        "binding_name_override": "#displaying_text",
+        "binding_condition": "visibility_changed",
+        "binding_type": "collection",
+        "binding_collection_name": "container_items"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#always_text = #displaying_text)",
+        "target_property_name": "#always_equals_display"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#always_equals_display or (#always_text = '')))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "ts_search_dim": {
+    "type": "image",
+    "texture": "textures/ui/ichest_search_dim",
+    "alpha": 0.72,
+    "size": [
+      18,
+      18
+    ],
+    "layer": 22,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "ts_search_text_control",
+        "source_property_name": "#item_name",
+        "target_property_name": "#edit_box_input"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#edit_box_input - ('%.1s' * #edit_box_input))",
+        "target_property_name": "#search_query_ci"
+      },
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "container_items",
+        "binding_name": "#hover_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#edit_box_input = '') and not (#hover_text = '') and ((#hover_text - #edit_box_input) = #hover_text) and ((#hover_text - #search_query_ci) = #hover_text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "ts_search_dim_layer": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      198,
+      396
+    ],
+    "layer": 22,
+    "controls": [
+      {
+        "dim_000@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 0,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "dim_001@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 1,
+          "offset": [
+            18,
+            0
+          ]
+        }
+      },
+      {
+        "dim_002@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 2,
+          "offset": [
+            36,
+            0
+          ]
+        }
+      },
+      {
+        "dim_003@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 3,
+          "offset": [
+            54,
+            0
+          ]
+        }
+      },
+      {
+        "dim_004@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 4,
+          "offset": [
+            72,
+            0
+          ]
+        }
+      },
+      {
+        "dim_005@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 5,
+          "offset": [
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "dim_006@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 6,
+          "offset": [
+            108,
+            0
+          ]
+        }
+      },
+      {
+        "dim_007@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 7,
+          "offset": [
+            126,
+            0
+          ]
+        }
+      },
+      {
+        "dim_008@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 8,
+          "offset": [
+            144,
+            0
+          ]
+        }
+      },
+      {
+        "dim_009@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 9,
+          "offset": [
+            162,
+            0
+          ]
+        }
+      },
+      {
+        "dim_010@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 10,
+          "offset": [
+            180,
+            0
+          ]
+        }
+      },
+      {
+        "dim_011@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 11,
+          "offset": [
+            0,
+            18
+          ]
+        }
+      },
+      {
+        "dim_012@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 12,
+          "offset": [
+            18,
+            18
+          ]
+        }
+      },
+      {
+        "dim_013@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 13,
+          "offset": [
+            36,
+            18
+          ]
+        }
+      },
+      {
+        "dim_014@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 14,
+          "offset": [
+            54,
+            18
+          ]
+        }
+      },
+      {
+        "dim_015@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 15,
+          "offset": [
+            72,
+            18
+          ]
+        }
+      },
+      {
+        "dim_016@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 16,
+          "offset": [
+            90,
+            18
+          ]
+        }
+      },
+      {
+        "dim_017@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 17,
+          "offset": [
+            108,
+            18
+          ]
+        }
+      },
+      {
+        "dim_018@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 18,
+          "offset": [
+            126,
+            18
+          ]
+        }
+      },
+      {
+        "dim_019@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 19,
+          "offset": [
+            144,
+            18
+          ]
+        }
+      },
+      {
+        "dim_020@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 20,
+          "offset": [
+            162,
+            18
+          ]
+        }
+      },
+      {
+        "dim_021@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 21,
+          "offset": [
+            180,
+            18
+          ]
+        }
+      },
+      {
+        "dim_022@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 22,
+          "offset": [
+            0,
+            36
+          ]
+        }
+      },
+      {
+        "dim_023@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 23,
+          "offset": [
+            18,
+            36
+          ]
+        }
+      },
+      {
+        "dim_024@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 24,
+          "offset": [
+            36,
+            36
+          ]
+        }
+      },
+      {
+        "dim_025@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 25,
+          "offset": [
+            54,
+            36
+          ]
+        }
+      },
+      {
+        "dim_026@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 26,
+          "offset": [
+            72,
+            36
+          ]
+        }
+      },
+      {
+        "dim_027@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 27,
+          "offset": [
+            90,
+            36
+          ]
+        }
+      },
+      {
+        "dim_028@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 28,
+          "offset": [
+            108,
+            36
+          ]
+        }
+      },
+      {
+        "dim_029@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 29,
+          "offset": [
+            126,
+            36
+          ]
+        }
+      },
+      {
+        "dim_030@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 30,
+          "offset": [
+            144,
+            36
+          ]
+        }
+      },
+      {
+        "dim_031@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 31,
+          "offset": [
+            162,
+            36
+          ]
+        }
+      },
+      {
+        "dim_032@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 32,
+          "offset": [
+            180,
+            36
+          ]
+        }
+      },
+      {
+        "dim_033@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 33,
+          "offset": [
+            0,
+            54
+          ]
+        }
+      },
+      {
+        "dim_034@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 34,
+          "offset": [
+            18,
+            54
+          ]
+        }
+      },
+      {
+        "dim_035@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 35,
+          "offset": [
+            36,
+            54
+          ]
+        }
+      },
+      {
+        "dim_036@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 36,
+          "offset": [
+            54,
+            54
+          ]
+        }
+      },
+      {
+        "dim_037@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 37,
+          "offset": [
+            72,
+            54
+          ]
+        }
+      },
+      {
+        "dim_038@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 38,
+          "offset": [
+            90,
+            54
+          ]
+        }
+      },
+      {
+        "dim_039@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 39,
+          "offset": [
+            108,
+            54
+          ]
+        }
+      },
+      {
+        "dim_040@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 40,
+          "offset": [
+            126,
+            54
+          ]
+        }
+      },
+      {
+        "dim_041@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 41,
+          "offset": [
+            144,
+            54
+          ]
+        }
+      },
+      {
+        "dim_042@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 42,
+          "offset": [
+            162,
+            54
+          ]
+        }
+      },
+      {
+        "dim_043@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 43,
+          "offset": [
+            180,
+            54
+          ]
+        }
+      },
+      {
+        "dim_044@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 44,
+          "offset": [
+            0,
+            72
+          ]
+        }
+      },
+      {
+        "dim_045@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 45,
+          "offset": [
+            18,
+            72
+          ]
+        }
+      },
+      {
+        "dim_046@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 46,
+          "offset": [
+            36,
+            72
+          ]
+        }
+      },
+      {
+        "dim_047@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 47,
+          "offset": [
+            54,
+            72
+          ]
+        }
+      },
+      {
+        "dim_048@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 48,
+          "offset": [
+            72,
+            72
+          ]
+        }
+      },
+      {
+        "dim_049@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 49,
+          "offset": [
+            90,
+            72
+          ]
+        }
+      },
+      {
+        "dim_050@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 50,
+          "offset": [
+            108,
+            72
+          ]
+        }
+      },
+      {
+        "dim_051@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 51,
+          "offset": [
+            126,
+            72
+          ]
+        }
+      },
+      {
+        "dim_052@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 52,
+          "offset": [
+            144,
+            72
+          ]
+        }
+      },
+      {
+        "dim_053@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 53,
+          "offset": [
+            162,
+            72
+          ]
+        }
+      },
+      {
+        "dim_054@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 54,
+          "offset": [
+            180,
+            72
+          ]
+        }
+      },
+      {
+        "dim_055@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 55,
+          "offset": [
+            0,
+            90
+          ]
+        }
+      },
+      {
+        "dim_056@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 56,
+          "offset": [
+            18,
+            90
+          ]
+        }
+      },
+      {
+        "dim_057@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 57,
+          "offset": [
+            36,
+            90
+          ]
+        }
+      },
+      {
+        "dim_058@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 58,
+          "offset": [
+            54,
+            90
+          ]
+        }
+      },
+      {
+        "dim_059@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 59,
+          "offset": [
+            72,
+            90
+          ]
+        }
+      },
+      {
+        "dim_060@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 60,
+          "offset": [
+            90,
+            90
+          ]
+        }
+      },
+      {
+        "dim_061@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 61,
+          "offset": [
+            108,
+            90
+          ]
+        }
+      },
+      {
+        "dim_062@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 62,
+          "offset": [
+            126,
+            90
+          ]
+        }
+      },
+      {
+        "dim_063@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 63,
+          "offset": [
+            144,
+            90
+          ]
+        }
+      },
+      {
+        "dim_064@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 64,
+          "offset": [
+            162,
+            90
+          ]
+        }
+      },
+      {
+        "dim_065@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 65,
+          "offset": [
+            180,
+            90
+          ]
+        }
+      },
+      {
+        "dim_066@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 66,
+          "offset": [
+            0,
+            108
+          ]
+        }
+      },
+      {
+        "dim_067@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 67,
+          "offset": [
+            18,
+            108
+          ]
+        }
+      },
+      {
+        "dim_068@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 68,
+          "offset": [
+            36,
+            108
+          ]
+        }
+      },
+      {
+        "dim_069@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 69,
+          "offset": [
+            54,
+            108
+          ]
+        }
+      },
+      {
+        "dim_070@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 70,
+          "offset": [
+            72,
+            108
+          ]
+        }
+      },
+      {
+        "dim_071@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 71,
+          "offset": [
+            90,
+            108
+          ]
+        }
+      },
+      {
+        "dim_072@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 72,
+          "offset": [
+            108,
+            108
+          ]
+        }
+      },
+      {
+        "dim_073@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 73,
+          "offset": [
+            126,
+            108
+          ]
+        }
+      },
+      {
+        "dim_074@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 74,
+          "offset": [
+            144,
+            108
+          ]
+        }
+      },
+      {
+        "dim_075@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 75,
+          "offset": [
+            162,
+            108
+          ]
+        }
+      },
+      {
+        "dim_076@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 76,
+          "offset": [
+            180,
+            108
+          ]
+        }
+      },
+      {
+        "dim_077@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 77,
+          "offset": [
+            0,
+            126
+          ]
+        }
+      },
+      {
+        "dim_078@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 78,
+          "offset": [
+            18,
+            126
+          ]
+        }
+      },
+      {
+        "dim_079@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 79,
+          "offset": [
+            36,
+            126
+          ]
+        }
+      },
+      {
+        "dim_080@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 80,
+          "offset": [
+            54,
+            126
+          ]
+        }
+      },
+      {
+        "dim_081@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 81,
+          "offset": [
+            72,
+            126
+          ]
+        }
+      },
+      {
+        "dim_082@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 82,
+          "offset": [
+            90,
+            126
+          ]
+        }
+      },
+      {
+        "dim_083@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 83,
+          "offset": [
+            108,
+            126
+          ]
+        }
+      },
+      {
+        "dim_084@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 84,
+          "offset": [
+            126,
+            126
+          ]
+        }
+      },
+      {
+        "dim_085@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 85,
+          "offset": [
+            144,
+            126
+          ]
+        }
+      },
+      {
+        "dim_086@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 86,
+          "offset": [
+            162,
+            126
+          ]
+        }
+      },
+      {
+        "dim_087@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 87,
+          "offset": [
+            180,
+            126
+          ]
+        }
+      },
+      {
+        "dim_088@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 88,
+          "offset": [
+            0,
+            144
+          ]
+        }
+      },
+      {
+        "dim_089@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 89,
+          "offset": [
+            18,
+            144
+          ]
+        }
+      },
+      {
+        "dim_090@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 90,
+          "offset": [
+            36,
+            144
+          ]
+        }
+      },
+      {
+        "dim_091@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 91,
+          "offset": [
+            54,
+            144
+          ]
+        }
+      },
+      {
+        "dim_092@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 92,
+          "offset": [
+            72,
+            144
+          ]
+        }
+      },
+      {
+        "dim_093@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 93,
+          "offset": [
+            90,
+            144
+          ]
+        }
+      },
+      {
+        "dim_094@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 94,
+          "offset": [
+            108,
+            144
+          ]
+        }
+      },
+      {
+        "dim_095@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 95,
+          "offset": [
+            126,
+            144
+          ]
+        }
+      },
+      {
+        "dim_096@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 96,
+          "offset": [
+            144,
+            144
+          ]
+        }
+      },
+      {
+        "dim_097@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 97,
+          "offset": [
+            162,
+            144
+          ]
+        }
+      },
+      {
+        "dim_098@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 98,
+          "offset": [
+            180,
+            144
+          ]
+        }
+      },
+      {
+        "dim_099@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 99,
+          "offset": [
+            0,
+            162
+          ]
+        }
+      },
+      {
+        "dim_100@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 100,
+          "offset": [
+            18,
+            162
+          ]
+        }
+      },
+      {
+        "dim_101@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 101,
+          "offset": [
+            36,
+            162
+          ]
+        }
+      },
+      {
+        "dim_102@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 102,
+          "offset": [
+            54,
+            162
+          ]
+        }
+      },
+      {
+        "dim_103@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 103,
+          "offset": [
+            72,
+            162
+          ]
+        }
+      },
+      {
+        "dim_104@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 104,
+          "offset": [
+            90,
+            162
+          ]
+        }
+      },
+      {
+        "dim_105@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 105,
+          "offset": [
+            108,
+            162
+          ]
+        }
+      },
+      {
+        "dim_106@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 106,
+          "offset": [
+            126,
+            162
+          ]
+        }
+      },
+      {
+        "dim_107@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 107,
+          "offset": [
+            144,
+            162
+          ]
+        }
+      },
+      {
+        "dim_108@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 108,
+          "offset": [
+            162,
+            162
+          ]
+        }
+      },
+      {
+        "dim_109@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 109,
+          "offset": [
+            180,
+            162
+          ]
+        }
+      },
+      {
+        "dim_110@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 110,
+          "offset": [
+            0,
+            180
+          ]
+        }
+      },
+      {
+        "dim_111@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 111,
+          "offset": [
+            18,
+            180
+          ]
+        }
+      },
+      {
+        "dim_112@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 112,
+          "offset": [
+            36,
+            180
+          ]
+        }
+      },
+      {
+        "dim_113@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 113,
+          "offset": [
+            54,
+            180
+          ]
+        }
+      },
+      {
+        "dim_114@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 114,
+          "offset": [
+            72,
+            180
+          ]
+        }
+      },
+      {
+        "dim_115@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 115,
+          "offset": [
+            90,
+            180
+          ]
+        }
+      },
+      {
+        "dim_116@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 116,
+          "offset": [
+            108,
+            180
+          ]
+        }
+      },
+      {
+        "dim_117@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 117,
+          "offset": [
+            126,
+            180
+          ]
+        }
+      },
+      {
+        "dim_118@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 118,
+          "offset": [
+            144,
+            180
+          ]
+        }
+      },
+      {
+        "dim_119@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 119,
+          "offset": [
+            162,
+            180
+          ]
+        }
+      },
+      {
+        "dim_120@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 120,
+          "offset": [
+            180,
+            180
+          ]
+        }
+      },
+      {
+        "dim_121@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 121,
+          "offset": [
+            0,
+            198
+          ]
+        }
+      },
+      {
+        "dim_122@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 122,
+          "offset": [
+            18,
+            198
+          ]
+        }
+      },
+      {
+        "dim_123@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 123,
+          "offset": [
+            36,
+            198
+          ]
+        }
+      },
+      {
+        "dim_124@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 124,
+          "offset": [
+            54,
+            198
+          ]
+        }
+      },
+      {
+        "dim_125@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 125,
+          "offset": [
+            72,
+            198
+          ]
+        }
+      },
+      {
+        "dim_126@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 126,
+          "offset": [
+            90,
+            198
+          ]
+        }
+      },
+      {
+        "dim_127@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 127,
+          "offset": [
+            108,
+            198
+          ]
+        }
+      },
+      {
+        "dim_128@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 128,
+          "offset": [
+            126,
+            198
+          ]
+        }
+      },
+      {
+        "dim_129@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 129,
+          "offset": [
+            144,
+            198
+          ]
+        }
+      },
+      {
+        "dim_130@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 130,
+          "offset": [
+            162,
+            198
+          ]
+        }
+      },
+      {
+        "dim_131@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 131,
+          "offset": [
+            180,
+            198
+          ]
+        }
+      },
+      {
+        "dim_132@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 132,
+          "offset": [
+            0,
+            216
+          ]
+        }
+      },
+      {
+        "dim_133@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 133,
+          "offset": [
+            18,
+            216
+          ]
+        }
+      },
+      {
+        "dim_134@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 134,
+          "offset": [
+            36,
+            216
+          ]
+        }
+      },
+      {
+        "dim_135@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 135,
+          "offset": [
+            54,
+            216
+          ]
+        }
+      },
+      {
+        "dim_136@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 136,
+          "offset": [
+            72,
+            216
+          ]
+        }
+      },
+      {
+        "dim_137@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 137,
+          "offset": [
+            90,
+            216
+          ]
+        }
+      },
+      {
+        "dim_138@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 138,
+          "offset": [
+            108,
+            216
+          ]
+        }
+      },
+      {
+        "dim_139@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 139,
+          "offset": [
+            126,
+            216
+          ]
+        }
+      },
+      {
+        "dim_140@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 140,
+          "offset": [
+            144,
+            216
+          ]
+        }
+      },
+      {
+        "dim_141@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 141,
+          "offset": [
+            162,
+            216
+          ]
+        }
+      },
+      {
+        "dim_142@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 142,
+          "offset": [
+            180,
+            216
+          ]
+        }
+      },
+      {
+        "dim_143@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 143,
+          "offset": [
+            0,
+            234
+          ]
+        }
+      },
+      {
+        "dim_144@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 144,
+          "offset": [
+            18,
+            234
+          ]
+        }
+      },
+      {
+        "dim_145@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 145,
+          "offset": [
+            36,
+            234
+          ]
+        }
+      },
+      {
+        "dim_146@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 146,
+          "offset": [
+            54,
+            234
+          ]
+        }
+      },
+      {
+        "dim_147@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 147,
+          "offset": [
+            72,
+            234
+          ]
+        }
+      },
+      {
+        "dim_148@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 148,
+          "offset": [
+            90,
+            234
+          ]
+        }
+      },
+      {
+        "dim_149@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 149,
+          "offset": [
+            108,
+            234
+          ]
+        }
+      },
+      {
+        "dim_150@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 150,
+          "offset": [
+            126,
+            234
+          ]
+        }
+      },
+      {
+        "dim_151@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 151,
+          "offset": [
+            144,
+            234
+          ]
+        }
+      },
+      {
+        "dim_152@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 152,
+          "offset": [
+            162,
+            234
+          ]
+        }
+      },
+      {
+        "dim_153@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 153,
+          "offset": [
+            180,
+            234
+          ]
+        }
+      },
+      {
+        "dim_154@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 154,
+          "offset": [
+            0,
+            252
+          ]
+        }
+      },
+      {
+        "dim_155@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 155,
+          "offset": [
+            18,
+            252
+          ]
+        }
+      },
+      {
+        "dim_156@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 156,
+          "offset": [
+            36,
+            252
+          ]
+        }
+      },
+      {
+        "dim_157@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 157,
+          "offset": [
+            54,
+            252
+          ]
+        }
+      },
+      {
+        "dim_158@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 158,
+          "offset": [
+            72,
+            252
+          ]
+        }
+      },
+      {
+        "dim_159@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 159,
+          "offset": [
+            90,
+            252
+          ]
+        }
+      },
+      {
+        "dim_160@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 160,
+          "offset": [
+            108,
+            252
+          ]
+        }
+      },
+      {
+        "dim_161@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 161,
+          "offset": [
+            126,
+            252
+          ]
+        }
+      },
+      {
+        "dim_162@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 162,
+          "offset": [
+            144,
+            252
+          ]
+        }
+      },
+      {
+        "dim_163@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 163,
+          "offset": [
+            162,
+            252
+          ]
+        }
+      },
+      {
+        "dim_164@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 164,
+          "offset": [
+            180,
+            252
+          ]
+        }
+      },
+      {
+        "dim_165@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 165,
+          "offset": [
+            0,
+            270
+          ]
+        }
+      },
+      {
+        "dim_166@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 166,
+          "offset": [
+            18,
+            270
+          ]
+        }
+      },
+      {
+        "dim_167@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 167,
+          "offset": [
+            36,
+            270
+          ]
+        }
+      },
+      {
+        "dim_168@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 168,
+          "offset": [
+            54,
+            270
+          ]
+        }
+      },
+      {
+        "dim_169@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 169,
+          "offset": [
+            72,
+            270
+          ]
+        }
+      },
+      {
+        "dim_170@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 170,
+          "offset": [
+            90,
+            270
+          ]
+        }
+      },
+      {
+        "dim_171@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 171,
+          "offset": [
+            108,
+            270
+          ]
+        }
+      },
+      {
+        "dim_172@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 172,
+          "offset": [
+            126,
+            270
+          ]
+        }
+      },
+      {
+        "dim_173@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 173,
+          "offset": [
+            144,
+            270
+          ]
+        }
+      },
+      {
+        "dim_174@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 174,
+          "offset": [
+            162,
+            270
+          ]
+        }
+      },
+      {
+        "dim_175@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 175,
+          "offset": [
+            180,
+            270
+          ]
+        }
+      },
+      {
+        "dim_176@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 176,
+          "offset": [
+            0,
+            288
+          ]
+        }
+      },
+      {
+        "dim_177@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 177,
+          "offset": [
+            18,
+            288
+          ]
+        }
+      },
+      {
+        "dim_178@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 178,
+          "offset": [
+            36,
+            288
+          ]
+        }
+      },
+      {
+        "dim_179@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 179,
+          "offset": [
+            54,
+            288
+          ]
+        }
+      },
+      {
+        "dim_180@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 180,
+          "offset": [
+            72,
+            288
+          ]
+        }
+      },
+      {
+        "dim_181@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 181,
+          "offset": [
+            90,
+            288
+          ]
+        }
+      },
+      {
+        "dim_182@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 182,
+          "offset": [
+            108,
+            288
+          ]
+        }
+      },
+      {
+        "dim_183@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 183,
+          "offset": [
+            126,
+            288
+          ]
+        }
+      },
+      {
+        "dim_184@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 184,
+          "offset": [
+            144,
+            288
+          ]
+        }
+      },
+      {
+        "dim_185@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 185,
+          "offset": [
+            162,
+            288
+          ]
+        }
+      },
+      {
+        "dim_186@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 186,
+          "offset": [
+            180,
+            288
+          ]
+        }
+      },
+      {
+        "dim_187@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 187,
+          "offset": [
+            0,
+            306
+          ]
+        }
+      },
+      {
+        "dim_188@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 188,
+          "offset": [
+            18,
+            306
+          ]
+        }
+      },
+      {
+        "dim_189@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 189,
+          "offset": [
+            36,
+            306
+          ]
+        }
+      },
+      {
+        "dim_190@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 190,
+          "offset": [
+            54,
+            306
+          ]
+        }
+      },
+      {
+        "dim_191@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 191,
+          "offset": [
+            72,
+            306
+          ]
+        }
+      },
+      {
+        "dim_192@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 192,
+          "offset": [
+            90,
+            306
+          ]
+        }
+      },
+      {
+        "dim_193@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 193,
+          "offset": [
+            108,
+            306
+          ]
+        }
+      },
+      {
+        "dim_194@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 194,
+          "offset": [
+            126,
+            306
+          ]
+        }
+      },
+      {
+        "dim_195@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 195,
+          "offset": [
+            144,
+            306
+          ]
+        }
+      },
+      {
+        "dim_196@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 196,
+          "offset": [
+            162,
+            306
+          ]
+        }
+      },
+      {
+        "dim_197@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 197,
+          "offset": [
+            180,
+            306
+          ]
+        }
+      },
+      {
+        "dim_198@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 198,
+          "offset": [
+            0,
+            324
+          ]
+        }
+      },
+      {
+        "dim_199@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 199,
+          "offset": [
+            18,
+            324
+          ]
+        }
+      },
+      {
+        "dim_200@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 200,
+          "offset": [
+            36,
+            324
+          ]
+        }
+      },
+      {
+        "dim_201@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 201,
+          "offset": [
+            54,
+            324
+          ]
+        }
+      },
+      {
+        "dim_202@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 202,
+          "offset": [
+            72,
+            324
+          ]
+        }
+      },
+      {
+        "dim_203@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 203,
+          "offset": [
+            90,
+            324
+          ]
+        }
+      },
+      {
+        "dim_204@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 204,
+          "offset": [
+            108,
+            324
+          ]
+        }
+      },
+      {
+        "dim_205@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 205,
+          "offset": [
+            126,
+            324
+          ]
+        }
+      },
+      {
+        "dim_206@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 206,
+          "offset": [
+            144,
+            324
+          ]
+        }
+      },
+      {
+        "dim_207@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 207,
+          "offset": [
+            162,
+            324
+          ]
+        }
+      },
+      {
+        "dim_208@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 208,
+          "offset": [
+            180,
+            324
+          ]
+        }
+      },
+      {
+        "dim_209@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 209,
+          "offset": [
+            0,
+            342
+          ]
+        }
+      },
+      {
+        "dim_210@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 210,
+          "offset": [
+            18,
+            342
+          ]
+        }
+      },
+      {
+        "dim_211@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 211,
+          "offset": [
+            36,
+            342
+          ]
+        }
+      },
+      {
+        "dim_212@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 212,
+          "offset": [
+            54,
+            342
+          ]
+        }
+      },
+      {
+        "dim_213@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 213,
+          "offset": [
+            72,
+            342
+          ]
+        }
+      },
+      {
+        "dim_214@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 214,
+          "offset": [
+            90,
+            342
+          ]
+        }
+      },
+      {
+        "dim_215@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 215,
+          "offset": [
+            108,
+            342
+          ]
+        }
+      },
+      {
+        "dim_216@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 216,
+          "offset": [
+            126,
+            342
+          ]
+        }
+      },
+      {
+        "dim_217@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 217,
+          "offset": [
+            144,
+            342
+          ]
+        }
+      },
+      {
+        "dim_218@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 218,
+          "offset": [
+            162,
+            342
+          ]
+        }
+      },
+      {
+        "dim_219@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 219,
+          "offset": [
+            180,
+            342
+          ]
+        }
+      },
+      {
+        "dim_220@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 220,
+          "offset": [
+            0,
+            360
+          ]
+        }
+      },
+      {
+        "dim_221@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 221,
+          "offset": [
+            18,
+            360
+          ]
+        }
+      },
+      {
+        "dim_222@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 222,
+          "offset": [
+            36,
+            360
+          ]
+        }
+      },
+      {
+        "dim_223@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 223,
+          "offset": [
+            54,
+            360
+          ]
+        }
+      },
+      {
+        "dim_224@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 224,
+          "offset": [
+            72,
+            360
+          ]
+        }
+      },
+      {
+        "dim_225@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 225,
+          "offset": [
+            90,
+            360
+          ]
+        }
+      },
+      {
+        "dim_226@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 226,
+          "offset": [
+            108,
+            360
+          ]
+        }
+      },
+      {
+        "dim_227@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 227,
+          "offset": [
+            126,
+            360
+          ]
+        }
+      },
+      {
+        "dim_228@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 228,
+          "offset": [
+            144,
+            360
+          ]
+        }
+      },
+      {
+        "dim_229@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 229,
+          "offset": [
+            162,
+            360
+          ]
+        }
+      },
+      {
+        "dim_230@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 230,
+          "offset": [
+            180,
+            360
+          ]
+        }
+      },
+      {
+        "dim_231@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 231,
+          "offset": [
+            0,
+            378
+          ]
+        }
+      },
+      {
+        "dim_232@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 232,
+          "offset": [
+            18,
+            378
+          ]
+        }
+      },
+      {
+        "dim_233@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 233,
+          "offset": [
+            36,
+            378
+          ]
+        }
+      },
+      {
+        "dim_234@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 234,
+          "offset": [
+            54,
+            378
+          ]
+        }
+      },
+      {
+        "dim_235@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 235,
+          "offset": [
+            72,
+            378
+          ]
+        }
+      },
+      {
+        "dim_236@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 236,
+          "offset": [
+            90,
+            378
+          ]
+        }
+      },
+      {
+        "dim_237@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 237,
+          "offset": [
+            108,
+            378
+          ]
+        }
+      },
+      {
+        "dim_238@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 238,
+          "offset": [
+            126,
+            378
+          ]
+        }
+      },
+      {
+        "dim_239@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 239,
+          "offset": [
+            144,
+            378
+          ]
+        }
+      },
+      {
+        "dim_240@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 240,
+          "offset": [
+            162,
+            378
+          ]
+        }
+      },
+      {
+        "dim_241@avaritia_tesseract.ts_search_dim": {
+          "collection_index": 241,
+          "offset": [
+            180,
+            378
+          ]
+        }
+      }
+    ]
+  },
+  "ts_search_bar@common.text_edit_box": {
+    "size": [
+      90,
+      12
+    ],
+    "offset": [
+      114,
+      3
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 15,
+    "max_length": 32,
+    "$text_box_name": "ts_search_box",
+    "$text_edit_text_control": "ts_search_text_control",
+    "$magnifying_glass_enabled": true,
+    "$magnifying_glass_size": [
+      8,
+      8
+    ],
+    "$magnifying_glass_offset": [
+      0,
+      -0.5
+    ],
+    "$text_edit_box_label_offset": [
+      9,
+      0
+    ],
+    "$place_holder_text": "Search...",
+    "$text_edit_box_content_binding_type": "none",
+    "$text_edit_box_content_binding_name": "",
+    "$text_edit_box_label_min_size": [
+      0,
+      0
+    ],
+    "enabled": true,
+    "bindings": [],
+    "$text_edit_box_label_anchor_point": "left_middle",
+    "$text_edit_box_label_size": [
+      "100% - 9px",
+      "100%"
+    ],
+    "$font_size": "small"
+  }
+}

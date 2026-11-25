@@ -1,0 +1,44 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "utilitycraft:basic_storage_part"
+    },
+    "tags": [
+      "utilitycraft_workbench"
+    ],
+    "key": {
+      "C": {
+        "item": "utilitycraft:basic_chip"
+      },
+      "P": {
+        "item": "utilitycraft:storage_part"
+      },
+      "O": {
+        "item": "utilitycraft:storage_core"
+      },
+      "G": {
+        "item": "minecraft:tinted_glass"
+      },
+      "L": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "pattern": [
+      "GPG",
+      "POP",
+      "LCL"
+    ],
+    "result": {
+      "item": "utilitycraft:basic_storage_part"
+    },
+    "unlock": [
+      {
+        "item": "utilitycraft:storage_part"
+      },
+      {
+        "item": "utilitycraft:basic_chip"
+      }
+    ]
+  }
+}

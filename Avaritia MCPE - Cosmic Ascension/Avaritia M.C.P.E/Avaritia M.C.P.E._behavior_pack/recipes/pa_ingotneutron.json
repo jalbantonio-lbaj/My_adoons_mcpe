@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ingotneutron_ef996066"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronnugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:ingotneutron",
+      "count": 1
+    }
+  }
+}

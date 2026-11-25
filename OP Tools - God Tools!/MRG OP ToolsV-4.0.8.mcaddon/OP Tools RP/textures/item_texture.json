@@ -1,0 +1,46 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"fireball_bow": {
+			"textures": [
+				"textures/items/fireball_bow"
+			]
+		},
+		"snowball_bow": {
+			"textures": [
+				"textures/items/snowball_bow"
+			]
+		},
+		"dragon_bow": {
+			"textures": [
+				"textures/items/dragon_bow"
+			]
+		},
+		"tnt_bow": {
+			"textures": [
+				"textures/items/tnt_bow"
+			]
+		},
+		"mrg_op_pickaxe": {
+			"textures": [
+				"textures/items/mrg_op_pickaxe"
+			]
+		},
+		"mrg_op_sword": {
+			"textures": [
+				"textures/items/mrg_op_sword"
+			]
+		},
+		"mrg_op_axe": {
+			"textures": [
+				"textures/items/mrg_op_axe"
+			]
+		},
+		"mrg_end_sword": {
+			"textures": [
+				"textures/items/mrg_end_sword"
+			]
+		}
+	}
+}

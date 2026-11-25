@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.omni_tool.first_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [78, 56, -40],
+					"position": [1.5, 16.5, 6],
+					"scale": 0.75
+				}
+			}
+		},
+		"animation.gf_wu.omni_tool.third_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [80, 0, 0],
+					"position": [0.45, 17.5, -1],
+					"scale": 0.9
+				}
+			}
+		}
+	}
+}

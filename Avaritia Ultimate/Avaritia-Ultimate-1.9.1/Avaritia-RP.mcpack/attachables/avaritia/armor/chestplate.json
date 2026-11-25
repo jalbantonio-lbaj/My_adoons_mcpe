@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_chestplate",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "cosmic": "cosmic_shield"
+      },
+      "textures": {
+        "default": "textures/models/armor/infinity/armor_modern",
+        "cosmic": "textures/misc/cosmic_shield"
+      },
+      "geometry": {
+        "default": "geometry.custom.avaritia.chestplate",
+        "shield": "geometry.shield_armor"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal",
+        "controller.render.shield_armor"
+      ]
+    }
+  }
+}

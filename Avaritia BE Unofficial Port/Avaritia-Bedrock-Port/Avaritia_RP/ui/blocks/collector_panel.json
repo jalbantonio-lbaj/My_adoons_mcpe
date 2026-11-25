@@ -1,0 +1,217 @@
+{
+  "namespace": "avaritia",
+  "collector_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "controls": [
+            {
+              "common_panel@common.common_panel": {}
+            },
+            {
+              "chest_label@chest.chest_label": {
+                "offset": [7, 7],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "small_chest_panel_top_half@avaritia.collector_machine": {
+                      "offset": [7, 21],
+                      "anchor_to": "top_left",
+                      "anchor_from": "top_left"
+                    }
+                  },
+                  {
+                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pile_slot_cell": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg": {
+          "type": "image",
+          "texture": "textures/ui/custom_slot",
+          "size": [24, 24],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "pile_slot_cell_hover": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg": {
+          "type": "image",
+          "texture": "textures/ui/custom_slot_hover",
+          "size": [24, 24],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "pile_cell": {
+    "type": "panel",
+    "$size|default": [24, 24],
+    "size": "$size",
+    "offset": [0, -8],
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "avaritia.pile_slot_cell_hover",
+    "$item_renderer_size|default": [16, 16],
+    "$background_images|default": "avaritia.pile_slot_cell",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "collection_index": "$collection_index",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "pile_slot": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "$collection_index|default": 0,
+    "size": [24, 24],
+    "controls": [
+      {
+        "cell@avaritia.pile_cell": {
+          "collection_index": "$collection_index",
+          "size": [24, 24],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "vertical_progress_bar": {
+    "$collection_index": 0,
+    "$collection_name|default": "container_items",
+    "layer": 200,
+    "type": "image",
+    "size": [6, 18],
+    "texture": "textures/ui/bar_empty",
+    "controls": [
+      {
+        "bar_wrapper": {
+          "type": "collection_panel",
+          "size": [4, 16],
+          "collection_name": "$collection_name",
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "offset": [-1, 1],
+          "controls": [
+            {
+              "actual_bar": {
+                "type": "image",
+                "size": [4, 16],
+                "collection_index": "$collection_index",
+                "$max_stack|default": 63.0,
+                "clip_direction": "down",
+                "clip_pixelperfect": false,
+                "bindings": [
+                  {
+                    "binding_name": "#inventory_stack_count",
+                    "binding_name_override": "#stack_count",
+                    "binding_condition": "always",
+                    "binding_type": "collection",
+                    "binding_collection_name": "container_items"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(not (#stack_count = ''))",
+                    "target_property_name": "#visible"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "((#stack_count - '§r' - '§f' - '§o') * 1)",
+                    "target_property_name": "#stack_number"
+                  },
+                  {
+                    "binding_condition": "always",
+                    "binding_type": "view",
+                    "source_property_name": "(1 - ((#stack_number - 1) / $max_stack))",
+                    "target_property_name": "#clip_ratio"
+                  }
+                ],
+                "texture": "textures/ui/bar_full"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "collector_machine": {
+    "size": [162, 18],
+    "type": "panel",
+    "controls": [
+      {
+        "panel": {
+          "type": "panel",
+          "size": [97, 64],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "pile_grid@avaritia.pile_slot": {
+                "collection_index": 0,
+                "size": [18, 18],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "bar@avaritia.vertical_progress_bar": {
+                "$collection_index": 1,
+                "offset": [18, -8]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

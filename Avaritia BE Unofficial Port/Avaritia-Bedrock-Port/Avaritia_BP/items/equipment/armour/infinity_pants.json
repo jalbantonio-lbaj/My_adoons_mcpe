@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_pants",
+      "menu_category": {
+        "group": "avaritia:itemGroup.name.tools",
+        "category": "equipment",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_pants",
+        "use_on": [
+          "avaritia:infinity_pants"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_legs"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "avaritia_armor",
+          "avaritia:avaritia",
+          "ascendant:unclonnable",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors",
+          "leggings"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/coal_portal",
+    "atlas_tile": "coal_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/copper_portal",
+    "atlas_tile": "copper_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/iron_portal",
+    "atlas_tile": "iron_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/gold_portal",
+    "atlas_tile": "gold_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/redstone_portal",
+    "atlas_tile": "redstone_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/lapis_portal",
+    "atlas_tile": "lapis_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/diamond_portal",
+    "atlas_tile": "diamond_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/emerald_portal",
+    "atlas_tile": "emerald_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/quartz_portal",
+    "atlas_tile": "quartz_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/netherite_portal",
+    "atlas_tile": "netherite_portal",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "format_version": [
+    0,
+    0,
+    1
+  ],
+  "avaritia:gacha_machine": {
+    "sound": "metal"
+  },
+  "avaritia:asgardandelion": {
+    "sound": "grass"
+  },
+  "avaritia:infinity_block": {
+    "sound": "metal",
+    "textures": "infinity_block"
+  },
+  "avaritia:crystal_matrix_block": {
+    "sound": "glass",
+    "textures": "crystal_matrix_block"
+  },
+  "avaritia:compressed_crafting_table": {
+    "sound": "wood",
+    "textures": "compressed_crafting_table"
+  },
+  "avaritia:double_compressed_crafting_table": {
+    "sound": "wood",
+    "textures": "double_compressed_crafting_table"
+  },
+  "avaritia:dire_crafting_table": {
+    "sound": "glass",
+    "textures": {
+      "up": "dire_crafting_table_top",
+      "down": "crystal_matrix_block",
+      "north": "dire_crafting_table_side",
+      "south": "dire_crafting_table_side",
+      "west": "dire_crafting_table_side",
+      "east": "dire_crafting_table_side"
+    }
+  },
+  "avaritia:neutron_collector": {
+    "sound": "metal"
+  },
+  "avaritia:neutronium_compressor": {
+    "sound": "metal"
+  },
+  "avaritia:record_furnace": {
+    "sound": "metal"
+  },
+  "avaritia:neutronium_block": {
+    "sound": "metal",
+    "textures": "neutronium_block"
+  },
+  "avaritia:infinity_chest": {
+    "sound": "metal"
+  }
+}

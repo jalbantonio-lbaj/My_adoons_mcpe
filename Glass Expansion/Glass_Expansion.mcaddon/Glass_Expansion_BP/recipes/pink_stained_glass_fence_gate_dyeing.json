@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:pink_stained_glass_fence_gate_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_fence_gate"
+      },
+      "D": {
+        "item": "minecraft:pink_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:pink_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:pink_stained_glass_fence_gate",
+      "count": 8
+    }
+  }
+}

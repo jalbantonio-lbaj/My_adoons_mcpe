@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "extra_utilities:trash_can"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stone",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cobblestone",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "extra_utilities:trash_can",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

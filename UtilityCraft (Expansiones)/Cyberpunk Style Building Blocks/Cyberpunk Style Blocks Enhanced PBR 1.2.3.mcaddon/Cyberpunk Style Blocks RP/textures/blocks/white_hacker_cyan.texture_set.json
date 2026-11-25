@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "white_hacker_cyan",
+		"metalness_emissive_roughness": "white_hacker_cyan_mer",
+		"heightmap": "white_hacker_cyan_height"
+	}
+}

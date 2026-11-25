@@ -1,0 +1,60 @@
+{
+	"resource_pack_name": "Extra_Utilities",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"angelring_base": {
+			"textures": "textures/items/angelring_base"
+		},
+		"angelring_bat": {
+			"textures": "textures/items/angelring_bat"
+		},
+		"angelring_butterfly": {
+			"textures": "textures/items/angelring_butterfly"
+		},
+		"angelring_demon": {
+			"textures": "textures/items/angelring_demon"
+		},
+		"angelring_feather": {
+			"textures": "textures/items/angelring_feather"
+		},
+		"angelring_golden": {
+			"textures": "textures/items/angelring_golden"
+		},
+		"division_sigil": {
+			"textures": "textures/items/division_sigil"
+		},
+		"paintbrush": {
+			"textures": "textures/items/paintbrush"
+		},
+		"stable_ingot": {
+			"textures": "textures/blocks/unstable_ingot"
+		},
+		"golden_lasso": {
+			"textures": "textures/items/golden_lasso"
+		},
+		"golden_lasso_on": {
+			"textures": "textures/items/golden_lasso_on"
+		},
+		"builderswand": {
+			"textures": "textures/items/builderswand"
+		},
+		"destructionwand": {
+			"textures": "textures/items/destructionwand"
+		},
+		"sickle_diamond": {
+			"textures": "textures/items/sickle_diamond"
+		},
+		"sickle_gold": {
+			"textures": "textures/items/sickle_gold"
+		},
+		"sickle_iron": {
+			"textures": "textures/items/sickle_iron"
+		},
+		"sickle_stone": {
+			"textures": "textures/items/sickle_stone"
+		},
+		"sickle_wood": {
+			"textures": "textures/items/sickle_wood"
+		}
+	}
+}

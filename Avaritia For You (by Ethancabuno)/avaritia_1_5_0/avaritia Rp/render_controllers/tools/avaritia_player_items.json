@@ -1,0 +1,601 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.avpl_infinity_sword_0": {
+      "arrays": {
+        "textures": {
+          "array.grid": [
+            "texture.sw_grid_1",
+            "texture.sw_grid_2",
+            "texture.sw_grid_3",
+            "texture.sw_grid_4",
+            "texture.sw_grid_5",
+            "texture.sw_grid_6",
+            "texture.sw_grid_7",
+            "texture.sw_grid_8",
+            "texture.sw_grid_9",
+            "texture.sw_grid_10"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword",
+      "textures": [
+        "temp.rim = Math.mod(Math.floor(query.life_time * 8.0), 10); return array.grid[temp.rim];"
+      ],
+      "materials": [
+        {
+          "*": "Material.sw_default"
+        }
+      ],
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "controller.render.avpl_infinity_sword_2": {
+      "arrays": {
+        "textures": {
+          "array.fa": [
+            "texture.sw_fa_1",
+            "texture.sw_fa_2",
+            "texture.sw_fa_3",
+            "texture.sw_fa_4",
+            "texture.sw_fa_5",
+            "texture.sw_fa_6",
+            "texture.sw_fa_7",
+            "texture.sw_fa_8",
+            "texture.sw_fa_9",
+            "texture.sw_fa_10",
+            "texture.sw_fa_11",
+            "texture.sw_fa_12"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword_stars",
+      "materials": [
+        {
+          "*": "Material.sw_aura"
+        }
+      ],
+      "textures": [
+        "temp.i = Math.mod(Math.floor(query.life_time * 3.0) + 0, 12.0); return array.fa[temp.i];"
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "uv_anim": {
+        "offset": [
+          "(v.bp_sw_yaw ?? (query.body_y_rotation + query.target_y_rotation)) * 0.00555555556 + query.life_time * 0.006",
+          "(v.bp_sw_pitch ?? query.target_x_rotation) * 0.004 + query.life_time * -0.004"
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ]
+      },
+      "light_color_multiplier": 1.0,
+      "ignore_lighting": true,
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "controller.render.avpl_infinity_sword_2b": {
+      "arrays": {
+        "textures": {
+          "array.fb": [
+            "texture.sw_fb_1",
+            "texture.sw_fb_2",
+            "texture.sw_fb_3",
+            "texture.sw_fb_4",
+            "texture.sw_fb_5",
+            "texture.sw_fb_6",
+            "texture.sw_fb_7",
+            "texture.sw_fb_8",
+            "texture.sw_fb_9",
+            "texture.sw_fb_10",
+            "texture.sw_fb_11",
+            "texture.sw_fb_12"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword_stars",
+      "materials": [
+        {
+          "*": "Material.sw_aura"
+        }
+      ],
+      "textures": [
+        "temp.i = Math.mod(Math.floor(query.life_time * 3.0) + 5, 12.0); return array.fb[temp.i];"
+      ],
+      "color": {
+        "r": 0.85,
+        "g": 0.85,
+        "b": 0.85,
+        "a": 1.0
+      },
+      "uv_anim": {
+        "offset": [
+          "(v.bp_sw_yaw ?? (query.body_y_rotation + query.target_y_rotation)) * 0.0032 + query.life_time * -0.004",
+          "(v.bp_sw_pitch ?? query.target_x_rotation) * 0.0025 + query.life_time * -0.0025"
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ]
+      },
+      "light_color_multiplier": 1.0,
+      "ignore_lighting": true,
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "controller.render.avpl_infinity_sword_2c": {
+      "arrays": {
+        "textures": {
+          "array.fc": [
+            "texture.sw_fc_1",
+            "texture.sw_fc_2",
+            "texture.sw_fc_3",
+            "texture.sw_fc_4",
+            "texture.sw_fc_5",
+            "texture.sw_fc_6",
+            "texture.sw_fc_7",
+            "texture.sw_fc_8",
+            "texture.sw_fc_9",
+            "texture.sw_fc_10",
+            "texture.sw_fc_11",
+            "texture.sw_fc_12"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword_stars",
+      "materials": [
+        {
+          "*": "Material.sw_aura"
+        }
+      ],
+      "textures": [
+        "temp.i = Math.mod(Math.floor(query.life_time * 3.0) + 3, 12.0); return array.fc[temp.i];"
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "uv_anim": {
+        "offset": [
+          "(v.bp_sw_yaw ?? (query.body_y_rotation + query.target_y_rotation)) * 0.008 + query.life_time * 0.07",
+          "(v.bp_sw_pitch ?? query.target_x_rotation) * 0.006 + query.life_time * -0.045"
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ]
+      },
+      "light_color_multiplier": 1.0,
+      "ignore_lighting": true,
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "controller.render.avpl_skullfire_sword_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.sf_frame_1",
+            "texture.sf_frame_2",
+            "texture.sf_frame_3",
+            "texture.sf_frame_4",
+            "texture.sf_frame_3",
+            "texture.sf_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_skullfire_sword",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.sf_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_axe_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.ax_frame_1",
+            "texture.ax_frame_2",
+            "texture.ax_frame_3",
+            "texture.ax_frame_4",
+            "texture.ax_frame_5",
+            "texture.ax_frame_6",
+            "texture.ax_frame_7",
+            "texture.ax_frame_8",
+            "texture.ax_frame_9",
+            "texture.ax_frame_8",
+            "texture.ax_frame_7",
+            "texture.ax_frame_6",
+            "texture.ax_frame_5",
+            "texture.ax_frame_4",
+            "texture.ax_frame_3",
+            "texture.ax_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_axe",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.ax_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_pickaxe_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.pk_frame_1",
+            "texture.pk_frame_2",
+            "texture.pk_frame_3",
+            "texture.pk_frame_4",
+            "texture.pk_frame_5",
+            "texture.pk_frame_6",
+            "texture.pk_frame_7",
+            "texture.pk_frame_8",
+            "texture.pk_frame_9",
+            "texture.pk_frame_8",
+            "texture.pk_frame_7",
+            "texture.pk_frame_6",
+            "texture.pk_frame_5",
+            "texture.pk_frame_4",
+            "texture.pk_frame_3",
+            "texture.pk_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_pickaxe",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.pk_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_shovel_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.sh_frame_1",
+            "texture.sh_frame_2",
+            "texture.sh_frame_3",
+            "texture.sh_frame_4",
+            "texture.sh_frame_5",
+            "texture.sh_frame_6",
+            "texture.sh_frame_7",
+            "texture.sh_frame_8",
+            "texture.sh_frame_9",
+            "texture.sh_frame_8",
+            "texture.sh_frame_7",
+            "texture.sh_frame_6",
+            "texture.sh_frame_5",
+            "texture.sh_frame_4",
+            "texture.sh_frame_3",
+            "texture.sh_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_shovel",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.sh_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_hoe_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.ho_frame_1",
+            "texture.ho_frame_2",
+            "texture.ho_frame_3",
+            "texture.ho_frame_4",
+            "texture.ho_frame_5",
+            "texture.ho_frame_6",
+            "texture.ho_frame_7",
+            "texture.ho_frame_8",
+            "texture.ho_frame_9",
+            "texture.ho_frame_8",
+            "texture.ho_frame_7",
+            "texture.ho_frame_6",
+            "texture.ho_frame_5",
+            "texture.ho_frame_4",
+            "texture.ho_frame_3",
+            "texture.ho_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_hoe",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.ho_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_hammer_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.hm_frame_1",
+            "texture.hm_frame_2",
+            "texture.hm_frame_3",
+            "texture.hm_frame_4",
+            "texture.hm_frame_5",
+            "texture.hm_frame_6",
+            "texture.hm_frame_7",
+            "texture.hm_frame_8",
+            "texture.hm_frame_9",
+            "texture.hm_frame_8",
+            "texture.hm_frame_7",
+            "texture.hm_frame_6",
+            "texture.hm_frame_5",
+            "texture.hm_frame_4",
+            "texture.hm_frame_3",
+            "texture.hm_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_hammer",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.hm_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_scythe_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.sc_frame_1",
+            "texture.sc_frame_2",
+            "texture.sc_frame_3",
+            "texture.sc_frame_4",
+            "texture.sc_frame_5",
+            "texture.sc_frame_6",
+            "texture.sc_frame_7",
+            "texture.sc_frame_8",
+            "texture.sc_frame_9",
+            "texture.sc_frame_8",
+            "texture.sc_frame_7",
+            "texture.sc_frame_6",
+            "texture.sc_frame_5",
+            "texture.sc_frame_4",
+            "texture.sc_frame_3",
+            "texture.sc_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_scythe",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.sc_default"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_mace_0": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.mc_frame_1",
+            "texture.mc_frame_2",
+            "texture.mc_frame_3",
+            "texture.mc_frame_4",
+            "texture.mc_frame_5",
+            "texture.mc_frame_6",
+            "texture.mc_frame_7",
+            "texture.mc_frame_8",
+            "texture.mc_frame_9",
+            "texture.mc_frame_8",
+            "texture.mc_frame_7",
+            "texture.mc_frame_6",
+            "texture.mc_frame_5",
+            "texture.mc_frame_4",
+            "texture.mc_frame_3",
+            "texture.mc_frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_mace",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.mc_default"
+        }
+      ]
+    },
+    "controller.render.avpl_arms": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        },
+        {
+          "rightArm": "v.custom_weapon"
+        },
+        {
+          "rightSleeve": "v.custom_weapon"
+        },
+        {
+          "leftArm": "v.custom_weapon"
+        },
+        {
+          "leftSleeve": "v.custom_weapon"
+        }
+      ]
+    },
+    "controller.render.avpl_infinity_sword_3": {
+      "arrays": {
+        "textures": {
+          "array.sweep": [
+            "texture.sw_swp_1",
+            "texture.sw_swp_2",
+            "texture.sw_swp_3",
+            "texture.sw_swp_4",
+            "texture.sw_swp_5",
+            "texture.sw_swp_6",
+            "texture.sw_swp_7",
+            "texture.sw_swp_8",
+            "texture.sw_swp_9",
+            "texture.sw_swp_10"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword",
+      "textures": [
+        "temp.rim = Math.mod(Math.floor(query.life_time * 8.0), 10); return array.sweep[temp.rim];"
+      ],
+      "materials": [
+        {
+          "*": "Material.sw_default"
+        }
+      ],
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "controller.render.avpl_infinity_sword_5": {
+      "arrays": {
+        "textures": {
+          "array.mfp": [
+            "texture.sw_mfp_1",
+            "texture.sw_mfp_2",
+            "texture.sw_mfp_3",
+            "texture.sw_mfp_4",
+            "texture.sw_mfp_5",
+            "texture.sw_mfp_6",
+            "texture.sw_mfp_7",
+            "texture.sw_mfp_8",
+            "texture.sw_mfp_9",
+            "texture.sw_mfp_10",
+            "texture.sw_mfp_11",
+            "texture.sw_mfp_12",
+            "texture.sw_mfp_13",
+            "texture.sw_mfp_14",
+            "texture.sw_mfp_15",
+            "texture.sw_mfp_16",
+            "texture.sw_mfp_17",
+            "texture.sw_mfp_18",
+            "texture.sw_mfp_19",
+            "texture.sw_mfp_20",
+            "texture.sw_mfp_21",
+            "texture.sw_mfp_22",
+            "texture.sw_mfp_23",
+            "texture.sw_mfp_24",
+            "texture.sw_mfp_25",
+            "texture.sw_mfp_26",
+            "texture.sw_mfp_27",
+            "texture.sw_mfp_28",
+            "texture.sw_mfp_29",
+            "texture.sw_mfp_30"
+          ]
+        }
+      },
+      "geometry": "Geometry.avpl_infinity_sword",
+      "materials": [
+        {
+          "*": "Material.sw_default"
+        }
+      ],
+      "textures": [
+        "temp.rim = Math.mod(Math.floor(query.life_time * 24.0), 30); return array.mfp[temp.rim];"
+      ],
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @p[hasitem={item=pa:infinitysword,location=slot.weapon.mainhand}] at @p positioned ^^^3 run kill @e[type=!player,r=4]

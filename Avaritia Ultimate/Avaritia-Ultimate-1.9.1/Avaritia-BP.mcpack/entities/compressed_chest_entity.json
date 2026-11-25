@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:compressed_chest_entity",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0.5,
+        "width": 1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "avaritia:compressed_chest_holder",
+          "dorios:container"
+        ]
+      },
+      "minecraft:nameable": {
+        "always_show": false,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:inventory": {
+        "inventory_size": 243,
+        "container_type": "container",
+        "stack_size": 64,
+        "can_be_siphoned_from": true
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "has_tag",
+            "value": "despawn"
+          },
+          "event": "despawn"
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "no"
+        }
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+    "events": {
+      "despawn": {
+        "remove": {}
+      }
+    }
+  }
+}

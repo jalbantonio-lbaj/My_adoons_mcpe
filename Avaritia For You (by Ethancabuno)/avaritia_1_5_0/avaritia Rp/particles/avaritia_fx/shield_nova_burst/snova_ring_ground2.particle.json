@@ -1,0 +1,63 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "avaritia:snova_ring_ground2",
+      "basic_render_parameters": {
+        "material": "particles_blend",
+        "texture": "textures/particle/avaritia/ring"
+      }
+    },
+    "components": {
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 0.01
+      },
+      "minecraft:emitter_rate_instant": {
+        "num_particles": 1
+      },
+      "minecraft:emitter_shape_point": {
+        "offset": [
+          0,
+          0.1,
+          0
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "0.7 + 0.025 * (variable.radius ?? 6)"
+      },
+      "minecraft:particle_initial_speed": 0,
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "((variable.radius ?? 6) * (0.02 + 0.98 * (1 - math.pow(1 - (variable.particle_age / variable.particle_lifetime), 2.5)))) / 0.85",
+          "((variable.radius ?? 6) * (0.02 + 0.98 * (1 - math.pow(1 - (variable.particle_age / variable.particle_lifetime), 2.5)))) / 0.85"
+        ],
+        "facing_camera_mode": "emitter_transform_xz",
+        "uv": {
+          "texture_width": 128,
+          "texture_height": 128,
+          "uv": [
+            0,
+            0
+          ],
+          "uv_size": [
+            128,
+            128
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "math.lerp(0.2, 0.1, math.clamp(((variable.particle_age / variable.particle_lifetime) - 0) / 1, 0, 1))",
+          "math.lerp(0.78, 0.4, math.clamp(((variable.particle_age / variable.particle_lifetime) - 0) / 1, 0, 1))",
+          1,
+          "math.lerp(0.8, 0, math.clamp(((variable.particle_age / variable.particle_lifetime) - 0) / 1, 0, 1))"
+        ]
+      }
+    }
+  }
+}

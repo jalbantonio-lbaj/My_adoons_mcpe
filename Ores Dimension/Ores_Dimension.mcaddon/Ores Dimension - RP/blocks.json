@@ -1,0 +1,477 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "oredim:coal_portal": {
+    "textures": "coal_portal"
+  },
+  "oredim:coal_leaves": {
+    "textures": "coal_leaves",
+    "sound": "grass"
+  },
+  "oredim:coal_log": {
+    "textures": {
+      "up": "coal_log_top",
+      "down": "coal_log_top",
+      "side": "coal_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:coal_wood": {
+    "textures": {
+      "up": "coal_log_side",
+      "down": "coal_log_side",
+      "side": "coal_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:coal_stripped_log": {
+    "textures": {
+      "up": "coal_stripped_top",
+      "down": "coal_stripped_top",
+      "side": "coal_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:coal_stripped_wood": {
+    "textures": {
+      "up": "coal_stripped_side",
+      "down": "coal_stripped_side",
+      "side": "coal_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:coal_planks": {
+    "textures": {
+      "up": "coal_planks",
+      "down": "coal_planks",
+      "side": "coal_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:copper_portal": {
+    "textures": "copper_portal"
+  },
+  "oredim:copper_leaves": {
+    "textures": "copper_leaves",
+    "sound": "grass"
+  },
+  "oredim:copper_log": {
+    "textures": {
+      "up": "copper_log_top",
+      "down": "copper_log_top",
+      "side": "copper_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:copper_wood": {
+    "textures": {
+      "up": "copper_log_side",
+      "down": "copper_log_side",
+      "side": "copper_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:copper_stripped_log": {
+    "textures": {
+      "up": "copper_stripped_top",
+      "down": "copper_stripped_top",
+      "side": "copper_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:copper_stripped_wood": {
+    "textures": {
+      "up": "copper_stripped_side",
+      "down": "copper_stripped_side",
+      "side": "copper_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:copper_planks": {
+    "textures": {
+      "up": "copper_planks",
+      "down": "copper_planks",
+      "side": "copper_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:iron_portal": {
+    "textures": "iron_portal"
+  },
+  "oredim:iron_leaves": {
+    "textures": "iron_leaves",
+    "sound": "grass"
+  },
+  "oredim:iron_log": {
+    "textures": {
+      "up": "iron_log_top",
+      "down": "iron_log_top",
+      "side": "iron_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:iron_wood": {
+    "textures": {
+      "up": "iron_log_side",
+      "down": "iron_log_side",
+      "side": "iron_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:iron_stripped_log": {
+    "textures": {
+      "up": "iron_stripped_top",
+      "down": "iron_stripped_top",
+      "side": "iron_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:iron_stripped_wood": {
+    "textures": {
+      "up": "iron_stripped_side",
+      "down": "iron_stripped_side",
+      "side": "iron_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:iron_planks": {
+    "textures": {
+      "up": "iron_planks",
+      "down": "iron_planks",
+      "side": "iron_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:gold_portal": {
+    "textures": "gold_portal"
+  },
+  "oredim:gold_leaves": {
+    "textures": "gold_leaves",
+    "sound": "grass"
+  },
+  "oredim:gold_log": {
+    "textures": {
+      "up": "gold_log_top",
+      "down": "gold_log_top",
+      "side": "gold_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:gold_wood": {
+    "textures": {
+      "up": "gold_log_side",
+      "down": "gold_log_side",
+      "side": "gold_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:gold_stripped_log": {
+    "textures": {
+      "up": "gold_stripped_top",
+      "down": "gold_stripped_top",
+      "side": "gold_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:gold_stripped_wood": {
+    "textures": {
+      "up": "gold_stripped_side",
+      "down": "gold_stripped_side",
+      "side": "gold_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:gold_planks": {
+    "textures": {
+      "up": "gold_planks",
+      "down": "gold_planks",
+      "side": "gold_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:redstone_portal": {
+    "textures": "redstone_portal"
+  },
+  "oredim:redstone_leaves": {
+    "textures": "redstone_leaves",
+    "sound": "grass"
+  },
+  "oredim:redstone_log": {
+    "textures": {
+      "up": "redstone_log_top",
+      "down": "redstone_log_top",
+      "side": "redstone_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:redstone_wood": {
+    "textures": {
+      "up": "redstone_log_side",
+      "down": "redstone_log_side",
+      "side": "redstone_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:redstone_stripped_log": {
+    "textures": {
+      "up": "redstone_stripped_top",
+      "down": "redstone_stripped_top",
+      "side": "redstone_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:redstone_stripped_wood": {
+    "textures": {
+      "up": "redstone_stripped_side",
+      "down": "redstone_stripped_side",
+      "side": "redstone_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:redstone_planks": {
+    "textures": {
+      "up": "redstone_planks",
+      "down": "redstone_planks",
+      "side": "redstone_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:lapis_portal": {
+    "textures": "lapis_portal"
+  },
+  "oredim:lapis_leaves": {
+    "textures": "lapis_leaves",
+    "sound": "grass"
+  },
+  "oredim:lapis_log": {
+    "textures": {
+      "up": "lapis_log_top",
+      "down": "lapis_log_top",
+      "side": "lapis_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:lapis_wood": {
+    "textures": {
+      "up": "lapis_log_side",
+      "down": "lapis_log_side",
+      "side": "lapis_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:lapis_stripped_log": {
+    "textures": {
+      "up": "lapis_stripped_top",
+      "down": "lapis_stripped_top",
+      "side": "lapis_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:lapis_stripped_wood": {
+    "textures": {
+      "up": "lapis_stripped_side",
+      "down": "lapis_stripped_side",
+      "side": "lapis_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:lapis_planks": {
+    "textures": {
+      "up": "lapis_planks",
+      "down": "lapis_planks",
+      "side": "lapis_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:diamond_portal": {
+    "textures": "diamond_portal"
+  },
+  "oredim:diamond_leaves": {
+    "textures": "diamond_leaves",
+    "sound": "grass"
+  },
+  "oredim:diamond_log": {
+    "textures": {
+      "up": "diamond_log_top",
+      "down": "diamond_log_top",
+      "side": "diamond_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:diamond_wood": {
+    "textures": {
+      "up": "diamond_log_side",
+      "down": "diamond_log_side",
+      "side": "diamond_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:diamond_stripped_log": {
+    "textures": {
+      "up": "diamond_stripped_top",
+      "down": "diamond_stripped_top",
+      "side": "diamond_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:diamond_stripped_wood": {
+    "textures": {
+      "up": "diamond_stripped_side",
+      "down": "diamond_stripped_side",
+      "side": "diamond_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:diamond_planks": {
+    "textures": {
+      "up": "diamond_planks",
+      "down": "diamond_planks",
+      "side": "diamond_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:emerald_portal": {
+    "textures": "emerald_portal"
+  },
+  "oredim:emerald_leaves": {
+    "textures": "emerald_leaves",
+    "sound": "grass"
+  },
+  "oredim:emerald_log": {
+    "textures": {
+      "up": "emerald_log_top",
+      "down": "emerald_log_top",
+      "side": "emerald_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:emerald_wood": {
+    "textures": {
+      "up": "emerald_log_side",
+      "down": "emerald_log_side",
+      "side": "emerald_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:emerald_stripped_log": {
+    "textures": {
+      "up": "emerald_stripped_top",
+      "down": "emerald_stripped_top",
+      "side": "emerald_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:emerald_stripped_wood": {
+    "textures": {
+      "up": "emerald_stripped_side",
+      "down": "emerald_stripped_side",
+      "side": "emerald_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:emerald_planks": {
+    "textures": {
+      "up": "emerald_planks",
+      "down": "emerald_planks",
+      "side": "emerald_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:quartz_portal": {
+    "textures": "quartz_portal"
+  },
+  "oredim:quartz_leaves": {
+    "textures": "quartz_leaves",
+    "sound": "grass"
+  },
+  "oredim:quartz_log": {
+    "textures": {
+      "up": "quartz_log_top",
+      "down": "quartz_log_top",
+      "side": "quartz_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:quartz_wood": {
+    "textures": {
+      "up": "quartz_log_side",
+      "down": "quartz_log_side",
+      "side": "quartz_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:quartz_stripped_log": {
+    "textures": {
+      "up": "quartz_stripped_top",
+      "down": "quartz_stripped_top",
+      "side": "quartz_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:quartz_stripped_wood": {
+    "textures": {
+      "up": "quartz_stripped_side",
+      "down": "quartz_stripped_side",
+      "side": "quartz_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:quartz_planks": {
+    "textures": {
+      "up": "quartz_planks",
+      "down": "quartz_planks",
+      "side": "quartz_planks"
+    },
+    "sound": "wood"
+  },
+  "oredim:netherite_portal": {
+    "textures": "netherite_portal"
+  },
+  "oredim:netherite_leaves": {
+    "textures": "netherite_leaves",
+    "sound": "grass"
+  },
+  "oredim:netherite_log": {
+    "textures": {
+      "up": "netherite_log_top",
+      "down": "netherite_log_top",
+      "side": "netherite_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:netherite_wood": {
+    "textures": {
+      "up": "netherite_log_side",
+      "down": "netherite_log_side",
+      "side": "netherite_log_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:netherite_stripped_log": {
+    "textures": {
+      "up": "netherite_stripped_top",
+      "down": "netherite_stripped_top",
+      "side": "netherite_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:netherite_stripped_wood": {
+    "textures": {
+      "up": "netherite_stripped_side",
+      "down": "netherite_stripped_side",
+      "side": "netherite_stripped_side"
+    },
+    "sound": "wood"
+  },
+  "oredim:netherite_planks": {
+    "textures": {
+      "up": "netherite_planks",
+      "down": "netherite_planks",
+      "side": "netherite_planks"
+    },
+    "sound": "wood"
+  }
+}

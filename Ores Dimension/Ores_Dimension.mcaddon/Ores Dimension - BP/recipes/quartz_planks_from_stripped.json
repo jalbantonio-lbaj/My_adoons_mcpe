@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "oredim:quartz_planks_from_stripped"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "oredim:quartz_stripped_log"
+      }
+    ],
+    "result": {
+      "item": "oredim:quartz_planks",
+      "count": 4
+    },
+    "unlock": [
+      {
+        "item": "oredim:quartz_stripped_log"
+      }
+    ]
+  }
+}

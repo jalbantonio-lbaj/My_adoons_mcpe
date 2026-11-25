@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "avaritia:neutronium_horse_armor",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/horse_armor/neutronium_horse_armor",
+				"held_icon": "textures/items/neutronium_horse_armor_frames/frame_1",
+				"held_icon_frame_1": "textures/items/neutronium_horse_armor_frames/frame_1",
+				"held_icon_frame_2": "textures/items/neutronium_horse_armor_frames/frame_2",
+				"held_icon_frame_3": "textures/items/neutronium_horse_armor_frames/frame_3",
+				"held_icon_frame_4": "textures/items/neutronium_horse_armor_frames/frame_4",
+				"held_icon_frame_5": "textures/items/neutronium_horse_armor_frames/frame_5",
+				"held_icon_frame_6": "textures/items/neutronium_horse_armor_frames/frame_6",
+				"held_icon_frame_7": "textures/items/neutronium_horse_armor_frames/frame_7",
+				"held_icon_frame_8": "textures/items/neutronium_horse_armor_frames/frame_8",
+				"held_icon_frame_9": "textures/items/neutronium_horse_armor_frames/frame_9",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.avaritia.neutronium_horse_armor",
+				"held_icon": "geometry.avaritia.neutronium_horse_armor_held"
+			},
+			"animations": {
+				"vision1": "animation.avaritia.neutronium_horse_armor_held_fpp",
+				"vision2": "animation.avaritia.neutronium_horse_armor_held_tpp"
+			},
+			"scripts": {
+				"parent_setup": "variable.boot_layer_visible = 0.0;",
+				"animate": [
+					{ "vision1": "c.is_first_person" },
+					{ "vision2": "!c.is_first_person" }
+				]
+			},
+			"render_controllers": [
+				{
+					"controller.render.armor": "c.item_slot != 'main_hand' && c.item_slot != 'off_hand'"
+				},
+				{
+					"controller.render.avaritia.neutronium_horse_armor_held": "c.item_slot == 'main_hand' || c.item_slot == 'off_hand'"
+				}
+			]
+		}
+	}
+}

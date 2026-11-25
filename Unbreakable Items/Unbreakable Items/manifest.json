@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Unbreakable Items Pack V21",
+		"description": "-by TrayePlays",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "d08a6225-fd5d-4011-a183-32bf807ab43c",
+		"version": [
+			1,
+			2,
+			0
+		]
+	},
+	"metadata": {
+		"product_type": "addon",
+		"authors": [
+			"TrayePlays"
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "842f380b-b39a-4679-a925-891657448950",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "2a7b484f-77b5-43b8-9c48-77bf69e50cae",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.7.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
+}

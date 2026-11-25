@@ -1,0 +1,48 @@
+{//File Made by @Athan213
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_hammer",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_hammer"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_pickaxe.name\n%addon.avaritia\n§7%enchantment.lootBonusDigger %enchantment.level.10"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_tools",
+          "minecraft:is_pickaxe"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 8,
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:enchantable": {
+        "value": 500000000,
+        "slot": "pickaxe"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "!query.any_tag('air')"
+            },
+            "speed": 500000000
+          }
+        ]
+      }
+    }
+  }
+}

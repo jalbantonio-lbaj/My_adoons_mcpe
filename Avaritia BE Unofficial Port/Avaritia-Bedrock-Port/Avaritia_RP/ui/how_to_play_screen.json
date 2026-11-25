@@ -1,0 +1,1019 @@
+{
+  "namespace": "how_to_play",
+  "how_to_play_selector_stack_panel/how_to_play_selector_pane": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "padding_0000": {
+              "type": "panel",
+              "size": [
+                0,
+                6
+              ]
+            }
+          },
+          {
+            "avaritia_category@how_to_play_common.topic_category": {
+              "$category": "avaritia"
+            }
+          },
+          {
+            "avaritia:introduction_button@how_to_play.avaritia:introduction_button": {
+              "$toggle_group_forced_index": 950
+            }
+          },
+          {
+            "avaritia:getting_started_button@how_to_play.avaritia:getting_started_button": {
+              "$toggle_group_forced_index": 951
+            }
+          },
+          {
+            "avaritia:extreme_crafting_button@how_to_play.avaritia:extreme_crafting_button": {
+              "$toggle_group_forced_index": 952
+            }
+          },
+          {
+            "avaritia:machines_button@how_to_play.avaritia:machines_button": {
+              "$toggle_group_forced_index": 953
+            }
+          },
+          {
+            "avaritia:singularities_button@how_to_play.avaritia:singularities_button": {
+              "$toggle_group_forced_index": 954
+            }
+          },
+          {
+            "avaritia:infinity_catalyst_button@how_to_play.avaritia:infinity_catalyst_button": {
+              "$toggle_group_forced_index": 955
+            }
+          },
+          {
+            "avaritia:tools_and_armour_button@how_to_play.avaritia:tools_and_armour_button": {
+              "$toggle_group_forced_index": 956
+            }
+          },
+          {
+            "avaritia:utilitycraft_compatibility_button@how_to_play.avaritia:utilitycraft_compatibility_button": {
+              "$toggle_group_forced_index": 957
+            }
+          },
+          {
+            "avaritia:credits_button@how_to_play.avaritia:credits_button": {
+              "$toggle_group_forced_index": 958
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "how_to_play_section_content_panels/general_tips_sections": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "avaritia:introduction_section@how_to_play.avaritia:introduction_section": {}
+          },
+          {
+            "avaritia:getting_started_section@how_to_play.avaritia:getting_started_section": {}
+          },
+          {
+            "avaritia:extreme_crafting_section@how_to_play.avaritia:extreme_crafting_section": {}
+          },
+          {
+            "avaritia:machines_section@how_to_play.avaritia:machines_section": {}
+          },
+          {
+            "avaritia:singularities_section@how_to_play.avaritia:singularities_section": {}
+          },
+          {
+            "avaritia:infinity_catalyst_section@how_to_play.avaritia:infinity_catalyst_section": {}
+          },
+          {
+            "avaritia:tools_and_armour_section@how_to_play.avaritia:tools_and_armour_section": {}
+          },
+          {
+            "avaritia:utilitycraft_compatibility_section@how_to_play.avaritia:utilitycraft_compatibility_section": {}
+          },
+          {
+            "avaritia:credits_section@how_to_play.avaritia:credits_section": {}
+          }
+        ]
+      }
+    ]
+  },
+  "avaritia:introduction_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:introduction"
+  },
+  "avaritia:getting_started_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:getting_started"
+  },
+  "avaritia:extreme_crafting_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:extreme_crafting"
+  },
+  "avaritia:machines_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:machines"
+  },
+  "avaritia:singularities_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:singularities"
+  },
+  "avaritia:infinity_catalyst_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "avaritia:infinity_catalyst"
+  },
+  "avaritia:tools_and_armour_button@how_to_play_common.section_toggle_button": {
+  "$section_topic": "avaritia:tools_and_armour"
+  },
+  "avaritia:utilitycraft_compatibility_button@how_to_play_common.section_toggle_button": {
+  "$section_topic": "avaritia:utilitycraft_compatibility"
+  },
+  "avaritia:credits_button@how_to_play_common.section_toggle_button": {
+  "$section_topic": "avaritia:credits"
+  },
+  "title_image@how_to_play_common.image": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "270px",
+      "69px"
+    ]
+  },
+  "title_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "69px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/title",
+          "offset": [ 0, 0 ],
+          "size": [
+            "270px",
+            "69px"
+          ]
+        }
+      }
+    ]
+  },
+  "wide_paragraph": {
+    "type": "panel",
+    "$text|default": "",
+    "$line_padding|default": 4,
+    "size": [
+      "100%",
+      "100%cm"
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "color": "$body_text_color",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [
+            "90%",
+            "default"
+          ],
+          "line_padding": "$line_padding",
+          "text": "$text",
+          "text_tts": "$text"
+        }
+        },
+        {
+          "focus_border@how_to_play_common.paragraph_tts_focus_border": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [
+            "90% + 4px",
+            "100%sm + 3px"
+          ],
+          "offset": [
+            -2,
+            -1
+          ]
+        }
+      }
+    ]
+  },
+  "materials_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "30px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/materials",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "150%",
+            "150%"
+          ]
+        }
+      }
+    ]
+  },
+  "infinity_gear_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "45px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/infinity_gear",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "machines_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "40px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/machines",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "150%",
+            "150%"
+          ]
+        }
+      }
+    ]
+  },
+  "collector_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "50px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/neutron_collector",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "50px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/neutronium_compressor",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "tables_render": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "90%",
+      "40px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/tables",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "150%",
+            "150%"
+          ]
+        }
+      }
+    ]
+  },
+  "xtreme_ui": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/xtreme_craft_screen",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "xtreme_ui_tab": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/xtreme_craft_tab",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "collector_ui": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/collector_ui",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_ui": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/compressor_ui",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_ui_tab": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/compressor_ui_tab",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_ui_progress": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      "100%",
+      "300px"
+    ],
+    "controls": [
+      {
+        "image@how_to_play_common.image": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "texture": "textures/static/compressor_ui_progress",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ]
+        }
+      }
+    ]
+  },
+  "header_background@how_to_play_common.header_background": {
+    "size": [
+      "90%",
+      "20px"
+    ],
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle"
+  },
+  "header": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "28px"
+    ],
+    "controls": [
+      {
+        "header@how_to_play.header_background": {}
+      }
+    ]
+  },
+  "avaritia:introduction_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:introduction_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "title_image@how_to_play.title_render": {}
+      },
+      {
+        "padding_0@how_to_play_common.small_padding": {}
+      },
+      {
+        "paragraph_1@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.welcome"
+        }
+      },
+      {
+        "padding_01@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_2@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.welcome2"
+        }
+      },
+      {
+        "padding_1@how_to_play_common.padding": {}
+      },
+      {
+        "header_1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:introduction.headeroverview"
+        }
+      },
+      {
+        "padding_overview@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_overview@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.overview"
+        }
+      },
+      {
+        "padding_2c@how_to_play_common.padding": {}
+      },
+      {
+        "header_2@how_to_play.header": {
+          "$text": "howtoplay.avaritia:introduction.headermaterials"
+        }
+      },
+      {
+        "padding_materials@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_3@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.materials"
+        }
+      },
+      {
+        "padding_2@how_to_play_common.padding": {}
+      },
+      {
+        "materials_image@how_to_play.materials_render": {}
+      },
+      {
+        "padding_2a@how_to_play_common.padding": {}
+      },
+      {
+        "padding_2b@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_4@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.materials2"
+        }
+      },
+      {
+        "padding_materials2@how_to_play_common.padding": {}
+      },
+      {
+        "header_3@how_to_play.header": {
+          "$text": "howtoplay.avaritia:introduction.headermachines"
+        }
+      },
+      {
+        "padding_3@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_machines@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.machines"
+        }
+      },
+      {
+        "padding_machines@how_to_play_common.padding": {}
+      },
+      {
+        "machines_image@how_to_play.machines_render": {}
+      },
+      {
+        "padding_machines2@how_to_play_common.padding": {}
+      },
+      {
+        "padding_machines3@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_6@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:introduction.machines2"
+        }
+      }
+    ]
+  },
+    "avaritia:getting_started_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:getting_started_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "gs_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:getting_started.header1"
+        }
+      },
+      {
+        "padding_gettingstarted1a@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_gettingstarted1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:getting_started.gs1"
+        }
+      },
+      {
+        "padding_gettingstarted1@how_to_play_common.padding": {}
+      },
+      {
+        "tables_image@how_to_play.tables_render": {}
+      },
+      {
+        "padding_gettingstarted2@how_to_play_common.padding": {}
+      },
+      {
+        "padding_gettingstarted3@how_to_play_common.padding": {}
+      },
+      {
+        "gs_header2@how_to_play.header": {
+          "$text": "howtoplay.avaritia:getting_started.header2"
+        }
+      },
+      {
+        "padding_gettingstarted2a@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_gettingstarted2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:getting_started.gs2"
+        }
+      },
+      {
+        "padding_gettingstarted4@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_gettingstarted3@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:getting_started.gs3"
+        }
+      }
+    ]
+  },
+  "avaritia:extreme_crafting_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:extreme_crafting_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "ec_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:extreme_crafting.header1"
+        }
+      },
+      {
+        "padding_extremecrafting1a@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_extremecrafting1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:extreme_crafting.ec1"
+        }
+      },
+      {
+        "padding_extremecrafting1@how_to_play_common.padding": {}
+      },
+      {
+        "xtreme_crafting_image@how_to_play.xtreme_ui": {}
+      },
+      {
+        "padding_extremecrafting11@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_extremecrafting2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:extreme_crafting.ec2"
+        }
+      },
+      {
+        "padding_extremecrafting12@how_to_play_common.padding": {}
+      },
+      {
+        "xtreme_crafting_image_tab@how_to_play.xtreme_ui_tab": {}
+      },
+      {
+        "padding_extremecrafting13@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_extremecrafting3@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:extreme_crafting.ec3"
+        }
+      }
+    ]
+  },
+  "avaritia:machines_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:machines_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "m_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:machines.header1"
+        }
+      },
+      {
+        "paragraph_machines1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:machines.m1"
+        }
+      },
+      {
+        "padding_machines1@how_to_play_common.padding": {}
+      },
+      {
+        "m_header2@how_to_play.header": {
+          "$text": "howtoplay.avaritia:machines.header2"
+        }
+      },
+      {
+        "padding_machines11@how_to_play_common.padding": {}
+      },
+      {
+        "padding_machines12@how_to_play_common.padding": {}
+      },
+      {
+        "neutron_collector_image@how_to_play.collector_render": {}
+      },
+      {
+        "padding_machines2@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_machines2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:machines.m2"
+        }
+      },
+      {
+        "padding_machines21@how_to_play_common.padding": {}
+      },
+      {
+        "collector_ui_image@how_to_play.collector_ui": {}
+      },
+      {
+        "padding_machines22@how_to_play_common.padding": {}
+      },
+      {
+        "m_header3@how_to_play.header": {
+          "$text": "howtoplay.avaritia:machines.header3"
+        }
+      },
+      {
+        "padding_machines3@how_to_play_common.padding": {}
+      },
+      {
+        "compressor_image@how_to_play.compressor_render": {}
+      },
+      {
+        "padding_machines31@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_machines3@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:machines.m3"
+        }
+      },
+      {
+        "padding_machines23@how_to_play_common.padding": {}
+      },
+      {
+        "compressor_ui_image@how_to_play.compressor_ui": {}
+      },
+      {
+        "padding_machines24@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_machines4@how_to_play.wide_paragraph": {
+          "$text": "howtoplay.avaritia:machines.m4"
+        }
+      },
+      {
+        "padding_machines25@how_to_play_common.padding": {}
+      },
+      {
+        "compressor_ui_image_tab@how_to_play.compressor_ui_tab": {}
+      }
+    ]
+  },
+  "avaritia:singularities_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:singularities_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "s_header1@how_to_play.header": {
+          "$text": "howtoplay:avaritia:singularities.header1"
+        }
+      },
+      {
+        "padding_s1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_s1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:singularities.s1"
+        }
+      },
+      {
+        "padding_s2@how_to_play_common.padding": {}
+      },
+      {
+        "compressor_ui_progress_image@how_to_play.compressor_ui_progress": {}
+      },
+      {
+        "padding_s21@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_s2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:singularities.s2"
+        }
+      }
+    ]
+  },
+  "avaritia:infinity_catalyst_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:infinity_catalyst_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "ic_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:infinity_catalyst.header1"
+        }
+      },
+      {
+        "padding_ic1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_ic1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:infinity_catalyst.ic1"
+        }
+      },
+      {
+        "padding_ic2@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_ic2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:infinity_catalyst.ic2"
+        }
+      }
+    ]
+  },
+  "avaritia:tools_and_armour_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:tools_and_armour_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "ta_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:tools_and_armour.header1"
+        }
+      },
+      {
+        "padding_ta1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_ta1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:tools_and_armour.ta1"
+        }
+      },
+      {
+        "padding_ta2@how_to_play_common.padding": {}
+      },
+      {
+        "infinity_gear_image@how_to_play.infinity_gear_render": {}
+      },
+      {
+        "padding_ta3@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_ta2@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:tools_and_armour.ta2"
+        }
+      }
+    ]
+  },
+  "avaritia:utilitycraft_compatibility_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:utilitycraft_compatibility_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "uc_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:utilitycraft_compatibility.header1"
+        }
+      },
+      {
+        "padding_uc1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_uc1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:utilitycraft_compatibility.uc1"
+        }
+      }
+    ]
+  },
+  "avaritia:credits_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia:credits_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "cd_header1@how_to_play.header": {
+          "$text": "howtoplay.avaritia:credits.hcd1"
+        }
+      },
+      {
+        "padding_credits1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_credits1@how_to_play.wide_paragraph":{
+          "$text": "howtoplay.avaritia:credits.cd1"
+        }
+      }
+    ]
+  }
+}

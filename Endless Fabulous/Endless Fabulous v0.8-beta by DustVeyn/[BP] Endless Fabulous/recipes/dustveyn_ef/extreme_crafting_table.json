@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:extreme_crafting_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:crystal_matrix_ingot"
+            },
+            "B": {
+                "item": "minecraft:crafting_table"
+            }
+        },
+        "result": {
+            "item": "dustveyn_ef:extreme_crafting_table"
+        }
+    }
+}

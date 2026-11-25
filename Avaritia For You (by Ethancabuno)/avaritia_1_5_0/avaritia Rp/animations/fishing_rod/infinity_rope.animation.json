@@ -1,0 +1,58 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.avaritia.infinity_rope.position": {
+      "loop": true,
+      "bones": {
+        "r2": {
+          "rotation": [
+            0,
+            "-q.body_y_rotation",
+            0
+          ]
+        },
+        "r3": {
+          "rotation": [
+            0,
+            "v.yaw",
+            0
+          ]
+        },
+        "r1": {
+          "rotation": [
+            0,
+            0,
+            "v.pitch"
+          ],
+          "scale": [
+            "v.size",
+            1,
+            1
+          ]
+        },
+        "r0": {
+          "position": [
+            "v.offset.x",
+            "v.offset.y",
+            "v.offset.z"
+          ]
+        },
+        "root": {
+          "position": [
+            "v.delta_x",
+            "v.delta_y",
+            "v.delta_z"
+          ]
+        }
+      }
+    },
+    "animation.avaritia.infinity_rope.scale": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "scale": 0.05
+        }
+      }
+    }
+  }
+}

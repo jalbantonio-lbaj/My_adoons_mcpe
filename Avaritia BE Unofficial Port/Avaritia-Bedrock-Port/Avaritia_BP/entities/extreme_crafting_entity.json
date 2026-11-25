@@ -1,0 +1,93 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:extreme_crafting_entity",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "avaritia:open_ui_players": {
+          "type": "int",
+          "default": 0,
+          "range": [0, 100]
+        },
+        "avaritia:tick_group": {
+          "type": "int",
+          "default": 0,
+          "range": [0, 5]
+        }
+      }
+    },
+    "components": {
+      "minecraft:persistent": {},
+      "minecraft:collision_box": {
+        "height": 1,
+        "width": 0.5
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "avaritia:holder",
+          "avaritia:extreme_holder",
+          "avaritia:avaritia"
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1000,
+        "max": 1000
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:inventory": {
+        "inventory_size": 82,
+        "container_type": "container",
+        "stack_size": 64
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "has_tag",
+            "value": "despawn"
+          },
+          "event": "despawn"
+        }
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "air"
+            },
+            "entered_block_event": {
+              "event": "despawn"
+            }
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "no"
+        }
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+    "events": {
+      "despawn": {
+        "remove": {}
+      }
+    }
+  }
+}

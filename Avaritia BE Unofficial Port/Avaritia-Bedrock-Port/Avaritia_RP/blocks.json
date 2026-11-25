@@ -1,0 +1,15 @@
+{
+    "format_version": "1.1.0",
+    "avaritia:crystal_matrix_block": {
+        "sound": "glass"
+    },
+    "avaritia:dire_crafting_table": {
+        "sound": "glass"
+    },
+    "avaritia:compressed_crafting_table": {
+        "sound": "wood"
+    },
+    "avaritia:double_compressed_crafting_table": {
+        "sound": "wood"
+    }
+}

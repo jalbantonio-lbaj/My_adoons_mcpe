@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:skullfire_sword",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "avaritia_skullfire_sword",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:geometry": "geometry.animated_item_skullfire"
+    }
+  }
+}

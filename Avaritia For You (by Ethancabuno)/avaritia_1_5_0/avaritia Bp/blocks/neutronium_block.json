@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:neutronium_block",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "tag:metal": {},
+      "minecraft:display_name": "§e%neutronium_block.name\n%addon.avaritia",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5000
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:loot": "loot_tables/blocks/neutronium_block.json"
+    }
+  }
+}

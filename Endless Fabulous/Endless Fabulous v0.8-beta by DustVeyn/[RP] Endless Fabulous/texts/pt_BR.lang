@@ -1,0 +1,50 @@
+pack.description=§lDesenvolvido por §c@DustVeyn_ofc.
+
+## Blocos
+dustveyn_ef.extreme_crafting_table.name=Mesa de Trabalho Extrema
+dustveyn_ef.neutron_collector.name=Coletor de Nêutrons
+dustveyn_ef.neutronium_block.name=Bloco de Nêotronio
+dustveyn_ef.crystal_matrix_block.name=Bloco de Matriz de Cristal
+dustveyn_ef.neutronium_compressor.name=Compressor de Nêutronio
+dustveyn_ef.enhanced_neutron_collector.name=Coletor de Nêutrons Aprimorado
+dustveyn_ef.supreme_neutron_collector.name=Coletor de Nêutrons Supremo
+
+## Armadura do Infinito
+dustveyn_ef.infinity_helmet.name=Capacete do Infinito
+dustveyn_ef.infinity_chestplate.name=Peitoral do Infinito
+dustveyn_ef.infinity_leggings.name=Calças do Infinito
+dustveyn_ef.infinity_boots.name=Botas do Infinito
+
+## Ferramentas do Infinito
+dustveyn_ef.sword_of_the_death.name=Espada da Morte
+dustveyn_ef.sword_of_the_death.desc=§9+§fDano de Ataque §cI§dN§aF§eI§cN§dI§9T§1O
+dustveyn_ef.skullfire_sword.name=Espada Fogo de Crânio
+dustveyn_ef.skullfire_sword.desc=§jDizem que aqueles que caem diante dela deixam algo muito mais sombrio para trás...
+dustveyn_ef.reality_shatterer.name=Estilhaçador da Realidade
+dustveyn_ef.reality_shatterer.desc=§7A maior fortuna de todas.\nCapaz de destruir a rocha mais indestrutível.
+dustveyn_ef.reality_shatterer_hammer.desc=§7Capaz de destruir a rocha mais indestrutível.
+
+## Itens
+dustveyn_ef.diamond_lattice.name=Treliça de Diamante
+dustveyn_ef.crystal_matrix_ingot.name=Barra de Matriz de Cristal
+dustveyn_ef.pile_of_neutron.name=Pilha de Nêutrons
+dustveyn_ef.neutronium_nugget.name=Pepita de Nêutronio
+dustveyn_ef.neutronium_ingot.name=Barra de Nêutronio
+dustveyn_ef.endest_pearl.name=Pérola Final
+dustveyn_ef.disc_fragment.name=Fragmento de Disco
+dustveyn_ef.infinity_catalyst.name=Catalisador do Infinito
+dustveyn_ef.infinity_ingot.name=Barra do Infinito
+dustveyn_ef.recipe_book.name=Livro de Receitas
+dustveyn_ef.matter_cluster.name=Aglomerado de Matéria
+dustveyn_ef.full_inv_matter.info=Seu inventário está cheio! Abra espaço antes de usar o Aglomerado de Matéria.
+
+## Cristais
+dustveyn_ef.iron_crystal.name=Cristal de Ferro
+dustveyn_ef.copper_crystal.name=Cristal de Cobre
+dustveyn_ef.redstone_crystal.name=Cristal de Redstone
+dustveyn_ef.netherite_crystal.name=Cristal de Netherita
+dustveyn_ef.golden_crystal.name=Cristal de Ouro
+dustveyn_ef.amethyst_crystal.name=Cristal de Ametista
+dustveyn_ef.emerald_crystal.name=Cristal de Esmeralda
+dustveyn_ef.diamond_crystal.name=Crystal de Diamante
+dustveyn_ef.lapis_crystal.name=Cristal de Lápis Lazuli

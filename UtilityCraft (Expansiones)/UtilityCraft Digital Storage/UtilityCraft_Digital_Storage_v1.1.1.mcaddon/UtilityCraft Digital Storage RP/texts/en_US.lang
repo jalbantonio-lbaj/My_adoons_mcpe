@@ -1,0 +1,130 @@
+pack.name=Digital Storage
+
+howtoplay.category.digital_storage=Digital Storage
+howtoplay.ds:overview=Overview
+howtoplay.ds:overview.title=Digital Storage - Overview
+howtoplay.digital_storage.overview.p1=§bDigital Storage§r was created by §eMilo504§r and §eSH.Pro§r, with §dJR.ice§r as the artist.
+howtoplay.digital_storage.overview.p2=It adds a compact §bdigital warehouse§r that combines §astorage cells§r into one §esearchable inventory§r. A large network can hold §dmillions of items§r.
+howtoplay.digital_storage.overview.p3=Start with one §bsmall setup§r, then extend the same network wherever you need §astorage§r, §eaccess§r, §9importing§r, or §cexporting§r.
+howtoplay.digital_storage.getting_started.h1=Getting Started
+howtoplay.digital_storage.getting_started.silicon.p1=§bSilicon§r is one of the most important materials for Digital Storage. Crush §fNether Quartz§r in a §bCrusher§r to obtain §7Quartz Dust§r, then smelt the dust in a §eFurnace§r to make Silicon.
+howtoplay.digital_storage.getting_started.setup.h1=Basic Network
+howtoplay.digital_storage.getting_started.setup.p1=There are §etwo terminals§r: the normal §bStorage Terminal§r for accessing items, and the §bCrafting Terminal§r for accessing and crafting with them.\n\n§b1.§r Place a §bStorage Center§r and supply it with §eDE power§r.\n§b2.§r Place a §bStorage Cell Drive§r and insert at least §aone cell§r.\n§b3.§r Add either terminal.\n§b4.§r Let the blocks touch, or join them with §9Network Cables§r. The network §aconfigures itself automatically§r.
+howtoplay.digital_storage.getting_started.cells.h1=Storage Cells
+howtoplay.digital_storage.getting_started.cells.p1=Logical byte capacities:\n§7Storage: 1 KB§r · §aBasic: 4 KB§r · §bAdvanced: 16 KB§r · §dExpert: 64 KB§r · §6Ultimate: 400 KB§r.\n\nEach §bDrive§r holds up to §e16 cells§r. New item types consume more bytes than additional items of an existing type.
+howtoplay.digital_storage.getting_started.expansion.h1=Transfer and Expansion
+howtoplay.digital_storage.getting_started.expansion.p1=The §bStorage Transfer Station§r moves stored items between cells: place the §9source on the left§r and the §cdestination on the right§r.
+howtoplay.digital_storage.getting_started.expansion.p2=Extend the network with §9Network Cables§r. Buffers are designed to move §elarge quantities of items§r: §9Import Buffers§r feed items into the network, while filtered §cExport Buffers§r pull them out wherever you need them. Use exactly §eone Storage Center§r per connected network.
+
+######################
+####    BLOCKS    ####
+######################
+
+tile.utilitycraft:storage_terminal.name=Storage Terminal
+tile.utilitycraft:storage_terminal.tooltip=§r§7- Access items in a digital storage network\n§o§9@UC: Digital Storage
+tile.utilitycraft:blueprint_terminal.name=Blueprint Terminal
+tile.utilitycraft:blueprint_terminal.tooltip=§r§7- Access network items and manage crafting blueprints\n§o§9@UC: Digital Storage
+tile.utilitycraft:crafting_terminal.name=Crafting Terminal
+tile.utilitycraft:crafting_terminal.tooltip=§r§7- Access network items and craft from storage\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_cell_drive.name=Storage Cell Drive
+tile.utilitycraft:storage_cell_drive.tooltip=§r§7- Holds storage cells for the digital network\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_transfer_station.name=Storage Transfer Station
+tile.utilitycraft:storage_transfer_station.tooltip=§r§7- Transfers stored items between storage cells\n§o§9@UC: Digital Storage
+tile.utilitycraft:network_cable.name=Network Cable
+tile.utilitycraft:network_cable.tooltip=§r§7- Links digital storage blocks into a network\n§o§9@UC: Digital Storage
+tile.utilitycraft:import_buffer.name=Import Buffer
+tile.utilitycraft:import_buffer.tooltip=§r§7- Sends items into connected digital storage\n§o§9@UC: Digital Storage
+tile.utilitycraft:export_buffer.name=Export Buffer
+tile.utilitycraft:export_buffer.tooltip=§r§7- Pulls filtered items out of connected digital storage\n§7- Accepted upgrades:\n   §a§7\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_center.name=Storage Center
+tile.utilitycraft:storage_center.tooltip=§r§7- Powers and controls a digital storage network\n§o§9@UC: Digital Storage
+tile.utilitycraft:fluxite_block.name=Block of Fluxite
+tile.utilitycraft:fluxite_block.tooltip=§r§7- Crafting material\n§o§9@UC: Digital Storage
+
+#######################
+####    Entities   ####
+#######################
+
+entity.utilitycraft:storage_cell_drive.name=Storage Cell Drive
+entity.utilitycraft:storage_transfer_station.name=Storage Transfer Station
+entity.utilitycraft:crafting_terminal.name=§fCrafting Terminal
+entity.utilitycraft:blueprint_terminal.name=§fBlueprint Terminal
+entity.utilitycraft:storage_terminal.name=§fStorage Terminal
+entity.utilitycraft:import_buffer.name=Import Buffer
+entity.utilitycraft:export_buffer.name=Export Buffer
+entity.utilitycraft:storage_center.name=Storage Center
+
+#####################
+####    ITEMS    ####
+#####################
+
+item.utilitycraft:cell_casing=Cell Casing
+tile.utilitycraft:cell_casing.tooltip=§r§7- Empty casing for storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_cell=Storage Cell
+tile.utilitycraft:storage_cell.tooltip=§r§7- Storage: §f1 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:basic_storage_cell=§eBasic Storage Cell
+tile.utilitycraft:basic_storage_cell.tooltip=§r§7- Storage: §f4 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:advanced_storage_cell=§cAdvanced Storage Cell
+tile.utilitycraft:advanced_storage_cell.tooltip=§r§7- Storage: §f16 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:expert_storage_cell=§bExpert Storage Cell
+tile.utilitycraft:expert_storage_cell.tooltip=§r§7- Storage: §f64 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:ultimate_storage_cell=§8Ultimate Storage Cell
+tile.utilitycraft:ultimate_storage_cell.tooltip=§r§7- Storage: §f400 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_part=Storage Part
+tile.utilitycraft:storage_part.tooltip=§r§7- Used to craft storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:basic_storage_part=§eBasic Storage Part
+tile.utilitycraft:basic_storage_part.tooltip=§r§7- Used to craft basic storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:advanced_storage_part=§cAdvanced Storage Part
+tile.utilitycraft:advanced_storage_part.tooltip=§r§7- Used to craft advanced storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:expert_storage_part=§bExpert Storage Part
+tile.utilitycraft:expert_storage_part.tooltip=§r§7- Used to craft expert storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:ultimate_storage_part=§8Ultimate Storage Part
+tile.utilitycraft:ultimate_storage_part.tooltip=§r§7- Used to craft ultimate storage cells\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_core=Storage Core
+tile.utilitycraft:storage_core.tooltip=§r§7- An important component for storage machines and cells\n§o§9@UC: Digital Storage
+item.utilitycraft:fluxite=Fluxite
+tile.utilitycraft:fluxite.tooltip=§r§7- Obtained by infusing quartz with diamond dust\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_filler=Storage Filler
+item.utilitycraft:wireless_panel_off=Wireless Panel-Off
+tile.utilitycraft:wireless_panel_off.tooltip=§r§7- Interact with a Storage Center to link\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_panel_on=Wireless Panel-On
+tile.utilitycraft:wireless_panel_on.tooltip=§r§7- Hold to access the linked network\n§7- Interact with the linked Storage Center to unlink\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_crafting_panel_off=Wireless Crafting Panel-Off
+tile.utilitycraft:wireless_crafting_panel_off.tooltip=§r§7- Interact with a Storage Center to link\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_crafting_panel_on=Wireless Crafting Panel-On
+tile.utilitycraft:wireless_crafting_panel_on.tooltip=§r§7- Hold to access crafting and storage\n§7- Interact with the linked Storage Center to unlink\n§o§9@UC: Digital Storage
+item.utilitycraft:dimensional_range_upgrade=§9Dimensional Range Upgrade§r
+tile.utilitycraft:dimensional_range_upgrade.tooltip=§r§o§9@UC: Digital Storage
+upgrade.utilitycraft:dimensional_range_upgrade.name=§9Dimensional Range Upgrade§r
+
+####################
+####   GROUPS   ####
+####################
+
+dorios:itemGroup.name.storage=Storage
+dorios:itemGroup.name.cells=Cells
+dorios:itemGroup.name.parts=Parts
+dorios:itemGroup.name.materials=Materials
+dorios:itemGroup.name.wireless=Wireless
+
+#################
+####   UI    ####
+#################
+
+ui.utilitycraft:blueprint_label=Crafting
+ui.utilitycraft:crafting_label=Crafting
+message.utilitycraft:vault_missing=§c[Digital Storage] This item had a problem. Please wait a few seconds and try again.
+message.utilitycraft:wireless_linked=§a[Digital Storage] Wireless Panel linked.
+message.utilitycraft:wireless_unlinked=§a[Digital Storage] Wireless Panel unlinked.
+message.utilitycraft:wireless_network_unavailable=§c[Digital Storage] The linked network is not available.
+message.utilitycraft:wireless_overworld_only=§c[Digital Storage] The Wireless Panel only works in the Overworld.
+message.utilitycraft:wireless_out_of_range=§c[Digital Storage] You are outside the linked network's wireless range.
+message.utilitycraft:wireless_dimension_unavailable=§c[Digital Storage] This network requires a Dimensional Range Upgrade for access from another dimension.
+ui.utilitycraft:info.storage_transfer_station=§8Transfers stored items from the §9left slot§8 to the §cright slot§8 every 10 ticks. Each operation moves up to §q500 items§8, plus 500 for each installed §qSpeed Upgrade§8 level, without exceeding the destination cell capacity in logical bytes. Adding a new item type consumes more bytes than extending an existing type.\n\n§8Slots:\n- Left: source storage cell.\n- Right: destination storage cell.\n\n§8Accepted upgrade:\n- Speed Upgrade (maximum level: 8)
+ui.utilitycraft:info.storage_center=§8Creates, powers, and controls a digital storage network connected through §qNetwork Cables§8. It links Storage Cell Drives, terminals, Import Buffers, and Export Buffers into one network.\n\n§8The network requires exactly one §qStorage Center§8 and at least one §qStorage Cell Drive§8 containing a storage cell. Its energy cost depends on the connected topology, with a minimum consumption of §q10 DE/t§8. If the center runs out of energy, the network is turned off.
+ui.utilitycraft:info.storage_cell_drive=§8Holds up to §q16 storage cells§8 and contributes their combined byte capacity to the connected digital storage network. The §qStorage Center§8 reads the installed cells when it creates the network.\n\n§8Changing a cell while the drive is linked turns the §cnetwork off§8 so the Storage Center can rebuild it safely.
+ui.utilitycraft:info.import_buffer=§8Moves items from its §918 input slots§8 into the connected digital storage network every §q10 ticks§8. It processes one occupied stack per operation, plus one additional stack for each §qSpeed Upgrade§8 level.\n\n§8Accepted upgrade:\n- §qSpeed Upgrade§8 (maximum level: 8)\n\n§8Automation can only insert items into the input slots.
+ui.utilitycraft:info.export_buffer=§8Uses its §q9 filter slots§8 to pull matching items from the connected digital storage network into §c27 output slots§8 every 10 ticks. It exports one stack per operation, plus one additional stack for each §qSpeed Upgrade§8 level.\n\n§8Accepted upgrade:\n- §qSpeed Upgrade§8 (maximum level: 8)\n\n§8Automation can only extract items from the output slots.
+
+## Quick Info addon name
+utilitycraft.identifier=§o§9@UtilityCraft

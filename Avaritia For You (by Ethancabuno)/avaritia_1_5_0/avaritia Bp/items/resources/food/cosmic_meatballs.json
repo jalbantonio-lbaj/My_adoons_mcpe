@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:cosmic_meatballs",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§e%cosmic_meatballs.name\n%addon.avaritia"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:block_placer": {
+        "block": "avaritia:anim_cosmic_meatballs",
+        "use_on": []
+      }
+    }
+  }
+}

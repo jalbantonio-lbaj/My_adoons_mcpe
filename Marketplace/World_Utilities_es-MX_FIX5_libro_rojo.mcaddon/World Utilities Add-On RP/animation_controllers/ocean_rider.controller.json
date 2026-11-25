@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.gf_wu.ocean_rider.main": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{ "moving": "query.property('gf_wu:is_moving')" }
+					]
+				},
+				"moving": {
+					"animations": [ "moving" ],
+					"transitions": [
+						{ "idle": "!query.property('gf_wu:is_moving')" }
+					]
+				}
+			}
+		}
+	}
+}

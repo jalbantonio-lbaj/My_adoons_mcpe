@@ -1,0 +1,66 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:sculk_crafting_table",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.tables"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 25
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "crafting_table"
+        ],
+        "table_name": "Sculk Crafting Table"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "sculk_crafting_table_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "sculk_crafting_table_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "sculk_crafting_table_bottom",
+          "render_method": "opaque"
+        }
+      }
+    },
+    "permutations": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "infinity_axe_strip",
+    "metalness_emissive_roughness": "infinity_axe_strip_mer"
+  }
+}

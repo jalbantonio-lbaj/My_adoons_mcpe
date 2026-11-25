@@ -1,0 +1,63 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:mace_hit_particle",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "hit_particle:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 0.0,
+            "height": 0.0,
+            "pivot": [
+              0,
+              110,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:behavior.emerge": {
+        "duration": 0,
+        "on_done": {
+          "event": "hit_particle:despawn",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "hit_particle:despawn": {
+        "add": {
+          "component_groups": [
+            "hit_particle:despawn"
+          ]
+        }
+      }
+    }
+  }
+}

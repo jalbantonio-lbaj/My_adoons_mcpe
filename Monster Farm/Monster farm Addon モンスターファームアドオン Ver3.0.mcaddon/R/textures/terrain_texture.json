@@ -1,0 +1,22 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+    "texture_data": {
+        "vindicator_farm": { "textures": [ "textures/blocks/vindicator_farm" ] },
+        "phantom_farm": { "textures": [ "textures/blocks/phantom_farm" ] },
+        "piglin_farm": { "textures": [ "textures/blocks/piglin_farm" ] },
+        "witch_farm": { "textures": [ "textures/blocks/witch_farm" ] },
+
+        "zombie_farm": { "textures": [ "textures/blocks/zombie_farm" ] },
+        "skeleton_farm": { "textures": [ "textures/blocks/skeleton_farm" ] },
+        "creeper_farm": { "textures": [ "textures/blocks/creeper_farm" ] },
+        "iron_golem_farm": { "textures": [ "textures/blocks/iron_golem_farm" ] },
+        "enderman_farm": { "textures": [ "textures/blocks/enderman_farm" ] },
+        "wither_skeleton_farm": { "textures": [ "textures/blocks/wither_skeleton_farm" ] },
+        "blaze_farm": { "textures": [ "textures/blocks/blaze_farm" ] },
+        "slime_farm": { "textures": [ "textures/blocks/slime_farm" ] }
+
+    }
+}

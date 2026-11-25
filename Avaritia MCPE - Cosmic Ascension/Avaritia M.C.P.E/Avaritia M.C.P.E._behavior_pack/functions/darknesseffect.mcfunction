@@ -1,0 +1,1 @@
+effect @e[r=8] darkness 4 255

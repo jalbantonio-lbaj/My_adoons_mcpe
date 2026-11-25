@@ -1,0 +1,420 @@
+{
+  "namespace": "avaritia_smithing",
+  "smithing_hidden_slot_bg": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "smithing_cell": {
+    "type": "panel",
+    "$size|default": [
+      18,
+      18
+    ],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [
+      16,
+      16
+    ],
+    "$background_images|default": "avaritia_smithing.smithing_hidden_slot_bg",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "smithing_slot": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "$collection_index|default": 0,
+    "size": [
+      18,
+      18
+    ],
+    "controls": [
+      {
+        "cell@avaritia_smithing.smithing_cell": {
+          "collection_index": "$collection_index",
+          "size": [
+            18,
+            18
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "smithing_invalid_arrow": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "size": [
+      29,
+      18
+    ],
+    "controls": [
+      {
+        "indexed_content": {
+          "type": "panel",
+          "size": [
+            29,
+            18
+          ],
+          "bindings": [
+            {
+              "binding_name": "#item_id_aux",
+              "binding_type": "collection",
+              "binding_collection_name": "container_items"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#item_id_aux != 0)",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "no_output": {
+                "type": "collection_panel",
+                "collection_name": "container_items",
+                "size": [
+                  29,
+                  18
+                ],
+                "controls": [
+                  {
+                    "indexed_content": {
+                      "type": "panel",
+                      "size": [
+                        29,
+                        18
+                      ],
+                      "bindings": [
+                        {
+                          "binding_name": "#item_id_aux",
+                          "binding_type": "collection",
+                          "binding_collection_name": "container_items"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#item_id_aux = 0)",
+                          "target_property_name": "#visible"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "x_arrow": {
+                            "type": "image",
+                            "texture": "textures/ui/extreme_smithing_gui",
+                            "size": [
+                              29,
+                              18
+                            ],
+                            "uv": [
+                              176,
+                              3
+                            ],
+                            "uv_size": [
+                              29,
+                              18
+                            ],
+                            "layer": 8,
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "offset": [
+                              0,
+                              0
+                            ]
+                          }
+                        }
+                      ],
+                      "collection_index": 5
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "collection_index": 1
+        }
+      }
+    ]
+  },
+  "smithing_machine": {
+    "type": "panel",
+    "size": [
+      176,
+      166
+    ],
+    "controls": [
+      {
+        "template_slot@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            30,
+            34
+          ],
+          "$collection_index": 0
+        }
+      },
+      {
+        "base_slot@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            48,
+            34
+          ],
+          "$collection_index": 1
+        }
+      },
+      {
+        "addition_top@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            48,
+            16
+          ],
+          "$collection_index": 2
+        }
+      },
+      {
+        "addition_right@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            66,
+            34
+          ],
+          "$collection_index": 3
+        }
+      },
+      {
+        "addition_bottom@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            48,
+            52
+          ],
+          "$collection_index": 4
+        }
+      },
+      {
+        "output_slot@avaritia_smithing.smithing_slot": {
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            120,
+            34
+          ],
+          "$collection_index": 5
+        }
+      },
+      {
+        "invalid_arrow@avaritia_smithing.smithing_invalid_arrow": {
+          "layer": 7,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            86,
+            34
+          ]
+        }
+      },
+      {
+        "progress@avaritia.table_progress": {
+          "$fill_texture": "textures/ui/table_progress_smith",
+          "$fill_size": [
+            22,
+            8
+          ],
+          "$collection_index": 6,
+          "size": [
+            22,
+            8
+          ],
+          "layer": 7,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            90,
+            39
+          ]
+        }
+      },
+      {
+        "crafted@avaritia_smithing.smithing_crafted_wrap": {
+          "layer": 7,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            94,
+            57
+          ]
+        }
+      }
+    ]
+  },
+  "smithing_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [
+            176,
+            166
+          ],
+          "controls": [
+            {
+              "gui_art": {
+                "type": "image",
+                "texture": "textures/ui/extreme_smithing_gui",
+                "size": [
+                  176,
+                  166
+                ],
+                "uv": [
+                  0,
+                  0
+                ],
+                "uv_size": [
+                  176,
+                  166
+                ],
+                "layer": 2,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "machine@avaritia_smithing.smithing_machine": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_area": {
+                      "type": "panel",
+                      "size": [
+                        176,
+                        166
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "controls": [
+                        {
+                          "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                        },
+                        {
+                          "hotbar_grid@common.hotbar_grid_template": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+              "avaritia_close_layer@avaritia_close.close_layer": {
+                "$frame_size": [
+                  176,
+                  166
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "smithing_crafted_wrap": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "size": [
+      70,
+      10
+    ],
+    "controls": [
+      {
+        "crafted_label@avaritia.table_crafted_label": {
+          "$label_color": [
+            1,
+            1,
+            1
+          ],
+          "collection_index": 7,
+          "size": [
+            70,
+            10
+          ]
+        }
+      }
+    ]
+  }
+}

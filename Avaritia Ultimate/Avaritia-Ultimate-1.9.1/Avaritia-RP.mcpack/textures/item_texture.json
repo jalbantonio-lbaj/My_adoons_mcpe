@@ -1,0 +1,431 @@
+{
+  "resource_pack_name": "avaritia_bedrock",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "diamond_lattice": {
+      "textures": "textures/items/diamond_lattice"
+    },
+    "crystal_matrix_ingot": {
+      "textures": "textures/items/crystal_matrix_ingot"
+    },
+    "neutron_pile": {
+      "textures": "textures/items/neutron_pile"
+    },
+    "neutron_nugget": {
+      "textures": "textures/items/neutron_nugget"
+    },
+    "neutronium_ingot": {
+      "textures": "textures/items/neutronium_ingot"
+    },
+    "infinity_catalyst": {
+      "textures": "textures/items/infinity_catalyst"
+    },
+    "infinity_ingot": {
+      "textures": "textures/items/infinity_ingot"
+    },
+    "record_fragment": {
+      "textures": "textures/items/record_fragment"
+    },
+    "starfuel": {
+      "textures": "textures/items/starfuel"
+    },
+    "neutronium_gear": {
+      "textures": "textures/items/neutronium_gear"
+    },
+    "avaritia:ui_filler": {
+      "textures": "textures/ui/ui_filler"
+    },
+    "avaritia:collector_bar": {
+      "textures": "textures/ui/bar_full"
+    },
+    "avaritia:collector": {
+      "textures": "textures/blocks/collector_top"
+    },
+    "avaritia:dire_crafting_table": {
+      "textures": "textures/blocks/dire_crafting_top"
+    },
+    "avaritia:extreme_crafting_table": {
+      "textures": "textures/blocks/extreme_crafting_top"
+    },
+    "avaritia:infinity_block": {
+      "textures": "textures/blocks/infinity_block"
+    },
+    "avaritia:arrow_empty": {
+      "textures": "textures/ui/arrow_empty"
+    },
+    "avaritia:arrow_full": {
+      "textures": "textures/ui/arrow_full"
+    },
+    "singularity_iron": {
+      "textures": "textures/items/singularity_iron"
+    },
+    "singularity_gold": {
+      "textures": "textures/items/singularity_gold"
+    },
+    "singularity_eternal": {
+      "textures": "textures/items/singularity_eternal"
+    },
+    "singularity_lapis": {
+      "textures": "textures/items/singularity_lapis"
+    },
+    "singularity_redstone": {
+      "textures": "textures/items/singularity_redstone"
+    },
+    "singularity_quartz": {
+      "textures": "textures/items/singularity_quartz"
+    },
+    "singularity_copper": {
+      "textures": "textures/items/singularity_copper"
+    },
+    "singularity_ender": {
+      "textures": "textures/items/singularity_ender"
+    },
+    "singularity_silver": {
+      "textures": "textures/items/singularity_silver"
+    },
+    "singularity_sculk": {
+      "textures": "textures/items/singularity_sculk"
+    },
+    "singularity_clay": {
+      "textures": "textures/items/singularity_clay"
+    },
+    "singularity_emerald": {
+      "textures": "textures/items/singularity_emerald"
+    },
+    "singularity_diamond": {
+      "textures": "textures/items/singularity_diamond"
+    },
+    "singularity_coal": {
+      "textures": "textures/items/singularity_coal"
+    },
+    "singularity_steel": {
+      "textures": "textures/items/singularity_steel"
+    },
+    "singularity_netherite": {
+      "textures": "textures/items/singularity_netherite"
+    },
+    "singularity_aetherium": {
+      "textures": "textures/items/singularity_aetherium"
+    },
+    "singularity_titanium": {
+      "textures": "textures/items/singularity_titanium"
+    },
+    "singularity_tin": {
+      "textures": "textures/items/singularity_tin"
+    },
+    "singularity_uranium": {
+      "textures": "textures/items/singularity_uranium"
+    },
+    "singularity_bronze": {
+      "textures": "textures/items/singularity_bronze"
+    },
+    "singularity_energized_iron": {
+      "textures": "textures/items/singularity_energized_iron"
+    },
+    "singularity_silicon": {
+      "textures": "textures/items/singularity_silicon"
+    },
+    "endest_pearl": {
+      "textures": "textures/items/endest_pearl_icon"
+    },
+    "endest_pearl_proj": {
+      "textures": "textures/items/endest_pearl_proj"
+    },
+    "avaritia_black_hole": {
+      "textures": "textures/items/black_hole"
+    },
+    "meatballs": {
+      "textures": "textures/items/meatballs"
+    },
+    "stew": {
+      "textures": "textures/items/stew"
+    },
+    "blaze_axe": {
+      "textures": "textures/items/blaze_axe"
+    },
+    "blaze_hoe": {
+      "textures": "textures/items/blaze_hoe"
+    },
+    "blaze_pickaxe": {
+      "textures": "textures/items/blaze_pickaxe"
+    },
+    "blaze_shovel": {
+      "textures": "textures/items/blaze_shovel"
+    },
+    "crystal_axe": {
+      "textures": "textures/items/crystal_axe"
+    },
+    "crystal_hoe": {
+      "textures": "textures/items/crystal_hoe"
+    },
+    "crystal_pickaxe": {
+      "textures": "textures/items/crystal_pickaxe"
+    },
+    "crystal_shovel": {
+      "textures": "textures/items/crystal_shovel"
+    },
+    "crystal_sword": {
+      "textures": "textures/items/crystal_sword"
+    },
+    "crystal_matrix": {
+      "textures": "textures/items/crystal_matrix"
+    },
+    "neutronium_star": {
+      "textures": "textures/items/neutronium_star"
+    },
+    "pile_of_neutrons": {
+      "textures": "textures/items/pile_of_neutrons"
+    },
+    "neutronium_nugget": {
+      "textures": "textures/items/neutronium_nugget"
+    },
+    "infinity_nugget": {
+      "textures": "textures/items/infinity_nugget"
+    },
+    "cosmic_meatballs": {
+      "textures": "textures/items/cosmic_meatballs"
+    },
+    "ultimate_stew": {
+      "textures": "textures/items/ultimate_stew"
+    },
+    "matter_cluster": {
+      "textures": "textures/items/matter_cluster"
+    },
+    "skullfire_sword": {
+      "textures": "textures/items/tool_icons/skullfire_sword"
+    },
+    "infinity_totem": {
+      "textures": "textures/items/infinity_totem"
+    },
+    "infinity_sword": {
+      "textures": "textures/items/infinity_sword"
+    },
+    "infinity_hoe": {
+      "textures": "textures/items/tool_icons/infinity_hoe"
+    },
+    "infinity_bow": {
+      "textures": "textures/items/infinity_bow_standby"
+    },
+    "infinity_pickaxe": {
+      "textures": "textures/items/tool_icons/infinity_pickaxe"
+    },
+    "infinity_axe": {
+      "textures": "textures/items/tool_icons/infinity_axe"
+    },
+    "infinity_shovel": {
+      "textures": "textures/items/tool_icons/infinity_shovel"
+    },
+    "infinity_boots": {
+      "textures": "textures/items/infinity_boots"
+    },
+    "infinity_helmet": {
+      "textures": "textures/items/infinity_helmet"
+    },
+    "infinity_chestplate": {
+      "textures": "textures/items/infinity_chestplate"
+    },
+    "infinity_leggings": {
+      "textures": "textures/items/infinity_leggings"
+    },
+    "infinity_hammer": {
+      "textures": "textures/items/tool_icons/infinity_hammer"
+    },
+    "infinity_destroyer": {
+      "textures": "textures/items/infinity_destroyer"
+    },
+    "asgardandelion": {
+      "textures": "textures/blocks/asgardandelion"
+    },
+    "asgardandelion_item": {
+      "textures": "textures/items/asgardandelion"
+    },
+    "avaritia_guide": {
+      "textures": "textures/items/avaritia_guide"
+    },
+    "neutronium_sword": {
+      "textures": "textures/items/neutronium_sword"
+    },
+    "neutronium_pickaxe": {
+      "textures": "textures/items/neutronium_pickaxe"
+    },
+    "neutronium_axe": {
+      "textures": "textures/items/neutronium_axe"
+    },
+    "neutronium_shovel": {
+      "textures": "textures/items/neutronium_shovel"
+    },
+    "neutronium_hoe": {
+      "textures": "textures/items/neutronium_hoe"
+    },
+    "neutronium_mace": {
+      "textures": "textures/items/neutronium_mace"
+    },
+    "infinity_mace": {
+      "textures": "textures/items/infinity_mace"
+    },
+    "infinity_shears": {
+      "textures": "textures/items/tool_icons/infinity_shears"
+    },
+    "star_dessert": {
+      "textures": "textures/items/star_dessert"
+    },
+    "singularity_stew": {
+      "textures": "textures/items/singularity_stew"
+    },
+    "neutronium_mobile": {
+      "textures": "textures/items/neutronium_mobile"
+    },
+    "neutronium_wind_charge": {
+      "textures": "textures/items/neutronium_wind_charge"
+    },
+    "infinity_bottle": {
+      "textures": "textures/items/infinity_bottle"
+    },
+    "infinity_book": {
+      "textures": "textures/items/infinity_book"
+    },
+    "portable_blaze_burner": {
+      "textures": "textures/items/portable_blaze_burner"
+    },
+    "avaritia:singularity_stew": {
+      "textures": "textures/items/singularity_stew"
+    },
+    "avaritia:star_dessert": {
+      "textures": "textures/items/star_dessert"
+    },
+    "avaritia:infinity_bottle": {
+      "textures": "textures/items/infinity_bottle"
+    },
+    "avaritia:infinity_book": {
+      "textures": "textures/items/book_enchanted"
+    },
+    "blaze_wind_charge": {
+      "textures": "textures/items/blaze_wind_charge"
+    },
+    "crystal_wind_charge": {
+      "textures": "textures/items/crystal_wind_charge"
+    },
+    "blaze_helmet": {
+      "textures": "textures/items/blaze_helmet"
+    },
+    "blaze_chestplate": {
+      "textures": "textures/items/blaze_chestplate"
+    },
+    "blaze_leggings": {
+      "textures": "textures/items/blaze_leggings"
+    },
+    "blaze_boots": {
+      "textures": "textures/items/blaze_boots"
+    },
+    "crystal_helmet": {
+      "textures": "textures/items/crystal_helmet"
+    },
+    "crystal_chestplate": {
+      "textures": "textures/items/crystal_chestplate"
+    },
+    "crystal_leggings": {
+      "textures": "textures/items/crystal_leggings"
+    },
+    "crystal_boots": {
+      "textures": "textures/items/crystal_boots"
+    },
+    "blaze_cube": {
+      "textures": "textures/items/blaze_cube"
+    },
+    "blaze_bow": {
+      "textures": "textures/items/blaze_bow_standby"
+    },
+    "crystal_bow": {
+      "textures": "textures/items/crystal_bow_standby"
+    },
+    "infinity_shield": {
+      "textures": "textures/items/infinity_shield"
+    },
+    "infinity_umbrella": {
+      "textures": "textures/items/infinity_umbrella"
+    },
+    "sun_pro": {
+      "textures": "textures/items/sun_pro"
+    },
+    "rain_pro": {
+      "textures": "textures/items/rain_pro"
+    },
+    "storm_pro": {
+      "textures": "textures/items/storm_pro"
+    },
+    "enhancement_core": {
+      "textures": "textures/items/enhancement_core"
+    },
+    "upgrade_smithing_template": {
+      "textures": "textures/items/upgrade_smithing_template"
+    },
+    "infinity_elytra": {
+      "textures": "textures/items/infinity_elytra"
+    },
+    "infinity_bucket": {
+      "textures": "textures/items/infinity_bucket"
+    },
+    "refined_coal": {
+      "textures": "textures/items/refined_coal"
+    },
+    "endless_cake": {
+      "textures": "textures/items/endless_cake"
+    },
+    "refined_coal_block_icon": {
+      "textures": "textures/blocks/refined_coal_block"
+    },
+    "star_fuel_block_icon": {
+      "textures": "textures/blocks/star_fuel_block"
+    },
+    "infinity_clock": {
+      "textures": "textures/items/infinity_clock"
+    },
+    "infinity_upgrade": {
+      "textures": "textures/items/infinity_upgrade"
+    },
+    "anvil_rename_button": {
+      "textures": "textures/items/anvil_rename_button"
+    },
+    "full_matter_cluster": {
+      "textures": "textures/items/full_matter_cluster"
+    },
+    "neutron_ring": {
+      "textures": "textures/items/neutron_ring"
+    },
+    "infinity_ring": {
+      "textures": "textures/items/infinity_ring"
+    },
+    "blaze_spear": {
+      "textures": "textures/items/blaze_spear"
+    },
+    "crystal_spear": {
+      "textures": "textures/items/crystal_spear"
+    },
+    "infinity_spear": {
+      "textures": "textures/items/infinity_spear"
+    },
+    "neutronium_horse_armor": {
+      "textures": [
+        "textures/items/neutronium_horse_armor"
+      ]
+    },
+    "infinity_crossbow": {
+      "textures": "textures/items/infinity_crossbow_standby"
+    },
+    "infinity_crossbow_arrow": {
+      "textures": "textures/items/infinity_crossbow_arrow"
+    },
+    "infinity_crossbow_firework": {
+      "textures": "textures/items/infinity_crossbow_firework"
+    },
+    "infinity_trident": {
+      "textures": "textures/items/infinity_trident"
+    },
+    "infinity_trident_icon": {
+      "textures": "textures/items/infinity_trident_icon"
+    },
+    "avaritia:side_config_card": {
+      "textures": "textures/items/side_config_card"
+    }
+  }
+}

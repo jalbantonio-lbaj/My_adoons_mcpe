@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:avaritia_guide"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "ACA",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_star"
+      },
+      "C": {
+        "item": "minecraft:book"
+      },
+      "B": {
+        "item": "minecraft:crafting_table"
+      }
+    },
+    "result": [
+      {
+        "item": "avaritia:avaritia_guide",
+        "count": 1
+      }
+    ]
+  }
+}

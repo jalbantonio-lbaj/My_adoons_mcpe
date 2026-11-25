@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "white_redstone_lamp_30ddc9e6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:white_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:white_redstone_lamp",
+      "count": 1
+    }
+  }
+}

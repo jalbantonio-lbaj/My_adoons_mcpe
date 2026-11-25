@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cofre Infinito v.0.3",
+    "description": "Un cofre especial de almacenamiento prácticamente ilimitado. Guarda, organiza y recupera tus objetos mediante una interfaz intuitiva, con paginación y un diseño único de cristal translúcido.",
+    "uuid": "bf8d0ee5-1156-4e18-8f7e-c7add84f8b79",
+    "version": [
+      1,
+      0,
+      6
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "33099341-db38-4661-8a18-4d5946905bb4",
+      "version": [
+        1,
+        0,
+        6
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "30e1d3a1-d3b9-4069-a718-74c14e837735",
+      "version": [
+        1,
+        0,
+        5
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

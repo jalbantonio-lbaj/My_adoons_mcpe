@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:neutronium_ingot",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:rarity": {
+        "value": "rare"
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:neutronium_ingot",
+        "use_on": [
+          "avaritia:neutronium_ingot"
+        ],
+        "replace_block_item": true
+      }
+    }
+  }
+}

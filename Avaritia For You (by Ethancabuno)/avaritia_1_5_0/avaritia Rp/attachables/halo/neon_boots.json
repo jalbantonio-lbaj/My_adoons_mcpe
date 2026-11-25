@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "halo:neon_boots",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted",
+        "outline": "halo_armor_outline"
+      },
+      "textures": {
+        "default": "textures/models/armor/neon_halo_boots",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/models/armor/neon_outline"
+      },
+      "geometry": {
+        "default": "geometry.halo.neon_boots",
+        "outline": "geometry.halo.neon_boots_outline"
+      },
+      "render_controllers": [
+        "controller.render.armor",
+        "controller.render.halo.neon_outline_boots"
+      ]
+    }
+  }
+}

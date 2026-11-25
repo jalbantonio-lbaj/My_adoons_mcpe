@@ -1,0 +1,12 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/pa_crystalmatrixblock",
+    "atlas_tile": "ani_pa_crystalmatrixblock",
+    "ticks_per_frame": 3
+  },
+  {
+    "flipbook_texture": "textures/blocks/pa_infinityblock",
+    "atlas_tile": "ani_pa_infinityblock",
+    "ticks_per_frame": 3
+  }
+]

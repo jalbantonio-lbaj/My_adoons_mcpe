@@ -1,0 +1,379 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "vge:red_stained_glass_chest",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.chest"
+      },
+      "states": {
+        "vge:half": [
+          0,
+          1,
+          2
+        ],
+        "vge:lid": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.vge.chest",
+        "bone_visibility": {
+          "body_north_0": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0",
+          "lid_north_0_0": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 0",
+          "lid_north_0_1": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 1",
+          "lid_north_0_2": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 2",
+          "lid_north_0_3": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 3",
+          "body_north_1": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1",
+          "lid_north_1_0": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 0",
+          "lid_north_1_1": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 1",
+          "lid_north_1_2": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 2",
+          "lid_north_1_3": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 3",
+          "body_north_2": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2",
+          "lid_north_2_0": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 0",
+          "lid_north_2_1": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 1",
+          "lid_north_2_2": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 2",
+          "lid_north_2_3": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 3",
+          "body_east_0": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0",
+          "lid_east_0_0": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 0",
+          "lid_east_0_1": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 1",
+          "lid_east_0_2": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 2",
+          "lid_east_0_3": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 3",
+          "body_east_1": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1",
+          "lid_east_1_0": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 0",
+          "lid_east_1_1": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 1",
+          "lid_east_1_2": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 2",
+          "lid_east_1_3": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 3",
+          "body_east_2": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2",
+          "lid_east_2_0": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 0",
+          "lid_east_2_1": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 1",
+          "lid_east_2_2": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 2",
+          "lid_east_2_3": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 3",
+          "body_south_0": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0",
+          "lid_south_0_0": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 0",
+          "lid_south_0_1": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 1",
+          "lid_south_0_2": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 2",
+          "lid_south_0_3": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 3",
+          "body_south_1": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1",
+          "lid_south_1_0": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 0",
+          "lid_south_1_1": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 1",
+          "lid_south_1_2": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 2",
+          "lid_south_1_3": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 3",
+          "body_south_2": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2",
+          "lid_south_2_0": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 0",
+          "lid_south_2_1": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 1",
+          "lid_south_2_2": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 2",
+          "lid_south_2_3": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 3",
+          "body_west_0": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0",
+          "lid_west_0_0": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 0",
+          "lid_west_0_1": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 1",
+          "lid_west_0_2": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 2",
+          "lid_west_0_3": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0 && q.block_state('vge:lid') == 3",
+          "body_west_1": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1",
+          "lid_west_1_0": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 0",
+          "lid_west_1_1": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 1",
+          "lid_west_1_2": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 2",
+          "lid_west_1_3": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1 && q.block_state('vge:lid') == 3",
+          "body_west_2": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2",
+          "lid_west_2_0": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 0",
+          "lid_west_2_1": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 1",
+          "lid_west_2_2": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 2",
+          "lid_west_2_3": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2 && q.block_state('vge:lid') == 3"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "vge_red_stained_glass",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        },
+        "hw": {
+          "texture": "vge_red_stained_glass_hw",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty_glass.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.6
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.5
+      },
+      "minecraft:sound": {
+        "sound": "glass"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.hat"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.vge.chest_item",
+        "material_instances": {
+          "*": {
+            "texture": "vge_red_stained_glass",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          },
+          "hw": {
+            "texture": "vge_red_stained_glass_hw",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -7.0,
+          0.0,
+          -7.0
+        ],
+        "size": [
+          14.0,
+          14.0,
+          14.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -7.0,
+          0.0,
+          -7.0
+        ],
+        "size": [
+          14.0,
+          10.0,
+          14.0
+        ]
+      },
+      "vge:chest": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              15.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('vge:half') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              15.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              15.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('vge:half') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              15.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              15.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('vge:half') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              15.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              14.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              15.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('vge:half') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -7.0,
+              0.0,
+              -7.0
+            ],
+            "size": [
+              14.0,
+              10.0,
+              15.0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

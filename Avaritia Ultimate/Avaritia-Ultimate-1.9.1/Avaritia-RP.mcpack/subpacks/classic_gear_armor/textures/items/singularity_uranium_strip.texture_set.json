@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "singularity_uranium_strip",
+    "metalness_emissive_roughness": "singularity_uranium_strip_mer"
+  }
+}

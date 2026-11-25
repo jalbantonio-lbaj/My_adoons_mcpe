@@ -1,0 +1,17 @@
+{
+  "format_version": "1.19.70",
+  "render_controllers": {
+    "controller.render.avaritia.fishing_rod": {
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? material.enchanted : material.default"
+        }
+      ],
+      "textures": [
+        "(v.cast??0) ? texture.cast : texture.default",
+        "texture.enchanted"
+      ]
+    }
+  }
+}

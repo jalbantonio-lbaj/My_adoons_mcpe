@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gf_wu:safari_net_blue"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["www", "wEw", "www"],
+    "key": {
+      "w": {
+        "item": "minecraft:string"
+      },
+      "E": {
+        "item": "minecraft:blue_egg"
+      }
+    },
+    "result": {
+      "item": "gf_wu:safari_net"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:crystal_matrix_ingot",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "dustveyn_ef:crystal_matrix_ingot",
+                "replace_block_item": true
+            },
+            "minecraft:display_name": {
+                "value": "§b%dustveyn_ef.crystal_matrix_ingot.name\n§o§9Endless Fabulous"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

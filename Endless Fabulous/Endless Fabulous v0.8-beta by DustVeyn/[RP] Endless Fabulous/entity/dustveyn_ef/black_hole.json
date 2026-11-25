@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dustveyn_ef:black_hole",
+      "materials": {
+        "default": "agent"
+      },
+      "textures": {
+        "default": "textures/dustveyn_ef/misc/black_hole"
+      },
+      "geometry": {
+        "default": "geometry.dustveyn_ef.blackhole"
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

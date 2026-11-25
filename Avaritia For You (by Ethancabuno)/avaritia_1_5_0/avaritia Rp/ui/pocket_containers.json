@@ -1,0 +1,9 @@
+{
+  "namespace": "pocket_containers",
+
+  /* Admin Inventory Viewer: show the target's name instead of the internal title marker */
+  "header_area/container_header": {
+    "$new_custom_name|default": "$container_title",
+    "$header_label": "$new_custom_name"
+  }
+}

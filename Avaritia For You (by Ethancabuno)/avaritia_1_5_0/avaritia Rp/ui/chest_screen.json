@@ -1,0 +1,1209 @@
+/********************************************************
+ * Avaritia - chest_screen.json (UtilityCraft-compatible)
+ *
+ * This file NO LONGER copies the vanilla chest_screen.json.
+ * It only:
+ *   1) defines the NEW controls (ec_*, nc_*, comp_*, rf_*)
+ *   2) uses "modifications" to insert conditions into
+ *      small_chest_screen  -> so other addons (UtilityCraft...)
+ *      can stack on top of each other without overwriting.
+ ********************************************************/
+{
+    "namespace": "chest",
+
+    ////---------------------------------------------------------------------------
+    //// //// #region EC 9x9 - NEW CONTROLS (names do not clash with vanilla)
+    ////---------------------------------------------------------------------------
+    "ec_9x9_grid": {
+        "type": "grid",
+        "size": [ 162, 162 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "grid_dimensions": [ 9, 9 ],
+        "grid_item_template": "chest.chest_grid_item",
+        "collection_name": "container_items"
+    },
+
+    "ec_output_slot_wrapper": {
+        "type": "panel",
+        "size": [ 25, 25 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 25, 25 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "ec_output_item@chest.chest_grid_item": {
+                                "collection_index": 81,
+                                "size": [ 25, 25 ],
+                                "$cell_image_size": [ 25, 25 ],
+                                "$item_renderer_panel_size": [ 25, 25 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "ec_chest_label": {
+        "type": "label",
+        "offset": [ 7, -1 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "text": "Dire Crafting Table",
+        "size": [ "90%", "default" ],
+        "color": "$title_text_color",
+        "layer": 2
+    },
+
+    "ec_9x9_panel_top_half": {
+        "type": "panel",
+        "size": [ "100%", 184 ],
+        "offset": [ 0, 11 ],
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "controls": [
+                { "ec_book_open_tg@ec_index.book_open_toggle": { "offset": [ 192, 106 ] } },
+            { "ec_chest_label@chest.ec_chest_label": {} },
+            {
+                "ec_9x9_grid@chest.ec_9x9_grid": {
+                    "offset": [ 7, 10 ]
+                }
+            },
+            {
+                "ec_output_arrow": {
+                    "type": "label",
+                    "text": ">>",
+                    "size": [ 22, 16 ],
+                    "offset": [ 176, 84 ],
+                    "anchor_from": "top_left",
+                    "anchor_to": "top_left",
+                    "color": "$title_text_color",
+                    "layer": 3
+                }
+            },
+            {
+                "ec_output_slot_wrapper@chest.ec_output_slot_wrapper": {
+                    "offset": [ 91, -3 ]
+                }
+            }
+        ]
+    },
+
+    "ec_9x9_panel": {
+        "type": "panel",
+        "controls": [
+            { "ec_index_panel@ec_index.index_panel": { "offset": [ -195, 0 ] } },
+            { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 11
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {
+                    "control_name": "@chest.selected_item_details"
+                }
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {
+                    "control_name": "@common.item_lock_notification"
+                }
+            },
+            {
+                "root_panel@common.root_panel": {
+                    "size": [ 226, 272 ],
+                    "layer": 1,
+                    "controls": [
+                        { "common_panel@common.common_panel": {} },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    { "ec_9x9_panel_top_half@chest.ec_9x9_panel_top_half": {} },
+                                    { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                                    { "hotbar_grid@common.hotbar_grid_template": {} },
+                                    { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                                ]
+                            }
+                        },
+                        { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                        { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                    ]
+                }
+            }
+        ]
+    },
+    //// #endregion
+
+    ////---------------------------------------------------------------------------
+    //// //// #region NC/COMP - dedicated REAL UI for the Neutron Collector and Neutronium
+    //// //// Compressor (nameTag "nc_ui" / "comp_ui"). Names do NOT clash with
+    //// //// vanilla or with the "ec_9x9" controls above.
+    ////---------------------------------------------------------------------------
+    "nc_output_slot_wrapper": {
+        "type": "panel",
+        "size": [ 25, 25 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 25, 25 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "nc_output_item@chest.chest_grid_item": {
+                                "collection_index": 0,
+                                "size": [ 25, 25 ],
+                                "$cell_image_size": [ 25, 25 ],
+                                "$item_renderer_panel_size": [ 25, 25 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "nc_label": {
+        "type": "label",
+        "offset": [ 7, -1 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "text": "Neutron Collector",
+        "size": [ "90%", "default" ],
+        "color": "$title_text_color",
+        "layer": 2
+    },
+
+    "nc_panel_top_half": {
+        "type": "panel",
+        "size": [ "100%", "50%" ],
+        "offset": [ 0, 12 ],
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "controls": [
+            { "nc_label@chest.nc_label": {} },
+            { "nc_output_slot_wrapper@chest.nc_output_slot_wrapper": { "offset": [ 3, -5 ] } }
+        ]
+    },
+
+    "nc_panel": {
+        "type": "panel",
+        "controls": [
+            { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+            { "flying_item_renderer@common.flying_item_renderer": { "layer": 14 } },
+            { "selected_item_details_factory@common.selected_item_details_factory": {} },
+            { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+            {
+                "root_panel@common.root_panel": {
+                    "layer": 1,
+                    "controls": [
+                        { "common_panel@common.common_panel": {} },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    { "nc_panel_top_half@chest.nc_panel_top_half": {} },
+                                    { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                                    { "hotbar_grid@common.hotbar_grid_template": {} },
+                                    { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                                ]
+                            }
+                        },
+                        { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                        { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "comp_input_slot_wrapper": {
+        "type": "panel",
+        "size": [ 18, 18 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 18, 18 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "comp_input_item@chest.chest_grid_item": {
+                                "collection_index": 0,
+                                "size": [ 18, 18 ],
+                                "$cell_image_size": [ 18, 18 ],
+                                "$item_renderer_panel_size": [ 18, 18 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "comp_output_slot_wrapper": {
+        "type": "panel",
+        "size": [ 25, 25 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 25, 25 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "comp_output_item@chest.chest_grid_item": {
+                                "collection_index": 1,
+                                "size": [ 25, 25 ],
+                                "$cell_image_size": [ 25, 25 ],
+                                "$item_renderer_panel_size": [ 25, 25 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "comp_label": {
+        "type": "label",
+        "offset": [ 7, -1 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "text": "Neutronium Compressor",
+        "size": [ "90%", "default" ],
+        "color": "$title_text_color",
+        "layer": 2
+    },
+
+    "comp_panel_top_half": {
+        "type": "panel",
+        "size": [ "100%", "50%" ],
+        "offset": [ 0, 12 ],
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "controls": [
+            { "comp_label@chest.comp_label": {} },
+            { "comp_input_slot_wrapper@chest.comp_input_slot_wrapper": { "offset": [ -28, -5 ] } },
+            {
+                "comp_output_arrow": {
+                    "type": "label",
+                    "text": ">>>>",
+                    "size": [ 22, 16 ],
+                    "offset": [ 80, 31 ],
+                    "anchor_from": "top_left",
+                    "anchor_to": "top_left",
+                    "color": "$title_text_color",
+                    "layer": 3
+                }
+            },
+            { "comp_output_slot_wrapper@chest.comp_output_slot_wrapper": { "offset": [ 35, -5 ] } }
+        ]
+    },
+
+    "comp_panel": {
+        "type": "panel",
+        "controls": [
+            { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+            { "flying_item_renderer@common.flying_item_renderer": { "layer": 14 } },
+            { "selected_item_details_factory@common.selected_item_details_factory": {} },
+            { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+            {
+                "root_panel@common.root_panel": {
+                    "layer": 1,
+                    "controls": [
+                        { "common_panel@common.common_panel": {} },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    { "comp_panel_top_half@chest.comp_panel_top_half": {} },
+                                    { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                                    { "hotbar_grid@common.hotbar_grid_template": {} },
+                                    { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                                ]
+                            }
+                        },
+                        { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                        { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                    ]
+                }
+            }
+        ]
+    },
+    //// #endregion
+
+    ////---------------------------------------------------------------------------
+    //// //// #region RF - dedicated UI for the Record Furnace (nameTag "record_furnace_ui")
+    //// //// Layout like a furnace: music disc slot (0) on top, flame in the middle, Star Fuel slot (1)
+    //// //// below, arrow, Record Fragment output (2) on the right.
+    ////---------------------------------------------------------------------------
+    "rf_disc_slot_wrapper": {
+        "type": "panel",
+        "size": [ 18, 18 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 18, 18 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "rf_disc_item@chest.chest_grid_item": {
+                                "collection_index": 0,
+                                "size": [ 18, 18 ],
+                                "$cell_image_size": [ 18, 18 ],
+                                "$item_renderer_panel_size": [ 18, 18 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "rf_fuel_slot_wrapper": {
+        "type": "panel",
+        "size": [ 18, 18 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 18, 18 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "rf_fuel_item@chest.chest_grid_item": {
+                                "collection_index": 1,
+                                "size": [ 18, 18 ],
+                                "$cell_image_size": [ 18, 18 ],
+                                "$item_renderer_panel_size": [ 18, 18 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "rf_output_slot_wrapper": {
+        "type": "panel",
+        "size": [ 25, 25 ],
+        "controls": [
+            {
+                "slot_wrapper": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 25, 25 ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "rf_output_item@chest.chest_grid_item": {
+                                "collection_index": 2,
+                                "size": [ 25, 25 ],
+                                "$cell_image_size": [ 25, 25 ],
+                                "$item_renderer_panel_size": [ 25, 25 ],
+                                "$item_renderer_size": [ 16, 16 ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "rf_label": {
+        "type": "label",
+        "offset": [ 7, -1 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "text": "Record Furnace",
+        "size": [ "90%", "default" ],
+        "color": "$title_text_color",
+        "layer": 2
+    },
+
+    "rf_flame_anim": {
+        "anim_type": "flip_book",
+        "fps": 8.0,
+        "frame_count": 4,
+        "initial_uv": [ 0, 0 ],
+        "frame_step": 14,
+        "reversible": false,
+        "looping": true
+    },
+
+    //// //// Unlit flame (gray) is always shown; the lit flame only shows when hidden slot 4 has the
+    //// //// item avaritia:rf_burning (max_durability 30100) = actually smelting.
+    "rf_flame_off": {
+        "type": "image",
+        "texture": "textures/avui/record_furnace_flame_off",
+        "size": [ 14, 14 ],
+        "layer": 3
+    },
+
+    "rf_flame_on": {
+        "type": "image",
+        "texture": "textures/avui/record_furnace_flame_strip",
+        "size": [ 14, 14 ],
+        "uv_size": [ 14, 14 ],
+        "uv": "@chest.rf_flame_anim",
+        "layer": 4,
+        "bindings": [
+            {
+                "binding_name": "#item_durability_total_amount",
+                "binding_type": "collection",
+                "binding_collection_name": "container_items"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(#item_durability_total_amount = 30100)",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+
+    "rf_flame_holder": {
+        "type": "panel",
+        "size": [ 14, 14 ],
+        "layer": 4,
+        "controls": [
+            {
+                "rf_flame_collection": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 14, 14 ],
+                    "controls": [
+                        {
+                            "rf_flame_cell": {
+                                "type": "panel",
+                                "collection_index": 4,
+                                "size": [ 14, 14 ],
+                                "controls": [
+                                    { "rf_flame_on@chest.rf_flame_on": {} }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    //// //// Arrow: the gray background is always shown; the dark red layer on top is cropped by progress percentage.
+    //// //// Hidden slot 3 holds the item avaritia:rf_progress_NN (max_durability 30000+NN, NN=1..20
+    //// //// corresponding to 5..100 percent). Each overlay layer is an image cropped to width w/22 px.
+    "rf_arrow": {
+        "type": "image",
+        "texture": "textures/avui/record_furnace_arrow",
+        "size": [ 22, 15 ],
+        "layer": 3
+    },
+
+    "rf_arrow_holder": {
+        "type": "panel",
+        "size": [ 22, 15 ],
+        "layer": 4,
+        "controls": [
+            {
+                "rf_arrow_collection": {
+                    "type": "stack_panel",
+                    "collection_name": "container_items",
+                    "size": [ 22, 15 ],
+                    "controls": [
+                        {
+                            "rf_arrow_cell": {
+                                "type": "panel",
+                                "collection_index": 3,
+                                "size": [ 22, 15 ],
+                                "controls": [
+                                    {
+                                        "rf_fill_01": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 1, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 1, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30001)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_02": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 2, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 2, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30002)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_03": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 3, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 3, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30003)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_04": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 4, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 4, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30004)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_05": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 6, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 6, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30005)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_06": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 7, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 7, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30006)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_07": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 8, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 8, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30007)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_08": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 9, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 9, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30008)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_09": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 10, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 10, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30009)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_10": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 11, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 11, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30010)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_11": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 12, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 12, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30011)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_12": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 13, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 13, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30012)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_13": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 14, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 14, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30013)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_14": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 15, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 15, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30014)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_15": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 16, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 16, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30015)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_16": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 18, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 18, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30016)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_17": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 19, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 19, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30017)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_18": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 20, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 20, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30018)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_19": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 21, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 21, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30019)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "rf_fill_20": {
+                                            "type": "image",
+                                            "texture": "textures/avui/record_furnace_arrow_fill",
+                                            "size": [ 22, 15 ],
+                                            "uv": [ 0, 0 ],
+                                            "uv_size": [ 22, 15 ],
+                                            "anchor_from": "left_middle",
+                                            "anchor_to": "left_middle",
+                                            "layer": 4,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#item_durability_total_amount",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "container_items"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(#item_durability_total_amount = 30020)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "rf_panel_top_half": {
+        "type": "panel",
+        "size": [ "100%", "50%" ],
+        "offset": [ 0, 12 ],
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "controls": [
+            { "rf_label@chest.rf_label": {} },
+            { "rf_disc_slot_wrapper@chest.rf_disc_slot_wrapper": { "offset": [ -35, -20 ] } },
+            { "rf_flame_off@chest.rf_flame_off": { "offset": [ -35, 0 ] } },
+            { "rf_flame_holder@chest.rf_flame_holder": { "offset": [ -35, 0 ] } },
+            { "rf_fuel_slot_wrapper@chest.rf_fuel_slot_wrapper": { "offset": [ -35, 20 ] } },
+            { "rf_arrow@chest.rf_arrow": { "offset": [ -3, 0 ] } },
+            { "rf_arrow_holder@chest.rf_arrow_holder": { "offset": [ -3, 0 ] } },
+            { "rf_output_slot_wrapper@chest.rf_output_slot_wrapper": { "offset": [ 32, 0 ] } }
+        ]
+    },
+
+    "rf_panel": {
+        "type": "panel",
+        "controls": [
+            { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+            { "flying_item_renderer@common.flying_item_renderer": { "layer": 14 } },
+            { "selected_item_details_factory@common.selected_item_details_factory": {} },
+            { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+            {
+                "root_panel@common.root_panel": {
+                    "size": [ 176, 190 ],
+                    "layer": 1,
+                    "controls": [
+                        { "common_panel@common.common_panel": {} },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    { "rf_panel_top_half@chest.rf_panel_top_half": {} },
+                                    { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                                    { "hotbar_grid@common.hotbar_grid_template": {} },
+                                    { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                                ]
+                            }
+                        },
+                        { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                        { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                    ]
+                }
+            }
+        ]
+    },
+    //// #endregion
+
+    ////---------------------------------------------------------------------------
+    //// #region small_chest_screen - CHI CHEN DIEU KIEN (modifications)
+    ////---------------------------------------------------------------------------
+    //// Admin Inventory Viewer (ported from InvSee by r4isen1920, MIT License)
+    //// title "_r4ui:inventory:<5 armor flags>:<name>" -> custom large chest with player layout
+    "chest_label": {
+        "text": "",
+        "size": [ "100%c", "100%c" ],
+        "$new_custom_name|default": "$container_title",
+        "controls": [
+            {
+                "stack": {
+                    "type": "stack_panel",
+                    "orientation": "horizontal",
+                    "size": [ "100%c", "100%cm" ],
+                    "controls": [
+                        {
+                            "base_label@avaritia_invsee_inventory.label": {
+                                "text": "$new_custom_name"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "large_chest_panel_top_half": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "inventory_viewer_grid@avaritia_invsee_inventory.inventory_viewer_grid": {
+                            "offset": [ 0, -2.5 ],
+                            "ignored": "(not $use_custom_screen)"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    "large_chest_panel_top_half/large_chest_grid": {
+        "ignored": "$use_custom_screen"
+    },
+
+    "large_chest_screen": {
+        "$container_name": "$container_title",
+        "$use_custom_screen": false
+    },
+
+    "ender_chest_screen": {
+        "$container_name": "$container_title",
+        "$use_custom_screen": false
+    },
+
+    "shulker_box_screen": {
+        "$container_name": "$container_title",
+        "$use_custom_screen": false
+    },
+
+    "barrel_screen": {
+        "$container_name": "$container_title",
+        "$use_custom_screen": false
+    },
+
+    "small_chest_screen": {
+        "$temp_container_title|default": "$container_title",
+        "$container_name": "$container_title",
+        "$use_custom_screen|default": false,
+        "modifications": [
+            {
+                "array_name": "variables",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "requires": "(not ($container_name - '_r4ui:inventory:' = $container_name))",
+                        "$screen_content": "chest.large_chest_panel",
+                        "$screen_bg_content": "common.screen_background",
+                        "$new_custom_name": "($container_name - ('%.22s' * $container_name))",
+                        "$use_custom_screen": true
+                    },
+                    {
+                        "requires": "($temp_container_title = 'ec_9x9_ui')",
+                        "$screen_content": "chest.ec_9x9_panel",
+                        "$screen_bg_content": "common.screen_background"
+                    },
+                    {
+                        "requires": "($temp_container_title = 'nc_ui')",
+                        "$screen_content": "chest.nc_panel",
+                        "$screen_bg_content": "common.screen_background"
+                    },
+                    {
+                        "requires": "($temp_container_title = 'comp_ui')",
+                        "$screen_content": "chest.comp_panel",
+                        "$screen_bg_content": "common.screen_background"
+                    },
+                    {
+                        "requires": "($temp_container_title = 'ic_ui')",
+                        "$screen_content": "ic.ic_panel",
+                        "$screen_bg_content": "common.screen_background"
+                    },
+                    {
+                        "requires": "($temp_container_title = 'record_furnace_ui')",
+                        "$screen_content": "chest.rf_panel",
+                        "$screen_bg_content": "common.screen_background"
+                    }
+                ]
+            }
+        ]
+    }
+    //// #endregion
+}

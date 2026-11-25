@@ -1,0 +1,1 @@
+summon pa:infinityarrow ~4 ~20 ~1.8

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:magenta_stained_glass_bricks_cracked_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_bricks_cracked"
+      },
+      "D": {
+        "item": "minecraft:magenta_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:magenta_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:magenta_stained_glass_bricks_cracked",
+      "count": 8
+    }
+  }
+}

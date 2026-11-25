@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_orange_block_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_orange_block",
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:orange_terracotta"
+            },
+            "B": {
+                "item": "minecraft:glowstone"    
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_orange_block",
+            "count": 8
+        }
+    }
+}

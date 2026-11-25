@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.avaritia.infinity_crossbow.wield": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [ 0.0, 0.0, 0.0 ],
+					"rotation": [ 0.0, 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.avaritia.infinity_crossbow.wield_first_person_pull": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [ 0.0, 0.0, 1.0 ],
+					"rotation": [ -8.0, 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "matterclusterfull_f01d0e66"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:mattercluster",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:matterclusterfull",
+      "count": 1
+    }
+  }
+}

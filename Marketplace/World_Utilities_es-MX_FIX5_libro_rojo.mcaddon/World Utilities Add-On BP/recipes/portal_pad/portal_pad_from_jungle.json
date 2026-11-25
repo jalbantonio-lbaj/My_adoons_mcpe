@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "gf_wu:portal_pad_from_jungle"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "w",
+            "p"
+        ],
+        "key": {
+            "w": {
+                "item": "minecraft:jungle_pressure_plate"
+            },
+            "p": {
+                "item": "minecraft:piston"
+            }
+        },
+        "result": {
+            "item": "gf_wu:portal_pad"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:piston"
+            }
+        ]
+    }
+}

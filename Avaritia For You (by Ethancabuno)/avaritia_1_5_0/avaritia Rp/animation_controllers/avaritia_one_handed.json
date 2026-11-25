@@ -1,0 +1,136 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.one_handed_basic_controller_1st": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "one_handed_basic_hold_1st"
+          ],
+          "transitions": [
+            {
+              "attacking2": "v.avsw_skill_cut == 1 && variable.custom_weapon"
+            },
+            {
+              "attacking1": "v.avsw_skill_cut == 2 && variable.custom_weapon"
+            },
+            {
+              "attacking1": "v.attack_time > 0.0 && v.attackIndex == 0 && variable.custom_weapon"
+            },
+            {
+              "attacking2": "v.attack_time > 0.0 && (v.attackIndex == 1 || v.attackIndex == 3) && variable.custom_weapon"
+            },
+            {
+              "attacking3": "v.attack_time > 0.0 && v.attackIndex == 2 && variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true
+        },
+        "attacking1": {
+          "animations": [
+            "one_handed_basic_slash_1st_1"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true,
+          "on_entry": [
+            "v.avsw_skill_cut = 0;"
+          ]
+        },
+        "attacking2": {
+          "animations": [
+            "one_handed_basic_slash_1st_2"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true,
+          "on_entry": [
+            "v.avsw_skill_cut = 0;"
+          ]
+        },
+        "attacking3": {
+          "animations": [
+            "one_handed_basic_slash_1st_3"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true,
+          "on_entry": [
+            "v.avsw_skill_cut = 0;"
+          ]
+        }
+      }
+    },
+    "controller.animation.one_handed_basic_controller_3st": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "one_handed_basic_hold_3st"
+          ],
+          "blend_via_shortest_path": true,
+          "transitions": [
+            {
+              "attacking2": "v.avsw_skill_cut == 1 && variable.custom_weapon"
+            },
+            {
+              "attacking1": "v.avsw_skill_cut == 2 && variable.custom_weapon"
+            },
+            {
+              "attacking1": "v.attack_time > 0.0 && v.attackIndex == 0 && variable.custom_weapon"
+            },
+            {
+              "attacking2": "v.attack_time > 0.0 && (v.attackIndex == 1 || v.attackIndex == 3) && variable.custom_weapon"
+            },
+            {
+              "attacking3": "v.attack_time > 0.0 && v.attackIndex == 2 && variable.custom_weapon"
+            }
+          ]
+        },
+        "attacking1": {
+          "animations": [
+            "one_handed_basic_slash_3st_1"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true
+        },
+        "attacking2": {
+          "animations": [
+            "one_handed_basic_slash_3st_2"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true
+        },
+        "attacking3": {
+          "animations": [
+            "one_handed_basic_slash_3st_3"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished || !variable.custom_weapon"
+            }
+          ],
+          "blend_via_shortest_path": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:skullfire_sword",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:damage": {
+                "value": 7
+            },
+            "minecraft:block_placer": {
+                "block": "dustveyn_ef:skullfire_sword",
+                "replace_block_item": true
+            },
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 20
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "minecraft:is_sword"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "§d%dustveyn_ef.skullfire_sword.name\n%dustveyn_ef.skullfire_sword.desc\n§o§9Endless Fabulous"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 1,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:fire_resistant": {
+                "value": true
+            },
+            "minecraft:should_despawn": true,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag('stone', 'minecraft:is_sword_item_destructible')"
+                        },
+                        "speed": 10
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 10
+                    },
+                    {
+                        "block": "minecraft:web",
+                        "speed": 10
+                    }
+                ]
+            }
+        }
+    }
+}

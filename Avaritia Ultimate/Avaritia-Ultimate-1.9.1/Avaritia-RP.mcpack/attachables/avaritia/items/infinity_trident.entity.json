@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_trident",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/items/infinity_trident"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.infinity_trident"
+      },
+      "animations": {
+        "hold": "animation.avaritia.infinity_trident.hold",
+        "raise": "animation.avaritia.infinity_trident.raise",
+        "raise_shake": "animation.avaritia.infinity_trident.raise_shake"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 6.0, 0.0, 1.0f);"
+        ],
+        "animate": [
+          "hold",
+          {
+            "raise": "query.main_hand_item_use_duration > 0.0"
+          },
+          {
+            "raise_shake": "c.is_first_person && query.main_hand_item_use_duration > 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

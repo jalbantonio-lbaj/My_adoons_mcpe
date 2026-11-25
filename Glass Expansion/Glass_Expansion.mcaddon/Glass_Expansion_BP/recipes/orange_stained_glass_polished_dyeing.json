@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:orange_stained_glass_polished_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_polished"
+      },
+      "D": {
+        "item": "minecraft:orange_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:orange_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:orange_stained_glass_polished",
+      "count": 8
+    }
+  }
+}

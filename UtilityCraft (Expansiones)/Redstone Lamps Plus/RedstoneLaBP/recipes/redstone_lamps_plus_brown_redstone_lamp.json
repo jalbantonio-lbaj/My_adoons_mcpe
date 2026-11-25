@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brown_redstone_lamp_58a5cd33"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:brown_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:brown_redstone_lamp",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "cosmic_shield:entity_alphatest": {
+      "+states": [
+        "Blending"
+      ],
+      "+defines": [
+        "ALPHA_TEST",
+        "Blending",
+        "USE_OVERLAY",
+        "USE_MASK"
+      ]
+    },
+
+    "outline_inner:entity_alphatest": {
+      "+states": [
+        "DisableCulling"
+      ],
+      "+defines": [
+        "USE_OVERLAY",
+        "USE_MASK"
+      ]
+    },
+
+    "outline_outer:entity_alphatest": {
+      "+states": [
+        "Blending"
+      ],
+      "+defines": [
+        "USE_OVERLAY",
+        "Blending",
+        "USE_MASK"
+      ]
+    }
+  }
+}

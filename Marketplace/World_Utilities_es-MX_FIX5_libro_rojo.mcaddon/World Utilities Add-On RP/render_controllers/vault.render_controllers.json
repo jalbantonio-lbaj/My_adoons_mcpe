@@ -1,0 +1,73 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.gf_wu.vault": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.vault_textures[query.skin_id]"
+      ],
+      "arrays": {
+        "textures": {
+          "Array.vault_textures": [
+            "Texture.vault_00",
+            "Texture.vault_01",
+            "Texture.vault_02",
+            "Texture.vault_03",
+            "Texture.vault_04",
+            "Texture.vault_05",
+            "Texture.vault_06",
+            "Texture.vault_07",
+            "Texture.vault_08",
+            "Texture.vault_09",
+            "Texture.vault_10",
+            "Texture.vault_11",
+            "Texture.vault_12",
+            "Texture.vault_13",
+            "Texture.vault_14",
+            "Texture.vault_15",
+            "Texture.vault_16",
+            "Texture.vault_17",
+            "Texture.vault_18",
+            "Texture.vault_19",
+            "Texture.vault_20",
+            "Texture.vault_21",
+            "Texture.vault_22",
+            "Texture.vault_23",
+            "Texture.vault_24",
+            "Texture.vault_25",
+            "Texture.vault_26",
+            "Texture.vault_27",
+            "Texture.vault_28",
+            "Texture.vault_29",
+            "Texture.vault_30",
+            "Texture.vault_31",
+            "Texture.vault_32",
+            "Texture.vault_33",
+            "Texture.vault_34",
+            "Texture.vault_35",
+            "Texture.vault_36",
+            "Texture.vault_37",
+            "Texture.vault_38",
+            "Texture.vault_39",
+            "Texture.vault_40",
+            "Texture.vault_41",
+            "Texture.vault_42",
+            "Texture.vault_43",
+            "Texture.vault_44",
+            "Texture.vault_45",
+            "Texture.vault_46",
+            "Texture.vault_47",
+            "Texture.vault_48",
+            "Texture.vault_49",
+            "Texture.vault_50"
+          ]
+        }
+      }
+    }
+  }
+}

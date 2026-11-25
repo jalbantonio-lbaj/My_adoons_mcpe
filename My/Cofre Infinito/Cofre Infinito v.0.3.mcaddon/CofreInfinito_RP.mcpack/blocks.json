@@ -1,0 +1,70 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "avaritia:diamond_lattice_block": {
+    "sound": "glass"
+  },
+  "avaritia:star_fuel_block": {
+    "sound": "metal"
+  },
+  "avaritia:refined_coal_block": {
+    "sound": "stone"
+  },
+  "avaritia:endless_cake": {
+    "sound": "cloth"
+  },
+  "avaritia:compressed_chest": {
+    "sound": "wood"
+  },
+  "avaritia:infinity_chest": {
+    "sound": "wood"
+  },
+  "avaritia:extreme_anvil": {
+    "sound": "anvil"
+  },
+  "avaritia:tesseract": {
+    "sound": "glass"
+  },
+  "avaritia:unbreakable_stone": {
+    "sound": "stone"
+  },
+  "avaritia:soul_farmland": {
+    "sound": "soul_soil"
+  },
+  "infinitychest:infinity_chest": {
+    "sound": "wood"
+  },
+  "infinitychest:infinity_chest_rojo": {
+    "sound": "wood"
+  },
+  "infinitychest:infinity_chest_negro": {
+    "sound": "wood"
+  },
+  "infinitychest:infinity_chest_verde": {
+    "textures": "infinitychest_verde"
+  },
+  "infinitychest:infinity_chest_morado": {
+    "textures": "infinitychest_morado"
+  },
+  "infinitychest:infinity_chest_blanco": {
+    "textures": "infinitychest_blanco"
+  },
+  "infinitychest:infinity_chest_amarillo": {
+    "textures": "infinitychest_amarillo"
+  },
+  "infinitychest:infinity_chest_naranja": {
+    "textures": "infinitychest_naranja"
+  },
+  "infinitychest:infinity_chest_arcoiris": {
+    "textures": "infinitychest_arcoiris"
+  },
+  "infinitychest:infinity_chest_rojo_mejorado": {
+    "textures": "infinitychest_rojo_mejorado"
+  },
+  "infinitychest:infinity_chest_negro_mejorado": {
+    "textures": "infinitychest_negro_mejorado"
+  }
+}

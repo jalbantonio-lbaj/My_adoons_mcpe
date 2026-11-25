@@ -1,0 +1,78 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "avaritia:storm_splash",
+      "basic_render_parameters": {
+        "material": "particles_add",
+        "texture": "textures/particle/avaritia/soft.png"
+      }
+    },
+    "components": {
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 0.01
+      },
+      "minecraft:emitter_rate_instant": {
+        "num_particles": "math.min(220, 30 + 5 * (variable.radius ?? 6))"
+      },
+      "minecraft:emitter_shape_disc": {
+        "offset": [
+          0,
+          0.1,
+          0
+        ],
+        "radius": "0.5 * (variable.radius ?? 6)",
+        "plane_normal": [
+          0,
+          1,
+          0
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "surface_only": true
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": 1.6
+      },
+      "minecraft:particle_initial_speed": "(5 + 0.35 * (variable.radius ?? 6)) * (0.55 + variable.particle_random_3)",
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          0,
+          -14,
+          0
+        ],
+        "linear_drag_coefficient": 0.25
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "(0.1 + 0.07 * variable.particle_random_1) * (1 - 0.4 * math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1))",
+          "(0.1 + 0.07 * variable.particle_random_1) * (1 - 0.4 * math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1))"
+        ],
+        "facing_camera_mode": "lookat_xyz",
+        "uv": {
+          "texture_width": 64,
+          "texture_height": 64,
+          "uv": [
+            0,
+            0
+          ],
+          "uv_size": [
+            64,
+            64
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "(0.75 + (0.15 - 0.75) * math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1))",
+          "(1 + (0.5 - 1) * math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1))",
+          "(1 + (1 - 1) * math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1))",
+          "math.min(1, math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1) / 0.04) * math.pow(1 - math.clamp(variable.particle_age / variable.particle_lifetime, 0, 1), 1.2)"
+        ]
+      }
+    }
+  }
+}

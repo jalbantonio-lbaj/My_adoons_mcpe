@@ -1,0 +1,183 @@
+{
+  "namespace": "avaritia_nring",
+  "neutron_ring_grid": {
+    "type": "grid",
+    "size": [
+      162,
+      162
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [
+      9,
+      9
+    ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "neutron_ring_top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      200
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {
+          "offset": [
+            170,
+            13
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "localize": true,
+          "text": "entity.avaritia:neutron_ring.name"
+        }
+      },
+      {
+        "inventory_label@chest.chest_label": {
+          "offset": [
+            170,
+            188
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "localize": true,
+          "text": "entity.avaritia:inventory_label.name"
+        }
+      },
+      {
+        "ring_grid@avaritia_nring.neutron_ring_grid": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            168,
+            26
+          ],
+          "layer": 1
+        }
+      }
+    ]
+  },
+  "neutron_ring_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {
+          "control_name": "@chest.selected_item_details"
+        }
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {
+          "control_name": "@common.item_lock_notification"
+        }
+      },
+      {
+        "root_panel@common.root_panel": {
+          "size": [
+            500,
+            275
+          ],
+          "layer": 1,
+          "controls": [
+            {
+              "gui_art": {
+                "type": "image",
+                "texture": "textures/ui/neutron_ring_gui",
+                "size": [
+                  500,
+                  275
+                ],
+                "layer": 2,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "ring_panel": {
+                "type": "panel",
+                "layer": 5,
+                "offset": [
+                  0,
+                  -8
+                ],
+                "controls": [
+                  {
+                    "neutron_ring_top_half@avaritia_nring.neutron_ring_top_half": {}
+                  }
+                ]
+              }
+            },
+            {
+              "player_panel": {
+                "type": "panel",
+                "layer": 5,
+                "offset": [
+                  0,
+                  -1
+                ],
+                "controls": [
+                  {
+                    "inventory_panel_bottom_half@common.inventory_panel_bottom_half": {}
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+              "avaritia_close_layer@avaritia_close.close_layer": {
+                "$frame_size": [
+                  12,
+                  12
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  341,
+                  203
+                ],
+                "controls": [
+                  {
+                    "avaritia_close_btn@avaritia_close.close_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

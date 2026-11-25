@@ -1,0 +1,51 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:anim_neutronium_block",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "avaritia:placed": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.animated_item"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "anim_neutronium_block",
+          "render_method": "alpha_test",
+          "ambient_occlusion": 0,
+          "face_dimming": false
+        }
+      },
+      "avaritia:neutron_block_place": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('avaritia:placed') == true",
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "neutronium_block",
+              "render_method": "opaque"
+            }
+          },
+          "tag:metal": {},
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 5000
+          },
+          "minecraft:destructible_by_explosion": false,
+          "minecraft:loot": "loot_tables/blocks/neutronium_block.json"
+        }
+      }
+    ]
+  }
+}

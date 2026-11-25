@@ -1,0 +1,144 @@
+{
+  "namespace": "chest",
+  "small_chest_screen": {
+    "$temp_container_title|default": "$container_title",
+    "modifications": [
+      {
+        "array_name": "variables",
+        "operation": "insert_back",
+        "value": [
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:tesseract.name')",
+            "$screen_content": "avaritia_tesseract.tesseract_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:neutron_collector.name')",
+            "$screen_content": "avaritia.collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:simple_neutron_collector.name')",
+            "$screen_content": "avaritia.collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:infinity_collector.name')",
+            "$screen_content": "avaritia_densest.densest_collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:dense_neutron_collector.name')",
+            "$screen_content": "avaritia_dense.dense_collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:denser_neutron_collector.name')",
+            "$screen_content": "avaritia_denser.denser_collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:densest_neutron_collector.name')",
+            "$screen_content": "avaritia_densest.densest_collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:neutronium_compressor.name')",
+            "$screen_content": "avaritia.compressor_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:extreme_craft.name')",
+            "$screen_content": "avaritia.extreme_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:compressed_craft.name')",
+            "$screen_content": "avaritia.compressed_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:double_compressed_craft.name')",
+            "$screen_content": "avaritia.double_compressed_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:recipe_view_9.name')",
+            "$screen_content": "avaritia.extreme_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:recipe_view_5.name')",
+            "$screen_content": "avaritia.compressed_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:recipe_view_7.name')",
+            "$screen_content": "avaritia.double_compressed_craft_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:recipe_view_c.name')",
+            "$screen_content": "avaritia.compressor_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:portable_blaze_burner_holder.name')",
+            "$screen_content": "avaritia_burner.burner_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:extreme_smithing.name')",
+            "$screen_content": "avaritia_smithing.smithing_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:recipe_view_s.name')",
+            "$screen_content": "avaritia_smithing.smithing_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:neutron_ring.name')",
+            "$screen_content": "avaritia_nring.neutron_ring_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:infinity_ring.name')",
+            "$screen_content": "avaritia_iring.infinity_ring_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:compressed_chest.name')",
+            "$screen_content": "avaritia_cchest.compressed_chest_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:infinity_chest.name')",
+            "$screen_content": "avaritia_ichest.infinity_chest_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'entity.avaritia:extreme_anvil.name')",
+            "$screen_content": "avaritia_xanvil.anvil_screen",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "((('%.6s' * $temp_container_title) = '§f§r§r') or (('%.9s' * $temp_container_title) = '§f§r§r'))",
+            "$screen_content": "avaritia.collector_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "((('%.6s' * $temp_container_title) = '§r§r§r') or (('%.9s' * $temp_container_title) = '§r§r§r'))",
+            "$screen_content": "avaritia.compressor_panel",
+            "$screen_bg_content": "common.screen_background"
+          },
+          {
+            "requires": "($temp_container_title = 'Cofre Infinito')",
+            "$screen_content": "infinitychest_standalone_ui.infinity_chest_panel",
+            "$screen_bg_content": "common.screen_background"
+          }
+        ]
+      }
+    ]
+  }
+}

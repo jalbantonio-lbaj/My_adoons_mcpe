@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gf_wu:excavator_shovel"
+    },
+    "components": {
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "gf_wu:excavator_shovel"
+        }
+      },
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+            },
+            "speed": 10
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "shovel",
+        "value": 15
+      },
+      "minecraft:durability": {
+        "max_durability": 1561
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:digger",
+          "minecraft:is_shovel",
+          "minecraft:diamond_tier",
+          "minecraft:transformable_items"
+        ]
+      },
+      "minecraft:custom_components": ["gf_wu:tool_durability"],
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

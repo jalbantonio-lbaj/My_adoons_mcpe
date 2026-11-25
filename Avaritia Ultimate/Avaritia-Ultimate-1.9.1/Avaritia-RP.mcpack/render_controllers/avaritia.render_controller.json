@@ -1,0 +1,537 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.armor.animate": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_8",
+            "texture.frame_7",
+            "texture.frame_6",
+            "texture.frame_5",
+            "texture.frame_4",
+            "texture.frame_3",
+            "texture.frame_2",
+            "texture.frame_1"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.armor.normal": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ]
+    },
+    "controller.render.shield_armor": {
+      "geometry": "Geometry.shield",
+      "part_visibility": [
+        {
+          "*": "query.equipped_item_any_tag('slot.armor.head','infinity_tier') && query.equipped_item_any_tag('slot.armor.chest','infinity_tier') && query.equipped_item_any_tag('slot.armor.legs','infinity_tier') && query.equipped_item_any_tag('slot.armor.feet','infinity_tier')"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.cosmic"
+        }
+      ],
+      "textures": [
+        "texture.cosmic"
+      ]
+    },
+    "controller.render.avaritia.wings": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.wing1",
+            "texture.wing2",
+            "texture.wing3",
+            "texture.wing4",
+            "texture.wing5",
+            "texture.wing6",
+            "texture.wing7",
+            "texture.wing8",
+            "texture.wing9",
+            "texture.wing10"
+          ]
+        }
+      },
+      "geometry": "Geometry.wing",
+      "textures": [
+        "temp.life_time = query.life_time * 10.0; return array.frames[temp.life_time];"
+      ],
+      "part_visibility": [
+        {
+          "*": "!query.has_gravity"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.rainbow_eyes": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9"
+          ]
+        }
+      },
+      "geometry": "Geometry.eyes",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "part_visibility": [
+        {
+          "*": "query.equipped_item_any_tag('slot.armor.head','infinity_tier') && query.equipped_item_any_tag('slot.armor.chest','infinity_tier') && query.equipped_item_any_tag('slot.armor.legs','infinity_tier') && query.equipped_item_any_tag('slot.armor.feet','infinity_tier')"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.skullfire_sword": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_3",
+            "texture.frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];",
+        "texture.enchanted"
+      ],
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? material.enchanted : Material.default"
+        }
+      ]
+    },
+    "controller.render.infinity_sword": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_10",
+            "texture.frame_11",
+            "texture.frame_12",
+            "texture.frame_13",
+            "texture.frame_14",
+            "texture.frame_15",
+            "texture.frame_16",
+            "texture.frame_17",
+            "texture.frame_18",
+            "texture.frame_19",
+            "texture.frame_20",
+            "texture.frame_21",
+            "texture.frame_22",
+            "texture.frame_23",
+            "texture.frame_24",
+            "texture.frame_25",
+            "texture.frame_26",
+            "texture.frame_27",
+            "texture.frame_28",
+            "texture.frame_29",
+            "texture.frame_30",
+            "texture.frame_31",
+            "texture.frame_32",
+            "texture.frame_33",
+            "texture.frame_34",
+            "texture.frame_35",
+            "texture.frame_36",
+            "texture.frame_37",
+            "texture.frame_38",
+            "texture.frame_39",
+            "texture.frame_40",
+            "texture.frame_41",
+            "texture.frame_42",
+            "texture.frame_43",
+            "texture.frame_44",
+            "texture.frame_45",
+            "texture.frame_46",
+            "texture.frame_47",
+            "texture.frame_48",
+            "texture.frame_49",
+            "texture.frame_50",
+            "texture.frame_51",
+            "texture.frame_52",
+            "texture.frame_53",
+            "texture.frame_54",
+            "texture.frame_55",
+            "texture.frame_56",
+            "texture.frame_57",
+            "texture.frame_58",
+            "texture.frame_59",
+            "texture.frame_60",
+            "texture.frame_61",
+            "texture.frame_62",
+            "texture.frame_63",
+            "texture.frame_64",
+            "texture.frame_65",
+            "texture.frame_66",
+            "texture.frame_67",
+            "texture.frame_68",
+            "texture.frame_69",
+            "texture.frame_70",
+            "texture.frame_71",
+            "texture.frame_72",
+            "texture.frame_73",
+            "texture.frame_74",
+            "texture.frame_75",
+            "texture.frame_76",
+            "texture.frame_77",
+            "texture.frame_78",
+            "texture.frame_79",
+            "texture.frame_80",
+            "texture.frame_81",
+            "texture.frame_82",
+            "texture.frame_83",
+            "texture.frame_84",
+            "texture.frame_85",
+            "texture.frame_86",
+            "texture.frame_87",
+            "texture.frame_88",
+            "texture.frame_89",
+            "texture.frame_90",
+            "texture.frame_91",
+            "texture.frame_92",
+            "texture.frame_93",
+            "texture.frame_94",
+            "texture.frame_95",
+            "texture.frame_96",
+            "texture.frame_97",
+            "texture.frame_98",
+            "texture.frame_99",
+            "texture.frame_100",
+            "texture.frame_101",
+            "texture.frame_102",
+            "texture.frame_103",
+            "texture.frame_104",
+            "texture.frame_105",
+            "texture.frame_106",
+            "texture.frame_107",
+            "texture.frame_108",
+            "texture.frame_109",
+            "texture.frame_110",
+            "texture.frame_111",
+            "texture.frame_112",
+            "texture.frame_113",
+            "texture.frame_114",
+            "texture.frame_115",
+            "texture.frame_116",
+            "texture.frame_117",
+            "texture.frame_118",
+            "texture.frame_119",
+            "texture.frame_120",
+            "texture.frame_121",
+            "texture.frame_122",
+            "texture.frame_123",
+            "texture.frame_124",
+            "texture.frame_125",
+            "texture.frame_126",
+            "texture.frame_127",
+            "texture.frame_128"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.infinity.tools": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_10",
+            "texture.frame_11",
+            "texture.frame_12",
+            "texture.frame_13",
+            "texture.frame_14",
+            "texture.frame_15",
+            "texture.frame_16",
+            "texture.frame_17",
+            "texture.frame_18"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.infinity.color": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.ultimate_stew": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_10",
+            "texture.frame_11",
+            "texture.frame_12",
+            "texture.frame_13",
+            "texture.frame_14",
+            "texture.frame_15",
+            "texture.frame_16"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.infinity_spear_animated": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_10",
+            "texture.frame_11",
+            "texture.frame_12",
+            "texture.frame_13",
+            "texture.frame_14",
+            "texture.frame_15",
+            "texture.frame_16",
+            "texture.frame_17",
+            "texture.frame_18",
+            "texture.frame_19",
+            "texture.frame_20",
+            "texture.frame_21",
+            "texture.frame_22",
+            "texture.frame_23",
+            "texture.frame_24",
+            "texture.frame_25",
+            "texture.frame_26",
+            "texture.frame_27",
+            "texture.frame_28",
+            "texture.frame_29",
+            "texture.frame_30",
+            "texture.frame_31",
+            "texture.frame_32",
+            "texture.frame_33",
+            "texture.frame_34",
+            "texture.frame_35",
+            "texture.frame_36",
+            "texture.frame_37",
+            "texture.frame_38",
+            "texture.frame_39",
+            "texture.frame_40",
+            "texture.frame_41",
+            "texture.frame_42",
+            "texture.frame_43",
+            "texture.frame_44",
+            "texture.frame_45",
+            "texture.frame_46",
+            "texture.frame_47",
+            "texture.frame_48",
+            "texture.frame_49",
+            "texture.frame_50",
+            "texture.frame_51",
+            "texture.frame_52",
+            "texture.frame_53",
+            "texture.frame_54",
+            "texture.frame_55",
+            "texture.frame_56",
+            "texture.frame_57",
+            "texture.frame_58",
+            "texture.frame_59",
+            "texture.frame_60",
+            "texture.frame_61",
+            "texture.frame_62",
+            "texture.frame_63",
+            "texture.frame_64",
+            "texture.frame_65",
+            "texture.frame_66",
+            "texture.frame_67",
+            "texture.frame_68",
+            "texture.frame_69",
+            "texture.frame_70",
+            "texture.frame_71",
+            "texture.frame_72",
+            "texture.frame_73",
+            "texture.frame_74",
+            "texture.frame_75",
+            "texture.frame_76",
+            "texture.frame_77",
+            "texture.frame_78",
+            "texture.frame_79",
+            "texture.frame_80",
+            "texture.frame_81",
+            "texture.frame_82",
+            "texture.frame_83",
+            "texture.frame_84",
+            "texture.frame_85",
+            "texture.frame_86",
+            "texture.frame_87",
+            "texture.frame_88",
+            "texture.frame_89",
+            "texture.frame_90",
+            "texture.frame_91",
+            "texture.frame_92",
+            "texture.frame_93",
+            "texture.frame_94",
+            "texture.frame_95",
+            "texture.frame_96",
+            "texture.frame_97",
+            "texture.frame_98",
+            "texture.frame_99",
+            "texture.frame_100",
+            "texture.frame_101",
+            "texture.frame_102",
+            "texture.frame_103",
+            "texture.frame_104",
+            "texture.frame_105",
+            "texture.frame_106",
+            "texture.frame_107",
+            "texture.frame_108",
+            "texture.frame_109",
+            "texture.frame_110",
+            "texture.frame_111",
+            "texture.frame_112",
+            "texture.frame_113",
+            "texture.frame_114",
+            "texture.frame_115",
+            "texture.frame_116",
+            "texture.frame_117",
+            "texture.frame_118",
+            "texture.frame_119",
+            "texture.frame_120",
+            "texture.frame_121",
+            "texture.frame_122",
+            "texture.frame_123",
+            "texture.frame_124",
+            "texture.frame_125",
+            "texture.frame_126",
+            "texture.frame_127",
+            "texture.frame_128"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    }
+  }
+}

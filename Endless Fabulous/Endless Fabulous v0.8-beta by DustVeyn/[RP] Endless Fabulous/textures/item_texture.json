@@ -1,0 +1,117 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "dustveyn_ef:infinity_helmet": {
+            "textures": "textures/dustveyn_ef/items/infinity_helmet"
+        },
+        "dustveyn_ef:infinity_chestplate": {
+            "textures": "textures/dustveyn_ef/items/infinity_chestplate"
+        },
+        "dustveyn_ef:infinity_leggings": {
+            "textures": "textures/dustveyn_ef/items/infinity_leggings"
+        },
+        "dustveyn_ef:infinity_boots": {
+            "textures": "textures/dustveyn_ef/items/infinity_boots"
+        },
+        "dustveyn_ef:diamond_lattice": {
+            "textures": "textures/dustveyn_ef/items/diamond_lattice"
+        },
+        "dustveyn_ef:neutron_collector_arrow_0": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_0"
+        },
+        "dustveyn_ef:neutron_collector_arrow_1": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_1"
+        },
+        "dustveyn_ef:neutron_collector_arrow_2": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_2"
+        },
+        "dustveyn_ef:neutron_collector_arrow_3": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_3"
+        },
+        "dustveyn_ef:neutron_collector_arrow_4": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_4"
+        },
+        "dustveyn_ef:neutron_collector_arrow_5": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_5"
+        },
+        "dustveyn_ef:neutron_collector_arrow_6": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_6"
+        },
+        "dustveyn_ef:neutron_collector_arrow_7": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_7"
+        },
+        "dustveyn_ef:neutron_collector_arrow_8": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_8"
+        },
+        "dustveyn_ef:neutron_collector_arrow_9": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_9"
+        },
+        "dustveyn_ef:neutron_collector_arrow_10": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_10"
+        },
+        "dustveyn_ef:neutron_collector_arrow_11": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_11"
+        },
+        "dustveyn_ef:neutron_collector_arrow_12": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_12"
+        },
+        "dustveyn_ef:neutron_collector_arrow_13": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_13"
+        },
+        "dustveyn_ef:neutron_collector_arrow_14": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_14"
+        },
+        "dustveyn_ef:neutron_collector_arrow_15": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_15"
+        },
+        "dustveyn_ef:neutron_collector_arrow_16": {
+            "textures": "textures/dustveyn_ef/ui/arrows/neutron_collector_arrow_16"
+        },
+        "dustveyn_ef:pile_of_neutron": {
+            "textures": "textures/dustveyn_ef/items/pile_of_neutron"
+        },
+        "dustveyn_ef:neutronium_nugget": {
+            "textures": "textures/dustveyn_ef/items/neutronium_nugget"
+        },
+        "dustveyn_ef:neutronium_ingot": {
+            "textures": "textures/dustveyn_ef/items/neutronium_ingot"
+        },
+        "dustveyn_ef:endest_pearl": {
+            "textures": "textures/dustveyn_ef/items/endest_pearl"
+        },
+        "dustveyn_ef:iron_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/iron_crystal"
+        },
+        "dustveyn_ef:copper_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/copper_crystal"
+        },
+        "dustveyn_ef:redstone_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/redstone_crystal"
+        },
+        "dustveyn_ef:netherite_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/netherite_crystal"
+        },
+        "dustveyn_ef:golden_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/golden_crystal"
+        },
+        "dustveyn_ef:amethyst_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/amethyst_crystal"
+        },
+        "dustveyn_ef:emerald_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/emerald_crystal"
+        },
+        "dustveyn_ef:diamond_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/diamond_crystal"
+        },
+        "dustveyn_ef:lapis_crystal": {
+            "textures": "textures/dustveyn_ef/items/crystals/lapis_crystal"
+        },
+        "dustveyn_ef:disc_fragment": {
+            "textures": "textures/dustveyn_ef/items/disc_fragment"
+        },
+        "dustveyn_ef:recipe_book": {
+            "textures": "textures/dustveyn_ef/items/recipe_book"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:infinity_rope",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.infinity_rope"
+      },
+      "textures": {
+        "default": "textures/avaritia/fishing_rod/line"
+      },
+      "animations": {
+        "position": "animation.avaritia.infinity_rope.position",
+        "scale": "animation.avaritia.infinity_rope.scale"
+      },
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true,
+        "scale": "q.property('avaritia:initialized')",
+        "initialize": [
+          "v.t1 = 0;",
+          "v.t2 = 0;"
+        ],
+        "pre_animation": [
+          "v.variant = q.property('avaritia:variant');",
+          "v.location_x = q.property('avaritia:x');",
+          "v.location_y = q.property('avaritia:y');",
+          "v.location_z = q.property('avaritia:z');",
+          "v.target_x = q.property('avaritia:target_x');",
+          "v.target_y = q.property('avaritia:target_y');",
+          "v.target_z = q.property('avaritia:target_z');",
+          "v.delta_x = (v.location_x - q.position(0)) * 16;",
+          "v.delta_y = (v.location_y - q.position(1)) * 16;",
+          "v.delta_z = (v.location_z - q.position(2)) * -16;",
+          "v.d1.x = (v.target_x ?? 0) - (v.location_x ?? 0);",
+          "v.d1.y = (v.target_y ?? 0) - (v.location_y ?? 0);",
+          "v.d1.z = (v.target_z ?? 0) - (v.location_z ?? 0);",
+          "v.yaw = math.atan2(v.d1.z, v.d1.x);",
+          "v.pitch = -math.atan2(v.d1.y, math.sqrt(v.d1.x * v.d1.x + v.d1.z * v.d1.z));",
+          "v.size = math.sqrt(v.d1.x * v.d1.x + v.d1.y * v.d1.y + v.d1.z * v.d1.z) * 16 / 2 * 20;",
+          "v.offset.x = 1;",
+          "v.offset.y = v.d1.y;",
+          "v.offset.z = 1;"
+        ],
+        "animate": [
+          "position",
+          "scale"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia.infinity_rope"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:spreader",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "avaritia_spreader",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:timer": {
+        "time": 0.1,
+        "looping": false,
+        "time_down_event": {
+          "event": "avaritia:step",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "avaritia:step": {
+        "queue_command": {
+          "command": [
+            "function avaritia/spread_step"
+          ]
+        }
+      }
+    }
+  }
+}

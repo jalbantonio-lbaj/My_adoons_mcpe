@@ -1,0 +1,46 @@
+{
+   "format_version": 2,
+   "header": {
+      "name": "Monster farm Addon モンスターファームアドオン",
+      "description": "Monster farm Addon モンスターファームアドオン Ver3.0",
+      "version": [
+         1,
+         0,
+         0
+      ],
+      "uuid": "d5fcaad6-9d0a-572e-b4c1-ec8cebe5c0b2",
+      "min_engine_version": [
+         1,
+         21,
+         0
+      ]
+   },
+   "modules": [
+      {
+         "type": "script",
+         "description": "Monster farm Addon モンスターファームアドオン Ver3.0",
+         "version": [
+            1,
+            0,
+            0
+         ],
+         "uuid": "98d09470-20b7-335b-df39-1390c42a1b12",
+         "language": "javascript",
+         "entry": "scripts/main.js"
+      }
+   ],
+   "dependencies": [
+      {
+         "uuid": "369c797a-1e18-5f58-34c3-9cf84a12e55d",
+         "version": [
+            1,
+            0,
+            0
+         ]
+      },
+      {
+         "module_name": "@minecraft/server",
+         "version": "1.17.0"
+      }
+   ]
+}

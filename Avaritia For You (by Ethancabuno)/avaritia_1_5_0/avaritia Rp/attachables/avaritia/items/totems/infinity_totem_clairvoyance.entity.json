@@ -1,0 +1,61 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_totem_clairvoyance",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "frame_1": "textures/avaritia/models_3d/infinity/totems/clairvoyance/1",
+        "frame_2": "textures/avaritia/models_3d/infinity/totems/clairvoyance/2",
+        "frame_3": "textures/avaritia/models_3d/infinity/totems/clairvoyance/3",
+        "frame_4": "textures/avaritia/models_3d/infinity/totems/clairvoyance/4",
+        "frame_5": "textures/avaritia/models_3d/infinity/totems/clairvoyance/5",
+        "frame_6": "textures/avaritia/models_3d/infinity/totems/clairvoyance/6",
+        "frame_7": "textures/avaritia/models_3d/infinity/totems/clairvoyance/7",
+        "frame_8": "textures/avaritia/models_3d/infinity/totems/clairvoyance/8",
+        "frame_9": "textures/avaritia/models_3d/infinity/totems/clairvoyance/9"
+      },
+      "geometry": {
+        "default": "geometry.custom.item_dual",
+        "fpoff": "geometry.custom.item_fpoff"
+      },
+      "animations": {
+        "wield": "animation.hand_equipped.wield",
+        "wield_off": "animation.avaritia.item_wield_off",
+        "hide_left": "animation.avaritia.item_hide_left",
+        "kids_show": "animation.avaritia.item_fp_off_kids",
+        "kids_hide": "animation.avaritia.item_hide_kids"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "wield": "c.item_slot != 'off_hand' || c.is_first_person"
+          },
+          {
+            "hide_left": "c.item_slot != 'off_hand' || c.is_first_person"
+          },
+          {
+            "wield_off": "c.item_slot == 'off_hand' && !c.is_first_person"
+          },
+          {
+            "kids_show": "c.item_slot == 'off_hand' && c.is_first_person && !v.avt_cw && !v.avt_sp"
+          },
+          {
+            "kids_hide": "c.item_slot != 'off_hand' || !c.is_first_person || v.avt_cw || v.avt_sp"
+          }
+        ],
+        "parent_setup": "c.item_slot == 'off_hand' ? {v.oreville_offhand_visible = 1;};",
+        "pre_animation": [
+          "v.avt_fp_off = (c.item_slot == 'off_hand' && c.is_first_person) ? 1 : 0;",
+          "v.avt_cw = c.owning_entity->v.custom_weapon;",
+          "v.avt_sp = c.owning_entity->query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_spear');"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia.totem"
+      ]
+    }
+  }
+}

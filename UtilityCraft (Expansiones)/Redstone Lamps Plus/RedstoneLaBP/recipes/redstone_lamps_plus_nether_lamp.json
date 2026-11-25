@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nether_lamp_7705a944"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "CDC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherrack",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:red_dye",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:white_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:nether_lamp",
+      "count": 1
+    }
+  }
+}

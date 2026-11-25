@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "margentlamp_ae86371e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:margentlamp",
+      "count": 1
+    }
+  }
+}

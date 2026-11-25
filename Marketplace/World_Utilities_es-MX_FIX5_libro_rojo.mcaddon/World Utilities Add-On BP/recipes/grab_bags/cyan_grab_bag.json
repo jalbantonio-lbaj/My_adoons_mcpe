@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gf_wu:cyan_grab_bag_craft"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": [" s ", "WCW", "WWW"],
+    "key": {
+      "C": {
+        "item": "minecraft:chest"
+      },
+      "s": {
+        "item": "minecraft:string"
+      },
+      "W": {
+        "item": "minecraft:cyan_wool"
+      }
+    },
+    "result": {
+      "item": "gf_wu:cyan_grab_bag_empty"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cyan_wool"
+      }
+    ]
+  }
+}

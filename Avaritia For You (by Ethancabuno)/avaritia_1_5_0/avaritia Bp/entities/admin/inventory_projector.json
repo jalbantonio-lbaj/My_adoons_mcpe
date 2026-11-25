@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:admin_inventory_projector",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["avaritia", "admin_invsee", "inanimate"] },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": ["player"],
+        "interact_text": "§z",
+        "seats": { "position": [0.0, 0.05, 0.0] }
+      },
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 54,
+        "private": false,
+        "can_be_siphoned_from": false,
+        "restrict_to_owner": false
+      },
+      "minecraft:health": { "min": 1, "max": 1, "value": 1 },
+      "minecraft:collision_box": { "width": 0.0, "height": 0.0 },
+      "minecraft:damage_sensor": { "triggers": { "cause": "all", "deals_damage": "no" } },
+      "minecraft:physics": { "has_collision": false, "has_gravity": false },
+      "minecraft:transient": {},
+      "minecraft:is_hidden_when_invisible": {}
+    }
+  }
+}

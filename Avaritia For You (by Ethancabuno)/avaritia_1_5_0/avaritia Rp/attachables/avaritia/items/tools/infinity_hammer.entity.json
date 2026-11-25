@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_hammer",
+      "materials": {
+        "hm_default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "hm_frame_1": "textures/avaritia/models_3d/infinity/hammer/1",
+        "hm_frame_2": "textures/avaritia/models_3d/infinity/hammer/2",
+        "hm_frame_3": "textures/avaritia/models_3d/infinity/hammer/3",
+        "hm_frame_4": "textures/avaritia/models_3d/infinity/hammer/4",
+        "hm_frame_5": "textures/avaritia/models_3d/infinity/hammer/5",
+        "hm_frame_6": "textures/avaritia/models_3d/infinity/hammer/6",
+        "hm_frame_7": "textures/avaritia/models_3d/infinity/hammer/7",
+        "hm_frame_8": "textures/avaritia/models_3d/infinity/hammer/8",
+        "hm_frame_9": "textures/avaritia/models_3d/infinity/hammer/9"
+      },
+      "geometry": {
+        "default": "geometry.avaritia_wp.infinity_hammer",
+        "avpl_infinity_hammer": "geometry.avaritia_wp.infinity_hammer"
+      },
+      "animations": {
+        "humanoid_base_pose": "animation.player.first_person.base_pose",
+        "attack": "animation.avaritia_wp.item_sprite_32.fpp_attack",
+        "wield_fpp": "animation.avaritia_wp.item_sprite_16.fpp",
+        "ctrl": "controller.animation.avaritia_wp.custom_item"
+      },
+      "scripts": {
+        "parent_setup": "c.item_slot == 'main_hand' ? {v.oreville_mainhand_custom_pos = 1;v.oreville_mainhand_visible = 1;};c.item_slot == 'off_hand' ? {v.oreville_offhand_visible = 1;};t.cattack = v.attack_time ?? 0; t.use_vr = v.is_using_vr ?? 0;",
+        "pre_animation": [
+          "v.actions_and_stuff = c.owning_entity -> v.actions_and_stuff;"
+        ],
+        "animate": [
+          {
+            "ctrl": "c.is_first_person && !v.actions_and_stuff"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avpl_infinity_hammer_0"
+      ]
+    }
+  }
+}

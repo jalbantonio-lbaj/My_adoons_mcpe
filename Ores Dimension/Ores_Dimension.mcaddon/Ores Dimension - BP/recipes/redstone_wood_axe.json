@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:redstone_wood_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AS",
+      " S"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:redstone_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "oredim:redstone_wood_axe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "oredim:redstone_planks"
+      }
+    ]
+  }
+}

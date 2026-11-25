@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.avaritia_trident.infinity_item": {
+      "arrays": {
+        "textures": {
+          "Array.frames": [
+            "Texture.frame_1",
+            "Texture.frame_2",
+            "Texture.frame_3",
+            "Texture.frame_4",
+            "Texture.frame_5",
+            "Texture.frame_6",
+            "Texture.frame_7",
+            "Texture.frame_8",
+            "Texture.frame_9",
+            "Texture.frame_8",
+            "Texture.frame_7",
+            "Texture.frame_6",
+            "Texture.frame_5",
+            "Texture.frame_4",
+            "Texture.frame_3",
+            "Texture.frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+        }
+      ],
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];",
+        "Texture.enchanted"
+      ]
+    }
+  }
+}

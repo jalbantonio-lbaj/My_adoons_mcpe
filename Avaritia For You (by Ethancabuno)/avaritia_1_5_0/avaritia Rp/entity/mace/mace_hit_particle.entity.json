@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:mace_hit_particle",
+      "materials": {
+        "default": "warden",
+        "bioluminescent_layer": "warden_bioluminescent_layer"
+      },
+      "geometry": {
+        "default": "geometry.mace_hit_particle"
+      },
+      "scripts": {
+        "animate": [
+          "smash",
+          "smashCenter"
+        ]
+      },
+      "animations": {
+        "smash": "animation.maceSmash",
+        "smashCenter": "animation.maceSmashCenter"
+      },
+      "particle_effects": {
+        "smashCenter": "avaritia:smash_ground_particle_center",
+        "smash": "avaritia:smash_ground_particle"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "portable_blaze_burner",
+    "metalness_emissive_roughness": "portable_blaze_burner_mer"
+  }
+}

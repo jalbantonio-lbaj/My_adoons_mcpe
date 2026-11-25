@@ -1,0 +1,491 @@
+{
+  "resource_pack_name": "Avaritia + Infinity Chest Standalone FIX4",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "crystal_matrix_block": {
+      "textures": "textures/blocks/crystal_matrix_block"
+    },
+    "neutronium_block": {
+      "textures": "textures/blocks/neutronium_block"
+    },
+    "infinity_block": {
+      "textures": "textures/blocks/infinity_block"
+    },
+    "gaia_block": {
+      "textures": "textures/blocks/gaia_block"
+    },
+    "compressor_side": {
+      "textures": "textures/blocks/compressor_side"
+    },
+    "compressor_top": {
+      "textures": "textures/blocks/compressor_top"
+    },
+    "compressor_front": {
+      "textures": "textures/blocks/compressor_front_still"
+    },
+    "compressor_front_animated": {
+      "textures": "textures/blocks/compressor_front"
+    },
+    "simple_neutron_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/simple_compressor_front"
+      ]
+    },
+    "infinity_neutron_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/infinity_compressor_front"
+      ]
+    },
+    "collector_side": {
+      "textures": "textures/blocks/collector_side"
+    },
+    "collector_top": {
+      "textures": "textures/blocks/collector_top"
+    },
+    "collector_front": {
+      "textures": "textures/blocks/collector_front"
+    },
+    "compressed_crafting": {
+      "textures": "textures/blocks/compressed_crafting"
+    },
+    "double_compressed_crafting": {
+      "textures": "textures/blocks/double_compressed_crafting"
+    },
+    "dire_crafting_side": {
+      "textures": "textures/blocks/dire_crafting_side"
+    },
+    "dire_crafting_top": {
+      "textures": "textures/blocks/dire_crafting_top"
+    },
+    "extreme_crafting_side": {
+      "textures": "textures/blocks/extreme_crafting_side"
+    },
+    "extreme_crafting_top": {
+      "textures": "textures/blocks/extreme_crafting_top"
+    },
+    "avaritia_singularity_iron": {
+      "textures": "textures/items/singularity_iron_strip"
+    },
+    "avaritia_singularity_gold": {
+      "textures": "textures/items/singularity_gold_strip"
+    },
+    "avaritia_singularity_eternal": {
+      "textures": "textures/items/singularity_eternal_strip"
+    },
+    "avaritia_singularity_lapis": {
+      "textures": "textures/items/singularity_lapis_strip"
+    },
+    "avaritia_singularity_redstone": {
+      "textures": "textures/items/singularity_redstone_strip"
+    },
+    "avaritia_singularity_copper": {
+      "textures": "textures/items/singularity_copper_strip"
+    },
+    "avaritia_singularity_tin": {
+      "textures": "textures/items/singularity_tin_strip"
+    },
+    "avaritia_singularity_quartz": {
+      "textures": "textures/items/singularity_quartz_strip"
+    },
+    "avaritia_singularity_ender": {
+      "textures": "textures/items/singularity_ender_strip"
+    },
+    "avaritia_singularity_silver": {
+      "textures": "textures/items/singularity_silver_strip"
+    },
+    "avaritia_singularity_sculk": {
+      "textures": "textures/items/singularity_sculk_strip"
+    },
+    "avaritia_singularity_clay": {
+      "textures": "textures/items/singularity_clay_strip"
+    },
+    "avaritia_singularity_emerald": {
+      "textures": "textures/items/singularity_emerald_strip"
+    },
+    "avaritia_singularity_diamond": {
+      "textures": "textures/items/singularity_diamond_strip"
+    },
+    "avaritia_singularity_coal": {
+      "textures": "textures/items/singularity_coal_strip"
+    },
+    "avaritia_singularity_steel": {
+      "textures": "textures/items/singularity_steel_strip"
+    },
+    "avaritia_singularity_netherite": {
+      "textures": "textures/items/singularity_netherite_strip"
+    },
+    "avaritia_singularity_aetherium": {
+      "textures": "textures/items/singularity_aetherium_strip"
+    },
+    "avaritia_singularity_titanium": {
+      "textures": "textures/items/singularity_titanium_strip"
+    },
+    "avaritia_singularity_uranium": {
+      "textures": "textures/items/singularity_uranium_strip"
+    },
+    "avaritia_singularity_bronze": {
+      "textures": "textures/items/singularity_bronze_strip"
+    },
+    "avaritia_singularity_energized_iron": {
+      "textures": "textures/items/singularity_energized_iron_strip"
+    },
+    "avaritia_singularity_silicon": {
+      "textures": "textures/items/singularity_silicon_strip"
+    },
+    "avaritia_skullfire_sword": {
+      "textures": "textures/items/skullfire_sword"
+    },
+    "avaritia_endest_pearl": {
+      "textures": "textures/items/endest_pearl"
+    },
+    "infinity_catalyst": {
+      "textures": "textures/items/infinity_catalyst"
+    },
+    "infinity_ingot": {
+      "textures": "textures/items/infinity_ingot"
+    },
+    "neutronium_ingot": {
+      "textures": "textures/items/neutronium_ingot"
+    },
+    "avaritia_black_hole": {
+      "textures": "textures/items/black_hole"
+    },
+    "meatballs": {
+      "textures": "textures/items/meatballs"
+    },
+    "stew": {
+      "textures": "textures/items/stew"
+    },
+    "compressed_crafting_top": {
+      "textures": "textures/blocks/compressed_crafting_top"
+    },
+    "compressed_crafting_side": {
+      "textures": "textures/blocks/compressed_crafting_side"
+    },
+    "compressed_crafting_bottom": {
+      "textures": "textures/blocks/compressed_crafting_bottom"
+    },
+    "double_compressed_crafting_top": {
+      "textures": "textures/blocks/double_compressed_crafting_top"
+    },
+    "double_compressed_crafting_side": {
+      "textures": "textures/blocks/double_compressed_crafting_side"
+    },
+    "double_compressed_crafting_bottom": {
+      "textures": "textures/blocks/double_compressed_crafting_bottom"
+    },
+    "air": {
+      "textures": [
+        "textures/misc/air"
+      ]
+    },
+    "double_compressed_crafting_table": {
+      "textures": [
+        "textures/blocks/double_compressed_crafting_table"
+      ]
+    },
+    "compressed_crafting_table": {
+      "textures": [
+        "textures/blocks/compressed_crafting_table"
+      ]
+    },
+    "neutronium_compressor_top": {
+      "textures": [
+        "textures/blocks/machine/compressor_top"
+      ]
+    },
+    "neutronium_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/compressor_front"
+      ]
+    },
+    "neutron_collector_top": {
+      "textures": [
+        "textures/blocks/machine/collector_top"
+      ]
+    },
+    "neutron_collector_front": {
+      "textures": [
+        "textures/blocks/machine/collector_front"
+      ]
+    },
+    "machine_side": {
+      "textures": [
+        "textures/blocks/machine/machine_side"
+      ]
+    },
+    "dire_crafting_table_top": {
+      "textures": [
+        "textures/blocks/dire_crafting_table_top"
+      ]
+    },
+    "dire_crafting_table_side": {
+      "textures": [
+        "textures/blocks/dire_crafting_table_side"
+      ]
+    },
+    "asgardandelion": {
+      "textures": "textures/blocks/asgardandelion"
+    },
+    "dense_neutron_collector_front": {
+      "textures": [
+        "textures/blocks/machine/dense_collector_front"
+      ]
+    },
+    "dense_neutron_collector_top": {
+      "textures": [
+        "textures/blocks/machine/dense_collector_top"
+      ]
+    },
+    "dense_neutron_collector_side": {
+      "textures": [
+        "textures/blocks/machine/dense_collector_side"
+      ]
+    },
+    "denser_neutron_collector_front": {
+      "textures": [
+        "textures/blocks/machine/denser_collector_front"
+      ]
+    },
+    "denser_neutron_collector_top": {
+      "textures": [
+        "textures/blocks/machine/denser_collector_top"
+      ]
+    },
+    "denser_neutron_collector_side": {
+      "textures": [
+        "textures/blocks/machine/denser_collector_side"
+      ]
+    },
+    "densest_neutron_collector_front": {
+      "textures": [
+        "textures/blocks/machine/densest_collector_front"
+      ]
+    },
+    "densest_neutron_collector_top": {
+      "textures": [
+        "textures/blocks/machine/densest_collector_top"
+      ]
+    },
+    "densest_neutron_collector_side": {
+      "textures": [
+        "textures/blocks/machine/densest_collector_side"
+      ]
+    },
+    "simple_neutron_collector_front": {
+      "textures": "textures/blocks/machine/simple_collector_front"
+    },
+    "simple_neutron_collector_top": {
+      "textures": "textures/blocks/machine/simple_collector_top"
+    },
+    "simple_neutron_collector_side": {
+      "textures": "textures/blocks/machine/simple_collector_side"
+    },
+    "infinity_collector_front": {
+      "textures": [
+        "textures/blocks/machine/infinity_collector_front"
+      ]
+    },
+    "infinity_collector_top": {
+      "textures": [
+        "textures/blocks/machine/infinity_collector_top"
+      ]
+    },
+    "infinity_collector_side": {
+      "textures": [
+        "textures/blocks/machine/infinity_collector_side"
+      ]
+    },
+    "decompressor_front_animated": {
+      "textures": "textures/blocks/machine/decompose_front"
+    },
+    "jeb_wool": {
+      "textures": "textures/blocks/jeb_wool"
+    },
+    "infinity_tnt_side": {
+      "textures": "textures/blocks/infinity_tnt_side"
+    },
+    "infinity_tnt_top": {
+      "textures": "textures/blocks/infinity_tnt_top"
+    },
+    "avaritia_singularity_stew": {
+      "textures": "textures/items/singularity_stew_strip"
+    },
+    "avaritia_star_dessert": {
+      "textures": "textures/items/star_dessert_strip"
+    },
+    "avaritia_infinity_bottle": {
+      "textures": "textures/items/infinity_bottle_strip"
+    },
+    "avaritia_infinity_book": {
+      "textures": "textures/items/book_enchanted"
+    },
+    "blaze_cube_block": {
+      "textures": "textures/blocks/blaze_cube_block"
+    },
+    "extreme_smithing_table_top": {
+      "textures": "textures/blocks/extreme_smithing_table_top"
+    },
+    "extreme_smithing_table_bottom": {
+      "textures": "textures/blocks/extreme_smithing_table_bottom"
+    },
+    "extreme_smithing_table_side": {
+      "textures": "textures/blocks/extreme_smithing_table_side"
+    },
+    "extreme_smithing_table_front": {
+      "textures": "textures/blocks/extreme_smithing_table_front"
+    },
+    "diamond_lattice_block": {
+      "textures": "textures/blocks/diamond_lattice_block"
+    },
+    "star_fuel_block": {
+      "textures": "textures/blocks/star_fuel_block"
+    },
+    "refined_coal_block": {
+      "textures": "textures/blocks/refined_coal_block"
+    },
+    "endless_cake_top": {
+      "textures": "textures/blocks/endless_cake_top"
+    },
+    "endless_cake_side": {
+      "textures": "textures/blocks/endless_cake_side"
+    },
+    "endless_cake_bottom": {
+      "textures": "textures/blocks/endless_cake_bottom"
+    },
+    "compressed_chest": {
+      "textures": "textures/blocks/compressed_chest"
+    },
+    "infinity_chest": {
+      "textures": "textures/blocks/infinity_chest"
+    },
+    "extreme_anvil": {
+      "textures": "textures/blocks/extreme_anvil"
+    },
+    "tesseract": {
+      "textures": "textures/blocks/tesseract"
+    },
+    "avaritia_infinity_hoe": {
+      "textures": "textures/items/infinity_hoe_strip"
+    },
+    "avaritia_infinity_pickaxe": {
+      "textures": "textures/items/infinity_pickaxe_strip"
+    },
+    "avaritia_infinity_axe": {
+      "textures": "textures/items/infinity_axe_strip"
+    },
+    "avaritia_infinity_shovel": {
+      "textures": "textures/items/infinity_shovel_strip"
+    },
+    "avaritia_infinity_hammer": {
+      "textures": "textures/items/infinity_hammer_strip"
+    },
+    "avaritia_infinity_shears": {
+      "textures": "textures/items/infinity_shears_strip"
+    },
+    "avaritia_infinity_clock": {
+      "textures": "textures/items/infinity_clock_strip"
+    },
+    "avaritia_infinity_upgrade": {
+      "textures": "textures/items/infinity_upgrade_strip"
+    },
+    "avaritia_endest_pearl_icon": {
+      "textures": "textures/items/endest_pearl_strip"
+    },
+    "avaritia_blaze_cube": {
+      "textures": "textures/items/blaze_cube_strip"
+    },
+    "avaritia_enhancement_core": {
+      "textures": "textures/items/enhancement_core_strip"
+    },
+    "avaritia_infinity_bucket": {
+      "textures": "textures/items/infinity_bucket_strip"
+    },
+    "avaritia_infinity_nugget": {
+      "textures": "textures/items/infinity_nugget_strip"
+    },
+    "avaritia_full_matter_cluster": {
+      "textures": "textures/items/full_matter_cluster_strip"
+    },
+    "dense_neutron_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/dense_compressor_front"
+      ]
+    },
+    "denser_neutron_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/denser_compressor_front"
+      ]
+    },
+    "densest_neutron_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/densest_compressor_front"
+      ]
+    },
+    "tesseract_core": {
+      "textures": "textures/blocks/tesseract_core"
+    },
+    "ctable": {
+      "textures": "textures/blocks/ctable"
+    },
+    "dctable": {
+      "textures": "textures/blocks/dctable"
+    },
+    "sculk_crafting_table_top": {
+      "textures": "textures/blocks/sculk_crafting_table_top"
+    },
+    "sculk_crafting_table_side": {
+      "textures": "textures/blocks/sculk_crafting_table_side"
+    },
+    "sculk_crafting_table_bottom": {
+      "textures": "textures/blocks/sculk_crafting_table_bottom"
+    },
+    "unbreakable_stone": {
+      "textures": "textures/blocks/stone"
+    },
+    "avaritia_infinity_sword": {
+      "textures": "textures/items/infinity_sword_native_strip"
+    },
+    "soul_farmland_top": {
+      "textures": "textures/blocks/soul_farmland_top"
+    },
+    "avaritia_soul_soil": {
+      "textures": "textures/blocks/soul_soil"
+    },
+    "infinitychest_standalone_infinity_chest": {
+      "textures": "textures/blocks/infinitychest_standalone"
+    },
+    "infinitychest_rojo": {
+      "textures": "textures/blocks/infinitychest_rojo"
+    },
+    "infinitychest_negro": {
+      "textures": "textures/blocks/infinitychest_negro"
+    },
+    "infinitychest_verde": {
+      "textures": "textures/blocks/infinitychest_verde"
+    },
+    "infinitychest_morado": {
+      "textures": "textures/blocks/infinitychest_morado"
+    },
+    "infinitychest_blanco": {
+      "textures": "textures/blocks/infinitychest_blanco"
+    },
+    "infinitychest_amarillo": {
+      "textures": "textures/blocks/infinitychest_amarillo"
+    },
+    "infinitychest_naranja": {
+      "textures": "textures/blocks/infinitychest_naranja"
+    },
+    "infinitychest_arcoiris": {
+      "textures": "textures/blocks/infinitychest_arcoiris"
+    },
+    "infinitychest_rojo_mejorado": {
+      "textures": "textures/blocks/infinitychest_rojo_mejorado"
+    },
+    "infinitychest_negro_mejorado": {
+      "textures": "textures/blocks/infinitychest_negro_mejorado"
+    }
+  },
+  "padding": 8,
+  "num_mip_levels": 4
+}

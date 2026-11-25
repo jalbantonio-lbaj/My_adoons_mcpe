@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Ultimate Cheat Menu",
+    "description": "This allows you to use cheats in your survival world or server without losing achievements. It’s not only for cheating it also makes all commands easier and more convenient to use, improving overall gameplay and control.",
+    "uuid": "b4a1f2c7-9e63-4d8a-8c1b-6f2e9a7d3c51",
+    "version": [1, 2, 5],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Script module",
+      "type": "script",
+      "uuid": "7d9c3e2a-5b14-4f8e-a6c9-2e1b7d5f8a30",
+      "version": [1, 2, 5],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.5.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

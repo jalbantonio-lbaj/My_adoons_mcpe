@@ -1,0 +1,482 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"white_hacker_blue":{
+			"textures": "textures/blocks/white_hacker_blue"
+		},
+		"white_hacker_cyan":{
+			"textures": "textures/blocks/white_hacker_cyan"
+		},
+		"white_hacker_lime":{
+			"textures": "textures/blocks/white_hacker_lime"
+		},
+		"white_hacker_magenta":{
+			"textures": "textures/blocks/white_hacker_magenta"
+		},
+		"white_hacker_orange":{
+			"textures": "textures/blocks/white_hacker_orange"
+		},
+		"white_hacker_purple":{
+			"textures": "textures/blocks/white_hacker_purple"
+		},
+		"white_hacker_red":{
+			"textures": "textures/blocks/white_hacker_red"
+		},
+		"white_hacker_yellow":{
+			"textures": "textures/blocks/white_hacker_yellow"
+		},
+		"white_hacker_white":{
+			"textures": "textures/blocks/white_hacker_white"
+		},
+		"neon_hacker_blue":{
+			"textures": "textures/blocks/neon_hacker_blue"
+		},
+		"neon_hacker_cyan":{
+			"textures": "textures/blocks/neon_hacker_cyan"
+		},
+		"neon_hacker_lime":{
+			"textures": "textures/blocks/neon_hacker_lime"
+		},
+		"neon_hacker_magenta":{
+			"textures": "textures/blocks/neon_hacker_magenta"
+		},
+		"neon_hacker_orange":{
+			"textures": "textures/blocks/neon_hacker_orange"
+		},
+		"neon_hacker_purple":{
+			"textures": "textures/blocks/neon_hacker_purple"
+		},
+		"neon_hacker_red":{
+			"textures": "textures/blocks/neon_hacker_red"
+		},
+		"neon_hacker_yellow":{
+			"textures": "textures/blocks/neon_hacker_yellow"
+		},
+		"neon_hacker_white":{
+			"textures": "textures/blocks/neon_hacker_white"
+		},
+		"neon_mini_light_corner_top_blue": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_blue"
+		},
+		"neon_mini_light_corner_top_cyan": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_cyan"
+		},
+		"neon_mini_light_corner_top_lime": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_lime"
+		},
+		"neon_mini_light_corner_top_magenta": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_magenta"
+		},
+		"neon_mini_light_corner_top_purple": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_purple"
+		},
+		"neon_mini_light_corner_top_orange": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_orange"
+		},
+		"neon_mini_light_corner_top_red": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_red"
+		},
+		"neon_mini_light_corner_top_yellow": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_yellow"
+		},
+		"neon_mini_light_corner_top_white": {
+			"textures": "textures/blocks/neon_mini_light_corner_top_white"
+		},
+		"neon_mini_light_corner_bottom_blue": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_blue"
+		},
+		"neon_mini_light_corner_bottom_cyan": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_cyan"
+		},
+		"neon_mini_light_corner_bottom_lime": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_lime"
+		},
+		"neon_mini_light_corner_bottom_magenta": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_magenta"
+		},
+		"neon_mini_light_corner_bottom_orange": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_orange"
+		},
+		"neon_mini_light_corner_bottom_red": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_red"
+		},
+		"neon_mini_light_corner_bottom_purple": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_purple"
+		},
+		"neon_mini_light_corner_bottom_white": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_white"
+		},
+		"neon_mini_light_corner_bottom_yellow": {
+			"textures": "textures/blocks/neon_mini_light_corner_bottom_yellow"
+		},
+		"neon_mini_light_top_blue": {
+			"textures": "textures/blocks/neon_mini_light_top_blue"
+		},
+		"neon_mini_light_top_cyan": {
+			"textures": "textures/blocks/neon_mini_light_top_cyan"
+		},
+		"neon_mini_light_top_lime": {
+			"textures": "textures/blocks/neon_mini_light_top_lime"
+		},
+		"neon_mini_light_top_magenta": {
+			"textures": "textures/blocks/neon_mini_light_top_magenta"
+		},
+		"neon_mini_light_top_purple": {
+			"textures": "textures/blocks/neon_mini_light_top_purple"
+		},
+		"neon_mini_light_top_orange": {
+			"textures": "textures/blocks/neon_mini_light_top_orange"
+		},
+		"neon_mini_light_top_red": {
+			"textures": "textures/blocks/neon_mini_light_top_red"
+		},
+		"neon_mini_light_top_yellow": {
+			"textures": "textures/blocks/neon_mini_light_top_yellow"
+		},
+		"neon_mini_light_top_white": {
+			"textures": "textures/blocks/neon_mini_light_top_white"
+		},
+		"neon_mini_light_bottom_cyan": {
+			"textures": "textures/blocks/neon_mini_light_bottom_cyan"
+		},
+		"neon_mini_light_bottom_lime": {
+			"textures": "textures/blocks/neon_mini_light_bottom_lime"
+		},
+		"neon_mini_light_bottom_orange": {
+			"textures": "textures/blocks/neon_mini_light_bottom_orange"
+		},
+		"neon_mini_light_bottom_purple": {
+			"textures": "textures/blocks/neon_mini_light_bottom_purple"
+		},
+		"neon_mini_light_bottom_red": {
+			"textures": "textures/blocks/neon_mini_light_bottom_red"
+		},
+		"neon_mini_light_bottom_white": {
+			"textures": "textures/blocks/neon_mini_light_bottom_white"
+		},
+		"neon_mini_light_bottom_yellow": {
+			"textures": "textures/blocks/neon_mini_light_bottom_yellow"
+		},
+		"neon_mini_light_bottom_magenta": {
+			"textures": "textures/blocks/neon_mini_light_bottom_magenta"
+		},
+		"neon_mini_light_bottom_blue": {
+			"textures": "textures/blocks/neon_mini_light_bottom_blue"
+		},
+		"neon_light_off": {
+			"textures": "textures/blocks/neon_light_off"
+		},
+		"neon_blue_light": {
+			"textures": "textures/blocks/neon_blue_light"
+		},
+		"neon_yellow_light": {
+			"textures": "textures/blocks/neon_yellow_light"
+		},
+		"neon_cyan_light": {
+			"textures": "textures/blocks/neon_cyan_light"
+		},
+		"neon_magenta_light": {
+			"textures": "textures/blocks/neon_magenta_light"
+		},
+		"neon_lime_light": {
+			"textures": "textures/blocks/neon_lime_light"
+		},
+		"neon_red_light": {
+			"textures": "textures/blocks/neon_red_light"
+		},
+		"neon_orange_light": {
+			"textures": "textures/blocks/neon_orange_light"
+		},
+		"neon_purple_light": {
+			"textures": "textures/blocks/neon_purple_light"
+		},
+		"neon_white_light": {
+			"textures": "textures/blocks/neon_white_light"
+		},
+		"neon_workbench": {
+			"textures": "textures/blocks/neon_workbench"
+		},
+		"white_cyber_side_yellow": {
+			"textures": "textures/blocks/white_cyber_side_yellow"
+		},
+		"white_cyber_side_red": {
+			"textures": "textures/blocks/white_cyber_side_red"
+		},
+		"white_cyber_side_purple": {
+			"textures": "textures/blocks/white_cyber_side_purple"
+		},
+		"white_cyber_side_orange": {
+			"textures": "textures/blocks/white_cyber_side_orange"
+		},
+		"white_cyber_side_magenta": {
+			"textures": "textures/blocks/white_cyber_side_magenta"
+		},
+		"white_cyber_side_lime": {
+			"textures": "textures/blocks/white_cyber_side_lime"
+		},
+		"white_cyber_side_cyan": {
+			"textures": "textures/blocks/white_cyber_side_cyan"
+		},
+		"white_cyber_side_blue": {
+			"textures": "textures/blocks/white_cyber_side_blue"
+		},
+		"white_cyber_side_white": {
+			"textures": "textures/blocks/white_cyber_side_white"
+		},
+		"white_cyber_corner_magenta": {
+			"textures": "textures/blocks/white_cyber_corner_magenta"
+		},
+		"white_cyber_corner_orange": {
+			"textures": "textures/blocks/white_cyber_corner_orange"
+		},
+		"white_cyber_corner_purple": {
+			"textures": "textures/blocks/white_cyber_corner_purple"
+		},
+		"white_cyber_corner_lime": {
+			"textures": "textures/blocks/white_cyber_corner_lime"
+		},
+		"white_cyber_corner_yellow": {
+			"textures": "textures/blocks/white_cyber_corner_yellow"
+		},
+		"white_cyber_corner_red": {
+			"textures": "textures/blocks/white_cyber_corner_red"
+		},
+		"white_cyber_corner_cyan": {
+			"textures": "textures/blocks/white_cyber_corner_cyan"
+		},
+		"white_cyber_corner_blue": {
+			"textures": "textures/blocks/white_cyber_corner_blue"
+		},
+		"white_cyber_corner_white": {
+			"textures": "textures/blocks/white_cyber_corner_white"
+		},
+		"white_cyber_center_magenta": {
+			"textures": "textures/blocks/white_cyber_center_magenta"
+		},
+		"white_cyber_center_orange": {
+			"textures": "textures/blocks/white_cyber_center_orange"
+		},
+		"white_cyber_center_purple": {
+			"textures": "textures/blocks/white_cyber_center_purple"
+		},
+		"white_cyber_center_lime": {
+			"textures": "textures/blocks/white_cyber_center_lime"
+		},
+		"white_cyber_center_yellow": {
+			"textures": "textures/blocks/white_cyber_center_yellow"
+		},
+		"white_cyber_center_red": {
+			"textures": "textures/blocks/white_cyber_center_red"
+		},
+		"white_cyber_center_cyan": {
+			"textures": "textures/blocks/white_cyber_center_cyan"
+		},
+		"white_cyber_center_blue": {
+			"textures": "textures/blocks/white_cyber_center_blue"
+		},
+		"white_cyber_center_white": {
+			"textures": "textures/blocks/white_cyber_center_white"
+		},
+		"neon_cyber_side_white": {
+			"textures": "textures/blocks/neon_cyber_side_white"
+		},
+		"neon_cyber_white": {
+			"textures": "textures/blocks/neon_cyber_white"
+		},
+		"neon_cyber_corner_white": {
+			"textures": "textures/blocks/neon_cyber_corner_white"
+		},
+		"neon_cyber_center_white": {
+			"textures": "textures/blocks/neon_cyber_center_white"
+		},
+		"neon_white_block": {
+			"textures": "textures/blocks/neon_white_block"
+		},
+		"neon_cyber_side_red": {
+			"textures": "textures/blocks/neon_cyber_side_red"
+		},
+		"neon_cyber_side_yellow": {
+			"textures": "textures/blocks/neon_cyber_side_yellow"
+		},
+		"neon_cyber_side_purple": {
+			"textures": "textures/blocks/neon_cyber_side_purple"
+		},
+		"neon_cyber_side_orange": {
+			"textures": "textures/blocks/neon_cyber_side_orange"
+		},
+		"neon_cyber_side_magenta": {
+			"textures": "textures/blocks/neon_cyber_side_magenta"
+		},
+		"neon_cyber_side_lime": {
+			"textures": "textures/blocks/neon_cyber_side_lime"
+		},
+		"neon_cyber_side_cyan": {
+			"textures": "textures/blocks/neon_cyber_side_cyan"
+		},
+		"neon_cyber_side_blue": {
+			"textures": "textures/blocks/neon_cyber_side_blue"
+		},
+		"white_cyber_yellow": {
+			"textures": "textures/blocks/white_cyber_yellow"
+		},
+		"white_cyber_red": {
+			"textures": "textures/blocks/white_cyber_red"
+		},
+		"white_cyber_purple": {
+			"textures": "textures/blocks/white_cyber_purple"
+		},
+		"white_cyber_orange": {
+			"textures": "textures/blocks/white_cyber_orange"
+		},
+		"white_cyber_magenta": {
+			"textures": "textures/blocks/white_cyber_magenta"
+		},
+		"white_cyber_white": {
+			"textures": "textures/blocks/white_cyber_white"
+		},
+		"white_cyber_lime": {
+			"textures": "textures/blocks/white_cyber_lime"
+		},
+		"white_cyber_cyan": {
+			"textures": "textures/blocks/white_cyber_cyan"
+		},
+		"white_cyber_blue": {
+			"textures": "textures/blocks/white_cyber_blue"
+		},
+		"neon_cyber_center_yellow": {
+			"textures": "textures/blocks/neon_cyber_center_yellow"
+		},
+		"neon_cyber_center_red": {
+			"textures": "textures/blocks/neon_cyber_center_red"
+		},
+		"neon_cyber_center_purple": {
+			"textures": "textures/blocks/neon_cyber_center_purple"
+		},
+		"neon_cyber_center_orange": {
+			"textures": "textures/blocks/neon_cyber_center_orange"
+		},
+		"neon_cyber_center_magenta": {
+			"textures": "textures/blocks/neon_cyber_center_magenta"
+		},
+		"neon_cyber_center_lime": {
+			"textures": "textures/blocks/neon_cyber_center_lime"
+		},
+		"neon_cyber_center_cyan": {
+			"textures": "textures/blocks/neon_cyber_center_cyan"
+		},
+		"neon_cyber_center_blue": {
+			"textures": "textures/blocks/neon_cyber_center_blue"
+		},
+		"pure_brown_block": {
+			"textures": "textures/blocks/pure_brown_block"
+		},
+		"pure_gray_block": {
+			"textures": "textures/blocks/pure_gray_block"
+		},
+		"pure_purple_block": {
+			"textures": "textures/blocks/pure_purple_block"
+		},
+		"pure_orange_block": {
+			"textures": "textures/blocks/pure_orange_block"
+		},
+		"pure_magenta_block": {
+			"textures": "textures/blocks/pure_magenta_block"
+		},
+		"pure_cyan_block": {
+			"textures": "textures/blocks/pure_cyan_block"
+		},
+		"pure_yellow_block": {
+			"textures": "textures/blocks/pure_yellow_block"
+		},
+		"pure_blue_block": {
+			"textures": "textures/blocks/pure_blue_block"
+		},
+		"pure_green_block": {
+			"textures": "textures/blocks/pure_green_block"
+		},
+		"pure_red_block": {
+			"textures": "textures/blocks/pure_red_block"
+		},
+		"pure_white_block": {
+			"textures": "textures/blocks/pure_white_block"
+		},
+		"neon_cyber_corner_yellow": {
+			"textures": "textures/blocks/neon_cyber_corner_yellow"
+		},
+		"neon_cyber_corner_red": {
+			"textures": "textures/blocks/neon_cyber_corner_red"
+		},
+		"neon_cyber_corner_purple": {
+			"textures": "textures/blocks/neon_cyber_corner_purple"
+		},
+		"neon_cyber_corner_orange": {
+			"textures": "textures/blocks/neon_cyber_corner_orange"
+		},
+		"neon_cyber_corner_magenta": {
+			"textures": "textures/blocks/neon_cyber_corner_magenta"
+		},
+		"neon_cyber_corner_lime": {
+			"textures": "textures/blocks/neon_cyber_corner_lime"
+		},
+		"neon_cyber_corner_cyan": {
+			"textures": "textures/blocks/neon_cyber_corner_cyan"
+		},
+		"neon_cyber_corner_blue": {
+			"textures": "textures/blocks/neon_cyber_corner_blue"
+		},
+		"neon_cyber_yellow": {
+			"textures": "textures/blocks/neon_cyber_yellow"
+		},
+		"neon_cyber_red": {
+			"textures": "textures/blocks/neon_cyber_red"
+		},
+		"neon_cyber_purple": {
+			"textures": "textures/blocks/neon_cyber_purple"
+		},
+		"neon_cyber_orange": {
+			"textures": "textures/blocks/neon_cyber_orange"
+		},
+		"neon_cyber_magenta": {
+			"textures": "textures/blocks/neon_cyber_magenta"
+		},
+		"pure_black_block": {
+			"textures": "textures/blocks/pure_black_block"
+		},
+		"neon_cyber_lime": {
+			"textures": "textures/blocks/neon_cyber_lime"
+		},
+		"neon_cyber_cyan": {
+			"textures": "textures/blocks/neon_cyber_cyan"
+		},
+		"neon_cyber_blue": {
+			"textures": "textures/blocks/neon_cyber_blue"
+		},
+		"neon_yellow_block": {
+			"textures": "textures/blocks/neon_yellow_block"
+		},
+		"neon_red_block": {
+			"textures": "textures/blocks/neon_red_block"
+		},
+		"neon_purple_block": {
+			"textures": "textures/blocks/neon_purple_block"
+		},
+		"neon_orange_block": {
+			"textures": "textures/blocks/neon_orange_block"
+		},
+		"neon_magenta_block": {
+			"textures": "textures/blocks/neon_magenta_block"
+		},
+		"neon_lime_block": {
+			"textures": "textures/blocks/neon_lime_block"
+		},
+		"neon_cyan_block": {
+			"textures": "textures/blocks/neon_cyan_block"
+		},
+		"neon_blue_block": {
+			"textures": "textures/blocks/neon_blue_block"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "purple_redstone_lamp_9098db0f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:purple_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:purple_redstone_lamp",
+      "count": 1
+    }
+  }
+}

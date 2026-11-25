@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:endest_pearl",
+      "menu_category": {
+        "category": "equipment",
+        "group": "avaritia:itemGroup.name.utilities"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:endest_pearl",
+        "use_on": [
+          "avaritia:endest_pearl"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:cooldown": {
+        "category": "ender_pearl",
+        "duration": 0.8
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": false,
+        "launch_power_scale": 1.0,
+        "scale_power_by_draw_duration": false
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1,
+        "projectile_entity": "avaritia:endest_pearl"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:stacked_by_data": true,
+      "minecraft:hand_equipped": false,
+      "minecraft:glint": false,
+      "minecraft:display_name": {
+        "value": "§e%endest_pearl.name\n%addon.avaritia"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.vge_glass_armor": {
+      "arrays": {
+        "textures": {
+          "Array.crack": [
+            "Texture.default",
+            "Texture.crack1",
+            "Texture.crack2",
+            "Texture.crack3"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+        }
+      ],
+      "textures": [
+        "variable.has_trim ? variable.trim_path : Array.crack[variable.vge_crack]",
+        "Texture.enchanted"
+      ]
+    }
+  }
+}

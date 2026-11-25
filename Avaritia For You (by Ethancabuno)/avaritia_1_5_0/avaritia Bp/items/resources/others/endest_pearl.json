@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:endest_pearl",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:display_name": {
+        "value": "§e%endest_pearl.name\n%addon.avaritia"
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:anim_endest_pearl",
+        "use_on": []
+      }
+    }
+  }
+}

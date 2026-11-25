@@ -1,0 +1,287 @@
+{
+  "resource_pack_name": "Avaritia",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "neon_crystal": { "textures": "textures/items/neon_crystal" },
+    "avaritia_biome_compass_1": {
+      "textures": "textures/avaritia/biome_compass/items/bc_1"
+    },
+    "avaritia_biome_compass_2": {
+      "textures": "textures/avaritia/biome_compass/items/bc_2"
+    },
+    "avaritia_biome_compass_3": {
+      "textures": "textures/avaritia/biome_compass/items/bc_3"
+    },
+    "avaritia_biome_compass_4": {
+      "textures": "textures/avaritia/biome_compass/items/bc_4"
+    },
+    "avaritia_biome_compass_5": {
+      "textures": "textures/avaritia/biome_compass/items/bc_5"
+    },
+    "avaritia_biome_compass_6": {
+      "textures": "textures/avaritia/biome_compass/items/bc_6"
+    },
+    "avaritia_biome_compass_7": {
+      "textures": "textures/avaritia/biome_compass/items/bc_7"
+    },
+    "avaritia_biome_compass_8": {
+      "textures": "textures/avaritia/biome_compass/items/bc_8"
+    },
+    "avaritia_biome_compass_9": {
+      "textures": "textures/avaritia/biome_compass/items/bc_9"
+    },
+    "avaritia_biome_compass_10": {
+      "textures": "textures/avaritia/biome_compass/items/bc_10"
+    },
+    "avaritia_biome_compass_11": {
+      "textures": "textures/avaritia/biome_compass/items/bc_11"
+    },
+    "avaritia_biome_compass_12": {
+      "textures": "textures/avaritia/biome_compass/items/bc_12"
+    },
+    "avaritia_biome_compass_13": {
+      "textures": "textures/avaritia/biome_compass/items/bc_13"
+    },
+    "avaritia_biome_compass_14": {
+      "textures": "textures/avaritia/biome_compass/items/bc_14"
+    },
+    "avaritia_biome_compass_15": {
+      "textures": "textures/avaritia/biome_compass/items/bc_15"
+    },
+    "avaritia_biome_compass_16": {
+      "textures": "textures/avaritia/biome_compass/items/bc_16"
+    },
+    "avaritia_biome_compass_17": {
+      "textures": "textures/avaritia/biome_compass/items/bc_17"
+    },
+    "avaritia_biome_compass_18": {
+      "textures": "textures/avaritia/biome_compass/items/bc_18"
+    },
+    "avaritia_biome_compass_19": {
+      "textures": "textures/avaritia/biome_compass/items/bc_19"
+    },
+    "avaritia_biome_compass_20": {
+      "textures": "textures/avaritia/biome_compass/items/bc_20"
+    },
+    "avaritia_biome_compass_21": {
+      "textures": "textures/avaritia/biome_compass/items/bc_21"
+    },
+    "avaritia_biome_compass_22": {
+      "textures": "textures/avaritia/biome_compass/items/bc_22"
+    },
+    "avaritia_biome_compass_23": {
+      "textures": "textures/avaritia/biome_compass/items/bc_23"
+    },
+    "avaritia_biome_compass_24": {
+      "textures": "textures/avaritia/biome_compass/items/bc_24"
+    },
+    "avaritia_biome_compass_25": {
+      "textures": "textures/avaritia/biome_compass/items/bc_25"
+    },
+    "avaritia_biome_compass_26": {
+      "textures": "textures/avaritia/biome_compass/items/bc_26"
+    },
+    "avaritia_biome_compass_27": {
+      "textures": "textures/avaritia/biome_compass/items/bc_27"
+    },
+    "avaritia_biome_compass_28": {
+      "textures": "textures/avaritia/biome_compass/items/bc_28"
+    },
+    "avaritia_biome_compass_29": {
+      "textures": "textures/avaritia/biome_compass/items/bc_29"
+    },
+    "avaritia_biome_compass_30": {
+      "textures": "textures/avaritia/biome_compass/items/bc_30"
+    },
+    "avaritia_biome_compass_31": {
+      "textures": "textures/avaritia/biome_compass/items/bc_31"
+    },
+    "avaritia_biome_compass_32": {
+      "textures": "textures/avaritia/biome_compass/items/bc_32"
+    },
+    "avaritia_biome_compass_33": {
+      "textures": "textures/avaritia/biome_compass/items/bc_33"
+    },
+    "infinity_totem": {
+      "textures": "textures/items/infinity_totem"
+    },
+    "infinity_totem_tide": {
+      "textures": "textures/items/totems/infinity_totem_tide"
+    },
+    "infinity_totem_ender": {
+      "textures": "textures/items/totems/infinity_totem_ender"
+    },
+    "infinity_totem_fortune": {
+      "textures": "textures/items/totems/infinity_totem_fortune"
+    },
+    "infinity_totem_berserker": {
+      "textures": "textures/items/totems/infinity_totem_berserker"
+    },
+    "infinity_totem_vitality": {
+      "textures": "textures/items/totems/infinity_totem_vitality"
+    },
+    "infinity_totem_gale": {
+      "textures": "textures/items/totems/infinity_totem_gale"
+    },
+    "infinity_totem_mercy": {
+      "textures": "textures/items/totems/infinity_totem_mercy"
+    },
+    "infinity_totem_clairvoyance": {
+      "textures": "textures/items/totems/infinity_totem_clairvoyance"
+    },
+    "infinity_totem_inferno": {
+      "textures": "textures/items/totems/infinity_totem_inferno"
+    },
+    "infinity_totem_shadow": {
+      "textures": "textures/items/totems/infinity_totem_shadow"
+    },
+    "infinity_totem_frost": {
+      "textures": "textures/items/totems/infinity_totem_frost"
+    },
+    "infinity_totem_void": {
+      "textures": "textures/items/totems/infinity_totem_void"
+    },
+    "infinity_fishing_rod": {
+      "textures": "textures/items/infinity_fishing_rod"
+    },
+    "infinity_fishing_rod_cast": {
+      "textures": "textures/items/infinity_fishing_rod_cast"
+    },
+    "infinity_shears": {
+      "textures": "textures/items/infinity_shears"
+    },
+    "infinity_bucket": {
+      "textures": "textures/items/infinity_bucket"
+    },
+    "infinity_flint_and_steel": {
+      "textures": "textures/items/infinity_flint_and_steel"
+    },
+    "infinity_crossbow_loaded": {
+      "textures": "textures/avaritia/crossbow/crossbow_arrow"
+    },
+    "infinity_crossbow": {
+      "textures": "textures/avaritia/crossbow/crossbow_standby"
+    },
+    "infinity_trident": {
+      "textures": "textures/avaritia/trident/icon"
+    },
+    "infinity_shield": {
+      "textures": "textures/items/infinity_shield"
+    },
+    "heaven_arrow_ammo": {
+      "textures": "textures/avaritia/machine_ui/icons/heaven_arrow_ammo_icon"
+    },
+    //Singularitys
+    "legacy_experience_singularity": {
+      "textures": "textures/items/singularity/experience_singularity"
+    },
+    //Items
+    "asgardandelion": {
+      "textures": "textures/blocks/asgardandelion"
+    },
+    "legacy_endest_pearl": {
+      "textures": "textures/items/endest_pearl"
+    },
+    "diamond_lattice": {
+      "textures": "textures/items/diamond_lattice"
+    },
+    "crystal_matrix": {
+      "textures": "textures/items/crystal_matrix"
+    },
+    "legacy_neutronium_star": {
+      "textures": "textures/items/neutronium_star"
+    },
+    "legacy_pile_of_neutrons": {
+      "textures": "textures/items/pile_of_neutrons"
+    },
+    "legacy_neutronium_ingot": {
+      "textures": "textures/items/neutronium_ingot"
+    },
+    "legacy_neutronium_nugget": {
+      "textures": "textures/items/neutronium_nugget"
+    },
+    "record_fragment": {
+      "textures": "textures/items/record_fragment"
+    },
+    "ultimate_stew": {
+      "textures": "textures/items/ultimate_stew"
+    },
+    "starfuel": {
+      "textures": "textures/items/starfuel"
+    },
+    "matter_cluster": {
+      "textures": "textures/items/matter_cluster"
+    },
+    "legacy_neutronium_gear": {
+      "textures": "textures/items/neutronium_gear"
+    },
+    //Equipments
+    "skullfire_sword": {
+      "textures": "textures/items/skullfire_sword"
+    },
+    "infinity_sword": {
+      "textures": "textures/items/infinity_sword"
+    },
+    "infinity_bow": {
+      "textures": "textures/items/infinity_bow_standby"
+    },
+    "infinity_pickaxe": {
+      "textures": "textures/items/infinity_pickaxe"
+    },
+    "infinity_hammer": {
+      "textures": "textures/items/infinity_hammer"
+    },
+    "infinity_axe": {
+      "textures": "textures/items/infinity_axe"
+    },
+    "infinity_shovel": {
+      "textures": "textures/items/infinity_shovel"
+    },
+    "infinity_destroyer": {
+      "textures": "textures/items/infinity_destroyer"
+    },
+    "infinity_hoe": {
+      "textures": "textures/items/infinity_hoe"
+    },
+    "infinity_boots": {
+      "textures": "textures/items/infinity_boots"
+    },
+    "infinity_helmet": {
+      "textures": "textures/items/infinity_helmet"
+    },
+    "infinity_chestplate": {
+      "textures": "textures/items/infinity_chestplate"
+    },
+    "infinity_leggings": {
+      "textures": "textures/items/infinity_leggings"
+    },
+    "infinity_mace": {
+      "textures": "textures/items/mace/infinity"
+    },
+    "infinity_scythe": {
+      "textures": "textures/items/scythe/infinity"
+    },
+    "infinity_spear": {
+      "textures": "textures/items/spear/infinity"
+    },
+    //Neon Halo armor
+    "neon_helmet": {
+      "textures": "textures/items/neon_helmet"
+    },
+    "neon_chestplate": {
+      "textures": "textures/items/neon_chestplate"
+    },
+    "neon_leggings": {
+      "textures": "textures/items/neon_leggings"
+    },
+    "neon_boots": {
+      "textures": "textures/items/neon_boots"
+    },
+    "avaritia_seal_orb": {
+      "textures": "textures/items/seal_orb"
+    },
+    "avaritia_seal_orb_full": {
+      "textures": "textures/items/seal_orb_full"
+    }
+  }
+}

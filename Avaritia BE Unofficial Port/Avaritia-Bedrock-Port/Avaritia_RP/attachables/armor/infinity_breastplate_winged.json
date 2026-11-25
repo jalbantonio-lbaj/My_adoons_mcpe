@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_breastplate_winged",
+      "item": {
+        "avaritia:infinity_breastplate_winged": "query.owner_identifier == 'minecraft:player'"
+      },
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "cosmic_shield": "cosmic_shield",
+        "outline_inner": "outline_inner",
+        "outline_outer": "outline_outer"
+      },
+      "textures": {
+        "default": "textures/armor/armor",
+        "frame_1": "textures/armor/armor/1",
+        "frame_2": "textures/armor/armor/2",
+        "frame_3": "textures/armor/armor/3",
+        "frame_4": "textures/armor/armor/4",
+        "frame_5": "textures/armor/armor/5",
+        "frame_6": "textures/armor/armor/6",
+        "frame_7": "textures/armor/armor/7",
+        "frame_8": "textures/armor/armor/8",
+        "frame_9": "textures/armor/armor/9",
+        "wing1": "textures/armor/wing/1",
+        "wing2": "textures/armor/wing/2",
+        "wing3": "textures/armor/wing/3",
+        "wing4": "textures/armor/wing/4",
+        "wing5": "textures/armor/wing/5",
+        "wing6": "textures/armor/wing/6",
+        "wing7": "textures/armor/wing/7",
+        "wing8": "textures/armor/wing/8",
+        "wing9": "textures/armor/wing/9",
+        "wing10": "textures/armor/wing/10",
+        "cosmic": "textures/armor/cosmic_shield"
+      },
+      "geometry": {
+        "default": "geometry.custom.avaritia.breastplate",
+        "wing": "geometry.avaritia.wing",
+        "shield": "geometry.shield_armor"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal",
+        "controller.render.armor.animate",
+        "controller.render.avaritia.wings",
+        "controller.render.shield_armor"
+      ]
+    }
+  }
+}

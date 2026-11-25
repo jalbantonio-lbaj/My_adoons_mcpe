@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.avaritia.neutronium_horse_armor_held",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "rightitem",
+					"texture_meshes": [
+						{
+							"local_pivot": [ 0.0, 0.0, 0.0 ],
+							"position": [ -8.0, 0.0, 0.0 ],
+							"rotation": [ -12.5, 0.0, 0.0 ],
+							"scale": [ 1.0, 1.0, 1.0 ],
+							"texture": "held_icon_frame_1"
+						}
+					]
+				}
+			]
+		}
+	]
+}

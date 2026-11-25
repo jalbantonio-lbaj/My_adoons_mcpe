@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.vault.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"t": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-90, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.gf_wu.vault.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"t": {
+					"rotation": {
+						"0.0": [-90, 0, 0],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

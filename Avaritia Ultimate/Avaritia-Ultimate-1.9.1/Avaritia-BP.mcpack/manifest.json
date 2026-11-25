@@ -1,0 +1,49 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Avaritia: ULTIMATE",
+    "description": "BEST Avaritia Port you have ever seen and will ever see. Support my mod: https://www.curseforge.com/minecraft-bedrock/addons/avaritia-ultimate  \nCredits goes to Re-Avaritia Team: https://www.curseforge.com/minecraft/mc-mods/re-avaritia",
+    "uuid": "aa6c7c25-f9a8-45cc-b91f-d22ae9cb4d16",
+    "version": [1, 9, 0],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "52a76929-c7f2-4d55-8600-354693509f5f",
+      "version": [1, 9, 0],
+      "description": "Data module"
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/__bundle.js",
+      "uuid": "dc334f67-5ed1-48df-8927-15a4bfdb59e1",
+      "version": [1, 9, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "85634142-e8e4-4bb7-83e3-69cfd63e60ed",
+      "version": [1, 9, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": [
+      "Alkan_mc"
+    ]
+  }
+}

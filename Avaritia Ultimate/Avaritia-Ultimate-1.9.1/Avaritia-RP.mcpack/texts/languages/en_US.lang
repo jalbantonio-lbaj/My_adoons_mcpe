@@ -1,0 +1,50 @@
+entity.avaritia:collector_inventory_entity.name=Neutron Collector
+entity.avaritia:compressed_crafting_entity.name=Compressed Crafting
+entity.avaritia:double_compressed_crafting_entity.name=Double Compressed Crafting
+item.avaritia:blaze_axe=§dSkullfire Axe\n§7§oStrips the bark and burns it to coal.\n§9§o@Avaritia
+item.avaritia:blaze_pickaxe=§dSkullfire Pickaxe\n§7§oSmelts what it breaks.\n§9§o@Avaritia
+item.avaritia:blaze_shovel=§dSkullfire Shovel\n§7§oScorched earth.\n§9§o@Avaritia
+item.avaritia:blaze_hoe=§dSkullfire Hoe\n§7§oTills in a burning cross.\n§9§o@Avaritia
+item.avaritia:crystal_sword=§bCrystal Matrix Sword\n§7§oSharper than the fabric of reality.\n§9§o@Avaritia
+item.avaritia:crystal_axe=§bCrystal Matrix Axe\n§7§oForests fear it.\n§9§o@Avaritia
+item.avaritia:crystal_pickaxe=§bCrystal Matrix Pickaxe\n§7§oStone is merely a suggestion.\n§9§o@Avaritia
+item.avaritia:crystal_shovel=§bCrystal Matrix Shovel\n§7§oGravity's paperwork.\n§9§o@Avaritia
+item.avaritia:crystal_hoe=§bCrystal Matrix Hoe\n§7§oNine blocks at a time.\n§9§o@Avaritia
+
+## Dense Neutron Collector tiers
+tile.avaritia:dense_neutron_collector.name=Dense Neutron Collector\n§7§oDenser than you think.\n§9§o@Avaritia
+item.avaritia:dense_neutron_collector=Dense Neutron Collector\n§7§oDenser than you think.\n§9§o@Avaritia
+entity.avaritia:dense_neutron_collector.name=Dense Neutron Collector
+dense_neutron_collector.name=Dense Neutron Collector
+tile.avaritia:denser_neutron_collector.name=Denser Neutron Collector\n§7§oEven denser.\n§9§o@Avaritia
+item.avaritia:denser_neutron_collector=Denser Neutron Collector\n§7§oEven denser.\n§9§o@Avaritia
+entity.avaritia:denser_neutron_collector.name=Denser Neutron Collector
+denser_neutron_collector.name=Denser Neutron Collector
+tile.avaritia:densest_neutron_collector.name=Densest Neutron Collector\n§7§oPeak density.\n§9§o@Avaritia
+item.avaritia:densest_neutron_collector=Densest Neutron Collector\n§7§oPeak density.\n§9§o@Avaritia
+entity.avaritia:densest_neutron_collector.name=Densest Neutron Collector
+densest_neutron_collector.name=Densest Neutron Collector
+tile.avaritia:simple_neutron_collector.name=Simple Neutron Collector\n§7§oIt collects. Slowly.\n§9§o@Avaritia
+item.avaritia:simple_neutron_collector=Simple Neutron Collector\n§7§oIt collects. Slowly.\n§9§o@Avaritia
+entity.avaritia:simple_neutron_collector.name=Simple Neutron Collector
+simple_neutron_collector.name=Simple Neutron Collector
+tile.avaritia:infinity_collector.name=Infinity Collector\n§7§oCatalysts from nothing.\n§9§o@Avaritia
+item.avaritia:infinity_collector=Infinity Collector\n§7§oCatalysts from nothing.\n§9§o@Avaritia
+entity.avaritia:infinity_collector.name=Infinity Collector
+infinity_collector.name=Infinity Collector
+infinity_shears.name=Infinity Shears
+item.avaritia:infinity_shears=Infinity Shears
+entity.avaritia:portable_blaze_burner_holder.name=Portable Blaze Burner
+tile.avaritia:compressed_chest.name=Compressed Chest\n§7§oA chest inside a chest inside a chest.\n§9§o@Avaritia
+entity.avaritia:compressed_chest.name=Compressed Chest
+tile.avaritia:infinity_chest.name=Infinity Chest\n§7§oInfinite space, infinitely compressed.\n§9§o@Avaritia
+entity.avaritia:infinity_chest.name=Infinity Chest
+item.avaritia:ichest_ui_filler.name= 
+
+tile.avaritia:tesseract.name=Tesseract
+
+entity.avaritia:tesseract.name=Tesseract
+avaritia.guide.29a65b405a=Mines bedrock instantly.
+avaritia.guide.5fbf821b7c=Right Click: launches a blade slash projectile.
+avaritia.guide.891c49924f=Shift + Right Click: 3x3 Bonemeal
+avaritia.guide.t.legend_empty=§f%1§7 = empty

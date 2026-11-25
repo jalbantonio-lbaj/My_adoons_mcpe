@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vge:magenta_stained_glass_bricks_cracked"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "vge:magenta_stained_glass_bricks",
+    "output": "vge:magenta_stained_glass_bricks_cracked"
+  }
+}

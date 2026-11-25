@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:neutronium_star"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AXA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:neutronium_block_item"
+      },
+      "X": {
+        "item": "avaritia:neutronium_gear"
+      }
+    },
+    "result": {
+      "item": "avaritia:neutronium_star",
+      "count": 1
+    }
+  }
+}

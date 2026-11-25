@@ -1,0 +1,2 @@
+scoreboard objectives add avaritia_multiplier dummy
+scoreboard players set global avaritia_multiplier 2

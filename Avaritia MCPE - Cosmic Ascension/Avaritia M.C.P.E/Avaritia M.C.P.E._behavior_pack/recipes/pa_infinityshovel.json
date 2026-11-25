@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinityshovel_8f66d052"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      " CA",
+      "D  "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:infinityingot",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:ingotneutron",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinityshovel",
+      "count": 1
+    }
+  }
+}

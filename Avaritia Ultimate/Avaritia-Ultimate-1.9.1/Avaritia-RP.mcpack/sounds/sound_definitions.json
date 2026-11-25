@@ -1,0 +1,55 @@
+{
+  "avaritia.shield": {
+    "sounds": [
+      {
+        "name": "sounds/mob/enderdragon/hit1",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/enderdragon/hit2",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/enderdragon/hit3",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/enderdragon/hit4",
+        "volume": 1
+      }
+    ]
+  },
+  "avaritia.gaping_void": {
+    "max_distance": 30.0,
+    "sounds": [
+      {
+        "name": "sounds/ambient/gapingVoid",
+        "stream": true,
+        "volume": 5.76,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "jvsm.extintor": {
+    "max_distance": 9.0,
+    "sounds": [
+      {
+        "name": "sounds/music/extintor",
+        "stream": true,
+        "volume": 0.43,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "jvsm.mute_block": {
+    "max_distance": 9.0,
+    "sounds": [
+      {
+        "name": "sounds/music/mute_block",
+        "stream": true,
+        "volume": 3.33,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

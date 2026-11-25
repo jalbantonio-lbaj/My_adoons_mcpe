@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "neon_orange_light",
+		"metalness_emissive_roughness": "neon_orange_light_mer"
+	}
+}

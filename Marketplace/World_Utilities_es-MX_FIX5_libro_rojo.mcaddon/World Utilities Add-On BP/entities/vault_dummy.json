@@ -1,0 +1,61 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "gf_wu:vault_dummy",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 1.0,
+        "width": 1.0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "min": 1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {},
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:inventory": {
+        "additional_slots_per_strength": 0,
+        "container_type": "container",
+        "inventory_size": 27
+      }
+    },
+    "component_groups": {
+      "gf_wu:instant_despawn":{
+        "minecraft:instant_despawn": {
+          "remove_child_entities": true
+        }
+      }
+    },
+    "events": {
+      "gf_wu:despawn":{
+        "add": {
+          "component_groups": [
+            "gf_wu:instant_despawn"
+          ]
+        }
+      }
+    }
+  }
+}

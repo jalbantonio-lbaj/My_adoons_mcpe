@@ -1,0 +1,412 @@
+{"format_version": "1.21.120",
+    "minecraft:local_light_settings": {
+       "mikeyz:neon_blue_block": {
+         "light_color": [0, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_cyan": {
+         "light_color": [0, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_lime": {
+         "light_color": [0, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_orange": {
+         "light_color": [255, 165, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_purple": {
+         "light_color": [128, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_red": {
+         "light_color": [255, 0, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_yellow": {
+         "light_color": [255, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_bottom_white": {
+         "light_color": [255, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_cyan": {
+         "light_color": [0, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_lime": {
+         "light_color": [0, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_orange": {
+         "light_color": [255, 165, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_purple": {
+         "light_color": [128, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_red": {
+         "light_color": [255, 0, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_yellow": {
+         "light_color": [255, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_top_white": {
+         "light_color": [255, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_cyan": {
+         "light_color": [0, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_lime": {
+         "light_color": [0, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_orange": {
+         "light_color": [255, 165, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_purple": {
+         "light_color": [128, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_red": {
+         "light_color": [255, 0, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_yellow": {
+         "light_color": [255, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_top_white": {
+         "light_color": [255, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_cyan": {
+         "light_color": [0, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_lime": {
+         "light_color": [0, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_orange": {
+         "light_color": [255, 165, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_purple": {
+         "light_color": [128, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_red": {
+         "light_color": [255, 0, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_yellow": {
+         "light_color": [255, 255, 0],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_mini_light_corner_bottom_white": {
+         "light_color": [255, 255, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_workbench": {
+         "light_color":[255, 0, 0],
+         "light_type":"static_light"
+         },
+         "mikeyz:neon_cyber_center_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_purple": {
+         "light_color": [128, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_red": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_orange": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_yellow": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_lime": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_cyan": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_center_white": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_blue": {
+         "light_color": [0, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_magenta": {
+         "light_color": [255, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_purple": {
+         "light_color": [128, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_red": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_orange": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_yellow": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_lime": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_cyan": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_side_white": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_blue": {
+         "light_color": [0, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_magenta": {
+         "light_color": [255, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_purple": {
+         "light_color": [128, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_red": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_orange": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_yellow": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_lime": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_cyan": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_corner_white": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_blue": {
+         "light_color": [0, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_magenta": {
+         "light_color": [255, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_purple": {
+         "light_color": [128, 0, 255],
+          "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_red": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_orange": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_yellow": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_lime": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_cyan": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+         },
+         "mikeyz:neon_cyber_white": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+         },
+       "mikeyz:neon_magenta_block": {
+          "light_color": [255, 0, 255],
+          "light_type": "static_light"
+      },
+         "mikeyz:neon_purple_block": {
+            "light_color": [128, 0, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_red_block": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_orange_block": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_yellow_block": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_lime_block": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_cyan_block": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_white_block": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_blue_light": {
+            "light_color": [0, 0, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_magenta_light": {
+            "light_color": [255, 0, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_purple_light": {
+            "light_color": [128, 0, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_red_light": {
+            "light_color": [255, 0, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_orange_light": {
+            "light_color": [255, 165, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_yellow_light": {
+            "light_color": [255, 255, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_lime_light": {
+            "light_color": [0, 255, 0],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_cyan_light": {
+            "light_color": [0, 255, 255],
+            "light_type": "static_light"
+      },
+         "mikeyz:neon_white_light": {
+            "light_color": [255, 255, 255],
+            "light_type": "static_light"
+      },
+         "minecraft:redstone_torch": {
+            "light_color": [255, 0, 0],
+            "light_type":"static_light"
+      },
+         "minecraft:redstone_block": {
+            "light_color": [255, 0, 0],
+            "light_type":"static_light"
+      },
+      "mikeyz:neon_hacker_blue": {
+         "light_color": [0, 0, 255],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_cyan": {
+         "light_color": [0, 255, 255],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_lime": {
+         "light_color": [0, 255, 0],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_magenta": {
+         "light_color": [255, 0, 255],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_purple": {
+         "light_color": [128, 0, 255],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_orange": {
+         "light_color": [255, 165, 0],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_red": {
+         "light_color": [255, 0, 0],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_yellow": {
+         "light_color": [255, 255, 0],
+         "light_type": "static_light"
+      },
+      "mikeyz:neon_hacker_white": {
+         "light_color": [255, 255, 255],
+         "light_type": "static_light"
+      }
+   }
+}

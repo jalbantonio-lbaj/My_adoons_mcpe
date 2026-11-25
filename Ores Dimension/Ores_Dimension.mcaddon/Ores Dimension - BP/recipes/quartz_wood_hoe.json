@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:quartz_wood_hoe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      " S",
+      " S"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:quartz_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "oredim:quartz_wood_hoe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "oredim:quartz_planks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "infinity_sword_native_strip",
+    "metalness_emissive_roughness": "infinity_sword_native_strip_mer"
+  }
+}

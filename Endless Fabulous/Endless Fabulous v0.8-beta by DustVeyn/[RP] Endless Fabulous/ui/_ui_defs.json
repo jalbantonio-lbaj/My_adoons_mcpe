@@ -1,0 +1,7 @@
+{
+  "ui_defs": [
+    "ui/dustveyn_ef/neutron_collector.json",
+    "ui/dustveyn_ef/extreme_crafting_table.json",
+    "ui/dustveyn_ef/neutronium_compressor.json"
+    ]
+}

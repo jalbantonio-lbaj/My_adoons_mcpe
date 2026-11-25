@@ -1,0 +1,292 @@
+{
+  "namespace": "avaritia",
+  "hidden_slot_bg": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "double_compressed_cell": {
+    "type": "panel",
+    "$size|default": [
+      18,
+      18
+    ],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [
+      16,
+      16
+    ],
+    "$background_images|default": "avaritia.hidden_slot_bg",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "double_compressed_output_cell": {
+    "type": "panel",
+    "$size|default": [
+      24,
+      24
+    ],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [
+      16,
+      16
+    ],
+    "$background_images|default": "avaritia.hidden_slot_bg",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "double_compressed_output_slot": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "$collection_index|default": 49,
+    "size": [
+      24,
+      24
+    ],
+    "controls": [
+      {
+        "cell@avaritia.double_compressed_output_cell": {
+          "collection_index": "$collection_index",
+          "size": [
+            24,
+            24
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "double_compressed_craft_machine": {
+    "type": "panel",
+    "size": [
+      200,
+      154
+    ],
+    "controls": [
+      {
+        "double_compressed_grid": {
+          "type": "grid",
+          "grid_dimensions": [
+            7,
+            7
+          ],
+          "collection_name": "container_items",
+          "grid_item_template": "avaritia.double_compressed_cell",
+          "size": [
+            126,
+            126
+          ],
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            7,
+            17
+          ]
+        }
+      },
+      {
+        "output@avaritia.double_compressed_output_slot": {
+          "size": [
+            24,
+            24
+          ],
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            168,
+            67
+          ],
+          "$collection_index": 49
+        }
+      }
+    ]
+  },
+  "double_compressed_craft_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [
+            200,
+            242
+          ],
+          "controls": [
+            {
+              "gui_art": {
+                "type": "image",
+                "texture": "textures/ui/end_crafting_table_gui",
+                "size": [
+                  200,
+                  242
+                ],
+                "layer": 2,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "machine@avaritia.double_compressed_craft_machine": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_area": {
+                      "type": "panel",
+                      "size": [
+                        190,
+                        242
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "controls": [
+                        {
+                          "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                        },
+                        {
+                          "hotbar_grid@common.hotbar_grid_template": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+              "normal_close_layer": {
+                "type": "panel",
+                "size": [12, 12],
+                "layer": 100,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [191, 159],
+                "$normal_close_visible|default": true,
+                "variables": [
+                  {
+                    "requires": "($temp_container_title = 'entity.avaritia:recipe_view_7.name')",
+                    "$normal_close_visible": false
+                  }
+                ],
+                "visible": "$normal_close_visible",
+                "controls": [
+                  {
+                    "avaritia_close_btn@avaritia_close.close_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [0, 0]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "recipe_close_layer": {
+                "type": "panel",
+                "size": [
+                  12,
+                  12
+                ],
+                "layer": 100,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  191,
+                  159
+                ],
+                "$recipe_close_visible|default": false,
+                "variables": [
+                  {
+                    "requires": "($temp_container_title = 'entity.avaritia:recipe_view_7.name')",
+                    "$recipe_close_visible": true
+                  }
+                ],
+                "visible": "$recipe_close_visible",
+                "controls": [
+                  {
+                    "avaritia_close_btn@avaritia_close.close_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

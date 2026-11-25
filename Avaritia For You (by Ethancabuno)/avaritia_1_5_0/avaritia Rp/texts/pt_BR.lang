@@ -1,0 +1,214 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=Bloco de Neutrônio
+crystal_matrix_block.name=Bloco de Matriz de Cristal
+infinity_block.name=Bloco do Infinito
+dire_crafting_table.name=Bancada de Trabalho Extrema
+neutronium_compressor.name=Compressor de Neutrônio
+record_furnace.name=Forno de Discos
+neutron_collector.name=Coletor de Nêutron
+cosmic_collector.name=Coletor de Estrela Cósmica
+compressed_crafting_table.name=Bancada de Trabalho Comprimida
+double_compressed_crafting_table.name=Bancada de Trabalho Comprimida Duas Vezes
+
+## Equipments
+infinity_sword.name=Espada do Cosmos
+infinity_axe.name=Ruínas da Natureza
+infinity_pickaxe.name=Destruidor de Mundos
+infinity_shovel.name=Devorador de Planetas
+infinity_hoe.name=Enxada da Terra Verde
+infinity_bow.name=Arco Longo dos Céus
+infinity_helmet.name=Capacete do Infinito
+infinity_chestplate.name=Peitoral do Infinito
+infinity_leggings.name=Calças do Infinito
+infinity_boots.name=Botas do Infinito
+skullfire_sword.name=Espada de Fogo Craniano
+infinity_mace.name=Maça Infinita
+attribute.mace_smash=§5Esmagamento Graviton §7- Dano de queda: 100 x 32 por bloco caído, sem limite§f
+attribute.mace_hit=§7Golpe: Prende o alvo por 20 s e puxa mobs próximos§f
+attribute.mace_vortex=§7Uso: Vórtice de buraco negro (13 blocos) §8- §7Ilimitado, recarga de 0,7 s§f
+
+## Items
+matter_cluster.name=Agrupamento de Matéria
+asgardandelion.name=Dente-de-leão de Asgar
+starfuel.name=Combustível Estelar
+endest_pearl.name=Pérola Endest
+infinity_ingot.name=Barra do Infinito
+infinity_nugget.name=Pepita do Infinito
+infinity_catalyst.name=Catalisador do Infinito
+crystal_matrix.name=Barra de Matriz de Cristal
+diamond_lattice.name=Malha de Diamante
+neutronium_ingot.name=Barra de Neutrônio
+neutronium_nugget.name=Pepita de Neutrônio
+neutronium_gear.name=Engrenagem de Neutrônio
+neutronium_star.name=Estrela de Neutrônio
+pile_of_neutrons.name=Pilha de Nêutrons
+record_fragment.name=Fragmento de Registro
+cosmic_meatballs.name=Almôndegas Cósmicas
+ultimate_stew.name=Ensopado Supremo
+
+## Singularities
+ultimate_singularity.name=Singularidade Suprema
+redstone_singularity.name=Singularidade de Redstone
+quartz_singularity.name=Singularidade de Quartzo
+obsidian_singularity.name=Singularidade de Obsidiana
+lapis_singularity.name=Singularidade de Lápiz
+netherite_singularity.name=Singularidade de Netherita
+amethyst_singularity.name=Singularidade de Ametista
+coal_singularity.name=Singularidade de Carvão
+diamond_singularity.name=Singularidade de Diamante
+emerald_singularity.name=Singularidade de Esmeralda
+experience_singularity.name=Singularidade de Experiência
+gold_singularity.name=Singularidade de Ouro
+iron_singularity.name=Singularidade de Ferro
+copper_singularity.name=Singularidade de Cobre
+slime_singularity.name=Singularidade de Slime
+soul_sand_singularity.name=Singularidade de Areia das Almas
+honey_singularity.name=Singularidade de Mel
+
+## Atributes
+attribute.infinity_damade=§7Dano §cI§6n§ef§ai§bn§9i§dt§co§f
+attribute.tree_capitator=§7Cortador de Árvores§f
+attribute.super_plow=§7Super Arado§f
+attribute.fly=§7Vôo§f
+attribute.collect_skull=§7Coletar Crânio de Wither§f
+attribute.attack_radius=§9Raio de Ataque§f
+attribute.protection=§9Proteção§f
+attribute.movement_speed=§9Velocidade de Movimento§f
+attribute.knockback_resistance=§9Resistência à Repulsão§f
+
+## Messages
+message.avaritia.missing_ingredients=Falta Ingredientes!
+message.avaritia.confirm_recipe=Você deseja criar este item?
+message.avaritia.neutron=Você Coletou:
+message.avaritia.neutron2=Espere! Você ainda tem:
+message.avaritia.no_players_available=Nenhum jogador disponível.
+message.avaritia.remove_coordinates=Coordenadas removidas!
+message.avaritia.no_coordinates_saved=Você não tem coordenadas salvas.
+message.avaritia.is_not_coordinated=Possui caracteres inválidos, tente novamente. 
+message.avaritia.coordinates_saved=Coordenadas salvas!
+message.avaritia.invalid_name=Nome inválido ou existente.
+
+## Modes
+mode.desactive=Desativado
+mode.active=Ativado
+mode.avaritia.intangible_mode=Intangibilidade
+mode.avaritia.magnetic=Magnetismo
+
+## Warning
+avaritia.equip_the_helmet=Equipe o Capacete do Infinito
+avaritia.equip_the_chestplate=Equipe o Peitoral do Infinito
+avaritia.equip_the_leggings=Equipe a Calça do Infinito
+avaritia.equip_the_armor=Equipe a Armadura do Infinito
+
+## Containers
+gui.avaritia.extract_all=Extrair Tudo
+gui.avaritia.delete=Apagar Tudo
+gui.collect=Extração
+extreme.avaritia.infinityItems=Itens do Infinito
+extreme.avaritia.machines=Máquinas
+extreme.avaritia.otherItems=Outros Itens
+avaritia.ingredients=Ingredientes
+avaritia.amount=Quantia
+container.extreme_crafting=Criação Extrema
+container.extreme_compression=Compressão Extrema
+container.compressor.description=Crie Singularidades!
+itemUi.avaritia.teleport_to_player=Qual jogador visitar?
+itemUi.avaritia.remove_coordinates=Remover Coordenadas
+itemUi.avaritia.choose_teleport=Escolha seu Destino
+itemUi.avaritia.save_coordinates=Salvar Coordenadas
+itemUi.avaritia.save_coordinates.via_text=Salvar Coordenadas via Texto
+itemUi.avaritia.name_coordinate=Nomeie esta Coordenada
+itemUi.avaritia.coordinates=Escreva as Coordenadas
+itemUi.avaritia.name_example=Exemplo: Casa, Floresta, Mina...
+
+## Extra
+avaritia.not_kill=§cEste indivíduo não pode ser morto
+entity.avaritia:heaven_arrow.name=§eFlecha dos Céus§f
+entity.avaritia:heaven_arrow.rain.name=§eFlecha dos Céus§f
+entity.avaritia:black_hole.name=§eBuraco Negro§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=Altar de Criação Extrema
+action.interact.altar=Abrir bancada de criação 9x9
+avaritia:itemGroup.name.infinity_mace=§dMaça Infinita
+entity.avaritia:heaven_arrow_rain.name=§eFlecha dos Céus§f
+gacha_machine.name=Máquina Gacha
+infinity_scythe.name=Foice Infinita
+attribute.scythe_reaper=§5Ceifador de Almas §7- Praga e Sangramento§f
+attribute.scythe_growth=§7Cada abate adiciona dano permanente §8- §7Vida máx. da vítima x Golpes², sem limite, salvo no item§f
+infinity_spear.name=Lança Infinita
+attribute.spear_lunge=§5Investida Cósmica §7- % aleatório da vida máxima§f
+infinity_shield.name=Escudo Infinito
+attribute.shield_bulwark=§5Baluarte Cósmico §7- Bloqueia e reflete tudo; soltar agachado = Explosão Nova§f
+tile.avaritia:infinity_shield.name=Escudo Infinito
+infinity_trident.name=Tridente Infinito
+attribute.trident_storm=§5Arsenal Espectral §7- Toque = Invocar/Comandar Tridentes Espirituais; soltar agachado = Correnteza§f
+entity.avaritia:infinity_trident_thrown.name=Tridente Infinito
+infinity_crossbow.name=Besta Infinita
+attribute.crossbow_barrage=§5Rajada Rápida §7- Munição infinita; tiro agachado = Raios de energia e Raio de convergência§f
+entity.avaritia:infinity_crossbow_arrow.name=Flecha Infinita
+entity.avaritia:infinity_trident_spirit.name=Tridente Espiritual
+
+## Infinity Utility
+infinity_totem.name=Totem do Renascimento Eterno
+infinity_fishing_rod.name=Vara do Mar Sem Fim
+infinity_shears.name=Tesoura do Tear
+infinity_bucket.name=Balde do Vazio
+infinity_flint_and_steel.name=Faísca da Criação
+attribute.totem_eternal=§7Nunca quebra §8- §7Salva você de dano letal§f
+attribute.rod_endless=§7Lance na água §8- §7Pesca instantânea + XP§f
+attribute.shears_loom=§7Tosquia tudo §8- §7Folhas, lã e teias caem inteiras§f
+attribute.bucket_void=§7Sneak+Use = Water / Lava / Suck §8- §7Infinite§f
+attribute.spark_creation=§7Acende blocos, TNT e creepers §8- §7Nunca quebra§f
+
+## Infinity Totems
+infinity_totem_tide.name=Totem da Maré
+infinity_totem_ender.name=Totem do Ender
+infinity_totem_fortune.name=Totem da Fortuna
+infinity_totem_berserker.name=Totem do Berserker
+infinity_totem_vitality.name=Totem da Vitalidade
+infinity_totem_gale.name=Totem do Vendaval
+infinity_totem_mercy.name=Totem da Misericórdia
+infinity_totem_clairvoyance.name=Totem da Clarividência
+infinity_totem_inferno.name=Totem do Inferno
+infinity_totem_shadow.name=Totem das Sombras
+infinity_totem_frost.name=Totem do Gelo
+infinity_totem_void.name=Totem do Vazio
+attribute.totem_tide=§7Segurar: Respiração aquática, natação rápida e Poder do Conduto§f
+attribute.totem_ender=§7Uso: Teleporte de até 64 blocos §8- §7Recarga de 1 s§f
+attribute.totem_fortune=§7Segurar: Pressa IV e Sorte III §8- §7Abates dropam XP extra§f
+attribute.totem_berserker=§7Segurar: Força IV, Velocidade II e Resistência §8- §7Abates curam e concedem Absorção§f
+attribute.totem_vitality=§7Segurar: +10 corações, Regeneração III e Saturação§f
+attribute.totem_gale=§7Segurar: Velocidade IV, Salto V §8- §7Sem dano de queda§f
+attribute.totem_mercy=§7Segurar: Aura de cura (24 blocos) para você e aliados§f
+attribute.totem_clairvoyance=§7Segurar: Visão noturna e Sorte §8- §7Revela mobs hostis (48 blocos)§f
+attribute.totem_inferno=§7Segurar: Imunidade ao fogo e Força II §8- §7Atacantes e hostis próximos pegam fogo§f
+attribute.totem_shadow=§7Segurar: Invisibilidade, Velocidade II e Visão noturna §8- §730% de chance de esquiva§f
+attribute.totem_frost=§7Segurar: Resistência II e Resistência ao fogo §8- §7Deixa hostis lentos e fracos (16 blocos)§f
+attribute.totem_void=§7Segurar: Proteção contra o vazio e quedas §8- §7Leva você de volta ao chão seguro§f
+infinity_destroyer.name=Destruidor Infinito
+infinity_hammer.name=Martelo Infinito
+avaritia_biome_compass.name=Bússola de Biomas
+attribute.biome_compass=§7Uso: Escolha um bioma §8- §7Aponta para o mais próximo§f
+infinity_chest.name=Baú Infinito
+infinity_chest.title=Baú Infinito
+
+## Neon Halo Armor
+item.halo:neon_helmet=Capacete Neon Halo
+item.halo:neon_chestplate=Peitoral Neon Halo
+item.halo:neon_leggings=Calças Neon Halo
+item.halo:neon_boots=Botas Neon Halo
+seal_orb.name=Orbe de Selamento
+seal_orb_full.name=Orbe de Selamento
+seal_orb.desc=Sele uma criatura: clique com o botão direito para selar, use novamente para libertar
+item.halo:neon_crystal=Cristal de Neon
+neon_crystal.name=Cristal de Neon
+glowstone_singularity.name=Singularidade de Pedra Luminosa
+prismarine_singularity.name=Singularidade de Prismarinho
+end_stone_singularity.name=Singularidade de Pedra do End
+magma_singularity.name=Singularidade de Magma
+bone_singularity.name=Singularidade de Osso
+ice_singularity.name=Singularidade de Gelo
+netherrack_singularity.name=Singularidade de Netherrack

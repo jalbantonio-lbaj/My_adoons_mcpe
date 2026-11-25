@@ -1,0 +1,84 @@
+{
+  "format_version": "1.21.40",
+  "gf_wu:portal_pad": {
+    "textures": "gf_wu:portal_pad"
+  },
+  "gf_wu:void_chest": {
+    "sound": "metal"
+  },
+  "gf_wu:suction_hopper": {
+    "sound": "metal"
+  },
+  "gf_wu:grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:black_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:blue_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:cyan_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:gray_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:green_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:light_blue_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:light_gray_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:lime_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:magenta_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:orange_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:pink_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:purple_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:red_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:white_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:yellow_grab_bag": {
+    "sound": "cloth"
+  },
+  "gf_wu:disenchanter": {
+    "sound": "stone"
+  },
+  "gf_wu:experience_extractor": {
+    "sound": "nether_wood"
+  },
+  "gf_wu:tanning_rack": {
+    "sound": "wood"
+  },
+  "gf_wu:vault": {
+    "sound": "wood"
+  },
+  "gf_wu:bridge_builder1": {
+    "sound": "glass"
+  },
+  "gf_wu:bridge_builder2": {
+    "sound": "glass"
+  },
+  "gf_wu:bridge_builder3": {
+    "sound": "glass"
+  },
+  "gf_wu:bridge_builder4": {
+    "sound": "glass"
+  }
+}

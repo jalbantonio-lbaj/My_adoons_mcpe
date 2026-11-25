@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinitysingularity_64411cfb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:soulsingularity",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:obsidiansingularity",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:slimesingularity",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:leavessingularity",
+        "data": 0
+      },
+      "E": {
+        "item": "pa:eternalsingularity",
+        "data": 0
+      },
+      "F": {
+        "item": "pa:quartzsingularity",
+        "data": 0
+      },
+      "G": {
+        "item": "pa:netheritesingularity",
+        "data": 0
+      },
+      "H": {
+        "item": "pa:recordfragment",
+        "data": 0
+      },
+      "I": {
+        "item": "pa:honeysingularity",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinitysingularity",
+      "count": 1
+    }
+  }
+}

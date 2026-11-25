@@ -1,0 +1,2756 @@
+{
+ "format_version": "1.10.0",
+ "animations": {
+  "animation.avaritia_bc.item.first_person_hold_1": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_1": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_1": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_2": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      11.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_2": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      11.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_2": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      11.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_3": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      22.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_3": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      22.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_3": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      22.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_4": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      33.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_4": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      33.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_4": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      33.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_5": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      45,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_5": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      45,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_5": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      45,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_6": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      56.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_6": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      56.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_6": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      56.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_7": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      67.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_7": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      67.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_7": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      67.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_8": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      78.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_8": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      78.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_8": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      78.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_9": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      90,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_9": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      90,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_9": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      90,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_10": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      101.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_10": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      101.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_10": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      101.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_11": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      112.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_11": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      112.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_11": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      112.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_12": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      123.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_12": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      123.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_12": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      123.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_13": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      135,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_13": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      135,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_13": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      135,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_14": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      146.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_14": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      146.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_14": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      146.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_15": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      157.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_15": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      157.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_15": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      157.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_16": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      168.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_16": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      168.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_16": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      168.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_17": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      180,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_17": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      180,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_17": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      180,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_18": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      191.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_18": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      191.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_18": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      191.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_19": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      202.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_19": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      202.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_19": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      202.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_20": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      213.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_20": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      213.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_20": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      213.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_21": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      225,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_21": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      225,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_21": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      225,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_22": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      236.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_22": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      236.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_22": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      236.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_23": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      247.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_23": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      247.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_23": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      247.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_24": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      258.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_24": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      258.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_24": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      258.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_25": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      270,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_25": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      270,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_25": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      270,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_26": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      281.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_26": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      281.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_26": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      281.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_27": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      292.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_27": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      292.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_27": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      292.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_28": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      303.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_28": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      303.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_28": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      303.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_29": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      315,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_29": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      315,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_29": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      315,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_30": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      326.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_30": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      326.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_30": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      326.25,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_31": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      337.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_31": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      337.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_31": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      337.5,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_32": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      348.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_32": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      348.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_32": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      348.75,
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_hold_33": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      36.78253,
+      -33.07475,
+      -13.11624
+     ],
+     "position": [
+      16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      "variable.current_rotation",
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.third_person_hold_33": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "rotation": [
+      80,
+      0,
+      0
+     ],
+     "position": [
+      0,
+      -2,
+      -2
+     ],
+     "scale": 0.6
+    },
+    "other_root_item": {
+     "scale": 0
+    },
+    "hand": {
+     "rotation": [
+      0,
+      "variable.current_rotation",
+      0
+     ]
+    }
+   }
+  },
+  "animation.avaritia_bc.item.first_person_other_hold_33": {
+   "loop": true,
+   "bones": {
+    "root_item": {
+     "scale": 0
+    },
+    "other_root_item": {
+     "rotation": [
+      38.03884,
+      31.55564,
+      9.74964
+     ],
+     "position": [
+      -16,
+      3,
+      -1
+     ],
+     "scale": 0.9
+    },
+    "hand2": {
+     "rotation": [
+      0,
+      "variable.current_rotation",
+      0
+     ]
+    }
+   }
+  }
+ }
+}

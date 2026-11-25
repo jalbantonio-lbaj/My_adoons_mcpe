@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "neon_white_block",
+		"metalness_emissive_roughness": "neon_white_block_mer"
+	}
+}

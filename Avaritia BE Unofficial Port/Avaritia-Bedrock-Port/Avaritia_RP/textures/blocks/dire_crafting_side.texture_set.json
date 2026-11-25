@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "dire_crafting_side",
+		"metalness_emissive_roughness": "dire_crafting_side_mer",
+		"heightmap": "dire_crafting_side_height"
+	}
+}

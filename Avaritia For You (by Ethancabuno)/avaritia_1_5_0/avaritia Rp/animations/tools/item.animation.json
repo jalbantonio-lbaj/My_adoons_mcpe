@@ -1,0 +1,132 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    // 2D Items
+    "animation.hand_equipped.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "scale": "c.is_first_person ?  1.13 : 1",
+          "position": [
+            "c.is_first_person ? 5 : 0.55",
+            "c.is_first_person ? -12 : -12.5",
+            "c.is_first_person ? -3 : -8.9"
+          ],
+          "rotation": [
+            "c.is_first_person ? 235 : 6.5",
+            "c.is_first_person ? -66 : 180",
+            "c.is_first_person ? 100 : -3.5"
+          ]
+        }
+      }
+    },
+    // Off-hand support for animated 2D items (totems): mirrored pose on the left item bone,
+    // and each hand's unused bone is scaled to 0 so the item is never drawn at the wrong hand.
+    "animation.avaritia.item_wield_off": {
+      "loop": true,
+      "bones": {
+        "rightitem": { "scale": 0 },
+        "leftitem": {
+          "scale": "c.is_first_person ?  1.13 : 1",
+          "position": [
+            "c.is_first_person ? -5 : -0.55",
+            "c.is_first_person ? -12 : -12.5",
+            "c.is_first_person ? -3 : -8.9"
+          ],
+          "rotation": [
+            "c.is_first_person ? 235 : 6.5",
+            "c.is_first_person ? 66 : -180",
+            "c.is_first_person ? -100 : 3.5"
+          ]
+        }
+      }
+    },
+    // First-person off-hand: the right-hand item pose (known to render) is shifted along the item's local X axis (-22 = left hand)
+    // so it lands in the left hand. The main-hand mesh is hidden in this case.
+    "animation.avaritia.item_fp_off_kids": {
+      "loop": true,
+      "bones": {
+        "off_mesh": { "position": [-22, 0, 0], "scale": 1 }
+      }
+    },
+    "animation.avaritia.item_hide_kids": {
+      "loop": true,
+      "bones": { "off_mesh": { "scale": 0 } }
+    },
+    "animation.avaritia.item_hide_left": {
+      "loop": true,
+      "bones": { "leftitem": { "scale": 0 } }
+    },
+    // Dedicated "hold sword" animation for the 2 swords (infinity_sword, skullfire_sword) -
+    // does NOT adjust any extra rotation/position/scale (identity transform) so
+    // the sword model only follows the original pivot of the "rightitem" bone + vanilla's default
+    // arm-swing animation, without an unusual angle offset like
+    // animation.hand_equipped.wield (which is tuned specifically for axes/pickaxes/
+    // shovels, not suited to a sword model). That way the holding pose + swing arc of the 2
+    // swords stay as close to vanilla as possible while still keeping their own 3D model.
+    "animation.hand_equipped.sword_wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "scale": 1,
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      }
+    },
+    "animation.item.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "scale": "c.is_first_person ?  1.13 : 0.525",
+          "position": [
+            "c.is_first_person ? 5 : 3.5",
+            "c.is_first_person ? -12 : -1.5",
+            "c.is_first_person ? -3 : -9"
+          ],
+          "rotation": [
+            "c.is_first_person ? 235 : 55",
+            "c.is_first_person ? -66 : 165",
+            "c.is_first_person ? 100 : -75"
+          ]
+        }
+      }
+    },
+    // 3D Items
+    "animation.hand_equipped.3d.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [
+            "c.is_first_person ? 0 : 90",
+            0,
+            "c.is_first_person ? -160 : -90"
+          ],
+          "position": [
+            "c.is_first_person ? 0 : 1",
+            "c.is_first_person ? 24 : 19",
+            "c.is_first_person ? 0 : -1"
+          ]
+        }
+      }
+    },
+    "animation.item.3d.wield": {
+      "loop": true,
+      "bones": {
+        "rightItem": {
+          "rotation": [
+            "c.is_first_person ? 38 : 80",
+            0,
+            "c.is_first_person ? 230 : 0"
+          ],
+          "position": [
+            "c.is_first_person ? 10 : 1",
+            "c.is_first_person ? -8 : -3",
+            "c.is_first_person ? 10 : -1"
+          ],
+          "scale": "c.is_first_person ? 0.8 : 0.3"
+        }
+      }
+    }
+  }
+}

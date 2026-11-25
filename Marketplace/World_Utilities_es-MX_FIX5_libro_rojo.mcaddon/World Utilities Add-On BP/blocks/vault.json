@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "gf_wu:vault",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      },
+      "states": {
+        "gf_wu:number_low": [0, 1, 2, 3, 4, 5, 6, 7],
+        "gf_wu:number_high": [0, 1, 2, 3, 4, 5, 6]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "ambient_occlusion": true,
+          "face_dimming": true,
+          "render_method": "alpha_test",
+          "texture": "gf_wu:void_chest"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.gf_wu.empty"
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_emission": 0,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/blocks/vault.json",
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      }
+    }
+  }
+}

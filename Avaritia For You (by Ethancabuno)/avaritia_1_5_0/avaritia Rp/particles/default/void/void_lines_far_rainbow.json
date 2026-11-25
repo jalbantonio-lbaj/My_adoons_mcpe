@@ -1,0 +1,74 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "fad:void_lines_far_rainbow",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/space_warp_streak"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 14,
+        "max_particles": 55
+      },
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 20
+      },
+      "minecraft:emitter_shape_point": {
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "math.random(2.4, 3.2)"
+      },
+      "minecraft:particle_initial_speed": 0,
+      "minecraft:particle_motion_parametric": {
+        "relative_position": [
+          "(((2.8 + variable.particle_random_1 * 1.8) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 0.9)) * math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_4 * 360)) + ((((2.8 + variable.particle_random_1 * 1.8) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 0.9)) * math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.sin((variable.particle_random_4 * 360))",
+          "(-(((2.8 + variable.particle_random_1 * 1.8) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 0.9)) * math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_3 * 160 - 80)))",
+          "-(((2.8 + variable.particle_random_1 * 1.8) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 0.9)) * math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_4 * 360)) + ((((2.8 + variable.particle_random_1 * 1.8) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 0.9)) * math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.cos((variable.particle_random_4 * 360))"
+        ]
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "2.2 * (1 - 0.5 * (variable.particle_age / variable.particle_lifetime))",
+          "0.05"
+        ],
+        "facing_camera_mode": "direction_x",
+        "direction": {
+          "mode": "custom",
+          "custom_direction": [
+            "((-math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_4 * 360)) + ((math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.sin((variable.particle_random_4 * 360))) - 0.25 * ((math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_4 * 360)) + ((math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.sin((variable.particle_random_4 * 360)))",
+            "((-(math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_3 * 160 - 80)))) - 0.25 * ((-(math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_3 * 160 - 80))))",
+            "(-(-math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_4 * 360)) + ((math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.cos((variable.particle_random_4 * 360))) - 0.25 * (-(math.cos((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.sin((variable.particle_random_4 * 360)) + ((math.sin((variable.particle_random_2 * 360 + 250 * (variable.particle_age / variable.particle_lifetime) + 320 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))) * math.cos((variable.particle_random_3 * 160 - 80))) * math.cos((variable.particle_random_4 * 360)))"
+          ]
+        },
+        "uv": {
+          "texture_width": 64,
+          "texture_height": 16,
+          "uv": [
+            0,
+            0
+          ],
+          "uv_size": [
+            64,
+            16
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "0.02 + (0.10 + 0.14 * variable.particle_random_1) * (math.clamp(math.abs((math.mod((1 - math.abs(math.mod(variable.emitter_age / 10, 1) * 2 - 1)) * 275 + 0 + 360, 360) / 60) - 3) - 1, 0, 1))",
+          "0.02 + (0.10 + 0.14 * variable.particle_random_1) * (math.clamp(2 - math.abs((math.mod((1 - math.abs(math.mod(variable.emitter_age / 10, 1) * 2 - 1)) * 275 + 0 + 360, 360) / 60) - 2), 0, 1))",
+          "0.02 + (0.10 + 0.14 * variable.particle_random_1) * (math.clamp(2 - math.abs((math.mod((1 - math.abs(math.mod(variable.emitter_age / 10, 1) * 2 - 1)) * 275 + 0 + 360, 360) / 60) - 4), 0, 1))",
+          "0.41 * math.pow(math.max(math.sin((variable.particle_age / variable.particle_lifetime) * 180), 0), 0.6)"
+        ]
+      }
+    }
+  }
+}

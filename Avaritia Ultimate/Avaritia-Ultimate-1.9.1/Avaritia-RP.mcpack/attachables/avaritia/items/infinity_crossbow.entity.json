@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_crossbow",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/items/infinity_crossbow_standby"
+      },
+      "geometry": {
+        "default": "geometry.custom.infinity_crossbow_standby"
+      },
+      "render_controllers": [ "controller.render.avaritia.crossbow_static" ]
+    }
+  }
+}

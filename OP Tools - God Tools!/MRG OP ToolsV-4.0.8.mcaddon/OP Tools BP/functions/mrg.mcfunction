@@ -1,0 +1,16 @@
+summon mrg:tnt_ignited1 ^ ^ ^4
+summon mrg:tnt_ignited1 ^ ^ ^6
+summon mrg:tnt_ignited1 ^ ^ ^7
+summon mrg:tnt_ignited1 ^ ^ ^8
+summon mrg:tnt_ignited1 ^ ^ ^9
+summon mrg:tnt_ignited1 ^ ^ ^10
+summon mrg:tnt_ignited1 ^ ^ ^11
+summon mrg:tnt_ignited1 ^ ^ ^12
+summon mrg:tnt_ignited1 ^ ^ ^13
+summon mrg:tnt_ignited1 ^ ^ ^14
+summon mrg:tnt_ignited1 ^ ^ ^15
+summon mrg:tnt_ignited1 ^ ^ ^16
+summon mrg:tnt_ignited1 ^ ^ ^17
+summon mrg:tnt_ignited1 ^ ^ ^18
+summon mrg:tnt_ignited1 ^ ^ ^19
+summon mrg:tnt_ignited1 ^ ^ ^20

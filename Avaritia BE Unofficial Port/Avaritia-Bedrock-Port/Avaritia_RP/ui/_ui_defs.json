@@ -1,0 +1,10 @@
+{
+    "ui_defs": [
+        "ui/blocks/compressor_panel.json",
+        "ui/blocks/collector_panel.json",
+        "ui/avaritia_ui_core.json",
+        "ui/blocks/extreme_craft_screen.json",
+        "ui/recipes/avaritia_dire_crafting_recipes.json",
+        "ui/recipes/avaritia_compressor_recipes.json"
+    ]
+}

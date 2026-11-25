@@ -1,0 +1,905 @@
+{
+  "namespace": "avaritia",
+
+  "extreme_cell": {
+    "type": "panel",
+    "$size|default": [18, 18],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [16, 16],
+    "$background_images|default": "common.cell_image_panel",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "collection_index": "$collection_index",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+
+  "extreme_output_cell": {
+    "type": "panel",
+    "$size|default": [24, 24],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "avaritia.pile_slot_cell_hover",
+    "$item_renderer_size|default": [16, 16],
+    "$background_images|default": "avaritia.pile_slot_cell",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "collection_index": "$collection_index",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size",
+          "has_index_binding": true
+        }
+      }
+    ]
+  },
+
+  "extreme_output_slot": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "$collection_index|default": 81,
+    "size": [24, 24],
+    "has_index_binding": true,
+    "controls": [
+      {
+        "cell@avaritia.extreme_output_cell": {
+          "collection_index": "$collection_index",
+          "size": [24, 24],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+
+  "dire_recipes_side_panel": {
+      "type": "collection_panel",
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "size": [154, 280],
+      "offset": [-129, 0],
+      "layer": 10,
+      "collection_name": "container_items",
+      "$item_collection_name": "container_items",
+      "bindings": [
+        {
+          "binding_type": "view",
+          "source_control_name": "avaritia_recipes_toggle_button",
+          "source_property_name": "#toggle_state",
+          "target_property_name": "#visible",
+          "resolve_sibling_scope": false
+        }
+      ],
+      "controls": [
+      {
+        "panel_bg": {
+          "type": "image",
+          "texture": "textures/ui/background/background_panel",
+          "size": [140, 259],
+          "offset": [7, 10.5],
+          "layer": -5
+        }
+      },
+      {
+        "top_bg": {
+          "type": "image",
+          "texture": "textures/ui/background/dark_top_tab",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [140, 24],
+          "offset": [7, 0],
+          "layer": -6
+        }
+      },
+      {
+        "title": {
+          "type": "label",
+          "text": "ui.avaritia:recipes_panel_xtreme.name",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [7, 7],
+          "color": [0.9, 0.9, 0.9],
+          "layer": -3,
+          "font_scale_factor": 1
+        }
+      },
+      {
+        "recipes_grid_bg": {
+          "type": "image",
+          "texture": "textures/ui/recipe_grid_bg",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [128, 247],
+          "offset": [20, 27],
+          "layer": -4
+        }
+      },
+      {
+        "recipes_grid_border": {
+          "type": "image",
+          "texture": "textures/ui/background_border",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [128, 247],
+          "offset": [20, 27],
+          "layer": 4
+        }
+      },
+      {
+        "recipes_scroll@common.scrolling_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [142, 240],
+          "offset": [13, -2],
+          "$show_background": false,
+          "layer": -2,
+          "$scroll_size": [4, "100% - 4px"],
+          "$scrolling_pane_size": ["100% + 6px", "100% + 3px"],
+          "$scrolling_pane_offset": [-2, 30],
+          "$scroll_view_port_size": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_max_size": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_offset": [-44, 0],
+          "$scrolling_pane_size_touch": ["100% + 6px", "100% + 3px"],
+          "$scrolling_pane_offset_touch": [0, 30],
+          "$scroll_view_port_size_touch": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_max_size_touch": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_offset_touch": [-46, 0],
+          "$scroll_size_touch": [4, "100% - 4px"],
+          "$scroll_box_visible_touch": true,
+          "$use_touch_mode": false,
+          "$scrolling_content": "avaritia.dire_recipes_buttons",
+          "$scroll_track_image_control": "common.empty_image"
+        }
+      }
+    ]
+  },
+
+  "dire_recipes_connector": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [12, 280],
+    "offset": [-52, 0],
+    "layer": -20,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia_recipes_toggle_button",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible",
+        "resolve_sibling_scope": true
+      }
+    ],
+    "controls": [
+      {
+        "connector_bg": {
+          "type": "image",
+          "texture": "textures/ui/recipe_book_side_toggle_dark",
+          "size": [12, 280],
+          "layer": 0
+        }
+      }
+    ]
+  },
+
+  "extreme_craft_top": {
+      "type": "collection_panel",
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "size": [162, 72],
+      "offset": [-10, -40],
+      "collection_name": "container_items",
+      "$item_collection_name": "container_items",
+      "controls": [
+        {
+          "machine_name@avaritia.machine_name": {}
+        },
+        {
+          "title_label": {
+            "type": "label",
+            "text": "ui.avaritia:machine_view.name",
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "offset": [-29, -58],
+            "color": [0.9, 0.9, 0.9],
+            "shadow": true,
+            "font_scale_factor": 1,
+            "layer": 5
+          }
+        },
+        {
+          "extreme_grid": {
+            "type": "grid",
+            "grid_dimensions": [9, 9],
+            "collection_name": "container_items",
+            "grid_item_template": "avaritia.extreme_cell",
+            "size": [162, 162],
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "offset": [-16, -45]
+          }
+        },
+        {
+          "output@avaritia.extreme_output_slot": {
+            "collection_index": 81,
+            "size": [24, 24],
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "offset": [176, 24]
+          }
+        },
+        {
+          "recipe_arrow": {
+            "type": "image",
+            "texture": "textures/ui/arrow_empty",
+            "size": [26, 18],
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "offset": [148, 27],
+            "layer": 2
+          }
+        },
+        {
+          "recipe_overlays@avaritia.dire_recipe_overlays": {}
+        }
+      ]
+    },
+
+  "machine_name": {
+    "type": "panel",
+    "$offset|default": [
+      10,
+      0
+    ],
+    "controls": [
+      {
+        "chest_label": {
+          "type": "label",
+          "text": "ui.avaritia:machine_view.name",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": "$offset",
+          "color": [0.9, 0.9, 0.9],
+          "shadow": true,
+          "font_scale_factor": 1
+        }
+      }
+    ]
+  },
+
+  "avaritia_toggle_button": {
+    "type": "panel",
+    "$toggle_layer|default": 0,
+    "$toggle_lost_reset|default": true,
+    "$toggle_size|default": [18, 18],
+    "$toggle_name|default": "toggle_button",
+    "$toggle_index|default": 0,
+    "$toggle_group|default": false,
+    "$toggle_default_state|default": false,
+    "$toggle_group_default_selected|default": 0,
+    "$toggle_control_name|default": "",
+    "$toggle_hover_text|default": "",
+    "$toggle_checked_hover_text|default": "",
+    "$toggle_hover_text_localize|default": false,
+    "$toggle_checked_hover_text_localize|default": false,
+    "$toggle_checked_hover_text_from_hover|default": false,
+    "$toggle_unchecked|default": "textures/ui/toggle_button/tab",
+    "$toggle_checked|default": "textures/ui/toggle_button/tab_pressed",
+    "$toggle_unchecked_hover|default": "textures/ui/toggle_button/tab_hover",
+    "$toggle_checked_hover|default": "textures/ui/toggle_button/tab_hover_pressed",
+    "$has_toggle_bg|default": false,
+    "$toggle_bg_texture|default": "textures/ui/toggle_button/right_bg",
+    "$toggle_bg_size|default": [24, 24],
+    "$toggle_bg_offset|default": [0, 0],
+    "$toggle_bg_layer|default": -6,
+    "$has_toggle_icon|default": false,
+    "$toggle_icon_size|default": [16, 16],
+    "$toggle_icon_unchecked|default": "",
+    "$toggle_icon_checked|default": "",
+    "$toggle_icon_unchecked_hover|default": "",
+    "$toggle_icon_checked_hover|default": "",
+    "$toggle_icon_uv_size|default": [16, 16],
+    "controls": [
+      {
+        "toggle_background": {
+          "type": "image",
+          "texture": "$toggle_bg_texture",
+          "size": "$toggle_bg_size",
+          "offset": "$toggle_bg_offset",
+          "layer": "$toggle_bg_layer",
+          "visible": "$has_toggle_bg"
+        }
+      },
+      {
+        "$toggle_control_name@common.toggle": {
+          "size": "$toggle_size",
+          "layer": "$toggle_layer",
+          "$reset_on_focus_lost": "$toggle_lost_reset",
+          "$default_toggle_state": "$toggle_default_state",
+          "$radio_toggle_group": "$toggle_group",
+          "$toggle_group_forced_index": "$toggle_index",
+          "$toggle_name": "$toggle_name",
+          "$unchecked_control": "unchecked",
+          "$checked_control": "checked",
+          "$unchecked_hover_control": "unchecked_hover",
+          "$checked_hover_control": "checked_hover",
+          "$unchecked_locked_control": "unchecked_locked",
+          "$checked_locked_control": "checked_locked",
+          "$unchecked_locked_hover_control": "unchecked_locked_hover",
+          "$checked_locked_hover_control": "checked_locked_hover",
+          "$toggle_focus_enabled|default": true,
+          "$toggle_group_default_selected": "$toggle_group_default_selected",
+          "$toggle_binding_type|default": "global",
+          "$toggle_binding_condition|default": "visible",
+          "$toggle_state_binding_name|default": "#toggle_state",
+          "$toggle_enabled_binding_type|default": "none",
+          "$toggle_enabled_binding_condition|default": "visible",
+          "$toggle_enabled_binding_name|default": "#toggle_enabled",
+          "$toggle_focus_id_binding_type|default": "none",
+          "$toggle_focus_id_binding_condition|default": "visible",
+          "$toggle_focus_id_binding_name|default": "#toggle_focus_id",
+          "$toggle_focus_id_collection_name|default": "",
+          "$toggle_grid_collection_name|default": "",
+          "$toggle_collection_details_type|default": "none",
+          "$toggle_collection_detail_name|default": "",
+          "$toggle_tts_name|default": "accessibility.toggle.tts.title",
+          "$toggle_tts_header_binding_type|default": "none",
+          "$toggle_tts_header_binding_condition|default": "visible",
+          "$toggle_tts_header_binding_collection_name|default": "",
+          "$toggle_tts_header|default": "",
+          "$toggle_tts_value_binding_type|default": "none",
+          "$toggle_tts_value_binding_condition|default": "visible",
+          "$toggle_tts_value_binding_collection_name|default": "",
+          "$toggle_tts_override_toggle_value|default": "",
+          "$toggle_tts_type_priority|default": -100,
+          "$toggle_tts_index_priority|default": 150,
+          "$toggle_tts_inherit_siblings|default": false,
+          "$toggle_focus_bind|default": "",
+          "$tts_section_header|default": "",
+          "$ignore_tts_enabled_bind|default": false,
+          "$focus_id|default": "",
+          "$focus_override_down|default": "",
+          "$focus_override_up|default": "",
+          "$focus_override_left|default": "",
+          "$focus_override_right|default": "",
+          "focus_enabled": "$toggle_focus_enabled",
+          "focus_magnet_enabled": true,
+          "focus_identifier": "$focus_id",
+          "focus_change_down": "$focus_override_down",
+          "focus_change_up": "$focus_override_up",
+          "focus_change_left": "$focus_override_left",
+          "focus_change_right": "$focus_override_right",
+          "controls": [
+            {
+              "unchecked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "unchecked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "$toggle_hover_text_localize",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "(not $toggle_hover_text_localize)"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "($toggle_checked_hover_text_from_hover or $toggle_checked_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_checked_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_checked_hover_text",
+                      "ignored": "($toggle_checked_hover_text_from_hover or (not $toggle_checked_hover_text_localize))"
+                    }
+                  },
+                  {
+                    "tooltip_from_hover@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or $toggle_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip_from_hover@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or (not $toggle_hover_text_localize))"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "recipe_toggle@avaritia.avaritia_toggle_button": {
+    "$toggle_layer": -2,
+    "$toggle_lost_reset": true,
+    "$toggle_group": true,
+    "$toggle_default_state": false,
+    "$toggle_hover_text_localize": true,
+    "$toggle_checked_hover_text_localize": true,
+    "$toggle_checked_hover_text_from_hover": true,
+    "$toggle_size": [18, 18],
+    "$toggle_unchecked": "textures/ui/recipe_book_item_bg",
+    "$toggle_checked": "textures/ui/recipe_book_touch_cell_selected",
+    "$toggle_unchecked_hover": "textures/ui/slot_enabled_hover",
+    "$toggle_checked_hover": "textures/ui/slot_enabled_hover",
+    "$has_toggle_icon": true,
+    "$toggle_icon_size": [14, 14],
+    "$toggle_icon_uv_size": [16, 16],
+    "$toggle_icon_unchecked": "$recipe_icon",
+    "$toggle_icon_checked": "$recipe_icon",
+    "$toggle_icon_unchecked_hover": "$recipe_icon",
+    "$toggle_icon_checked_hover": "$recipe_icon"
+  },
+
+  "extreme_craft_recipe_toggle@avaritia.extreme_craft_tab_button": {
+    "$toggle_layer": -2,
+    "$toggle_lost_reset": true,
+    "$toggle_group": true,
+    "$toggle_default_state": false,
+    "$toggle_hover_text_localize": true,
+    "$toggle_checked_hover_text_localize": true,
+    "$toggle_checked_hover_text_from_hover": true,
+    "$toggle_size": [18, 18],
+    "$toggle_unchecked": "textures/ui/recipe_book_item_bg",
+    "$toggle_checked": "textures/ui/recipe_book_touch_cell_selected",
+    "$toggle_unchecked_hover": "textures/ui/slot_enabled_hover",
+    "$toggle_checked_hover": "textures/ui/slot_enabled_hover",
+    "$has_toggle_icon": true,
+    "$toggle_icon_size": [14, 14],
+    "$toggle_icon_uv_size": [16, 16],
+    "$toggle_icon_unchecked": "$recipe_icon",
+    "$toggle_icon_checked": "$recipe_icon",
+    "$toggle_icon_unchecked_hover": "$recipe_icon",
+    "$toggle_icon_checked_hover": "$recipe_icon"
+  },
+
+  "recipe_slot_overlay": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [16, 16],
+    "offset": "$slot_offset",
+    "$slot_offset|default": [0, 0],
+    "$has_slot_item|default": true,
+    "$has_slot_flipbook|default": false,
+    "$has_slot_hover|default": false,
+    "$has_slot_count|default": false,
+    "$slot_hover_text|default": "",
+    "$slot_count_text|default": "",
+    "$slot_item_texture|default": "",
+    "$slot_item_flipbook_texture|default": "",
+    "$slot_item_flipbook_uv|default": "",
+    "$slot_item_offset|default": [0, 0],
+    "$slot_item_size|default": [16, 16],
+    "$slot_red_size|default": [16, 16],
+    "$slot_red_offset|default": [0, 0],
+    "$recipe_slot_index|default": 0,
+    "collection_index": "$recipe_slot_index",
+    "$item_collection_name|default": "container_items",
+    "bindings": [
+      {
+        "binding_name": "#item_id_aux",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#item_id_aux < 1)",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "recipe_item": {
+          "type": "image",
+          "visible": "$has_slot_item",
+          "texture": "$slot_item_texture",
+          "size": "$slot_item_size",
+          "offset": "$slot_item_offset",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 6
+        }
+      },
+      {
+        "recipe_item_flipbook": {
+          "type": "image",
+          "visible": "$has_slot_flipbook",
+          "texture": "$slot_item_flipbook_texture",
+          "size": "$slot_item_size",
+          "uv_size": [16, 16],
+          "uv": "$slot_item_flipbook_uv",
+          "offset": "$slot_item_offset",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 6
+        }
+      },
+      {
+        "red_image": {
+          "type": "image",
+          "texture": "textures/ui/red_image",
+          "size": "$slot_red_size",
+          "offset": "$slot_red_offset",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 5
+        }
+      },
+      {
+        "recipe_item_count": {
+          "type": "label",
+          "visible": "$has_slot_count",
+          "text": "$slot_count_text",
+          "size": [16, 8],
+          "offset": "$slot_item_offset",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "text_alignment": "right",
+          "color": [1, 1, 1],
+          "shadow": true,
+          "font_scale_factor": 1,
+          "layer": 7
+        }
+      }
+    ]
+  },
+
+  "machine_recipe_view_top_bar": {
+        "type": "panel",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "size": [96, 24],
+        "offset": [76, -148],
+        "layer": 10,
+        "$machine_toggle_default_state|default": true,
+        "$recipes_toggle_default_state|default": false,
+        "$toggle_group_default_selected|default": 0,
+        "$machine_toggle_unchecked|default": "textures/ui/toggle_button/tab",
+        "$machine_toggle_checked|default": "textures/ui/toggle_button/tab_pressed",
+        "$machine_toggle_unchecked_hover|default": "textures/ui/toggle_button/tab_hover",
+        "$machine_toggle_checked_hover|default": "textures/ui/toggle_button/tab_hover_pressed",
+        "$recipes_toggle_unchecked|default": "textures/ui/toggle_button/tab",
+        "$recipes_toggle_checked|default": "textures/ui/toggle_button/tab_pressed",
+        "$recipes_toggle_unchecked_hover|default": "textures/ui/toggle_button/tab_hover",
+        "$recipes_toggle_checked_hover|default": "textures/ui/toggle_button/tab_hover_pressed",
+        "controls": [
+      {
+        "top_bg": {
+          "type": "image",
+          "texture": "textures/ui/toolbar_background",
+          "size": [79, 26],
+          "offset": [11.5, -2],
+          "layer": -4
+        }
+      },
+      {
+        "normal_toggle@avaritia.avaritia_toggle_button": {
+                          "anchor_from": "center",
+                          "anchor_to": "center",
+                          "offset": [14, -2],
+                          "$toggle_name": "avaritia_machine_view_tabs",
+                          "$toggle_layer": 1,
+                          "$toggle_lost_reset": false,
+                          "$toggle_index": 0,
+                          "$toggle_group": true,
+                          "$toggle_group_default_selected": "$toggle_group_default_selected",
+                          "$toggle_default_state": "$machine_toggle_default_state",
+                          "$toggle_hover_text": "ui.avaritia:crafting_view.name",
+                          "$toggle_checked_hover_text": "ui.avaritia:crafting_view.name",
+                          "$toggle_hover_text_localize": true,
+                          "$toggle_checked_hover_text_localize": true,
+                          "$toggle_control_name": "avaritia_machine_view_toggle_button",
+                          "$toggle_size": [25, 18],
+                          "$toggle_unchecked": "$machine_toggle_unchecked",
+                          "$toggle_checked": "$machine_toggle_checked",
+                          "$toggle_unchecked_hover": "$machine_toggle_unchecked_hover",
+                          "$toggle_checked_hover": "$machine_toggle_checked_hover",
+                          "$has_toggle_icon": true,
+                          "$toggle_icon_size": [19, 13],
+                          "$toggle_icon_uv_size": [19, 13],
+                          "$toggle_icon_unchecked": "textures/ui/inventory_icon",
+                          "$toggle_icon_checked": "textures/ui/inventory_icon",
+                          "$toggle_icon_unchecked_hover": "textures/ui/inventory_icon",
+                          "$toggle_icon_checked_hover": "textures/ui/inventory_icon"
+                        }
+      },
+      {
+        "recipes_toggle@avaritia.avaritia_toggle_button": {
+                          "anchor_from": "center",
+                          "anchor_to": "center",
+                          "offset": [-11, -2],
+                          "$toggle_name": "avaritia_machine_view_tabs",
+                          "$toggle_layer": 1,
+                          "$toggle_lost_reset": false,
+                          "$toggle_index": 1,
+                          "$toggle_group": true,
+                          "$toggle_group_default_selected": "$toggle_group_default_selected",
+                          "$toggle_default_state": "$recipes_toggle_default_state",
+                          "$toggle_hover_text": "ui.avaritia:recipes_panel.name",
+                          "$toggle_checked_hover_text": "ui.avaritia:recipes_panel.name",
+                          "$toggle_hover_text_localize": true,
+                          "$toggle_checked_hover_text_localize": true,
+                          "$toggle_control_name": "avaritia_recipes_toggle_button",
+                          "$toggle_size": [25, 18],
+                          "$toggle_unchecked": "$recipes_toggle_unchecked",
+                          "$toggle_checked": "$recipes_toggle_checked",
+                          "$toggle_unchecked_hover": "$recipes_toggle_unchecked_hover",
+                          "$toggle_checked_hover": "$recipes_toggle_checked_hover",
+                          "$has_toggle_icon": true,
+                          "$toggle_icon_size": [19, 13],
+                          "$toggle_icon_uv_size": [19, 13],
+                          "$toggle_icon_unchecked": "textures/ui/recipe_book_icon",
+                          "$toggle_icon_checked": "textures/ui/recipe_book_icon",
+                          "$toggle_icon_unchecked_hover": "textures/ui/recipe_book_icon",
+                          "$toggle_icon_checked_hover": "textures/ui/recipe_book_icon"
+                        }
+      },
+      {
+        "close_button_panel": {
+                          "type": "panel",
+                          "size": [15, 20],
+                          "anchor_from": "center",
+                          "anchor_to": "center",
+                          "offset": [37, -2],
+                          "layer": 2,
+                          "controls": [
+                            {
+                              "close_button@common.light_close_button": {
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "offset": [0, 0]
+                              }
+                            }
+                          ]
+                        }
+      }
+    ]
+  },
+
+  "extreme_craft_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [254, 280],
+          "controls": [
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "recipes_side_panel@avaritia.dire_recipes_side_panel": {}
+                  },
+                  {
+                    "recipes_connector@avaritia.dire_recipes_connector": {}
+                  },
+                  {
+                    "normal_content": {
+                      "type": "panel",
+                      "bindings": [
+                        {
+                          "binding_type": "view",
+                          "source_control_name": "avaritia_recipes_toggle_button",
+                          "source_property_name": "(not (#toggle_state))",
+                          "target_property_name": "#visible",
+                          "resolve_sibling_scope": false
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "common_panel@common.common_panel": {
+                            "$show_close_button": false
+                          }
+                        },
+                        {
+                          "view_top_bar@avaritia.machine_recipe_view_top_bar": {
+                            "$machine_toggle_default_state": true,
+                            "$recipes_toggle_default_state": false,
+                            "$toggle_group_default_selected": 0,
+                            "$machine_toggle_unchecked": "textures/ui/toggle_button/tab_pressed",
+                            "$machine_toggle_checked": "textures/ui/toggle_button/tab_pressed",
+                            "$machine_toggle_unchecked_hover": "textures/ui/toggle_button/tab_hover_pressed",
+                            "$machine_toggle_checked_hover": "textures/ui/toggle_button/tab_hover_pressed",
+                            "$recipes_toggle_checked": "textures/ui/toggle_button/tab",
+                            "$recipes_toggle_checked_hover": "textures/ui/toggle_button/tab_hover"
+                          }
+                        },
+                        {
+                          "extreme_craft_top@avaritia.extreme_craft_top": {}
+                        },
+                        {
+                          "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                        },
+                        {
+                          "hotbar_grid@common.hotbar_grid_template": {}
+                        },
+                        {
+                          "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "recipes_content": {
+                      "type": "panel",
+                      "offset": [76, 0],
+                      "bindings": [
+                        {
+                          "binding_type": "view",
+                          "source_control_name": "avaritia_recipes_toggle_button",
+                          "source_property_name": "#toggle_state",
+                          "target_property_name": "#visible",
+                          "resolve_sibling_scope": false
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "common_panel@common.common_panel": {
+                            "$show_close_button": false
+                          }
+                        },
+                        {
+                          "view_top_bar@avaritia.machine_recipe_view_top_bar": {
+                            "$toggle_group_default_selected": 0,
+                            "$machine_toggle_checked": "textures/ui/toggle_button/tab",
+                            "$machine_toggle_checked_hover": "textures/ui/toggle_button/tab_hover",
+                            "$recipes_toggle_unchecked": "textures/ui/toggle_button/tab_pressed",
+                            "$recipes_toggle_checked": "textures/ui/toggle_button/tab_pressed",
+                            "$recipes_toggle_unchecked_hover": "textures/ui/toggle_button/tab_hover_pressed",
+                            "$recipes_toggle_checked_hover": "textures/ui/toggle_button/tab_hover_pressed"
+                          }
+                        },
+                        {
+                          "extreme_craft_top@avaritia.extreme_craft_top": {}
+                        },
+                        {
+                          "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                        },
+                        {
+                          "hotbar_grid@common.hotbar_grid_template": {}
+                        },
+                        {
+                            "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

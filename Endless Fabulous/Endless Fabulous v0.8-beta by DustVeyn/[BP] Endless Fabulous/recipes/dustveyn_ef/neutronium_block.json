@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:neutronium_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:neutronium_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "dustveyn_ef:neutronium_ingot"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:neutronium_block"
+        }
+    }
+}

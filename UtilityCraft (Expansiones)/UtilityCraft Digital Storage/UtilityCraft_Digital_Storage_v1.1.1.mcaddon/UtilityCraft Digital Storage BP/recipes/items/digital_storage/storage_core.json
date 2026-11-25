@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "utilitycraft:storage_core"
+    },
+    "tags": [
+      "utilitycraft_workbench"
+    ],
+    "key": {
+      "D": {
+        "item": "utilitycraft:gold_dust"
+      },
+      "P": {
+        "item": "utilitycraft:steel_plate"
+      },
+      "S": {
+        "item": "utilitycraft:silicon"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "F": {
+        "item": "utilitycraft:fluxite"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "pattern": [
+      "DSD",
+      "FPF",
+      "RIR"
+    ],
+    "result": {
+      "item": "utilitycraft:storage_core"
+    },
+    "unlock": [
+      {
+        "item": "utilitycraft:fluxite"
+      },
+      {
+        "item": "utilitycraft:gold_dust"
+      }
+    ]
+  }
+}

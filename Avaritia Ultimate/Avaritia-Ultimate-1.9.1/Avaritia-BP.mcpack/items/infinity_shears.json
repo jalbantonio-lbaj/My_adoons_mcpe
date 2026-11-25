@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_shears",
+      "menu_category": {
+        "category": "equipment",
+        "group": "avaritia:itemGroup.name.utilities",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_shears",
+        "use_on": [
+          "avaritia:infinity_shears"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_shears.name\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_tools"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:damage": 3,
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "shears"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('wool','plant','leaves','minecraft:is_hoe_item_destructible','minecraft:wool')"
+            },
+            "speed": 9999
+          }
+        ]
+      }
+    }
+  }
+}

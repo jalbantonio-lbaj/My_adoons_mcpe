@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:blaze_spear",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/spear/blaze_spear",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.blaze_spear"
+      },
+      "scripts": {
+        "animate": [
+          "held_controller",
+          "hit_controller"
+        ]
+      },
+      "animations": {
+        "held_first_person": "animation.avaritia.blaze_spear.held_first_person",
+        "held_third_person": "animation.avaritia.blaze_spear.held_third_person",
+        "held_controller": "controller.animation.avaritia.blaze_spear.held",
+        "hit": "animation.avaritia.blaze_spear.hit",
+        "hit_controller": "controller.animation.avaritia.blaze_spear.hit"
+      },
+      "sound_effects": {
+        "hit": "item.spear.hit"
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_tnt",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_tnt_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "infinity_tnt_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "infinity_tnt_top",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:light_emission": 2,
+      "minecraft:map_color": "#db441a",
+      "avaritia:infinity_tnt_trigger": {}
+    }
+  }
+}

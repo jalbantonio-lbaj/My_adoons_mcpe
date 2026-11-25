@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:void_chest"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"MlM",
+			"McM",
+			"MMM"
+		],
+		"key": {
+			"M": {
+				"item": "minecraft:magma"
+			},
+			"l": {
+				"item": "minecraft:lava_bucket"
+			},
+			"c": {
+				"item": "minecraft:chest"
+			}
+		},
+		"result": {
+			"item": "gf_wu:void_chest"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:lava_bucket"
+			}
+		]
+	}
+}

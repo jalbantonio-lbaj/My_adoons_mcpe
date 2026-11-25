@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "blaze_pickaxe",
+    "metalness_emissive_roughness": "blaze_pickaxe_mer"
+  }
+}

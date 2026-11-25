@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "extra_utilities:grid",
+			"menu_category": {
+				"category": "commands",
+				"is_hidden_in_commands": true
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "grid",
+					"render_method": "blend",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					10,
+					10
+				],
+				"looping": false
+			},
+			"minecraft:custom_components": [
+				"extra_utilities:grid"
+			],
+			"minecraft:geometry": "geometry.grid",
+			"minecraft:display_name": "",
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": false
+		}
+	}
+}

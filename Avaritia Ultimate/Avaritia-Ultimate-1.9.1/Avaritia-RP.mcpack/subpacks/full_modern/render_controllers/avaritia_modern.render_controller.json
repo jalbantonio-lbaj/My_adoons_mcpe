@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.skullfire_sword_modern": {
+      "geometry": "Geometry.default",
+      "textures": [
+        "Texture.default",
+        "Texture.enchanted"
+      ],
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+        }
+      ]
+    }
+  }
+}

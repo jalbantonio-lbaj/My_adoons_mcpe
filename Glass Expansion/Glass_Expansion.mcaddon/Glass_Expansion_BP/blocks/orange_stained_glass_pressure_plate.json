@@ -1,0 +1,116 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "vge:orange_stained_glass_pressure_plate",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.pressurePlate"
+      },
+      "states": {
+        "vge:pressed": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.vge.pressure_plate",
+        "bone_visibility": {
+          "up": "!q.block_state('vge:pressed')",
+          "down": "q.block_state('vge:pressed')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "vge_orange_stained_glass",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        },
+        "hw": {
+          "texture": "vge_orange_stained_glass_hw",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty_glass.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.5
+      },
+      "minecraft:sound": {
+        "sound": "glass"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.hat"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.vge.pressure_plate_item",
+        "material_instances": {
+          "*": {
+            "texture": "vge_orange_stained_glass",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          },
+          "hw": {
+            "texture": "vge_orange_stained_glass_hw",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          }
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -7.0,
+          0.0,
+          -7.0
+        ],
+        "size": [
+          14.0,
+          1.0,
+          14.0
+        ]
+      },
+      "minecraft:redstone_producer": {
+        "power": 0,
+        "strongly_powered_face": "down"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:tick": {
+        "interval_range": [
+          4,
+          4
+        ],
+        "looping": true
+      },
+      "vge:plate": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('vge:pressed')",
+        "components": {
+          "minecraft:redstone_producer": {
+            "power": 15,
+            "strongly_powered_face": "down"
+          }
+        }
+      }
+    ]
+  }
+}

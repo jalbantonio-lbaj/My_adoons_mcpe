@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:refined_coal_to_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:refined_coal"
+      }
+    },
+    "result": [
+      {
+        "item": "avaritia:refined_coal_block_item",
+        "count": 1
+      }
+    ]
+  }
+}

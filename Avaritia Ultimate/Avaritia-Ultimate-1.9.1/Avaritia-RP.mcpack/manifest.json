@@ -1,0 +1,64 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Avaritia: ULTIMATE",
+    "description": "BEST Avaritia Port you have ever seen and will ever see. Support my mod: https://www.curseforge.com/minecraft-bedrock/addons/avaritia-ultimate  \nCredits goes to Re-Avaritia Team: https://www.curseforge.com/minecraft/mc-mods/re-avaritia",
+    "uuid": "85634142-e8e4-4bb7-83e3-69cfd63e60ed",
+    "version": [1, 9, 0],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f241f35f-55c8-4628-85e8-90537bcf185f",
+      "version": [1, 9, 0],
+      "description": "Resources module"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "aa6c7c25-f9a8-45cc-b91f-d22ae9cb4d16",
+      "version": [1, 9, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": [
+      "Alkan_mc"
+    ]
+  },
+  "capabilities": [
+    "pbr"
+  ],
+  "subpacks": [
+    {
+      "folder_name": "classic_ui",
+      "name": "Classic UI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "classic_world_machines",
+      "name": "Classic World & Machines",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "classic_gear_armor",
+      "name": "Classic Gear & Armor",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "full_classic",
+      "name": "Full Classic",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "full_modern",
+      "name": "Full Modern",
+      "memory_tier": 1
+    }
+  ]
+}

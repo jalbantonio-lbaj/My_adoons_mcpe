@@ -1,0 +1,214 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=Блок нейтрония
+crystal_matrix_block.name=Блок кристаллической матрицы
+infinity_block.name=Блок бесконечности
+dire_crafting_table.name=Ужасный верстак
+neutronium_compressor.name=Нейтрониевый компрессор
+record_furnace.name=Печь для пластинок
+neutron_collector.name=Нейтронный коллектор
+cosmic_collector.name=Коллектор космических звёзд
+compressed_crafting_table.name=Сжатый верстак
+double_compressed_crafting_table.name=Дважды сжатый верстак
+
+## Equipments
+infinity_sword.name=Меч космоса
+infinity_axe.name=Руины природы
+infinity_pickaxe.name=Крушитель миров
+infinity_shovel.name=Пожиратель планет
+infinity_hoe.name=Мотыга зелёной земли
+infinity_bow.name=Длинный лук небес
+infinity_helmet.name=Шлем бесконечности
+infinity_chestplate.name=Нагрудник бесконечности
+infinity_leggings.name=Поножи бесконечности
+infinity_boots.name=Ботинки бесконечности
+skullfire_sword.name=Меч черепного огня
+infinity_mace.name=Булава бесконечности
+attribute.mace_smash=§5Гравитонный удар §7- Урон от падения: 100 x 32 за каждый блок падения, без ограничений§f
+attribute.mace_hit=§7Удар: Обездвиживает цель на 20 с и притягивает ближайших мобов§f
+attribute.mace_vortex=§7Использование: Вихрь чёрной дыры (13 блоков) §8- §7Без ограничений, перезарядка 0,7 с§f
+
+## Items
+matter_cluster.name=Скопление материи
+asgardandelion.name=Одуванчик Асгарда
+starfuel.name=Звёздное топливо
+endest_pearl.name=Жемчуг Эндеста
+infinity_ingot.name=Слиток бесконечности
+infinity_nugget.name=Самородок бесконечности
+infinity_catalyst.name=Катализатор бесконечности
+crystal_matrix.name=Слиток кристаллической матрицы
+diamond_lattice.name=Алмазная решётка
+neutronium_ingot.name=Слиток нейтрония
+neutronium_nugget.name=Самородок нейтрония
+neutronium_gear.name=Шестерня из нейтрония
+neutronium_star.name=Нейтрониевая звезда
+pile_of_neutrons.name=Горсть нейтронов
+record_fragment.name=Осколок пластинки
+cosmic_meatballs.name=Космические фрикадельки
+ultimate_stew.name=Предельное рагу
+
+## Singularities
+ultimate_singularity.name=Предельная сингулярность
+redstone_singularity.name=Сингулярность редстоуна
+quartz_singularity.name=Сингулярность кварца
+obsidian_singularity.name=Сингулярность обсидиана
+lapis_singularity.name=Сингулярность лазурита
+netherite_singularity.name=Сингулярность незерита
+amethyst_singularity.name=Сингулярность аметиста
+coal_singularity.name=Сингулярность угля
+diamond_singularity.name=Сингулярность алмаза
+emerald_singularity.name=Сингулярность изумруда
+experience_singularity.name=Сингулярность опыта
+gold_singularity.name=Сингулярность золота
+iron_singularity.name=Сингулярность железа
+copper_singularity.name=Сингулярность меди
+slime_singularity.name=Сингулярность слизи
+soul_sand_singularity.name=Сингулярность песка душ
+honey_singularity.name=Сингулярность мёда
+
+## Atributes
+attribute.infinity_damade=§cБ§6е§eс§aк§bо§9н§dе§cч§6н§eы§aй§7 урон§f
+attribute.tree_capitator=§7Лесоруб§f
+attribute.super_plow=§7Суперплуг§f
+attribute.fly=§7Полёт§f
+attribute.collect_skull=§7Сбор черепов Иссушителя§f
+attribute.attack_radius=§9Радиус атаки§f
+attribute.protection=§9Защита§f
+attribute.movement_speed=§9Скорость передвижения§f
+attribute.knockback_resistance=§9Сопротивление отбрасыванию§f
+
+## Messages
+message.avaritia.missing_ingredients=Не хватает ингредиентов!
+message.avaritia.confirm_recipe=Хотите создать этот предмет?
+message.avaritia.neutron=Вы собрали:
+message.avaritia.neutron2=Подождите! У вас ещё есть:
+message.avaritia.no_players_available=Нет доступных игроков.
+message.avaritia.remove_coordinates=Координаты удалены!
+message.avaritia.no_coordinates_saved=У вас нет сохранённых координат.
+message.avaritia.is_not_coordinated=Недопустимые символы, попробуйте снова.
+message.avaritia.coordinates_saved=Координаты сохранены!
+message.avaritia.invalid_name=Недопустимое или уже существующее имя.
+
+## Modes
+mode.desactive=Выключено
+mode.active=Включено
+mode.avaritia.intangible_mode=Неосязаемость
+mode.avaritia.magnetic=Магнетизм
+
+## Warning
+avaritia.equip_the_helmet=Наденьте шлем бесконечности
+avaritia.equip_the_chestplate=Наденьте нагрудник бесконечности
+avaritia.equip_the_leggings=Наденьте поножи бесконечности
+avaritia.equip_the_armor=Наденьте броню бесконечности
+
+## Containers
+gui.avaritia.extract_all=Забрать всё
+gui.avaritia.delete=Удалить всё
+gui.collect=Извлечение
+extreme.avaritia.infinityItems=Предметы бесконечности
+extreme.avaritia.machines=Механизмы
+extreme.avaritia.otherItems=Другие предметы
+avaritia.ingredients=Ингредиенты
+avaritia.amount=Количество
+container.extreme_crafting=Экстремальное создание
+container.extreme_compression=Экстремальное сжатие
+container.compressor.description=Создавайте сингулярности!
+itemUi.avaritia.teleport_to_player=К какому игроку телепортироваться?
+itemUi.avaritia.remove_coordinates=Удалить координаты 
+itemUi.avaritia.choose_teleport=Выберите пункт назначения
+itemUi.avaritia.save_coordinates=Сохранить координаты
+itemUi.avaritia.save_coordinates.via_text=Сохранить координаты текстом
+itemUi.avaritia.name_coordinate=Назовите эту координату
+itemUi.avaritia.coordinates=Введите координаты
+itemUi.avaritia.name_example=Пример: Дом, Лес, Шахта...
+
+## Extra
+avaritia.not_kill=§cЭто существо бессмертно, убить его мечом невозможно
+entity.avaritia:heaven_arrow.name=§eНебесная стрела§f
+entity.avaritia:heaven_arrow.rain.name=§eНебесная стрела§f
+entity.avaritia:black_hole.name=§eЧёрная дыра§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=Алтарь экстремального создания
+action.interact.altar=Открыть верстак 9x9
+avaritia:itemGroup.name.infinity_mace=§dБулава бесконечности
+entity.avaritia:heaven_arrow_rain.name=§eНебесная стрела§f
+gacha_machine.name=Гача-автомат
+infinity_scythe.name=Коса бесконечности
+attribute.scythe_reaper=§5Жнец душ §7- Чума и кровотечение§f
+attribute.scythe_growth=§7Каждое убийство навсегда увеличивает урон §8- §7Макс. здоровье жертвы x удары², без ограничений, хранится в предмете§f
+infinity_spear.name=Копьё бесконечности
+attribute.spear_lunge=§5Космический выпад §7- Случайный % макс. здоровья§f
+infinity_shield.name=Щит бесконечности
+attribute.shield_bulwark=§5Космический оплот §7- Блокирует и отражает всё; отпускание в приседе = взрыв Новы§f
+tile.avaritia:infinity_shield.name=Щит бесконечности
+infinity_trident.name=Трезубец бесконечности
+attribute.trident_storm=§5Призрачный арсенал §7- Касание = призвать/направить призрачные трезубцы, отпускание в приседе = Тягун§f
+entity.avaritia:infinity_trident_thrown.name=Трезубец бесконечности
+infinity_crossbow.name=Арбалет бесконечности
+attribute.crossbow_barrage=§5Быстрый шквал §7- Бесконечные боеприпасы, выстрел в приседе = энергетические лучи и сходящийся луч§f
+entity.avaritia:infinity_crossbow_arrow.name=Стрела бесконечности
+entity.avaritia:infinity_trident_spirit.name=Призрачный трезубец
+
+## Infinity Utility
+infinity_totem.name=Тотем вечного перерождения
+infinity_fishing_rod.name=Удочка бескрайнего моря
+infinity_shears.name=Ножницы ткацкого станка
+infinity_bucket.name=Ведро пустоты
+infinity_flint_and_steel.name=Искра созидания
+attribute.totem_eternal=§7Никогда не ломается §8- §7Спасает от смертельного урона§f
+attribute.rod_endless=§7Заброс в воду §8- §7Мгновенный улов + опыт§f
+attribute.shears_loom=§7Стрижёт всё §8- §7Листва, шерсть и паутина выпадают целыми§f
+attribute.bucket_void=§7Приседание+Использование = Вода / Лава / Всасывание / Выбор / Размещение / Растекание / Стирание §8- §7Бесконечно§f
+attribute.spark_creation=§7Поджигает блоки, TNT, криперов §8- §7Никогда не ломается§f
+
+## Infinity Totems
+infinity_totem_tide.name=Тотем прилива
+infinity_totem_ender.name=Тотем Края
+infinity_totem_fortune.name=Тотем удачи
+infinity_totem_berserker.name=Тотем берсерка
+infinity_totem_vitality.name=Тотем жизненной силы
+infinity_totem_gale.name=Тотем шквала
+infinity_totem_mercy.name=Тотем милосердия
+infinity_totem_clairvoyance.name=Тотем ясновидения
+infinity_totem_inferno.name=Тотем преисподней
+infinity_totem_shadow.name=Тотем теней
+infinity_totem_frost.name=Тотем мороза
+infinity_totem_void.name=Тотем пустоты
+attribute.totem_tide=§7В руке: Подводное дыхание, быстрое плавание и Сила морского ядра§f
+attribute.totem_ender=§7Использование: Телепорт до 64 блоков §8- §7Перезарядка 1 с§f
+attribute.totem_fortune=§7В руке: Спешка IV и Удача III §8- §7С убитых выпадает больше опыта§f
+attribute.totem_berserker=§7В руке: Сила IV, Скорость II и Сопротивление §8- §7Убийства лечат и дают Поглощение§f
+attribute.totem_vitality=§7В руке: +10 сердец, Регенерация III и Насыщение§f
+attribute.totem_gale=§7В руке: Скорость IV, Прыгучесть V §8- §7Нет урона от падения§f
+attribute.totem_mercy=§7В руке: Исцеляющая аура (24 блока) для вас и союзников§f
+attribute.totem_clairvoyance=§7В руке: Ночное зрение и Удача §8- §7Подсвечивает враждебных мобов (48 блоков)§f
+attribute.totem_inferno=§7В руке: Огнестойкость и Сила II §8- §7Атакующие и ближайшие враги горят§f
+attribute.totem_shadow=§7В руке: Невидимость, Скорость II и Ночное зрение §8- §730% шанс уклонения§f
+attribute.totem_frost=§7В руке: Сопротивление II и Огнестойкость §8- §7Замедляет и ослабляет враждебных мобов (16 блоков)§f
+attribute.totem_void=§7В руке: Защита от бездны и падения §8- §7Возвращает на безопасную землю§f
+infinity_destroyer.name=Разрушитель бесконечности
+infinity_hammer.name=Молот бесконечности
+avaritia_biome_compass.name=Компас биомов
+attribute.biome_compass=§7Использование: Выберите биом §8- §7Указывает на ближайший§f
+infinity_chest.name=Сундук бесконечности
+infinity_chest.title=Сундук бесконечности
+
+## Neon Halo Armor
+item.halo:neon_helmet=Шлем «Неоновый ореол»
+item.halo:neon_chestplate=Нагрудник «Неоновый ореол»
+item.halo:neon_leggings=Поножи «Неоновый ореол»
+item.halo:neon_boots=Ботинки «Неоновый ореол»
+seal_orb.name=Сфера запечатывания
+seal_orb_full.name=Сфера запечатывания
+seal_orb.desc=Запечатайте существо: ПКМ, чтобы запечатать, использовать снова, чтобы освободить
+item.halo:neon_crystal=Неоновый кристалл
+neon_crystal.name=Неоновый кристалл
+glowstone_singularity.name=Сингулярность светящегося камня
+prismarine_singularity.name=Сингулярность призмарина
+end_stone_singularity.name=Сингулярность камня Предела
+magma_singularity.name=Сингулярность магмы
+bone_singularity.name=Сингулярность кости
+ice_singularity.name=Сингулярность льда
+netherrack_singularity.name=Сингулярность адского камня

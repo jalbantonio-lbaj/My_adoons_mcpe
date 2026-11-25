@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cosmicmeatballs_b47610ad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "CCD",
+      "DEE"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronpile",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:beef",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:chicken",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:porkchop",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:fish",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:cosmicmeatballs",
+      "count": 2
+    }
+  }
+}

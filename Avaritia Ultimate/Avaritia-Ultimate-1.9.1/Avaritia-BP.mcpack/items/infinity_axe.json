@@ -1,0 +1,587 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_axe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.axe",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_axe",
+        "use_on": [
+          "avaritia:infinity_axe"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_axe.name\n%attribute.tree_capitator\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_tools",
+          "minecraft:is_axe"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 32,
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "axe"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "avaritia:compressed_crafting_table",
+            "speed": 9999
+          },
+          {
+            "block": "avaritia:double_compressed_crafting_table",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:nether_wart_block",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_wart_block",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:azalea_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:azalea_leaves_flowered",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:cherry_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:oak_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:pale_oak_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:mangrove_leaves",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:mangrove_planks",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_mangrove_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:mangrove_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:mangrove_roots",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:acacia_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:standing_banner",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wall_banner",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:bed",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:bee_nest",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:beehive",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:birch_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:bookshelf",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:brown_mushroom_block",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:campfire",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:cartography_table",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:carved_pumpkin",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:chest",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:chorus_flower",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:chorus_plant",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:composter",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crafting_table",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_fence",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_hyphae",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_planks",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_slab",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_stem",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:crimson_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dark_oak_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:darkoak_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:darkoak_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:fence",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:fletching_table",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:frame",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jukebox",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:jungle_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:ladder",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:lectern",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:lit_pumpkin",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:log2",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:melon_block",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:noteblock",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:oak_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:piston",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:planks",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:pumpkin",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:smithing_table",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:spruce_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:sticky_piston",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_acacia_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_birch_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_crimson_hyphae",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_crimson_stem",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_dark_oak_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_jungle_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_oak_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_spruce_log",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_warped_hyphae",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:stripped_warped_stem",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:trapped_chest",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_fence",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_fence_gate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_hyphae",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_planks",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_standing_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_wall_sign",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_slab",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_stairs",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_stem",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:warped_trapdoor",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wood",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wooden_button",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wooden_door",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wooden_pressure_plate",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:wooden_slab",
+            "speed": 9999
+          },
+          {
+            "block": {
+              "tags": "query.any_tag('wood', 'pumpkin', 'minecraft:is_axe_item_destructible')"
+            },
+            "speed": 9999
+          }
+        ]
+      }
+    }
+  }
+}

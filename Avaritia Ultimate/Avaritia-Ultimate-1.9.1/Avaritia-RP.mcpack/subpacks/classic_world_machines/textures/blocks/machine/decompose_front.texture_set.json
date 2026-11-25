@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "decompose_front",
+    "metalness_emissive_roughness": "decompose_front_mer"
+  }
+}

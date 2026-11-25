@@ -1,0 +1,61 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:iron_rabbit",
+      "min_engine_version": "1.26.1",
+      "materials": {
+        "default": "rabbit"
+      },
+      "textures": {
+        "brown": "textures/entity/oredim/iron/rabbit__brown",
+        "white": "textures/entity/oredim/iron/rabbit__white",
+        "black": "textures/entity/oredim/iron/rabbit__black",
+        "white_splotched": "textures/entity/oredim/iron/rabbit__white_splotched",
+        "gold": "textures/entity/oredim/iron/rabbit__gold",
+        "salt": "textures/entity/oredim/iron/rabbit__salt",
+        "toast": "textures/entity/oredim/iron/rabbit__toast",
+        "baby_brown": "textures/entity/oredim/iron/rabbit__baby_brown",
+        "baby_white": "textures/entity/oredim/iron/rabbit__baby_white",
+        "baby_black": "textures/entity/oredim/iron/rabbit__baby_black",
+        "baby_white_splotched": "textures/entity/oredim/iron/rabbit__baby_white_splotched",
+        "baby_gold": "textures/entity/oredim/iron/rabbit__baby_gold",
+        "baby_salt": "textures/entity/oredim/iron/rabbit__baby_salt",
+        "baby_toast": "textures/entity/oredim/iron/rabbit__baby_toast"
+      },
+      "geometry": {
+        "default": "geometry.oredim.rabbit_v2",
+        "baby": "geometry.oredim.rabbit_baby"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? (1 / 0.4) : (1 / 0.6)",
+        "pre_animation": [
+          "variable.was_moving = (variable.moving ?? false);",
+          "variable.moving = query.modified_move_speed > 0.05 || query.vertical_speed > 0.05;",
+          "variable.random_cooldown = math.random(9, 11);",
+          "variable.idle_cooldown = ((!variable.moving && variable.was_moving) || (variable.idle_cooldown ?? 0) <= 0) ? variable.random_cooldown : (variable.idle_cooldown ?? variable.random_cooldown);",
+          "variable.idle_cooldown = math.max(0, variable.idle_cooldown - query.delta_time);",
+          "variable.should_idle = variable.idle_cooldown <= 0;"
+        ]
+      },
+      "animations": {
+        "move": "animation.rabbit.move.v2",
+        "move_baby": "animation.rabbit.move.baby",
+        "idle_head_tilt": "animation.rabbit.idle_head_tilt",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.rabbit.general.v2"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.rabbit.v2"
+      ],
+      "spawn_egg": {
+        "base_color": "#54443a",
+        "overlay_color": "#eee2d8"
+      }
+    }
+  }
+}

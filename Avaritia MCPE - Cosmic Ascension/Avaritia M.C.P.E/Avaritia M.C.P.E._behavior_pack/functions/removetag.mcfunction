@@ -1,0 +1,1 @@
+execute as @p[tag=my_tag,scores={timer=0}] run tag @p remove 1

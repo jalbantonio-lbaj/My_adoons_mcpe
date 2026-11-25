@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "gf_wu:experience_extractor_item",
+            "menu_category": {
+                "category": "none"
+            }
+        },
+        "components": {
+            "minecraft:icon": "gf_wu:experience_extractor",
+            "minecraft:block_placer": {
+                "block": "gf_wu:experience_extractor"
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:infinityarrow",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.arrow"
+      }
+    },
+    "components": {
+      "minecraft:icon": "pa_infinityarrow",
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:arrow",
+          "pa:infinityarrow"
+        ]
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "pa:infinityarrow",
+        "minimum_critical_power": 1.25
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:fire_resistant": {
+        "value": true
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "gf_wu:scuba_tank",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_glint"
+            },
+            "textures": {
+                "default": "textures/gamefam/world_utils/scuba_tank",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.gf_wu.scuba_tank"
+            },
+            "animations": {
+                "first_person": "animation.gf_wu.scuba_tank.first_person",
+                "third_person": "animation.gf_wu.scuba_tank.third_person"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "first_person": "context.is_first_person"
+                    },
+                    {
+                        "third_person": "!context.is_first_person"
+                    }
+                ]
+            },
+            "render_controllers": [ "controller.render.default" ]
+        }
+    }
+}

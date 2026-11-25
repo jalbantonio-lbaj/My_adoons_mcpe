@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "enhancement_core_strip",
+    "metalness_emissive_roughness": "enhancement_core_strip_mer"
+  }
+}

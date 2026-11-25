@@ -1,0 +1,8 @@
+{
+  "ui_defs": [
+    "ui/fc_quick_loot.json",
+    "ui/ui_common.json",
+    "ui/chest_screen.json",
+    "ui/pocket_containers.json"
+  ]
+}

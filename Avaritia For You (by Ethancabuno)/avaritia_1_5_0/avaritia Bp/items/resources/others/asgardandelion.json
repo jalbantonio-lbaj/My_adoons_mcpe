@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:asgardandelion_item",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.flower",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "asgardandelion"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§c%asgardandelion.name\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier"
+        ]
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:asgardandelion"
+      }
+    }
+  }
+}

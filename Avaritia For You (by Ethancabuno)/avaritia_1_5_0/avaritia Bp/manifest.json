@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Avaritia MCPE + Extreme Crafting",
+    "description": "Created by Athan213 and remade by ethancabuno.",
+    "uuid": "960c4f13-8d93-49ec-be12-489487f5b7fd",
+    "version": [
+      16,
+      4,
+      124
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "description": "Core Logic",
+      "type": "data",
+      "uuid": "0ad27c0f-1ff3-4489-a5a2-167b8f31c65b",
+      "version": [
+        16,
+        4,
+        92
+      ]
+    },
+    {
+      "description": "Scripting",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "a0fa83e6-3948-41fc-8018-86eb303b1d2c",
+      "version": [
+        16,
+        4,
+        92
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.2.0"
+    },
+    {
+      "uuid": "ab08d408-fd99-40eb-ad0b-e244ffbb373b",
+      "version": [
+        16,
+        4,
+        124
+      ]
+    }
+  ]
+}

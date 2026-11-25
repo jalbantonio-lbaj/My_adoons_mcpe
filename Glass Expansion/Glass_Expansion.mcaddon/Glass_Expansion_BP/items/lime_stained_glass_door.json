@@ -1,0 +1,20 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "vge:lime_stained_glass_door",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.door"
+      }
+    },
+    "components": {
+      "minecraft:icon": "vge_lime_stained_glass_door",
+      "minecraft:block_placer": {
+        "block": "vge:lime_stained_glass_door",
+        "aligned_placement": true,
+        "replace_block_item": true
+      }
+    }
+  }
+}

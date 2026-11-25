@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "extra_utilities:builderswand",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.builderswand"
+			}
+		},
+		"components": {
+			"minecraft:allow_off_hand": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:can_destroy_in_creative": true,
+			"minecraft:icon": "builderswand",
+			"minecraft:display_name": {
+				"value": "Builders Wand\n§o§9Extra Utilities"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:custom_components": [
+				"fm:nntz_on_use"
+			]
+		}
+	}
+}

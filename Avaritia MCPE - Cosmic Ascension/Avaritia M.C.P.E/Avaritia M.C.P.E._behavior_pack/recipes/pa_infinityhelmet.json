@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinityhelmet_a7c509b4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCB",
+      "D D"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:infinitycatalyst",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:ingotneutron",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinityhelmet",
+      "count": 1
+    }
+  }
+}

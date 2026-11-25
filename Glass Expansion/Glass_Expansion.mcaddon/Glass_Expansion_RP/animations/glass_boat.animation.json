@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.vge.glass_boat.paddle_rest": {
+      "loop": true,
+      "bones": {
+        "paddle_left": {
+          "rotation": [
+            0,
+            -20,
+            35
+          ]
+        },
+        "paddle_right": {
+          "rotation": [
+            0,
+            20,
+            -35
+          ]
+        }
+      }
+    },
+    "animation.vge.glass_boat.paddle_row": {
+      "loop": true,
+      "bones": {
+        "paddle_left": {
+          "rotation": [
+            0,
+            "math.sin(q.anim_time * 300) * 40",
+            "35 + math.cos(q.anim_time * 300) * 20"
+          ]
+        },
+        "paddle_right": {
+          "rotation": [
+            0,
+            "-(math.sin(q.anim_time * 300) * 40)",
+            "-35 - (math.cos(q.anim_time * 300) * 20)"
+          ]
+        }
+      }
+    },
+    "animation.vge.glass_boat.lid_open": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "chest_lid": {
+          "rotation": [
+            -85,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

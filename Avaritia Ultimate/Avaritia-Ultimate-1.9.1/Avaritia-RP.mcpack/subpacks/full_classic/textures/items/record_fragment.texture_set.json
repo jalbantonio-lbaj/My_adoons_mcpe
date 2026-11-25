@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "record_fragment",
+    "metalness_emissive_roughness": "record_fragment_mer"
+  }
+}

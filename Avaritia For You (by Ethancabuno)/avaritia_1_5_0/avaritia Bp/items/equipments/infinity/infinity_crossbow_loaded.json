@@ -1,0 +1,51 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_crossbow_loaded",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_crossbow_loaded"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§d%infinity_crossbow.name\n%attribute.crossbow_barrage\n%addon.avaritia"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:use_animation": "crossbow",
+      "avaritia:infinity_crossbow": {
+        "loaded": "avaritia:infinity_crossbow_loaded",
+        "default": "avaritia:infinity_crossbow",
+        "projectile": "avaritia:infinity_crossbow_arrow",
+        "power": 5.0,
+        "projectile_amount": 3,
+        "multishot": 2,
+        "projectile_rotation": 10,
+        "shoot_sound": "crossbow.shoot",
+        "loaded_sound": "crossbow.loading.end",
+        "loading_sound": "crossbow.loading.start",
+        "loading_middle_sound": "crossbow.loading.middle",
+        "loaded_animation": "animation.avaritia_cb.player.crossbow"
+      },
+      "minecraft:enchantable": {
+        "slot": "crossbow",
+        "value": 30
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 9999,
+        "movement_modifier": 1
+      },
+      "minecraft:tags": {
+        "tags": ["oreville:is_crossbow", 
+          "infinity_tier"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "vge:culling.glass_slab"
+    },
+    "rules": [
+      {
+        "condition": "same_block_permutation",
+        "direction": "north",
+        "geometry_part": {
+          "bone": "bottom",
+          "cube": 0,
+          "face": "north"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "south",
+        "geometry_part": {
+          "bone": "bottom",
+          "cube": 0,
+          "face": "south"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "east",
+        "geometry_part": {
+          "bone": "bottom",
+          "cube": 0,
+          "face": "east"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "west",
+        "geometry_part": {
+          "bone": "bottom",
+          "cube": 0,
+          "face": "west"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "down",
+        "geometry_part": {
+          "bone": "bottom",
+          "cube": 0,
+          "face": "down"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "north",
+        "geometry_part": {
+          "bone": "top",
+          "cube": 0,
+          "face": "north"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "south",
+        "geometry_part": {
+          "bone": "top",
+          "cube": 0,
+          "face": "south"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "east",
+        "geometry_part": {
+          "bone": "top",
+          "cube": 0,
+          "face": "east"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "west",
+        "geometry_part": {
+          "bone": "top",
+          "cube": 0,
+          "face": "west"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "up",
+        "geometry_part": {
+          "bone": "top",
+          "cube": 0,
+          "face": "up"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "north",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "north"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "south",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "south"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "east",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "east"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "west",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "west"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "down",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "down"
+        }
+      },
+      {
+        "condition": "same_block_permutation",
+        "direction": "up",
+        "geometry_part": {
+          "bone": "full",
+          "cube": 0,
+          "face": "up"
+        }
+      }
+    ]
+  }
+}

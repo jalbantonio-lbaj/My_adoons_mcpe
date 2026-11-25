@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.avaritia.bow": {
+      "arrays": {
+        "textures": {
+          "array.bow_texture_frames": [
+            "texture.default",
+            "texture.pulling_0",
+            "texture.pulling_1",
+            "texture.pulling_2"
+          ]
+        },
+        "geometries": {
+          "array.bow_geo_frames": [
+            "geometry.default",
+            "geometry.pulling_0",
+            "geometry.pulling_1",
+            "geometry.pulling_2"
+          ]
+        }
+      },
+      "geometry": "array.bow_geo_frames[variable.charge_amount]",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "array.bow_texture_frames[variable.charge_amount]" ]
+    }
+  }
+}

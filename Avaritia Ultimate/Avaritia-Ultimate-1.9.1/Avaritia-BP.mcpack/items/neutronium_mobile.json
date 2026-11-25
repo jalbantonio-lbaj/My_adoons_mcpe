@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:neutronium_mobile",
+      "menu_category": {
+        "category": "equipment",
+        "group": "avaritia:itemGroup.name.gadgets"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "neutronium_mobile"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§f%neutronium_mobile.name\n%addon.avaritia"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:glint": true,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "neutronium_tier"
+        ]
+      }
+    }
+  }
+}

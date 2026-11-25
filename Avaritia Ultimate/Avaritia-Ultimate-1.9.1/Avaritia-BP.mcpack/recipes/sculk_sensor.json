@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:sculk_sensor"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:sculk_sensor",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "gf_wu:ocean_rider",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/gamefam/world_utils/ocean_rider_model"
+      },
+      "geometry": {
+        "default": "geometry.gf_wu.ocean_rider"
+      },
+      "animations": {
+        "main": "controller.animation.gf_wu.ocean_rider.main",
+        "moving": "animation.gf_wu.ocean_rider.walk"
+      },
+      "scripts": {
+        "animate": [
+          "main"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

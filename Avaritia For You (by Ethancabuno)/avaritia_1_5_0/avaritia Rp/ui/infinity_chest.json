@@ -1,0 +1,287 @@
+{
+  "namespace": "ic",
+
+  "ic_search_overlay": {
+    "type": "image",
+    "texture": "textures/ui/avaritia_ic/search_overlay",
+    "alpha": 0.9,
+    "layer": 28,
+    "size": [ "18px", "18px" ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "search_box_text_control",
+        "source_property_name": "#item_name",
+        "target_property_name": "#edit_box_input"
+      },
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "container_items",
+        "binding_name": "#hover_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#hover_text - #edit_box_input) = #hover_text and not (#edit_box_input = ''))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "ic_grid_item": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "controls": [
+      { "slot@chest.chest_grid_item": { "layer": 1 } },
+      { "search_overlay@ic.ic_search_overlay": {} }
+    ]
+  },
+
+  "ic_scroll_content": {
+    "type": "panel",
+    "size": [ "100%", 612 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "ic_grid": {
+          "type": "grid",
+          "size": [ 558, 612 ],
+          "grid_dimensions": [ 31, 34 ],
+          "grid_item_template": "ic.ic_grid_item",
+          "collection_name": "container_items",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 2
+        }
+      }
+    ]
+  },
+
+  "ic_fake_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ]
+  },
+
+  "ic_scrollbar_track": {
+    "type": "scroll_track",
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.scrollbar_skip_track",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+
+  "ic_scrollbar_box": {
+    "type": "panel",
+    "controls": [
+      {
+        "actual_box": {
+          "type": "scrollbar_box",
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "layer": 5,
+          "contained": true,
+          "draggable": "vertical",
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.menu_select",
+              "mapping_type": "pressed",
+              "button_up_right_of_first_refusal": true
+            }
+          ],
+          "controls": [
+            {
+              "mouse_box": {
+                "type": "image",
+                "texture": "textures/ui/avaritia_ic/scroller",
+                "controls": [
+                  {
+                    "lines": {
+                      "type": "image",
+                      "size": [ "100%", "100%-3px" ],
+                      "offset": [ 0, 2 ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "tiled": true,
+                      "texture": "textures/ui/avaritia_ic/scroller_line"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "ic_scroll_view_control": {
+    "$scrolling_content|default": "common.black",
+    "$scrolling_background|default": "ic.ic_fake_panel",
+    "type": "scroll_view",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "100% + 20px", "100%" ],
+    "scroll_speed": 5,
+    "scrollbar_track_button": "button.scrollbar_skip_track",
+    "scrollbar_touch_button": "button.scrollbar_touch",
+    "always_listen_to_input": true,
+    "always_handle_pointer": true,
+    "scrollbar_track": "track",
+    "scrollbar_box": "actual_box",
+    "always_handle_scrolling": false,
+    "scroll_view_port": "viewport",
+    "scroll_box_and_track_panel": "bar_and_track",
+    "scroll_content": "scrolling_content",
+    "jump_to_bottom_on_update": false,
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.scrollbar_touch",
+        "mapping_type": "pressed",
+        "button_up_right_of_first_refusal": true
+      }
+    ],
+    "controls": [
+      {
+        "viewport": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "type": "panel",
+          "size": [ "100%-20px", "100%+0.4px" ],
+          "clips_children": true,
+          "layer": -4,
+          "controls": [
+            { "scrolling_content@$scrolling_content": {} }
+          ]
+        }
+      },
+      { "background@$scrolling_background": {} },
+      {
+        "bar_and_track": {
+          "type": "panel",
+          "size": [ 14, "100%-2px" ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "layer": 5,
+          "controls": [
+            { "track_bg": { "type": "image", "texture": "textures/ui/avaritia_ic/scroller_track", "layer": 1, "size": [ "100%", "100%" ] } },
+            { "track@ic.ic_scrollbar_track": { "layer": 2, "anchor_from": "center", "anchor_to": "center" } },
+            { "scroll_box@ic.ic_scrollbar_box": { "layer": 5, "anchor_from": "center", "anchor_to": "center" } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "ic_scrolling_panel": {
+    "size": [ 558, 144 ],
+    "type": "panel",
+    "controls": [
+      {
+        "scrolling_panel_base": {
+          "type": "input_panel",
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "controls": [
+            {
+              "view_control@ic.ic_scroll_view_control": {
+                "$scrolling_content": "ic.ic_scroll_content"
+              }
+            }
+          ],
+          "button_mappings": []
+        }
+      }
+    ]
+  },
+
+  "ic_chest_label": {
+    "type": "label",
+    "offset": [ 20, -2 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "Infinity Chest",
+    "size": [ "90%", "default" ],
+    "color": "$title_text_color",
+    "layer": 2
+  },
+
+  "ic_panel_top_half": {
+    "type": "panel",
+    "size": [ "100%", 184 ],
+    "offset": [ 0, 11 ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      { "ic_chest_label@ic.ic_chest_label": {} },
+      {
+        "search_bar@common.text_edit_box": {
+          "size": [ 558, 16 ],
+          "offset": [ 20, 7 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 5,
+          "max_length": 32,
+          "$text_box_name": "search_box",
+          "$text_edit_text_control": "search_box_text_control",
+          "$magnifying_glass_enabled": true,
+          "$magnifying_glass_size": [ 8, 8 ],
+          "$magnifying_glass_offset": [ 0, -0.5 ],
+          "$text_edit_box_label_offset": [ 10, 0 ],
+          "$place_holder_text": "Search..."
+        }
+      },
+      {
+        "ic_scroll_area": {
+          "type": "collection_panel",
+          "collection_name": "container_items",
+          "size": [ 578, 144 ],
+          "offset": [ 20, 26 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            { "ic_scrolling_panel@ic.ic_scrolling_panel": { "anchor_from": "left_middle", "anchor_to": "left_middle" } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "ic_panel": {
+    "type": "panel",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 14 } },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      {
+        "root_panel@common.root_panel": {
+          "size": [ 618, 272 ],
+          "layer": 1,
+          "controls": [
+            { "common_panel@common.common_panel": {} },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  { "ic_panel_top_half@ic.ic_panel_top_half": {} },
+                  { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                  { "hotbar_grid@common.hotbar_grid_template": {} },
+                  { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                ]
+              }
+            },
+            { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+            { "gamepad_cursor@common.gamepad_cursor_button": {} }
+          ]
+        }
+      }
+    ]
+  }
+}

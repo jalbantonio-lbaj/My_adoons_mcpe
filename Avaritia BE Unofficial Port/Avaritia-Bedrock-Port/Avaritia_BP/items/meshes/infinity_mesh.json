@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_mesh",
+      "menu_category": { "category": "construction",  "group": "dorios:itemGroup.name.meshes"}
+    },
+    "components": {
+      "utilitycraft:mesh": {
+        "tier": 999,
+        "multiplier": 100,
+        "amount_multiplier": 100
+      },
+      "minecraft:icon": "infinity_mesh",
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:tags": {
+        "tags": ["ascendant:unclonnable", "avaritia:avaritia"]
+      }
+    }
+  }
+}

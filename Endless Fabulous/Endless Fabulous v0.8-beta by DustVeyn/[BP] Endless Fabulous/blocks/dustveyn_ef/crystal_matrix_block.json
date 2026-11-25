@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "dustveyn_ef:crystal_matrix_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dustveyn_ef:crystal_matrix_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 80.0
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 15.0
+            },
+            "minecraft:display_name": "§b%dustveyn_ef.crystal_matrix_block.name\n§o§9Endless Fabulous"
+        }
+    }
+}

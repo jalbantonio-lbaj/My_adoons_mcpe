@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "collector_top",
+		"metalness_emissive_roughness": "collector_top_mer",
+		"heightmap": "collector_top_height"
+	}
+}

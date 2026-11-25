@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.watering_can.third_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [15, 0, 0],
+					"position": [0, 15.5, -6.5]
+				}
+			}
+		},
+		"animation.gf_wu.watering_can.first_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [72.42988, 62.34659, -45.63775],
+					"position": [0, 15, 7]
+				}
+			}
+		},
+		"animation.gf_wu.watering_can.filled": {
+			"loop": true,
+			"bones": {
+				"filled": {
+					"scale": 1
+				},
+				"empty": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.gf_wu.watering_can.empty": {
+			"loop": true,
+			"bones": {
+				"filled": {
+					"scale": 0
+				},
+				"empty": {
+					"scale": 1
+				}
+			}
+		}
+	}
+}

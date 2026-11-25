@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:glass_carpet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_slab"
+      }
+    },
+    "unlock": [
+      {
+        "item": "vge:glass_slab"
+      }
+    ],
+    "result": {
+      "item": "vge:glass_carpet",
+      "count": 4
+    }
+  }
+}

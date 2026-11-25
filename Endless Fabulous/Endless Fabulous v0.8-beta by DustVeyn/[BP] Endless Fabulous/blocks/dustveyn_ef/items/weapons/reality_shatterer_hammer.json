@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dustveyn_ef:reality_shatterer_hammer"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dustveyn_ef:reality_shatterer_hammer",
+          "ambient_occlusion": false,
+          "face_dimming": false,
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "structure_void"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.fake_item.hand_equipped",
+      "minecraft:destructible_by_mining": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#5a4335"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:diamond_lattice"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "A A",
+            " B ",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:diamond"
+            },
+            "B": {
+                "item": "minecraft:diamond_block"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:diamond_lattice"
+        }
+    }
+}

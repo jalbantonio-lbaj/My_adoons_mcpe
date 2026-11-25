@@ -1,0 +1,477 @@
+{
+  "namespace": "avaritia",
+
+  "recipe_toggle@avaritia.avaritia_toggle_button": {
+    "$toggle_layer": -2,
+    "$toggle_lost_reset": true,
+    "$toggle_group": true,
+    "$toggle_default_state": false,
+    "$toggle_hover_text_localize": true,
+    "$toggle_checked_hover_text_localize": true,
+    "$toggle_checked_hover_text_from_hover": true,
+    "$toggle_size": [18, 18],
+    "$toggle_unchecked": "textures/ui/recipe_book_item_bg",
+    "$toggle_checked": "textures/ui/recipe_book_touch_cell_selected",
+    "$toggle_unchecked_hover": "textures/ui/slot_enabled_hover",
+    "$toggle_checked_hover": "textures/ui/slot_enabled_hover",
+    "$has_toggle_icon": true,
+    "$toggle_icon_size": [14, 14],
+    "$toggle_icon_uv_size": [16, 16],
+    "$toggle_icon_unchecked": "$recipe_icon",
+    "$toggle_icon_checked": "$recipe_icon",
+    "$toggle_icon_unchecked_hover": "$recipe_icon",
+    "$toggle_icon_checked_hover": "$recipe_icon",
+    "$toggle_name": "avaritia_dire_recipes",
+    "$toggle_binding_type": "global"
+  },
+
+  "recipe_panel": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [80, 108],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "$recipe_control_name|default": "",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "$recipe_control_name",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible",
+        "resolve_sibling_scope": false
+      }
+    ]
+  },
+
+  "extreme_craft_fake_hover_text": {
+    "type": "image",
+    "texture": "textures/ui/purpleBorder",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [23, 2],
+    "size": ["100%c", "100%c"],
+    "layer": 80,
+    "allow_clipping": false,
+    "$hover_text|default": "",
+    "controls": [
+      {
+        "content": {
+          "type": "panel",
+          "size": ["100%c + 12px", "100%c + 8px"],
+          "controls": [
+            {
+              "label": {
+                "type": "label",
+                "text": "$hover_text",
+                "localize": true,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [6, 4],
+                "size": ["default", "default"],
+                "color": [1, 1, 1],
+                "font_scale_factor": 1,
+                "text_alignment": "left",
+                "shadow": true,
+                "layer": 81
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "toggle_button@avaritia.avaritia_toggle_button": {
+    "type": "panel",
+    "$toggle_layer|default": 0,
+    "$toggle_lost_reset|default": true,
+    "$toggle_size|default": [18, 18],
+    "$toggle_name|default": "toggle_button",
+    "$toggle_index|default": 0,
+    "$toggle_group|default": false,
+    "$toggle_default_state|default": false,
+    "$toggle_group_default_selected|default": 0,
+    "$toggle_control_name|default": "",
+    "$toggle_hover_text|default": "",
+    "$toggle_checked_hover_text|default": "",
+    "$toggle_hover_text_localize|default": false,
+    "$toggle_checked_hover_text_localize|default": false,
+    "$toggle_checked_hover_text_from_hover|default": false,
+    "$toggle_unchecked|default": "textures/ui/buttons/unchecked",
+    "$toggle_checked|default": "textures/ui/buttons/checked",
+    "$toggle_unchecked_hover|default": "textures/ui/buttons/unchecked_hover",
+    "$toggle_checked_hover|default": "textures/ui/buttons/checked_hover",
+    "$has_toggle_bg|default": false,
+    "$toggle_bg_texture|default": "textures/ui/toggle_button/right_bg",
+    "$toggle_bg_size|default": [24, 24],
+    "$toggle_bg_offset|default": [0, 0],
+    "$toggle_bg_layer|default": -6,
+    "$has_toggle_icon|default": false,
+    "$toggle_icon_size|default": [16, 16],
+    "$toggle_icon_unchecked|default": "",
+    "$toggle_icon_checked|default": "",
+    "$toggle_icon_unchecked_hover|default": "",
+    "$toggle_icon_checked_hover|default": "",
+    "$toggle_icon_uv_size|default": [16, 16],
+    "controls": [
+      {
+        "toggle_background": {
+          "type": "image",
+          "texture": "$toggle_bg_texture",
+          "size": "$toggle_bg_size",
+          "offset": "$toggle_bg_offset",
+          "layer": "$toggle_bg_layer",
+          "visible": "$has_toggle_bg"
+        }
+      },
+      {
+        "$toggle_control_name@common.toggle": {
+          "size": "$toggle_size",
+          "layer": "$toggle_layer",
+          "$reset_on_focus_lost": "$toggle_lost_reset",
+          "$default_toggle_state": "$toggle_default_state",
+          "$radio_toggle_group": "$toggle_group",
+          "$toggle_group_forced_index": "$toggle_index",
+          "$toggle_name": "$toggle_name",
+          "$unchecked_control": "unchecked",
+          "$checked_control": "checked",
+          "$unchecked_hover_control": "unchecked_hover",
+          "$checked_hover_control": "checked_hover",
+          "$unchecked_locked_control": "unchecked_locked",
+          "$checked_locked_control": "checked_locked",
+          "$unchecked_locked_hover_control": "unchecked_locked_hover",
+          "$checked_locked_hover_control": "checked_locked_hover",
+          "$toggle_focus_enabled|default": true,
+          "$toggle_group_default_selected": "$toggle_group_default_selected",
+          "$toggle_binding_type|default": "global",
+          "$toggle_binding_condition|default": "visible",
+          "$toggle_state_binding_name|default": "#toggle_state",
+          "$toggle_enabled_binding_type|default": "none",
+          "$toggle_enabled_binding_condition|default": "visible",
+          "$toggle_enabled_binding_name|default": "#toggle_enabled",
+          "$toggle_focus_id_binding_type|default": "none",
+          "$toggle_focus_id_binding_condition|default": "visible",
+          "$toggle_focus_id_binding_name|default": "#toggle_focus_id",
+          "$toggle_focus_id_collection_name|default": "",
+          "$toggle_grid_collection_name|default": "",
+          "$toggle_collection_details_type|default": "none",
+          "$toggle_collection_detail_name|default": "",
+          "$toggle_tts_name|default": "accessibility.toggle.tts.title",
+          "$toggle_tts_header_binding_type|default": "none",
+          "$toggle_tts_header_binding_condition|default": "visible",
+          "$toggle_tts_header_binding_collection_name|default": "",
+          "$toggle_tts_header|default": "",
+          "$toggle_tts_value_binding_type|default": "none",
+          "$toggle_tts_value_binding_condition|default": "visible",
+          "$toggle_tts_value_binding_collection_name|default": "",
+          "$toggle_tts_override_toggle_value|default": "",
+          "$toggle_tts_toggle_on_text|default": "accessibility.state.on",
+          "$toggle_tts_toggle_off_text|default": "accessibility.state.off",
+          "$toggle_tts_type_priority|default": -100,
+          "$toggle_tts_index_priority|default": 150,
+          "$toggle_tts_inherit_siblings|default": false,
+          "$toggle_focus_bind|default": "",
+          "$tts_section_header|default": "",
+          "$ignore_tts_enabled_bind|default": false,
+          "$focus_id|default": "",
+          "$focus_override_down|default": "",
+          "$focus_override_up|default": "",
+          "$focus_override_left|default": "",
+          "$focus_override_right|default": "",
+          "focus_enabled": "$toggle_focus_enabled",
+          "focus_magnet_enabled": true,
+          "focus_identifier": "$focus_id",
+          "focus_change_down": "$focus_override_down",
+          "focus_change_up": "$focus_override_up",
+          "focus_change_left": "$focus_override_left",
+          "focus_change_right": "$focus_override_right",
+          "controls": [
+            {
+              "unchecked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "unchecked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "$toggle_hover_text_localize",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "(not $toggle_hover_text_localize)"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "($toggle_checked_hover_text_from_hover or $toggle_checked_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_checked_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_checked_hover_text",
+                      "ignored": "($toggle_checked_hover_text_from_hover or (not $toggle_checked_hover_text_localize))"
+                    }
+                  },
+                  {
+                    "tooltip_from_hover@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or $toggle_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip_from_hover@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or (not $toggle_hover_text_localize))"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "unchecked_locked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked_locked": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "unchecked_locked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_unchecked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_unchecked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "$toggle_hover_text_localize",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "(not $toggle_hover_text_localize)"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "checked_locked_hover": {
+                "type": "panel",
+                "layer": 0,
+                "controls": [
+                  {
+                    "bg_image": {
+                      "type": "image",
+                      "texture": "$toggle_checked_hover"
+                    }
+                  },
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "$toggle_icon_checked_hover",
+                      "size": "$toggle_icon_size",
+                      "uv_size": "$toggle_icon_uv_size",
+                      "layer": 1,
+                      "visible": "$has_toggle_icon"
+                    }
+                  },
+                  {
+                    "tooltip@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "($toggle_checked_hover_text_from_hover or $toggle_checked_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_checked_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_checked_hover_text",
+                      "ignored": "($toggle_checked_hover_text_from_hover or (not $toggle_checked_hover_text_localize))"
+                    }
+                  },
+                  {
+                    "tooltip_from_hover@common.hover_text": {
+                      "layer": 29,
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or $toggle_hover_text_localize)",
+                      "property_bag": {
+                        "#hover_text": "$toggle_hover_text"
+                      }
+                    }
+                  },
+                  {
+                    "localized_tooltip_from_hover@avaritia.extreme_craft_fake_hover_text": {
+                      "$hover_text": "$toggle_hover_text",
+                      "ignored": "((not $toggle_checked_hover_text_from_hover) or (not $toggle_hover_text_localize))"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

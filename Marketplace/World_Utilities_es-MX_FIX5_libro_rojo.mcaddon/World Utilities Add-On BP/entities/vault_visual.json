@@ -1,0 +1,158 @@
+{
+  "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "gf_wu:vault_visual",
+            "is_summonable": true,
+            "is_spawnable": false,
+            "properties": {
+                "gf_wu:open": {
+                    "type": "bool",
+                    "default": false,
+                    "client_sync": true
+                }
+            }
+        },
+    "component_groups": {
+      "gf_wu:number_0": { "minecraft:skin_id": { "value": 0 } },
+      "gf_wu:number_1": { "minecraft:skin_id": { "value": 1 } },
+      "gf_wu:number_2": { "minecraft:skin_id": { "value": 2 } },
+      "gf_wu:number_3": { "minecraft:skin_id": { "value": 3 } },
+      "gf_wu:number_4": { "minecraft:skin_id": { "value": 4 } },
+      "gf_wu:number_5": { "minecraft:skin_id": { "value": 5 } },
+      "gf_wu:number_6": { "minecraft:skin_id": { "value": 6 } },
+      "gf_wu:number_7": { "minecraft:skin_id": { "value": 7 } },
+      "gf_wu:number_8": { "minecraft:skin_id": { "value": 8 } },
+      "gf_wu:number_9": { "minecraft:skin_id": { "value": 9 } },
+      "gf_wu:number_10": { "minecraft:skin_id": { "value": 10 } },
+      "gf_wu:number_11": { "minecraft:skin_id": { "value": 11 } },
+      "gf_wu:number_12": { "minecraft:skin_id": { "value": 12 } },
+      "gf_wu:number_13": { "minecraft:skin_id": { "value": 13 } },
+      "gf_wu:number_14": { "minecraft:skin_id": { "value": 14 } },
+      "gf_wu:number_15": { "minecraft:skin_id": { "value": 15 } },
+      "gf_wu:number_16": { "minecraft:skin_id": { "value": 16 } },
+      "gf_wu:number_17": { "minecraft:skin_id": { "value": 17 } },
+      "gf_wu:number_18": { "minecraft:skin_id": { "value": 18 } },
+      "gf_wu:number_19": { "minecraft:skin_id": { "value": 19 } },
+      "gf_wu:number_20": { "minecraft:skin_id": { "value": 20 } },
+      "gf_wu:number_21": { "minecraft:skin_id": { "value": 21 } },
+      "gf_wu:number_22": { "minecraft:skin_id": { "value": 22 } },
+      "gf_wu:number_23": { "minecraft:skin_id": { "value": 23 } },
+      "gf_wu:number_24": { "minecraft:skin_id": { "value": 24 } },
+      "gf_wu:number_25": { "minecraft:skin_id": { "value": 25 } },
+      "gf_wu:number_26": { "minecraft:skin_id": { "value": 26 } },
+      "gf_wu:number_27": { "minecraft:skin_id": { "value": 27 } },
+      "gf_wu:number_28": { "minecraft:skin_id": { "value": 28 } },
+      "gf_wu:number_29": { "minecraft:skin_id": { "value": 29 } },
+      "gf_wu:number_30": { "minecraft:skin_id": { "value": 30 } },
+      "gf_wu:number_31": { "minecraft:skin_id": { "value": 31 } },
+      "gf_wu:number_32": { "minecraft:skin_id": { "value": 32 } },
+      "gf_wu:number_33": { "minecraft:skin_id": { "value": 33 } },
+      "gf_wu:number_34": { "minecraft:skin_id": { "value": 34 } },
+      "gf_wu:number_35": { "minecraft:skin_id": { "value": 35 } },
+      "gf_wu:number_36": { "minecraft:skin_id": { "value": 36 } },
+      "gf_wu:number_37": { "minecraft:skin_id": { "value": 37 } },
+      "gf_wu:number_38": { "minecraft:skin_id": { "value": 38 } },
+      "gf_wu:number_39": { "minecraft:skin_id": { "value": 39 } },
+      "gf_wu:number_40": { "minecraft:skin_id": { "value": 40 } },
+      "gf_wu:number_41": { "minecraft:skin_id": { "value": 41 } },
+      "gf_wu:number_42": { "minecraft:skin_id": { "value": 42 } },
+      "gf_wu:number_43": { "minecraft:skin_id": { "value": 43 } },
+      "gf_wu:number_44": { "minecraft:skin_id": { "value": 44 } },
+      "gf_wu:number_45": { "minecraft:skin_id": { "value": 45 } },
+      "gf_wu:number_46": { "minecraft:skin_id": { "value": 46 } },
+      "gf_wu:number_47": { "minecraft:skin_id": { "value": 47 } },
+      "gf_wu:number_48": { "minecraft:skin_id": { "value": 48 } },
+      "gf_wu:number_49": { "minecraft:skin_id": { "value": 49 } },
+      "gf_wu:number_50": { "minecraft:skin_id": { "value": 50 } }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0.0,
+        "width": 0.0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "min": 1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {},
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:persistent": {},
+      "minecraft:skin_id": {
+        "value": 0
+      },
+      "minecraft:renders_when_invisible": {}
+    },
+    "events": {
+      "gf_wu:number_0": { "add": { "component_groups": ["gf_wu:number_0"] } },
+      "gf_wu:number_1": { "add": { "component_groups": ["gf_wu:number_1"] } },
+      "gf_wu:number_2": { "add": { "component_groups": ["gf_wu:number_2"] } },
+      "gf_wu:number_3": { "add": { "component_groups": ["gf_wu:number_3"] } },
+      "gf_wu:number_4": { "add": { "component_groups": ["gf_wu:number_4"] } },
+      "gf_wu:number_5": { "add": { "component_groups": ["gf_wu:number_5"] } },
+      "gf_wu:number_6": { "add": { "component_groups": ["gf_wu:number_6"] } },
+      "gf_wu:number_7": { "add": { "component_groups": ["gf_wu:number_7"] } },
+      "gf_wu:number_8": { "add": { "component_groups": ["gf_wu:number_8"] } },
+      "gf_wu:number_9": { "add": { "component_groups": ["gf_wu:number_9"] } },
+      "gf_wu:number_10": { "add": { "component_groups": ["gf_wu:number_10"] } },
+      "gf_wu:number_11": { "add": { "component_groups": ["gf_wu:number_11"] } },
+      "gf_wu:number_12": { "add": { "component_groups": ["gf_wu:number_12"] } },
+      "gf_wu:number_13": { "add": { "component_groups": ["gf_wu:number_13"] } },
+      "gf_wu:number_14": { "add": { "component_groups": ["gf_wu:number_14"] } },
+      "gf_wu:number_15": { "add": { "component_groups": ["gf_wu:number_15"] } },
+      "gf_wu:number_16": { "add": { "component_groups": ["gf_wu:number_16"] } },
+      "gf_wu:number_17": { "add": { "component_groups": ["gf_wu:number_17"] } },
+      "gf_wu:number_18": { "add": { "component_groups": ["gf_wu:number_18"] } },
+      "gf_wu:number_19": { "add": { "component_groups": ["gf_wu:number_19"] } },
+      "gf_wu:number_20": { "add": { "component_groups": ["gf_wu:number_20"] } },
+      "gf_wu:number_21": { "add": { "component_groups": ["gf_wu:number_21"] } },
+      "gf_wu:number_22": { "add": { "component_groups": ["gf_wu:number_22"] } },
+      "gf_wu:number_23": { "add": { "component_groups": ["gf_wu:number_23"] } },
+      "gf_wu:number_24": { "add": { "component_groups": ["gf_wu:number_24"] } },
+      "gf_wu:number_25": { "add": { "component_groups": ["gf_wu:number_25"] } },
+      "gf_wu:number_26": { "add": { "component_groups": ["gf_wu:number_26"] } },
+      "gf_wu:number_27": { "add": { "component_groups": ["gf_wu:number_27"] } },
+      "gf_wu:number_28": { "add": { "component_groups": ["gf_wu:number_28"] } },
+      "gf_wu:number_29": { "add": { "component_groups": ["gf_wu:number_29"] } },
+      "gf_wu:number_30": { "add": { "component_groups": ["gf_wu:number_30"] } },
+      "gf_wu:number_31": { "add": { "component_groups": ["gf_wu:number_31"] } },
+      "gf_wu:number_32": { "add": { "component_groups": ["gf_wu:number_32"] } },
+      "gf_wu:number_33": { "add": { "component_groups": ["gf_wu:number_33"] } },
+      "gf_wu:number_34": { "add": { "component_groups": ["gf_wu:number_34"] } },
+      "gf_wu:number_35": { "add": { "component_groups": ["gf_wu:number_35"] } },
+      "gf_wu:number_36": { "add": { "component_groups": ["gf_wu:number_36"] } },
+      "gf_wu:number_37": { "add": { "component_groups": ["gf_wu:number_37"] } },
+      "gf_wu:number_38": { "add": { "component_groups": ["gf_wu:number_38"] } },
+      "gf_wu:number_39": { "add": { "component_groups": ["gf_wu:number_39"] } },
+      "gf_wu:number_40": { "add": { "component_groups": ["gf_wu:number_40"] } },
+      "gf_wu:number_41": { "add": { "component_groups": ["gf_wu:number_41"] } },
+      "gf_wu:number_42": { "add": { "component_groups": ["gf_wu:number_42"] } },
+      "gf_wu:number_43": { "add": { "component_groups": ["gf_wu:number_43"] } },
+      "gf_wu:number_44": { "add": { "component_groups": ["gf_wu:number_44"] } },
+      "gf_wu:number_45": { "add": { "component_groups": ["gf_wu:number_45"] } },
+      "gf_wu:number_46": { "add": { "component_groups": ["gf_wu:number_46"] } },
+      "gf_wu:number_47": { "add": { "component_groups": ["gf_wu:number_47"] } },
+      "gf_wu:number_48": { "add": { "component_groups": ["gf_wu:number_48"] } },
+      "gf_wu:number_49": { "add": { "component_groups": ["gf_wu:number_49"] } },
+      "gf_wu:number_50": { "add": { "component_groups": ["gf_wu:number_50"] } }
+    }
+  }
+}

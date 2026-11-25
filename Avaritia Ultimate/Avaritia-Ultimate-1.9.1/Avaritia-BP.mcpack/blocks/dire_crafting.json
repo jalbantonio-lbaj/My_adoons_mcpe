@@ -1,0 +1,61 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:dire_crafting_table",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.tables"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2000
+      },
+      "minecraft:geometry": "geometry.dire_crafting_table",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dire_crafting_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "dire_crafting_top"
+        },
+        "down": {
+          "texture": "crystal_matrix_block"
+        }
+      },
+      "avaritia:dire_craft_trigger": {},
+      "minecraft:light_emission": 3,
+      "minecraft:light_dampening": 15
+    },
+    "permutations": []
+  }
+}

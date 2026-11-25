@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:jeb_carpet",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.jeb_carpet",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "jeb_wool",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 1, 16]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.15
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 60,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:map_color": "#f9fffe",
+      "minecraft:light_dampening": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              {
+                "tags": "!q.any_tag('minecraft:not_feature_replaceable')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/jeb_carpet.json"
+    }
+  }
+}

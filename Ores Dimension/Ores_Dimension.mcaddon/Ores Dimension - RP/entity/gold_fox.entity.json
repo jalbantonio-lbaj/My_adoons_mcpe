@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:gold_fox",
+      "materials": {
+        "default": "fox"
+      },
+      "textures": {
+        "red": "textures/entity/oredim/gold/fox__red",
+        "arctic": "textures/entity/oredim/gold/fox__arctic",
+        "baby_red": "textures/entity/oredim/gold/fox__baby_red",
+        "baby_arctic": "textures/entity/oredim/gold/fox__baby_arctic",
+        "baby_sleep_red": "textures/entity/oredim/gold/fox__baby_sleep_red",
+        "baby_sleep_arctic": "textures/entity/oredim/gold/fox__baby_sleep_arctic"
+      },
+      "geometry": {
+        "default": "geometry.oredim.gold_fox",
+        "baby": "geometry.oredim.gold_fox_baby"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "crouch": "animation.fox.crouch",
+        "sleep": "animation.fox.sleep",
+        "setup": "animation.fox.setup",
+        "sit": "animation.fox.sit",
+        "wiggle": "animation.fox.wiggle",
+        "stuck": "animation.fox.stuck",
+        "pounce": "animation.fox.pounce",
+        "move": "controller.animation.fox.move",
+        "baby_walk": "animation.fox.baby_walk",
+        "baby_pounce": "animation.fox.baby_pounce",
+        "baby_sit": "animation.fox.baby_sit",
+        "baby_sleep": "animation.fox.baby_sleep",
+        "baby_wiggle": "animation.fox.baby_wiggle"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "animate": [
+          "setup",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.fox.v2"
+      ],
+      "spawn_egg": {
+        "base_color": "#6a4a08",
+        "overlay_color": "#ffee82"
+      }
+    }
+  }
+}

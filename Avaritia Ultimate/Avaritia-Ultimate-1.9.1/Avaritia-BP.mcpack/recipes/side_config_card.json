@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:side_config_card"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "iii",
+      "iai",
+      " b "
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "a": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "b": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "avaritia:diamond_lattice"
+      }
+    ],
+    "result": {
+      "item": "avaritia:side_config_card",
+      "count": 1
+    }
+  }
+}

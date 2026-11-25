@@ -1,0 +1,91 @@
+{
+  "namespace": "uc",
+  "electro_press_recipes_buttons/addon_recipe_rows": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "avaritia_recipe_rows@uc.avaritia_electro_press_recipe_rows": {}
+          }
+        ]
+      }
+    ]
+  },
+  "electro_press_recipes_panel/recipes_panel/addon_recipe_panels": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "avaritia_recipe_panels@uc.avaritia_electro_press_recipe_panels": {}
+          }
+        ]
+      }
+    ]
+  },
+  "avaritia_electro_press_recipe_rows": {
+    "type": "stack_panel",
+    "size": [126, "100%c"],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "avaritia_separator@uc.addon_recipe_separator": {
+          "$separator_label": "Avaritia"
+        }
+      },
+      {
+        "avaritia_recipe_row_0": {
+          "type": "panel",
+          "size": [126, 18],
+          "controls": [
+            {
+              "avaritia_neutronium_gear_toggle@uc.electro_press_recipe_toggle": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "$toggle_index": 10000,
+                "$toggle_hover_text": "item.avaritia:neutronium_gear",
+                "$toggle_control_name": "avaritia_neutronium_gear_recipe",
+                "$recipe_icon": "textures/items/neutronium_gear",
+                "offset": [0, 0]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "avaritia_electro_press_recipe_panels": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [80, 108],
+    "controls": [
+      {
+        "avaritia_neutronium_gear_panel@uc.recipe_panel": {
+          "$recipe_control_name": "avaritia_neutronium_gear_recipe",
+          "controls": [
+            {
+              "input@uc.electro_press_recipe_input": {
+                "$slot_hover_text": "item.avaritia:neutronium_ingot.name",
+                "$has_slot_hover": true,
+                "$slot_count_text": "4",
+                "$has_slot_count": true,
+                "$slot_item_texture": "textures/ui/icons/neutronium_ingot"
+              }
+            },
+            {
+              "output@uc.electro_press_recipe_output": {
+                "$slot_item_texture": "textures/items/neutronium_gear",
+                "$slot_hover_text": "item.avaritia:neutronium_gear.name",
+                "$has_slot_hover": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

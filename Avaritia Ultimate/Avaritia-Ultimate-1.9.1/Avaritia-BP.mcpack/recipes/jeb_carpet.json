@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:jeb_carpet"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "WW"
+    ],
+    "key": {
+      "W": {
+        "item": "avaritia:jeb_wool"
+      }
+    },
+    "unlock": [
+      {
+        "item": "avaritia:jeb_wool"
+      }
+    ],
+    "result": {
+      "item": "avaritia:jeb_carpet",
+      "count": 3
+    }
+  }
+}

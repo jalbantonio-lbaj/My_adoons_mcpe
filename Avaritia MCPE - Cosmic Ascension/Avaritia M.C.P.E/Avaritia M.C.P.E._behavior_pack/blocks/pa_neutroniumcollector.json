@@ -1,0 +1,98 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:neutroniumcollector",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 4,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "pa_neutroniumcollector_up",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "pa_neutroniumcollector_down",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "pa_neutroniumcollector_north",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "pa_neutroniumcollector_south",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "pa_neutroniumcollector_east",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "pa_neutroniumcollector_west",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:redstone_consumer": {
+        "min_power": 0,
+        "propagates_power": false
+      },
+      "minecraft:tick": {
+        "looping": true,
+        "interval_range": [
+          0,
+          25000
+        ]
+      },
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "crafting_table",
+          "NeutroniumCompressor"
+        ],
+        "table_name": "Neutronium Collector"
+      },
+      "tag:wood": {},
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "pa_neutroniumcollector:trigger": {}
+    },
+    "events": {}
+  }
+}

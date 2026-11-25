@@ -1,0 +1,158 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "gf_wu:suction_hopper",
+      "states": {
+        "gf_wu:radius": [10, 2, 3, 4, 5, 6, 7, 8, 9, 1, 11, 12, 13, 14, 15, 16],
+        "gf_wu:output": ["down", "north", "south", "east", "west"]
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.gf_wu.suction_hopper"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "ambient_occlusion": true,
+          "face_dimming": true,
+          "render_method": "alpha_test",
+          "texture": "gf_wu:suction_hopper"
+        }
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 15, 16]
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 15, 16]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 15,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 2.25
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 1.15
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:copper_tier')"
+            },
+            "destroy_speed": 1.15
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 0.75
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 0.6
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 0.5
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 0.4
+          }
+        ]
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "tag:minecraft:is_pickpickaxe_item_destructible": {},
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_emission": 0,
+      "minecraft:light_dampening": 0,
+      "minecraft:tick": {
+        "interval_range": [8, 8]
+      },
+      "minecraft:custom_components": ["gf_wu:suction_hopper"]
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('gf_wu:output') == 'down'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "gf_wu:suction_hopper_down",
+              "ambient_occlusion": true,
+              "face_dimming": true,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('gf_wu:output') == 'north'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "gf_wu:suction_hopper_north",
+              "ambient_occlusion": true,
+              "face_dimming": true,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('gf_wu:output') == 'south'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "gf_wu:suction_hopper_south",
+              "ambient_occlusion": true,
+              "face_dimming": true,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('gf_wu:output') == 'east'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "gf_wu:suction_hopper_east",
+              "ambient_occlusion": true,
+              "face_dimming": true,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('gf_wu:output') == 'west'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "gf_wu:suction_hopper_west",
+              "ambient_occlusion": true,
+              "face_dimming": true,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+	"format_version": "1.19.20",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "better_smelters:furnace",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"better_smelters:selection_empty": { "type": "bool", "default": false },
+				"better_smelters:ui_viewers": {
+					"type": "int",
+					"range": [
+						0,
+						64
+					],
+					"default": 0,
+					"client_sync": false
+				}
+			}
+		},
+		"component_groups": {
+			"better_smelters:selection_full": { "minecraft:collision_box": { "height": 1, "width": 1 } },
+			"better_smelters:selection_empty": { "minecraft:collision_box": { "height": 0, "width": 0 } },
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:type_family": {
+				"family": [
+					"inanimate",
+					"furnace",
+					"better_smelters:furnace",
+					"dorios:container"
+				]
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"max": 1,
+				"min": 1,
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1
+			},
+			"minecraft:inventory": {
+				"inventory_size": 5,
+				"container_type": "container"
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+					"filters": {
+						"test": "has_tag",
+						"value": "despawn"
+					},
+					"event": "despawn"
+				}
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "air"
+						},
+						"entered_block_event": {
+							"event": "better_smelters:check_container"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"better_smelters:check_container": {},
+			"better_smelters:selection_full": {
+				"set_property": { "better_smelters:selection_empty": false },
+				"remove": { "component_groups": ["better_smelters:selection_empty"] },
+				"add": { "component_groups": ["better_smelters:selection_full"] }
+			},
+			"better_smelters:selection_empty": {
+				"set_property": { "better_smelters:selection_empty": true },
+				"remove": { "component_groups": ["better_smelters:selection_full"] },
+				"add": { "component_groups": ["better_smelters:selection_empty"] }
+			},
+			"despawn": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

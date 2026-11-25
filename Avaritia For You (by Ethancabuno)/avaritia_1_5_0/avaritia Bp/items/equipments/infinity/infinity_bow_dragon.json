@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "infinity_bow:bow_dragon",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_bow"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "oreville:is_bow",
+          "infinity_tier",
+          "minecraft:is_bow"
+        ]
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:frame_count": 3,
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:display_name": {
+        "value": "§c%infinity_bow.name\n§b✦ Dragon Soul charged ✦\n%addon.avaritia"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 5000,
+        "movement_modifier": 0.35
+      },
+      "minecraft:enchantable": {
+        "value": 500000000,
+        "slot": "bow"
+      }
+    }
+  }
+}

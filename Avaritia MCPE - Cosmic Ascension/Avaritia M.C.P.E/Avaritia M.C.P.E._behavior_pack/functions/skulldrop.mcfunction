@@ -1,0 +1,1 @@
+execute unless entity @e[type=!player,r=4] run give @p wither_skeleton_skull 1

@@ -1,0 +1,1 @@
+{"brewing_stand_panel":{"modifications":[{"array_name":"controls","operation":"insert_front","value":{"quick_items_small_screen_panel@déesse_QCPocket.quick_items_small_screen_panel":{}}}]},"slots_panel":{"modifications":[{"array_name":"controls","operation":"insert_front","value":{"brewing_duration_text@déesse_brewing.brewing_duration_text":{"offset":[104,26]}}}]}}

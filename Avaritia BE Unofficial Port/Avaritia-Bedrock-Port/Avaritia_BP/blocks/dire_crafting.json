@@ -1,0 +1,72 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:dire_crafting_table",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.tables"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_pickaxe_item_destructible",
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "tag:minecraft:diamond_tier_destructible": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 80
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:geometry": "geometry.dire_crafting_table",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dire_crafting_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "dire_crafting_top"
+        },
+        "down": {
+          "texture": "crystal_matrix_block"
+        }
+      },
+      "avaritia:dire_craft_trigger": {},
+              "minecraft:light_emission": 5,
+            "minecraft:light_dampening": 15,
+            "minecraft:tick": {
+                          "looping": true,
+                          "interval_range": [1, 1]
+                        }
+          },
+          "permutations": []
+  }
+}

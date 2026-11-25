@@ -1,0 +1,66 @@
+{
+    "format_version": "1.26.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "dustveyn_ef:extreme_crafting_table",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    13,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    13,
+                    16
+                ]
+            },
+            "minecraft:tags": [
+                "minecraft:is_pickaxe_item_destructible"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 12.0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 90.0
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.dustveyn_ef_extreme_crafting_table"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dustveyn_ef:extreme_crafting_table_side",
+                    "render_method": "alpha_test"
+                },
+                "top": {
+                    "texture": "dustveyn_ef:extreme_crafting_table_top",
+                    "render_method": "alpha_test"
+                },
+                "bottom": {
+                    "texture": "dustveyn_ef:crystal_matrix_block",
+                    "render_method": "alpha_test"
+                },
+                "up": "top",
+                "down": "bottom"
+            },
+            "minecraft:display_name": "§b%dustveyn_ef.extreme_crafting_table.name\n§o§9Endless Fabulous"
+        }
+    }
+}

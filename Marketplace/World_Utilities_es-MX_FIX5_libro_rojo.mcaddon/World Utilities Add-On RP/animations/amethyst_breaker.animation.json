@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.amethyst_breaker.first_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [90.5808, 60.79338, -41.13663],
+					"position": [0, 19, 5],
+					"scale": 0.75
+				}
+			}
+		},
+		"animation.gf_wu.amethyst_breaker.third_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [90, 0, 0],
+					"position": [0, 20, 0],
+					"scale": 0.9
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "Items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "tunekeshi:creeper_farm",
+              "name": "tunekeshi:farm_group_name"
+            },
+            "items": [
+              "tunekeshi:witch_farm",
+              "tunekeshi:enderman_farm",
+              "tunekeshi:vindicator_farm",
+              "tunekeshi:blaze_farm",
+              "tunekeshi:slime_farm",
+              "tunekeshi:piglin_farm",
+              "tunekeshi:iron_golem_farm",
+              "tunekeshi:phantom_farm",
+              "tunekeshi:zombie_farm",
+              "tunekeshi:creeper_farm",
+              "tunekeshi:wither_skeleton_farm",
+              "tunekeshi:skeleton_farm"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

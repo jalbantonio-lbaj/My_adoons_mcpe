@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:asgardandelion_item",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "asgardandelion_item"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:tags": {
+        "tags": ["avaritia:infinity_tier"]
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:asgardandelion",
+        "use_on": [
+          { "tags": "q.any_tag('grass', 'dirt')" }
+        ]
+      }
+    }
+  }
+}

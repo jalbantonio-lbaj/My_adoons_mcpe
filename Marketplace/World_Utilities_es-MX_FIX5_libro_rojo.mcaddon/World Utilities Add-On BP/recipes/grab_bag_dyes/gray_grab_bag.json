@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "gf_wu:gray_grab_bag"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "tag": "gf_wu:grab_bags_empty"
+      },
+      {
+        "item": "minecraft:gray_dye"
+      }
+    ],
+    "result": {
+      "item": "gf_wu:gray_grab_bag_empty"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:gray_dye"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:neutronium_gear"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " A ",
+      "AXA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:neutronium_ingot"
+      },
+      "X": {
+        "item": "avaritia:neutronium_nugget"
+      }
+    },
+    "result": {
+      "item": "avaritia:neutronium_gear"
+    }
+  }
+}

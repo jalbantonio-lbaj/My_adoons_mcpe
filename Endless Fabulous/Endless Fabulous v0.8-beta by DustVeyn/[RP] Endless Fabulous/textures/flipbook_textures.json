@@ -1,0 +1,343 @@
+[
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/infinity_catalyst",
+    "atlas_tile": "dustveyn_ef:infinity_catalyst",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/crystal_matrix_ingot",
+    "atlas_tile": "dustveyn_ef:crystal_matrix_ingot",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/matter_cluster",
+    "atlas_tile": "dustveyn_ef:matter_cluster",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/infinity_ingot",
+    "atlas_tile": "dustveyn_ef:infinity_ingot",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/Endless-Fabulous/items/infinity_shield",
+    "atlas_tile": "endless_fabulous:infinity_shield",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/Endless-Fabulous/items/forest_destroyer",
+    "atlas_tile": "endless_fabulous:forest_destroyer",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/Endless-Fabulous/items/planet_eater",
+    "atlas_tile": "endless_fabulous:planet_eater",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/Endless-Fabulous/items/planet_eater_destroyer",
+    "atlas_tile": "endless_fabulous:planet_eater_destroyer",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/skullfire_sword",
+    "atlas_tile": "dustveyn_ef:skullfire_sword",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/sword_of_the_death",
+    "atlas_tile": "dustveyn_ef:sword_of_the_death",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/reality_shatterer",
+    "atlas_tile": "dustveyn_ef:reality_shatterer",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/items/reality_shatterer_hammer",
+    "atlas_tile": "dustveyn_ef:reality_shatterer_hammer",
+    "ticks_per_frame": 3,
+    "blend_frames": false,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/extreme_crafting_table/extreme_crafting_table_top",
+    "atlas_tile": "dustveyn_ef:extreme_crafting_table_top",
+    "ticks_per_frame": 4,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/extreme_crafting_table/extreme_crafting_table_side",
+    "atlas_tile": "dustveyn_ef:extreme_crafting_table_side",
+    "ticks_per_frame": 4,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/crystal_matrix_block",
+    "atlas_tile": "dustveyn_ef:crystal_matrix_block",
+    "ticks_per_frame": 4,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "flipbook_texture": "textures/Endless-Fabulous/blocks/infinity_block",
+    "atlas_tile": "endless_fabulous:infinity_block",
+    "ticks_per_frame": 4,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/neutronium_compressor/neutronium_compressor_front",
+    "atlas_tile": "dustveyn_ef:neutronium_compressor_front",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/neutron_collector/neutron_collector_front",
+    "atlas_tile": "dustveyn_ef:neutron_collector_front",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/neutron_collector/enhanced_collector_front",
+    "atlas_tile": "dustveyn_ef:enhanced_neutron_collector_front",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "flipbook_texture": "textures/dustveyn_ef/blocks/neutron_collector/supreme_collector_front",
+    "atlas_tile": "dustveyn_ef:supreme_neutron_collector_front",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      3,
+      2,
+      1
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_hacker_yellow_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_hacker_yellow",
+        "pattern": [
+            "ABA",
+            "BAB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_black_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_yellow_block"
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_hacker_yellow",
+            "count": 9
+        }
+    }
+}

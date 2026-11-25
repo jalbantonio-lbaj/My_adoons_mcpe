@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "rain_pro",
+    "metalness_emissive_roughness": "rain_pro_mer"
+  }
+}

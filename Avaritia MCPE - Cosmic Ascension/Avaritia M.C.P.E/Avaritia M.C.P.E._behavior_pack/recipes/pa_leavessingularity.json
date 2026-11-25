@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leavessingularity_0100949b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:jungle_leaves",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:azalea_leaves",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:dark_oak_leaves",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:mangrove_leaves",
+        "data": 0
+      },
+      "E": {
+        "item": "pa:outersingularity",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:pale_oak_leaves",
+        "data": 0
+      },
+      "G": {
+        "item": "minecraft:spruce_leaves",
+        "data": 0
+      },
+      "H": {
+        "item": "minecraft:cherry_leaves",
+        "data": 0
+      },
+      "I": {
+        "item": "minecraft:acacia_leaves",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:leavessingularity",
+      "count": 1
+    }
+  }
+}

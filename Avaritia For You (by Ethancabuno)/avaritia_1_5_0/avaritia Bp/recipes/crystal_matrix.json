@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:crystal_matrix"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X#X",
+      "X#X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nether_star"
+      },
+      "X": {
+        "item": "avaritia:diamond_lattice"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "item": "avaritia:diamond_lattice"
+      }
+    ],
+    "priority": 1,
+    "result": {
+      "item": "avaritia:crystal_matrix"
+    }
+  }
+}

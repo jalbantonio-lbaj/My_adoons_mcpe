@@ -1,0 +1,8 @@
+{
+  "namespace": "abc_scrollbar",
+
+  "tab_scrollable_content@common.scrolling_panel": {
+    "$show_background": false,
+    "size": ["100%", "100%"]
+  }
+}

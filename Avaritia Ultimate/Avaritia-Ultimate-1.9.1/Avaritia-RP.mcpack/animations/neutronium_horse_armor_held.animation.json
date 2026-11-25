@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.avaritia.neutronium_horse_armor_held_fpp": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [ -2.0, -17.0, 1.0 ],
+					"rotation": [ -45.75, -1.0, 197.09 ],
+					"scale": 1.46
+				}
+			}
+		},
+		"animation.avaritia.neutronium_horse_armor_held_tpp": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"position": [ 3.0, 0.55, -9.78 ],
+					"rotation": [ 25.0, 10.0, 200.0 ],
+					"scale": 0.59
+				}
+			}
+		}
+	}
+}

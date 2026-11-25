@@ -1,0 +1,67 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:planet_eater",
+      "menu_category": {
+        "category": "equipment",
+        "group": "avaritia:itemGroup.name.tools"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:mining_speed": 999999999,
+      "minecraft:stacked_by_data": false,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:planet_eater",
+        "use_on": [
+          "avaritia:planet_eater"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:damage": 8,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "shovel"
+      },
+      "minecraft:digger": {
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('minecraft:is_shovel_item_destructible')"
+            },
+            "speed": 999999999
+          },
+          {
+            "block": {
+              "tags": "query.any_tag('minecraft:is_axe_item_destructible')"
+            },
+            "speed": 12
+          },
+          {
+            "block": {
+              "tags": "query.any_tag('minecraft:is_pickaxe_item_destructible')"
+            },
+            "speed": 15
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:is_shovel",
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:explodable": false
+    }
+  }
+}

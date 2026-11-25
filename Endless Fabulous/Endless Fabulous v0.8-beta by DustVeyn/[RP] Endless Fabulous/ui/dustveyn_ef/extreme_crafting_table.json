@@ -1,0 +1,224 @@
+{
+  "namespace": "extreme_crafting_table",
+  
+  "extreme_crafting_table_item@common.container_item": {
+    "$item_collection_name": "container_items",
+    "size": [
+      14,
+      14
+    ]
+  },
+  "inputs": {
+    "type": "grid",
+    "size": [
+      162,
+      162
+    ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "grid_dimensions": [
+      9,
+      9
+    ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "output": {
+    "type": "grid",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [
+      36,
+      1
+    ],
+    "$grid_position|default": [
+      0,
+      0
+    ],
+    "collection_name": "container_items",
+    "$cell_background|default": "common.cell_image",
+    "controls": [
+      {
+        "output@extreme_crafting_table.extreme_crafting_table_item": {
+          "grid_position": "$grid_position",
+          "$background_images": "$cell_background",
+          "size": [
+            26,
+            26
+          ],
+          "$cell_image_size": [
+            26,
+            26
+          ]
+        }
+      }
+    ]
+  },
+  "extreme_crafting_table_grid": {
+    "type": "panel",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "offset": [
+      0,
+      "1%"
+    ],
+    "size": [
+      5,
+      5
+    ],
+    "controls": [
+      {
+        "background": {
+          "type": "image",
+          "offset": [
+            -85,
+            -2
+          ],
+          "size": [
+            "5000%",
+            "5000%"
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 0,
+          "texture": "textures/dustveyn_ef/ui/extreme_crafting_table_background"
+        }
+      },
+      {
+        "input@extreme_crafting_table.inputs": {
+          "offset": [
+            -40,
+            -80
+          ]
+        }
+      },
+      {
+        "output@extreme_crafting_table.output": {
+          "offset": [
+            -8,
+            -13
+          ],
+          "$grid_position": [
+            81,
+            0
+          ],
+          "$cell_background": "common.cell_image"
+        }
+      }
+    ]
+  },
+  "extreme_crafting_table_controller": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "50%"
+    ],
+    "offset": [
+      0,
+      11
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "arrow": {
+          "type": "image",
+          "offset": [
+            -170,
+            5
+          ],
+          "size": [
+            22,
+            15
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 10,
+          "texture": "textures/ui/arrow_large"
+        }
+      },
+      {
+        "slots@extreme_crafting_table.extreme_crafting_table_grid": {
+          "offset": [
+            -45,
+            8
+          ]
+        }
+      }
+    ]
+  },
+  "extreme_crafting_table_root_panel@common.root_panel": {
+    "size": [
+      220,
+      100
+    ],
+    "offset": [
+      130,
+      0
+    ],
+    "layer": 1,
+    "controls": [
+      {
+        "common_panel@common.common_panel": {}
+      },
+      {
+        "chest_panel": {
+          "type": "panel",
+          "layer": 5,
+          "controls": [
+            {
+              "controller@extreme_crafting_table.extreme_crafting_table_controller": {}
+            },
+            {
+              "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {
+                "ignored": false
+              }
+            },
+            {
+              "hotbar_grid@common.hotbar_grid_template": {}
+            },
+            {
+              "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+            }
+          ]
+        }
+      },
+      {
+        "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+      },
+      {
+        "gamepad_cursor@common.gamepad_cursor_button": {}
+      }
+    ]
+  },
+  "extreme_crafting_table_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 11
+        }
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {
+          "control_name": "@chest.selected_item_details"
+        }
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {
+          "control_name": "@common.item_lock_notification"
+        }
+      },
+      {
+        "root_panel@extreme_crafting_table.extreme_crafting_table_root_panel": {}
+      }
+    ]
+  }
+}

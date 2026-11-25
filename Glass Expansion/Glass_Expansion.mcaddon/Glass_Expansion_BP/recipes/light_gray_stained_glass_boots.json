@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:light_gray_stained_glass_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:light_gray_stained_glass"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:light_gray_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:light_gray_stained_glass_boots",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:sword_of_the_cosmos",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.animated_item_sword_of_the_cosmos",
+      "minecraft:material_instances": {
+              "*": {
+                "texture": "infinity_sword",
+                "render_method": "alpha_test"
+              }
+            }
+    }
+  }
+}

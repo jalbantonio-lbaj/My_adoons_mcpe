@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.avaritia.infinity_trident.hold": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "c.is_first_person ? 6.0 : 0.0",
+            "c.is_first_person ? 3.0 : -4.0",
+            "c.is_first_person ? 17.0 : 13.0"
+          ],
+          "rotation": [
+            "c.is_first_person ? 142.4695 : 85.2586",
+            "c.is_first_person ? 8.4365 : 5.653",
+            "c.is_first_person ? 21.2779 : 36.3926"
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    "animation.avaritia.infinity_trident.raise": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "c.is_first_person ? math.lerp(0.0, -2.5, variable.charge_amount) : math.lerp(0.0, -1.0, variable.charge_amount)",
+            "c.is_first_person ? math.lerp(0.0, 1.0, variable.charge_amount) : math.lerp(0.0, 0.5, variable.charge_amount)",
+            "c.is_first_person ? math.lerp(0.0, -3.0, variable.charge_amount) : math.lerp(0.0, -1.5, variable.charge_amount)"
+          ],
+          "rotation": [
+            "c.is_first_person ? math.lerp(0.0, -8.0, variable.charge_amount) : math.lerp(0.0, -4.0, variable.charge_amount)",
+            0,
+            "c.is_first_person ? math.lerp(0.0, -6.0, variable.charge_amount) : math.lerp(0.0, -3.0, variable.charge_amount)"
+          ]
+        }
+      }
+    },
+    "animation.avaritia.infinity_trident.raise_shake": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            0,
+            "math.sin(q.life_time * 1300.0) * math.clamp((variable.charge_amount - 0.95) * 20.0, 0.0, 1.0) * 0.15",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "soul_lamp3111aff8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:soul_sand",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:soul_lamp",
+      "count": 4
+    }
+  }
+}

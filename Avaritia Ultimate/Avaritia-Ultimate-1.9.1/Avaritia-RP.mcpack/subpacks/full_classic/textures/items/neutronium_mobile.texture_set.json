@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "neutronium_mobile",
+    "metalness_emissive_roughness": "neutronium_mobile_mer"
+  }
+}

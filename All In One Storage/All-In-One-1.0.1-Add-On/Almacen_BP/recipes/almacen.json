@@ -1,0 +1,1 @@
+{"format_version":"1.21.0","minecraft:recipe_shaped":{"description":{"identifier":"alm:almacen"},"tags":["crafting_table"],"pattern":["PPP","PIP","PPP"],"key":{"P":{"tag":"minecraft:planks"},"I":{"item":"minecraft:iron_ingot"}},"unlock":[{"item":"minecraft:iron_ingot"}],"result":{"item":"alm:almacen"}}}

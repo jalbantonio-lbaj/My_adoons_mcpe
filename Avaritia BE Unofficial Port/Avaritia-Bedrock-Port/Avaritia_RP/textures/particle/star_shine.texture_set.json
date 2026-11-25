@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "star_shine",
+		"metalness_emissive_roughness": "star_shine_mer"
+	}
+}

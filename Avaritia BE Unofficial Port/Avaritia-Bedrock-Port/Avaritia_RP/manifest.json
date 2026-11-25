@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Avaritia",
+    "description": "A parody mod to end all mods\n\nOriginal mod by SpitefulFox & TTFTCUTS all of the credit goes to them!\n  -Original: https://www.curseforge.com/minecraft/mc-mods/avaritia",
+    "uuid": "9f0f46aa-8046-435d-a2fe-971367d23d09",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80],
+    "capabilities": ["custom_components", "pbr"]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "db614bef-3973-4ef7-8bb9-1c22affe487c",
+      "version": [1, 0, 0],
+      "description": "Resources module"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "206d5edc-4f57-47d2-af18-3a518528791a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["QuantumMaster"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinityaxe_99c1de30"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BAC",
+      "  D"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:infinityingot",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:ingotneutron",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinityaxe",
+      "count": 1
+    }
+  }
+}

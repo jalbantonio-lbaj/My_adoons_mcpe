@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.custom.item",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes": [
+            {
+              "rotation": [ 0, -135, 90 ],
+              "texture": "frame_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

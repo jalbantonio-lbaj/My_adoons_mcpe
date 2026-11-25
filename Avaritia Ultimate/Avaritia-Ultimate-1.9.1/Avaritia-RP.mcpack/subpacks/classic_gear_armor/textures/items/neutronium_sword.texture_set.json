@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "neutronium_sword",
+    "metalness_emissive_roughness": "neutronium_sword_mer"
+  }
+}

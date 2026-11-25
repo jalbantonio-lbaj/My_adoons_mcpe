@@ -1,0 +1,1 @@
+execute as @e[type=!player,r=5,c=1] run effect @s clear

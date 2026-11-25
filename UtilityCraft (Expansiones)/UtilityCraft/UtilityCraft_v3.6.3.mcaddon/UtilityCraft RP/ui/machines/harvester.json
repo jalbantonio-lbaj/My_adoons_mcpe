@@ -1,0 +1,201 @@
+{
+  "namespace": "harvester",
+  "slot_column_3": {
+    "type": "collection_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [18, 54],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "$collection_index_1|default": 0,
+    "$collection_index_2|default": 1,
+    "$collection_index_3|default": 2,
+    "controls": [
+      {
+        "slot_1@common.container_item": {
+          "collection_index": "$collection_index_1",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [0, 0]
+        }
+      },
+      {
+        "slot_2@common.container_item": {
+          "collection_index": "$collection_index_2",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [0, 18]
+        }
+      },
+      {
+        "slot_3@common.container_item": {
+          "collection_index": "$collection_index_3",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [0, 36]
+        }
+      }
+    ]
+  },
+  "harvester_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      {
+        "machine_name@uc.machine_name": {}
+      },
+      {
+        "energy_bar@uc.energy_bar": {}
+      },
+      {
+        "machine_screen@uc.machine_small_screen": {}
+      },
+      {
+        "machine_description@uc.text_label": {
+          "collection_index": 1,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$text_scale": 0.55,
+          "offset": [14, 12]
+        }
+      },
+      {
+        "output_column_left@harvester.slot_column_3": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [1, 13],
+          "$collection_index_1": 5,
+          "$collection_index_2": 10,
+          "$collection_index_3": 15
+        }
+      },
+      {
+        "output_column_right@harvester.slot_column_3": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [19, 13],
+          "$collection_index_1": 6,
+          "$collection_index_2": 11,
+          "$collection_index_3": 16
+        }
+      },
+      {
+        "output_grid@uc.slot_grid_3x3": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [55, 13],
+          "$collection_index_1": 7,
+          "$collection_index_2": 8,
+          "$collection_index_3": 9,
+          "$collection_index_4": 12,
+          "$collection_index_5": 13,
+          "$collection_index_6": 14,
+          "$collection_index_7": 17,
+          "$collection_index_8": 18,
+          "$collection_index_9": 19
+        }
+      },
+      {
+        "output_outline": {
+          "type": "image",
+          "texture": "textures/ui/slots/output_slot",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [37, 12],
+          "size": [92, 56],
+          "layer": 4
+        }
+      },
+      {
+        "upgrades_tab@uc.upgrades_tab": {
+          "$upgrade_index_1": 2,
+          "$upgrade_index_2": 3,
+          "$upgrade_index_3": 4,
+          "$has_third_upgrade": true
+        }
+      },
+      {
+        "io_tab@uc.io_tab": {
+          "$io_items_modes_description": "ui.utilitycraft:io.harvester.items",
+          "$io_top_texture": "textures/blocks/machines/harvester_off_up",
+          "$io_left_texture": "textures/blocks/machines/harvester_off_west",
+          "$io_front_texture": "textures/blocks/machines/harvester_off_north",
+          "$io_right_texture": "textures/blocks/machines/harvester_off_east",
+          "$io_bottom_texture": "textures/blocks/machines/harvester_off_down",
+          "$io_back_texture": "textures/blocks/machines/harvester_off_south",
+          "$io_item_top_index": 20,
+          "$io_item_left_index": 21,
+          "$io_item_front_index": 22,
+          "$io_item_right_index": 23,
+          "$io_item_bottom_index": 24,
+          "$io_item_back_index": 25
+        }
+      },
+      {
+        "info_tab@uc.info_tab": {
+          "$info_description": "ui.utilitycraft:info.harvester"
+        }
+      }
+    ]
+  },
+  "utility_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 40
+        }
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "controls": [
+            {
+              "common_panel@common.common_panel": {}
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "harvester_top@harvester.harvester_top": {}
+                  },
+                  {
+                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "avaritia:infinity_book",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/3D/infinity/book/default"
+			},
+			"geometry": {
+				"default": "geometry.infinity_book"
+			},
+			"animations": {
+				"wield": "animation.infinity_book.wield",
+				"idle": "animation.infinity_book.idle"
+			},
+			"scripts": {
+				"animate": ["wield", "idle"]
+			},
+			"render_controllers": [ "controller.render.default" ]
+		}
+	}
+}

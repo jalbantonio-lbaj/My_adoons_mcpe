@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_workbench_recipe"
+        },
+        "tags": ["crafting_table"],
+        "group": "neon_workbench",
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:stone"
+            },
+            "B": {
+                "item": "minecraft:glowstone"    
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_workbench",
+            "count": 1
+        }
+    }
+}

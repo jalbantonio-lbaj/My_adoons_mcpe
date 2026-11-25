@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_bucket_drink",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_bucket"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:glint": true,
+      "minecraft:should_despawn": false,
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_bucket.name\n%addon.avaritia"
+      }
+    }
+  }
+}

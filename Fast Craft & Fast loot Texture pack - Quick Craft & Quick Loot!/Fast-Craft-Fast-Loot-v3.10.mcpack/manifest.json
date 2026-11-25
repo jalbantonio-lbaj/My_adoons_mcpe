@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "129db57d-3dcb-42e9-a410-d653bd772e83",
+    "version": [3, 10, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "pack.description",
+      "type": "resources",
+      "uuid": "117dc606-3dca-42e9-b410-d663ed874d83",
+      "version": [3, 10, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Mod MCPE"],
+    "url": "https://www.curseforge.com/members/mod_mc"
+  },
+  "subpacks": [
+    {
+      "folder_name": "fast_loot_only",
+      "name": "Fast Loot Only",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "fast_craft_only",
+      "name": "Fast Craft Only",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "full_features",
+      "name": "Full Features",
+      "memory_tier": 0
+    }
+  ]
+}

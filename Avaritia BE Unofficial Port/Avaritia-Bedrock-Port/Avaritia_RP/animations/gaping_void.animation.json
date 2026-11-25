@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+      "animation.avaritia_black_hole.grow": {
+      "loop": true,
+      "bones": {
+        "bone4": {
+          "scale": "query.property('avaritia:scale')"
+        }
+      },
+      "particle_effects": {
+        "0.0": [
+          {
+            "effect": "star_shine",
+            "locator": "core_locator"
+          },
+          {
+            "effect": "ring",
+            "locator": "core_locator"
+          }
+        ]
+      }
+    }
+  }
+}

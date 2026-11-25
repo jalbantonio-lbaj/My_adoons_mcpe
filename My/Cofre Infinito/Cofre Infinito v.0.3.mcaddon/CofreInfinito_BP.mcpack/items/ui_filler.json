@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "infinitychest:ui_filler"
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinitychest_standalone_ui_filler"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:should_despawn": true
+    }
+  }
+}

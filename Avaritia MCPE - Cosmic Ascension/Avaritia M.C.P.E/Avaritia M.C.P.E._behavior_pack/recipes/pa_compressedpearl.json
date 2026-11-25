@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "compressedpearl_9f08ec71"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:ender_pearl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:compressedpearl",
+      "count": 1
+    }
+  }
+}

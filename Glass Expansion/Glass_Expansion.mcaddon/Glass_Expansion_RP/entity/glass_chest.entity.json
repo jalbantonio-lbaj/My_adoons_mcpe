@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vge:glass_chest",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/glass_chest"
+      },
+      "geometry": {
+        "default": "geometry.vge.glass_chest"
+      },
+      "render_controllers": [
+        "controller.render.vge_glass_chest"
+      ]
+    }
+  }
+}

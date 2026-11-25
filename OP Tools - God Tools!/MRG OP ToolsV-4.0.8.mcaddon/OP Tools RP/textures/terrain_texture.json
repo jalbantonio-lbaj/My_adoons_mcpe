@@ -1,0 +1,71 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"log_oak": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_oak"
+				}
+			]
+		},
+		"log_spruce": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_spruce"
+				}
+			]
+		},
+		"log_birch": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_birch"
+				}
+			]
+		},
+		"log_jungle": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_jungle"
+				}
+			]
+		},
+		"log_acacia": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_acacia"
+				}
+			]
+		},
+		"log_darkoak": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_big_oak"
+				}
+			]
+		},
+		"log_crimson": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_crimson"
+				}
+			]
+		},
+		"log_warped": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_warped"
+				}
+			]
+		},
+		"log_mangrove": {
+			"textures": [
+				{
+					"path": "textures/blocks/log_mangrove"
+				}
+			]
+		}
+	}
+}

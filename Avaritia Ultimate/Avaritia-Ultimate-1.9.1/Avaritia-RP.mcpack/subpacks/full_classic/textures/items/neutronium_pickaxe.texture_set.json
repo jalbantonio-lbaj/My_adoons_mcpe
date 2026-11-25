@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "neutronium_pickaxe",
+    "metalness_emissive_roughness": "neutronium_pickaxe_mer"
+  }
+}

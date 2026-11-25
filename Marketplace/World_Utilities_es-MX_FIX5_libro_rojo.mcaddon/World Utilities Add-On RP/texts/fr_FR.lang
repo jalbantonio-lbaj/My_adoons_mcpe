@@ -1,0 +1,673 @@
+﻿pack.name=Contenu additionnel utilitaires du monde	###Pack name
+pack.description=Une sélection de nouveaux outils et utilitaires conçus pour améliorer votre expérience Minecraft.	###Pack description
+
+item.gf_wu:end_frame_breaker=Brise-cadre de l'Ender	###Name of the item in game
+item.gf_wu:explosive_pickaxe=Pioche explosive	###Name of the item in game
+item.gf_wu:multiblock_pickaxe=Pioche multibloc en diamant	###Name of the item in game
+item.gf_wu:omni_tool=Outil Multifonction en diamant	###Name of the item in game
+item.gf_wu:spawner_wrench=Clé de générateur	###Name of the item in game
+item.gf_wu:void_chest_item=Coffre du vide	###Name of the item in game
+item.gf_wu:void_chest=Coffre du vide	###Name of the item in game
+item.gf_wu:vein_miner=Mineur de la veine désactivé	###Name of the item in game
+item.gf_wu:vein_miner_on=Mineur de la veine activé	###Name of the item in game
+item.gf_wu:treecapitator=Capiteur d'arbre désactivé	###Name of the item in game
+item.gf_wu:treecapitator_on=Capiteur d'arbre activé	###Name of the item in game
+item.gf_wu:guide_book=Guide	###Name of the item in game
+item.gf_wu:experience_bottle=Bouteille d'Expérience	###Name of the item in game
+item.gf_wu:experience_extractor_item=Extracteur d'Expérience	###Name of the item in game
+item.gf_wu:experience_extractor=Extracteur d'Expérience	###Name of the item in game
+item.gf_wu:lock=Verrou	###Name of the item in game
+item.gf_wu:magnet=Aimant Désactivées	###Name of the item in game
+item.gf_wu:magnet_on=Aimant Activé	###Name of the item in game
+item.gf_wu:chunk_minion_spawn_egg=Minion de Chunk	###Name of the item in game
+
+tile.gf_wu:void_chest.name=Coffre du vide	###Name of the block in game
+tile.gf_wu:experience_extractor.name=Extracteur d'Expérience	###Name of the block in game
+tile.gf_wu:bridge_builder1.name=Temporary Bridge Block 1	###Name of the block in game
+tile.gf_wu:bridge_builder2.name=Temporary Bridge Block 2	###Name of the block in game
+tile.gf_wu:bridge_builder3.name=Temporary Bridge Block 3	###Name of the block in game
+tile.gf_wu:bridge_builder4.name=Temporary Bridge Block 4	###Name of the block in game
+
+entity.gf_wu:void_chest_entity.name=Coffre du vide	###Name of the entity in game
+entity.gf_wu:death_waypoint.name=Point de Mort	###Name of the entity in game
+entity.gf_wu:chunk_minion.name=Minion de Chunk	###Name of the entity in game
+entity.gf_wu:lock_barrier.name=Barrière de Verrou	###Name of the entity in game
+entity.gf_wu:lock_barrier_double.name=Barrière de Verrouillage Double	###Name of the entity in game
+
+item.gf_wu:chunk_borders=Frontières des Chunks Désactivées	###Name of the item in game
+item.gf_wu:chunk_borders_on=Frontières des Chunks Activées	###Name of the item in game
+item.gf_wu:homes=Maisons	###Name of the item in game
+item.gf_wu:miners_lantern=Lanterne de Mineur	###Name of the item in game
+
+item.gf_wu:harvester_hoe=Houe moissonneuse en diamant	###Name of the item in game
+item.gf_wu:excavator_shovel=Pelle d'excavatrice en diamant	###Name of the item in game
+item.gf_wu:safari_net=Safari Net	###Name of the item in game
+item.gf_wu:miners_essentials=Les essentiels du mineur	désactivé	###Name of the item in game
+item.gf_wu:miners_essentials_on=Les essentiels du mineur activé	###Name of the item in game
+item.gf_wu:controller=Utilitaires du Monde Manette	###Name of the item in game
+item.gf_wu:update_book=Utilitaires du Monde Mettre à jour le livre	###Name of the item in game
+
+gf_wu:death_waypoint.message=Vous êtes mort à	###Death waypoint message
+gf_wu:death_waypoint.in= dans 	###Death waypoint message
+
+gf_wu:death_waypoint.private=§cCe point de passage est privé	###Death waypoint message
+
+gf_wu:home_menu.name=Menu des Maisons	###Homes Menu
+gf_wu:home_menu.add=Ajouter maison	###Homes Menu
+gf_wu:home_menu.enter_name=Entrez le nom	###Homes Menu
+gf_wu:home_menu.placeholder_name=Maison	###Homes Menu
+gf_wu:home_menu.home_added=§aMaison ajoutée	###Homes Menu
+gf_wu:home_menu.teleport=Téléporter	###Homes Menu
+gf_wu:home_menu.edit_name=Modifier le nom	###Homes Menu
+gf_wu:home_menu.remove=Supprimer	###Homes Menu
+gf_wu:home_menu.too_long=§cCe nom est trop long !
+gf_wu:home_menu.duplicate_name=§cUne maison avec ce nom existe déjà !
+
+gf_wu:home_menu.teleport_cancelled=§cTéléportation annulée!
+
+gf_wu:jig_computer.addon_stats=Statistiques utilitaires du monde	###Header and button for stats in Computers Add-On
+gf_wu:stat_treecapitator=Arbres coupés	###Name of the statistic
+gf_wu:stat_veinminer=Veines de minerai minées	###Name of the statistic
+gf_wu:stat_endframebreaker=Cadres de portail de l'Ender détruits	###Name of the statistic
+gf_wu:stat_explosivepickaxe=Explosions causées par une pioche explosive	###Name of the statistic
+gf_wu:stat_multiblockpickaxe=Usage de la pioche multiblocs	###Name of the statistic
+gf_wu:stat_omnitool=Blocs cassés par un outil multifonctions	###Name of the statistic
+gf_wu:stat_wrench=Générateurs détruits	###Name of the statistic
+gf_wu:stat_voidchest=Objets jetés dans un coffre du vide	###Name of the statistic
+gf_wu:stat_minersessential=Minerais fondus	###Name of the statistic
+gf_wu:stat_excavatorshovel=Pelle d'excavatrice les usages	###Name of the statistic
+gf_wu:stat_harvesterhoe=Récoltes récoltées	###Name of the statistic
+gf_wu:stat_safarinet=Des foules capturées	###Name of the statistic
+
+gf_wu:stat_experienceextractor=Niveaux extraits	###Name of the statistic
+gf_wu:stat_magnet=Objets collectés avec l'Aimant	###Name of the statistic
+gf_wu:stat_lock=Château verrouillé avec le Verrou	###Name of the statistic
+gf_wu:stat_chunkminion=Temps pendant lequel un Minion de Chunk a été placé	###Name of the statistic
+
+gf_wu:credits.for.computers=World Utilities Add-On by Gamefam.	###Last line in the stats page
+
+
+gf_wu:info.header=§l§eExtension « Utilitaires du monde »	###Header of the guide book
+gf_wu:info.description=§7Ce contenu additionnel est fourni par Gameam !	###First line in guide book
+gf_wu:info.recipe=%1§r§l§6Recette de fabrication :	###Used as the global header for showing crafting recipes in guide book
+
+gf_wu:vein_miner.header=§l§cMineur de veine	###Guide book menu title
+gf_wu:vein_miner.button=§l§4Mineur de veine	###Guide book menu title
+gf_wu:vein_miner.description=Activez l'utilitaire Vein Miner en interagissant avec l'objet. Une fois activé, minez n'importe quel minerai et tout le filon sera automatiquement extrait ! Interagissez à nouveau pour le désactiver. Dans le Contrôleur, vous pouvez choisir si l'objet doit se trouver dans votre inventaire pour que l'utilitaire fonctionne, ainsi que modifier les paramètres de durabilité de l'objet.	###Guide book menu description
+gf_wu:vein_miner.recipe_ingredients=§72 lingots de fer §f[§7I§f]%1§r§b1 pioche en diamant §f[§bD§f]%1§r§c2 redstones §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:vein_miner.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:tree_capitator.header=§l§cAbatteur d'arbre	###Guide book menu title
+gf_wu:tree_capitator.button=§l§4Abatteur d'arbre	###Guide book menu title
+gf_wu:tree_capitator.description=Activez l'utilitaire Tree Capitator en interagissant avec l'objet. Une fois activé, cassez une bûche et l'arbre entier sera automatiquement abattu ! Interagissez à nouveau pour le désactiver. Dans le Contrôleur, vous pouvez choisir si l'objet doit se trouver dans votre inventaire pour que l'utilitaire fonctionne, ainsi que modifier les paramètres de durabilité de l'objet.	###Guide book menu description
+gf_wu:tree_capitator.recipe_ingredients=§72 lingots de fer §f[§7I§f]%1§r§b1 hache en diamant §f[§bD§f]%1§r§c2 redstones §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:tree_capitator.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:explosive_pickaxe.header=§l§cPioche explosive	###Guide book menu title
+gf_wu:explosive_pickaxe.button=§l§4Pioche explosive	###Guide book menu title
+gf_wu:explosive_pickaxe.description=Minez avec cet outil pour créer de petites explosions autour de vous et briser les blocs sur votre chemin.	###Guide book menu description
+gf_wu:explosive_pickaxe.recipe_ingredients=§c3 TNT §f[§cT§f]%1§r§72 bâtons §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:explosive_pickaxe.recipe_table=§f[§cT§f][§cT§f][§cT§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:multiblock_pickaxe.header=§l§cPioche multiblocs	###Guide book menu title
+gf_wu:multiblock_pickaxe.button=§l§4Pioche multiblocs	###Guide book menu title
+gf_wu:multiblock_pickaxe.description=Minez plus rapidement que jamais en détruisant plusieurs blocs à la fois. Vous pouvez améliorer cet outil en sa variante Netherite dans une table de forge.	###Guide book menu description
+gf_wu:multiblock_pickaxe.recipe_ingredients=§b3 pioches en diamant §f[§bD§f]%1§r§72 bâtons §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:multiblock_pickaxe.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:end_frame_breaker.header=§l§cBrise-cadre de l'Ender	###Guide book menu title
+gf_wu:end_frame_breaker.button=§l§4Brise-cadre de l'Ender	###Guide book menu title
+gf_wu:end_frame_breaker.description=Déplacez un portail de l'Ender sans effort. Extrayez des cadres de l'Ender pour les lâcher au sol. Ramassez-les et remplacez-les partout où vous le souhaitez. Attention, cet outil ne permet que 12 durabilité !	###Guide book menu description
+gf_wu:end_frame_breaker.recipe_ingredients=§e3 pierres de l'Ender §f[§eS§f]%1§r§b1 pioche en diamant §f[§bD§f]%1§r§a3 yeux de l'Ender §f[§aE§f]%1§r	###Recipe list for guide book
+gf_wu:end_frame_breaker.recipe_table=§f[ ][§aE§f][ ]%1§r§f[§aE§f][§bD§f][§aE§f]%1§r§f[§eS§f][§eS§f][§eS§f]%1§r	###Recipe table
+
+gf_wu:omni_tool.header=§l§cOutil Multifonction	###Guide book menu title
+gf_wu:omni_tool.button=§l§4Outil Multifonction	###Guide book menu title
+gf_wu:omni_tool.description=Optimisez votre inventaire avec cet outil tout-en-un qui vous permet de casser n'importe quel bloc comme si vous utilisiez une pioche, une hache ou une pelle. Vous pouvez améliorer cet outil en sa variante Netherite dans une table de forge.	###Guide book menu description
+gf_wu:omni_tool.recipe_ingredients=§66 blocs de miel §f[§6H§f]%1§r§d1 hache en diamant §f[§dA§f]%1§r§b1 pioche en diamant §f[§bP§f]%1§r§c1 pelle en diamant §f[§cS§f]%1§r	###Recipe list for guide book
+gf_wu:omni_tool.recipe_table=§f[§6H§f][§dA§f][§6H§f]%1§r§f[§6H§f][§bP§f][§6H§f]%1§r§f[§6H§f][§cS§f][§6H§f]%1§r	###Recipe table
+
+gf_wu:spawner_wrench.header=§l§cClé de générateur	###Guide book menu title
+gf_wu:spawner_wrench.button=§l§4Clé de générateur	###Guide book menu title
+gf_wu:spawner_wrench.description=Interagissez avec un générateur pour le lâcher au sol, ce qui vous permet de le déplacer si nécessaire. N'oubliez pas, cet outil ne permet que 3 durabilité !	###Guide book menu description
+gf_wu:spawner_wrench.recipe_ingredients=§74 lingots de fer §f[§7I§f]%1§r§51 obsidienne §f[§5O§f]%1§r	###Recipe list for guide book
+gf_wu:spawner_wrench.recipe_table=§f[§7I§f][§5O§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:void_chest.header=§l§cCoffre du vide	###Guide book menu title
+gf_wu:void_chest.button=§l§4Coffre du vide	###Guide book menu title
+gf_wu:void_chest.description=Fatigué d'avoir un inventaire encombré ? Placez cet objet et interagissez avec son couvercle pour vous débarrasser facilement des objets inutiles. Placez simplement vos objets dans le menu, fermez-le, et vos déchets auront disparu !	###Guide book menu description
+gf_wu:void_chest.recipe_ingredients=§67 blocs de magma §f[§6M§f]%1§r§81 coffre §f[§8C§f]%1§r§e1 seau de lave §f[§eL§f]%1§r	###Recipe list for guide book
+gf_wu:void_chest.recipe_table=§f[§6M§f][§eL§f][§6M§f]%1§r§f[§6M§f][§8C§f][§6M§f]%1§r§f[§6M§f][§6M§f][§6M§f]%1§r	###Recipe table
+
+gf_wu:guide_book.header=§l§cGuide	###Guide book menu title
+gf_wu:guide_book.button=§l§4Guide	###Guide book menu title
+gf_wu:guide_book.description=Ce livre fournit des informations sur chacun des utilitaires et outils de ce contenu additionnel.	###Guide book menu description
+gf_wu:guide_book.recipe_ingredients=§c1 livre §f[§cB§f]%1§r§61 pioche en bois §f[§6P§f]%1§r§71 pelle en bois §f[§7S§f]%1§r§51 hache en bois §f[§5A§f]%1§r§a1 épée en bois §f[§aW§f]%1§r	###Recipe list for guide book
+gf_wu:guide_book.recipe_table=§f[ ][§6P§f][ ]%1§r§f[§aW§f][§cB§f][§5A§f]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+gf_wu:guide.name=Guide des utilitaires du monde	###Title of the guide book menu
+gf_wu:guide_back=Retour	###Get back to guide book menu
+gf_wu:guide_exit=Quitter le guide	###Guide book exit button
+
+gf_wu:help.header=§l§cRejoignez notre Discord !	###Guide book help menu title
+gf_wu:help.button=§l§4Aide et assistance	###Guide book help menu button
+gf_wu:help.description=Besoin d'aide avec le module World Utilities ? Rejoignez notre serveur Discord grâce au lien ci-dessous pour obtenir les dernières informations sur les mises à jour, signaler des bugs et demander de nouvelles fonctionnalités !%1%1§r§9Discord: §r§fhttps://discord.gg/NVs5j7TaMa	###Guide book help menu description
+
+gf_wu:harvester_hoe.header=§l§cHoue moissonneuse	###Guide book menu title
+gf_wu:harvester_hoe.button=§l§4Houe moissonneuse	###Guide book menu button
+gf_wu:harvester_hoe.description=Les cultures récoltées seront automatiquement replantées, avec les gouttes ajoutées à votre inventaire, à l'exception des graines nécessaires à la replantation ! Cela fonctionnera sur Blé, Carottes, Betterave, Pommes de terre, Pastèque, Citrouille, Cacao et Verrue du Nether. Vous pouvez améliorer cet outil en sa variante Netherite dans une table de forge.	###Guide book menu description
+gf_wu:harvester_hoe.recipe_ingredients=(shapeless)%1§r§s1x Houe en diamant §f[§sH§f]%1§r§a1x Graines §f[§aW§f]%1§r§b1x Graines de pastèque §f[§bM§f]%1§r§f1x Graines de citrouille §f[§fU§f]%1§r§71x Cacao §f[§7O§f]%1§r§21x Blé §f[§2H§f]%1§r§81x Graines de betterave §f[§8B§f]%1§r§61x Pomme de terre §f[§6P§f]%1§r§c1x Carotte §f[§cC§f]%1§r	###Recipe list for guide book
+gf_wu:harvester_hoe.recipe_table=§f[§aW§f][§bM§f][§fU§f]%1§r§f[§7O§f][§sH§f][§2H§f]%1§r§f[§8B§f][§6P§f][§cC§f]%1§r	###Recipe table
+
+gf_wu:excavator_shovel.header=§l§cPelle d'excavatrice	###Guide book menu title
+gf_wu:excavator_shovel.button=§l§4Pelle d'excavatrice	###Guide book menu button
+gf_wu:excavator_shovel.description=Minez plus vite que jamais et brisez plusieurs blocs à la fois. Vous pouvez améliorer cet outil en sa variante Netherite dans une table de forge.	###Guide book menu description
+gf_wu:excavator_shovel.recipe_ingredients=§b3x Pelle en diamant §f[§bD§f]%1§r§72x Bâton §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:excavator_shovel.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:safari_net.header=§l§cSafari Net	###Guide book menu title
+gf_wu:safari_net.button=§l§4Safari Net	###Guide book menu button
+gf_wu:safari_net.description=Interagissez avec une foule ou un animal tout en tenant le Safari Net pour le capturer. Voyagez vers sa nouvelle maison et interagissez à nouveau pour la déposer. Cet objet n'a qu'une seule durabilité, mais peut être basculé dans le contrôleur.	###Guide book menu description
+gf_wu:safari_net.recipe_ingredients=§78x Ficelle §f[§7C§f]%1§r§61x œuf (Standard, Marron ou Bleu) §f[§6E§f]%1§r	###Recipe list for guide book
+gf_wu:safari_net.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§6E§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r	###Recipe table
+
+gf_wu:miners_essentials.header=§l§cLes essentiels du mineur 	###Guide book menu title
+gf_wu:miners_essentials.button=§l§4Les essentiels du mineur	###Guide book menu button
+gf_wu:miners_essentials.description=Activez cet utilitaire en interagissant avec l'élément. Une fois activé. Extrayez n’importe quel minerai et il laissera tomber la variante déjà fondue. Interagissez à nouveau pour désactiver. Vous pouvez activer ou désactiver la nécessité d'avoir l'objet dans votre inventaire pour que l'utilitaire fonctionne dans le Contrôleur.	###Guide book menu description
+gf_wu:miners_essentials.recipe_ingredients=§b1x Pioche en diamant §f[§bD§f]%1§r§78x fourneau §f[§7F§f]%1§r	###Recipe list for guide book
+gf_wu:miners_essentials.recipe_table=§f[§7F§f][§7F§f][§7F§f]%1§r§f[§7F§f][§bD§f][§7F§f]%1§r§f[§7F§f][§7F§f][§7F§f]%1§r	###Recipe table
+
+gf_wu:controller.header=§l§cManette	###Guide book menu title
+gf_wu:controller.button=§l§4Manette	###Guide book menu button
+gf_wu:controller.description=Interagissez avec le Contrôleur pour activer ou désactiver divers paramètres, comme la durabilité des outils. Vous pouvez également activer ou désactiver des outils et utilitaires spécifiques, parfait pour jouer entre amis ! Ceci ne peut être utilisé que par les joueurs OP/Admin dans le monde.	###Guide book menu description
+gf_wu:controller.recipe_ingredients=§61x Bâton §f[§6S§f]%1§r§c1x Bloc de redstone §f[§cR§f]%1§r§e1x Bloc de fer §f[§eI§f]%1§r§74x Pierres §f[§7C§f]%1§r	###Recipe list for guide book
+gf_wu:controller.recipe_table=§f[ ][§6S§f][ ]%1§r§f[§7C§f][§cR§f][§7C§f]%1§r§f[§7C§f][§eI§f][§7C§f]%1§r	###Recipe table
+
+gf_wu:homes.header=§l§cMaisons	###Guide book menu title
+gf_wu:homes.button=§l§4Maisons	###Guide book menu button
+gf_wu:homes.description=Définissez, modifiez et supprimez des maisons pour pouvoir vous y téléporter à tout moment en interagissant avec l'élément Maisons. Les utilisateurs peuvent définir jusqu'à 3 maisons par défaut, cependant, cela peut être modifié dans le Contrôleur.	###Guide book menu description
+gf_wu:homes.recipe_ingredients=§65x Pierres §f[§6C§f]%1§r§c1x Planches §f[§cP§f]%1§r§e1x Porte en chêne §f[§eD§f]%1§r	###Recipe list for guide book
+gf_wu:homes.recipe_table=§f[ ][§cP§f][ ]%1§r§f[§6C§f][§eD§f][§6C§f]%1§r§f[§6C§f][§6C§f][§6C§f]%1§r	###Recipe table
+
+gf_wu:chunk_borders.header=§l§cFrontières des Chunks	###Guide book menu title
+gf_wu:chunk_borders.button=§l§4Frontières des Chunks	###Guide book menu button
+gf_wu:chunk_borders.description=Activez l'utilitaire Frontières des Chunks en interagissant avec l'élément. Une fois activé, les chunks seront délimités par un effet de particules. Les chunks de Slime seront également affichés avec un effet différent. Interagissez à nouveau pour désactiver. Vous pouvez activer ou désactiver la nécessité d'avoir l'objet dans votre inventaire pour que l'utilitaire fonctionne dans le Contrôleur.	###Guide book menu description
+gf_wu:chunk_borders.recipe_ingredients=§62x Lingot de fer §f[§6I§f]%1§r§c2x Poudre de redstone §f[§cR§f]%1§r§e1x Fusée de feu d'artifice §f[§eF§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_borders.recipe_table=§f[ ][§6I§f][ ]%1§r§f[§cR§f][§eF§f][§cR§f]%1§r§f[ ][§6I§f][ ]%1§r	###Recipe table
+
+gf_wu:death_waypoint.header=§l§cPoint de Mort	###Guide book menu title
+gf_wu:death_waypoint.button=§l§4Point de Mort	###Guide book menu button
+gf_wu:death_waypoint.description=Vous souhaitez récupérer vos objets après la mort? Maintenant, vous pouvez! Vérifiez votre chat pour les coordonnées de votre mort et revenez à elles. Vous trouverez tous vos objets stockés pour les récupérer. Remarque: Cette fonction sera désactivée par défaut et peut être activée dans le Contrôleur.	###Guide book menu description
+
+gf_wu:miners_lantern.header=§l§cLanterne de Mineur	###Guide book menu title
+gf_wu:miners_lantern.button=§l§4Lanterne de Mineur	###Guide book menu button
+gf_wu:miners_lantern.description=En explorant des grottes et des cavernes sombres, tenez cette lanterne et une lumière sera émise autour de vous. Vous pouvez également la tenir dans votre main secondaire.	###Guide book menu description
+gf_wu:miners_lantern.recipe_ingredients=§65x Verre §f[§6G§f]%1§r§c1x Torche §f[§cT§f]%1§r§e3x Planches §f[§eP§f]%1§r	###Recipe list for guide book
+gf_wu:miners_lantern.recipe_table=§f[§6G§f][§6G§f][§6G§f]%1§r§f[§6G§f][§cT§f][§6G§f]%1§r§f[§eP§f][§eP§f][§eP§f]%1§r	###Recipe table
+
+
+
+gf_wu:lock.header=§l§cVerrou	###Guide book menu title
+gf_wu:lock.button=§l§4Verrouiller	###Guide book menu button
+gf_wu:lock.description=Interagissez avec la caisse pour la verrouiller. Une fois verrouillé, vous seul pouvez y accéder. Les administrateurs du serveur peuvent casser les coffres verrouillés en mode Créatif.	###Guide book menu description
+gf_wu:lock.recipe_ingredients=§c1x Torche de redstone §f[§cR§f]%1§r§71x Levier §f[§7L§f]%1§r§e5x Lingot d'or §f[§eG§f]%1§r	###Recipe list for guide book
+gf_wu:lock.recipe_table=§f[ ][§eG§f][ ]%1§r§f[§eG§f][§4R§f][§eG§f]%1§r§f[§eG§f][§7L§f][§eG§f]%1§r	###Recipe table
+
+gf_wu:experience_extractor.header=§l§cExtracteur d'Expérience	###Guide book menu title
+gf_wu:experience_extractor.button=§l§4Extracteur d'Expérience	###Guide book menu button
+gf_wu:experience_extractor.description=Interagissez avec l'Extracteur d'Expérience pour sélectionner et stocker la quantité d'expérience souhaitée sous forme de bouteille. Interagissez avec la bouteille pour transférer l'EXP de nouveau vers vous.	###Guide book menu description
+gf_wu:experience_extractor.recipe_ingredients=§f1x Fiole §f[§fX§f]%1§r§71x Lingot de fer §f[§7I§f]%1§r§c2x Poudre de redstone §f[§cR§f]%1§r§63x Planches de chêne §f[§6P§f]%1§r	###Recipe list for guide book
+gf_wu:experience_extractor.recipe_table=§f[ ][§fX§f][ ]%1§r§f[§cR§f][§7I§f][§cR§f]%1§r§f[§6P§f][§6P§f][§6P§f]%1§r	###Recipe table
+
+gf_wu:magnet.header=§l§cAimant	###Guide book menu title
+gf_wu:magnet.button=§l§4Aimant	###Guide book menu button
+gf_wu:magnet.description=Activez l'utilitaire Aimant en interagissant avec l'objet. Une fois activé, les objets autour de vous seront automatiquement ramassés et placés dans votre inventaire. Interagissez à nouveau pour désactiver. Vous pouvez activer ou désactiver la nécessité d'avoir l'objet dans votre inventaire pour que l'utilitaire fonctionne dans le Contrôleur.	###Guide book menu description
+gf_wu:magnet.recipe_ingredients=§72x Lingot de fer §f[§7I§f]%1§r§c2x Poudre de redstone §f[§cR§f]%1§r§61x Bloc de miel §f[§6H§f]%1§r	###Recipe list for guide book
+gf_wu:magnet.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§6H§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:chunk_minion.header=§l§cMinion de Chunk	###Guide book menu title
+gf_wu:chunk_minion.button=§l§4Minion de Chunk	###Guide book menu button
+gf_wu:chunk_minion.description=Placez le Minion pour garder la zone environnante toujours chargée, idéal pour faire fonctionner vos fermes. Vous pouvez ajuster la taille de la zone en interagissant avec le Minion. Remarque : cela ne fonctionnera pas pour les fermes qui ont besoin d'un joueur à proximité, comme les fermes à golems.	###Guide book menu description
+gf_wu:chunk_minion.recipe_ingredients=§21x Perle de l'Ender §f[§2E§f]%1§r§74x Lingot de fer §f[§7I§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_minion.recipe_table=§f[ ][§2E§f][ ]%1§r§f[§7I§f][§7I§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:disenchanter.header=§l§cDésenchanter	###Guide book menu title
+gf_wu:disenchanter.button=§l§4Désenchanter	###Guide book menu button
+gf_wu:disenchanter.description=Maintenez votre objet enchanté et interagissez avec le Désenchanter pour le déposer sur la table. Interagissez à nouveau pour fournir le nombre requis de livres, qui varie en fonction du nombre d'enchantements sur votre objet. Une fois terminé, vous recevrez chaque enchantement sur un livre séparé, ainsi que votre objet d'origine en retour. Accroupissez-vous et interagissez pour annuler la transaction en cours.	###Guide book menu description
+gf_wu:disenchanter.recipe_ingredients=§21x Bloc d'émeraude §f[§2E§f]%1§r§74x Obsidienne §f[§7O§f]%1§r§n2x Livre §f[§nB§f]%1§r	###Recipe list for guide book 
+gf_wu:disenchanter.recipe_table=[ ][§2E§r][ ]\n[§nB§r][§7O§r][§nB§r]\n[§7O§r][§7O§r][§7O§r]	###Recipe table
+
+gf_wu:portal_pad.header=§l§cPad de portail	###Guide book menu title
+gf_wu:portal_pad.button=§l§4Pad de portail	###Guide book menu button
+gf_wu:portal_pad.description=Déplacez-vous entre différents niveaux dans votre monde en utilisant un bloc ressemblant à un ascenseur. Placez simplement un Pad de portail avec d'autres Pads de portail §ldirectement§r au-dessus ou en dessous. Tenez-vous sur le bloc et accroupissez-vous pour vous téléporter vers le bas ou sautez pour vous téléporter vers le haut.	###Guide book menu description
+gf_wu:portal_pad.recipe_ingredients=§n1x Piston§r [§nP§r]\n§v1x Plaque de pression §r [§vO§r]\n	###Recipe list for guide book 
+gf_wu:portal_pad.recipe_table=[ ][ ][ ]\n[ ][§vO§r][ ]\n[ ][§nP§r][ ]\n	###Recipe table
+
+gf_wu:jetpack.header=§l§cJetpack	###Guide book menu title
+gf_wu:jetpack.button=§l§4Jetpack	###Guide book menu button
+gf_wu:jetpack.description=Équipez le Jetpack dans votre emplacement de plastron pour décoller et voler. Il nécessite du carburant, comme du charbon ou du charbon de bois, qui est automatiquement pris de votre inventaire pendant son utilisation. Chaque morceau de carburant donne environ une minute de temps de vol. Effectuez un double saut pour commencer à voler, utilisez le saut pour monter et accroupissez-vous pour descendre.	###Guide book menu description
+gf_wu:jetpack.recipe_ingredients=§n4x Lingot de cuivre§r [§nC§r]\n§72x Charbon§r [§7X§r]\n§v1x Seau de lave§r [§vL§r]\n	###Recipe list for guide book 
+gf_wu:jetpack.recipe_table=[§nC§r][§7X§r][§nC§r]\n[§nC§r][§vL§r][§nC§r]\n[§nC§r][§7X§r][§nC§r]\n	###Recipe table
+
+gf_wu:grab_bag.header=§l§cGrab Bag	###Guide book menu title
+gf_wu:grab_bag.button=§l§4Grab Bag	###Guide book menu button
+gf_wu:grab_bag.description=Un objet de stockage similaire à un Shulker, vous permettant de transporter jusqu'à cinq piles supplémentaires d'objets dans votre inventaire. Placez-le au sol et interagissez pour l'ouvrir. Détruisez le sac pour le ramasser et emporter vos objets stockés avec vous. Vous pouvez teindre le Grab Bag de n’importe quelle couleur en le fabriquant avec de la laine colorée ou en le plaçant sur une table de craft avec la teinture de votre choix.	###Guide book menu description
+gf_wu:grab_bag.recipe_ingredients=§h5x Laine§r [§hW§r]\n§e1x Coffre§r [§eC§r]\n§i1x Ficelle§r [§iS§r]\n	###Recipe list for guide book 
+gf_wu:grab_bag.recipe_table=[ ][§iS§r][ ]\n[§hW§r][§eC§r][§hW§r]\n[§hW§r][§hW§r][§hW§r]\n	###Recipe table
+
+gf_wu:fast_place.header=§l§cFast Place	###Guide book menu title
+gf_wu:fast_place.button=§l§4Fast Place	###Guide book menu button
+gf_wu:fast_place.description=Maintenez la touche Shift enfoncée et interagissez avec l'utilitaire Fast Place pour activer des paramètres tels que la direction de placement des blocs et la quantité. Activez-le en interagissant avec l'élément. Une fois activé, la pose d'un bloc étendra automatiquement le placement en fonction des paramètres choisis. Interagissez à nouveau pour le désactiver. Vous pouvez activer ou désactiver la nécessité d'avoir l'objet dans votre inventaire pour que l'utilitaire fonctionne dans le Contrôleur.	###Guide book menu description
+gf_wu:fast_place.recipe_ingredients=§i2x Lingot de fer§r [§iI§r]\n§m2x Poudre de redstone§r [§mR§r]\n§h1x Plume§r [§hF§r]\n	###Recipe list for guide book 
+gf_wu:fast_place.recipe_table=[ ][§iI§r][ ]\n[§mR§r][§hF§r][§mR§r]\n[ ][§iI§r][ ]\n	###Recipe table
+
+gf_wu:scuba_tank.header=§l§cScuba Tank	###Guide book menu title
+gf_wu:scuba_tank.button=§l§4Scuba Tank	###Guide book menu button
+gf_wu:scuba_tank.description=Équipez cet objet dans votre main secondaire pour prolonger votre temps de respiration sous l'eau. Pendant que vous êtes immergé, votre oxygène restant sera affiché sur la barre d'action. Pour recharger l'oxygène, il vous suffit de remonter à la surface tout en gardant le réservoir dans votre main secondaire.	###Guide book menu description
+gf_wu:scuba_tank.recipe_ingredients=§n6x Lingot de cuivre§r [§nC§r]\n§73x Fiole§r [§7G§r]\n	###Recipe list for guide book 
+gf_wu:scuba_tank.recipe_table=[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n	###Recipe table
+
+gf_wu:warps.header=§l§cWarps	###Guide book menu title
+gf_wu:warps.button=§l§4Warps	###Guide book menu button
+gf_wu:warps.description=Créez, modifiez et supprimez des warps pour vous et vos amis afin de vous téléporter à tout moment. Les warps sont accessibles à tous les joueurs de votre monde. Par défaut, vous pouvez créer jusqu'à cinq warps, mais cette limite, ainsi que les autorisations pour créer et supprimer des warps, peuvent être ajustées dans le contrôleur.	###Guide book menu description
+gf_wu:warps.recipe_ingredients=§75x Pierres§r [§7C§r]\n§n1x Planches§r [§nP§r]\n§b1x Verre§r [§bG§r]\n	###Recipe list for guide book 
+gf_wu:warps.recipe_table=[ ][§nP§r][ ]\n[§7C§r][§bG§r][§7C§r]\n[§7C§r][§7C§r][§7C§r]\n	###Recipe table
+
+gf_wu:update_book.name=Livre de Mise à Jour des Utilitaires Mondiaux	###Description of the update book menu
+gf_wu:update_book.thanks=§7§lMerci d'utiliser l'add-on World Utilities !§r	###Description of the update book menu
+gf_wu:update_book.commit=§7Nous nous engageons à fournir des mises à jour constantes afin d'améliorer votre expérience de survie. Veuillez consulter notre journal des modifications pour découvrir toutes les nouveautés de la dernière mise à jour :§r	###Description of the update book menu
+gf_wu:update_book.main=- Besoin d'aide ? Rejoins notre nouveau Discord pour obtenir de l'assistance : https://discord.gg/NVs5j7TaMa \n- Ajout de la Pioche de Carrière\n- Ajout de la Pelle de Terrassement\n- Ajout du Séchoir à cuir\n- Ajout de l'Ocean Rider\n- Ajout des Coffres de joueur\n- Ajout du Voleur de Cachettes\n- Ajout de l'utilitaire Constructeur de Ponts\n- Les livres enchantés avec plusieurs enchantements peuvent désormais être séparés en plusieurs livres dans la Table de Désenchantement\n- L'Outil Omni ne perd plus de durabilité lorsqu'il est désactivé lors de la création de chemins\n- Les tapis et les dalles peuvent désormais être placés sur les Tapis de Portail\n- L'Arrosoir peut désormais être rempli même s'il n'est pas complètement vide\n- L'Arrosoir fonctionne désormais sur les Azalées\n- Le Filet Safari affiche désormais un effet d'enchantement lorsqu'une créature s'y trouve\n- L'Outil Omni possède désormais également les capacités d'une houe et d'une épée\n- Ajout de la prise en charge de Tree Capitator pour tous les arbres de Biomes O' Plenty\n- La Pelle de Terrassement avec Les essentiels du mineur activés transforme désormais le sable en verre\n- Correction d'un problème où l'utilisation du Jetpack à la limite de hauteur provoquait une chute lente et une lévitation infinies\n- Correction d'un problème où la Bouteille de Plongée se rechargeait automatiquement à 0 %\n- Le Brise-Améthyste et le Briseur de Cadres de l'End ne perdent désormais de durabilité qu'en détruisant de l'améthyste ou des cadres de l'End\n- Ajout d'une option de configuration pour Vein Miner et Tree Capitator afin de choisir si les outils perdent 1 point de durabilité ou un montant basé sur le nombre de blocs détruits\n- Correction d'un problème où l'Arrosoir se cassait en attaquant des créatures\n- 22 autres corrections de bugs, optimisations des performances et améliorations !	###Description of the update book menu
+gf_wu:update_book.cta=§7Si vous appréciez cet add-on, pensez à laisser un avis !§r	###Description of the update book menu
+gf_wu:update_book.stars=	###Description of the update book menu
+gf_wu:update_book.exit=Quitter le livre des mises à jour	###Update book exit button
+
+
+gf_wu:configuration.name=Configuration	###Config menu
+gf_wu:configuration.durability=Durabilité	###Config menu
+gf_wu:configuration.end_frame_breaker=Brise-cadre de l'Ender	###Config menu
+gf_wu:configuration.excavator_shovel=Pelle d'excavatrice	###Config menu
+gf_wu:configuration.explosive_pickaxe=Pioche explosive	###Config menu
+gf_wu:configuration.harvester_hoe=Houe moissonneuse	###Config menu
+gf_wu:configuration.miners_essentials=Les essentiels du mineur	###Config menu
+gf_wu:configuration.multiblock_pickaxe=Pioche multibloc	###Config menu
+gf_wu:configuration.omni_tool=Outil Multifonction	###Config menu
+gf_wu:configuration.safari_net=Safari Net	###Config menu
+gf_wu:configuration.spawner_wrench=Clé de générateur	###Config menu
+gf_wu:configuration.tree_capitator=Capiteur d'arbre	###Config menu
+gf_wu:configuration.vein_miner=Mineur de la veine	###Config menu
+gf_wu:configuration.void_chest=Coffre du vide	###Config menu
+gf_wu:configuration.chunk_borders=Frontières des Chunks	###Config menu
+gf_wu:configuration.homes=Maisons	###Config menu
+gf_wu:configuration.max_homes=Combien de maisons pouvez-vous définir?	###Config menu
+gf_wu:configuration.death_waypoint=Point de Mort	###Config menu
+gf_wu:configuration.miners_lantern=Lanterne de Mineur	###Config menu
+gf_wu:configuration.vein_miner_gravel=Mineur de la veine casse le gravier	###Config menu
+gf_wu:configuration.tree_capitator_leaves=Capiteur d'arbre casse les feuilles	###Config menu
+gf_wu:configuration.max_chunk_minions=Nombre Maximum de Minions de Chunk	###Config menu
+gf_wu:configuration.chunk_minion=Minion de Chunk	###Config menu
+gf_wu:configuration.magnet=Aimant	###Config menu
+gf_wu:configuration.magnet_range=Portée de l'Aimant en blocs	###Config menu
+gf_wu:configuration.experience_extractor=Extracteur d'Expérience	###Config menu
+gf_wu:configuration.lock=Verrou	###Config menu
+gf_wu:configuration.remove_all_chunk_minions=Supprimer tous les Minions de Chunk	###Config menu
+gf_wu:configuration.death_waypoint_accessible_to_all=Point de mort accessible à tous	###Config menu  
+gf_wu:configuration.magnet_effects_xp=Effets du Magnétisme sur les orbes d'XP	###Config menu  
+gf_wu:configuration.home_teleport_time=Délai de téléportation à la maison	###Config menu  
+gf_wu:configuration.fast_place=Placement rapide	###Config menu  
+gf_wu:configuration.scuba_tank=Réservoir de plongée	###Config menu  
+gf_wu:configuration.grab_bag=Sac surprise	###Config menu  
+gf_wu:configuration.portal_pad=Pad de portail	###Config menu  
+gf_wu:configuration.disenchanter=Désenchanteur	###Config menu  
+gf_wu:configuration.jetpack=Jetpack	###Config menu  
+gf_wu:configuration.max_warps=Combien de Warps pouvez-vous définir ?	###Config menu  
+gf_wu:configuration.warp_teleport_time=Délai de téléportation des Warps	###Config menu  
+gf_wu:configuration.can_all_players_modify_warps=Tous les joueurs peuvent-ils modifier les Warps ?	###Config menu  
+gf_wu:configuration.module_disabled1=§l§cModule désactivé. §r§7Contactez l'administrateur ou activez-le	###Config menu
+gf_wu:configuration.module_disabled2=§7en mode Créatif en utilisant le menu d'objets du contrôleur.	###Config menu
+gf_wu:configuration.requires_creative=§cVous ne pouvez pas utiliser cet objet car vous n'êtes pas en mode Créatif!	###Controller message when not in creative mode
+
+gf_wu:cannot_place_chest=§cDéverrouillez d'abord le coffre !	###Warn message
+
+gf_wu:treecapitator.on=§a- [ Abatteur d'arbre activé ] -	###Action bar messaging when enabling tree capitator
+gf_wu:treecapitator.off=§c- [ Abatteur d'arbre désactivé ] -	###Action bar messaging when disabling tree capitator
+gf_wu:veinminer.on=§a- [Mineur de Veine activé] -	###Action bar messaging when enabling vein miner
+gf_wu:veinminer.off=§c- [Mineur de Veine désactivé] -	###Action bar messaging when disabling vein miner
+
+gf_wu:miners_essentials.on=§a- [ Les essentiels du mineur activé ] -	###Action bar messaging when enabling vein miner
+gf_wu:miners_essentials.off=§c- [ Les essentiels du mineur  désactivé ] -	###Action bar messaging when disabling vein miner
+
+gf_wu:chunk_borders.on=§a- [ Frontières des Chunks Activées ] -	###Action bar messaging when enabling chunk borders
+gf_wu:chunk_borders.off=§c- [ Frontières des Chunks Désactivées ] -	###Action bar messaging when disabling chunk borders
+
+gf_wu:magnet.on=§a- [ Aimant Activé ] -	###Action bar messaging when enabling magnet
+gf_wu:magnet.off=§c- [ Aimant Désactivé ] -	###Action bar messaging when disabling magnet
+
+
+gf_wu:chest.is_locked=§cCe coffre est verrouillé et vous ne pouvez pas l'ouvrir tant qu'il n'est pas déverrouillé.
+gf_wu:chest.unlocked=§aDéverrouillé
+gf_wu:chest.locked=§cVerrouillé
+
+gf_wu:experience_extractor.title=Extracteur d'Expérience	### Experience Extractor Menu
+gf_wu:experience_extractor.info=Sélectionnez la quantité d'EXP que vous souhaitez retirer de votre joueur. Vous recevrez l'EXP sous forme de bouteille pour la conserver pour un autre jour !
+gf_wu:experience_extractor.withdraw_1=7 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_10=160 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_30=1395 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_all=Tous les EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.insufficient_xp=§cVous n'avez pas assez d'XP pour ce transfert !	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_successful=§aRetrait Réussi !	### Experience Extractor Menu
+
+gf_wu:chunk_minion_limit=§cVous avez atteint la limite de Minions de Chunk !
+gf_wu:chunk_minion_menu.title=Minion de Chunk	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.radius=Rayon en chunks	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.remove=Retirer	### Chunk Minion Menu
+
+entity.gf_wu:grab_bag_entity.name=Sac Surprise
+entity.gf_wu:lock_barrier_barrel.name=Baril de Barrière Verrouillée
+
+gf_wu:fast_place.direction=Direction
+gf_wu:fast_place.distance=Distance
+gf_wu:fast_place.horizontal=Horizontal
+gf_wu:fast_place.is_active=§cAvertissement! Le placement rapide est actuellement actif!§r
+gf_wu:fast_place.incompatible_block=§cLe placement rapide n'est pas compatible avec ce bloc!§r
+gf_wu:fast_place.title=Placement rapide
+gf_wu:fast_place.vertical=Vertical
+gf_wu:fast_place.on=§a- [ Placement rapide activé ] -	###Message dans la barre d'action lors de l'activation
+gf_wu:fast_place.off=§c- [ Placement rapide désactivé ] -	###Message dans la barre d'action lors de la désactivation
+
+gf_wu:portal_pad.none_found=§cAucun portail trouvé dans les 100 blocs!§r
+gf_wu:portal_pad.not_safe=§cIl n'est pas sûr de se téléporter!§r
+
+gf_wu:warp_menu.warp_added=§aWarp ajouté!§r
+gf_wu:warp_menu.add=Ajouter
+gf_wu:warp_menu.name=Menu Warp
+gf_wu:warp_menu.no_warps=§cAucun warp trouvé!§r
+gf_wu:warp_menu.placeholder_name=Warp
+gf_wu:warp_menu.duplicate_name=§cUn warp avec ce nom existe déjà!
+
+gf_wu:disenchanter.add_item_first=§cVous devez d'abord ajouter un objet!§r
+gf_wu:disenchanter.already_has_item=§cLe Disenchanter a déjà un objet à l'intérieur!§r
+gf_wu:disenchanter.books_full=§cPas assez d'espace pour les livres!§r
+gf_wu:disenchanter.requires_enchanted_item=§cCet objet n'est pas enchanté!§r
+gf_wu:disenchanter.requires_book=§cCet objet n'est pas un livre!§r
+
+gf_wu:jetpack.no_fuel=§cVous n'avez pas de carburant. Interagissez avec du charbon ou du charbon de bois pour recharger.§r
+
+item.gf_wu:fast_place=Placement rapide Désactivées
+item.gf_wu:fast_place_on=Placement rapide Activées
+## item.gf_wu:grab_bag=Sac Surprise
+item.gf_wu:scuba_tank=Plongée
+item.gf_wu:warps=Warps
+item.gf_wu:jetpack=Jetpack
+item.gf_wu:disenchanter=Disenchanter
+item.gf_wu:portal_pad=Plateforme de portail
+
+item.gf_wu:amethyst_breaker=Briseur d'améthyste
+item.gf_wu:suction_hopper=Entonnoir d’Aspiration
+item.gf_wu:watering_can=Arrosoir
+item.gf_wu:watering_can_filled=Arrosoir Rempli
+
+gf_wu:amethsyt_breaker.header=§l§cBriseur d'améthyste	###Guide book menu title
+gf_wu:amethsyt_breaker.button=§l§4Briseur d'améthyste	###Guide book menu button
+gf_wu:amethsyt_breaker.description=Déplacez facilement la druse d'améthyste. Minez la druse d'améthyste pour qu'elle tombe au sol. Ramassez-la et placez-la où vous le souhaitez. Notez que cet outil n'a que 12 durabilité!	###Guide book menu description
+gf_wu:amethsyt_breaker.recipe_ingredients=§u4x Éclat d'améthyste§r [§uA§r]\n§n1x Bâton§r [§nS§r]\n	###Recipe list for guide book
+gf_wu:amethsyt_breaker.recipe_table=[§uA§r][§uA§r][ ]\n[§uA§r][§uA§r][ ]\n[ ][§nS§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.header=§l§cEntonnoir d’Aspiration	###Guide book menu title
+gf_wu:suction_hopper.button=§l§4Entonnoir d’Aspiration	###Guide book menu button
+gf_wu:suction_hopper.description=Placez l’entonnoir et tous les objets dans un certain rayon seront automatiquement aspirés et stockés dans le conteneur en dessous. Vous pouvez ajuster le rayon de collecte en interagissant avec l’entonnoir, ce qui ouvrira un menu. L’entonnoir peut aussi être activé ou désactivé avec de la redstone.	###Guide book menu description
+gf_wu:suction_hopper.recipe_ingredients=§i5x Lingot de fer§r [§iI§r]\n§n1x Coffre§r [§nC§r]\n§p1x Bloc de miel§r [§pH§r]\n	###Recipe list for guide book
+gf_wu:suction_hopper.recipe_table=[§iI§r][§pH§r][§iI§r]\n[§iI§r][§nC§r][§iI§r]\n[ ][§iI§r][ ]\n	###Recipe Recipe Table
+
+gf_wu:watering_can.header=§l§cArrosoir	###Guide book menu title
+gf_wu:watering_can.button=§l§4Arrosoir	###Guide book menu button
+gf_wu:watering_can.description=L’arrosoir permet d’accélérer la croissance des cultures. Fabriquez-le, remplissez-le en le tenant et en interagissant avec de l’eau, puis utilisez-le à nouveau pour arroser. Il peut être utilisé 10 fois avant de devoir être rempli à nouveau. Lorsqu’il est utilisé, les cultures dans une zone de 3x3 ont une chance de passer des étapes de croissance. Il permet aussi de transformer la terre ou l’herbe en terre labourée.	###Guide book menu description
+gf_wu:watering_can.recipe_ingredients=§i4x Lingot de fer§r [§iI§r]\n§81x Seau§r [§8B§r]\n	###Recipe list for guide book
+gf_wu:watering_can.recipe_table=[ ][ ][§iI§r]\n[§iI§r][§iI§r][ ]\n[§8B§r][§iI§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.radius=Rayon
+
+gf_wu:configuration.amethyst_breaker=Briseur d'améthyste	###Config menu
+gf_wu:configuration.suction_hopper=Entonnoir d’Aspiration	###Config menu
+gf_wu:configuration.watering_can=Arrosoir	###Config menu
+
+### NEW ADDED LANGS
+gf_wu:configuration_hint.amethyst_breaker=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.choose_spawner=Activer ou désactiver la\npossibilité de choisir le\ngénérateur que vous voulez en\nutilisant la Clé de générateur.\n(Astuce)
+gf_wu:configuration_hint.chunk_borders=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.death_waypoint=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.disenchanter=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.end_frame_breaker=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.excavator_shovel=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.experience_extractor=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.explosive_pickaxe=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.fast_place=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.grab_bag=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.harvester_hoe=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.jetpack=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.lock=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.magnet=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.miners_essentials=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.miners_lantern=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.multiblock_pickaxe=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.omni_tool=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.portal_pad=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.safari_net=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.scuba_tank=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.spawner_wrench=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.suction_hopper=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.tree_capitator=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.vein_miner=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.void_chest=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.watering_can=Activer ou désactiver cette\nfonction dans votre monde.\n(Astuce)
+
+gf_wu:configuration_hint.max_homes=Le nombre maximum de maisons\nque chaque joueur peut définir\ndans votre monde. (Astuce)
+gf_wu:configuration_hint.home_teleport_time=Définir le temps que les joueurs\ndoivent attendre pour se\ntéléporter. (Astuce)
+gf_wu:configuration_hint.max_warps=Le nombre maximum de warps que\nvous pouvez avoir dans votre\nmonde. (Astuce)
+gf_wu:configuration_hint.warp_teleport_time=Définir le temps que les\njoueurs doivent attendre pour\nse téléporter. (Astuce)
+gf_wu:configuration_hint.can_all_players_modify_warps=Permettre à tous les joueurs\nde supprimer et de créer de\nnouveaux Warps. (Astuce)
+gf_wu:configuration_hint.max_chunk_minions=Changer le nombre maximum de\nServiteurs de Chunk que vous\nvoulez dans votre monde.\n(Astuce)
+gf_wu:configuration_hint.remove_all_chunk_minions=Activer pour supprimer tous les\nServiteurs de Chunk de votre\nmonde. (Astuce)
+gf_wu:configuration_hint.magnet_range=La portée, en blocs, dans\nlaquelle l’Aimant fonctionnera.\n(Astuce)
+gf_wu:configuration_hint.jetpack_speed=Choisissez la vitesse verticale\nde votre Jetpack, 1 étant la\nplus lente et 3 la plus rapide.\n(Astuce)
+
+gf_wu:configuration_hint.durability=Activer ou désactiver la\ndurabilité des objets et outils\nde World Utilities dans votre\nmonde. (Astuce)
+gf_wu:configuration_hint.choose_spawner_durability=Activer ou désactiver la\ndurabilité de la Clé de\ngénérateur. (Astuce)
+gf_wu:configuration_hint.spawner_wrench_durability=Activer ou désactiver la\ndurabilité de la Clé de\ngénérateur. (Astuce)
+gf_wu:configuration_hint.amethyst_breaker_durability=Activer ou désactiver la\ndurabilité du Briseur\nd’Améthyste. (Astuce)
+gf_wu:configuration_hint.end_frame_breaker_durability=Activer ou désactiver la\ndurabilité du Briseur de\nCadres de l’End. (Astuce)
+gf_wu:configuration_hint.excavator_shovel_durability=Activer ou désactiver la\ndurabilité de la Pelle\nExcavatrice. (Astuce)
+gf_wu:configuration_hint.explosive_pickaxe_durability=Activer ou désactiver la\ndurabilité de la Pioche\nExplosive. (Astuce)
+gf_wu:configuration_hint.harvester_hoe_durability=Activer ou désactiver la\ndurabilité de la Houe\nMoissonneuse. (Astuce)
+gf_wu:configuration_hint.multiblock_pickaxe_durability=Activer ou désactiver la\ndurabilité de la Pioche\nMultiblocs. (Astuce)
+gf_wu:configuration_hint.omni_tool_durability=Activer ou désactiver la\ndurabilité de l’Outil\nOmniversal. (Astuce)
+gf_wu:configuration_hint.safari_net_durability=Activer ou désactiver la\ndurabilité du Filet Safari.\n(Astuce)
+gf_wu:configuration_hint.watering_can_durability=Activer ou désactiver la\ndurabilité de l’Arrosoir.\n(Astuce)
+
+gf_wu:configuration_hint.vein_miner_gravel=Activer ou désactiver Vein Miner\ncassant du gravier. (Astuce)
+gf_wu:configuration_hint.tree_capitator_leaves=Activer ou désactiver Tree\nCapitator cassant des feuilles.\n(Astuce)
+gf_wu:configuration_hint.death_waypoint_accessible_to_all=Activer ou désactiver le Point\nde Mort accessible à tous les\njoueurs. (Astuce)
+gf_wu:configuration_hint.magnet_effects_xp=Activer ou désactiver l’Aimant\nattirant les orbes d’expérience.\n(Astuce)
+gf_wu:configuration_hint.need_item_in_inventory=Activer ou désactiver la\nnécessité d’avoir les objets\nd’Utilitaires dans votre\ninventaire pour qu’ils\nfonctionnent une fois activés.\n(Astuce)
+
+gf_wu:configuration.requires_op=§cVous ne pouvez pas utiliser cet objet car vous n’êtes pas Administrateur !	
+gf_wu:configuration.jetpack_speed=Vitesse Verticale du Jetpack
+gf_wu:configuration.global=§l§4Configuration Globale
+gf_wu:configuration.need_item_in_inventory=Faut-il des utilitaires dans votre inventaire ?
+gf_wu:controller_exit=Quitter le Contrôleur
+
+gf_wu:configuration.explosive_pickaxe_durability=Durabilité
+gf_wu:configuration.spawner_wrench_durability=Durabilité
+gf_wu:configuration.amethyst_breaker_durability=Durabilité
+gf_wu:configuration.end_frame_breaker_durability=Durabilité
+gf_wu:configuration.excavator_shovel_durability=Durabilité
+gf_wu:configuration.harvester_hoe_durability=Durabilité
+gf_wu:configuration.multiblock_pickaxe_durability=Durabilité
+gf_wu:configuration.omni_tool_durability=Durabilité
+gf_wu:configuration.safari_net_durability=Durabilité
+gf_wu:configuration.watering_can_durability=Durabilité
+
+gf_wu:configuration.choose_spawner=Choisir Générateur
+gf_wu:choose_spawner.menu=Clé de Générateur
+gf_wu:choose_spawner.destroy=Quel générateur avez-vous détruit ?
+
+item.gf_wu:excavator_shovel_netherite=Pelle d'excavatrice en Netherite
+item.gf_wu:omni_tool_netherite=Outil Multifonction en Netherite
+item.gf_wu:harvester_hoe_netherite=Houe moissonneuse en Netherite
+item.gf_wu:multiblock_pickaxe_netherite=Pioche multibloc en Netherite
+
+item.gf_wu:grab_bag_empty=Sac Surprise Marron
+item.gf_wu:grab_bag=Sac Surprise Marron
+
+item.gf_wu:black_grab_bag_empty=Sac Surprise Noir
+item.gf_wu:black_grab_bag=Sac Surprise Noir
+
+item.gf_wu:blue_grab_bag_empty=Sac Surprise Bleu
+item.gf_wu:blue_grab_bag=Sac Surprise Bleu
+
+item.gf_wu:cyan_grab_bag_empty=Sac Surprise Cyan
+item.gf_wu:cyan_grab_bag=Sac Surprise Cyan
+
+item.gf_wu:gray_grab_bag_empty=Sac Surprise Gris
+item.gf_wu:gray_grab_bag=Sac Surprise Gris
+
+item.gf_wu:green_grab_bag_empty=Sac Surprise Vert
+item.gf_wu:green_grab_bag=Sac Surprise Vert
+
+item.gf_wu:light_blue_grab_bag_empty=Sac Surprise Bleu Clair
+item.gf_wu:light_blue_grab_bag=Sac Surprise Bleu Clair
+
+item.gf_wu:light_gray_grab_bag_empty=Sac Surprise Gris Clair
+item.gf_wu:light_gray_grab_bag=Sac Surprise Gris Clair
+
+item.gf_wu:lime_grab_bag_empty=Sac Surprise Citron Vert
+item.gf_wu:lime_grab_bag=Sac Surprise Citron Vert
+
+item.gf_wu:magenta_grab_bag_empty=Sac Surprise Magenta
+item.gf_wu:magenta_grab_bag=Sac Surprise Magenta
+
+item.gf_wu:orange_grab_bag_empty=Sac Surprise Orange
+item.gf_wu:orange_grab_bag=Sac Surprise Orange
+
+item.gf_wu:pink_grab_bag_empty=Sac Surprise Rose
+item.gf_wu:pink_grab_bag=Sac Surprise Rose
+
+item.gf_wu:purple_grab_bag_empty=Sac Surprise Violet
+item.gf_wu:purple_grab_bag=Sac Surprise Violet
+
+item.gf_wu:red_grab_bag_empty=Sac Surprise Rouge
+item.gf_wu:red_grab_bag=Sac Surprise Rouge
+
+item.gf_wu:white_grab_bag_empty=Sac Surprise Blanc
+item.gf_wu:white_grab_bag=Sac Surprise Blanc
+
+item.gf_wu:yellow_grab_bag_empty=Sac Surprise Jaune
+item.gf_wu:yellow_grab_bag=Sac Surprise Jaune
+
+item.gf_wu:quarry_pickaxe_netherite=Pioche de Carrière en Netherite
+item.gf_wu:deep_digger_shovel_netherite=Pelle d’Excavation Profonde en Netherite
+
+gf_wu:quarry_pickaxe.header=§l§cPioche de Carrière
+gf_wu:quarry_pickaxe.button=§l§4Pioche de Carrière
+gf_wu:quarry_pickaxe.description=Comme la fidèle Pioche Multibloc... mais encore plus grande ! Mine tout autour de vous dans un rayon de 5x5. Vous pouvez améliorer cet outil en version Netherite dans une Table de Forge.
+gf_wu:quarry_pickaxe.recipe_ingredients=§b3x Pioche Multibloc §f[§bM§f]%1§r§72x Bâton §f[§7S§f]%1§r
+gf_wu:quarry_pickaxe.recipe_table=§f[§bM§f][§bM§f][§bM§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:deep_digger_shovel.header=§l§cPelle d’Excavation Profonde
+gf_wu:deep_digger_shovel.button=§l§4Pelle d’Excavation Profonde
+gf_wu:deep_digger_shovel.description=Comme la fidèle Pelle Excavatrice... mais encore plus grande ! Creuse tout autour de vous dans un rayon de 5x5. Vous pouvez améliorer cet outil en version Netherite dans une Table de Forge.
+gf_wu:deep_digger_shovel.recipe_ingredients=§b3x Pelle Excavatrice §f[§bE§f]%1§r§72x Bâton §f[§7S§f]%1§r
+gf_wu:deep_digger_shovel.recipe_table=§f[§bE§f][§bE§f][§bE§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:configuration.quarry_pickaxe=Pioche de Carrière
+gf_wu:configuration.deep_digger_shovel=Pelle d’Excavation Profonde
+gf_wu:configuration.quarry_pickaxe_durability=Durabilité
+gf_wu:configuration.deep_digger_shovel_durability=Durabilité
+
+gf_wu:configuration_hint.quarry_pickaxe=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+gf_wu:configuration_hint.deep_digger_shovel=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+gf_wu:configuration_hint.quarry_pickaxe_durability=Active ou désactive la durabilité\nde la Pioche de Carrière. (Astuce)
+gf_wu:configuration_hint.deep_digger_shovel_durability=Active ou désactive la durabilité\nde la Pelle d’Excavation Profonde. (Astuce)
+
+gf_wu:tanning_rack.header=§l§cÉtabli de Tannage
+gf_wu:tanning_rack.button=§l§4Établi de Tannage
+gf_wu:tanning_rack.description=Interagis avec l’Établi de Tannage en tenant de la Chair Putride pour la transformer en cuir. Accroupi + interaction avec un stack complet pour en traiter plusieurs à la fois !
+gf_wu:tanning_rack.recipe_ingredients=§75x Bâton §f[§7S§f]%1§r§f2x Ficelle §f[§fT§f]%1§r§62x Cuir §f[§6L§f]%1§r
+gf_wu:tanning_rack.recipe_table=§f[§fT§f][§7S§f][§fT§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r
+
+gf_wu:configuration.tanning_rack=Établi de Tannage
+gf_wu:configuration_hint.tanning_rack=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+
+item.gf_wu:bridge_builder=Constructeur de Pont désactivé
+item.gf_wu:bridge_builder_on=Constructeur de Pont activé
+item.gf_wu:stash_snatcher=Voleur de Cachettes
+item.gf_wu:stash_snatcher_full=Voleur de Cachettes (stocké)
+
+gf_wu:bridge_builder.header=§l§cConstructeur de Pont
+gf_wu:bridge_builder.button=§l§4Constructeur de Pont
+gf_wu:bridge_builder.description=Active cette utilité pour placer automatiquement des blocs de pont temporaires sous toi lorsque tu traverses de l’eau ou de la lave. Le pont disparaît derrière toi et restaure le liquide d’origine. Le temps peut être réglé dans le Contrôleur (5 secondes par défaut).
+gf_wu:bridge_builder.recipe_ingredients=§72x Lingot de fer §f[§7I§f]%1§r§c2x Poudre de redstone §f[§cR§f]%1§r§81x Pavés §f[§8C§f]%1§r
+gf_wu:bridge_builder.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§8C§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r
+gf_wu:bridge_builder.is_active=§cAttention ! Le Constructeur de Pont est actif !§r
+gf_wu:bridge_builder.on=§a- [ Constructeur de Pont Activé ] -
+gf_wu:bridge_builder.off=§c- [ Constructeur de Pont Désactivé ] -
+
+gf_wu:configuration.bridge_builder=Constructeur de Pont
+gf_wu:configuration.bridge_builder_water=Fonctionne sur l’eau ?
+gf_wu:configuration.bridge_builder_lava=Fonctionne sur la lave ?
+gf_wu:configuration.bridge_builder_decay_seconds=Durée des blocs (secondes)
+
+gf_wu:configuration_hint.bridge_builder=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+gf_wu:configuration_hint.bridge_builder_water=Active l’utilisation sur l’eau. (Astuce)
+gf_wu:configuration_hint.bridge_builder_lava=Active l’utilisation sur la lave. (Astuce)
+gf_wu:configuration_hint.bridge_builder_decay_seconds=Définit combien de temps les blocs durent\navant de restaurer le liquide. (Astuce)
+
+gf_wu:configuration.stash_snatcher=Voleur de Cachettes
+gf_wu:configuration.stash_snatcher_durability=Durabilité
+gf_wu:configuration_hint.stash_snatcher=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+gf_wu:configuration_hint.stash_snatcher_durability=Active ou désactive la durabilité\ndu Voleur de Cachettes. (Astuce)
+
+gf_wu:stash_snatcher.header=§l§cVoleur de Cachettes
+gf_wu:stash_snatcher.button=§l§4Voleur de Cachettes
+gf_wu:stash_snatcher.description=Tiens le Stash Snatcher en main et interagis avec un bloc de stockage (comme un coffre) pour le ramasser. Le coffre sera ensuite stocké dans l’objet et pourra être reposé à un nouvel endroit en interagissant à nouveau. Une façon simple de déplacer des objets d’un endroit à un autre ! Note que cela ne fonctionne pas avec les doubles coffres en raison de limitations.
+gf_wu:stash_snatcher.recipe_ingredients=§78x Ficelle §f[§7S§f]%1§r§c1x Coffre §f[§cC§f]%1§r
+gf_wu:stash_snatcher.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§cC§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r
+gf_wu:stash_snatcher.captured=§aConteneur récupéré avec succès !
+gf_wu:stash_snatcher.placed=§aConteneur placé !
+gf_wu:stash_snatcher.locked=§cVous ne pouvez pas récupérer des conteneurs verrouillés !
+gf_wu:stash_snatcher.unsupported=§cCe conteneur n’est pas supporté. Coffres simples uniquement !
+gf_wu:stash_snatcher.double_chest=§cLes doubles coffres ne peuvent pas être stockés.
+gf_wu:stash_snatcher.no_space=§cPas assez d’espace pour placer le conteneur.
+gf_wu:stash_snatcher.would_connect=§cAssurez-vous que le coffre ne se connecte pas à d’autres coffres.
+
+gf_wu:ocean_rider.header=§l§cOcean Rider
+gf_wu:ocean_rider.button=§l§4Ocean Rider
+gf_wu:ocean_rider.description=Un moyen très rapide de voyager sous l’eau ! Place l’Ocean Rider, interagis pour le monter et accroupis-toi pour descendre. Pendant l’utilisation, tu peux le recharger avec du charbon ou du charbon de bois. Utilise :_input_key.forward: et regarde vers le bas pour plonger, et vers le haut pour remonter à la surface ! Arrivé à destination ? Accroupis-toi pour descendre et frappe l’Ocean Rider pour le casser. La vitesse peut être ajustée dans le Controller.
+gf_wu:ocean_rider.recipe_ingredients=§73x Verre §f[§7G§f]%1§r§12x Charbon §f[§1C§f]§r%1§r§b1x Bateau §f[§bB§f]§r%1§r§a3x Planches §f[§aP§f]%1§r
+gf_wu:ocean_rider.recipe_table=§f[§7G§f][§7G§f][§7G§f]%1§r§f[§1C§f][§bB§f][§1C§f]%1§r§f[§aP§f][§aP§f][§aP§f]%1§r
+gf_wu:ocean_rider.on=§a- [ Ocean Rider prêt ] -
+gf_wu:ocean_rider.off=§c- [ Ocean Rider désactivé ] -
+gf_wu:ocean_rider.no_water=§cPeut seulement être placé dans l’eau.
+gf_wu:ocean_rider.no_space=§cPas assez d’espace.
+gf_wu:ocean_rider.placed=§aOcean Rider placé !
+gf_wu:ocean_rider.picked_up=§aOcean Rider récupéré !
+gf_wu:ocean_rider.mounted=§aMonté sur Ocean Rider !
+gf_wu:configuration.ocean_rider=Ocean Rider
+gf_wu:configuration.ocean_rider_speed=Vitesse de l’Ocean Rider
+gf_wu:configuration_hint.ocean_rider=Active ou désactive cette fonctionnalité\ndans ton monde. (Astuce)
+gf_wu:configuration_hint.ocean_rider_speed=Choisis une vitesse de 1 à 3. (Astuce)
+
+gf_wu:player_vaults.button=§l§4Coffres de Joueur
+gf_wu:player_vaults.header=§l§cCoffres de Joueur
+gf_wu:player_vaults.description=Place le coffre-fort et interagis avec lui pour l’ouvrir comme un coffre normal. Le coffre-fort est privé et toi seul peux accéder à tes objets ! Accroupis-toi et interagis avec le coffre-fort pour choisir une fréquence de 0 à 50. Chaque fréquence ouvre un nouveau coffre, ce qui te permet d’avoir 50 coffres en un seul. Tu peux placer plusieurs coffres-forts dans ton monde, ce qui te permet d’accéder à tes objets de n’importe où, comme avec un coffre de l’End… mais en mieux ! Accroupis-toi et attaque pour le casser !
+gf_wu:player_vaults.recipe_ingredients=§74x Lingot de fer §f[§7I§f]%1§r§c4x Poudre de redstone §f[§cR§f]§r%1§r§b1x Coffre §f[§bC§f]%1§r
+gf_wu:player_vaults.recipe_table=§f[§7I§f][§cR§f][§7I§f]%1§r§f[§cR§f][§bC§f][§cR§f]%1§r§f[§7I§f][§cR§f][§7I§f]%1§r
+gf_wu:player_vaults.select=Sélectionner le coffre
+gf_wu:player_vaults.number=Numéro de coffre
+gf_wu:player_vaults.updated=§aNuméro de coffre mis à jour
+gf_wu:player_vaults.disabled=§cLes Coffres de Joueur sont désactivés
+gf_wu:player_vaults.already_viewed=§cUn autre joueur consulte actuellement ce coffre.
+gf_wu:player_vaults.break_hint=§cPour casser, accroupis-toi puis casse-le !
+gf_wu:configuration.player_vaults=Coffres de joueur
+gf_wu:configuration_hint.player_vaults=Active ou désactive les Coffres de joueur\ndans ton monde. (Astuce)
+
+item.gf_wu:ocean_rider=Ocean Rider
+action.hint.exit.gf_wu:ocean_rider=Accroupis-toi pour sortir

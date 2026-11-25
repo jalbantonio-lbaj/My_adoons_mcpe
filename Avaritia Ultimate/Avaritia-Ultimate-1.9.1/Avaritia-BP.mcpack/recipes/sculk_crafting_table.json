@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:sculk_crafting_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aba",
+      "cxc",
+      "ada"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:sculk_shrieker"
+      },
+      "c": {
+        "item": "minecraft:sculk"
+      },
+      "d": {
+        "item": "minecraft:sculk_catalyst"
+      },
+      "x": {
+        "item": "avaritia:dctable"
+      }
+    },
+    "result": {
+      "item": "avaritia:sculk_crafting_table",
+      "count": 1
+    }
+  }
+}

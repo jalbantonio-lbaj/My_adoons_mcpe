@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:gray_stained_glass_fence"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#/#",
+      "#/#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gray_stained_glass"
+      },
+      "/": {
+        "item": "vge:glass_stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:gray_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:gray_stained_glass_fence",
+      "count": 3
+    }
+  }
+}

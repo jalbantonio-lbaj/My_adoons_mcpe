@@ -1,0 +1,99 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:neutronium_decompressor",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.machines"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:facing_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.compressor",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "compressor_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "compressor_top"
+        },
+        "down": {
+          "texture": "compressor_side"
+        },
+        "north": {
+          "texture": "decompressor_front_animated"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1200
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:light_emission": 1,
+      "minecraft:light_dampening": 15,
+      "avaritia:decompressor_trigger": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

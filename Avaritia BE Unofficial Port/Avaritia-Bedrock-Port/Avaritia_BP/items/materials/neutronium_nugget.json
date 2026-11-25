@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:neutronium_nugget",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "neutron_nugget"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": {
+        "value": "uncommon"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:explodable": false
+    }
+  }
+}

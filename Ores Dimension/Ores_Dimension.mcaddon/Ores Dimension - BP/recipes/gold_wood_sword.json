@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:gold_wood_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A",
+      "S"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:gold_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "oredim:gold_wood_sword",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "oredim:gold_planks"
+      }
+    ]
+  }
+}

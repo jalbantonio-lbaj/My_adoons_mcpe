@@ -1,0 +1,723 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "spawn_category": "creature",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "component_groups": {
+      "minecraft:add_raid_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "raid_omen",
+              "duration": 30,
+              "display_on_screen_animation": true
+            }
+          ],
+          "remove_effects": "bad_omen"
+        },
+        "minecraft:timer": {
+          "time": [
+            0,
+            0
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_raid_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_raid_omen_spell_effect": {
+        "minecraft:spell_effects": {}
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        }
+      },
+      "pamobile:respawn": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": [
+            "jump_boost",
+            "speed",
+            "fire_resistance",
+            "resistance",
+            "conduit_power",
+            "regeneration",
+            "water_breathing",
+            "absorption",
+            "village_hero",
+            "haste",
+            "strength"
+          ]
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "pa:endestpearl_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "pa:endestpearl_bullet",
+            "num_to_spawn": 1
+          }
+        }
+      },
+      "pa:infinityaxe": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityboots": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityhoe": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinitybow_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "pa:infinitybow_bullet",
+            "num_to_spawn": 1
+          }
+        }
+      },
+      "pa:infinitybrestplate": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityhelmet": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinitypic2": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinitypickaxe": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityshovel": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityshovel2": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinityleggings": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:infinitysword": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "pa:skullfiresword": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:exhaustion_values": {
+        "heal": 6,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0,
+        "sprint": 0.1,
+        "swim": 0.01,
+        "lunge": 4
+      },
+      "minecraft:player.saturation": {
+        "value": 5,
+        "max": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 20
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+        "push_towards_closest_space": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.2,
+              -0.1
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_mob_effect",
+                  "subject": "self",
+                  "value": "bad_omen"
+                },
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:gain_raid_omen"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:endestpearl"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinityaxe"
+                }
+              ]
+            },
+            "event": "pa:infinityaxe_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "pa:infinityboots"
+                }
+              ]
+            },
+            "event": "pa:infinityboots_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinityhoe"
+                }
+              ]
+            },
+            "event": "pa:infinityhoe_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinitybow"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "pa:infinitybrestplate"
+                }
+              ]
+            },
+            "event": "pa:infinitybrestplate_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "pa:infinityhelmet"
+                }
+              ]
+            },
+            "event": "pa:infinityhelmet_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinitypic2"
+                }
+              ]
+            },
+            "event": "pa:infinitypic2_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinitypickaxe"
+                }
+              ]
+            },
+            "event": "pa:infinitypickaxe_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinityshovel"
+                }
+              ]
+            },
+            "event": "pa:infinityshovel_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinityshovel2"
+                }
+              ]
+            },
+            "event": "pa:infinityshovel2_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "pa:infinityleggings"
+                }
+              ]
+            },
+            "event": "pa:infinityleggings_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:infinitysword"
+                }
+              ]
+            },
+            "event": "pa:infinitysword_event"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:skullfiresword"
+                }
+              ]
+            },
+            "event": "pa:skullfiresword_event"
+          }
+        ]
+      }
+    },
+    "events": {
+      "minecraft:gain_raid_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_raid_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_raid_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_raid_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_raid_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "pa:infinityaxe",
+            "pa:infinityboots",
+            "pa:infinityhoe",
+            "pa:infinitybrestplate",
+            "pa:infinityhelmet",
+            "pa:infinitypic2",
+            "pa:infinitypickaxe",
+            "pa:infinityshovel",
+            "pa:infinityshovel2",
+            "pa:infinityleggings",
+            "pa:infinitysword",
+            "pa:skullfiresword"
+          ]
+        }
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "pa:endestpearl_fire": {
+        "add": {
+          "component_groups": [
+            "pa:endestpearl_fire"
+          ]
+        }
+      },
+      "pa:infinityaxe_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityaxe"
+          ]
+        }
+      },
+      "pa:infinityboots_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityboots"
+          ]
+        }
+      },
+      "pa:infinityhoe_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityhoe"
+          ]
+        }
+      },
+      "pa:infinitybow_fire": {
+        "add": {
+          "component_groups": [
+            "pa:infinitybow_fire"
+          ]
+        }
+      },
+      "pa:infinitybrestplate_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinitybrestplate"
+          ]
+        }
+      },
+      "pa:infinityhelmet_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityhelmet"
+          ]
+        }
+      },
+      "pa:infinitypic2_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinitypic2"
+          ]
+        }
+      },
+      "pa:infinitypickaxe_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinitypickaxe"
+          ]
+        }
+      },
+      "pa:infinityshovel_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityshovel"
+          ]
+        }
+      },
+      "pa:infinityshovel2_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityshovel2"
+          ]
+        }
+      },
+      "pa:infinityleggings_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinityleggings"
+          ]
+        }
+      },
+      "pa:infinitysword_event": {
+        "add": {
+          "component_groups": [
+            "pa:infinitysword"
+          ]
+        }
+      },
+      "pa:skullfiresword_event": {
+        "add": {
+          "component_groups": [
+            "pa:skullfiresword"
+          ]
+        }
+      }
+    }
+  }
+}

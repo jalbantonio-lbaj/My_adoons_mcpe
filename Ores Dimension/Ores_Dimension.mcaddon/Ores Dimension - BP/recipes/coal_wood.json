@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:coal_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:coal_log"
+      }
+    },
+    "result": {
+      "item": "oredim:coal_wood",
+      "count": 3
+    },
+    "unlock": [
+      {
+        "item": "oredim:coal_log"
+      }
+    ]
+  }
+}

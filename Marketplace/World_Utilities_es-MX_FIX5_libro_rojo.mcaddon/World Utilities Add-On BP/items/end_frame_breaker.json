@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gf_wu:end_frame_breaker"
+    },
+    "components": {
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 11
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "gf_wu:end_frame_breaker"
+        }
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 99999
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "can_always_eat": true
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_components": ["gf_wu:tool_durability"]
+    }
+  }
+}

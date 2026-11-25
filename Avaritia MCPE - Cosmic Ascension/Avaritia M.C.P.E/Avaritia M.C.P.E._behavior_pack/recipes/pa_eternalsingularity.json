@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "eternalsingularity_3ba6f8a5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:redstonesingularity",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:goldsingularity",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:coppersingularity",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:lapissingularity",
+        "data": 0
+      },
+      "E": {
+        "item": "pa:diamondsingularity",
+        "data": 0
+      },
+      "F": {
+        "item": "pa:amethystsingularity",
+        "data": 0
+      },
+      "G": {
+        "item": "pa:ironsingularity",
+        "data": 0
+      },
+      "H": {
+        "item": "pa:coalsingularity",
+        "data": 0
+      },
+      "I": {
+        "item": "pa:emeraldsingularity",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:eternalsingularity",
+      "count": 1
+    }
+  }
+}

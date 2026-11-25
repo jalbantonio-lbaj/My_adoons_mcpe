@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "avaritia:star_fuel_block_to_item"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "avaritia:star_fuel_block_item"
+      }
+    ],
+    "result": [
+      {
+        "item": "avaritia:starfuel",
+        "count": 9
+      }
+    ]
+  }
+}

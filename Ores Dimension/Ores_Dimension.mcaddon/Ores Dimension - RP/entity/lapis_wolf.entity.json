@@ -1,0 +1,127 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:lapis_wolf",
+      "materials": {
+        "default": "wolf"
+      },
+      "textures": {
+        "pale_default": "textures/entity/oredim/lapis/wolf__pale_default",
+        "pale_angry": "textures/entity/oredim/lapis/wolf__pale_angry",
+        "pale_tame": "textures/entity/oredim/lapis/wolf__pale_tame",
+        "baby_pale_default": "textures/entity/oredim/lapis/wolf__baby_pale_default",
+        "baby_pale_angry": "textures/entity/oredim/lapis/wolf__baby_pale_angry",
+        "baby_pale_tame": "textures/entity/oredim/lapis/wolf__baby_pale_tame",
+        "ashen_default": "textures/entity/oredim/lapis/wolf__ashen_default",
+        "ashen_angry": "textures/entity/oredim/lapis/wolf__ashen_angry",
+        "ashen_tame": "textures/entity/oredim/lapis/wolf__ashen_tame",
+        "baby_ashen_default": "textures/entity/oredim/lapis/wolf__baby_ashen_default",
+        "baby_ashen_angry": "textures/entity/oredim/lapis/wolf__baby_ashen_angry",
+        "baby_ashen_tame": "textures/entity/oredim/lapis/wolf__baby_ashen_tame",
+        "black_default": "textures/entity/oredim/lapis/wolf__black_default",
+        "black_angry": "textures/entity/oredim/lapis/wolf__black_angry",
+        "black_tame": "textures/entity/oredim/lapis/wolf__black_tame",
+        "baby_black_default": "textures/entity/oredim/lapis/wolf__baby_black_default",
+        "baby_black_angry": "textures/entity/oredim/lapis/wolf__baby_black_angry",
+        "baby_black_tame": "textures/entity/oredim/lapis/wolf__baby_black_tame",
+        "chestnut_default": "textures/entity/oredim/lapis/wolf__chestnut_default",
+        "chestnut_angry": "textures/entity/oredim/lapis/wolf__chestnut_angry",
+        "chestnut_tame": "textures/entity/oredim/lapis/wolf__chestnut_tame",
+        "baby_chestnut_default": "textures/entity/oredim/lapis/wolf__baby_chestnut_default",
+        "baby_chestnut_angry": "textures/entity/oredim/lapis/wolf__baby_chestnut_angry",
+        "baby_chestnut_tame": "textures/entity/oredim/lapis/wolf__baby_chestnut_tame",
+        "rusty_default": "textures/entity/oredim/lapis/wolf__rusty_default",
+        "rusty_angry": "textures/entity/oredim/lapis/wolf__rusty_angry",
+        "rusty_tame": "textures/entity/oredim/lapis/wolf__rusty_tame",
+        "baby_rusty_default": "textures/entity/oredim/lapis/wolf__baby_rusty_default",
+        "baby_rusty_angry": "textures/entity/oredim/lapis/wolf__baby_rusty_angry",
+        "baby_rusty_tame": "textures/entity/oredim/lapis/wolf__baby_rusty_tame",
+        "snowy_default": "textures/entity/oredim/lapis/wolf__snowy_default",
+        "snowy_angry": "textures/entity/oredim/lapis/wolf__snowy_angry",
+        "snowy_tame": "textures/entity/oredim/lapis/wolf__snowy_tame",
+        "baby_snowy_default": "textures/entity/oredim/lapis/wolf__baby_snowy_default",
+        "baby_snowy_angry": "textures/entity/oredim/lapis/wolf__baby_snowy_angry",
+        "baby_snowy_tame": "textures/entity/oredim/lapis/wolf__baby_snowy_tame",
+        "spotted_default": "textures/entity/oredim/lapis/wolf__spotted_default",
+        "spotted_angry": "textures/entity/oredim/lapis/wolf__spotted_angry",
+        "spotted_tame": "textures/entity/oredim/lapis/wolf__spotted_tame",
+        "baby_spotted_default": "textures/entity/oredim/lapis/wolf__baby_spotted_default",
+        "baby_spotted_angry": "textures/entity/oredim/lapis/wolf__baby_spotted_angry",
+        "baby_spotted_tame": "textures/entity/oredim/lapis/wolf__baby_spotted_tame",
+        "striped_default": "textures/entity/oredim/lapis/wolf__striped_default",
+        "striped_angry": "textures/entity/oredim/lapis/wolf__striped_angry",
+        "striped_tame": "textures/entity/oredim/lapis/wolf__striped_tame",
+        "baby_striped_default": "textures/entity/oredim/lapis/wolf__baby_striped_default",
+        "baby_striped_angry": "textures/entity/oredim/lapis/wolf__baby_striped_angry",
+        "baby_striped_tame": "textures/entity/oredim/lapis/wolf__baby_striped_tame",
+        "woods_default": "textures/entity/oredim/lapis/wolf__woods_default",
+        "woods_angry": "textures/entity/oredim/lapis/wolf__woods_angry",
+        "woods_tame": "textures/entity/oredim/lapis/wolf__woods_tame",
+        "baby_woods_default": "textures/entity/oredim/lapis/wolf__baby_woods_default",
+        "baby_woods_angry": "textures/entity/oredim/lapis/wolf__baby_woods_angry",
+        "baby_woods_tame": "textures/entity/oredim/lapis/wolf__baby_woods_tame"
+      },
+      "geometry": {
+        "default": "geometry.oredim.wolf",
+        "baby": "geometry.oredim.wolf_baby"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "pre_animation": [
+          "variable.body_shake_angle = 0.05 * query.frame_alpha + query.shake_angle;",
+          "variable.body_roll_progress = Math.clamp((variable.body_shake_angle - 0.16) / 1.8, 0, 1);",
+          "variable.body_rot_z = Math.sin(variable.body_roll_progress * 180) * Math.sin(variable.body_roll_progress * 1980) * 27;",
+          "variable.upper_body_roll_progress = Math.clamp((variable.body_shake_angle - 0.08) / 1.8, 0, 1);",
+          "variable.upper_body_rot_z = (Math.sin(variable.upper_body_roll_progress * 180) * Math.sin(variable.upper_body_roll_progress * 1980) * 27) - variable.body_rot_z;",
+          "variable.tail_roll_progress = Math.clamp((variable.body_shake_angle - 0.2) / 1.8, 0, 1);",
+          "variable.tail_rot_z = (Math.sin(variable.tail_roll_progress * 180) * Math.sin(variable.tail_roll_progress * 1980) * 27) - variable.body_rot_z;",
+          "variable.head_roll_progress = Math.clamp(variable.body_shake_angle / 1.8, 0, 1);",
+          "variable.head_rot_z = (Math.sin(variable.head_roll_progress * 180) * Math.sin(variable.head_roll_progress * 1980) * 27) - variable.body_rot_z;"
+        ]
+      },
+      "animations": {
+        "wolf_setup": "animation.wolf.setup",
+        "wolf_look_at": "animation.common.look_at_target",
+        "wolf_head_rot_z": "animation.wolf.head_rot_z",
+        "wolf_tail_default": "animation.wolf.tail_default",
+        "wolf_angry": "animation.wolf.angry",
+        "wolf_sitting": "animation.wolf.sitting",
+        "wolf_baby_sitting": "animation.wolf.baby_sitting",
+        "wolf_shaking": "animation.wolf.shaking",
+        "wolf_leg_default": "animation.wolf.leg_default"
+      },
+      "animation_controllers": [
+        {
+          "wolf_setup": "controller.animation.wolf.setup"
+        },
+        {
+          "wolf_look_at": "controller.animation.wolf.look_at"
+        },
+        {
+          "wolf_head_rot_z": "controller.animation.wolf.head_rot_z"
+        },
+        {
+          "wolf_tail_default": "controller.animation.wolf.tail_default"
+        },
+        {
+          "wolf_angry": "controller.animation.wolf.angry"
+        },
+        {
+          "wolf_sitting": "controller.animation.wolf.sitting"
+        },
+        {
+          "wolf_shaking": "controller.animation.wolf.shaking"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.wolf.v2"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#08184e",
+        "overlay_color": "#609cff"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "extra_utilities:angel_block",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ex_wood"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "angel_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:display_name": "Angel Block\n§7Right click to place on air\n§o§9Extra Utilities",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			}
+		}
+	}
+}

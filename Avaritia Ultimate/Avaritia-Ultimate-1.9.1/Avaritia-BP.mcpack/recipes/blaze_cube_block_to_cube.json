@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "avaritia:blaze_cube_block_to_cube"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "avaritia:blaze_cube_block"
+      }
+    ],
+    "result": [
+      {
+        "item": "avaritia:blaze_cube",
+        "count": 9
+      }
+    ]
+  }
+}

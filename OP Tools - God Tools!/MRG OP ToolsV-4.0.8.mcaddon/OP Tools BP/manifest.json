@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§7⋰§bMrGaming's OP Tools Add-on§7⋱ V-4.0.8",
+		"description": "§6§lExperimental Features §7: §cNOT REQUIRED \n§bMade By §2mrgamingisop",
+		"uuid": "02ed0bbb-ce9c-45e7-90ef-6356dee658ac",
+		"version": [
+			4,
+			0,
+			8
+		],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "341e9d21-3816-44fd-b670-3301409d3726",
+			"version": [
+				4,
+				0,
+				8
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "cf65582a-1280-4bd8-a4cb-4cc1965dfcd1",
+			"entry": "scripts/main.js",
+			"version": [
+				4,
+				0,
+				8
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.18.0"
+		},
+		{
+			"uuid": "1b9de74c-013c-4ac5-892c-24c4ac6f212a",
+			"version": [
+				4,
+				0,
+				8
+			]
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.custom.item",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes": [
+            {
+              "rotation": [
+                0,
+                -135,
+                90
+              ],
+              "texture": "frame_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.custom.item_dual",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes": [
+            {
+              "rotation": [
+                0,
+                -135,
+                90
+              ],
+              "texture": "frame_1"
+            }
+          ]
+        },
+        {
+          "name": "leftitem",
+          "texture_meshes": [
+            {
+              "rotation": [
+                0,
+                -135,
+                90
+              ],
+              "texture": "frame_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.custom.item_fpoff",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes": [
+            {
+              "rotation": [
+                0,
+                -135,
+                90
+              ],
+              "scale": [
+                0.0001,
+                0.0001,
+                0.0001
+              ],
+              "texture": "frame_1"
+            }
+          ]
+        },
+        {
+          "name": "off_mesh",
+          "parent": "rightitem",
+          "texture_meshes": [
+            {
+              "rotation": [
+                0,
+                -135,
+                90
+              ],
+              "texture": "frame_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "infinity_armor_2",
+		"metalness_emissive_roughness": "infinity_armor_2_mer",
+		"heightmap": "infinity_armor_2_height"
+	}
+}

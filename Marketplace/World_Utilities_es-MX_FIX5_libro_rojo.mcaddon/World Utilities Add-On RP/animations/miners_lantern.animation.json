@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.miners_lantern.first_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [95, -60, -225],
+					"position": [-1, 24, 5],
+					"scale": 0.8
+				}
+			}
+		},
+		"animation.gf_wu.miners_lantern.third_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [165, 0, 180],
+					"position": [0, 14.5, 1],
+					"scale": 0.7
+				},
+				"bone": {
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

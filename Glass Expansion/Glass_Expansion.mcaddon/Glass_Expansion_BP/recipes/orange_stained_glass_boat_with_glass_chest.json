@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vge:orange_stained_glass_boat_with_glass_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "vge:orange_stained_glass_boat"
+      },
+      {
+        "item": "vge:orange_stained_glass_chest"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "vge:orange_stained_glass_boat"
+      }
+    ],
+    "result": {
+      "item": "vge:orange_stained_glass_boat_with_glass_chest",
+      "count": 1
+    }
+  }
+}

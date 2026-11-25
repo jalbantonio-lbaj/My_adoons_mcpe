@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "white_cyber_side_orange",
+		"metalness_emissive_roughness": "white_cyber_side_orange_mer",
+		"heightmap": "white_cyber_side_orange_height"
+	}
+}

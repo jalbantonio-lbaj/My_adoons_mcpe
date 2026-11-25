@@ -1,0 +1,96 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:gaping_void",
+      "is_experimental": false,
+      "is_spawnable": false,
+      "is_summonable": true,
+      "properties": {
+        "avaritia:scale": {
+          "type": "float",
+          "range": [0.01, 10.0],
+          "default": 1.0,
+          "client_sync": true
+        },
+        "avaritia:is_black_hole": {
+          "type": "bool",
+          "default": true,
+          "client_sync": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:script": {
+        "run_on_named_event": {
+          "tick": "tick"
+        }
+      },
+      "minecraft:type_family": { 
+        "family": [ "gaping_void", "inanimate", "avaritia:avaritia" ] 
+      },
+      "minecraft:collision_box": { 
+        "width": 0, 
+        "height": 0 
+      },
+      "minecraft:physics": { 
+        "has_gravity": false, 
+        "has_collision": false, 
+        "push_towards_closest_space": false
+      },
+      "minecraft:pushable": { 
+              "is_pushable": false, 
+              "is_pushable_by_piston": false 
+            },
+            "minecraft:knockback_resistance": { 
+              "max": 1000, 
+              "value": 1000 
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:damage_sensor": {
+              "triggers": [ { "cause": "all", "deals_damage": false } ]
+            },
+            "minecraft:health": { 
+              "max": 1, 
+              "value": 1 
+            },
+            "minecraft:tick": {
+              "looping": true,
+              "interval_range": [1, 1]
+            },
+            "avaritia:gaping_void_tick": {},
+            "minecraft:tick_world": {
+              "never_despawn": true,
+              "distance_to_players": 1000000,
+              "radius": 6
+            },
+      "minecraft:navigation.generic": { 
+        "can_path_over_water": false, 
+        "can_sink": false,
+        "can_swim": false,
+        "avoid_water": true
+      },
+      "minecraft:movement": { 
+        "value": 0.0
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "playsound avaritia.gaping_void @a ~~~"
+          ]
+        }
+      },
+      "explode": {
+        "queue_command": {
+          "command": [
+            "playsound random.explode @a ~~~"
+          ]
+        }
+      }
+    }
+  }
+}

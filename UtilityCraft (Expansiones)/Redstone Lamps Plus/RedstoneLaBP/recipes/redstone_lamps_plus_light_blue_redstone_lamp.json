@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "light_blue_redstone_lamp_c407af58"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_lamp",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:light_blue_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "redstone_lamps_plus:light_blue_redstone_lamp",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_nugget",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_nugget",
+        "use_on": [
+          "avaritia:infinity_nugget"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": {
+        "value": "epic"
+      }
+    }
+  }
+}

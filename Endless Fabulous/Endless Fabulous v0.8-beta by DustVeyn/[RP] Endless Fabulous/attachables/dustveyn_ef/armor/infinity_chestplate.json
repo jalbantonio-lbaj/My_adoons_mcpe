@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "dustveyn_ef:infinity_chestplate",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/dustveyn_ef/models/armor/chestplate",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.dustveyn_ef_infinity_chestplate.wing"
+            },
+            "animations": {
+                "fly": "controller.animation.wing.flying",
+                "walking": "animation.dustveyn_ef.wing.walking",
+                "flying": "animation.dustveyn_ef.wing.flying"
+            },
+            "scripts": {
+                "parent_setup": "variable.chest_layer_visible = 0.0;",
+                "animate": [ "fly" ]
+            },
+            "render_controllers": [
+                "controller.render.armor"
+            ]
+        }
+    }
+}

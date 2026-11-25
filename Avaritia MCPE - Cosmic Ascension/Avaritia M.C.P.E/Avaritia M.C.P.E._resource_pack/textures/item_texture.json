@@ -1,0 +1,257 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "pa:amethystsingularity": {
+      "textures": "textures/items/pamobile/pa_amethystsingularity"
+    },
+    "pa:coalsingularity": {
+      "textures": "textures/items/pamobile/pa_coalsingularity"
+    },
+    "pa:compressedpearl": {
+      "textures": "textures/items/pamobile/pa_compressedpearl"
+    },
+    "pa:coppersingularity": {
+      "textures": "textures/items/pamobile/pa_coppersingularity"
+    },
+    "pa:cosmicmeatballs": {
+      "textures": "textures/items/pamobile/pa_cosmicmeatballs"
+    },
+    "pa:crackedstarfuel": {
+      "textures": "textures/items/pamobile/pa_crackedstarfuel"
+    },
+    "pa:crystalingot": {
+      "textures": "textures/items/pamobile/pa_crystalingot"
+    },
+    "pa:diamondlattice": {
+      "textures": "textures/items/pamobile/pa_diamondlattice"
+    },
+    "pa:diamondnugget": {
+      "textures": "textures/items/pamobile/pa_diamondnugget"
+    },
+    "pa:diamondsingularity": {
+      "textures": "textures/items/pamobile/pa_diamondsingularity"
+    },
+    "pa:emeraldsingularity": {
+      "textures": "textures/items/pamobile/pa_emeraldsingularity"
+    },
+    "pa_endestpearl": {
+      "textures": "textures/items/pamobile/pa_endestpearl"
+    },
+    "pa:eternalsingularity": {
+      "textures": "textures/items/pamobile/pa_eternalsingularity"
+    },
+    "pa:goldsingularity": {
+      "textures": "textures/items/pamobile/pa_goldsingularity"
+    },
+    "pa:honeysingularity": {
+      "textures": "textures/items/pamobile/pa_honeysingularity"
+    },
+    "pa_infinityaxe": {
+      "textures": "textures/items/pamobile/pa_infinityaxe"
+    },
+    "pa_infinityboots": {
+      "textures": [
+        "textures/items/pamobile/pa_infinityboots"
+      ]
+    },
+    "pa_infinityarrow": {
+      "textures": "textures/items/pamobile/arrows/pa_infinityarrow"
+    },
+    "pa_infinitybow": {
+      "textures": "textures/items/pamobile/pa_infinitybow"
+    },
+    "pa_infinitybrestplate": {
+      "textures": [
+        "textures/items/pamobile/pa_infinitybrestplate"
+      ]
+    },
+    "pa:infinitycatalyst": {
+      "textures": "textures/items/pamobile/pa_infinitycatalyst"
+    },
+    "pa_infinityhelmet": {
+      "textures": [
+        "textures/items/pamobile/pa_infinityhelmet"
+      ]
+    },
+    "pa_infinityhoe": {
+      "textures": "textures/items/pamobile/pa_infinityhoe"
+    },
+    "pa:infinityingot": {
+      "textures": "textures/items/pamobile/pa_infinityingot"
+    },
+    "pa_infinityleggings": {
+      "textures": [
+        "textures/items/pamobile/pa_infinityleggings"
+      ]
+    },
+    "pa:infinitynugget": {
+      "textures": "textures/items/pamobile/pa_infinitynugget"
+    },
+    "pa_infinitypic2": {
+      "textures": "textures/items/pamobile/pa_infinitypic2"
+    },
+    "pa_infinitypickaxe": {
+      "textures": "textures/items/pamobile/pa_infinitypickaxe"
+    },
+    "pa_infinityshovel": {
+      "textures": "textures/items/pamobile/pa_infinityshovel"
+    },
+    "pa_infinityshovel2": {
+      "textures": "textures/items/pamobile/pa_infinityshovel2"
+    },
+    "pa:infinitysingularity": {
+      "textures": "textures/items/pamobile/pa_infinitysingularity"
+    },
+    "pa_infinitysword": {
+      "textures": "textures/items/pamobile/pa_infinitysword"
+    },
+    "pa:ingotneutron": {
+      "textures": "textures/items/pamobile/pa_ingotneutron"
+    },
+    "pa:ironsingularity": {
+      "textures": "textures/items/pamobile/pa_ironsingularity"
+    },
+    "pa:lapissingularity": {
+      "textures": "textures/items/pamobile/pa_lapissingularity"
+    },
+    "pa:leavessingularity": {
+      "textures": "textures/items/pamobile/pa_leavessingularity"
+    },
+    "pa:mattercluster": {
+      "textures": "textures/items/pamobile/pa_mattercluster"
+    },
+    "pa:matterclusterfull": {
+      "textures": "textures/items/pamobile/pa_matterclusterfull"
+    },
+    "pa:netheritesingularity": {
+      "textures": "textures/items/pamobile/pa_netheritesingularity"
+    },
+    "pa:neutron": {
+      "textures": "textures/items/pamobile/pa_neutron"
+    },
+    "pa:neutrongear": {
+      "textures": "textures/items/pamobile/pa_neutrongear"
+    },
+    "pa:neutronnugget": {
+      "textures": "textures/items/pamobile/pa_neutronnugget"
+    },
+    "pa:neutronpile": {
+      "textures": "textures/items/pamobile/pa_neutronpile"
+    },
+    "pa:obsidiansingularity": {
+      "textures": "textures/items/pamobile/pa_obsidiansingularity"
+    },
+    "pa_neutronshield": {
+      "textures": "textures/items/pamobile/pa_neutronshield"
+    },
+    "pa:outersingularity": {
+      "textures": "textures/items/pamobile/pa_outersingularity"
+    },
+    "pa:packedneutroningot": {
+      "textures": "textures/items/pamobile/pa_packedneutroningot"
+    },
+    "pa:pinkskinularity": {
+      "textures": "textures/items/pamobile/pa_pinkskinularity"
+    },
+    "pa:quartzsingularity": {
+      "textures": "textures/items/pamobile/pa_quartzsingularity"
+    },
+    "pa:recordfragment": {
+      "textures": "textures/items/pamobile/pa_recordfragment"
+    },
+    "pa:redstonesingularity": {
+      "textures": "textures/items/pamobile/pa_redstonesingularity"
+    },
+    "pa:silversingularity": {
+      "textures": "textures/items/pamobile/pa_silversingularity"
+    },
+    "pa:singularity": {
+      "textures": "textures/items/pamobile/pa_singularity"
+    },
+    "pa_skullfiresword": {
+      "textures": "textures/items/pamobile/pa_skullfiresword"
+    },
+    "pa:slimesingularity": {
+      "textures": "textures/items/pamobile/pa_slimesingularity"
+    },
+    "pa:soulsingularity": {
+      "textures": "textures/items/pamobile/pa_soulsingularity"
+    },
+    "pa:starfuel": {
+      "textures": "textures/items/pamobile/pa_starfuel"
+    },
+    "pa:ultimatestew": {
+      "textures": "textures/items/pamobile/pa_ultimatestew"
+    }
+  }
+}

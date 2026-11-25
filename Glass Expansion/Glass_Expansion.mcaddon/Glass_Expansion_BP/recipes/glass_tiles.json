@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:glass_tiles"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_bricks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "vge:glass_bricks"
+      }
+    ],
+    "result": {
+      "item": "vge:glass_tiles",
+      "count": 4
+    }
+  }
+}

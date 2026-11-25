@@ -1,0 +1,86 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:gaping_void",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "is_experimental": false,
+      "properties": {
+        "fad:scale": {
+          "type": "float",
+          "range": [1.0, 1000.0],
+          "default": 1.0,
+          "client_sync": true
+        },
+        "fad:is_black_hole": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        }
+      },
+      "scripts": {
+        "initialize": [
+          "event:fad:apply_vanilla_dragon"
+        ]
+      }
+    },
+    "component_groups": {
+      "fad:vanilla_dragon": {
+        "minecraft:type_family": { "family": ["dragon", "monster", "mob"] },
+        "minecraft:collision_box": { "width": 16.0, "height": 8.0 },
+        "minecraft:health": { "value": 200, "max": 200 },
+        "minecraft:movement": { "value": 0.6 },
+        "minecraft:flying_speed": { "value": 0.6 },
+        "minecraft:navigation.fly": { "can_path_over_water": true, "avoid_water": false, "avoid_damage_blocks": true },
+        "minecraft:movement.fly": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+        "minecraft:boss": { "should_darken_sky": true, "hud_range": 128, "name": "Ender Dragon" },
+        "minecraft:despawn": { "despawn_from_distance": {} },
+        "minecraft:persistent": {},
+        "minecraft:behavior.dragondeath": { "priority": 0 },
+        "minecraft:behavior.dragonholdingpattern": { "priority": 2 },
+        "minecraft:behavior.dragonchargeplayer": { "priority": 1 },
+        "minecraft:behavior.dragonstrafeplayer": { "priority": 1 },
+        "minecraft:behavior.dragonlanding": { "priority": 3 },
+        "minecraft:behavior.dragontakeoff": { "priority": 3 },
+        "minecraft:behavior.dragonflaming": { "priority": 1 },
+        "minecraft:behavior.dragonscanning": { "priority": 4 },
+        "minecraft:shooter": { "def": "minecraft:dragon_fireball" },
+        "minecraft:damage_sensor": {
+          "triggers": [ { "cause": "fall", "deals_damage": "no" } ]
+        }
+      },
+      "fad:black_hole": {
+        "minecraft:type_family": { "family": ["fad_black_hole", "inanimate"] },
+        "minecraft:collision_box": { "width": 0, "height": 0 },
+        "minecraft:physics": { "has_gravity": false, "has_collision": false },
+        "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+        "minecraft:knockback_resistance": { "value": 1 },
+        "minecraft:fire_immune": {},
+        "minecraft:persistent": {},
+        "minecraft:damage_sensor": {
+          "triggers": [ { "cause": "all", "deals_damage": "no" } ]
+        },
+        "minecraft:tick_world": {
+          "never_despawn": true,
+          "distance_to_players": 512,
+          "radius": 6
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {}
+    },
+    "events": {
+      "fad:apply_vanilla_dragon": {
+        "add": { "component_groups": [ "fad:vanilla_dragon" ] }
+      },
+      "fad:become_black_hole": {
+        "remove": { "component_groups": [ "fad:vanilla_dragon" ] },
+        "add": { "component_groups": [ "fad:black_hole" ] }
+      }
+    }
+  }
+}

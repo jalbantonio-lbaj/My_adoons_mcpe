@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "extra_utilities:trash_can",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.trash"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "trash_can",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:geometry": "geometry.trash_can",
+			"minecraft:display_name": "Trash Can\n§o§9Extra Utilities",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:custom_components": [
+				"extra_utilities:placed"
+			],
+			"tag:stone": {},
+			"tag:minecraft:iron_tier_destructible": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "neutronpile_a69383ad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutron",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:neutronpile",
+      "count": 1
+    }
+  }
+}

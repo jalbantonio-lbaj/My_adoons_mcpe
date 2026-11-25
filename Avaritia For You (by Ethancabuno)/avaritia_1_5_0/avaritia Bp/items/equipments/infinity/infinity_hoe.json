@@ -1,0 +1,68 @@
+{//File Made by @Athan213
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_hoe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.hoe",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_hoe"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_hoe.name\n%attribute.super_plow\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_tools",
+          "minecraft:is_hoe"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 4,
+      "minecraft:enchantable": {
+        "value": 500000000,
+        "slot": "hoe"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          { "block": "minecraft:beetroot", "speed": 500000000 },
+          { "block": "minecraft:cactus", "speed": 500000000 },
+          { "block": "minecraft:carrots", "speed": 500000000 },
+          { "block": "minecraft:crimson_roots", "speed": 500000000 },
+          { "block": "minecraft:double_plant", "speed": 500000000 },
+          { "block": "minecraft:honey_block", "speed": 500000000 },
+          { "block": "minecraft:kelp", "speed": 500000000 },
+          { "block": "minecraft:leaves", "speed": 500000000 },
+          { "block": "minecraft:leaves2", "speed": 500000000 },
+          { "block": "minecraft:melon_stem", "speed": 500000000 },
+          { "block": "minecraft:nether_wart", "speed": 500000000 },
+          { "block": "minecraft:nether_wart_block", "speed": 500000000 },
+          { "block": "minecraft:potatoes", "speed": 500000000 },
+          { "block": "minecraft:pumpkin_stem", "speed": 500000000 },
+          { "block": "minecraft:sapling", "speed": 500000000 },
+          { "block": "minecraft:seagrass", "speed": 500000000 },
+          { "block": "minecraft:shroomlight", "speed": 500000000 },
+          { "block": "minecraft:slime", "speed": 500000000 },
+          { "block": "minecraft:warped_wart_block", "speed": 500000000 },
+          {
+            "block": {
+              "tags": "query.any_tag('leaves', 'minecraft:is_hoe_item_destructible')"
+            },
+            "speed": 500000000
+          }
+        ]
+      }
+    }
+  }
+}

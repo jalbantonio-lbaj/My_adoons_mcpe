@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§7⋰§bMrGaming's OP Tools Add-on§7⋱ V-4.0.8",
+		"description": "§6§lExperimental Features §7: §cREQUIRED \n§bMade By §2mrgamingisop",
+		"uuid": "1b9de74c-013c-4ac5-892c-24c4ac6f212a",
+		"version": [
+			4,
+			0,
+			8
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "4db4d533-ceae-4a3b-b207-f40090e96c39",
+			"version": [
+				4,
+				0,
+				8
+			]
+		}
+	]
+}

@@ -1,0 +1,437 @@
+{
+  "avaritia:asgardandelion": {
+    "emc_value": 24641578968
+  },
+  "avaritia:asgardandelion_item": {
+    "emc_value": 24641578968
+  },
+  "avaritia:avaritia_guide": {
+    "emc_value": 557344
+  },
+  "avaritia:blaze_axe": {
+    "emc_value": 198929
+  },
+  "avaritia:blaze_boots": {
+    "emc_value": 162096
+  },
+  "avaritia:blaze_bow": {
+    "emc_value": 528578
+  },
+  "avaritia:blaze_chestplate": {
+    "emc_value": 270384
+  },
+  "avaritia:blaze_cube": {
+    "emc_value": 26472
+  },
+  "avaritia:blaze_cube_block": {
+    "emc_value": 238248
+  },
+  "avaritia:blaze_helmet": {
+    "emc_value": 218112
+  },
+  "avaritia:blaze_hoe": {
+    "emc_value": 223865
+  },
+  "avaritia:blaze_leggings": {
+    "emc_value": 400776
+  },
+  "avaritia:blaze_pickaxe": {
+    "emc_value": 304049
+  },
+  "avaritia:blaze_shovel": {
+    "emc_value": 195761
+  },
+  "avaritia:blaze_spear": {
+    "emc_value": 197106
+  },
+  "avaritia:blaze_wind_charge": {
+    "emc_value": 12618
+  },
+  "avaritia:compressed_chest": {
+    "emc_value": 171008
+  },
+  "avaritia:compressed_crafting_table": {
+    "emc_value": 419507
+  },
+  "avaritia:cosmic_meatballs": {
+    "emc_value": 1024
+  },
+  "avaritia:crystal_axe": {
+    "emc_value": 190468608
+  },
+  "avaritia:crystal_boots": {
+    "emc_value": 333842432
+  },
+  "avaritia:crystal_bow": {
+    "emc_value": 161572864
+  },
+  "avaritia:crystal_chestplate": {
+    "emc_value": 509288448
+  },
+  "avaritia:crystal_helmet": {
+    "emc_value": 316280320
+  },
+  "avaritia:crystal_hoe": {
+    "emc_value": 315850752
+  },
+  "avaritia:crystal_leggings": {
+    "emc_value": 424141824
+  },
+  "avaritia:crystal_matrix_block": {
+    "emc_value": 26320896
+  },
+  "avaritia:crystal_matrix_ingot": {
+    "emc_value": 2924544
+  },
+  "avaritia:crystal_pickaxe": {
+    "emc_value": 278204928
+  },
+  "avaritia:crystal_shovel": {
+    "emc_value": 67264512
+  },
+  "avaritia:crystal_spear": {
+    "emc_value": 188290560
+  },
+  "avaritia:crystal_sword": {
+    "emc_value": 251884032
+  },
+  "avaritia:crystal_wind_charge": {
+    "emc_value": 23953738
+  },
+  "avaritia:ctable": {
+    "emc_value": 288
+  },
+  "avaritia:dctable": {
+    "emc_value": 2592
+  },
+  "avaritia:dense_neutron_collector": {
+    "emc_value": 205419520
+  },
+  "avaritia:dense_neutron_compressor": {
+    "emc_value": 151632960
+  },
+  "avaritia:denser_neutron_collector": {
+    "emc_value": 2054195200
+  },
+  "avaritia:denser_neutron_compressor": {
+    "emc_value": 1516329600
+  },
+  "avaritia:densest_neutron_collector": {
+    "emc_value": 20541952000
+  },
+  "avaritia:densest_neutron_compressor": {
+    "emc_value": 37908240000
+  },
+  "avaritia:diamond_lattice": {
+    "emc_value": 139264
+  },
+  "avaritia:diamond_lattice_block": {
+    "emc_value": 1253376
+  },
+  "avaritia:dire_crafting_table": {
+    "emc_value": 475888088
+  },
+  "avaritia:double_compressed_crafting_table": {
+    "emc_value": 695740
+  },
+  "avaritia:endest_pearl": {
+    "emc_value": 337944
+  },
+  "avaritia:endless_cake": {
+    "emc_value": 21236642862
+  },
+  "avaritia:enhancement_core": {
+    "emc_value": 20202003832
+  },
+  "avaritia:extreme_anvil": {
+    "emc_value": 21406621777
+  },
+  "avaritia:extreme_smithing_table": {
+    "emc_value": 15836520464
+  },
+  "avaritia:full_matter_cluster": {
+    "emc_value": 169869312
+  },
+  "avaritia:infinity_axe": {
+    "emc_value": 13493166072
+  },
+  "avaritia:infinity_block": {
+    "emc_value": 11039659560
+  },
+  "avaritia:infinity_book": {
+    "emc_value": 11909759977
+  },
+  "avaritia:infinity_boots": {
+    "emc_value": 12267615504
+  },
+  "avaritia:infinity_bottle": {
+    "emc_value": 108823437
+  },
+  "avaritia:infinity_bow": {
+    "emc_value": 12292609632
+  },
+  "avaritia:infinity_bucket": {
+    "emc_value": 21236380808
+  },
+  "avaritia:infinity_bucket_drink": {
+    "emc_value": 21236380808
+  },
+  "avaritia:infinity_catalyst": {
+    "emc_value": 108762552
+  },
+  "avaritia:infinity_chest": {
+    "emc_value": 32276582240
+  },
+  "avaritia:infinity_chestplate": {
+    "emc_value": 29466698688
+  },
+  "avaritia:infinity_clock": {
+    "emc_value": 21341846264
+  },
+  "avaritia:infinity_collector": {
+    "emc_value": 39215044504
+  },
+  "avaritia:infinity_crossbow": {
+    "emc_value": 14960412824
+  },
+  "avaritia:infinity_crossbow_loaded_arrow": {
+    "emc_value": 14960412824
+  },
+  "avaritia:infinity_crossbow_loaded_firework": {
+    "emc_value": 14960412824
+  },
+  "avaritia:infinity_destroyer": {
+    "emc_value": 23306196792
+  },
+  "avaritia:infinity_elytra": {
+    "emc_value": 21262871864
+  },
+  "avaritia:infinity_hammer": {
+    "emc_value": 23332559160
+  },
+  "avaritia:infinity_helmet": {
+    "emc_value": 23524095144
+  },
+  "avaritia:infinity_hoe": {
+    "emc_value": 19626310272
+  },
+  "avaritia:infinity_ingot": {
+    "emc_value": 1226628840
+  },
+  "avaritia:infinity_leggings": {
+    "emc_value": 22351186368
+  },
+  "avaritia:infinity_mace": {
+    "emc_value": 7395059056
+  },
+  "avaritia:infinity_neutron_compressor": {
+    "emc_value": 37870331760000
+  },
+  "avaritia:infinity_nugget": {
+    "emc_value": 136292093
+  },
+  "avaritia:infinity_pickaxe": {
+    "emc_value": 23332559160
+  },
+  "avaritia:infinity_ring": {
+    "emc_value": 21496032008
+  },
+  "avaritia:infinity_shears": {
+    "emc_value": 2453257680
+  },
+  "avaritia:infinity_shield": {
+    "emc_value": 14882144432
+  },
+  "avaritia:infinity_shovel": {
+    "emc_value": 23306196792
+  },
+  "avaritia:infinity_spear": {
+    "emc_value": 7629592872
+  },
+  "avaritia:infinity_sword": {
+    "emc_value": 19746605112
+  },
+  "avaritia:infinity_tnt": {
+    "emc_value": 108852440
+  },
+  "avaritia:infinity_totem": {
+    "emc_value": 21241163613
+  },
+  "avaritia:infinity_trident": {
+    "emc_value": 8888300048
+  },
+  "avaritia:infinity_umbrella": {
+    "emc_value": 14735234359
+  },
+  "avaritia:infinity_upgrade": {
+    "emc_value": 1677928424
+  },
+  "avaritia:jeb_carpet": {
+    "emc_value": 5461
+  },
+  "avaritia:jeb_wool": {
+    "emc_value": 8192
+  },
+  "avaritia:neutron_collector": {
+    "emc_value": 20541952
+  },
+  "avaritia:neutron_pile": {
+    "emc_value": 512
+  },
+  "avaritia:neutron_ring": {
+    "emc_value": 150720024
+  },
+  "avaritia:neutronium_axe": {
+    "emc_value": 1036800
+  },
+  "avaritia:neutronium_block": {
+    "emc_value": 373248
+  },
+  "avaritia:neutronium_compressor": {
+    "emc_value": 30326592
+  },
+  "avaritia:neutronium_decompressor": {
+    "emc_value": 39225216
+  },
+  "avaritia:neutronium_gear": {
+    "emc_value": 170496
+  },
+  "avaritia:neutronium_hoe": {
+    "emc_value": 912384
+  },
+  "avaritia:neutronium_horse_armor": {
+    "emc_value": 21236444044
+  },
+  "avaritia:neutronium_ingot": {
+    "emc_value": 41472
+  },
+  "avaritia:neutronium_mace": {
+    "emc_value": 2014720
+  },
+  "avaritia:neutronium_mobile": {
+    "emc_value": 918080
+  },
+  "avaritia:neutronium_nugget": {
+    "emc_value": 4608
+  },
+  "avaritia:neutronium_pickaxe": {
+    "emc_value": 1078272
+  },
+  "avaritia:neutronium_shovel": {
+    "emc_value": 953856
+  },
+  "avaritia:neutronium_sword": {
+    "emc_value": 1119744
+  },
+  "avaritia:neutronium_wind_charge": {
+    "emc_value": 418680
+  },
+  "avaritia:portable_blaze_burner": {
+    "emc_value": 4044
+  },
+  "avaritia:record_fragment": {
+    "emc_value": 256
+  },
+  "avaritia:refined_coal": {
+    "emc_value": 5632
+  },
+  "avaritia:refined_coal_block": {
+    "emc_value": 50688
+  },
+  "avaritia:refined_coal_block_item": {
+    "emc_value": 50688
+  },
+  "avaritia:sculk_crafting_table": {
+    "emc_value": 19472
+  },
+  "avaritia:side_config_card": {
+    "emc_value": 142592
+  },
+  "avaritia:simple_neutron_collector": {
+    "emc_value": 11748096
+  },
+  "avaritia:simple_neutron_compressor": {
+    "emc_value": 30144192
+  },
+  "avaritia:singularity_aetherium": {
+    "emc_value": 58982400
+  },
+  "avaritia:singularity_bronze": {
+    "emc_value": 1843200
+  },
+  "avaritia:singularity_coal": {
+    "emc_value": 460800
+  },
+  "avaritia:singularity_copper": {
+    "emc_value": 691200
+  },
+  "avaritia:singularity_diamond": {
+    "emc_value": 14745600
+  },
+  "avaritia:singularity_emerald": {
+    "emc_value": 29491200
+  },
+  "avaritia:singularity_energized_iron": {
+    "emc_value": 691200
+  },
+  "avaritia:singularity_eternal": {
+    "emc_value": 105312000
+  },
+  "avaritia:singularity_gold": {
+    "emc_value": 3686400
+  },
+  "avaritia:singularity_iron": {
+    "emc_value": 921600
+  },
+  "avaritia:singularity_lapis": {
+    "emc_value": 3110400
+  },
+  "avaritia:singularity_netherite": {
+    "emc_value": 51609600
+  },
+  "avaritia:singularity_quartz": {
+    "emc_value": 307200
+  },
+  "avaritia:singularity_redstone": {
+    "emc_value": 288000
+  },
+  "avaritia:singularity_silicon": {
+    "emc_value": 921600
+  },
+  "avaritia:singularity_steel": {
+    "emc_value": 1843200
+  },
+  "avaritia:singularity_stew": {
+    "emc_value": 52661072
+  },
+  "avaritia:singularity_tin": {
+    "emc_value": 2764800
+  },
+  "avaritia:singularity_titanium": {
+    "emc_value": 2764800
+  },
+  "avaritia:singularity_uranium": {
+    "emc_value": 2764800
+  },
+  "avaritia:skullfire_sword": {
+    "emc_value": 225065
+  },
+  "avaritia:star_dessert": {
+    "emc_value": 10974672
+  },
+  "avaritia:star_fuel_block": {
+    "emc_value": 1494025380
+  },
+  "avaritia:star_fuel_block_item": {
+    "emc_value": 1494025380
+  },
+  "avaritia:starfuel": {
+    "emc_value": 166002820
+  },
+  "avaritia:ultimate_stew": {
+    "emc_value": 928
+  },
+  "avaritia:upgrade_smithing_template": {
+    "emc_value": 1034374592
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "full_matter_cluster",
+    "metalness_emissive_roughness": "full_matter_cluster_mer"
+  }
+}

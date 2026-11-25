@@ -1,0 +1,142 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:infinity_rope",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "avaritia:x": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:y": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:z": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:target_x": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:target_y": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:target_z": {
+          "client_sync": true,
+          "type": "float",
+          "default": 0.0,
+          "range": [
+            -30000000.0,
+            30000000.0
+          ]
+        },
+        "avaritia:initialized": {
+          "client_sync": true,
+          "type": "bool",
+          "default": false
+        },
+        "avaritia:variant": {
+          "client_sync": true,
+          "type": "int",
+          "default": 0,
+          "range": [
+            0,
+            100
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:transient": {},
+      "minecraft:dimension_bound": {},
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "avaritia:infinity_rope"
+        ]
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      },
+      "debug": {
+        "minecraft:collision_box": {
+          "height": 1,
+          "width": 1
+        }
+      }
+    },
+    "events": {
+      "avaritia:despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      },
+      "avaritia:debug": {
+        "add": {
+          "component_groups": [
+            "debug"
+          ]
+        }
+      }
+    }
+  }
+}

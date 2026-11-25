@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "singularity_emerald_strip",
+    "metalness_emissive_roughness": "singularity_emerald_strip_mer"
+  }
+}

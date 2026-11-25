@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "tunekeshi:irom_golem_farm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CCC",
+      "CAC",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:redstone"
+      },
+      "C": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "tunekeshi:iron_golem_farm"
+    }
+  }
+}

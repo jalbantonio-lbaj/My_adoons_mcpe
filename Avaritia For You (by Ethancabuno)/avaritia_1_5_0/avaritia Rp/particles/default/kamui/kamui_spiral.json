@@ -1,0 +1,78 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "fad:kamui_spiral",
+      "basic_render_parameters": {
+        "material": "particles_add",
+        "texture": "textures/particle/space_warp_streak"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 50,
+        "max_particles": 90
+      },
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 20
+      },
+      "minecraft:emitter_shape_point": {
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "math.random(1.2, 1.6)"
+      },
+      "minecraft:particle_initial_speed": 0,
+      "minecraft:particle_motion_parametric": {
+        "relative_position": [
+          "((2.6 + variable.particle_random_1 * 0.7) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 1.6)) * math.cos(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))",
+          "(variable.particle_random_3 - 0.5) * 0.9 * ((2.6 + variable.particle_random_1 * 0.7) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 1.6))",
+          "((2.6 + variable.particle_random_1 * 0.7) * math.pow(math.max(1 - (variable.particle_age / variable.particle_lifetime), 0), 1.6)) * math.sin(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))"
+        ]
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "0.25 + 0.75 * (variable.particle_age / variable.particle_lifetime)",
+          "0.06 + 0.05 * (1 - (variable.particle_age / variable.particle_lifetime))"
+        ],
+        "facing_camera_mode": "direction_x",
+        "direction": {
+          "mode": "custom",
+          "custom_direction": [
+            "-math.sin(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime))) - 0.25 * math.cos(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))",
+            "0",
+            "math.cos(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime))) - 0.25 * math.sin(((math.floor(variable.particle_random_2 * 4) * 90 + variable.particle_random_4 * 16) + 300 * (variable.particle_age / variable.particle_lifetime) + 900 * (variable.particle_age / variable.particle_lifetime) * (variable.particle_age / variable.particle_lifetime)))"
+          ]
+        },
+        "uv": {
+          "texture_width": 64,
+          "texture_height": 16,
+          "uv": [
+            0,
+            0
+          ],
+          "uv_size": [
+            64,
+            16
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": {
+          "gradient": {
+            "0.0": "#00B27CFF",
+            "0.15": "#CCB58CFF",
+            "0.6": "#FFD9C2FF",
+            "0.9": "#FFFFFFFF",
+            "1.0": "#00FFFFFF"
+          },
+          "interpolant": "(variable.particle_age / variable.particle_lifetime)"
+        }
+      }
+    }
+  }
+}

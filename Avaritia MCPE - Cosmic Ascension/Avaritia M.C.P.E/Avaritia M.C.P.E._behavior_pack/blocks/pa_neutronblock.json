@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:neutronblock",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#0B0101",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 4,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_neutronblock",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "tag:wood": {},
+      "pa_neutronblock:trigger": {}
+    },
+    "events": {}
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:blaze_cube_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "blaze_cube_block",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 25
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1200
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 10,
+      "minecraft:map_color": "#e5a02c",
+      "minecraft:display_name": "tile.avaritia:blaze_cube_block.name"
+    }
+  }
+}

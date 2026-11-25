@@ -1,0 +1,269 @@
+{
+  "resource_pack_name": "Avaritia",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "anim_neon_crystal": { "textures": "textures/blocks/anim/neon_crystal" },
+    "avaritia_infinity_shield": {
+      "textures": "textures/avaritia/shield/shield"
+    },
+    "gacha_machine_side": {
+      "textures": "textures/blocks/gacha_machine_side"
+    },
+    "gacha_machine_top": {
+      "textures": "textures/blocks/gacha_machine_top"
+    },
+    "asgardandelion": {
+      "textures": [
+        "textures/blocks/asgardandelion"
+      ]
+    },
+    "neutronium_block": {
+      "textures": [
+        "textures/blocks/neutronium_block"
+      ]
+    },
+    "anim_neutronium_block": {
+      "textures": "textures/blocks/anim/neutronium_block"
+    },
+    "air": {
+      "textures": [
+        "textures/avaritia/misc/air"
+      ]
+    },
+    "crystal_matrix_block": {
+      "textures": [
+        "textures/blocks/crystal_matrix_block"
+      ]
+    },
+    "infinity_block": {
+      "textures": [
+        "textures/blocks/infinity_block"
+      ]
+    },
+    "double_compressed_crafting_table": {
+      "textures": [
+        "textures/blocks/double_compressed_crafting_table"
+      ]
+    },
+    "compressed_crafting_table": {
+      "textures": [
+        "textures/blocks/compressed_crafting_table"
+      ]
+    },
+    "neutronium_compressor_top": {
+      "textures": [
+        "textures/blocks/machine/compressor_top"
+      ]
+    },
+    "neutronium_compressor_front": {
+      "textures": [
+        "textures/blocks/machine/compressor_front"
+      ]
+    },
+    "neutron_collector_top": {
+      "textures": [
+        "textures/blocks/machine/collector_top"
+      ]
+    },
+    "neutron_collector_front": {
+      "textures": [
+        "textures/blocks/machine/collector_front"
+      ]
+    },
+    "record_furnace_front": {
+      "textures": [
+        "textures/blocks/machine/record_furnace_front"
+      ]
+    },
+    "record_furnace_top": {
+      "textures": [
+        "textures/blocks/machine/record_furnace_top"
+      ]
+    },
+    "record_furnace_side": {
+      "textures": [
+        "textures/blocks/machine/record_furnace_side"
+      ]
+    },
+    "machine_side": {
+      "textures": [
+        "textures/blocks/machine/machine_side"
+      ]
+    },
+    "dire_crafting_table_top": {
+      "textures": [
+        "textures/blocks/dire_crafting_table_top"
+      ]
+    },
+    "dire_crafting_table_side": {
+      "textures": [
+        "textures/blocks/dire_crafting_table_side"
+      ]
+    },
+    "anim_amethyst_singularity": {
+      "textures": "textures/blocks/anim/amethyst_singularity"
+    },
+    "anim_coal_singularity": {
+      "textures": "textures/blocks/anim/coal_singularity"
+    },
+    "anim_copper_singularity": {
+      "textures": "textures/blocks/anim/copper_singularity"
+    },
+    "anim_diamond_singularity": {
+      "textures": "textures/blocks/anim/diamond_singularity"
+    },
+    "anim_emerald_singularity": {
+      "textures": "textures/blocks/anim/emerald_singularity"
+    },
+    "anim_experience_singularity": {
+      "textures": "textures/blocks/anim/experience_singularity"
+    },
+    "anim_gold_singularity": {
+      "textures": "textures/blocks/anim/gold_singularity"
+    },
+    "anim_honey_singularity": {
+      "textures": "textures/blocks/anim/honey_singularity"
+    },
+    "anim_iron_singularity": {
+      "textures": "textures/blocks/anim/iron_singularity"
+    },
+    "anim_lapis_singularity": {
+      "textures": "textures/blocks/anim/lapis_singularity"
+    },
+    "anim_netherite_singularity": {
+      "textures": "textures/blocks/anim/netherite_singularity"
+    },
+    "anim_obsidian_singularity": {
+      "textures": "textures/blocks/anim/obsidian_singularity"
+    },
+    "anim_quartz_singularity": {
+      "textures": "textures/blocks/anim/quartz_singularity"
+    },
+    "anim_redstone_singularity": {
+      "textures": "textures/blocks/anim/redstone_singularity"
+    },
+    "anim_slime_singularity": {
+      "textures": "textures/blocks/anim/slime_singularity"
+    },
+    "anim_soul_sand_singularity": {
+      "textures": "textures/blocks/anim/soul_sand_singularity"
+    },
+    "anim_ultimate_singularity": {
+      "textures": "textures/blocks/anim/ultimate_singularity"
+    },
+    "anim_infinity_ingot": {
+      "textures": "textures/blocks/anim/infinity_ingot"
+    },
+    "anim_infinity_nugget": {
+      "textures": "textures/blocks/anim/infinity_nugget"
+    },
+    "anim_infinity_catalyst": {
+      "textures": "textures/blocks/anim/infinity_catalyst"
+    },
+    "anim_endest_pearl": {
+      "textures": "textures/blocks/anim/endest_pearl"
+    },
+    "anim_cosmic_meatballs": {
+      "textures": "textures/blocks/anim/cosmic_meatballs"
+    },
+    "anim_ultimate_stew": {
+      "textures": "textures/blocks/anim/ultimate_stew"
+    },
+    "anim_neutronium_gear": {
+      "textures": "textures/blocks/anim/neutronium_gear"
+    },
+    "anim_neutronium_ingot": {
+      "textures": "textures/blocks/anim/neutronium_ingot"
+    },
+    "anim_neutronium_nugget": {
+      "textures": "textures/blocks/anim/neutronium_nugget"
+    },
+    "anim_pile_of_neutrons": {
+      "textures": "textures/blocks/anim/pile_of_neutrons"
+    },
+    "anim_neutronium_star": {
+      "textures": "textures/blocks/anim/neutronium_star"
+    },
+    "gacha_machine_front": {
+      "textures": [
+        "textures/blocks/machine/gacha_front"
+      ]
+    },
+    "gacha_machine_bottom": {
+      "textures": "textures/blocks/gacha_machine_bottom"
+    },
+    "avaritia_fire_red": {
+      "textures": "textures/blocks/avaritia_fire/red"
+    },
+    "avaritia_fire_orange": {
+      "textures": "textures/blocks/avaritia_fire/orange"
+    },
+    "avaritia_fire_yellow": {
+      "textures": "textures/blocks/avaritia_fire/yellow"
+    },
+    "avaritia_fire_green": {
+      "textures": "textures/blocks/avaritia_fire/green"
+    },
+    "avaritia_fire_light_blue": {
+      "textures": "textures/blocks/avaritia_fire/light_blue"
+    },
+    "avaritia_fire_blue": {
+      "textures": "textures/blocks/avaritia_fire/blue"
+    },
+    "avaritia_fire_purple": {
+      "textures": "textures/blocks/avaritia_fire/purple"
+    },
+    "avaritia_fire_pink": {
+      "textures": "textures/blocks/avaritia_fire/pink"
+    },
+    "avaritia_fire_rainbow": {
+      "textures": "textures/blocks/avaritia_fire/rainbow"
+    },
+    "anim_infinity_clock": {
+      "textures": "textures/blocks/anim/infinity_clock"
+    },
+    "infinity_chest_side": {
+      "textures": [
+        "textures/blocks/machine/infinity_chest_side"
+      ]
+    },
+    "infinity_chest_top": {
+      "textures": [
+        "textures/blocks/machine/infinity_chest_top"
+      ]
+    },
+    "infinity_chest_front": {
+      "textures": [
+        "textures/blocks/machine/infinity_chest_front"
+      ]
+    },
+    "infinity_chest_inner": {
+      "textures": [
+        "textures/blocks/machine/infinity_chest_inner"
+      ]
+    },
+    "anim_glowstone_singularity": {
+      "textures": "textures/blocks/anim/glowstone_singularity"
+    },
+    "anim_prismarine_singularity": {
+      "textures": "textures/blocks/anim/prismarine_singularity"
+    },
+    "anim_end_stone_singularity": {
+      "textures": "textures/blocks/anim/end_stone_singularity"
+    },
+    "anim_magma_singularity": {
+      "textures": "textures/blocks/anim/magma_singularity"
+    },
+    "anim_bone_singularity": {
+      "textures": "textures/blocks/anim/bone_singularity"
+    },
+    "anim_ice_singularity": {
+      "textures": "textures/blocks/anim/ice_singularity"
+    },
+    "anim_netherrack_singularity": {
+      "textures": "textures/blocks/anim/netherrack_singularity"
+    }
+  }
+}

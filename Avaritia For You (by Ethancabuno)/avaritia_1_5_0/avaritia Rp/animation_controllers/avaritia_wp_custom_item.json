@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.avaritia_wp.custom_item": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "wield_fpp"
+          ],
+          "transitions": [
+            {
+              "attack": "t.cattack"
+            }
+          ]
+        },
+        "attack": {
+          "animations": [
+            "wield_fpp",
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "compressed_crafting",
+		"metalness_emissive_roughness": "compressed_crafting_mer",
+		"heightmap": "compressed_crafting_height"
+	}
+}

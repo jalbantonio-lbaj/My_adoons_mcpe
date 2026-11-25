@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ultimatestew_c7887159"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronpile",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:wheat",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:carrot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:potato",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:apple",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:melon_slice",
+        "data": 0
+      },
+      "G": {
+        "item": "minecraft:pumpkin",
+        "data": 0
+      },
+      "H": {
+        "item": "minecraft:cactus",
+        "data": 0
+      },
+      "I": {
+        "item": "minecraft:red_mushroom",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:ultimatestew",
+      "count": 2
+    }
+  }
+}

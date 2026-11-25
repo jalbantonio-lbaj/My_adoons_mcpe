@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:singularity_coal",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "avaritia:singularity",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "avaritia_singularity_coal",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:geometry": "geometry.animated_item_singularity"
+    }
+  }
+}

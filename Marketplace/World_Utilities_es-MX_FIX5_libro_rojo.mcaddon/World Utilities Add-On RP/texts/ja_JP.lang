@@ -1,0 +1,673 @@
+﻿pack.name=世界のユーティリティ アドオン	###Pack name
+pack.description=Minecraft のより良い体験のために作られた数々の新たな道具とユーティリティ。	###Pack description
+
+item.gf_wu:end_frame_breaker=エンドフレーム ブレーカー	###Name of the item in game
+item.gf_wu:explosive_pickaxe=爆発ツルハシ	###Name of the item in game
+item.gf_wu:multiblock_pickaxe=ダイヤモンドマルチブロックツルハシ	###Name of the item in game
+item.gf_wu:omni_tool=ダイヤモンドオムニツール	###Name of the item in game
+item.gf_wu:spawner_wrench=スポナー レンチ	###Name of the item in game
+item.gf_wu:void_chest_item=虚無のチェスト	###Name of the item in game
+item.gf_wu:void_chest=虚無のチェスト	###Name of the item in game
+item.gf_wu:vein_miner=ヴェイン マイナーが無効になりました	###Name of the item in game
+item.gf_wu:vein_miner_on=ヴェイン マイナーが有効になりました	###Name of the item in game
+item.gf_wu:treecapitator=木こりが無効になりました	###Name of the item in game
+item.gf_wu:treecapitator_on=木こりが有効になりました	###Name of the item in game
+item.gf_wu:guide_book=ガイドブック	###Name of the item in game
+item.gf_wu:experience_bottle=経験のボトル	###Name of the item in game
+item.gf_wu:experience_extractor_item=経験抽出器	###Name of the item in game
+item.gf_wu:experience_extractor=経験抽出器	###Name of the item in game
+item.gf_wu:lock=ロック	###Name of the item in game
+item.gf_wu:magnet=マグネット無効	###Name of the item in game
+item.gf_wu:magnet_on=マグネット対応	###Name of the item in game
+item.gf_wu:chunk_minion_spawn_egg=チャンクミニオン	###Name of the item in game
+
+tile.gf_wu:void_chest.name=虚無のチェスト	###Name of the block in game
+tile.gf_wu:experience_extractor.name=経験抽出器	###Name of the block in game
+tile.gf_wu:bridge_builder1.name=Temporary Bridge Block 1	###Name of the block in game
+tile.gf_wu:bridge_builder2.name=Temporary Bridge Block 2	###Name of the block in game
+tile.gf_wu:bridge_builder3.name=Temporary Bridge Block 3	###Name of the block in game
+tile.gf_wu:bridge_builder4.name=Temporary Bridge Block 4	###Name of the block in game
+
+entity.gf_wu:void_chest_entity.name=虚無のチェスト	###Name of the entity in game
+entity.gf_wu:death_waypoint.name=死のウェイポイント	###Name of the entity in game
+entity.gf_wu:chunk_minion.name=チャンクミニオン	###Name of the entity in game
+entity.gf_wu:lock_barrier.name=ロックバリア	###Name of the entity in game
+entity.gf_wu:lock_barrier_double.name=ダブルロックバリア	###Name of the entity in game
+
+item.gf_wu:chunk_borders=チャンクの境界が無効化されました	###Name of the item in game
+item.gf_wu:chunk_borders_on=チャンクの境界が有効化されました	###Name of the item in game
+item.gf_wu:homes=家	###Name of the item in game
+item.gf_wu:miners_lantern=鉱夫のランタン	###Name of the item in game
+
+item.gf_wu:harvester_hoe=ダイヤモンドハーベスターホー	###Name of the item in game
+item.gf_wu:excavator_shovel=ダイヤモンド掘削ショベル	###Name of the item in game
+item.gf_wu:safari_net=サファリネット	###Name of the item in game
+item.gf_wu:miners_essentials=マイナーの必需品が無効化されました	###Name of the item in game
+item.gf_wu:miners_essentials_on=鉱夫の必需品が有効化されました	###Name of the item in game
+item.gf_wu:controller=世界のユーティリティ アドオン コントローラ	###Name of the item in game
+item.gf_wu:update_book=世界のユーティリティ アドオン ブックの更新	###Name of the item in game
+
+gf_wu:death_waypoint.message=あなたはここで死にました	###Death waypoint message
+gf_wu:death_waypoint.in= で 	###Death waypoint message
+
+gf_wu:death_waypoint.private=§cこのウェイポイントは非公開です	###Death waypoint message
+
+gf_wu:home_menu.name=ホームメニュー	###Homes Menu
+gf_wu:home_menu.add=ホームを追加	###Homes Menu
+gf_wu:home_menu.enter_name=名前を入力	###Homes Menu
+gf_wu:home_menu.placeholder_name=ホーム	###Homes Menu
+gf_wu:home_menu.home_added=§aホームが追加されました	###Homes Menu
+gf_wu:home_menu.teleport=テレポート	###Homes Menu
+gf_wu:home_menu.edit_name=名前を編集	###Homes Menu
+gf_wu:home_menu.remove=削除	###Homes Menu
+gf_wu:home_menu.too_long=§cこの名前は長すぎます！
+gf_wu:home_menu.duplicate_name=§cこの名前のホームはすでに存在します！
+
+gf_wu:home_menu.teleport_cancelled=§cテレポートがキャンセルされました！
+
+gf_wu:jig_computer.addon_stats=世界のユーティリティ統計情報	###Header and button for stats in Computers Add-On
+gf_wu:stat_treecapitator=伐採された木	###Name of the statistic
+gf_wu:stat_veinminer=採掘された鉱脈	###Name of the statistic
+gf_wu:stat_endframebreaker=破壊されたエンドポータル フレーム	###Name of the statistic
+gf_wu:stat_explosivepickaxe=爆発ツルハシで起こした爆発	###Name of the statistic
+gf_wu:stat_multiblockpickaxe=マルチブロック ツルハシの使用	###Name of the statistic
+gf_wu:stat_omnitool=オムニ ツールで壊したブロック	###Name of the statistic
+gf_wu:stat_wrench=破壊したスポナー	###Name of the statistic
+gf_wu:stat_voidchest=虚無のチェストで削除されたアイテム	###Name of the statistic
+gf_wu:stat_minersessential=鉱石を溶かした	###Name of the statistic
+gf_wu:stat_excavatorshovel=ショベルショベルの用途	###Name of the statistic
+gf_wu:stat_harvesterhoe=収穫された作物	###Name of the statistic
+gf_wu:stat_safarinet=捕らえられた暴徒たち	###Name of the statistic
+
+gf_wu:stat_experienceextractor=抽出したレベル数	###Name of the statistic
+gf_wu:stat_magnet=マグネットで収集したアイテム数	###Name of the statistic
+gf_wu:stat_lock=ロックされたチェスト数	###Name of the statistic
+gf_wu:stat_chunkminion=チャンクミニオンが設置されていた時間	###Name of the statistic
+
+gf_wu:credits.for.computers=World Utilities Add-On by Gamefam.	###Last line in the stats page
+
+
+gf_wu:info.header=§l§e世界のユーティリティ アドオン	###Header of the guide book
+gf_wu:info.description=§7このアドオンの作者は Gamefam です。	###First line in guide book
+gf_wu:info.recipe=%1§r§l§6クラフト レシピ:	###Used as the global header for showing crafting recipes in guide book
+
+gf_wu:vein_miner.header=§l§cヴェイン マイナー	###Guide book menu title
+gf_wu:vein_miner.button=§l§4ヴェイン マイナー	###Guide book menu title
+gf_wu:vein_miner.description=Vein Minerをアイテムを使用して有効化します。有効化すると、鉱石を1つ採掘するだけで鉱脈全体が自動的に採掘されます。もう一度使用すると無効になります。コントローラーでは、ユーティリティを機能させるためにアイテムをインベントリに所持する必要があるかどうかや、アイテムの耐久値設定を変更できます。	###Guide book menu description
+gf_wu:vein_miner.recipe_ingredients=§7鉄の延べ棒 2 個 §f[§7I§f]%1§r§bダイヤモンドのツルハシ 1 個 §f[§bD§f]%1§r§cレッドストーン 2 個 §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:vein_miner.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:tree_capitator.header=§l§cツリー キャピテーター	###Guide book menu title
+gf_wu:tree_capitator.button=§l§4ツリー キャピテーター	###Guide book menu title
+gf_wu:tree_capitator.description=Tree Capitatorをアイテムを使用して有効化します。有効化すると、原木を1つ壊すだけで木全体が自動的に伐採されます。もう一度使用すると無効になります。コントローラーでは、ユーティリティを機能させるためにアイテムをインベントリに所持する必要があるかどうかや、アイテムの耐久値設定を変更できます。	###Guide book menu description
+gf_wu:tree_capitator.recipe_ingredients=§7鉄の延べ棒 2 個 §f[§7I§f]%1§r§bダイヤモンドの斧 1 個 §f[§bD§f]%1§r§cレッドストーン 2 個 §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:tree_capitator.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:explosive_pickaxe.header=§l§c爆発ツルハシ	###Guide book menu title
+gf_wu:explosive_pickaxe.button=§l§4爆発ツルハシ	###Guide book menu title
+gf_wu:explosive_pickaxe.description=この道具で採掘すると、周りに小さな爆風を発生させて、通り道のブロックを破壊できます。	###Guide book menu description
+gf_wu:explosive_pickaxe.recipe_ingredients=§cTNT 火薬 3 個 §f[§cT§f]%1§r§7棒 2 本 §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:explosive_pickaxe.recipe_table=§f[§cT§f][§cT§f][§cT§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:multiblock_pickaxe.header=§l§cマルチブロックのツルハシ	###Guide book menu title
+gf_wu:multiblock_pickaxe.button=§l§4マルチブロックのツルハシ	###Guide book menu title
+gf_wu:multiblock_pickaxe.description=これまでよりも早く採掘でき、一度に複数のブロックを壊せます。 このツールは、鍛冶台でネザライトバリアントにアップグレードできます。	###Guide book menu description
+gf_wu:multiblock_pickaxe.recipe_ingredients=§bダイヤモンドのツルハシ 3 個 §f[§bD§f]%1§r§7棒 2 本 §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:multiblock_pickaxe.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:end_frame_breaker.header=§l§cエンドフレーム ブレーカー	###Guide book menu title
+gf_wu:end_frame_breaker.button=§l§4エンドフレーム ブレーカー	###Guide book menu title
+gf_wu:end_frame_breaker.description=エンドポータルを簡単に移動させることができます。エンドフレームを採掘すると、地面にドロップします。拾って好きな場所に置き直しましょう。この道具は 12 回しか使えないので注意!	###Guide book menu description
+gf_wu:end_frame_breaker.recipe_ingredients=§eエンドストーン 3 個 §f[§eS§f]%1§r§bダイヤモンドのツルハシ 1 個 §f[§bD§f]%1§r§aエンダーアイ 3 個 §f[§aE§f]%1§r	###Recipe list for guide book
+gf_wu:end_frame_breaker.recipe_table=§f[ ][§aE§f][ ]%1§r§f[§aE§f][§bD§f][§aE§f]%1§r§f[§eS§f][§eS§f][§eS§f]%1§r	###Recipe table
+
+gf_wu:omni_tool.header=§l§cオムニ ツール	###Guide book menu title
+gf_wu:omni_tool.button=§l§4オムニ ツール	###Guide book menu title
+gf_wu:omni_tool.description=この万能の道具で持ち物のスペースを最適化しましょう。ツルハシ、斧、シャベルでどんなブロックでも壊せるようになります。このツールは、鍛冶台でネザライトバリアントにアップグレードできます。	###Guide book menu description
+gf_wu:omni_tool.recipe_ingredients=§6ハチのブロック 6 個 §f[§6H§f]%1§r§dダイヤモンドの斧 1 個 §f[§dA§f]%1§r§bダイヤモンドのツルハシ 1 個 §f[§bP§f]%1§r§cダイヤモンドのシャベル 1 個 §f[§cS§f]%1§r	###Recipe list for guide book
+gf_wu:omni_tool.recipe_table=§f[§6H§f][§dA§f][§6H§f]%1§r§f[§6H§f][§bP§f][§6H§f]%1§r§f[§6H§f][§cS§f][§6H§f]%1§r	###Recipe table
+
+gf_wu:spawner_wrench.header=§l§cスポナー レンチ	###Guide book menu title
+gf_wu:spawner_wrench.button=§l§4スポナー レンチ	###Guide book menu title
+gf_wu:spawner_wrench.description=スポナーをインタラクトして地面に落とすと、必要に応じて置き直せます。この道具は 3 回しか使用できないので注意!	###Guide book menu description
+gf_wu:spawner_wrench.recipe_ingredients=§7鉄の延べ棒 4 個 §f[§7I§f]%1§r§5黒曜石 1 個 §f[§5O§f]%1§r	###Recipe list for guide book
+gf_wu:spawner_wrench.recipe_table=§f[§7I§f][§5O§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:void_chest.header=§l§c虚無のチェスト	###Guide book menu title
+gf_wu:void_chest.button=§l§4虚無のチェスト	###Guide book menu title
+gf_wu:void_chest.description=ごちゃごちゃした持ち物にウンザリ? このアイテムを置いてふたにインタラクトすれば、不要なアイテムを簡単に処分できます。メニューにあるアイテムを置くだけで、ゴミがなくなります!	###Guide book menu description
+gf_wu:void_chest.recipe_ingredients=§6マグマ ブロック 7 個 §f[§6M§f]%1§r§8チェスト 1 個 §f[§8C§f]%1§r§e溶岩入りバケツ 1 個 §f[§eL§f]%1§r	###Recipe list for guide book
+gf_wu:void_chest.recipe_table=§f[§6M§f][§eL§f][§6M§f]%1§r§f[§6M§f][§8C§f][§6M§f]%1§r§f[§6M§f][§6M§f][§6M§f]%1§r	###Recipe table
+
+gf_wu:guide_book.header=§l§cガイドブック	###Guide book menu title
+gf_wu:guide_book.button=§l§4ガイドブック	###Guide book menu title
+gf_wu:guide_book.description=この本には、アドオン内のユーティリティおよび道具に関する情報が載っています。	###Guide book menu description
+gf_wu:guide_book.recipe_ingredients=§c本 1 冊 §f[§cB§f]%1§r§6木のツルハシ 1 個 §f[§6P§f]%1§r§7木のシャベル 1 個 §f[§7S§f]%1§r§5木の斧 1 個 §f[§5A§f]%1§r§a木の剣 1 個 §f[§aW§f]%1§r	###Recipe list for guide book
+gf_wu:guide_book.recipe_table=§f[ ][§6P§f][ ]%1§r§f[§aW§f][§cB§f][§5A§f]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+gf_wu:guide.name=世界のユーティリティ ガイドブック	###Title of the guide book menu
+gf_wu:guide_back=戻る	###Get back to guide book menu
+gf_wu:guide_exit=ガイドブックを閉じる	###Guide book exit button
+
+gf_wu:help.header=§l§cDiscordに参加しよう！	###Guide book help menu title
+gf_wu:help.button=§l§4ヘルプとサポート	###Guide book help menu button
+gf_wu:help.description=World Utilitiesアドオンについてお困りですか？以下のリンクからDiscordに参加すると、最新のアップデート情報を確認したり、不具合を報告したり、新機能をリクエストしたりできます！%1%1§r§9Discord: §r§fhttps://discord.gg/NVs5j7TaMa	###Guide book help menu description
+
+gf_wu:harvester_hoe.header=§l§c収穫鍬	###Guide book menu title
+gf_wu:harvester_hoe.button=§l§4収穫鍬	###Guide book menu button
+gf_wu:harvester_hoe.description=収穫された作物は自動的に再植えされ、再植えに必要な種子を除いて、ドロップがインベントリに追加されます。これは、小麦、ニンジン、ビートルート、ジャガイモ、メロン、カボチャ、ココア、ネザーウォートに有効です。 このツールは、鍛冶台でネザライトバリアントにアップグレードできます。	###Guide book menu description
+gf_wu:harvester_hoe.recipe_ingredients=(形のない)%1§r§sダイヤモンドのくわ 1 個 §f[§sH§f]%1§r§a種 1 個 §f[§aW§f]%1§r§bスイカの種 1 個 §f[§bM§f]%1§r§fカボチャの種 1 個 §f[§fU§f]%1§r§7ココア 1 個 §f[§7O§f]%1§r§2小麦 1 個 §f[§2H§f]%1§r§8ビートルートの種 1 個 §f[§8B§f]%1§r§6ジャガイモ 1 個 §f[§6P§f]%1§r§cンジン 1 個 §f[§cC§f]%1§r	###Recipe list for guide book
+gf_wu:harvester_hoe.recipe_table=§f[§aW§f][§bM§f][§fU§f]%1§r§f[§7O§f][§sH§f][§2H§f]%1§r§f[§8B§f][§6P§f][§cC§f]%1§r	###Recipe table
+
+gf_wu:excavator_shovel.header=§l§c掘削機用シャベル	###Guide book menu title
+gf_wu:excavator_shovel.button=§l§4掘削機用シャベル	###Guide book menu button
+gf_wu:excavator_shovel.description=これまでよりも速く採掘し、一度に複数のブロックを破壊します。 このツールは、鍛冶台でネザライトバリアントにアップグレードできます。	###Guide book menu description
+gf_wu:excavator_shovel.recipe_ingredients=§bダイヤモンドのシャベル 3 個 §f[§bD§f]%1§r§7棒 2 個 §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:excavator_shovel.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:safari_net.header=§l§cサファリネット	###Guide book menu title
+gf_wu:safari_net.button=§l§4サファリネット	###Guide book menu button
+gf_wu:safari_net.description=サファリネットを持ったままモブや動物とインタラクトして捕獲します。新しい家まで移動し、再度インタラクトして落とします。このアイテムの耐久性は1つだけですが、コントローラーで切り替えることができます。	###Guide book menu description
+gf_wu:safari_net.recipe_ingredients=§7糸 8 個 §f[§7C§f]%1§r§6タマゴ 1 個 (標準、ブラウン、またはブルー) §f[§6E§f]%1§r	###Recipe list for guide book
+gf_wu:safari_net.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§6E§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r	###Recipe table
+
+gf_wu:miners_essentials.header=§l§c鉱夫の必需品	###Guide book menu title
+gf_wu:miners_essentials.button=§l§4鉱夫の必需品	###Guide book menu button
+gf_wu:miners_essentials.description=このユーティリティは、アイテムと対話することで有効になります。有効になったら、鉱石を採掘すると、すでに精錬されたバリエーションがドロップされます。無効にするには、もう一度対話します。 コントローラーでユーティリティを機能させるために、アイテムをインベントリに必要とするかどうかを切り替えることができます。	###Guide book menu description
+gf_wu:miners_essentials.recipe_ingredients=§bダイヤモンドのツルハシ 1 個 §f[§bD§f]%1§r§7かまど 8 個 §f[§7F§f]%1§r	###Recipe list for guide book
+gf_wu:miners_essentials.recipe_table=§f[§7F§f][§7F§f][§7F§f]%1§r§f[§7F§f][§bD§f][§7F§f]%1§r§f[§7F§f][§7F§f][§7F§f]%1§r	###Recipe table
+
+gf_wu:controller.header=§l§cコントローラ	###Guide book menu title
+gf_wu:controller.button=§l§4コントローラ	###Guide book menu button
+gf_wu:controller.description=コントローラーを操作して、ツールの耐久度などのさまざまな設定をオンまたはオフにできます。特定のツールやユーティリティも有効または無効にでき、友達と遊ぶのに最適です！この機能は、ワールド内でOP/Admin権限を持つプレイヤーのみ使用できます。	###Guide book menu description
+gf_wu:controller.recipe_ingredients=§6棒 1 個 §f[§6S§f]%1§r§cレッドストーンのブロック 1 個 §f[§cR§f]%1§r§e鉄のブロック 1 個 §f[§eI§f]%1§r§7丸石 4 個 §f[§7C§f]%1§r	###Recipe list for guide book
+gf_wu:controller.recipe_table=§f[ ][§6S§f][ ]%1§r§f[§7C§f][§cR§f][§7C§f]%1§r§f[§7C§f][§eI§f][§7C§f]%1§r	###Recipe table
+
+gf_wu:homes.header=§l§cホーム	###Guide book menu title
+gf_wu:homes.button=§l§4ホーム	###Guide book menu button
+gf_wu:homes.description=ホームのアイテムを使用してホームを設定、編集、削除し、いつでもそこにテレポートできます。ユーザーはデフォルトで最大3つのホームを設定できますが、これはコントローラーで編集可能です。	###Guide book menu description
+gf_wu:homes.recipe_ingredients=§6丸石 5 個 §f[§6C§f]%1§r§c木材 1 個 §f[§cP§f]%1§r§e樫の木のドア 1 個 §f[§eD§f]%1§r	###Recipe list for guide book
+gf_wu:homes.recipe_table=§f[ ][§cP§f][ ]%1§r§f[§6C§f][§eD§f][§6C§f]%1§r§f[§6C§f][§6C§f][§6C§f]%1§r	###Recipe table
+
+gf_wu:chunk_borders.header=§l§cチャンクの境界	###Guide book menu title
+gf_wu:chunk_borders.button=§l§4チャンクの境界	###Guide book menu button
+gf_wu:chunk_borders.description=アイテムと対話することでチャンクの境界ユーティリティを有効にします。有効にすると、チャンクはパーティクルエフェクトで縁取られます。スライムチャンクも異なるエフェクトで表示されます。無効にするには再度対話してください。 コントローラーでユーティリティを機能させるために、アイテムをインベントリに必要とするかどうかを切り替えることができます。	###Guide book menu description
+gf_wu:chunk_borders.recipe_ingredients=§6鉄の延べ棒 2 個 §f[§6I§f]%1§r§cレッドストーンの粉 2 個 §f[§cR§f]%1§r§eロケット花火 1 個 §f[§eF§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_borders.recipe_table=§f[ ][§6I§f][ ]%1§r§f[§cR§f][§eF§f][§cR§f]%1§r§f[ ][§6I§f][ ]%1§r	###Recipe table
+
+gf_wu:death_waypoint.header=§l§c死のウェイポイント	###Guide book menu title
+gf_wu:death_waypoint.button=§l§4死のウェイポイント	###Guide book menu button
+gf_wu:death_waypoint.description=死亡時にアイテムを回収したいですか？今ならできます！チャットボックスで死亡地点の座標を確認し、それに戻ってください。すべてのアイテムが保管されているのを見つけることができます。注：この機能はデフォルトで無効になっており、コントローラーで有効にできます。	###Guide book menu description
+
+gf_wu:miners_lantern.header=§l§c鉱夫のランタン	###Guide book menu title
+gf_wu:miners_lantern.button=§l§4鉱夫のランタン	###Guide book menu button
+gf_wu:miners_lantern.description=暗い洞窟や空洞を探索する際、このランタンを持つと周囲に光が放たれます。また、このランタンをオフハンドに持つこともできます。	###Guide book menu description
+gf_wu:miners_lantern.recipe_ingredients=§6ガラス 5 個 §f[§6G§f]%1§r§cたいまつ 1 個 §f[§cT§f]%1§r§e木材 3 個 §f[§eP§f]%1§r	###Recipe list for guide book
+gf_wu:miners_lantern.recipe_table=§f[§6G§f][§6G§f][§6G§f]%1§r§f[§6G§f][§cT§f][§6G§f]%1§r§f[§eP§f][§eP§f][§eP§f]%1§r	###Recipe table
+
+
+
+gf_wu:lock.header=§l§cロック	###Guide book menu title
+gf_wu:lock.button=§l§4ロック	###Guide book menu button
+gf_wu:lock.description=胸を操作してロックします。ロックされると、あなただけがアクセスできます。サーバー管理者はクリエイティブモードでロックされたチェストを破壊できます。	###Guide book menu description
+gf_wu:lock.recipe_ingredients=§cレッドストーンのたいまつ 1 個 §f[§cR§f]%1§r§7レバー 1 個 §f[§7L§f]%1§r§e金の延べ棒 5 個 §f[§eG§f]%1§r	###Recipe list for guide book
+gf_wu:lock.recipe_table=§f[ ][§eG§f][ ]%1§r§f[§eG§f][§4R§f][§eG§f]%1§r§f[§eG§f][§7L§f][§eG§f]%1§r	###Recipe table
+
+gf_wu:experience_extractor.header=§l§cエクスペリエンスエクストラクター	###Guide book menu title
+gf_wu:experience_extractor.button=§l§4エクスペリエンスエクストラクター	###Guide book menu button
+gf_wu:experience_extractor.description=エクスペリエンスエクストラクターと対話して、希望する量の経験値をボトルの形で選択し保存します。ボトルと対話して、EXPを自分に戻します。	###Guide book menu description
+gf_wu:experience_extractor.recipe_ingredients=§fガラスビン 1 個 §f[§fX§f]%1§r§7鉄の延べ棒 1 個 §f[§7I§f]%1§r§cレッドストーンの粉 2 個 §f[§cR§f]%1§r§6樫の木材 3 個 §f[§6P§f]%1§r	###Recipe list for guide book
+gf_wu:experience_extractor.recipe_table=§f[ ][§fX§f][ ]%1§r§f[§cR§f][§7I§f][§cR§f]%1§r§f[§6P§f][§6P§f][§6P§f]%1§r	###Recipe table
+
+gf_wu:magnet.header=§l§cマグネット	###Guide book menu title
+gf_wu:magnet.button=§l§4マグネット	###Guide book menu button
+gf_wu:magnet.description=アイテムと対話してマグネットユーティリティを有効化します。有効化されると、周囲のアイテムが自動的に拾われ、あなたのインベントリに追加されます。再度対話することで無効化できます。 コントローラーでユーティリティを機能させるために、アイテムをインベントリに必要とするかどうかを切り替えることができます。	###Guide book menu description
+gf_wu:magnet.recipe_ingredients=§7鉄の延べ棒 2 個 §f[§7I§f]%1§r§cレッドストーンの粉 2 個 §f[§cR§f]%1§r§6ハチのブロック 1 個 §f[§6H§f]%1§r	###Recipe list for guide book
+gf_wu:magnet.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§6H§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:chunk_minion.header=§l§cチャンクミニオン	###Guide book menu title
+gf_wu:chunk_minion.button=§l§4チャンクミニオン	###Guide book menu button
+gf_wu:chunk_minion.description=ミニオンを設置して周囲のエリアを常にロード状態に保ちます。これは、農場を稼働させ続けるのに理想的です。ミニオンと対話することでエリアのサイズを調整できます。注意: この機能は、ゴーレム農場のようにプレイヤーが近くにいる必要がある農場には効果がありません。	###Guide book menu description
+gf_wu:chunk_minion.recipe_ingredients=§2エンダーパール 1 個 §f[§2E§f]%1§r§7鉄の延べ棒 4 個 §f[§7I§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_minion.recipe_table=§f[ ][§2E§f][ ]%1§r§f[§7I§f][§7I§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:disenchanter.header=§l§cアンデンチャント	###Guide book menu title
+gf_wu:disenchanter.button=§l§4アンデンチャント	###Guide book menu button
+gf_wu:disenchanter.description=あなたのエンチャントされたアイテムを持って、アンデンチャントとインタラクトして、それをテーブルに置いてください。もう一度インタラクトして、アイテムのエンチャントの数に応じて必要な数の本を提供します。完了すると、それぞれのエンチャントが別々の本として手に入り、元のアイテムが返されます。 しゃがんで操作すると、現在の取引をキャンセルできます。	###Guide book menu description
+gf_wu:disenchanter.recipe_ingredients=§2エメラルドのブロック 1 個 §f[§2E§f]%1§r§7黒曜石 4 個 §f[§7O§f]%1§r§n本 2 個 §f[§nB§f]%1§r	###Recipe list for guide book 
+gf_wu:disenchanter.recipe_table=[ ][§2E§r][ ]\n[§nB§r][§7O§r][§nB§r]\n[§7O§r][§7O§r][§7O§r]	###Recipe table
+
+gf_wu:portal_pad.header=§l§cポータルパッド	###Guide book menu title
+gf_wu:portal_pad.button=§l§4ポータルパッド	###Guide book menu button
+gf_wu:portal_pad.description=エレベーターのようなブロックを使って、あなたの世界の異なるレベル間を移動します。ポータルパッドを他のポータルパッドと§l直接§r上または下に配置します。ブロックに立ち、しゃがんで下にテレポートしたり、ジャンプして上にテレポートしたりします。	###Guide book menu description
+gf_wu:portal_pad.recipe_ingredients=§nピストン§r 1 個 [§nP§r]\n§v重量感知板§r 1 個 [§vO§r]\n	###Recipe list for guide book 
+gf_wu:portal_pad.recipe_table=[ ][ ][ ]\n[ ][§vO§r][ ]\n[ ][§nP§r][ ]\n	###Recipe table
+
+gf_wu:jetpack.header=§l§cジェットパック	###Guide book menu title
+gf_wu:jetpack.button=§l§4ジェットパック	###Guide book menu button
+gf_wu:jetpack.description=ジェットパックを胸の装備スロットに装備して、離陸して飛ぶことができます。飛行には燃料（炭や木炭など）が必要で、使用中にインベントリから自動的に消費されます。各燃料は約1分間の飛行時間を提供します。ダブルジャンプで飛行を開始し、ジャンプで上昇し、しゃがむことで下降します。	###Guide book menu description
+gf_wu:jetpack.recipe_ingredients=§n銅インゴット 4 個§r [§nC§r]\n§7石炭 2 個§r [§7X§r]\n§v溶岩バケツ 1 個§r [§vL§r]\n	###Recipe list for guide book 
+gf_wu:jetpack.recipe_table=[§nC§r][§7X§r][§nC§r]\n[§nC§r][§vL§r][§nC§r]\n[§nC§r][§7X§r][§nC§r]\n	###Recipe table
+
+gf_wu:grab_bag.header=§l§cGrab Bag	###Guide book menu title
+gf_wu:grab_bag.button=§l§4Grab Bag	###Guide book menu button
+gf_wu:grab_bag.description=Shulkerのようなストレージアイテムで、インベントリに最大5つのアイテムスタックを追加で持つことができます。地面に置いてインタラクトして開けます。バッグを壊して拾い、保存されたアイテムを持ち運びます。 Grab Bag は、カラフルな羊毛でクラフトするか、クラフティングテーブルにお好みの染料と一緒に置くことで、好きな色に染めることができます。	###Guide book menu description
+gf_wu:grab_bag.recipe_ingredients=§hウール 5 個§r [§hW§r]\n§eチェスト 1 個§r [§eC§r]\n§i糸 1 個§r [§iS§r]\n	###Recipe list for guide book 
+gf_wu:grab_bag.recipe_table=[ ][§iS§r][ ]\n[§hW§r][§eC§r][§hW§r]\n[§hW§r][§hW§r][§hW§r]\n	###Recipe table
+
+gf_wu:fast_place.header=§l§cFast Place	###Guide book menu title
+gf_wu:fast_place.button=§l§4Fast Place	###Guide book menu button
+gf_wu:fast_place.description=Shiftキーを押しながらFast Placeユーティリティとインタラクトして、ブロック配置の方向や量などの設定を切り替えます。アイテムとインタラクトすることで有効化されます。有効化後、ブロックを配置すると、選択した設定に従って自動的に配置が拡張されます。再度インタラクトして無効化します。 コントローラーでユーティリティを機能させるために、アイテムをインベントリに必要とするかどうかを切り替えることができます。	###Guide book menu description
+gf_wu:fast_place.recipe_ingredients=§i鉄の延べ棒 2 個§r [§iI§r]\n§mレッドストーンの粉 2 個§r [§mR§r]\n§h羽根 1 個§r [§hF§r]\n	###Recipe list for guide book 
+gf_wu:fast_place.recipe_table=[ ][§iI§r][ ]\n[§mR§r][§hF§r][§mR§r]\n[ ][§iI§r][ ]\n	###Recipe table
+
+gf_wu:scuba_tank.header=§l§cScuba Tank	###Guide book menu title
+gf_wu:scuba_tank.button=§l§4Scuba Tank	###Guide book menu button
+gf_wu:scuba_tank.description=このアイテムをオフハンドに装備することで、水中での呼吸時間を延長できます。水中にいる間、残りの酸素がアクションバーに表示されます。酸素を補充するには、タンクをオフハンドに保持したまま、水面に上がればOKです。	###Guide book menu description
+gf_wu:scuba_tank.recipe_ingredients=§n銅インゴット 6 個§r [§nC§r]\n§7ガラスビン 3 個§r [§7G§r]\n	###Recipe list for guide book 
+gf_wu:scuba_tank.recipe_table=[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n	###Recipe table
+
+gf_wu:warps.header=§l§cWarps	###Guide book menu title
+gf_wu:warps.button=§l§4Warps	###Guide book menu button
+gf_wu:warps.description=自分と友達のために、いつでもテレポートできるワープを作成、編集、削除できます。ワープはあなたの世界のすべてのプレイヤーがアクセスできます。デフォルトでは最大5つのワープを作成できますが、この制限やワープの作成・削除に関する権限はコントローラーで調整できます。	###Guide book menu description
+gf_wu:warps.recipe_ingredients=§7丸石 5 個§r [§7C§r]\n§n木の板 1 個§r [§nP§r]\n§bガラス 1 個§r [§bG§r]\n	###Recipe list for guide book 
+gf_wu:warps.recipe_table=[ ][§nP§r][ ]\n[§7C§r][§bG§r][§7C§r]\n[§7C§r][§7C§r][§7C§r]\n	###Recipe table
+
+gf_wu:update_book.name=ワールドユーティリティアップデートブック	###Description of the update book menu
+gf_wu:update_book.thanks=§7§lWorld Utilitiesアドオンをご利用いただきありがとうございます！§r	###Description of the update book menu
+gf_wu:update_book.commit=§7私たちは、サバイバル体験をさらに向上させるために、継続的なアップデートを提供することを約束します。最新のアップデートにおける追加要素を確認するために、変更履歴をご覧ください:§r	###Description of the update book menu
+gf_wu:update_book.main=- お困りですか？サポートは新しいDiscordへご参加ください: https://discord.gg/NVs5j7TaMa \n- クアリーピッケルを追加\n- ディープディガーシャベルを追加\n- なめし棚を追加\n- Ocean Riderを追加\n- プレイヤーヴォルトを追加\n- スタッシュスナッチャーを追加\n- ブリッジビルダーユーティリティを追加\n- 複数のエンチャントが付いたエンチャント本を、ディスエンチャントテーブルで複数冊に分割可能に\n- オムニツールは土の道を作成する際、無効時は耐久値を消費しなくなりました\n- カーペットとハーフブロックをポータルパッドの上に設置可能に\n- じょうろは空でなくても補充可能に\n- じょうろがツツジにも使用可能に\n- サファリネットにエンティティが入っている場合、エンチャントエフェクトが表示されるように\n- オムニツールにクワと剣の機能を追加\n- Tree CapitatorがBiomes O' Plentyのすべての木に対応\n- Miners Essentials有効時、エクスカベーターシャベルが砂をガラスに変換可能に\n- 高度上限でジェットパックを使用すると無限に低速落下と浮遊状態になる問題を修正\n- スキューバタンクが0%到達時に自動補充される問題を修正\n- アメジストブレイカーとエンドフレームブレイカーは、それぞれアメジストとエンドフレームを破壊した場合のみ耐久値を消費するよう変更\n- Vein MinerとTree Capitatorに、耐久値を1だけ消費するか、破壊したブロック数に応じて消費するかを選べる設定を追加\n- モブを攻撃するとじょうろが壊れる問題を修正\n- その他22件のバグ修正、パフォーマンス最適化、改善を実施！	###Description of the update book menu
+gf_wu:update_book.cta=§7アドオンを楽しんでいただけましたら、レビューの投稿をご検討ください！§r	###Description of the update book menu
+gf_wu:update_book.stars=	###Description of the update book menu
+gf_wu:update_book.exit=アップデートブックを終了する	###Update book exit button
+
+
+gf_wu:configuration.name=設定	###Config menu
+gf_wu:configuration.durability=耐久性	###Config menu
+gf_wu:configuration.end_frame_breaker=エンドフレーム ブレーカー	###Config menu
+gf_wu:configuration.excavator_shovel=掘削機用シャベル	###Config menu
+gf_wu:configuration.explosive_pickaxe=爆発ツルハシ	###Config menu
+gf_wu:configuration.harvester_hoe=収穫鍬	###Config menu
+gf_wu:configuration.miners_essentials=鉱夫の必需品	###Config menu
+gf_wu:configuration.multiblock_pickaxe=マルチブロックのツルハシ	###Config menu
+gf_wu:configuration.omni_tool=オムニ ツール	###Config menu
+gf_wu:configuration.safari_net=サファリネット	###Config menu
+gf_wu:configuration.spawner_wrench=スポナー レンチ	###Config menu
+gf_wu:configuration.tree_capitator=ツリーキャピテーター	###Config menu
+gf_wu:configuration.vein_miner=鉱脈採掘者	###Config menu
+gf_wu:configuration.void_chest=虚無のチェスト	###Config menu
+gf_wu:configuration.chunk_borders=チャンクの境界	###Config menu
+gf_wu:configuration.homes=ホーム	###Config menu
+gf_wu:configuration.max_homes=いくつのホームを設定できますか	###Config menu
+gf_wu:configuration.death_waypoint=死のウェイポイント	###Config menu
+gf_wu:configuration.miners_lantern=鉱夫のランタン	###Config menu
+gf_wu:configuration.vein_miner_gravel=鉱脈採掘者が砂利を砕く	###Config menu
+gf_wu:configuration.tree_capitator_leaves=木の捕獲者が葉を壊す	###Config menu
+gf_wu:configuration.max_chunk_minions=最大チャンクミニオン	###Config menu
+gf_wu:configuration.chunk_minion=チャンクミニオン	###Config menu
+gf_wu:configuration.magnet=マグネット	###Config menu
+gf_wu:configuration.magnet_range=マグネットの範囲（ブロック単位）	###Config menu
+gf_wu:configuration.experience_extractor=経験抽出器	###Config menu
+gf_wu:configuration.lock=ロック	###Config menu
+gf_wu:configuration.remove_all_chunk_minions=すべてのチャンクミニオンを削除	###Config menu
+gf_wu:configuration.death_waypoint_accessible_to_all=死亡地点は全員がアクセス可能	###Config menu  
+gf_wu:configuration.magnet_effects_xp=XPオーブに対するマグネット効果	###Config menu  
+gf_wu:configuration.home_teleport_time=ホームテレポートの遅延時間	###Config menu  
+gf_wu:configuration.fast_place=高速配置	###Config menu  
+gf_wu:configuration.scuba_tank=スキューバタンク	###Config menu  
+gf_wu:configuration.grab_bag=グラブバッグ	###Config menu  
+gf_wu:configuration.portal_pad=ポータルパッド	###Config menu  
+gf_wu:configuration.disenchanter=アンチエンチャント	###Config menu  
+gf_wu:configuration.jetpack=ジェットパック	###Config menu  
+gf_wu:configuration.max_warps=設定できるワープの数	###Config menu  
+gf_wu:configuration.warp_teleport_time=ワープテレポートの遅延時間	###Config menu  
+gf_wu:configuration.can_all_players_modify_warps=全員がワープを編集できますか？	###Config menu  
+gf_wu:configuration.module_disabled1=§l§cモジュールが無効です。 §r§7管理者に連絡するか、有効にしてください	###Config menu
+gf_wu:configuration.module_disabled2=§7クリエイティブモードでコントローラーのアイテムメニューを使用して。	###Config menu
+gf_wu:configuration.requires_creative=§cクリエイティブモードではないため、このアイテムを使用できません！	###Controller message when not in creative mode
+
+gf_wu:cannot_place_chest=§cまずチェストのロックを解除してください！	###Warn message
+
+gf_wu:treecapitator.on=§a- [ツリー キャピテーターが有効になりました] -	###Action bar messaging when enabling tree capitator
+gf_wu:treecapitator.off=§c- [ツリー キャピテーターが無効になりました] -	###Action bar messaging when disabling tree capitator
+gf_wu:veinminer.on=§a- [ヴェイン マイナーが有効になりました] -	###Action bar messaging when enabling vein miner
+gf_wu:veinminer.off=§c- [ヴェイン マイナーが無効になりました] -	###Action bar messaging when disabling vein miner
+
+gf_wu:miners_essentials.on=§a- [ 鉱夫の必需品が有効化されました ] -	###Action bar messaging when enabling vein miner
+gf_wu:miners_essentials.off=§c- [ マイナーの必需品が無効化されました ] -	###Action bar messaging when disabling vein miner
+
+gf_wu:chunk_borders.on=§a- [ チャンクの境界が有効化されました ] -	###Action bar messaging when enabling chunk borders
+gf_wu:chunk_borders.off=§c- [ チャンクの境界が無効化されました ] -	###Action bar messaging when disabling chunk borders
+
+gf_wu:magnet.on=§a- [ マグネットが有効化されました ] -	###Action bar messaging when enabling magnet
+gf_wu:magnet.off=§c- [ マグネットが無効化されました ] -	###Action bar messaging when disabling magnet
+
+
+gf_wu:chest.is_locked=§cこのチェストはロックされており、解除されるまで開けることができません。
+gf_wu:chest.unlocked=§aロック解除済み
+gf_wu:chest.locked=§cロック済み
+
+gf_wu:experience_extractor.title=経験抽出器	### Experience Extractor Menu
+gf_wu:experience_extractor.info=プレイヤーから引き出したい経験値の量を選択してください。ボトルに詰めて別の日に保管できます！
+gf_wu:experience_extractor.withdraw_1=7 経験値	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_10=160 経験値	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_30=1395 経験値	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_all=全ての経験値	### Experience Extractor Menu
+gf_wu:experience_extractor.insufficient_xp=§cこの転送に必要なXPが不足しています！	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_successful=§a引き出し成功！	### Experience Extractor Menu
+
+gf_wu:chunk_minion_limit=§cチャンクミニオンの制限に達しました！	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.title=チャンクミニオン	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.radius=チャンクの半径	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.remove=削除	### Chunk Minion Menu
+
+entity.gf_wu:grab_bag_entity.name=グラブバッグ
+entity.gf_wu:lock_barrier_barrel.name=ロックバリアバレル
+
+gf_wu:fast_place.direction=方向
+gf_wu:fast_place.distance=距離
+gf_wu:fast_place.horizontal=水平
+gf_wu:fast_place.is_active=§c警告！現在、ファーストプレイスがアクティブです！§r
+gf_wu:fast_place.incompatible_block=§cこのブロックにはファーストプレイスは互換性がありません！§r
+gf_wu:fast_place.title=ファーストプレイス
+gf_wu:fast_place.vertical=垂直
+gf_wu:fast_place.on=§a- [ ファーストプレイスが有効化されました ] -	###アクションバーで有効化のメッセージ
+gf_wu:fast_place.off=§c- [ ファーストプレイスが無効化されました ] -	###アクションバーで無効化のメッセージ
+
+gf_wu:portal_pad.none_found=§c100ブロック内にポータルが見つかりません！§r
+gf_wu:portal_pad.not_safe=§cテレポートは安全ではありません！§r
+
+gf_wu:warp_menu.warp_added=§aワープが追加されました！§r
+gf_wu:warp_menu.add=追加
+gf_wu:warp_menu.name=ワープメニュー
+gf_wu:warp_menu.no_warps=§cワープは見つかりません！§r
+gf_wu:warp_menu.placeholder_name=ワープ
+gf_wu:warp_menu.duplicate_name=§cこの名前のワープはすでに存在します！
+
+gf_wu:disenchanter.add_item_first=§c最初にアイテムを追加する必要があります！§r
+gf_wu:disenchanter.already_has_item=§cディスエンチャントにはすでにアイテムが入っています！§r
+gf_wu:disenchanter.books_full=§c本のための十分なスペースがありません！§r
+gf_wu:disenchanter.requires_enchanted_item=§cこのアイテムはエンチャントされていません！§r
+gf_wu:disenchanter.requires_book=§cこのアイテムは本ではありません！§r
+
+gf_wu:jetpack.no_fuel=§c燃料がありません。石炭または木炭とインタラクトして再充填してください。§r
+
+item.gf_wu:fast_place=ファストプレイスが無効になっています
+item.gf_wu:fast_place_on=高速設置が有効
+## item.gf_wu:grab_bag=グラブバッグ
+item.gf_wu:scuba_tank=スキューバタンク
+item.gf_wu:warps=ワープ
+item.gf_wu:jetpack=ジェットパック
+item.gf_wu:disenchanter=ディスエンチャント
+item.gf_wu:portal_pad=ポータルパッド
+
+item.gf_wu:amethyst_breaker=アメジスト破壊者
+item.gf_wu:suction_hopper=吸引ホッパー
+item.gf_wu:watering_can=じょうろ
+item.gf_wu:watering_can_filled=水入りじょうろ
+
+gf_wu:amethsyt_breaker.header=§l§cアメジスト破壊者	###Guide book menu title
+gf_wu:amethsyt_breaker.button=§l§4アメジスト破壊者	###Guide book menu button
+gf_wu:amethsyt_breaker.description=芽生えたアメジストを簡単に移動させましょう。芽生えたアメジストを採掘すると、地面に落ちます。それを拾って、好きな場所に置き直しましょう。このツールは12回しか使用できないので注意してください！	###Guide book menu description
+gf_wu:amethsyt_breaker.recipe_ingredients=§uアメジストの欠片 4 個§r [§uA§r]\n§n棒 1 個§r [§nS§r]\n	###Recipe list for guide book
+gf_wu:amethsyt_breaker.recipe_table=[§uA§r][§uA§r][ ]\n[§uA§r][§uA§r][ ]\n[ ][§nS§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.header=§l§c吸引ホッパー	###Guide book menu title
+gf_wu:suction_hopper.button=§l§4吸引ホッパー	###Guide book menu button
+gf_wu:suction_hopper.description=ホッパーを設置すると、一定範囲内のアイテムが自動的に吸い込まれ、下のコンテナに保管されます。ホッパーを操作すると、ピックアップ範囲を調整できるメニューが開きます。また、ホッパーはレッドストーンでオン/オフを切り替えることもできます。	###Guide book menu description
+gf_wu:suction_hopper.recipe_ingredients=§i鉄インゴット 5 個§r [§iI§r]\n§nチェスト 1 個§r [§nC§r]\n§pハチミツブロック 1 個§r [§pH§r]\n	###Recipe list for guide book
+gf_wu:suction_hopper.recipe_table=[§iI§r][§pH§r][§iI§r]\n[§iI§r][§nC§r][§iI§r]\n[ ][§iI§r][ ]\n	###Recipe Recipe Table
+
+gf_wu:watering_can.header=§l§cじょうろ	###Guide book menu title
+gf_wu:watering_can.button=§l§4じょうろ	###Guide book menu button
+gf_wu:watering_can.description=じょうろを使うと作物の成長を早めることができます。クラフトして、水に向かって持った状態で操作すると水が入ります。再度操作すると水をまくことができます。最大10回使用でき、使用後は再補充が必要です。使用時、3×3範囲の作物が成長段階をスキップする可能性があります。また、土や草ブロックを耕地に変えることもできます。	###Guide book menu description
+gf_wu:watering_can.recipe_ingredients=§i鉄インゴット 4 個§r [§iI§r]\n§8バケツ 1 個§r [§8B§r]\n	###Recipe list for guide book
+gf_wu:watering_can.recipe_table=[ ][ ][§iI§r]\n[§iI§r][§iI§r][ ]\n[§8B§r][§iI§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.radius=半径
+
+gf_wu:configuration.amethyst_breaker=アメジスト破壊者	###Config menu
+gf_wu:configuration.suction_hopper=吸引ホッパー	###Config menu
+gf_wu:configuration.watering_can=じょうろ	###Config menu
+
+### NEW ADDED LANGS
+gf_wu:configuration_hint.amethyst_breaker=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.choose_spawner=スポナー レンチを使用するときに、\nどのスポナーを選択できるかを\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.chunk_borders=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.death_waypoint=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.disenchanter=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.end_frame_breaker=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.excavator_shovel=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.experience_extractor=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.explosive_pickaxe=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.fast_place=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.grab_bag=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.harvester_hoe=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.jetpack=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.lock=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.magnet=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.miners_essentials=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.miners_lantern=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.multiblock_pickaxe=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.omni_tool=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.portal_pad=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.safari_net=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.scuba_tank=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.spawner_wrench=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.suction_hopper=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.tree_capitator=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.vein_miner=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.void_chest=この機能をワールドで\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.watering_can=この機能をワールドで\n有効または無効にします。(ヒント)
+
+gf_wu:configuration_hint.max_homes=各ユーザーがワールドで設定できる\nホームの最大数。\n(ヒント)
+gf_wu:configuration_hint.home_teleport_time=ユーザーがテレポートするまで\n待機する時間を設定します。\n(ヒント)
+gf_wu:configuration_hint.max_warps=ワールドに作成できるワープの\n最大数。\n(ヒント)
+gf_wu:configuration_hint.warp_teleport_time=ユーザーがテレポートするまで\n待機する時間を設定します。\n(ヒント)
+gf_wu:configuration_hint.can_all_players_modify_warps=すべてのプレイヤーがワープを\n削除および作成できるようにします。\n(ヒント)
+gf_wu:configuration_hint.max_chunk_minions=ワールドに設置できるチャンク ミニオンの\n最大数を切り替えます。\n(ヒント)
+gf_wu:configuration_hint.remove_all_chunk_minions=すべてのチャンク ミニオンをワールドから\n削除するには有効にします。\n(ヒント)
+gf_wu:configuration_hint.magnet_range=マグネットが機能する範囲\n(ブロック単位)。\n(ヒント)
+gf_wu:configuration_hint.jetpack_speed=ジェットパックの垂直速度を選択します。\n1 が最も遅く、3 が最も速いです。\n(ヒント)
+
+gf_wu:configuration_hint.durability=ワールド ユーティリティの\nアイテムやツールの耐久値を\n有効または無効にします。\n(ヒント)
+gf_wu:configuration_hint.choose_spawner_durability=スポナー レンチの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.spawner_wrench_durability=スポナー レンチの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.amethyst_breaker_durability=アメジスト ブレーカーの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.end_frame_breaker_durability=エンド フレーム ブレーカーの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.excavator_shovel_durability=エクスカベーター ショベルの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.explosive_pickaxe_durability=爆発ツルハシの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.harvester_hoe_durability=ハーベスター クワの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.multiblock_pickaxe_durability=マルチブロック ツルハシの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.omni_tool_durability=オムニ ツールの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.safari_net_durability=サファリ ネットの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+gf_wu:configuration_hint.watering_can_durability=ジョウロの耐久値を\nオンまたはオフに切り替えます。\n(ヒント)
+
+gf_wu:configuration_hint.vein_miner_gravel=ベイン マイナーが砂利を\n壊すかどうかを有効または\n無効にします。(ヒント)
+gf_wu:configuration_hint.tree_capitator_leaves=ツリー キャピテーターが葉を\n壊すかどうかを有効または\n無効にします。(ヒント)
+gf_wu:configuration_hint.death_waypoint_accessible_to_all=死亡ウェイポイントを\nすべてのプレイヤーが\n利用できるかどうかを\n有効または無効にします。(ヒント)
+gf_wu:configuration_hint.magnet_effects_xp=マグネットが経験値オーブを\n引き寄せるかどうかを有効または\n無効にします。(ヒント)
+gf_wu:configuration_hint.need_item_in_inventory=有効化された後、\n機能するためにユーティリティ アイテムを\nインベントリに保持する必要があるかを\n有効または無効にします。\n(ヒント)
+
+gf_wu:configuration.requires_op=§cあなたは管理者ではないため、このアイテムを使用できません！
+gf_wu:configuration.jetpack_speed=ジェットパックの垂直速度
+gf_wu:configuration.global=§l§4グローバル設定
+gf_wu:configuration.need_item_in_inventory=ユーティリティをインベントリに入れる必要がありますか？
+gf_wu:controller_exit=コントローラーを終了
+
+gf_wu:configuration.explosive_pickaxe_durability=耐久値
+gf_wu:configuration.spawner_wrench_durability=耐久値
+gf_wu:configuration.amethyst_breaker_durability=耐久値
+gf_wu:configuration.end_frame_breaker_durability=耐久値
+gf_wu:configuration.excavator_shovel_durability=耐久値
+gf_wu:configuration.harvester_hoe_durability=耐久値
+gf_wu:configuration.multiblock_pickaxe_durability=耐久値
+gf_wu:configuration.omni_tool_durability=耐久値
+gf_wu:configuration.safari_net_durability=耐久値
+gf_wu:configuration.watering_can_durability=耐久値
+
+gf_wu:configuration.choose_spawner=スポナーを選択
+gf_wu:choose_spawner.menu=スポナー レンチ
+gf_wu:choose_spawner.destroy=どのスポナーを破壊しましたか？
+
+item.gf_wu:excavator_shovel_netherite=ネザライト掘削ショベル
+item.gf_wu:omni_tool_netherite=ネザライトオムニツール
+item.gf_wu:harvester_hoe_netherite=ネザライトハーベスターホー
+item.gf_wu:multiblock_pickaxe_netherite=ネザライトマルチブロックツルハシ
+
+item.gf_wu:grab_bag_empty=ブラウングラブバッグ
+item.gf_wu:grab_bag=ブラウングラブバッグ
+
+item.gf_wu:black_grab_bag_empty=ブラックグラブバッグ
+item.gf_wu:black_grab_bag=ブラックグラブバッグ
+
+item.gf_wu:blue_grab_bag_empty=ブルーグラブバッグ
+item.gf_wu:blue_grab_bag=ブルーグラブバッグ
+
+item.gf_wu:cyan_grab_bag_empty=シアンカラーグラブバッグ
+item.gf_wu:cyan_grab_bag=シアンカラーグラブバッグ
+
+item.gf_wu:gray_grab_bag_empty=グレーグラブバッグ
+item.gf_wu:gray_grab_bag=グレーグラブバッグ
+
+item.gf_wu:green_grab_bag_empty=グリーングラブバッグ
+item.gf_wu:green_grab_bag=グリーングラブバッグ
+
+item.gf_wu:light_blue_grab_bag_empty=ライトブルーグラブバッグ
+item.gf_wu:light_blue_grab_bag=ライトブルーグラブバッグ
+
+item.gf_wu:light_gray_grab_bag_empty=ライトグレーグラブバッグ
+item.gf_wu:light_gray_grab_bag=ライトグレーグラブバッグ
+
+item.gf_wu:lime_grab_bag_empty=ライムグラブバッグ
+item.gf_wu:lime_grab_bag=ライムグラブバッグ
+
+item.gf_wu:magenta_grab_bag_empty=マゼンタグラブバッグ
+item.gf_wu:magenta_grab_bag=マゼンタグラブバッグ
+
+item.gf_wu:orange_grab_bag_empty=オレンジグラブバッグ
+item.gf_wu:orange_grab_bag=オレンジグラブバッグ
+
+item.gf_wu:pink_grab_bag_empty=ピンクグラブバッグ
+item.gf_wu:pink_grab_bag=ピンクグラブバッグ
+
+item.gf_wu:purple_grab_bag_empty=パープルグラブバッグ
+item.gf_wu:purple_grab_bag=パープルグラブバッグ
+
+item.gf_wu:red_grab_bag_empty=レッドグラブバッグ
+item.gf_wu:red_grab_bag=レッドグラブバッグ
+
+item.gf_wu:white_grab_bag_empty=ホワイトグラブバッグ
+item.gf_wu:white_grab_bag=ホワイトグラブバッグ
+
+item.gf_wu:yellow_grab_bag_empty=イエローグラブバッグ
+item.gf_wu:yellow_grab_bag=イエローグラブバッグ
+
+item.gf_wu:quarry_pickaxe_netherite=ネザライト採石ピッケル
+item.gf_wu:deep_digger_shovel_netherite=ネザライト深掘りシャベル
+
+gf_wu:quarry_pickaxe.header=§l§c採石ピッケル
+gf_wu:quarry_pickaxe.button=§l§4採石ピッケル
+gf_wu:quarry_pickaxe.description=信頼できるマルチブロックピッケルと同じように...さらに強力！あなたの周囲5x5の範囲をまとめて採掘します。このツールは鍛冶台でネザライト版にアップグレードできます。
+gf_wu:quarry_pickaxe.recipe_ingredients=§bダイヤモンドマルチブロックツルハシ 3 個 §f[§bM§f]%1§r§7棒 2 個 §f[§7S§f]%1§r
+gf_wu:quarry_pickaxe.recipe_table=§f[§bM§f][§bM§f][§bM§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:deep_digger_shovel.header=§l§c深掘りシャベル
+gf_wu:deep_digger_shovel.button=§l§4深掘りシャベル
+gf_wu:deep_digger_shovel.description=信頼できるエクスカベーターシャベルと同じように...さらに強力！あなたの周囲5x5の範囲をまとめて採掘します。このツールは鍛冶台でネザライト版にアップグレードできます。
+gf_wu:deep_digger_shovel.recipe_ingredients=§bダイヤモンド掘削ショベル 3 個 §f[§bE§f]%1§r§7棒 2 個 §f[§7S§f]%1§r
+gf_wu:deep_digger_shovel.recipe_table=§f[§bE§f][§bE§f][§bE§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:configuration.quarry_pickaxe=採石ピッケル
+gf_wu:configuration.deep_digger_shovel=深掘りシャベル
+gf_wu:configuration.quarry_pickaxe_durability=耐久値
+gf_wu:configuration.deep_digger_shovel_durability=耐久値
+
+gf_wu:configuration_hint.quarry_pickaxe=この機能をワールドで\n有効または無効にできます。(ヒント)
+gf_wu:configuration_hint.deep_digger_shovel=この機能をワールドで\n有効または無効にできます。(ヒント)
+gf_wu:configuration_hint.quarry_pickaxe_durability=採石ピッケルの耐久値を\nオン/オフできます。(ヒント)
+gf_wu:configuration_hint.deep_digger_shovel_durability=深掘りシャベルの耐久値を\nオン/オフできます。(ヒント)
+
+gf_wu:tanning_rack.header=§l§cなめし台
+gf_wu:tanning_rack.button=§l§4なめし台
+gf_wu:tanning_rack.description=腐った肉を持ってなめし台を使用すると革に変換できます。しゃがみながら使用すると一度に複数処理できます！
+gf_wu:tanning_rack.recipe_ingredients=§7棒 5 個 §f[§7S§f]%1§r§f糸 2 個 §f[§fT§f]%1§r§6革 2 個 §f[§6L§f]%1§r
+gf_wu:tanning_rack.recipe_table=§f[§fT§f][§7S§f][§fT§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r
+
+gf_wu:configuration.tanning_rack=なめし台
+gf_wu:configuration_hint.tanning_rack=この機能をワールドで\n有効または無効にできます。(ヒント)
+
+item.gf_wu:bridge_builder=ブリッジビルダー（無効）
+item.gf_wu:bridge_builder_on=ブリッジビルダー（有効）
+item.gf_wu:stash_snatcher=スタッシュスナッチャー
+item.gf_wu:stash_snatcher_full=スタッシュスナッチャー（保存済み）
+
+gf_wu:bridge_builder.header=§l§cブリッジビルダー
+gf_wu:bridge_builder.button=§l§4ブリッジビルダー
+gf_wu:bridge_builder.description=水や溶岩の上を移動するときに、足元へ一時的な橋ブロックを自動設置します。橋は後ろで消え、元の液体に戻ります。持続時間はコントローラーで設定可能（デフォルト5秒）。
+gf_wu:bridge_builder.recipe_ingredients=§7鉄インゴット 2 個 §f[§7I§f]%1§r§cレッドストーンダスト 2 個 §f[§cR§f]%1§r§8丸石 1 個 §f[§8C§f]%1§r
+gf_wu:bridge_builder.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§8C§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r
+gf_wu:bridge_builder.is_active=§c警告！ブリッジビルダーが有効です！§r
+gf_wu:bridge_builder.on=§a- [ ブリッジビルダー有効 ] -
+gf_wu:bridge_builder.off=§c- [ ブリッジビルダー無効 ] -
+
+gf_wu:configuration.bridge_builder=ブリッジビルダー
+gf_wu:configuration.bridge_builder_water=水で使用可能？
+gf_wu:configuration.bridge_builder_lava=溶岩で使用可能？
+gf_wu:configuration.bridge_builder_decay_seconds=ブロック持続時間（秒）
+
+gf_wu:configuration_hint.bridge_builder=この機能をワールドで\n有効または無効にできます。(ヒント)
+gf_wu:configuration_hint.bridge_builder_water=水上での使用を有効にします。(ヒント)
+gf_wu:configuration_hint.bridge_builder_lava=溶岩上での使用を有効にします。(ヒント)
+gf_wu:configuration_hint.bridge_builder_decay_seconds=ブロックが消えるまでの時間を設定します。(ヒント)
+
+gf_wu:configuration.stash_snatcher=スタッシュスナッチャー
+gf_wu:configuration.stash_snatcher_durability=耐久値
+gf_wu:configuration_hint.stash_snatcher=この機能をワールドで\n有効または無効にできます。(ヒント)
+gf_wu:configuration_hint.stash_snatcher_durability=スタッシュスナッチャーの耐久値を\nオン/オフできます。(ヒント)
+
+gf_wu:stash_snatcher.header=§l§cスタッシュスナッチャー
+gf_wu:stash_snatcher.button=§l§4スタッシュスナッチャー
+gf_wu:stash_snatcher.description=Stash Snatcherを手に持ち、チェストなどの収納ブロックにインタラクトすると、それを回収できます。チェストはアイテム内に保存され、再度インタラクトすることで別の場所に設置できます。アイテムを簡単に別の場所へ移動できる便利な方法です！ただし、制限によりダブルチェストには対応していません。
+gf_wu:stash_snatcher.recipe_ingredients=§7糸 8 個 §f[§7S§f]%1§r§cチェスト 1 個 §f[§cC§f]%1§r
+gf_wu:stash_snatcher.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§cC§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r
+gf_wu:stash_snatcher.captured=§aコンテナを回収しました！
+gf_wu:stash_snatcher.placed=§aコンテナを設置しました！
+gf_wu:stash_snatcher.locked=§cロックされたコンテナは回収できません！
+gf_wu:stash_snatcher.unsupported=§cこのコンテナは非対応です。シングルチェストのみ！
+gf_wu:stash_snatcher.double_chest=§cダブルチェストは保存できません。
+gf_wu:stash_snatcher.no_space=§c設置するスペースがありません。
+gf_wu:stash_snatcher.would_connect=§c他のチェストと接続しないようにしてください。
+
+gf_wu:ocean_rider.header=§l§cオーシャンライダー
+gf_wu:ocean_rider.button=§l§4オーシャンライダー
+gf_wu:ocean_rider.description=水中を素早く移動できる手段です！Ocean Riderを設置し、インタラクトで乗り、しゃがんで降ります。乗っている間は石炭や木炭で補給できます。:_input_key.forward: を使い、下を見ると潜水し、上を見ると水面に戻れます！目的地に着いたらしゃがんで降り、攻撃してOcean Riderを破壊できます。速度はControllerで調整できます。
+gf_wu:ocean_rider.recipe_ingredients=§7ガラス 3 個 §f[§7G§f]%1§r§1石炭 2 個 §f[§1C§f]§r%1§r§bボート 1 個 §f[§bB§f]§r%1§r§a板材 3 個 §f[§aP§f]%1§r
+gf_wu:ocean_rider.recipe_table=§f[§7G§f][§7G§f][§7G§f]%1§r§f[§1C§f][§bB§f][§1C§f]%1§r§f[§aP§f][§aP§f][§aP§f]%1§r
+gf_wu:ocean_rider.on=§a- [ オーシャンライダー準備完了 ] -
+gf_wu:ocean_rider.off=§c- [ オーシャンライダー無効 ] -
+gf_wu:ocean_rider.no_water=§c水中にのみ設置できます。
+gf_wu:ocean_rider.no_space=§c設置スペースが足りません。
+gf_wu:ocean_rider.placed=§aオーシャンライダー設置！
+gf_wu:ocean_rider.picked_up=§aオーシャンライダー回収！
+gf_wu:ocean_rider.mounted=§a搭乗しました！
+gf_wu:configuration.ocean_rider=オーシャンライダー
+gf_wu:configuration.ocean_rider_speed=速度
+gf_wu:configuration_hint.ocean_rider=この機能をワールドで\n有効または無効にできます。(ヒント)
+gf_wu:configuration_hint.ocean_rider_speed=速度を1〜3から選択します。(ヒント)
+
+gf_wu:player_vaults.button=§l§4プレイヤーボルト
+gf_wu:player_vaults.header=§l§cプレイヤーボルト
+gf_wu:player_vaults.description=ボールトを設置してインタラクトすると、通常のチェストのように開くことができます。ボールトはプライベートで、あなた以外はアイテムにアクセスできません！しゃがみながらインタラクトして、0〜50の周波数を選択します。各周波数ごとに新しいチェストが開き、1つのボールトで50個のチェストを持つことができます。ワールド内に複数のボールトを設置でき、どこからでもアイテムにアクセス可能です。エンダーチェストのように…でもさらに便利！しゃがみながら攻撃すると破壊できます！
+gf_wu:player_vaults.recipe_ingredients=§7鉄インゴット 4 個 §f[§7I§f]%1§r§cレッドストーンダスト 4 個 §f[§cR§f]§r%1§r§bチェスト 1 個 §f[§bC§f]%1§r
+gf_wu:player_vaults.recipe_table=§f[§7I§f][§cR§f][§7I§f]%1§r§f[§cR§f][§bC§f][§cR§f]%1§r§f[§7I§f][§cR§f][§7I§f]%1§r
+gf_wu:player_vaults.select=ボルトを選択
+gf_wu:player_vaults.number=ボルト番号
+gf_wu:player_vaults.updated=§aボルト番号を更新しました
+gf_wu:player_vaults.disabled=§cプレイヤーボルトは無効です
+gf_wu:player_vaults.already_viewed=§c現在、他のプレイヤーがこのボルトを開いています。
+gf_wu:player_vaults.break_hint=§cしゃがんでから破壊してください！
+gf_wu:configuration.player_vaults=プレイヤーボルト
+gf_wu:configuration_hint.player_vaults=プレイヤーボルトをワールドで\n有効または無効にできます。(ヒント)
+
+item.gf_wu:ocean_rider=オーシャンライダー
+action.hint.exit.gf_wu:ocean_rider=しゃがんで降りる

@@ -1,0 +1,51 @@
+tile.utilitycraft:basic_crusher.name=§eTrituradora básica
+tile.utilitycraft:basic_crusher.tooltip=§r §7 Ranuras de procesamiento: 3\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_crusher.name=§cTrituradora avanzada
+tile.utilitycraft:advanced_crusher.tooltip=§r §7 Ranuras de procesamiento: 5\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_crusher.name=§bTrituradora experta
+tile.utilitycraft:expert_crusher.tooltip=§r §7 Ranuras de procesamiento: 7\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_crusher.name=§8Trituradora definitiva
+tile.utilitycraft:ultimate_crusher.tooltip=§r §7 Ranuras de procesamiento: 9\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 576k DE\n§o§9@UC: Tiered Machinery
+
+tile.utilitycraft:basic_electro_press.name=§ePrensa eléctrica básica
+tile.utilitycraft:basic_electro_press.tooltip=§r §7 Ranuras de procesamiento: 3\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_electro_press.name=§cPrensa eléctrica avanzada
+tile.utilitycraft:advanced_electro_press.tooltip=§r §7 Ranuras de procesamiento: 5\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_electro_press.name=§bPrensa eléctrica experta
+tile.utilitycraft:expert_electro_press.tooltip=§r §7 Ranuras de procesamiento: 7\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_electro_press.name=§8Prensa eléctrica definitiva
+tile.utilitycraft:ultimate_electro_press.tooltip=§r §7 Ranuras de procesamiento: 9\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 576k DE\n§o§9@UC: Tiered Machinery
+
+tile.utilitycraft:basic_incinerator.name=§eIncinerador básico
+tile.utilitycraft:basic_incinerator.tooltip=§r §7 Ranuras de procesamiento: 3\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_incinerator.name=§cIncinerador avanzado
+tile.utilitycraft:advanced_incinerator.tooltip=§r §7 Ranuras de procesamiento: 5\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_incinerator.name=§bIncinerador experto
+tile.utilitycraft:expert_incinerator.tooltip=§r §7 Ranuras de procesamiento: 7\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_incinerator.name=§8Incinerador definitivo
+tile.utilitycraft:ultimate_incinerator.tooltip=§r §7 Ranuras de procesamiento: 9\n §7 Tasa: 20 DE/t\n §7 Capacidad de energía: 576k DE\n§o§9@UC: Tiered Machinery
+
+entity.utilitycraft:basic_incinerator.name=Incinerador básico
+entity.utilitycraft:advanced_incinerator.name=Incinerador avanzado
+entity.utilitycraft:expert_incinerator.name=Incinerador experto
+entity.utilitycraft:ultimate_incinerator.name=Incinerador definitivo
+
+entity.utilitycraft:basic_crusher.name=Trituradora básica
+entity.utilitycraft:advanced_crusher.name=Trituradora avanzada
+entity.utilitycraft:expert_crusher.name=Trituradora experta
+entity.utilitycraft:ultimate_crusher.name=Trituradora definitiva
+
+entity.utilitycraft:basic_electro_press.name=Prensa eléctrica básica
+entity.utilitycraft:advanced_electro_press.name=Prensa eléctrica avanzada
+entity.utilitycraft:expert_electro_press.name=Prensa eléctrica experta
+entity.utilitycraft:ultimate_electro_press.name=Prensa eléctrica definitiva
+
+dorios:itemGroup.name.tiered_machines=Tiered Machines
+
+ui.utilitycraft:info.tiered.crusher=Procesa en paralelo varias recetas registradas de la Trituradora usando §sDorios Energy§8. Cada canal tiene su propia entrada, progreso y salida.\n\n§8E/S:\n- §9Entrada§8 incluye todas las ranuras de entrada.\n- §cSalida§8 incluye todas las ranuras de salida.\n\n§8Mejoras admitidas:\n§d §8(8), §d §8(8)
+ui.utilitycraft:info.tiered.electro_press=Procesa en paralelo varias recetas registradas de la Prensa Eléctrica usando §sDorios Energy§8. Cada canal tiene su propia entrada, progreso y salida.\n\n§8E/S:\n- §9Entrada§8 incluye todas las ranuras de entrada.\n- §cSalida§8 incluye todas las ranuras de salida.\n\n§8Mejoras admitidas:\n§d §8(8), §d §8(8)
+ui.utilitycraft:info.tiered.incinerator=Procesa en paralelo varias recetas de horno registradas usando §sDorios Energy§8. Cada canal tiene su propia entrada, progreso y salida.\n\n§8E/S:\n- §9Entrada§8 incluye todas las ranuras de entrada.\n- §cSalida§8 incluye todas las ranuras de salida.\n\n§8Mejoras admitidas:\n§d §8(8), §d §8(8)
+ui.utilitycraft:io.tiered_machine.items=Modos de E/S:\n§r- §8Predeterminado\n§r- §9Entrada\n§r- §cSalida\n§r- §eDeshabilitado
+
+## Quick Info addon name
+utilitycraft.identifier=§o§9@UtilityCraft

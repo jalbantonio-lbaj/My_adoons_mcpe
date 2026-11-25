@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:diamond_sheep",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "sheep"
+      },
+      "textures": {
+        "default": "textures/entity/oredim/diamond/sheep__default",
+        "baby": "textures/entity/oredim/diamond/sheep__baby"
+      },
+      "geometry": {
+        "default": "geometry.oredim.sheep_v1_8",
+        "sheared": "geometry.oredim.sheep_sheared_v1_8",
+        "baby": "geometry.oredim.sheep_baby"
+      },
+      "animations": {
+        "setup": "animation.sheep.setup.v2",
+        "grazing": "animation.sheep.grazing.v2",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "controller.animation.sheep.move"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "animate": [
+          "setup",
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.sheep.v2"
+      ],
+      "spawn_egg": {
+        "base_color": "#08404c",
+        "overlay_color": "#88fff6"
+      }
+    }
+  }
+}

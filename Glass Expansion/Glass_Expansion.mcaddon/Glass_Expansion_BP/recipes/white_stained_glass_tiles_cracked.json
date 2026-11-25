@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "vge:white_stained_glass_tiles_cracked"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "vge:white_stained_glass_tiles",
+    "output": "vge:white_stained_glass_tiles_cracked"
+  }
+}

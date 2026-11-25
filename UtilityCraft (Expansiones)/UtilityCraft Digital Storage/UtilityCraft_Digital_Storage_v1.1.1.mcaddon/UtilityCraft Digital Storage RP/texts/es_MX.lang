@@ -1,0 +1,131 @@
+pack.name=Almacenamiento Digital
+pack.description=Creado por: SHADOW1GO1
+
+howtoplay.category.digital_storage=Digital Storage
+howtoplay.ds:overview=Resumen
+howtoplay.ds:overview.title=Digital Storage - Resumen
+howtoplay.digital_storage.overview.p1=§bDigital Storage§r fue creado por §eMilo504§r y §eSH.Pro§r, con §dJR.ice§r como artista.
+howtoplay.digital_storage.overview.p2=Agrega un §balmacenamiento digital§r compacto que combina §acells§r en un solo §einventario con buscador§r. Una network grande puede guardar §dmillones de items§r.
+howtoplay.digital_storage.overview.p3=Empieza con un §bsetup pequeño§r y extiende la misma network donde necesites §aguardar§r, §eacceder§r, §9importar§r o §cexportar§r items.
+howtoplay.digital_storage.getting_started.h1=Primeros pasos
+howtoplay.digital_storage.getting_started.silicon.p1=§bSilicon§r es uno de los materiales más importantes de Digital Storage. Crushea §fNether Quartz§r en un §bCrusher§r para obtener §7Quartz Dust§r. Después quema el polvo en un §eFurnace§r para crear Silicon.
+howtoplay.digital_storage.getting_started.setup.h1=Network básica
+howtoplay.digital_storage.getting_started.setup.p1=Hay §edos terminales§r: el §bStorage Terminal§r normal para acceder a los items y el §bCrafting Terminal§r para acceder a ellos y usarlos al craftear.\n\n§b1.§r Coloca un §bStorage Center§r y dale §eenergía DE§r.\n§b2.§r Coloca un §bStorage Cell Drive§r y mete al menos §auna cell§r.\n§b3.§r Agrega cualquiera de los dos terminales.\n§b4.§r Junta los bloques o conéctalos con §9Network Cables§r. La network §ase configura automáticamente§r.
+howtoplay.digital_storage.getting_started.cells.h1=Storage Cells
+howtoplay.digital_storage.getting_started.cells.p1=Capacidades en bytes lógicos:\n§7Storage: 1 KB§r · §aBasic: 4 KB§r · §bAdvanced: 16 KB§r · §dExpert: 64 KB§r · §6Ultimate: 400 KB§r.\n\nCada §bDrive§r acepta hasta §e16 cells§r. Los tipos nuevos consumen más bytes que añadir items de un tipo existente.
+howtoplay.digital_storage.getting_started.expansion.h1=Transferencia y expansión
+howtoplay.digital_storage.getting_started.expansion.p1=La §bStorage Transfer Station§r mueve los items guardados entre cells: coloca el §9origen a la izquierda§r y el §cdestino a la derecha§r.
+howtoplay.digital_storage.getting_started.expansion.p2=Extiende la network con §9Network Cables§r. Los buffers sirven para mover §egrandes cantidades de items§r: los §9Import Buffers§r los meten a la network y los §cExport Buffers§r filtrados los sacan donde los necesites. Usa exactamente §eun Storage Center§r por network conectada.
+
+######################
+####    BLOQUES   ####
+######################
+
+tile.utilitycraft:storage_terminal.name=Terminal de Almacenamiento
+tile.utilitycraft:storage_terminal.tooltip=§r§7- Accede a objetos en una red de almacenamiento digital\n§o§9@UC: Digital Storage
+tile.utilitycraft:blueprint_terminal.name=Terminal de Planos
+tile.utilitycraft:blueprint_terminal.tooltip=§r§7- Accede a objetos de la red y administra planos de crafteo\n§o§9@UC: Digital Storage
+tile.utilitycraft:crafting_terminal.name=Terminal de Crafteo
+tile.utilitycraft:crafting_terminal.tooltip=§r§7- Accede a objetos de la red y craftea desde el almacenamiento\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_cell_drive.name=Unidad de Celdas de Almacenamiento
+tile.utilitycraft:storage_cell_drive.tooltip=§r§7- Guarda celdas de almacenamiento para la red digital\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_transfer_station.name=Estación de Transferencia de Almacenamiento
+tile.utilitycraft:storage_transfer_station.tooltip=§r§7- Transfiere objetos almacenados entre celdas\n§o§9@UC: Digital Storage
+tile.utilitycraft:network_cable.name=Cable de Red
+tile.utilitycraft:network_cable.tooltip=§r§7- Conecta bloques de almacenamiento digital en una red\n§o§9@UC: Digital Storage
+tile.utilitycraft:import_buffer.name=Búfer de Importación
+tile.utilitycraft:import_buffer.tooltip=§r§7- Envía objetos al almacenamiento digital conectado\n§o§9@UC: Digital Storage
+tile.utilitycraft:export_buffer.name=Búfer de Exportación
+tile.utilitycraft:export_buffer.tooltip=§r§7- Extrae objetos filtrados del almacenamiento digital conectado\n§7- Mejoras aceptadas:\n   §a§7\n§o§9@UC: Digital Storage
+tile.utilitycraft:storage_center.name=Centro de Almacenamiento
+tile.utilitycraft:storage_center.tooltip=§r§7- Alimenta y controla una red de almacenamiento digital\n§o§9@UC: Digital Storage
+tile.utilitycraft:fluxite_block.name=Bloque de Fluxite
+tile.utilitycraft:fluxite_block.tooltip=§r§7- Material de crafteo\n§o§9@UC: Digital Storage
+
+#######################
+####   ENTIDADES   ####
+#######################
+
+entity.utilitycraft:storage_cell_drive.name=Unidad de Celdas de Almacenamiento
+entity.utilitycraft:storage_transfer_station.name=Estación de Transferencia de Almacenamiento
+entity.utilitycraft:crafting_terminal.name=§fTerminal de Crafteo
+entity.utilitycraft:blueprint_terminal.name=§fTerminal de Planos
+entity.utilitycraft:storage_terminal.name=§fTerminal de Almacenamiento
+entity.utilitycraft:import_buffer.name=Búfer de Importación
+entity.utilitycraft:export_buffer.name=Búfer de Exportación
+entity.utilitycraft:storage_center.name=Centro de Almacenamiento
+
+#####################
+####    ITEMS    ####
+#####################
+
+item.utilitycraft:cell_casing=Carcasa de Celda
+tile.utilitycraft:cell_casing.tooltip=§r§7- Carcasa vacía para celdas de almacenamiento\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_cell=Celda de Almacenamiento
+tile.utilitycraft:storage_cell.tooltip=§r§7- Almacenamiento: §f1 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:basic_storage_cell=§eCelda de Almacenamiento Básica
+tile.utilitycraft:basic_storage_cell.tooltip=§r§7- Almacenamiento: §f4 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:advanced_storage_cell=§cCelda de Almacenamiento Avanzada
+tile.utilitycraft:advanced_storage_cell.tooltip=§r§7- Almacenamiento: §f16 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:expert_storage_cell=§bCelda de Almacenamiento Experta
+tile.utilitycraft:expert_storage_cell.tooltip=§r§7- Almacenamiento: §f64 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:ultimate_storage_cell=§8Celda de Almacenamiento Definitiva
+tile.utilitycraft:ultimate_storage_cell.tooltip=§r§7- Almacenamiento: §f400 KB\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_part=Parte de Almacenamiento
+tile.utilitycraft:storage_part.tooltip=§r§7- Se usa para craftear celdas de almacenamiento\n§o§9@UC: Digital Storage
+item.utilitycraft:basic_storage_part=§eParte de Almacenamiento Básica
+tile.utilitycraft:basic_storage_part.tooltip=§r§7- Se usa para craftear celdas de almacenamiento básicas\n§o§9@UC: Digital Storage
+item.utilitycraft:advanced_storage_part=§cParte de Almacenamiento Avanzada
+tile.utilitycraft:advanced_storage_part.tooltip=§r§7- Se usa para craftear celdas de almacenamiento avanzadas\n§o§9@UC: Digital Storage
+item.utilitycraft:expert_storage_part=§bParte de Almacenamiento Experta
+tile.utilitycraft:expert_storage_part.tooltip=§r§7- Se usa para craftear celdas de almacenamiento expertas\n§o§9@UC: Digital Storage
+item.utilitycraft:ultimate_storage_part=§8Parte de Almacenamiento Definitiva
+tile.utilitycraft:ultimate_storage_part.tooltip=§r§7- Se usa para craftear celdas de almacenamiento definitivas\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_core=Núcleo de Almacenamiento
+tile.utilitycraft:storage_core.tooltip=§r§7- Un componente importante para máquinas y celdas de almacenamiento\n§o§9@UC: Digital Storage
+item.utilitycraft:fluxite=Fluxite
+tile.utilitycraft:fluxite.tooltip=§r§7- Se obtiene infundiendo cuarzo con polvo de diamante\n§o§9@UC: Digital Storage
+item.utilitycraft:storage_filler=Relleno de Almacenamiento
+item.utilitycraft:wireless_panel_off=Panel Inalámbrico - Apagado
+tile.utilitycraft:wireless_panel_off.tooltip=§r§7- Interactúa con un Centro de Almacenamiento para vincularlo\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_panel_on=Panel Inalámbrico - Encendido
+tile.utilitycraft:wireless_panel_on.tooltip=§r§7- Sostenlo para acceder a la network vinculada\n§7- Interactúa con el Storage Center vinculado para desvincular\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_crafting_panel_off=Panel de Crafteo Inalámbrico - Apagado
+tile.utilitycraft:wireless_crafting_panel_off.tooltip=§r§7- Interactúa con un Centro de Almacenamiento para vincularlo\n§o§9@UC: Digital Storage
+item.utilitycraft:wireless_crafting_panel_on=Panel de Crafteo Inalámbrico - Encendido
+tile.utilitycraft:wireless_crafting_panel_on.tooltip=§r§7- Sostenlo para craftear y acceder al storage\n§7- Interactúa con el Storage Center vinculado para desvincular\n§o§9@UC: Digital Storage
+item.utilitycraft:dimensional_range_upgrade=§9Mejora de Rango Dimensional§r
+tile.utilitycraft:dimensional_range_upgrade.tooltip=§r§o§9@UC: Digital Storage
+upgrade.utilitycraft:dimensional_range_upgrade.name=§9Mejora de Rango Dimensional§r
+
+####################
+####   GRUPOS   ####
+####################
+
+dorios:itemGroup.name.storage=Almacenamiento
+dorios:itemGroup.name.cells=Celdas
+dorios:itemGroup.name.parts=Partes
+dorios:itemGroup.name.materials=Materiales
+dorios:itemGroup.name.wireless=Inalámbrico
+
+#################
+####    UI   ####
+#################
+
+ui.utilitycraft:blueprint_label=Crafteo
+ui.utilitycraft:crafting_label=Crafteo
+message.utilitycraft:vault_missing=§c[Digital Storage] Este item tuvo un problema. Espera unos segundos e intentalo de nuevo.
+message.utilitycraft:wireless_linked=§a[Digital Storage] Panel inalámbrico vinculado.
+message.utilitycraft:wireless_unlinked=§a[Digital Storage] Panel inalámbrico desvinculado.
+message.utilitycraft:wireless_network_unavailable=§c[Digital Storage] La network vinculada no está disponible.
+message.utilitycraft:wireless_overworld_only=§c[Digital Storage] El panel inalámbrico solo funciona en el Overworld.
+message.utilitycraft:wireless_out_of_range=§c[Digital Storage] Estás fuera del rango inalámbrico de la network vinculada.
+message.utilitycraft:wireless_dimension_unavailable=§c[Digital Storage] Esta network necesita una Mejora de Rango Dimensional para acceder desde otra dimensión.
+ui.utilitycraft:info.storage_transfer_station=§8Transfiere objetos almacenados desde el §9slot izquierdo§8 hacia el §cslot derecho§8 cada 10 ticks. Cada operación mueve hasta §q500 objetos§8, más 500 por cada nivel de §qMejora de Velocidad§8 instalado, sin superar la capacidad en bytes lógicos de la celda de destino. Añadir un tipo nuevo consume más bytes que ampliar uno existente.\n\n§8Slots:\n- Izquierdo: celda de almacenamiento de origen.\n- Derecho: celda de almacenamiento de destino.\n\n§8Mejora admitida:\n- Mejora de Velocidad (nivel máximo: 8)
+ui.utilitycraft:info.storage_center=§8Crea, alimenta y controla una red de almacenamiento digital conectada mediante §qCables de Red§8. Vincula Unidades de Celdas, terminales, Búferes de Importación y Búferes de Exportación en una sola red.\n\n§8La red requiere exactamente un §qCentro de Almacenamiento§8 y al menos una §qUnidad de Celdas§8 que contenga una celda de almacenamiento. Su costo de energía depende de la topología conectada, con un consumo mínimo de §q10 DE/t§8. Si el centro se queda sin energía, la red se apaga.
+ui.utilitycraft:info.storage_cell_drive=§8Guarda hasta §q16 celdas de almacenamiento§8 y aporta su capacidad combinada en bytes a la red de almacenamiento digital conectada. El §qCentro de Almacenamiento§8 lee las celdas instaladas cuando crea la red.\n\n§8Cambiar una celda mientras la unidad está vinculada §capaga la red§8 para que el Centro de Almacenamiento pueda reconstruirla de forma segura.
+ui.utilitycraft:info.import_buffer=§8Mueve objetos desde sus §918 slots de entrada§8 hacia la red de almacenamiento digital conectada cada §q10 ticks§8. Procesa un stack ocupado por operación, más un stack adicional por cada nivel de §qMejora de Velocidad§8.\n\n§8Mejora admitida:\n- §qMejora de Velocidad§8 (nivel máximo: 8)\n\n§8La automatización solo puede insertar objetos en los slots de entrada.
+ui.utilitycraft:info.export_buffer=§8Usa sus §q9 slots de filtro§8 para extraer objetos coincidentes de la red de almacenamiento digital conectada hacia §c27 slots de salida§8 cada 10 ticks. Exporta un stack por operación, más un stack adicional por cada nivel de §qMejora de Velocidad§8.\n\n§8Mejora admitida:\n- §qMejora de Velocidad§8 (nivel máximo: 8)\n\n§8La automatización solo puede extraer objetos de los slots de salida.
+
+## Quick Info addon name
+utilitycraft.identifier=§o§9@UtilityCraft

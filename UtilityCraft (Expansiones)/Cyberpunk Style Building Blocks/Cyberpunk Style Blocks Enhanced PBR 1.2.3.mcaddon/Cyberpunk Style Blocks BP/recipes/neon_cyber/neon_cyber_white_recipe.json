@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_cyber_white_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_cyber_white",
+        "pattern": [
+            "AAA",
+            "BBB",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_black_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_white_block"
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_cyber_white",
+            "count": 9
+        }
+    }
+}

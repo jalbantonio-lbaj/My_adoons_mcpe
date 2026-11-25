@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "quartzsingularity_66e1460c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:quartz_block",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:outersingularity",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:quartzsingularity",
+      "count": 1
+    }
+  }
+}

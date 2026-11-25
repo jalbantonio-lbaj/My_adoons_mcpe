@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vge:tinted_glass_wall_from_stonecutting"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:tinted_glass"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:tinted_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:tinted_glass_wall",
+      "count": 1
+    }
+  }
+}

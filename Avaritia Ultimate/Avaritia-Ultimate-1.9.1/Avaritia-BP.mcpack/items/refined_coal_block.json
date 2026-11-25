@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:refined_coal_block_item",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": {
+        "value": "rare"
+      },
+      "minecraft:fuel": {
+        "duration": 72000
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:refined_coal_block"
+      }
+    }
+  }
+}

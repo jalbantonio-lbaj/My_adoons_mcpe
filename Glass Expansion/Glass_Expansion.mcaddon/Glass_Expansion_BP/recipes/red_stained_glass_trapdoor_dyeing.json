@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:red_stained_glass_trapdoor_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_trapdoor"
+      },
+      "D": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:red_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:red_stained_glass_trapdoor",
+      "count": 8
+    }
+  }
+}

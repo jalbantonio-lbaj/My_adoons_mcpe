@@ -1,0 +1,218 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=Khối Neutronium
+crystal_matrix_block.name=Khối Ma Trận Pha Lê
+infinity_block.name=Khối Vô Cực
+dire_crafting_table.name=Bàn Chế Tạo Kinh Hoàng
+neutronium_compressor.name=Máy Nén Neutronium
+record_furnace.name=Lò Nung Đĩa Nhạc
+neutron_collector.name=Máy Thu Neutron
+cosmic_collector.name=Máy Thu Sao Vũ Trụ
+compressed_crafting_table.name=Bàn Chế Tạo Nén
+double_compressed_crafting_table.name=Bàn Chế Tạo Nén Đôi
+
+## Equipments
+infinity_sword.name=Kiếm Vũ Trụ
+infinity_axe.name=Tàn Tích Thiên Nhiên
+infinity_pickaxe.name=Kẻ Phá Thế Giới
+infinity_shovel.name=Kẻ Nuốt Hành Tinh
+infinity_hoe.name=Cuốc Đại Địa Xanh
+infinity_bow.name=Trường Cung Thiên Giới
+infinity_helmet.name=Mũ Vô Cực
+infinity_chestplate.name=Giáp Ngực Vô Cực
+infinity_leggings.name=Quần Giáp Vô Cực
+infinity_boots.name=Giày Vô Cực
+skullfire_sword.name=Kiếm Lửa Sọ
+infinity_mace.name=Chùy Vô Cực
+attribute.mace_smash=§5Graviton Smash §7- Sát thương rơi: 100 x 32 mỗi khối rơi, không giới hạn§f
+attribute.mace_hit=§7Đánh: Trói mục tiêu 20 giây & hút các quái xung quanh§f
+attribute.mace_vortex=§7Dùng: Xoáy Lỗ Đen (13 khối) §8- §7Không giới hạn, hồi chiêu 0,7 giây§f
+
+## Items
+matter_cluster.name=Cụm Vật Chất
+asgardandelion.name=Bồ Công Anh Asgard
+starfuel.name=Nhiên Liệu Sao
+endest_pearl.name=Ngọc Endest
+infinity_ingot.name=Thỏi Vô Cực
+infinity_nugget.name=Mảnh Vô Cực
+infinity_catalyst.name=Chất Xúc Tác Vô Cực
+crystal_matrix.name=Thỏi Ma Trận Pha Lê
+diamond_lattice.name=Mạng Tinh Thể Kim Cương
+neutronium_ingot.name=Thỏi Neutronium
+neutronium_nugget.name=Mảnh Neutronium
+neutronium_gear.name=Bánh Răng Neutronium
+neutronium_star.name=Sao Neutronium
+pile_of_neutrons.name=Đống Neutron
+record_fragment.name=Mảnh Đĩa Nhạc
+cosmic_meatballs.name=Thịt Viên Vũ Trụ
+ultimate_stew.name=Món Hầm Tối Thượng
+
+## Singularities
+ultimate_singularity.name=Điểm Kỳ Dị Tối Thượng
+redstone_singularity.name=Điểm Kỳ Dị Đá Đỏ
+quartz_singularity.name=Điểm Kỳ Dị Thạch Anh
+obsidian_singularity.name=Điểm Kỳ Dị Hắc Diện Thạch
+lapis_singularity.name=Điểm Kỳ Dị Lưu Ly
+netherite_singularity.name=Điểm Kỳ Dị Netherite
+amethyst_singularity.name=Điểm Kỳ Dị Thạch Anh Tím
+coal_singularity.name=Điểm Kỳ Dị Than
+diamond_singularity.name=Điểm Kỳ Dị Kim Cương
+emerald_singularity.name=Điểm Kỳ Dị Ngọc Lục Bảo
+experience_singularity.name=Điểm Kỳ Dị Kinh Nghiệm
+gold_singularity.name=Điểm Kỳ Dị Vàng
+iron_singularity.name=Điểm Kỳ Dị Sắt
+copper_singularity.name=Điểm Kỳ Dị Đồng
+slime_singularity.name=Điểm Kỳ Dị Slime
+soul_sand_singularity.name=Điểm Kỳ Dị Cát Linh Hồn
+honey_singularity.name=Điểm Kỳ Dị Mật Ong
+
+## Atributes
+attribute.infinity_damade=§7Sát Thương §cV§6ô§e §aC§bự§9c§f
+attribute.tree_capitator=§7Chặt Cây Hàng Loạt§f
+attribute.super_plow=§7Siêu Cày§f
+attribute.fly=§7Bay§f
+attribute.collect_skull=§7Thu Thập Đầu Wither§f
+attribute.attack_radius=§9Phạm Vi Tấn Công§f
+attribute.protection=§9Bảo Vệ§f
+attribute.movement_speed=§9Tốc Độ Di Chuyển§f
+attribute.knockback_resistance=§9Kháng Đẩy Lùi§f
+
+## Messages
+message.avaritia.missing_ingredients=Thiếu nguyên liệu!
+message.avaritia.confirm_recipe=Bạn có muốn chế tạo vật phẩm này không?
+message.avaritia.neutron=Bạn đã thu thập:
+message.avaritia.neutron2=Khoan! Bạn vẫn còn:
+message.avaritia.no_players_available=Không có người chơi nào.
+message.avaritia.remove_coordinates=Đã xóa tọa độ!
+message.avaritia.no_coordinates_saved=Bạn chưa lưu tọa độ nào.
+message.avaritia.is_not_coordinated=Chứa ký tự không hợp lệ, vui lòng thử lại.
+message.avaritia.coordinates_saved=Đã lưu tọa độ!
+message.avaritia.invalid_name=Tên không hợp lệ hoặc đã tồn tại.
+
+## Modes
+mode.desactive=Tắt
+mode.active=Bật
+mode.avaritia.intangible_mode=Xuyên Thấu
+mode.avaritia.magnetic=Từ Tính
+
+## Warning
+avaritia.equip_the_helmet=Hãy đội Mũ Vô Cực
+avaritia.equip_the_chestplate=Hãy mặc Giáp Ngực Vô Cực
+avaritia.equip_the_leggings=Hãy mặc Quần Giáp Vô Cực
+avaritia.equip_the_armor=Hãy mặc Bộ Giáp Vô Cực
+
+## Containers
+gui.avaritia.extract_all=Lấy Tất Cả
+gui.avaritia.delete=Xóa Tất Cả
+gui.collect=Trích Xuất
+extreme.avaritia.infinityItems=Vật Phẩm Vô Cực
+extreme.avaritia.machines=Máy Móc
+extreme.avaritia.otherItems=Vật Phẩm Khác
+avaritia.ingredients=Nguyên Liệu
+avaritia.amount=Số Lượng
+container.extreme_crafting=Chế Tạo Tối Thượng
+container.extreme_compression=Nén Tối Thượng
+container.compressor.description=Tạo ra các điểm kỳ dị!
+itemUi.avaritia.teleport_to_player=Dịch chuyển đến người chơi nào?
+itemUi.avaritia.remove_coordinates=Xóa Tọa Độ 
+itemUi.avaritia.choose_teleport=Chọn điểm đến
+itemUi.avaritia.save_coordinates=Lưu Tọa Độ
+itemUi.avaritia.save_coordinates.via_text=Lưu Tọa Độ Bằng Văn Bản
+itemUi.avaritia.name_coordinate=Đặt Tên Cho Tọa Độ Này
+itemUi.avaritia.coordinates=Nhập Tọa Độ
+itemUi.avaritia.name_example=Ví dụ: Nhà, Rừng, Hầm mỏ...
+
+## Extra
+avaritia.not_kill=§cSinh vật này bất tử, không thể giết bằng thanh kiếm
+entity.avaritia:heaven_arrow.name=§eMũi Tên Thiên Giới§f
+entity.avaritia:heaven_arrow.rain.name=§eMũi Tên Thiên Giới§f
+entity.avaritia:black_hole.name=§eLỗ Đen§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=Đài Chế Tạo Tối Thượng
+action.interact.altar=Mở bàn chế tạo 9x9
+avaritia:itemGroup.name.infinity_mace=§dChùy Vô Cực
+entity.avaritia:heaven_arrow_rain.name=§eMũi Tên Thiên Giới§f
+gacha_machine.name=Máy Gacha
+infinity_scythe.name=Lưỡi Hái Vô Cực
+attribute.scythe_reaper=§5Thần Gặt Linh Hồn §7- Dịch Bệnh & Chảy Máu§f
+attribute.scythe_growth=§7Mỗi lần hạ gục tăng vĩnh viễn sát thương §8- §7HP tối đa nạn nhân x Số đòn², không giới hạn, lưu trên vật phẩm§f
+infinity_spear.name=Giáo Vô Cực
+attribute.spear_lunge=§5Đâm Vũ Trụ §7- % máu tối đa ngẫu nhiên§f
+infinity_shield.name=Khiên Vô Cực
+attribute.shield_bulwark=§5Thành Lũy Vũ Trụ §7- Chặn & phản mọi thứ; thả khi ngồi xuống = Nổ Nova§f
+tile.avaritia:infinity_shield.name=Khiên Vô Cực
+infinity_trident.name=Đinh Ba Vô Cực
+attribute.trident_storm=§5Kho Vũ Khí Linh Hồn §7- Chạm = Triệu hồi/Ra lệnh Đinh Ba Linh Hồn, thả khi ngồi xuống = Lướt Sóng§f
+entity.avaritia:infinity_trident_thrown.name=Đinh Ba Vô Cực
+infinity_crossbow.name=Nỏ Vô Cực
+attribute.crossbow_barrage=§5Loạt Bắn Nhanh §7- Đạn vô hạn, bắn khi ngồi xuống = Tia Năng Lượng & Tia Hội Tụ§f
+entity.avaritia:infinity_crossbow_arrow.name=Mũi Tên Vô Cực
+entity.avaritia:infinity_trident_spirit.name=Đinh Ba Linh Hồn
+
+## Infinity Utility
+infinity_totem.name=Totem Tái Sinh Vĩnh Hằng
+infinity_fishing_rod.name=Cần Câu Biển Vô Tận
+infinity_shears.name=Kéo Của Khung Cửi
+infinity_bucket.name=Xô Hư Không
+infinity_flint_and_steel.name=Tia Lửa Sáng Thế
+attribute.totem_eternal=§7Không bao giờ hỏng §8- §7Cứu bạn khỏi sát thương chí mạng§f
+attribute.rod_endless=§7Quăng xuống nước §8- §7Câu được ngay + XP§f
+attribute.shears_loom=§7Cắt mọi thứ §8- §7Lá, len, mạng nhện rơi nguyên vẹn§f
+attribute.bucket_void=§7Ngồi+Dùng = Nước / Dung nham / Hút / Chọn / Đặt / Lan / Xóa §8- §7Vô hạn§f
+attribute.spark_creation=§7Đốt khối, TNT, Creeper §8- §7Không bao giờ hỏng§f
+
+## Infinity Totems
+infinity_totem_tide.name=Totem Thủy Triều
+infinity_totem_ender.name=Totem Ender
+infinity_totem_fortune.name=Totem May Mắn
+infinity_totem_berserker.name=Totem Cuồng Chiến
+infinity_totem_vitality.name=Totem Sinh Lực
+infinity_totem_gale.name=Totem Cuồng Phong
+infinity_totem_mercy.name=Totem Nhân Từ
+infinity_totem_clairvoyance.name=Totem Thấu Thị
+infinity_totem_inferno.name=Totem Địa Ngục
+infinity_totem_shadow.name=Totem Bóng Tối
+infinity_totem_frost.name=Totem Băng Giá
+infinity_totem_void.name=Totem Hư Không
+attribute.totem_tide=§7Cầm: Thở dưới nước, bơi nhanh & Sức Mạnh Conduit§f
+attribute.totem_ender=§7Dùng: Dịch chuyển tới 64 khối §8- §7Hồi chiêu 1 giây§f
+attribute.totem_fortune=§7Cầm: Haste IV & May Mắn III §8- §7Hạ gục rơi thêm XP§f
+attribute.totem_berserker=§7Cầm: Sức Mạnh IV, Tốc Độ II & Kháng Sát Thương §8- §7Hạ gục hồi máu & cho Hấp Thụ§f
+attribute.totem_vitality=§7Cầm: +10 tim, Hồi Máu III & No Bụng§f
+attribute.totem_gale=§7Cầm: Tốc Độ IV, Nhảy Cao V §8- §7Không sát thương rơi§f
+attribute.totem_mercy=§7Cầm: Hào quang hồi máu (24 khối) cho bạn & đồng đội§f
+attribute.totem_clairvoyance=§7Cầm: Nhìn Đêm & May Mắn §8- §7Hiện quái thù địch (48 khối)§f
+attribute.totem_inferno=§7Cầm: Miễn nhiễm lửa & Sức Mạnh II §8- §7Kẻ tấn công & quái thù địch gần đó bị đốt§f
+attribute.totem_shadow=§7Cầm: Tàng Hình, Tốc Độ II & Nhìn Đêm §8- §730% cơ hội né đòn§f
+attribute.totem_frost=§7Cầm: Kháng Sát Thương II & Kháng Lửa §8- §7Làm chậm & suy yếu quái thù địch (16 khối)§f
+attribute.totem_void=§7Cầm: Chống rơi xuống hư không & sát thương rơi §8- §7Đưa bạn về mặt đất an toàn§f
+infinity_destroyer.name=Kẻ Hủy Diệt Vô Cực
+infinity_hammer.name=Búa Vô Cực
+avaritia_biome_compass.name=La Bàn Quần Xã
+attribute.biome_compass=§7Dùng: Chọn một quần xã §8- §7Chỉ về nơi gần nhất§f
+infinity_chest.name=Rương Vô Cực
+infinity_chest.title=Rương Vô Cực
+
+## Neon Halo Armor
+item.halo:neon_helmet=Mũ Neon Halo
+item.halo:neon_chestplate=Áo Giáp Neon Halo
+item.halo:neon_leggings=Quần Giáp Neon Halo
+item.halo:neon_boots=Giày Neon Halo
+seal_orb.name=Phong Ấn Châu
+seal_orb_full.name=Phong Ấn Châu
+seal_orb.desc=Phong ấn sinh vật: chuột phải vào nó để phong ấn, dùng lần nữa để thả
+item.halo:neon_crystal=Tinh Thể Neon
+neon_crystal.name=Tinh Thể Neon
+glowstone_singularity.name=Điểm Kỳ Dị Đá Phát Sáng
+prismarine_singularity.name=Điểm Kỳ Dị Prismarine
+end_stone_singularity.name=Điểm Kỳ Dị Đá End
+magma_singularity.name=Điểm Kỳ Dị Magma
+bone_singularity.name=Điểm Kỳ Dị Xương
+ice_singularity.name=Điểm Kỳ Dị Băng
+netherrack_singularity.name=Điểm Kỳ Dị Đá Địa Ngục
+neon_helmet.name=Mũ Neon Halo
+neon_chestplate.name=Giáp Ngực Neon Halo
+neon_leggings.name=Quần Neon Halo
+neon_boots.name=Giày Neon Halo

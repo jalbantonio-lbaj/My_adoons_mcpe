@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:copper_bee",
+      "materials": {
+        "default": "bee"
+      },
+      "textures": {
+        "default": "textures/entity/oredim/copper/bee__default",
+        "angry": "textures/entity/oredim/copper/bee__angry",
+        "nectar": "textures/entity/oredim/copper/bee__nectar",
+        "angry_nectar": "textures/entity/oredim/copper/bee__angry_nectar",
+        "baby_default": "textures/entity/oredim/copper/bee__baby_default",
+        "baby_angry": "textures/entity/oredim/copper/bee__baby_angry",
+        "baby_nectar": "textures/entity/oredim/copper/bee__baby_nectar",
+        "baby_angry_nectar": "textures/entity/oredim/copper/bee__baby_angry_nectar"
+      },
+      "geometry": {
+        "default": "geometry.oredim.bee",
+        "baby": "geometry.oredim.bee_baby"
+      },
+      "animations": {
+        "flying": "animation.bee.flying",
+        "drip": "controller.animation.bee.drip",
+        "controller_bee_sting": "controller.animation.bee.sting",
+        "bee_sting": "animation.bee.sting",
+        "bee_no_stinger": "animation.bee.no_stinger",
+        "bee_fly_bobbing": "animation.bee.fly.bobbing",
+        "bee_root_controller": "controller.animation.bee.root"
+      },
+      "particle_effects": {
+        "nectar_dripping": "minecraft:nectar_drip_particle"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "animate": [
+          "bee_root_controller",
+          {
+            "bee_no_stinger": "query.mark_variant == 1"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.bee.v2"
+      ],
+      "spawn_egg": {
+        "base_color": "#482214",
+        "overlay_color": "#f09660"
+      }
+    }
+  }
+}

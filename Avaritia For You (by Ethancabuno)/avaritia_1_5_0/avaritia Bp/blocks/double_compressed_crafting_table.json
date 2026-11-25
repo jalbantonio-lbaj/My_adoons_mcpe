@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:double_compressed_crafting_table",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.table",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:display_name": "%double_compressed_crafting_table.name\n%addon.avaritia",
+      "minecraft:crafting_table": {
+        "table_name": "container.crafting",
+        "crafting_tags": [
+          "crafting_table",
+          "compressed_crafting_table",
+          "double_compressed_crafting_table"
+        ]
+      },
+      "tag:wood": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 6
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      }
+    }
+  }
+}

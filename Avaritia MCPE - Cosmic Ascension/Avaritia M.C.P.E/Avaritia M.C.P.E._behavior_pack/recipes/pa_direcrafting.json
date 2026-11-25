@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "direcrafting_81bab7ef"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:crystalingot",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:doublecompressedcrafter",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:direcrafting",
+      "count": 1
+    }
+  }
+}

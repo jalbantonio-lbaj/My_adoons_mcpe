@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mikeyz:neon_blue_stairs",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.stairs"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "mikeyz:neon_blue_stairs",
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "item.mikeyz:neon_blue_stairs.name"
+      }
+    }
+  }
+}

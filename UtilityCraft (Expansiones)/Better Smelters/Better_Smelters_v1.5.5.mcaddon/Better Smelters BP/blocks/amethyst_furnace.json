@@ -1,0 +1,181 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_smelters:amethyst_furnace",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
+			},
+			"states": {
+				"better_smelters:has_selection": [true, false],
+				"better_smelters:on": [
+					false,
+					true
+				],
+				"better_smelters:ui_open": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"better_smelters:furnace": {
+				"speed": 15,
+				"efficiency": 0.4
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "better_smelters_amethyst_furnace_front",
+					"render_method": "alpha_test"
+				},
+				"north": {
+					"texture": "better_smelters_amethyst_furnace_front",
+					"render_method": "alpha_test"
+				},
+				"south": {
+					"texture": "better_smelters_amethyst_furnace_side",
+					"render_method": "alpha_test"
+				},
+				"east": {
+					"texture": "better_smelters_amethyst_furnace_side",
+					"render_method": "alpha_test"
+				},
+				"west": {
+					"texture": "better_smelters_amethyst_furnace_side",
+					"render_method": "alpha_test"
+				},
+				"up": {
+					"texture": "better_smelters_amethyst_furnace_up",
+					"render_method": "alpha_test"
+				},
+				"down": {
+					"texture": "better_smelters_amethyst_furnace_down",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					2,
+					2
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": false,
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:better_smelters:furnace": {},
+			"tag:dorios:item": {}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('better_smelters:has_selection')",
+				"components": { "minecraft:selection_box": false }
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('better_smelters:ui_open') == false ",
+				"components": {
+					"minecraft:tick": {
+						"interval_range": [
+							20,
+							20
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('better_smelters:on') == true ",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "better_smelters_amethyst_furnace_front_on",
+							"render_method": "alpha_test"
+						},
+						"north": {
+							"texture": "better_smelters_amethyst_furnace_front_on",
+							"render_method": "alpha_test"
+						},
+						"south": {
+							"texture": "better_smelters_amethyst_furnace_side",
+							"render_method": "alpha_test"
+						},
+						"east": {
+							"texture": "better_smelters_amethyst_furnace_side",
+							"render_method": "alpha_test"
+						},
+						"west": {
+							"texture": "better_smelters_amethyst_furnace_side",
+							"render_method": "alpha_test"
+						},
+						"up": {
+							"texture": "better_smelters_amethyst_furnace_up",
+							"render_method": "alpha_test"
+						},
+						"down": {
+							"texture": "better_smelters_amethyst_furnace_down",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:light_emission": 8
+				}
+			}
+		]
+	}
+}

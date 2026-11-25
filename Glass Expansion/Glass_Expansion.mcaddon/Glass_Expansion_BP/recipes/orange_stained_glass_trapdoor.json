@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:orange_stained_glass_trapdoor"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:orange_stained_glass"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:orange_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:orange_stained_glass_trapdoor",
+      "count": 2
+    }
+  }
+}

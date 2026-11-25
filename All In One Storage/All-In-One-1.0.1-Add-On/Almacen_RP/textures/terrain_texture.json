@@ -1,0 +1,1 @@
+{"resource_pack_name":"alm","texture_name":"atlas.terrain","padding":8,"num_mip_levels":4,"texture_data":{"alm_front":{"textures":"textures/blocks/alm_front"},"alm_side":{"textures":"textures/blocks/alm_side"},"alm_top":{"textures":"textures/blocks/alm_top"},"alm_bottom":{"textures":"textures/blocks/alm_bottom"}}}

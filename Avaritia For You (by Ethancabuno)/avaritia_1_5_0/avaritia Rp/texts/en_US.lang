@@ -1,0 +1,218 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=Block of Neutronium
+crystal_matrix_block.name=Block of Crystal Matrix
+infinity_block.name=Block of Infinity
+dire_crafting_table.name=Dire Crafting Table
+neutronium_compressor.name=Neutronium Compressor
+record_furnace.name=Record Furnace
+neutron_collector.name=Neutron Collector
+cosmic_collector.name=Cosmic Star Collector
+compressed_crafting_table.name=Compressed Crafting Table
+double_compressed_crafting_table.name=Double Compressed Crafting Table
+
+## Equipments
+infinity_sword.name=Sword of the Cosmos
+infinity_axe.name=Nature's Ruins
+infinity_pickaxe.name=World Breaker
+infinity_shovel.name=Planet Eater
+infinity_hoe.name=Hoe of the Green Earth
+infinity_bow.name=Longbow of the Heavens
+infinity_helmet.name=Infinity Helmet
+infinity_chestplate.name=Infinity Breastplate
+infinity_leggings.name=Infinity Pants
+infinity_boots.name=Infinity Boots
+skullfire_sword.name=Skull Fire Sword
+infinity_mace.name=Infinity Mace
+attribute.mace_smash=§5Graviton Smash §7- Fall Damage: 100 x 32 Per Block Fallen, No Cap§f
+attribute.mace_hit=§7Hit: Roots Target 20s & Pulls Nearby Mobs§f
+attribute.mace_vortex=§7Use: Black-Hole Vortex (13 Blocks) §8- §7Unlimited, 0.7s Cooldown§f
+
+## Items
+matter_cluster.name=Matter Cluster
+asgardandelion.name=Asgar Dandelion
+starfuel.name=Star Fuel
+endest_pearl.name=Endest Pearl
+infinity_ingot.name=Infinity Ingot
+infinity_nugget.name=Infinity Nugget
+infinity_catalyst.name=Infinity Catalyst
+crystal_matrix.name=Crystal Matrix Ingot
+diamond_lattice.name=Diamond Lattice
+neutronium_ingot.name=Neutronium Ingot
+neutronium_nugget.name=Neutronium Nugget
+neutronium_gear.name=Neutronium Gear
+neutronium_star.name=Neutronium Star
+pile_of_neutrons.name=Pile of Neutrons
+record_fragment.name=Record Fragment
+cosmic_meatballs.name=Cosmic MeatBalls
+ultimate_stew.name=Ultimate Stew
+
+## Singularities
+ultimate_singularity.name=Ultimate Singularity
+redstone_singularity.name=Redstone Singularity
+quartz_singularity.name=Quartz Singularity
+obsidian_singularity.name=Obsidian Singularity
+lapis_singularity.name=Lapis Singularity
+netherite_singularity.name=Netherite Singularity
+amethyst_singularity.name=Amethyst Singularity
+coal_singularity.name=Coal Singularity
+diamond_singularity.name=Diamond Singularity
+emerald_singularity.name=Emerald Singularity
+experience_singularity.name=Experience Singularity
+gold_singularity.name=Gold Singularity
+iron_singularity.name=Iron Singularity
+copper_singularity.name=Copper Singularity
+slime_singularity.name=Slime Singularity
+soul_sand_singularity.name=Soul Sand Singularity
+honey_singularity.name=Honey Singularity
+
+## Atributes
+attribute.infinity_damade=§cI§6n§ef§ai§bn§9i§dt§cy§7 Damage§f
+attribute.tree_capitator=§7Tree Capitator§f
+attribute.super_plow=§7Super Plow§f
+attribute.fly=§7Flight§f
+attribute.collect_skull=§7Collect Wither Skull§f
+attribute.attack_radius=§9Attack Radius§f
+attribute.protection=§9Protection§f
+attribute.movement_speed=§9Movement Speed§f
+attribute.knockback_resistance=§9Knockback Resistance§f
+
+## Messages
+message.avaritia.missing_ingredients=Missing Ingredients!
+message.avaritia.confirm_recipe=Do you want to create this item?
+message.avaritia.neutron=You Collected:
+message.avaritia.neutron2=Wait! You still have:
+message.avaritia.no_players_available=No players available.
+message.avaritia.remove_coordinates=Coordinates removed!
+message.avaritia.no_coordinates_saved=You have no saved coordinates.
+message.avaritia.is_not_coordinated=It has invalid characters, please try again.
+message.avaritia.coordinates_saved=Coordinates Saved!
+message.avaritia.invalid_name=Invalid or existing name.
+
+## Modes
+mode.desactive=Desactive
+mode.active=Active
+mode.avaritia.intangible_mode=Intangibility
+mode.avaritia.magnetic=Magnetism
+
+## Warning
+avaritia.equip_the_helmet=Equip the Infinity Helmet
+avaritia.equip_the_chestplate=Equip the Infinity Breastplate
+avaritia.equip_the_leggings=Equip the Infinity Pants
+avaritia.equip_the_armor=Equip the Infinity Armor
+
+## Containers
+gui.avaritia.extract_all=Extract All
+gui.avaritia.delete=Delete All
+gui.collect=Extraction
+extreme.avaritia.infinityItems=Infinity Items
+extreme.avaritia.machines=Machines
+extreme.avaritia.otherItems=Other Items
+avaritia.ingredients=Ingredients
+avaritia.amount=Amount
+container.extreme_crafting=Extreme Crafting
+container.extreme_compression=Extreme Compression
+container.compressor.description=Create singularities!
+itemUi.avaritia.teleport_to_player=Which player to visit?
+itemUi.avaritia.remove_coordinates=Remove Coordinates 
+itemUi.avaritia.choose_teleport=Choose your destination
+itemUi.avaritia.save_coordinates=Save Coordinates
+itemUi.avaritia.save_coordinates.via_text=Save Coordinates via Text
+itemUi.avaritia.name_coordinate=Name this Coordinate
+itemUi.avaritia.coordinates=Write the Coordinates
+itemUi.avaritia.name_example=Example: House, Forest, Mine...
+
+## Extra
+avaritia.not_kill=§cThis individual is immortal, it will not be possible to kill with the sword
+entity.avaritia:heaven_arrow.name=§eHeaven Arrow§f
+entity.avaritia:heaven_arrow.rain.name=§eHeaven Arrow§f
+entity.avaritia:black_hole.name=§eBlack Hole§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=Extreme Crafting Altar
+action.interact.altar=Open 9x9 crafting table
+avaritia:itemGroup.name.infinity_mace=§dInfinity Mace
+entity.avaritia:heaven_arrow_rain.name=§eHeaven Arrow§f
+gacha_machine.name=Gacha Machine
+infinity_scythe.name=Infinity Scythe
+attribute.scythe_reaper=§5Soul Reaper §7- Plague & Bleed§f
+attribute.scythe_growth=§7Every Kill Permanently Adds Damage §8- §7Victim Max HP x Hits², No Cap, Saved On The Item§f
+infinity_spear.name=Infinity Spear
+attribute.spear_lunge=§5Cosmic Lunge §7- Random Max Health %§f
+infinity_shield.name=Infinity Shield
+attribute.shield_bulwark=§5Cosmic Bulwark §7- Blocks & Reflects Everything, Release Sneak = Nova Burst§f
+tile.avaritia:infinity_shield.name=Infinity Shield
+infinity_trident.name=Infinity Trident
+attribute.trident_storm=§5Spectral Armory §7- Tap = Summon/Command Spirit Tridents, Sneak Release = Riptide§f
+entity.avaritia:infinity_trident_thrown.name=Infinity Trident
+infinity_crossbow.name=Infinity Crossbow
+attribute.crossbow_barrage=§5Rapid Barrage §7- Infinite Ammo, Sneak Shot = Energy Beams & Convergence Beam§f
+entity.avaritia:infinity_crossbow_arrow.name=Infinity Arrow
+entity.avaritia:infinity_trident_spirit.name=Spirit Trident
+
+## Infinity Utility
+infinity_totem.name=Totem of Eternal Rebirth
+infinity_fishing_rod.name=Rod of the Endless Sea
+infinity_shears.name=Shears of the Loom
+infinity_bucket.name=Bucket of the Void
+infinity_flint_and_steel.name=Spark of Creation
+attribute.totem_eternal=§7Never Breaks §8- §7Saves You From Lethal Damage§f
+attribute.rod_endless=§7Cast at Water §8- §7Instant Catch + XP§f
+attribute.shears_loom=§7Shears Everything §8- §7Leaves, Wool, Webs Drop Whole§f
+attribute.bucket_void=§7Sneak+Use = Water / Lava / Suck / Pick / Place / Spread / Erase §8- §7Infinite§f
+attribute.spark_creation=§7Ignites Blocks, TNT, Creepers §8- §7Never Breaks§f
+
+## Infinity Totems
+infinity_totem_tide.name=Totem of the Tide
+infinity_totem_ender.name=Totem of the Ender
+infinity_totem_fortune.name=Totem of Fortune
+infinity_totem_berserker.name=Totem of the Berserker
+infinity_totem_vitality.name=Totem of Vitality
+infinity_totem_gale.name=Totem of the Gale
+infinity_totem_mercy.name=Totem of Mercy
+infinity_totem_clairvoyance.name=Totem of Clairvoyance
+infinity_totem_inferno.name=Totem of the Inferno
+infinity_totem_shadow.name=Totem of Shadows
+infinity_totem_frost.name=Totem of Frost
+infinity_totem_void.name=Totem of the Void
+attribute.totem_tide=§7Hold: Water Breathing, Fast Swimming & Conduit Power§f
+attribute.totem_ender=§7Use: Blink up to 64 Blocks §8- §71s Cooldown§f
+attribute.totem_fortune=§7Hold: Haste IV & Luck III §8- §7Kills Drop Bonus XP§f
+attribute.totem_berserker=§7Hold: Strength IV, Speed II & Resistance §8- §7Kills Heal & Grant Absorption§f
+attribute.totem_vitality=§7Hold: +10 Hearts, Regeneration III & Saturation§f
+attribute.totem_gale=§7Hold: Speed IV, Jump Boost V §8- §7No Fall Damage§f
+attribute.totem_mercy=§7Hold: Healing Aura (24 Blocks) for You & Allies§f
+attribute.totem_clairvoyance=§7Hold: Night Vision & Luck §8- §7Reveals Hostile Mobs (48 Blocks)§f
+attribute.totem_inferno=§7Hold: Fire Immunity & Strength II §8- §7Attackers & Nearby Hostiles Burn§f
+attribute.totem_shadow=§7Hold: Invisibility, Speed II & Night Vision §8- §730% Dodge Chance§f
+attribute.totem_frost=§7Hold: Resistance II & Fire Resistance §8- §7Slows & Weakens Hostile Mobs (16 Blocks)§f
+attribute.totem_void=§7Hold: Void & Fall Protection §8- §7Returns You to Safe Ground§f
+infinity_destroyer.name=Infinity Destroyer
+infinity_hammer.name=Infinity Hammer
+avaritia_biome_compass.name=Biome Compass
+attribute.biome_compass=§7Use: Choose a Biome §8- §7Points to the Nearest One§f
+infinity_chest.name=Infinity Chest
+infinity_chest.title=Infinity Chest
+
+## Neon Halo Armor
+item.halo:neon_helmet=Neon Halo Helmet
+item.halo:neon_chestplate=Neon Halo Chestplate
+item.halo:neon_leggings=Neon Halo Leggings
+item.halo:neon_boots=Neon Halo Boots
+seal_orb.name=Seal Orb
+seal_orb_full.name=Seal Orb
+seal_orb.desc=Seal a creature: right-click it to seal, use again to release
+item.halo:neon_crystal=Neon Crystal
+neon_crystal.name=Neon Crystal
+glowstone_singularity.name=Glowstone Singularity
+prismarine_singularity.name=Prismarine Singularity
+end_stone_singularity.name=End Stone Singularity
+magma_singularity.name=Magma Singularity
+bone_singularity.name=Bone Singularity
+ice_singularity.name=Ice Singularity
+netherrack_singularity.name=Netherrack Singularity
+neon_helmet.name=Neon Halo Helmet
+neon_chestplate.name=Neon Halo Chestplate
+neon_leggings.name=Neon Halo Leggings
+neon_boots.name=Neon Halo Boots

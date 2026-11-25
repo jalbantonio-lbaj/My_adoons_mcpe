@@ -1,0 +1,101 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:diamond_villager",
+      "materials": {
+        "default": "villager_v2",
+        "masked": "villager_v2_masked"
+      },
+      "textures": {
+        "base": "textures/entity/oredim/diamond/villager__base",
+        "base2": "textures/entity/oredim/diamond/villager__base2",
+        "base3": "textures/entity/oredim/diamond/villager__base3",
+        "base4": "textures/entity/oredim/diamond/villager__base4",
+        "base5": "textures/entity/oredim/diamond/villager__base5",
+        "base6": "textures/entity/oredim/diamond/villager__base6",
+        "baby_base": "textures/entity/oredim/diamond/villager__baby_base",
+        "baby_base2": "textures/entity/oredim/diamond/villager__baby_base2",
+        "baby_base3": "textures/entity/oredim/diamond/villager__baby_base3",
+        "baby_base4": "textures/entity/oredim/diamond/villager__baby_base4",
+        "baby_base5": "textures/entity/oredim/diamond/villager__baby_base5",
+        "baby_base6": "textures/entity/oredim/diamond/villager__baby_base6",
+        "desert": "textures/entity/oredim/diamond/villager__desert",
+        "jungle": "textures/entity/oredim/diamond/villager__jungle",
+        "plains": "textures/entity/oredim/diamond/villager__plains",
+        "savanna": "textures/entity/oredim/diamond/villager__savanna",
+        "snow": "textures/entity/oredim/diamond/villager__snow",
+        "swamp": "textures/entity/oredim/diamond/villager__swamp",
+        "taiga": "textures/entity/oredim/diamond/villager__taiga",
+        "baby_desert": "textures/entity/oredim/diamond/villager__baby_desert",
+        "baby_jungle": "textures/entity/oredim/diamond/villager__baby_jungle",
+        "baby_plains": "textures/entity/oredim/diamond/villager__baby_plains",
+        "baby_savanna": "textures/entity/oredim/diamond/villager__baby_savanna",
+        "baby_snow": "textures/entity/oredim/diamond/villager__baby_snow",
+        "baby_swamp": "textures/entity/oredim/diamond/villager__baby_swamp",
+        "baby_taiga": "textures/entity/oredim/diamond/villager__baby_taiga",
+        "armorer": "textures/entity/oredim/diamond/villager__armorer",
+        "butcher": "textures/entity/oredim/diamond/villager__butcher",
+        "cartographer": "textures/entity/oredim/diamond/villager__cartographer",
+        "cleric": "textures/entity/oredim/diamond/villager__cleric",
+        "farmer": "textures/entity/oredim/diamond/villager__farmer",
+        "fisherman": "textures/entity/oredim/diamond/villager__fisherman",
+        "fletcher": "textures/entity/oredim/diamond/villager__fletcher",
+        "leatherworker": "textures/entity/oredim/diamond/villager__leatherworker",
+        "librarian": "textures/entity/oredim/diamond/villager__librarian",
+        "shepherd": "textures/entity/oredim/diamond/villager__shepherd",
+        "tool_smith": "textures/entity/oredim/diamond/villager__tool_smith",
+        "weapon_smith": "textures/entity/oredim/diamond/villager__weapon_smith",
+        "stonemason": "textures/entity/oredim/diamond/villager__stonemason",
+        "nitwit": "textures/entity/oredim/diamond/villager__nitwit",
+        "unskilled": "textures/entity/oredim/diamond/villager__unskilled",
+        "level_stone": "textures/entity/oredim/diamond/villager__level_stone",
+        "level_iron": "textures/entity/oredim/diamond/villager__level_iron",
+        "level_gold": "textures/entity/oredim/diamond/villager__level_gold",
+        "level_emerald": "textures/entity/oredim/diamond/villager__level_emerald",
+        "level_diamond": "textures/entity/oredim/diamond/villager__level_diamond"
+      },
+      "geometry": {
+        "default": "geometry.oredim.villager_v2",
+        "baby": "geometry.oredim.villager_baby"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 0.9375",
+        "pre_animation": [
+          "variable.num_professions = 15;",
+          "variable.num_tiers = 3;",
+          "variable.profession_index = (query.variant < variable.num_professions ? query.variant : 0);",
+          "variable.level_index = query.trade_tier;"
+        ]
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "raise_arms": "animation.villager.raise_arms",
+        "get_in_bed": "animation.villager.get_in_bed",
+        "get_in_bed_baby": "animation.villager.get_in_bed_baby"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.villager_v2.general"
+        },
+        {
+          "move": "controller.animation.villager_v2.move"
+        },
+        {
+          "raise_arms": "controller.animation.villager_v2.raise_arms"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.villager_v3_base",
+        "controller.render.villager_v3_masked",
+        "controller.render.villager_v3_level"
+      ],
+      "spawn_egg": {
+        "base_color": "#08404c",
+        "overlay_color": "#88fff6"
+      }
+    }
+  }
+}

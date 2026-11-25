@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "outersingularity_019ea00a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BAB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:singularity",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:outersingularity",
+      "count": 1
+    }
+  }
+}

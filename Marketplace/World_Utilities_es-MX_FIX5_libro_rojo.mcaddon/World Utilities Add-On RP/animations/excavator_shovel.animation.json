@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gf_wu.excavator_shovel.first_person": {
+			"loop": true,
+			"animation_length": 2.04,
+			"bones": {
+				"root": {
+					"rotation": [79, 57, -38],
+					"position": [1.5, 16.5, 6],
+					"scale": 0.75
+				}
+			}
+		},
+		"animation.gf_wu.excavator_shovel.third_person": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [80, 0, 0],
+					"position": [0.45, 17.5, -1.2],
+					"scale": 0.9
+				}
+			}
+		}
+	}
+}

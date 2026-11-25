@@ -1,0 +1,37 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "avaritia:diamond_lattice_block": {
+    "sound": "glass"
+  },
+  "avaritia:star_fuel_block": {
+    "sound": "metal"
+  },
+  "avaritia:refined_coal_block": {
+    "sound": "stone"
+  },
+  "avaritia:endless_cake": {
+    "sound": "cloth"
+  },
+  "avaritia:compressed_chest": {
+    "sound": "wood"
+  },
+  "avaritia:infinity_chest": {
+    "sound": "wood"
+  },
+  "avaritia:extreme_anvil": {
+    "sound": "anvil"
+  },
+  "avaritia:tesseract": {
+    "sound": "glass"
+  },
+  "avaritia:unbreakable_stone": {
+    "sound": "stone"
+  },
+  "avaritia:soul_farmland": {
+    "sound": "soul_soil"
+  }
+}

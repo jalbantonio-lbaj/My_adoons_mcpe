@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "extreme_crafting_side",
+    "metalness_emissive_roughness": "extreme_crafting_side_mer"
+  }
+}

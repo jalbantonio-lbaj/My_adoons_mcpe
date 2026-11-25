@@ -1,0 +1,135 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:neutron_collector",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      },
+      "states": {
+        "avaritia:fake_selection": [
+          true,
+          false
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "machine_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "neutron_collector_top",
+          "render_method": "opaque"
+        },
+        "front": {
+          "texture": "neutron_collector_front",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.neutron_collector"
+      },
+      "tag:metal": {},
+      "tag:machine": {},
+      "tag:dorios:item": {},
+      "tag:diamond_pick_diggable": {},
+      "tag:minecraft:diamond_tier_destructible": {},
+      "avaritia:player_interact": {},
+      "avaritia:on_tick": {},
+      "minecraft:display_name": "§e%neutron_collector.name\n%addon.avaritia",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 15
+      },
+      "minecraft:tick": {
+        "interval_range": [
+          1,
+          1
+        ],
+        "looping": true
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:fake_selection')",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -5.5,
+              2.5,
+              -5.5
+            ],
+            "size": [
+              11,
+              11,
+              11
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

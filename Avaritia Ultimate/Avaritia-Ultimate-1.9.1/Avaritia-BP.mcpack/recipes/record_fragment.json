@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "avaritia:record_fragment"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "tag": "minecraft:music_disc"
+      }
+    ],
+    "result": {
+      "item": "avaritia:record_fragment",
+      "count": 8
+    }
+  }
+}

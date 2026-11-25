@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:white_hacker_magenta_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "white_hacker_magenta",
+        "pattern": [
+            "ABA",
+            "BAB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_white_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_magenta_block"
+            }
+        },
+        "result": {
+            "item": "mikeyz:white_hacker_magenta",
+            "count": 9
+        }
+    }
+}

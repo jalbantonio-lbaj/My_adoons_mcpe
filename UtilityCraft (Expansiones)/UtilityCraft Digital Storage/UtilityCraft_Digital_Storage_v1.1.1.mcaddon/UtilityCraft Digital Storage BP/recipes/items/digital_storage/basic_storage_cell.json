@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "utilitycraft:basic_storage_cell"
+    },
+    "tags": [
+      "utilitycraft_workbench"
+    ],
+    "ingredients": [
+      {
+        "item": "utilitycraft:cell_casing"
+      },
+      {
+        "item": "utilitycraft:basic_storage_part"
+      }
+    ],
+    "result": {
+      "item": "utilitycraft:basic_storage_cell"
+    },
+    "unlock": [
+      {
+        "item": "utilitycraft:cell_casing"
+      },
+      {
+        "item": "utilitycraft:basic_storage_part"
+      }
+    ]
+  }
+}

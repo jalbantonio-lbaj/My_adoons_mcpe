@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:jeb_wool",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "jeb_wool",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "item_specific_speeds": [
+          {
+            "item": "minecraft:shears",
+            "destroy_speed": 0.4
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 4
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60
+      },
+      "minecraft:map_color": "#f9fffe",
+      "minecraft:light_dampening": 15,
+      "minecraft:loot": "loot_tables/blocks/jeb_wool.json"
+    }
+  }
+}

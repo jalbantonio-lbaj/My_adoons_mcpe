@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinityleggings_51eb39d2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "C C",
+      "D D"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:infinitycatalyst",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:crystalmatrixblock",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:infinityblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinityleggings",
+      "count": 1
+    }
+  }
+}

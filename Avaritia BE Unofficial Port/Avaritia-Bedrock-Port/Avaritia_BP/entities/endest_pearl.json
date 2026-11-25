@@ -1,0 +1,57 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:endest_pearl",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0.25,
+        "width": 0.25
+      },
+      "minecraft:physics": {},
+      "minecraft:projectile": {
+        "angle_offset": 0.0,
+        "on_hit": {
+          "impact_damage": {
+            "apply_knockback_to_blocking_targets": true,
+            "damage": 3,
+            "knockback": false
+          },
+          "spawn_chance": {
+            "first_spawn_percent_chance": 100,
+            "first_spawn_count": 1,
+            "spawn_definition": "avaritia:gaping_void"
+          },
+          "remove_on_hit": {}
+        },
+        "isolated_physics": true,
+        "gravity": 0.025,
+        "power": 2.5,
+        "inertia": 1,
+        "liquid_inertia": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "no"
+        }
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 100.0,
+          "max_dropped_ticks": 7,
+          "use_motion_prediction_hints": true
+        }
+      }
+    }
+  }
+}

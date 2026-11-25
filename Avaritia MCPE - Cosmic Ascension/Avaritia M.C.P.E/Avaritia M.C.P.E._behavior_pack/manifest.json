@@ -1,0 +1,70 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Thanks SpiteFul_Fox for the java one.\n\nAn addon made to destroy other addons. by TheMainly2",
+    "name": "Avaritia M.C.P.E.",
+    "uuid": "b6fb620f-56f1-4364-bf83-6dfe6427860e",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "Thanks SpiteFul_Fox for the java one.\n\nAn addon made to destroy other addons. by TheMainly2",
+      "type": "data",
+      "uuid": "6e1ef33c-0640-47b0-8bfb-82f3f529d3d9",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "af38c649-9502-403c-a75a-18b42d3c4235",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4367fb07-373a-4305-b35e-1fd4bacfbb26",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "version": "2.7.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "2.0.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "TheMainly2"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.9.7"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_shovel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.shovel",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_shovel",
+        "use_on": [
+          "avaritia:infinity_shovel"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_shovel.name\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_tools",
+          "minecraft:is_shovel"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 8,
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "shovel"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:clay",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:concretepowder",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:dirt",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:grass",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:grass_path",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:gravel",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:sand",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:snow",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:snow_layer",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:soul_sand",
+            "speed": 9999
+          },
+          {
+            "block": "minecraft:soul_soil",
+            "speed": 9999
+          },
+          {
+            "block": {
+              "tags": "query.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow', 'minecraft:is_shovel_item_destructible')"
+            },
+            "speed": 9999
+          }
+        ]
+      }
+    }
+  }
+}

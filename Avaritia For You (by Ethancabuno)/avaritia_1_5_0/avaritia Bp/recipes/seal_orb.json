@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:seal_orb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "XPX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "avaritia:crystal_matrix"
+      },
+      "P": {
+        "item": "avaritia:endest_pearl"
+      }
+    },
+    "unlock": [
+      {
+        "item": "avaritia:endest_pearl"
+      }
+    ],
+    "result": {
+      "item": "avaritia:seal_orb"
+    }
+  }
+}

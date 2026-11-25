@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:gaping_void",
+      "materials": {
+        "default": "entity_alphatest",
+        "blend": "entity_beam_additive"
+      },
+      "textures": {
+        "default": "textures/entity/black_hole_texture",
+        "core": "textures/entity/black",
+        "event_horizon": "textures/entity/black_hole_texture"
+      },
+      "geometry": {
+              "default": "geometry.avaritia_black_hole"
+            },
+            "animations": {
+              "grow": "animation.avaritia_black_hole.grow"
+            },
+      "scripts": {
+        "animate": [
+          "grow"
+        ],
+        "pre_animation": [
+          "variable.scale = query.property('avaritia:scale');"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.gaping_void"
+      ],
+      "particle_effects": {
+        "star_shine": "avaritia:star_shine",
+        "ring": "avaritia:ring"
+      }
+    }
+  }
+}

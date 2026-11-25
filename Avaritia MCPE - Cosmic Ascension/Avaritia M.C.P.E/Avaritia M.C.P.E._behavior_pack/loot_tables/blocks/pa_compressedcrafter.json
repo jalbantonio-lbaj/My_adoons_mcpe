@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crafting_table",
+          "data": 0,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 9,
+                "max": 9
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

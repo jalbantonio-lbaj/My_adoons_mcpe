@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "infinity_sword",
+		"metalness_emissive_roughness": "infinity_sword_mer",
+		"heightmap": "infinity_sword_height"
+	}
+}

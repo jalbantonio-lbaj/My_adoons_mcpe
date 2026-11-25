@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "gf_wu:chunk_minion",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/gamefam/world_utils/chunk_minion"
+      },
+      "geometry": {
+        "default": "geometry.gf_wu.chunk_minion"
+      },
+      "animations": {
+        "idle": "animation.gf_wu.chunk_minion.idle",
+        "hat": "animation.gf_wu.chunk_minion.hat",
+        "controller": "controller.animation.gf_wu.chunk_minion.hat"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.skeleton" ],
+      "spawn_egg": {
+        "texture": "gf_wu:chunk_minion",
+        "texture_index": 0
+      }
+    }
+  }
+}

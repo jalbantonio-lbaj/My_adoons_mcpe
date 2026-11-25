@@ -1,0 +1,119 @@
+{
+    "format_version": "1.26.30",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "construction",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "avaritia:infinity_block",
+                            "name": "avaritia:itemGroup.name.blocks"
+                        },
+                        "items": [
+                            "avaritia:crystal_matrix_block",
+                            "avaritia:neutronium_block",
+                            "avaritia:infinity_block",
+                            "avaritia:gaia_block"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "icon": "avaritia:neutron_collector",
+                            "name": "avaritia:itemGroup.name.machines"
+                        },
+                        "items": [
+                            "avaritia:neutron_collector",
+                            "avaritia:neutronium_compressor"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "icon": "avaritia:dire_crafting_table",
+                            "name": "avaritia:itemGroup.name.tables"
+                        },
+                        "items": [
+                            "avaritia:dire_crafting_table",
+                            "avaritia:compressed_crafting_table",
+                            "avaritia:double_compressed_crafting_table"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "avaritia:infinity_catalyst",
+                            "name": "avaritia:itemGroup.name.materials"
+                        },
+                        "items": [
+                            "avaritia:diamond_lattice",
+                            "avaritia:crystal_matrix_ingot",
+                            "avaritia:neutron_pile",
+                            "avaritia:neutronium_nugget",
+                            "avaritia:neutronium_ingot",
+                            "avaritia:ultimate_stew",
+                            "avaritia:cosmic_meatballs",
+                            "avaritia:endest_pearl",
+                            "avaritia:record_fragment",
+                            "avaritia:singularity_coal",
+                            "avaritia:singularity_copper",
+                            "avaritia:singularity_iron",
+                            "avaritia:singularity_gold",
+                            "avaritia:singularity_lapis",
+                            "avaritia:singularity_redstone",
+                            "avaritia:singularity_diamond",
+                            "avaritia:singularity_emerald",
+                            "avaritia:singularity_quartz",
+                            "avaritia:singularity_netherite",
+                            "avaritia:singularity_steel",
+                            "avaritia:singularity_energized_iron",
+                            "avaritia:singularity_silicon",
+                            "avaritia:singularity_lead",
+                            "avaritia:singularity_uranium",
+                            "avaritia:singularity_tin",
+                            "avaritia:singularity_bronze",
+                            "avaritia:singularity_titanium",
+                            "avaritia:singularity_tungsten",
+                            "avaritia:singularity_aetherium",
+                            "avaritia:singularity_fluxite",
+                            "avaritia:infinity_catalyst",
+                            "avaritia:infinity_ingot",
+                            "avaritia:starfuel",
+                            "avaritia:neutronium_gear",
+                            "avaritia:matter_cluster",
+                            "avaritia:critical_matter_cluster"
+                        ]
+                    }
+                ]   
+                
+            },
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "avaritia:sword_of_the_cosmos",
+                            "name": "avaritia:itemGroup.name.equipment"
+                        },
+                        "items": [
+                            "avaritia:infinity_helmet",
+                            "avaritia:infinity_breastplate",
+                            "avaritia:infinity_pants",
+                            "avaritia:infinity_boots",
+                            "avaritia:sword_of_the_cosmos",
+                            "avaritia:longbow_of_the_heavens",
+                            "avaritia:world_breaker",
+                            "avaritia:planet_eater",
+                            "avaritia:natures_ruin",
+                            "avaritia:hoe_of_the_green_earth",
+                            "avaritia:skullfire_sword"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

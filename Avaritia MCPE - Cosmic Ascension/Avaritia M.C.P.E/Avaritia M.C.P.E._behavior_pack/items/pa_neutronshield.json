@@ -1,0 +1,66 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:neutronshield",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "pa_neutronshield",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true,
+      "minecraft:glint": false,
+      "minecraft:durability": {
+        "max_durability": 32767,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "pa:direcrafting"
+            ],
+            "repair_amount": 99999
+          },
+          {
+            "items": [
+              "pa:neutronshield"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:display_name": {
+        "value": "item.pa:neutronshield.name"
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "shield"
+      },
+      "minecraft:tags": {
+        "tags": []
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "item:shield_components": {
+        "block_sound": "item.shield.block",
+        "break_sound": "random.break",
+        "damage_reduction": 1.0,
+        "durability_loss_multiplier": 0.1,
+        "knockback": {
+          "x": 2.0,
+          "y": 2.0
+        },
+        "warmup_delay": 0.1
+      }
+    }
+  }
+}

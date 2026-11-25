@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:neutronium_block_from_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "avaritia:neutronium_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:neutronium_block_item"
+    }
+  }
+}

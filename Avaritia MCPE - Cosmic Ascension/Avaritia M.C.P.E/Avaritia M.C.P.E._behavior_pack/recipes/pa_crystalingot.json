@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "crystalingot_7ec87807"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:diamondnugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:crystalingot",
+      "count": 1
+    }
+  }
+}

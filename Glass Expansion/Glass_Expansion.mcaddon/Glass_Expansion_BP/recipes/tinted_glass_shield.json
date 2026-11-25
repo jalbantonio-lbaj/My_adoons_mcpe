@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:tinted_glass_shield"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#/#",
+      "###",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:tinted_glass"
+      },
+      "/": {
+        "item": "vge:glass_stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:tinted_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:tinted_glass_shield",
+      "count": 1
+    }
+  }
+}

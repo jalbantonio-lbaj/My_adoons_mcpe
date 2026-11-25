@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "neon_cyber_side_magenta",
+		"metalness_emissive_roughness": "neon_cyber_side_magenta_mer",
+		"heightmap": "neon_cyber_side_magenta_height"
+	}
+}

@@ -1,0 +1,71 @@
+{
+  "half_screen": {
+    "$fcql_is_container_screen": true,
+    "$is_inventory_half_screen|default": false,
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "fcql_pocket_ui_panel_wrapper": {
+              "type": "panel",
+              "ignored": "(not $fast_loot_enabled)",
+              "controls": [
+                {
+                  "fcql_pocket_ui_panel": {
+                    "type": "panel",
+                    "layer": 380,
+                    "anchor_from": "bottom_middle",
+                    "anchor_to": "bottom_middle",
+                    "offset": [0, -15],
+                    "size": [130, 30],
+                    "ignored": "(not $is_inventory_half_screen)",
+                    "controls": [
+                      {
+                        "background": {
+                          "type": "image",
+                          "texture": "textures/ui/dialog_background_opaque",
+                          "size": ["100%", "100%"]
+                        }
+                      },
+                      {
+                        "status_text@fcQL.status_text_panel": {
+                          "anchor_from": "left_middle",
+                          "anchor_to": "left_middle",
+                          "offset": [37, 0],
+                          "layer": 381,
+                          "size": ["100%c - 56px", 16]
+                        }
+                      },
+                      {
+                        "toggle_holder": {
+                          "type": "panel",
+                          "anchor_from": "right_middle",
+                          "anchor_to": "right_middle",
+                          "offset": [-12, 0],
+                          "layer": 382,
+                          "size": [24, 24],
+                          "controls": [
+                            {
+                              "quick_loot_toggle@fcQL.toggle_button": {
+                                "size": [24, 24]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "panel/inventory": {
+    "$is_inventory_half_screen": true
+  }
+}

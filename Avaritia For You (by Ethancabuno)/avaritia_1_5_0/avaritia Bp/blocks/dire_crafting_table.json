@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:dire_crafting_table",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "avaritia:fake_selection": [
+          true,
+          false
+        ]
+      }
+    },
+    "components": {
+      "avaritia:on_tick": {},
+      "minecraft:tick": {
+        "interval_range": [
+          1,
+          1
+        ],
+        "looping": true
+      },
+      "minecraft:display_name": "§e%dire_crafting_table.name\n%addon.avaritia",
+      "tag:metal": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 15
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 50
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('avaritia:fake_selection')",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -5.5,
+              2.5,
+              -5.5
+            ],
+            "size": [
+              11,
+              11,
+              11
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

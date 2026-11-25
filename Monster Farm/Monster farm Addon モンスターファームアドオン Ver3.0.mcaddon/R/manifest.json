@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Monster farm Addon モンスターファームアドオン Ver3.0",
+    "name": "Monster farm Addon モンスターファームアドオン",
+    "uuid": "369c797a-1e18-5f58-34c3-9cf84a12e55d",
+    "min_engine_version": [1, 13, 0],
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Monster farm Addon モンスターファームアドオン Ver3.0",
+      "type": "resources",
+      "uuid": "d7b4df62-71ac-9803-26ae-7bb47e81834b",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d5fcaad6-9d0a-572e-b4c1-ec8cebe5c0b2",
+      "version": [1, 0, 0]
+    }
+  ]
+}

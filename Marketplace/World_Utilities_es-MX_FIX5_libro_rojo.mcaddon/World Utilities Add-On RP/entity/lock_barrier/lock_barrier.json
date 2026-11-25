@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "gf_wu:lock_barrier",
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/gamefam/world_utils/lock_barrier"
+            },
+            "geometry": {
+                "default": "geometry.gf_wu.lock_barrier"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:portable_blaze_burner",
+      "menu_category": {
+        "category": "equipment",
+        "group": "avaritia:itemGroup.name.gadgets"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "portable_blaze_burner"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "\u00a7f%portable_blaze_burner.name\n%addon.avaritia"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:glint": false,
+      "minecraft:rarity": {
+        "value": "rare"
+      }
+    }
+  }
+}

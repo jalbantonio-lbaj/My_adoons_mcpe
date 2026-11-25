@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "storm_pro",
+    "metalness_emissive_roughness": "storm_pro_mer"
+  }
+}

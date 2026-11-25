@@ -1,0 +1,12 @@
+## Fast-craft Pack Localization - 日本語
+pack.name=§lFast craft & Fast loot v3.10
+pack.description=§oMinecraft Bedrock/PE に Fast Craft と Fast loot 機能を追加します
+
+fast_loot.status.on=Fast Loot: ON
+fast_loot.status.off=Fast Loot: OFF
+
+fast_loot.toggle.tts_name=Fast Loot
+fast_loot.toggle.tts_on=Fast Loot 有効
+fast_loot.toggle.tts_off=Fast Loot 無効
+fast_craft.button.tts=高速クラフト
+fast_trade.button.tts=クイック取引

@@ -1,0 +1,660 @@
+{
+  "namespace": "avaritia",
+  "compressor_recipe_toggle@avaritia.avaritia_toggle_button": {
+    "$toggle_layer": -2,
+    "$toggle_lost_reset": true,
+    "$toggle_group": true,
+    "$toggle_default_state": false,
+    "$toggle_hover_text_localize": true,
+    "$toggle_checked_hover_text_localize": true,
+    "$toggle_checked_hover_text_from_hover": true,
+    "$toggle_size": [18, 18],
+    "$toggle_unchecked": "textures/ui/recipe_book_item_bg",
+    "$toggle_checked": "textures/ui/recipe_book_touch_cell_selected",
+    "$toggle_unchecked_hover": "textures/ui/slot_enabled_hover",
+    "$toggle_checked_hover": "textures/ui/slot_enabled_hover",
+    "$has_toggle_icon": true,
+    "$toggle_icon_size": [14, 14],
+    "$toggle_icon_uv_size": [16, 16],
+    "$toggle_icon_unchecked": "$recipe_icon",
+    "$toggle_icon_checked": "$recipe_icon",
+    "$toggle_icon_unchecked_hover": "$recipe_icon",
+    "$toggle_icon_checked_hover": "$recipe_icon",
+    "$toggle_name": "avaritia_compressor_recipes",
+    "$toggle_binding_type": "global"
+  },
+  "compressor_recipe_entry": {
+    "type": "panel",
+    "size": [126, 28],
+    "$input_texture|default": "",
+    "$output_texture|default": "",
+    "$required_count|default": "",
+    "controls": [
+      {
+        "input_item": {
+          "type": "image",
+          "texture": "$input_texture",
+          "size": [16, 16],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle"
+        }
+      },
+      {
+        "recipe_arrow": {
+          "type": "image",
+          "texture": "textures/ui/arrow_empty",
+          "size": [18, 12],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [26, 0]
+        }
+      },
+      {
+        "output_item": {
+          "type": "image",
+          "texture": "$output_texture",
+          "size": [16, 16],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [50, 0]
+        }
+      },
+      {
+        "required_count": {
+          "type": "label",
+          "text": "$required_count",
+          "size": [48, 16],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [74, 0],
+          "color": [1, 1, 1],
+          "shadow": true,
+          "font_scale_factor": 0.8
+        }
+      }
+    ]
+  },
+  "compressor_recipe_list": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [126, "100%c"],
+    "controls": [
+      {
+        "recipe_row_0": {
+          "type": "panel",
+          "size": [126, 18],
+          "controls": [
+            {
+              "coal_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 0,
+                "$toggle_hover_text": "item.avaritia:singularity_coal",
+                "$toggle_control_name": "compressor_coal_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_coal_strip",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "copper_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 1,
+                "$toggle_hover_text": "item.avaritia:singularity_copper",
+                "$toggle_control_name": "compressor_copper_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_copper_strip",
+                "offset": [18, 0]
+              }
+            },
+            {
+              "iron_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 2,
+                "$toggle_hover_text": "item.avaritia:singularity_iron",
+                "$toggle_control_name": "compressor_iron_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_iron_strip",
+                "offset": [36, 0]
+              }
+            },
+            {
+              "gold_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 3,
+                "$toggle_hover_text": "item.avaritia:singularity_gold",
+                "$toggle_control_name": "compressor_gold_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_gold_strip",
+                "offset": [54, 0]
+              }
+            },
+            {
+              "lapis_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 4,
+                "$toggle_hover_text": "item.avaritia:singularity_lapis",
+                "$toggle_control_name": "compressor_lapis_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_lapis_strip",
+                "offset": [72, 0]
+              }
+            },
+            {
+              "redstone_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 5,
+                "$toggle_hover_text": "item.avaritia:singularity_redstone",
+                "$toggle_control_name": "compressor_redstone_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_redstone_strip",
+                "offset": [90, 0]
+              }
+            },
+            {
+              "diamond_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 6,
+                "$toggle_hover_text": "item.avaritia:singularity_diamond",
+                "$toggle_control_name": "compressor_diamond_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_diamond_strip",
+                "offset": [108, 0]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "recipe_row_1": {
+          "type": "panel",
+          "size": [126, 18],
+          "controls": [
+            {
+              "emerald_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 7,
+                "$toggle_hover_text": "item.avaritia:singularity_emerald",
+                "$toggle_control_name": "compressor_emerald_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_emerald_strip",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "quartz_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 8,
+                "$toggle_hover_text": "item.avaritia:singularity_quartz",
+                "$toggle_control_name": "compressor_quartz_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_quartz_strip",
+                "offset": [18, 0]
+              }
+            },
+            {
+              "netherite_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 9,
+                "$toggle_hover_text": "item.avaritia:singularity_netherite",
+                "$toggle_control_name": "compressor_netherite_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_netherite_strip",
+                "offset": [36, 0]
+              }
+            },
+            {
+              "steel_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 10,
+                "$toggle_hover_text": "item.avaritia:singularity_steel",
+                "$toggle_control_name": "compressor_steel_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_steel_strip",
+                "offset": [54, 0]
+              }
+            },
+            {
+              "energized_iron_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 11,
+                "$toggle_hover_text": "item.avaritia:singularity_energized_iron",
+                "$toggle_control_name": "compressor_energized_iron_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_energized_iron_strip",
+                "offset": [72, 0]
+              }
+            },
+            {
+              "silicon_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 12,
+                "$toggle_hover_text": "item.avaritia:singularity_silicon",
+                "$toggle_control_name": "compressor_silicon_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_silicon_strip",
+                "offset": [90, 0]
+              }
+            },
+            {
+              "lead_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 13,
+                "$toggle_hover_text": "item.avaritia:singularity_lead",
+                "$toggle_control_name": "compressor_lead_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_lead_strip",
+                "offset": [108, 0]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "recipe_row_2": {
+          "type": "panel",
+          "size": [126, 18],
+          "controls": [
+            {
+              "uranium_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 14,
+                "$toggle_hover_text": "item.avaritia:singularity_uranium",
+                "$toggle_control_name": "compressor_uranium_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_uranium_strip",
+                "offset": [0, 0]
+              }
+            },
+            {
+              "tin_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 15,
+                "$toggle_hover_text": "item.avaritia:singularity_tin",
+                "$toggle_control_name": "compressor_tin_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_tin_strip",
+                "offset": [18, 0]
+              }
+            },
+            {
+              "bronze_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 16,
+                "$toggle_hover_text": "item.avaritia:singularity_bronze",
+                "$toggle_control_name": "compressor_bronze_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_bronze_strip",
+                "offset": [36, 0]
+              }
+            },
+            {
+              "titanium_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 17,
+                "$toggle_hover_text": "item.avaritia:singularity_titanium",
+                "$toggle_control_name": "compressor_titanium_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_titanium_strip",
+                "offset": [54, 0]
+              }
+            },
+            {
+              "tungsten_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 18,
+                "$toggle_hover_text": "item.avaritia:singularity_tungsten",
+                "$toggle_control_name": "compressor_tungsten_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_tungsten_strip",
+                "offset": [72, 0]
+              }
+            },
+            {
+              "aetherium_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 19,
+                "$toggle_hover_text": "item.avaritia:singularity_aetherium",
+                "$toggle_control_name": "compressor_aetherium_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_aetherium_strip",
+                "offset": [90, 0]
+              }
+            },
+            {
+              "fluxite_toggle@avaritia.compressor_recipe_toggle": {
+                "$toggle_index": 20,
+                "$toggle_hover_text": "item.avaritia:singularity_fluxite",
+                "$toggle_control_name": "compressor_fluxite_recipe",
+                "$recipe_icon": "textures/ui/icons/singularity_fluxite_strip",
+                "offset": [108, 0]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_recipes_side_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [154, 166],
+    "offset": [-90, 0],
+    "layer": 10,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia_recipes_toggle_button",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible",
+        "resolve_sibling_scope": false
+      }
+    ],
+    "controls": [
+      {
+        "panel_bg": {
+          "type": "image",
+          "texture": "textures/ui/background/background_panel",
+          "size": [140, 145],
+          "offset": [7, 10.5],
+          "layer": -5
+        }
+      },
+      {
+        "top_bg": {
+          "type": "image",
+          "texture": "textures/ui/background/dark_top_tab",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [140, 24],
+          "offset": [7, 0],
+          "layer": -6
+        }
+      },
+      {
+        "title": {
+          "type": "label",
+          "text": "ui.avaritia:recipes_panel_compressor.name",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [7, 7],
+          "color": [0.9, 0.9, 0.9],
+          "layer": -3,
+          "font_scale_factor": 1
+        }
+      },
+      {
+        "recipes_grid_bg": {
+          "type": "image",
+          "texture": "textures/ui/recipe_grid_bg",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [128, 133],
+          "offset": [20, 27],
+          "layer": -4
+        }
+      },
+      {
+        "recipes_grid_border": {
+          "type": "image",
+          "texture": "textures/ui/background_border",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [128, 133],
+          "offset": [20, 27],
+          "layer": 4
+        }
+      },
+      {
+        "recipes_scroll@common.scrolling_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [142, 133],
+          "offset": [13, -2],
+          "$show_background": false,
+          "layer": -2,
+          "$scroll_size": [4, "100% - 4px"],
+          "$scrolling_pane_size": ["100% + 6px", "100% + 3px"],
+          "$scrolling_pane_offset": [-2, 30],
+          "$scroll_view_port_size": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_max_size": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_offset": [-44, 0],
+          "$scrolling_pane_size_touch": ["100% + 6px", "100% + 3px"],
+          "$scrolling_pane_offset_touch": [0, 30],
+          "$scroll_view_port_size_touch": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_max_size_touch": ["100% + 80px", "100% + 3px"],
+          "$scroll_view_port_offset_touch": [-46, 0],
+          "$scroll_size_touch": [4, "100% - 4px"],
+          "$scroll_box_visible_touch": true,
+          "$use_touch_mode": false,
+          "$scrolling_content": "avaritia.compressor_recipe_list",
+          "$scroll_track_image_control": "common.empty_image"
+        }
+      }
+    ]
+  },
+  "compressor_recipes_connector": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [12, 166],
+    "offset": [-13, 0],
+    "layer": -20,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "avaritia_recipes_toggle_button",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible",
+        "resolve_sibling_scope": true
+      }
+    ],
+    "controls": [
+      {
+        "connector_bg": {
+          "type": "image",
+          "texture": "textures/ui/recipe_book_side_toggle_dark",
+          "size": [12, 166],
+          "layer": 0
+        }
+      }
+    ]
+  },
+  "compressor_recipe_overlay": {
+    "type": "panel",
+    "size": [162, 80],
+    "$recipe_control_name|default": "",
+    "$input_texture|default": "",
+    "$output_texture|default": "",
+    "$requirement_index|default": 4,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "$recipe_control_name",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible",
+        "resolve_sibling_scope": false
+      }
+    ],
+    "controls": [
+      {
+        "input@avaritia.recipe_slot_overlay": {
+          "$recipe_slot_index": 0,
+          "$slot_item_texture": "$input_texture",
+          "$slot_offset": [41, 24],
+          "$slot_red_size": [16, 16],
+          "$has_slot_hover": false,
+          "$has_slot_item": true
+        }
+      },
+      {
+        "output@avaritia.recipe_slot_overlay": {
+          "$recipe_slot_index": 1,
+          "$slot_item_texture": "$output_texture",
+          "$slot_offset": [105, 21],
+          "$slot_item_offset": [0, 3],
+          "$slot_red_size": [22, 22],
+          "$has_slot_hover": false,
+          "$has_slot_item": true
+        }
+      },
+      {
+        "input_requirement": {
+          "type": "collection_panel",
+          "collection_name": "container_items",
+          "collection_index": "$requirement_index",
+          "size": [162, 28],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [0, 46],
+          "controls": [
+            {
+              "label@avaritia.compressor_requirement_label": {
+                "collection_index": "$requirement_index",
+                "size": [162, 28]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "compressor_recipe_panels": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [162, 80],
+    "offset": [7, 7],
+    "layer": 20,
+    "controls": [
+      {
+        "coal_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_coal_recipe",
+          "$input_texture": "textures/blocks/coal_block",
+          "$output_texture": "textures/ui/icons/singularity_coal_strip",
+          "$requirement_index": 4
+        }
+      },
+      {
+        "copper_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_copper_recipe",
+          "$input_texture": "textures/blocks/copper_block",
+          "$output_texture": "textures/ui/icons/singularity_copper_strip",
+          "$requirement_index": 5
+        }
+      },
+      {
+        "iron_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_iron_recipe",
+          "$input_texture": "textures/blocks/iron_block",
+          "$output_texture": "textures/ui/icons/singularity_iron_strip",
+          "$requirement_index": 6
+        }
+      },
+      {
+        "gold_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_gold_recipe",
+          "$input_texture": "textures/blocks/gold_block",
+          "$output_texture": "textures/ui/icons/singularity_gold_strip",
+          "$requirement_index": 7
+        }
+      },
+      {
+        "lapis_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_lapis_recipe",
+          "$input_texture": "textures/blocks/lapis_block",
+          "$output_texture": "textures/ui/icons/singularity_lapis_strip",
+          "$requirement_index": 8
+        }
+      },
+      {
+        "redstone_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_redstone_recipe",
+          "$input_texture": "textures/blocks/redstone_block",
+          "$output_texture": "textures/ui/icons/singularity_redstone_strip",
+          "$requirement_index": 9
+        }
+      },
+      {
+        "diamond_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_diamond_recipe",
+          "$input_texture": "textures/blocks/diamond_block",
+          "$output_texture": "textures/ui/icons/singularity_diamond_strip",
+          "$requirement_index": 10
+        }
+      },
+      {
+        "emerald_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_emerald_recipe",
+          "$input_texture": "textures/blocks/emerald_block",
+          "$output_texture": "textures/ui/icons/singularity_emerald_strip",
+          "$requirement_index": 11
+        }
+      },
+      {
+        "quartz_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_quartz_recipe",
+          "$input_texture": "textures/blocks/quartz_block_bottom",
+          "$output_texture": "textures/ui/icons/singularity_quartz_strip",
+          "$requirement_index": 12
+        }
+      },
+      {
+        "netherite_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_netherite_recipe",
+          "$input_texture": "textures/blocks/netherite_block",
+          "$output_texture": "textures/ui/icons/singularity_netherite_strip",
+          "$requirement_index": 13
+        }
+      },
+      {
+        "steel_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_steel_recipe",
+          "$input_texture": "textures/blocks/materials/steel_block",
+          "$output_texture": "textures/ui/icons/singularity_steel_strip",
+          "$requirement_index": 14
+        }
+      },
+      {
+        "energized_iron_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_energized_iron_recipe",
+          "$input_texture": "textures/blocks/materials/block_of_energized_iron",
+          "$output_texture": "textures/ui/icons/singularity_energized_iron_strip",
+          "$requirement_index": 15
+        }
+      },
+      {
+        "silicon_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_silicon_recipe",
+          "$input_texture": "textures/blocks/materials/silicon_block",
+          "$output_texture": "textures/ui/icons/singularity_silicon_strip",
+          "$requirement_index": 16
+        }
+      },
+      {
+        "lead_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_lead_recipe",
+          "$input_texture": "textures/blocks/block_of_lead",
+          "$output_texture": "textures/ui/icons/singularity_lead_strip",
+          "$requirement_index": 17
+        }
+      },
+      {
+        "uranium_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_uranium_recipe",
+          "$input_texture": "textures/blocks/block_of_uranium",
+          "$output_texture": "textures/ui/icons/singularity_uranium_strip",
+          "$requirement_index": 18
+        }
+      },
+      {
+        "tin_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_tin_recipe",
+          "$input_texture": "textures/blocks/block_of_tin",
+          "$output_texture": "textures/ui/icons/singularity_tin_strip",
+          "$requirement_index": 19
+        }
+      },
+      {
+        "bronze_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_bronze_recipe",
+          "$input_texture": "textures/blocks/multiblock/bronze/bronze_block",
+          "$output_texture": "textures/ui/icons/singularity_bronze_strip",
+          "$requirement_index": 20
+        }
+      },
+      {
+        "titanium_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_titanium_recipe",
+          "$input_texture": "textures/blocks/ores/titanium_block",
+          "$output_texture": "textures/ui/icons/singularity_titanium_strip",
+          "$requirement_index": 21
+        }
+      },
+      {
+        "tungsten_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_tungsten_recipe",
+          "$input_texture": "textures/blocks/ores/tungsten_block",
+          "$output_texture": "textures/ui/icons/singularity_tungsten_strip",
+          "$requirement_index": 22
+        }
+      },
+      {
+        "aetherium_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_aetherium_recipe",
+          "$input_texture": "textures/blocks/ores/aetherium_block",
+          "$output_texture": "textures/ui/icons/singularity_aetherium_strip",
+          "$requirement_index": 23
+        }
+      },
+      {
+        "fluxite_overlay@avaritia.compressor_recipe_overlay": {
+          "$recipe_control_name": "compressor_fluxite_recipe",
+          "$input_texture": "textures/blocks/fluxite_block",
+          "$output_texture": "textures/ui/icons/singularity_fluxite_strip",
+          "$requirement_index": 24
+        }
+      }
+    ]
+  }
+}

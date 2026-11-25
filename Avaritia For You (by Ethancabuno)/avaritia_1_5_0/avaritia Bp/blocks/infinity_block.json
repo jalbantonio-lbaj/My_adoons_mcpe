@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.construction",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "tag:metal": {},
+      "minecraft:display_name": "§c%infinity_block.name\n%addon.avaritia",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 20000
+      },
+      "minecraft:destructible_by_explosion": false
+    }
+  }
+}

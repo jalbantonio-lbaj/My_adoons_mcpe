@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_ingot",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_ingot",
+        "use_on": [
+          "avaritia:infinity_ingot"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:explodable": false
+    }
+  }
+}

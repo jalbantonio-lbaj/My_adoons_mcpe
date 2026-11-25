@@ -1,0 +1,12 @@
+## Fast-craft Pack Localization - English (US)
+pack.name=§lFast craft & Fast loot v3.10
+pack.description=§oAdds Fast Craft and Fast loot Features to Minecraft Bedrock/PE
+
+fast_loot.status.on=Fast Loot: On
+fast_loot.status.off=Fast Loot: Off
+
+fast_loot.toggle.tts_name=Fast Loot
+fast_loot.toggle.tts_on=Fast Loot Enabled
+fast_loot.toggle.tts_off=Fast Loot Disabled
+fast_craft.button.tts=Fast Craft
+fast_trade.button.tts=Quick Trade

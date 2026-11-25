@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "simple_compressor_front",
+    "metalness_emissive_roughness": "simple_compressor_front_mer"
+  }
+}

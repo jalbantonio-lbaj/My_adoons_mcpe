@@ -1,0 +1,114 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "items": [
+              "avaritia:compressed_crafting_table",
+              "avaritia:double_compressed_crafting_table",
+              "avaritia:dire_crafting_table",
+              "avaritia:neutronium_compressor",
+              "avaritia:neutron_collector",
+              "avaritia:record_furnace",
+              "avaritia:infinity_chest",
+              "avaritia:gacha_machine",
+              "avaritia:seal_orb"
+            ]
+          },
+          {
+            "items": [
+              "avaritia:neutronium_star",
+              "avaritia:neutronium_gear",
+              "avaritia:neutronium_ingot",
+              "avaritia:neutronium_nugget",
+              "avaritia:pile_of_neutrons"
+            ]
+          },
+          {
+            "items": [
+              "avaritia:infinity_catalyst",
+              "avaritia:infinity_ingot",
+              "avaritia:infinity_nugget"
+            ]
+          },
+          {
+            "items": [
+              "avaritia:cosmic_meatballs",
+              "avaritia:endest_pearl"
+            ]
+          },
+          {
+            "items": [
+              "avaritia:starfuel",
+              "avaritia:record_fragment",
+              "avaritia:diamond_lattice",
+              "avaritia:crystal_matrix"
+            ]
+          },
+          {
+            "items": [
+              "avaritia:ultimate_singularity",
+              "avaritia:netherite_singularity",
+              "avaritia:experience_singularity",
+              "avaritia:honey_singularity",
+              "avaritia:soul_sand_singularity",
+              "avaritia:slime_singularity",
+              "avaritia:obsidian_singularity",
+              "avaritia:diamond_singularity",
+              "avaritia:emerald_singularity",
+              "avaritia:amethyst_singularity",
+              "avaritia:quartz_singularity",
+              "avaritia:lapis_singularity",
+              "avaritia:redstone_singularity",
+              "avaritia:coal_singularity",
+              "avaritia:copper_singularity",
+              "avaritia:gold_singularity",
+              "avaritia:iron_singularity",
+              "avaritia:netherrack_singularity",
+              "avaritia:glowstone_singularity",
+              "avaritia:prismarine_singularity",
+              "avaritia:end_stone_singularity",
+              "avaritia:magma_singularity",
+              "avaritia:bone_singularity",
+              "avaritia:ice_singularity"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "minecraft:cooked_beef",
+              "name": "minecraft:itemGroup.name.miscFood"
+            },
+            "items": [
+              "avaritia:ultimate_stew"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "items": [
+              "minecraft:client_request_placeholder_block",
+              "minecraft:invisible_bedrock",
+              "minecraft:moving_block",
+              "minecraft:reserved6",
+              "minecraft:portal",
+              "minecraft:end_gateway",
+              "minecraft:end_portal",
+              "minecraft:netherreactor"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

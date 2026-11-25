@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:neutronium_nugget_from_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:neutronium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "avaritia:neutronium_nugget",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:rf_progress_15",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "record_fragment"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§7[UI] Record Furnace Progress 75%"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 30015
+      },
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:ui_element",
+          "utilitycraft:ui_element"
+        ]
+      }
+    }
+  }
+}

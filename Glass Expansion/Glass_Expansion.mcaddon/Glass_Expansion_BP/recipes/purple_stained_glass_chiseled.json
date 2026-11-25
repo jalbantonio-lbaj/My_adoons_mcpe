@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:purple_stained_glass_chiseled"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:purple_stained_glass_slab"
+      }
+    },
+    "unlock": [
+      {
+        "item": "vge:purple_stained_glass_slab"
+      }
+    ],
+    "result": {
+      "item": "vge:purple_stained_glass_chiseled",
+      "count": 1
+    }
+  }
+}

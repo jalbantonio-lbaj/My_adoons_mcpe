@@ -1,0 +1,1 @@
+fill ~-4 ~-1 ~-4 ~4 ~20 ~4 air replace dark_oak_log

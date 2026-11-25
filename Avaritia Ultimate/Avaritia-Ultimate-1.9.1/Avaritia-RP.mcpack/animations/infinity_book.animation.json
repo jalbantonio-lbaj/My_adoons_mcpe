@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.infinity_book.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "c.is_first_person ? 0 : 0.55",
+            "c.is_first_person ? -12 : -15.5",
+            "c.is_first_person ? -3 : -4.9"
+          ],
+          "rotation": [
+            "c.is_first_person ? -78 : 6.5",
+            "c.is_first_person ? 0 : 180",
+            "c.is_first_person ? 0 : -3.5"
+          ]
+        }
+      }
+    },
+    "animation.infinity_book.idle": {
+      "loop": true,
+      "animation_length": 3,
+      "bones": {
+        "block": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.5": [
+              0,
+              1,
+              0
+            ],
+            "3.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

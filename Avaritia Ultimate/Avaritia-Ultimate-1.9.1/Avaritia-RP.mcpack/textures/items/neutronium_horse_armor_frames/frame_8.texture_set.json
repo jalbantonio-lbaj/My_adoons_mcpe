@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "frame_8",
+    "metalness_emissive_roughness": "frame_8_mer"
+  }
+}

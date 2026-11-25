@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "gf_wu:chunk_minion_spawn_egg"
+        },
+        "components": {
+            "minecraft:icon": "gf_wu:chunk_minion",
+            "minecraft:entity_placer": {
+                "entity": "gf_wu:chunk_minion<minecraft:entity_spawned>"
+            },
+            "minecraft:cooldown": {
+                "category": "chunk_minion",
+                "duration": 2
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+
+[
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_blue",
+    "atlas_tile": "neon_hacker_blue",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_cyan",
+    "atlas_tile": "neon_hacker_cyan",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_lime",
+    "atlas_tile": "neon_hacker_lime",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_magenta",
+    "atlas_tile": "neon_hacker_magenta",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_purple",
+    "atlas_tile": "neon_hacker_purple",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_orange",
+    "atlas_tile": "neon_hacker_orange",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_red",
+    "atlas_tile": "neon_hacker_red",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_yellow",
+    "atlas_tile": "neon_hacker_yellow",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/neon_hacker_white",
+    "atlas_tile": "neon_hacker_white",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_blue",
+    "atlas_tile": "white_hacker_blue",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_cyan",
+    "atlas_tile": "white_hacker_cyan",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_lime",
+    "atlas_tile": "white_hacker_lime",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_magenta",
+    "atlas_tile": "white_hacker_magenta",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_purple",
+    "atlas_tile": "white_hacker_purple",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_orange",
+    "atlas_tile": "white_hacker_orange",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_red",
+    "atlas_tile": "white_hacker_red",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_yellow",
+    "atlas_tile": "white_hacker_yellow",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/white_hacker_white",
+    "atlas_tile": "white_hacker_white",
+    "ticks_per_frame": 1
+  }
+]

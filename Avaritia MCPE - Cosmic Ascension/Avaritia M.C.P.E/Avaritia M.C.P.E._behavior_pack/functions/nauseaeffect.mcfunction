@@ -1,0 +1,1 @@
+effect @e[r=8] nausea 7 255

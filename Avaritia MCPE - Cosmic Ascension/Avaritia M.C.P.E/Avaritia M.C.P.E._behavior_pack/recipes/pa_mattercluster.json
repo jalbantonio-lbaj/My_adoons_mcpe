@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mattercluster_d952991d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutronpile",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:mattercluster",
+      "count": 1
+    }
+  }
+}

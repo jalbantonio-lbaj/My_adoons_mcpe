@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:crystal_spear",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/spear/crystal_spear",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.crystal_spear"
+      },
+      "scripts": {
+        "animate": [
+          "held_controller",
+          "hit_controller"
+        ]
+      },
+      "animations": {
+        "held_first_person": "animation.avaritia.crystal_spear.held_first_person",
+        "held_third_person": "animation.avaritia.crystal_spear.held_third_person",
+        "held_controller": "controller.animation.avaritia.crystal_spear.held",
+        "hit": "animation.avaritia.crystal_spear.hit",
+        "hit_controller": "controller.animation.avaritia.crystal_spear.hit"
+      },
+      "sound_effects": {
+        "hit": "item.spear.hit"
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "gf_wu:grab_bag_entity",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            }
+        },
+        "components": {
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:collision_box": {
+                "height": 1.2,
+                "width": 0.8
+            },
+            "minecraft:health": {
+                "value": 1,
+                "min": 1
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": { },
+                        "deals_damage": "no"
+                    }
+                ]
+            },
+            "minecraft:fire_immune": { },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:inventory": {
+                "additional_slots_per_strength": 0,
+                "container_type": "minecart_hopper",
+                "inventory_size": 5
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": { },
+            "poof": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            },
+            "exit": {
+                "queue_command": {
+                    "command": "event entity @s poof"
+                }
+            }
+        }
+    }
+}

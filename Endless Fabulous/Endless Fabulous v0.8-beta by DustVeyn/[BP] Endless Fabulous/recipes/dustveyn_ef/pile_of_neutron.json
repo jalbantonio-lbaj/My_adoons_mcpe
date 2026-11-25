@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:pile_of_neutron"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:neutronium_nugget"
+            }
+        },
+        "unlock": [
+            {
+                "item": "dustveyn_ef:neutronium_nugget"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:pile_of_neutron",
+            "count": 9
+        }
+    }
+}

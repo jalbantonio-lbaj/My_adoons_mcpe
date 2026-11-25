@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:matter_cluster",
+      "materials": {
+        "default": "ender_crystal"
+      },
+      "textures": {
+        "default": "textures/avaritia/misc/matter_cluster"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.orb"
+      },
+      "animations": {
+        "move": "animation.avaritia.orb"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

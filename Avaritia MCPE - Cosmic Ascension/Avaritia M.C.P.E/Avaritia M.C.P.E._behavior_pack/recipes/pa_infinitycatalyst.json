@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinitycatalyst_fbd140c8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:neutrongear",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:endestpearl",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:matterclusterfull",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:cosmicmeatballs",
+        "data": 0
+      },
+      "E": {
+        "item": "pa:infinitysingularity",
+        "data": 0
+      },
+      "F": {
+        "item": "pa:ultimatestew",
+        "data": 0
+      },
+      "G": {
+        "item": "pa:packedneutroningot",
+        "data": 0
+      },
+      "H": {
+        "item": "pa:pinkskinularity",
+        "data": 0
+      },
+      "I": {
+        "item": "pa:starfuel",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinitycatalyst",
+      "count": 1
+    }
+  }
+}

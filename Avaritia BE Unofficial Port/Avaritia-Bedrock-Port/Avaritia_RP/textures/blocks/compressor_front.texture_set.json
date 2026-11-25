@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "compressor_front",
+		"metalness_emissive_roughness": "compressor_front_mer",
+		"heightmap": "compressor_front_height"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:blaze_leggings",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/models/armor/blaze/armor"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.blaze_leggings"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal"
+      ]
+    }
+  }
+}

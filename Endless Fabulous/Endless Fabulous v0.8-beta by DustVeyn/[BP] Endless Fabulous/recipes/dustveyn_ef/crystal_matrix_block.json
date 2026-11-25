@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:crystal_matrix_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:crystal_matrix_ingot"
+            }
+        },
+        "unlock": [
+            {
+                "item": "dustveyn_ef:crystal_matrix_ingot"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:crystal_matrix_block"
+        }
+    }
+}

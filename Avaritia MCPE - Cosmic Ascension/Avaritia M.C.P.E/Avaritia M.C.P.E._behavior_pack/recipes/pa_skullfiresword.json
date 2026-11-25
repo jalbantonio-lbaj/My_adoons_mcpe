@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "skullfiresword_44f6a365"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "CBA",
+      "DC "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:crystalmatrixblock",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:blaze_powder",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:bone_block",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:skullfiresword",
+      "count": 1
+    }
+  }
+}

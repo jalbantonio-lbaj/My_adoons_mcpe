@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_helmet.player",
+      "item": {
+        "avaritia:infinity_helmet": "query.owner_identifier == 'minecraft:player'"
+      },
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/models/armor/infinity/armor",
+        "frame_1": "textures/models/armor/infinity/eyes/1",
+        "frame_2": "textures/models/armor/infinity/eyes/2",
+        "frame_3": "textures/models/armor/infinity/eyes/3",
+        "frame_4": "textures/models/armor/infinity/eyes/4",
+        "frame_5": "textures/models/armor/infinity/eyes/5",
+        "frame_6": "textures/models/armor/infinity/eyes/6",
+        "frame_7": "textures/models/armor/infinity/eyes/7",
+        "frame_8": "textures/models/armor/infinity/eyes/8",
+        "frame_9": "textures/models/armor/infinity/eyes/9"
+      },
+      "geometry": {
+        "default": "geometry.custom.avaritia.helmet",
+        "eyes": "geometry.helmet.eyes"
+      },
+      "scripts": {
+        "parent_setup": "variable.helmet_layer_visible = 0.0;"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal",
+        "controller.render.rainbow_eyes"
+      ]
+    }
+  }
+}

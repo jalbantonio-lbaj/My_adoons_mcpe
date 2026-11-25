@@ -1,0 +1,103 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.vge.button_item",
+        "texture_width": 128,
+        "texture_height": 64
+      },
+      "bones": [
+        {
+          "name": "button",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                6.0,
+                -1.0
+              ],
+              "size": [
+                6.0,
+                4.0,
+                2.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    32.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    6.0,
+                    4.0
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    32.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    6.0,
+                    4.0
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    75.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    4.0
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    75.0,
+                    16.0
+                  ],
+                  "uv_size": [
+                    2.0,
+                    4.0
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    66.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    6.0,
+                    2.0
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    66.0,
+                    0.0
+                  ],
+                  "uv_size": [
+                    6.0,
+                    2.0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "item_display_transforms": {
+        "gui": {
+          "fit_to_frame": false
+        }
+      }
+    }
+  ]
+}

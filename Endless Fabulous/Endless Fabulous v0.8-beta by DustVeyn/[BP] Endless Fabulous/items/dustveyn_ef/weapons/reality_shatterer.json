@@ -1,0 +1,51 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:reality_shatterer",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:damage": {
+                "value": 24
+            },
+            "minecraft:block_placer": {
+                "block": "dustveyn_ef:reality_shatterer",
+                "replace_block_item": true
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 20
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "minecraft:is_pickaxe"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "§c%dustveyn_ef.reality_shatterer.name\n%dustveyn_ef.reality_shatterer.desc\n§o§9Endless Fabulous"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 1,
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:fire_resistant": {
+                "value": true
+            },
+            "minecraft:should_despawn": true,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag('stone', 'minecraft:is_pickaxe_item_destructible')"
+                        },
+                        "speed": 99999
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recordfragment_4a9d6c69"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:music_disc_blocks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:recordfragment",
+      "count": 3
+    }
+  }
+}

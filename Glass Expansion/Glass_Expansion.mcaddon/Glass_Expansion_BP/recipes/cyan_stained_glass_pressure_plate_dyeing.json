@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:cyan_stained_glass_pressure_plate_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_pressure_plate"
+      },
+      "D": {
+        "item": "minecraft:cyan_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cyan_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:cyan_stained_glass_pressure_plate",
+      "count": 8
+    }
+  }
+}

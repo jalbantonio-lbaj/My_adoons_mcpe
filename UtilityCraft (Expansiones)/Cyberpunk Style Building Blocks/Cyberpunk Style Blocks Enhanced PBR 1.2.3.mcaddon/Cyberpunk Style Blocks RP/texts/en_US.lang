@@ -1,0 +1,295 @@
+##itemGroup
+mikeyz:itemGroup.neon_blocks=Neon Blocks
+mikeyz:itemGroup.cyber_blocks=Cyber Blocks
+mikeyz:itemGroup.cyber_corner_blocks=Cyber Corner Blocks
+mikeyz:itemGroup.pure_blocks=Pure Blocks
+mikeyz:itemGroup.cyber_center_blocks=Cyber Center Blocks
+mikeyz:itemGroup.white_cyber_blocks=White Cyber Blocks
+mikeyz:itemGroup.cyber_side_blocks=Cyber Side Blocks
+mikeyz:itemGroup.white_cyber_center_blocks=White Cyber Center Blocks
+mikeyz:itemGroup.white_cyber_corner_blocks=White Cyber Corner Blocks
+mikeyz:itemGroup.white_cyber_side_blocks=White Cyber Side Blocks
+mikeyz:itemGroup.neon_light_blocks=Neon Light Blocks
+mikeyz:itemGroup.neon_mini_bottom_lights=Neon Mini Bottom Lights
+mikeyz:itemGroup.neon_mini_bottom_corner_lights=Neon Mini Bottom Corner Lights
+mikeyz:itemGroup.neon_mini_top_lights=Neon Mini Top Lights
+mikeyz:itemGroup.neon_mini_top_corner_lights=Neon Mini Top Corner Lights
+mikeyz:itemGroup.neon_hacker_blocks=Neon Hacker Blocks
+mikeyz:itemGroup.white_hacker_blocks=White Hacker Blocks
+
+##neon_blocks
+tile.mikeyz:neon_blue_block.name=Neon Blue Block
+tile.mikeyz:neon_cyan_block.name=Neon Cyan Block
+tile.mikeyz:neon_lime_block.name=Neon Lime Block
+tile.mikeyz:neon_magenta_block.name=Neon Magenta Block
+tile.mikeyz:neon_orange_block.name=Neon Orange Block
+tile.mikeyz:neon_purple_block.name=Neon Purple Block
+tile.mikeyz:neon_red_block.name=Neon Red Block
+tile.mikeyz:neon_yellow_block.name=Neon Yellow Block
+tile.mikeyz:neon_white_block.name=Neon White Block
+
+##cyber_blocks
+tile.mikeyz:neon_cyber_blue.name=Neon Cyber Blue
+tile.mikeyz:neon_cyber_cyan.name=Neon Cyber Cyan
+tile.mikeyz:neon_cyber_lime.name=Neon Cyber Lime
+tile.mikeyz:neon_cyber_magenta.name=Neon Cyber Magenta
+tile.mikeyz:neon_cyber_orange.name=Neon Cyber Orange
+tile.mikeyz:neon_cyber_purple.name=Neon Cyber Purple
+tile.mikeyz:neon_cyber_red.name=Neon Cyber Red
+tile.mikeyz:neon_cyber_yellow.name=Neon Cyber Yellow
+tile.mikeyz:neon_cyber_white.name=Neon Cyber White
+
+##cyber_corner_blocks
+tile.mikeyz:neon_cyber_corner_blue.name=Neon Cyber Corner Blue
+tile.mikeyz:neon_cyber_corner_cyan.name=Neon Cyber Corner Cyan
+tile.mikeyz:neon_cyber_corner_lime.name=Neon Cyber Corner Lime
+tile.mikeyz:neon_cyber_corner_magenta.name=Neon Cyber Corner Magenta
+tile.mikeyz:neon_cyber_corner_orange.name=Neon Cyber Corner Orange
+tile.mikeyz:neon_cyber_corner_purple.name=Neon Cyber Corner Purple
+tile.mikeyz:neon_cyber_corner_red.name=Neon Cyber Corner Red
+tile.mikeyz:neon_cyber_corner_yellow.name=Neon Cyber Corner Yellow
+tile.mikeyz:neon_cyber_corner_white.name=Neon Cyber Corner White
+
+##pure_blocks
+tile.mikeyz:pure_black_block.name=Pure Black Block
+tile.mikeyz:pure_white_block.name=Pure White Block
+tile.mikeyz:pure_red_block.name=Pure Red Block
+tile.mikeyz:pure_green_block.name=Pure Green Block
+tile.mikeyz:pure_blue_block.name=Pure Blue Block
+tile.mikeyz:pure_yellow_block.name=Pure Yellow Block
+tile.mikeyz:pure_cyan_block.name=Pure Cyan Block
+tile.mikeyz:pure_magenta_block.name=Pure Magenta Block
+tile.mikeyz:pure_orange_block.name=Pure Orange Block
+tile.mikeyz:pure_purple_block.name=Pure Purple Block
+tile.mikeyz:pure_gray_block.name=Pure Gray Block
+tile.mikeyz:pure_brown_block.name=Pure Brown Block
+
+##cyber_center_blocks
+tile.mikeyz:neon_cyber_center_blue.name=Neon Cyber Center Blue
+tile.mikeyz:neon_cyber_center_cyan.name=Neon Cyber Center Cyan
+tile.mikeyz:neon_cyber_center_lime.name=Neon Cyber Center Lime
+tile.mikeyz:neon_cyber_center_magenta.name=Neon Cyber Center Magenta
+tile.mikeyz:neon_cyber_center_orange.name=Neon Cyber Center Orange
+tile.mikeyz:neon_cyber_center_purple.name=Neon Cyber Center Purple
+tile.mikeyz:neon_cyber_center_red.name=Neon Cyber Center Red
+tile.mikeyz:neon_cyber_center_yellow.name=Neon Cyber Center Yellow
+tile.mikeyz:neon_cyber_center_white.name=Neon Cyber Center White
+
+##white_cyber_blocks
+tile.mikeyz:white_cyber_blue.name=White Cyber Blue
+tile.mikeyz:white_cyber_cyan.name=White Cyber Cyan
+tile.mikeyz:white_cyber_lime.name=White Cyber Lime
+tile.mikeyz:white_cyber_magenta.name=White Cyber Magenta
+tile.mikeyz:white_cyber_orange.name=White Cyber Orange
+tile.mikeyz:white_cyber_purple.name=White Cyber Purple
+tile.mikeyz:white_cyber_red.name=White Cyber Red
+tile.mikeyz:white_cyber_yellow.name=White Cyber Yellow
+tile.mikeyz:white_cyber_white.name=White Cyber White
+
+##cyber_side_blocks
+tile.mikeyz:neon_cyber_side_blue.name=Neon Cyber Side Blue
+tile.mikeyz:neon_cyber_side_cyan.name=Neon Cyber Side Cyan
+tile.mikeyz:neon_cyber_side_lime.name=Neon Cyber Side Lime
+tile.mikeyz:neon_cyber_side_magenta.name=Neon Cyber Side Magenta
+tile.mikeyz:neon_cyber_side_orange.name=Neon Cyber Side Orange
+tile.mikeyz:neon_cyber_side_purple.name=Neon Cyber Side Purple
+tile.mikeyz:neon_cyber_side_yellow.name=Neon Cyber Side Yellow
+tile.mikeyz:neon_cyber_side_red.name=Neon Cyber  Side Red
+tile.mikeyz:neon_cyber_side_white.name=Neon Cyber Side White
+
+##white_cyber_center_blocks
+tile.mikeyz:white_cyber_center_blue.name=White Cyber Center Blue
+tile.mikeyz:white_cyber_center_cyan.name=White Cyber Center Cyan
+tile.mikeyz:white_cyber_center_red.name=White Cyber Center Red
+tile.mikeyz:white_cyber_center_yellow.name=White Cyber Center Yellow
+tile.mikeyz:white_cyber_center_lime.name=White Cyber Center Lime
+tile.mikeyz:white_cyber_center_purple.name=White Cyber Center Purple
+tile.mikeyz:white_cyber_center_orange.name=White Cyber Center Orange
+tile.mikeyz:white_cyber_center_magenta.name=White Cyber Center Magenta
+tile.mikeyz:white_cyber_center_white.name=White Cyber Center white
+
+##white_cyber_corner_blocks
+tile.mikeyz:white_cyber_corner_blue.name=White Cyber Corner Blue
+tile.mikeyz:white_cyber_corner_cyan.name=White Cyber Corner Cyan
+tile.mikeyz:white_cyber_corner_red.name=White Cyber Corner Red
+tile.mikeyz:white_cyber_corner_yellow.name=White Cyber Corner Yellow
+tile.mikeyz:white_cyber_corner_lime.name=White Cyber Corner Lime
+tile.mikeyz:white_cyber_corner_purple.name=White Cyber Corner Purple
+tile.mikeyz:white_cyber_corner_orange.name=White Cyber Corner Orange
+tile.mikeyz:white_cyber_corner_magenta.name=White Cyber Corner Magenta
+tile.mikeyz:white_cyber_corner_white.name=White Cyber Corner white
+
+##white_cyber_side_blocks
+tile.mikeyz:white_cyber_side_blue.name=White Cyber Side Blue
+tile.mikeyz:white_cyber_side_cyan.name=White  Cyber Side Cyan
+tile.mikeyz:white_cyber_side_lime.name=White Cyber Side Lime
+tile.mikeyz:white_cyber_side_magenta.name=White Cyber Side Magenta
+tile.mikeyz:white_cyber_side_orange.name=White Cyber Side Orange
+tile.mikeyz:white_cyber_side_purple.name=White Cyber Side Purple
+tile.mikeyz:white_cyber_side_red.name=White Cyber Side Red
+tile.mikeyz:white_cyber_side_yellow.name=White Cyber Side Yellow
+tile.mikeyz:white_cyber_side_white.name=White Cyber Side white
+
+##neon_workbench
+tile.mikeyz:neon_workbench.name=Neon Workbench
+
+##light_blocks
+tile.mikeyz:neon_blue_light.name=Neon Blue Light
+tile.mikeyz:neon_cyan_light.name=Neon Cyan Light
+tile.mikeyz:neon_lime_light.name=Neon lime Light
+tile.mikeyz:neon_magenta_light.name=Neon Magenta Light
+tile.mikeyz:neon_orange_light.name=Neon Orange Light
+tile.mikeyz:neon_purple_light.name=Neon Purple Light
+tile.mikeyz:neon_red_light.name=Neon Red Light
+tile.mikeyz:neon_yellow_light.name=Neon Yellow Light
+tile.mikeyz:neon_white_light.name=Neon White Light
+
+##neon_mini_light_bottom
+tile.mikeyz:neon_mini_light_bottom_blue.name=Neon Mini Light Bottom Blue
+tile.mikeyz:neon_mini_light_bottom_lime.name=Neon Mini Light Bottom Lime
+tile.mikeyz:neon_mini_light_bottom_cyan.name=Neon Mini Light Bottom Cyan
+tile.mikeyz:neon_mini_light_bottom_magenta.name=Neon Mini Light Bottom Magenta
+tile.mikeyz:neon_mini_light_bottom_purple.name=Neon Mini Light Bottom Purple
+tile.mikeyz:neon_mini_light_bottom_orange.name=Neon Mini Light Bottom Orange
+tile.mikeyz:neon_mini_light_bottom_white.name=Neon Mini Light Bottom White
+tile.mikeyz:neon_mini_light_bottom_yellow.name=Neon Mini Light Bottom Yellow
+tile.mikeyz:neon_mini_light_bottom_red.name=Neon Mini Light Bottom Red
+
+##neon_mini_light_bottom_corner
+tile.mikeyz:neon_mini_light_corner_bottom_blue.name=Neon Mini Light Bottom Corner Blue
+tile.mikeyz:neon_mini_light_corner_bottom_lime.name=Neon Mini Light Bottom Corner Lime
+tile.mikeyz:neon_mini_light_corner_bottom_cyan.name=Neon Mini Light Bottom Corner Cyan
+tile.mikeyz:neon_mini_light_corner_bottom_magenta.name=Neon Mini Light Bottom Corner Magenta
+tile.mikeyz:neon_mini_light_corner_bottom_purple.name=Neon Mini Light Bottom Corner Purple
+tile.mikeyz:neon_mini_light_corner_bottom_orange.name=Neon Mini Light Bottom Corner Orange
+tile.mikeyz:neon_mini_light_corner_bottom_white.name=Neon Mini Light Bottom Corner White
+tile.mikeyz:neon_mini_light_corner_bottom_yellow.name=Neon Mini Light Bottom Corner Yellow
+tile.mikeyz:neon_mini_light_corner_bottom_red.name=Neon Mini Light Bottom Corner Red
+
+##neon_mini_light_top
+tile.mikeyz:neon_mini_light_top_blue.name=Neon Mini Light Top Blue
+tile.mikeyz:neon_mini_light_top_lime.name=Neon Mini Light Top Lime
+tile.mikeyz:neon_mini_light_top_cyan.name=Neon Mini Light Top Cyan
+tile.mikeyz:neon_mini_light_top_magenta.name=Neon Mini Light Top Magenta
+tile.mikeyz:neon_mini_light_top_purple.name=Neon Mini Light Top Purple
+tile.mikeyz:neon_mini_light_top_orange.name=Neon Mini Light Top Orange
+tile.mikeyz:neon_mini_light_top_white.name=Neon Mini Light Top White
+tile.mikeyz:neon_mini_light_top_yellow.name=Neon Mini Light Top Yellow
+tile.mikeyz:neon_mini_light_top_red.name=Neon Mini Light Top Red
+
+##neon_mini_light_top_corner
+tile.mikeyz:neon_mini_light_corner_top_blue.name=Neon Mini Light Top Corner Blue
+tile.mikeyz:neon_mini_light_corner_top_lime.name=Neon Mini Light Top Corner Lime
+tile.mikeyz:neon_mini_light_corner_top_cyan.name=Neon Mini Light Top Corner Cyan
+tile.mikeyz:neon_mini_light_corner_top_magenta.name=Neon Mini Light Top Corner Magenta
+tile.mikeyz:neon_mini_light_corner_top_purple.name=Neon Mini Light Top Corner Purple
+tile.mikeyz:neon_mini_light_corner_top_orange.name=Neon Mini Light Top Corner Orange
+tile.mikeyz:neon_mini_light_corner_top_white.name=Neon Mini Light Top Corner White
+tile.mikeyz:neon_mini_light_corner_top_yellow.name=Neon Mini Light Top Corner Yellow
+tile.mikeyz:neon_mini_light_corner_top_red.name=Neon Mini Light Top Corner Red
+
+##neon_hacker_blocks
+tile.mikeyz:neon_hacker_blue.name=Neon Hacker Blue
+tile.mikeyz:neon_hacker_cyan.name=Neon Hacker cyan
+tile.mikeyz:neon_hacker_lime.name=Neon Hacker lime
+tile.mikeyz:neon_hacker_magenta.name=Neon Hacker magenta
+tile.mikeyz:neon_hacker_purple.name=Neon Hacker purple
+tile.mikeyz:neon_hacker_orange.name=Neon Hacker orange
+tile.mikeyz:neon_hacker_red.name=Neon Hacker red
+tile.mikeyz:neon_hacker_yellow.name=Neon Hacker yellow
+tile.mikeyz:neon_hacker_white.name=Neon Hacker white
+
+##white_hacker_blocks
+tile.mikeyz:white_hacker_blue.name=White Hacker Blue
+tile.mikeyz:white_hacker_cyan.name=White Hacker cyan
+tile.mikeyz:white_hacker_lime.name=White Hacker lime
+tile.mikeyz:white_hacker_magenta.name=White Hacker magenta
+tile.mikeyz:white_hacker_purple.name=White Hacker purple
+tile.mikeyz:white_hacker_orange.name=White Hacker orange
+tile.mikeyz:white_hacker_red.name=White Hacker red
+tile.mikeyz:white_hacker_yellow.name=White Hacker yellow
+tile.mikeyz:white_hacker_white.name=White Hacker white
+tile.mikeyz:neon_blue_stairs.name=Neon Blue Stairs
+tile.mikeyz:neon_blue_slab.name=Neon Blue Slab
+tile.mikeyz:neon_cyan_stairs.name=Neon Cyan Stairs
+tile.mikeyz:neon_cyan_slab.name=Neon Cyan Slab
+tile.mikeyz:neon_lime_stairs.name=Neon Lime Stairs
+tile.mikeyz:neon_lime_slab.name=Neon Lime Slab
+tile.mikeyz:neon_magenta_stairs.name=Neon Magenta Stairs
+tile.mikeyz:neon_magenta_slab.name=Neon Magenta Slab
+tile.mikeyz:neon_orange_stairs.name=Neon Orange Stairs
+tile.mikeyz:neon_orange_slab.name=Neon Orange Slab
+tile.mikeyz:neon_purple_stairs.name=Neon Purple Stairs
+tile.mikeyz:neon_purple_slab.name=Neon Purple Slab
+tile.mikeyz:neon_red_stairs.name=Neon Red Stairs
+tile.mikeyz:neon_red_slab.name=Neon Red Slab
+tile.mikeyz:neon_white_stairs.name=Neon White Stairs
+tile.mikeyz:neon_white_slab.name=Neon White Slab
+tile.mikeyz:neon_yellow_stairs.name=Neon Yellow Stairs
+tile.mikeyz:neon_yellow_slab.name=Neon Yellow Slab
+tile.mikeyz:pure_black_stairs.name=Pure Black Stairs
+tile.mikeyz:pure_black_slab.name=Pure Black Slab
+tile.mikeyz:pure_blue_stairs.name=Pure Blue Stairs
+tile.mikeyz:pure_blue_slab.name=Pure Blue Slab
+tile.mikeyz:pure_brown_stairs.name=Pure Brown Stairs
+tile.mikeyz:pure_brown_slab.name=Pure Brown Slab
+tile.mikeyz:pure_cyan_stairs.name=Pure Cyan Stairs
+tile.mikeyz:pure_cyan_slab.name=Pure Cyan Slab
+tile.mikeyz:pure_gray_stairs.name=Pure Gray Stairs
+tile.mikeyz:pure_gray_slab.name=Pure Gray Slab
+tile.mikeyz:pure_green_stairs.name=Pure Green Stairs
+tile.mikeyz:pure_green_slab.name=Pure Green Slab
+tile.mikeyz:pure_magenta_stairs.name=Pure Magenta Stairs
+tile.mikeyz:pure_magenta_slab.name=Pure Magenta Slab
+tile.mikeyz:pure_orange_stairs.name=Pure Orange Stairs
+tile.mikeyz:pure_orange_slab.name=Pure Orange Slab
+tile.mikeyz:pure_purple_stairs.name=Pure Purple Stairs
+tile.mikeyz:pure_purple_slab.name=Pure Purple Slab
+tile.mikeyz:pure_red_stairs.name=Pure Red Stairs
+tile.mikeyz:pure_red_slab.name=Pure Red Slab
+tile.mikeyz:pure_white_stairs.name=Pure White Stairs
+tile.mikeyz:pure_white_slab.name=Pure White Slab
+tile.mikeyz:pure_yellow_stairs.name=Pure Yellow Stairs
+tile.mikeyz:pure_yellow_slab.name=Pure Yellow Slab
+item.mikeyz:neon_blue_slab.name=Neon Blue Slab
+item.mikeyz:neon_blue_stairs.name=Neon Blue Stairs
+item.mikeyz:neon_cyan_slab.name=Neon Cyan Slab
+item.mikeyz:neon_cyan_stairs.name=Neon Cyan Stairs
+item.mikeyz:neon_lime_slab.name=Neon Lime Slab
+item.mikeyz:neon_lime_stairs.name=Neon Lime Stairs
+item.mikeyz:neon_magenta_slab.name=Neon Magenta Slab
+item.mikeyz:neon_magenta_stairs.name=Neon Magenta Stairs
+item.mikeyz:neon_orange_slab.name=Neon Orange Slab
+item.mikeyz:neon_orange_stairs.name=Neon Orange Stairs
+item.mikeyz:neon_purple_slab.name=Neon Purple Slab
+item.mikeyz:neon_purple_stairs.name=Neon Purple Stairs
+item.mikeyz:neon_red_slab.name=Neon Red Slab
+item.mikeyz:neon_red_stairs.name=Neon Red Stairs
+item.mikeyz:neon_white_slab.name=Neon White Slab
+item.mikeyz:neon_white_stairs.name=Neon White Stairs
+item.mikeyz:neon_yellow_slab.name=Neon Yellow Slab
+item.mikeyz:neon_yellow_stairs.name=Neon Yellow Stairs
+item.mikeyz:pure_black_slab.name=Pure Black Slab
+item.mikeyz:pure_black_stairs.name=Pure Black Stairs
+item.mikeyz:pure_blue_slab.name=Pure Blue Slab
+item.mikeyz:pure_blue_stairs.name=Pure Blue Stairs
+item.mikeyz:pure_brown_slab.name=Pure Brown Slab
+item.mikeyz:pure_brown_stairs.name=Pure Brown Stairs
+item.mikeyz:pure_cyan_slab.name=Pure Cyan Slab
+item.mikeyz:pure_cyan_stairs.name=Pure Cyan Stairs
+item.mikeyz:pure_gray_slab.name=Pure Gray Slab
+item.mikeyz:pure_gray_stairs.name=Pure Gray Stairs
+item.mikeyz:pure_green_slab.name=Pure Green Slab
+item.mikeyz:pure_green_stairs.name=Pure Green Stairs
+item.mikeyz:pure_magenta_slab.name=Pure Magenta Slab
+item.mikeyz:pure_magenta_stairs.name=Pure Magenta Stairs
+item.mikeyz:pure_orange_slab.name=Pure Orange Slab
+item.mikeyz:pure_orange_stairs.name=Pure Orange Stairs
+item.mikeyz:pure_purple_slab.name=Pure Purple Slab
+item.mikeyz:pure_purple_stairs.name=Pure Purple Stairs
+item.mikeyz:pure_red_slab.name=Pure Red Slab
+item.mikeyz:pure_red_stairs.name=Pure Red Stairs
+item.mikeyz:pure_white_slab.name=Pure White Slab
+item.mikeyz:pure_white_stairs.name=Pure White Stairs
+item.mikeyz:pure_yellow_slab.name=Pure Yellow Slab
+item.mikeyz:pure_yellow_stairs.name=Pure Yellow Stairs

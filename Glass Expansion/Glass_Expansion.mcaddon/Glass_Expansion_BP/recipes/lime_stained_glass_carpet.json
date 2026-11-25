@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:lime_stained_glass_carpet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:lime_stained_glass_slab"
+      }
+    },
+    "unlock": [
+      {
+        "item": "vge:lime_stained_glass_slab"
+      }
+    ],
+    "result": {
+      "item": "vge:lime_stained_glass_carpet",
+      "count": 4
+    }
+  }
+}

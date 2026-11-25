@@ -1,0 +1,84 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "avaritia_trident.entity_enchant:entity_static": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE", "USE_COLOR_MASK" ],
+      "+states": [ "Blending", "DisableCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One",
+      "depthFunc": "Equal",
+      "+samplerStates": [ { "samplerIndex": 0, "textureWrap": "Repeat" } ]
+    },
+
+
+    "avaritia_armor_aura:entity_static": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE", "USE_COLOR_MASK" ],
+      "+states": [ "Blending", "DisableCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One",
+      "depthFunc": "Equal",
+      "+samplerStates": [ { "samplerIndex": 0, "textureWrap": "Repeat" } ]
+    },
+
+    "avaritia_sword_stars:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE", "USE_COLOR_MASK" ],
+      "+states": [ "Blending", "DisableCulling", "DisableDepthWrite" ],
+      "blendSrc": "One",
+      "blendDst": "One",
+      "depthFunc": "LessEqual",
+      "+samplerStates": [ { "samplerIndex": 0, "textureWrap": "Repeat" } ]
+    },
+
+    "halo_armor_outline:entity_alphablend": {
+      // Neon Halo armor outline: translucent + glowing (same recipe as the Divine Sword god_armor_glow), FRONT faces culled so only the rim behind the armor shows.
+      "+defines": [ "USE_EMISSIVE" ],
+      "+states": [ "Blending", "InvertCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One"
+    },
+
+    "halo_ring_glow:entity_alphablend": {
+      // Neon Halo ring above the head: translucent + glowing, same recipe as the Divine Sword god_armor_glow
+      "+defines": [ "USE_EMISSIVE" ],
+      "+states": [ "Blending", "DisableCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One"
+    },
+
+    "halo_wing_translucent:entity_alphablend": {
+      // Neon Halo wings: normal colors, just see-through (alpha comes from the render controller color.a)
+      "+states": [ "Blending" ]
+    },
+
+    "cosmic_shield:entity_alphatest": {
+      "+states": [
+        "Blending"
+      ],
+      "+defines": [
+        "ALPHA_TEST",
+        "Blending",
+        "USE_OVERLAY",
+        "USE_MASK"
+      ]
+    },
+
+    "mat_outline_inner:entity_alphatest": {
+      "+defines": [
+        "USE_OVERLAY",  // Permite overlay em cima da textura base
+        "USE_MASK"      // Caso use textura com máscara (alpha test)
+      ]
+    },
+
+    "mat_outline_outer:entity_alphatest": {
+      "+states": [
+        "DisableCulling", // Renderiza os dois lados (evita buracos no contorno)
+        "Blending"        // Permite transparência leve (alpha_blend)
+      ],
+      "+defines": [
+        "USE_OVERLAY",
+        "Blending",
+        "USE_MASK"
+      ]
+    }
+  }
+}

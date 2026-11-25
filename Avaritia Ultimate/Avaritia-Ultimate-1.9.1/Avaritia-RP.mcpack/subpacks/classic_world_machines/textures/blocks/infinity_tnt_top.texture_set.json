@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "infinity_tnt_top",
+    "metalness_emissive_roughness": "infinity_tnt_top_mer"
+  }
+}

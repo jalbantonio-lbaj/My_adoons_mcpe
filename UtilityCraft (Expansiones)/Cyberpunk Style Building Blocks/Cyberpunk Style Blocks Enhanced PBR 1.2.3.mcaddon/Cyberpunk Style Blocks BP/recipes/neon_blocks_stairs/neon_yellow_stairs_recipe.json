@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mikeyz:neon_yellow_stairs_recipe"
+    },
+    "tags": [
+      "neon_workbench"
+    ],
+    "group": "neon_yellow_stairs",
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "mikeyz:neon_yellow_block"
+      }
+    },
+    "result": {
+      "item": "mikeyz:neon_yellow_stairs",
+      "count": 4
+    }
+  }
+}

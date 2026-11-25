@@ -1,0 +1,143 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dustveyn_ef:black_hole",
+      "is_experimental": false,
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "component_groups": {
+      "endest_pearl": {
+        "minecraft:ageable": {
+          "duration": 2.5,
+          "grow_up": {
+            "event": "endest_pearl",
+            "target": "self"
+          }
+        },
+        "minecraft:scale_by_age": {
+          "start_scale": 4,
+          "end_scale": 0.05
+        }
+      },
+      "black_hole": {
+        "minecraft:explode": {
+          "max_resistance": 4.0,
+          "causes_fire": false,
+          "power": 8,
+          "fuse_length": 0,
+          "fuse_lit": true,
+          "destroy_affected_by_griefing": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:variant": {
+        "value": 0
+      },
+      "minecraft:ageable": {
+        "duration": 8,
+        "grow_up": {
+          "event": "black_hole",
+          "target": "self"
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "black_hole",
+          "void"
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "black_hole"
+                }
+              ]
+            },
+            "event": "kill_all"
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "max": 100,
+        "value": 100
+      },
+      "minecraft:scale_by_age": {
+        "start_scale": 0,
+        "end_scale": 4
+      },
+      "minecraft:behavior.knockback_roar": {
+        "priority": 0,
+        "knockback_strength": -1,
+        "knockback_damage": 0,
+        "knockback_range": 16,
+        "duration": 0.2,
+        "cooldown_time": 0,
+        "attack_time": 0
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 0,
+        "time_down_event": {
+          "event": "sound_of_blackhole",
+          "target": "self"
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:health": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "events": {
+      "sound_of_blackhole": {
+        "queue_command": {
+          "command": [
+            "playsound dustveyn_ef.gaping_void @a ~~~"
+          ]
+        }
+      },
+      "kill_all": {
+        "queue_command": {
+          "command": [
+            "scriptevent dustveyn_ef:black_hole"
+          ]
+        }
+      },
+      "black_hole": {
+        "add": {
+          "component_groups": [
+            "endest_pearl"
+          ]
+        }
+      },
+      "endest_pearl": {
+        "add": {
+          "component_groups": [
+            "black_hole"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:pile_of_neutrons",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "frame_1": "textures/items/pile_of_neutrons"
+      },
+      "geometry": {
+        "default": "geometry.custom.item"
+      },
+      "animations": {
+        "wield": "animation.hand_equipped.wield"
+      },
+      "scripts": {
+        "animate": [
+          "wield"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia.neutron_hand"
+      ]
+    }
+  }
+}

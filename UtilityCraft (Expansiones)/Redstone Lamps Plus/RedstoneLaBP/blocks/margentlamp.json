@@ -1,0 +1,88 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "redstone_lamps_plus:margentlamp",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+				"ubd:powered": [0, 1]
+			}
+    },
+    "permutations": [
+      {
+				"condition": "q.block_state('ubd:powered') == 0 ",
+				"components": {
+          "minecraft:light_emission": 0,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "margentlamp_off",
+              "render_method": "opaque"
+            }
+          }
+				}
+			},
+			{
+				"condition": "q.block_state('ubd:powered') == 1 ",
+				"components": {
+          "minecraft:light_emission": 15,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "margentlamp_on",
+              "render_method": "opaque"
+            }
+          }
+				}
+			}
+    ],
+    "components": {
+      "minecraft:redstone_conductivity": {"redstone_conductor": true},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.3
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:geometry": "geometry.purple_redstone_lamp",
+      "minecraft:custom_components": [
+        "redstone_lamps_plus:redstone"
+      ],
+      "minecraft:tick": {
+        "interval_range": [
+          4,
+          4
+        ],
+        "looping": true
+      }
+    }
+  }
+}

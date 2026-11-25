@@ -1,0 +1,105 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:blaze_bow_arrow",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 2,
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true,
+            "power_multiplier": 1
+          },
+          "remove_on_hit": {},
+          "stick_in_ground": {
+            "shake_time": 0.35
+          },
+          "mob_effect": {
+            "effect": "wither",
+            "amplifier": 1,
+            "duration": 1000,
+            "visible_effect": true,
+            "durationeasy": 1000,
+            "durationnormal": 1000,
+            "durationhard": 1000
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 3.0,
+        "gravity": 0.05,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0,
+        "anchor": 1,
+        "should_bounce": false,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          3,
+          5
+        ],
+        "time_down_event": {
+          "event": "despawn",
+          "target": "self"
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow",
+          "inanimate"
+        ]
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      }
+    }
+  }
+}

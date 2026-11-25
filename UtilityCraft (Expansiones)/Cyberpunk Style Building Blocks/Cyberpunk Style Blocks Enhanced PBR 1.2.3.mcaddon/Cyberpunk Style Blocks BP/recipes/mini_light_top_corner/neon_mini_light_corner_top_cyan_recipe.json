@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "mikeyz:neon_mini_light_corner_top_cyan"
+    },
+    "tags": ["stonecutter"],
+    "group": "neon_mini_light_corner_top_cyan",
+    "ingredients": [
+      {
+        "item": "mikeyz:neon_cyan_block"
+      }
+    ],
+    "result": {
+      "item": "mikeyz:neon_mini_light_corner_top_cyan",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:crystal_helmet",
+      "menu_category": {
+        "group": "itemGroup.name.helmet",
+        "category": "equipment",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "crystal_helmet"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 8888
+      },
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "armor_head"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "crystal_tier",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 58
+      },
+      "minecraft:display_name": {
+        "value": "§b%crystal_helmet.name\n%addon.avaritia\n\n§9+58 %attribute.protection\n§9+5 %attribute.armor_toughness\n§9+50% %attribute.knockback_resistance"
+      }
+    }
+  }
+}

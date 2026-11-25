@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "stew_overlay",
+    "metalness_emissive_roughness": "stew_overlay_mer"
+  }
+}

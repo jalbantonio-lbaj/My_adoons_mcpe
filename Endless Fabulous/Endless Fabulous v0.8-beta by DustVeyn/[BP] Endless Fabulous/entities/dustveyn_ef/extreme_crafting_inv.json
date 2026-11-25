@@ -1,0 +1,93 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dustveyn_ef:extreme_crafting_inv",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "instant_despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "extreme_crafting",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.55,
+        "height": 0.55
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 1,
+            "height": 0.25,
+            "pivot": [
+              0,
+              0.5,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:timer": {
+        "time": 0,
+        "looping": true,
+        "time_down_event": {
+          "event": "recipe",
+          "target": "self"
+        }
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "air"
+            },
+            "entered_block_event": {
+              "event": "death",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:nameable": {},
+      "minecraft:inventory": {
+        "inventory_size": 82,
+        "container_type": "container"
+      }
+    },
+    "events": {
+      "death": {
+        "queue_command": {
+          "command": "scriptevent dustveyn_ef:breaking_extreme"
+        }
+      },
+      "recipe": {
+        "queue_command": {
+          "command": [
+            "scriptevent dustveyn_ef:extreme_crafting"
+          ]
+        }
+      }
+    }
+  }
+}

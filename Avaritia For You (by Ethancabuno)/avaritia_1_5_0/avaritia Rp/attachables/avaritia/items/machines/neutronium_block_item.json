@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:neutronium_block_item",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/neutronium_block"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.neutron_block_hand"
+      },
+      "animations": {
+        "wield": "animation.item.3d.wield"
+      },
+      "scripts": {
+        "animate": [
+          "wield"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia.neutron_block_hand"
+      ]
+    }
+  }
+}

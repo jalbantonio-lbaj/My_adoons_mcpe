@@ -1,0 +1,713 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.avui.amethyst_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.coal_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.copper_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.diamond_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.emerald_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.experience_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.gold_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.honey_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.iron_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.lapis_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.netherite_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.obsidian_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.quartz_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.redstone_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.slime_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.soul_sand_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.ultimate_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.infinity_ingot": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_8",
+            "texture.frame_7",
+            "texture.frame_6",
+            "texture.frame_5",
+            "texture.frame_4",
+            "texture.frame_3",
+            "texture.frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.infinity_nugget": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_8",
+            "texture.frame_7",
+            "texture.frame_6",
+            "texture.frame_5",
+            "texture.frame_4",
+            "texture.frame_3",
+            "texture.frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.infinity_catalyst": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_8",
+            "texture.frame_7",
+            "texture.frame_6",
+            "texture.frame_5",
+            "texture.frame_4",
+            "texture.frame_3",
+            "texture.frame_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.cosmic_meatballs": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9",
+            "texture.frame_10",
+            "texture.frame_11",
+            "texture.frame_12",
+            "texture.frame_13",
+            "texture.frame_14"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.endest_pearl": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6",
+            "texture.frame_7",
+            "texture.frame_8",
+            "texture.frame_9"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.glowstone_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.prismarine_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.end_stone_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.magma_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.bone_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.ice_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    },
+    "controller.render.avui.netherrack_singularity": {
+      "arrays": {
+        "textures": {
+          "array.frames": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4",
+            "texture.frame_5",
+            "texture.frame_6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [
+        "temp.life_time = query.life_time * 6.0; return array.frames[temp.life_time];"
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    }
+  }
+}

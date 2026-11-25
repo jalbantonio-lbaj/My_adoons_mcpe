@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "neon_workbench",
+		"metalness_emissive_roughness": "neon_workbench_mer",
+		"heightmap": "neon_workbench_height"
+	}
+}

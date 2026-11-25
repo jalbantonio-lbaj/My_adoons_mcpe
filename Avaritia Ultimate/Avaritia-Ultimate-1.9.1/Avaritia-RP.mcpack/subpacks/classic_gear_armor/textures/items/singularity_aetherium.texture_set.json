@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "singularity_aetherium",
+    "metalness_emissive_roughness": "singularity_aetherium_mer"
+  }
+}

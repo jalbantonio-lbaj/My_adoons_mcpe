@@ -1,0 +1,31 @@
+{
+  "pa:compressedcrafter": {
+    "sound": "normal"
+  },
+  "pa:crystalmatrixblock": {
+    "sound": "normal"
+  },
+  "pa:direcrafting": {
+    "sound": "normal"
+  },
+  "pa:doublecompressedcrafter": {
+    "sound": "normal"
+  },
+  "pa:infinityblock": {
+    "sound": "normal"
+  },
+  "pa:neutroncompressor": {
+    "sound": "normal"
+  },
+  "pa:neutronblock": {
+    "sound": "normal"
+  },
+  "pa:neutroniumcollector": {
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

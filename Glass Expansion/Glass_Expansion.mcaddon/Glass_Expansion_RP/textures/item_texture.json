@@ -1,0 +1,819 @@
+{
+  "resource_pack_name": "glass_expansion",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "vge_glass_door": {
+      "textures": "textures/items/glass_door"
+    },
+    "vge_white_stained_glass_door": {
+      "textures": "textures/items/white_stained_glass_door"
+    },
+    "vge_orange_stained_glass_door": {
+      "textures": "textures/items/orange_stained_glass_door"
+    },
+    "vge_magenta_stained_glass_door": {
+      "textures": "textures/items/magenta_stained_glass_door"
+    },
+    "vge_light_blue_stained_glass_door": {
+      "textures": "textures/items/light_blue_stained_glass_door"
+    },
+    "vge_yellow_stained_glass_door": {
+      "textures": "textures/items/yellow_stained_glass_door"
+    },
+    "vge_lime_stained_glass_door": {
+      "textures": "textures/items/lime_stained_glass_door"
+    },
+    "vge_pink_stained_glass_door": {
+      "textures": "textures/items/pink_stained_glass_door"
+    },
+    "vge_gray_stained_glass_door": {
+      "textures": "textures/items/gray_stained_glass_door"
+    },
+    "vge_light_gray_stained_glass_door": {
+      "textures": "textures/items/light_gray_stained_glass_door"
+    },
+    "vge_cyan_stained_glass_door": {
+      "textures": "textures/items/cyan_stained_glass_door"
+    },
+    "vge_purple_stained_glass_door": {
+      "textures": "textures/items/purple_stained_glass_door"
+    },
+    "vge_blue_stained_glass_door": {
+      "textures": "textures/items/blue_stained_glass_door"
+    },
+    "vge_brown_stained_glass_door": {
+      "textures": "textures/items/brown_stained_glass_door"
+    },
+    "vge_green_stained_glass_door": {
+      "textures": "textures/items/green_stained_glass_door"
+    },
+    "vge_red_stained_glass_door": {
+      "textures": "textures/items/red_stained_glass_door"
+    },
+    "vge_black_stained_glass_door": {
+      "textures": "textures/items/black_stained_glass_door"
+    },
+    "vge_tinted_glass_door": {
+      "textures": "textures/items/tinted_glass_door"
+    },
+    "vge_glass_stick": {
+      "textures": "textures/items/glass_stick"
+    },
+    "vge_glass_sword": {
+      "textures": "textures/items/glass_sword"
+    },
+    "vge_glass_pickaxe": {
+      "textures": "textures/items/glass_pickaxe"
+    },
+    "vge_glass_axe": {
+      "textures": "textures/items/glass_axe"
+    },
+    "vge_glass_shovel": {
+      "textures": "textures/items/glass_shovel"
+    },
+    "vge_glass_hoe": {
+      "textures": "textures/items/glass_hoe"
+    },
+    "vge_glass_helmet": {
+      "textures": "textures/items/glass_helmet"
+    },
+    "vge_glass_chestplate": {
+      "textures": "textures/items/glass_chestplate"
+    },
+    "vge_glass_leggings": {
+      "textures": "textures/items/glass_leggings"
+    },
+    "vge_glass_boots": {
+      "textures": "textures/items/glass_boots"
+    },
+    "vge_glass_boat": {
+      "textures": "textures/items/glass_boat"
+    },
+    "vge_glass_chest_boat": {
+      "textures": "textures/items/glass_chest_boat"
+    },
+    "vge_glass_boat_with_glass_chest": {
+      "textures": "textures/items/glass_boat_with_glass_chest"
+    },
+    "vge_white_stained_glass_sword": {
+      "textures": "textures/items/white_stained_glass_sword"
+    },
+    "vge_white_stained_glass_pickaxe": {
+      "textures": "textures/items/white_stained_glass_pickaxe"
+    },
+    "vge_white_stained_glass_axe": {
+      "textures": "textures/items/white_stained_glass_axe"
+    },
+    "vge_white_stained_glass_shovel": {
+      "textures": "textures/items/white_stained_glass_shovel"
+    },
+    "vge_white_stained_glass_hoe": {
+      "textures": "textures/items/white_stained_glass_hoe"
+    },
+    "vge_white_stained_glass_helmet": {
+      "textures": "textures/items/white_stained_glass_helmet"
+    },
+    "vge_white_stained_glass_chestplate": {
+      "textures": "textures/items/white_stained_glass_chestplate"
+    },
+    "vge_white_stained_glass_leggings": {
+      "textures": "textures/items/white_stained_glass_leggings"
+    },
+    "vge_white_stained_glass_boots": {
+      "textures": "textures/items/white_stained_glass_boots"
+    },
+    "vge_white_stained_glass_boat": {
+      "textures": "textures/items/white_stained_glass_boat"
+    },
+    "vge_white_stained_glass_chest_boat": {
+      "textures": "textures/items/white_stained_glass_chest_boat"
+    },
+    "vge_white_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/white_stained_glass_boat_with_glass_chest"
+    },
+    "vge_orange_stained_glass_sword": {
+      "textures": "textures/items/orange_stained_glass_sword"
+    },
+    "vge_orange_stained_glass_pickaxe": {
+      "textures": "textures/items/orange_stained_glass_pickaxe"
+    },
+    "vge_orange_stained_glass_axe": {
+      "textures": "textures/items/orange_stained_glass_axe"
+    },
+    "vge_orange_stained_glass_shovel": {
+      "textures": "textures/items/orange_stained_glass_shovel"
+    },
+    "vge_orange_stained_glass_hoe": {
+      "textures": "textures/items/orange_stained_glass_hoe"
+    },
+    "vge_orange_stained_glass_helmet": {
+      "textures": "textures/items/orange_stained_glass_helmet"
+    },
+    "vge_orange_stained_glass_chestplate": {
+      "textures": "textures/items/orange_stained_glass_chestplate"
+    },
+    "vge_orange_stained_glass_leggings": {
+      "textures": "textures/items/orange_stained_glass_leggings"
+    },
+    "vge_orange_stained_glass_boots": {
+      "textures": "textures/items/orange_stained_glass_boots"
+    },
+    "vge_orange_stained_glass_boat": {
+      "textures": "textures/items/orange_stained_glass_boat"
+    },
+    "vge_orange_stained_glass_chest_boat": {
+      "textures": "textures/items/orange_stained_glass_chest_boat"
+    },
+    "vge_orange_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/orange_stained_glass_boat_with_glass_chest"
+    },
+    "vge_magenta_stained_glass_sword": {
+      "textures": "textures/items/magenta_stained_glass_sword"
+    },
+    "vge_magenta_stained_glass_pickaxe": {
+      "textures": "textures/items/magenta_stained_glass_pickaxe"
+    },
+    "vge_magenta_stained_glass_axe": {
+      "textures": "textures/items/magenta_stained_glass_axe"
+    },
+    "vge_magenta_stained_glass_shovel": {
+      "textures": "textures/items/magenta_stained_glass_shovel"
+    },
+    "vge_magenta_stained_glass_hoe": {
+      "textures": "textures/items/magenta_stained_glass_hoe"
+    },
+    "vge_magenta_stained_glass_helmet": {
+      "textures": "textures/items/magenta_stained_glass_helmet"
+    },
+    "vge_magenta_stained_glass_chestplate": {
+      "textures": "textures/items/magenta_stained_glass_chestplate"
+    },
+    "vge_magenta_stained_glass_leggings": {
+      "textures": "textures/items/magenta_stained_glass_leggings"
+    },
+    "vge_magenta_stained_glass_boots": {
+      "textures": "textures/items/magenta_stained_glass_boots"
+    },
+    "vge_magenta_stained_glass_boat": {
+      "textures": "textures/items/magenta_stained_glass_boat"
+    },
+    "vge_magenta_stained_glass_chest_boat": {
+      "textures": "textures/items/magenta_stained_glass_chest_boat"
+    },
+    "vge_magenta_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/magenta_stained_glass_boat_with_glass_chest"
+    },
+    "vge_light_blue_stained_glass_sword": {
+      "textures": "textures/items/light_blue_stained_glass_sword"
+    },
+    "vge_light_blue_stained_glass_pickaxe": {
+      "textures": "textures/items/light_blue_stained_glass_pickaxe"
+    },
+    "vge_light_blue_stained_glass_axe": {
+      "textures": "textures/items/light_blue_stained_glass_axe"
+    },
+    "vge_light_blue_stained_glass_shovel": {
+      "textures": "textures/items/light_blue_stained_glass_shovel"
+    },
+    "vge_light_blue_stained_glass_hoe": {
+      "textures": "textures/items/light_blue_stained_glass_hoe"
+    },
+    "vge_light_blue_stained_glass_helmet": {
+      "textures": "textures/items/light_blue_stained_glass_helmet"
+    },
+    "vge_light_blue_stained_glass_chestplate": {
+      "textures": "textures/items/light_blue_stained_glass_chestplate"
+    },
+    "vge_light_blue_stained_glass_leggings": {
+      "textures": "textures/items/light_blue_stained_glass_leggings"
+    },
+    "vge_light_blue_stained_glass_boots": {
+      "textures": "textures/items/light_blue_stained_glass_boots"
+    },
+    "vge_light_blue_stained_glass_boat": {
+      "textures": "textures/items/light_blue_stained_glass_boat"
+    },
+    "vge_light_blue_stained_glass_chest_boat": {
+      "textures": "textures/items/light_blue_stained_glass_chest_boat"
+    },
+    "vge_light_blue_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/light_blue_stained_glass_boat_with_glass_chest"
+    },
+    "vge_yellow_stained_glass_sword": {
+      "textures": "textures/items/yellow_stained_glass_sword"
+    },
+    "vge_yellow_stained_glass_pickaxe": {
+      "textures": "textures/items/yellow_stained_glass_pickaxe"
+    },
+    "vge_yellow_stained_glass_axe": {
+      "textures": "textures/items/yellow_stained_glass_axe"
+    },
+    "vge_yellow_stained_glass_shovel": {
+      "textures": "textures/items/yellow_stained_glass_shovel"
+    },
+    "vge_yellow_stained_glass_hoe": {
+      "textures": "textures/items/yellow_stained_glass_hoe"
+    },
+    "vge_yellow_stained_glass_helmet": {
+      "textures": "textures/items/yellow_stained_glass_helmet"
+    },
+    "vge_yellow_stained_glass_chestplate": {
+      "textures": "textures/items/yellow_stained_glass_chestplate"
+    },
+    "vge_yellow_stained_glass_leggings": {
+      "textures": "textures/items/yellow_stained_glass_leggings"
+    },
+    "vge_yellow_stained_glass_boots": {
+      "textures": "textures/items/yellow_stained_glass_boots"
+    },
+    "vge_yellow_stained_glass_boat": {
+      "textures": "textures/items/yellow_stained_glass_boat"
+    },
+    "vge_yellow_stained_glass_chest_boat": {
+      "textures": "textures/items/yellow_stained_glass_chest_boat"
+    },
+    "vge_yellow_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/yellow_stained_glass_boat_with_glass_chest"
+    },
+    "vge_lime_stained_glass_sword": {
+      "textures": "textures/items/lime_stained_glass_sword"
+    },
+    "vge_lime_stained_glass_pickaxe": {
+      "textures": "textures/items/lime_stained_glass_pickaxe"
+    },
+    "vge_lime_stained_glass_axe": {
+      "textures": "textures/items/lime_stained_glass_axe"
+    },
+    "vge_lime_stained_glass_shovel": {
+      "textures": "textures/items/lime_stained_glass_shovel"
+    },
+    "vge_lime_stained_glass_hoe": {
+      "textures": "textures/items/lime_stained_glass_hoe"
+    },
+    "vge_lime_stained_glass_helmet": {
+      "textures": "textures/items/lime_stained_glass_helmet"
+    },
+    "vge_lime_stained_glass_chestplate": {
+      "textures": "textures/items/lime_stained_glass_chestplate"
+    },
+    "vge_lime_stained_glass_leggings": {
+      "textures": "textures/items/lime_stained_glass_leggings"
+    },
+    "vge_lime_stained_glass_boots": {
+      "textures": "textures/items/lime_stained_glass_boots"
+    },
+    "vge_lime_stained_glass_boat": {
+      "textures": "textures/items/lime_stained_glass_boat"
+    },
+    "vge_lime_stained_glass_chest_boat": {
+      "textures": "textures/items/lime_stained_glass_chest_boat"
+    },
+    "vge_lime_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/lime_stained_glass_boat_with_glass_chest"
+    },
+    "vge_pink_stained_glass_sword": {
+      "textures": "textures/items/pink_stained_glass_sword"
+    },
+    "vge_pink_stained_glass_pickaxe": {
+      "textures": "textures/items/pink_stained_glass_pickaxe"
+    },
+    "vge_pink_stained_glass_axe": {
+      "textures": "textures/items/pink_stained_glass_axe"
+    },
+    "vge_pink_stained_glass_shovel": {
+      "textures": "textures/items/pink_stained_glass_shovel"
+    },
+    "vge_pink_stained_glass_hoe": {
+      "textures": "textures/items/pink_stained_glass_hoe"
+    },
+    "vge_pink_stained_glass_helmet": {
+      "textures": "textures/items/pink_stained_glass_helmet"
+    },
+    "vge_pink_stained_glass_chestplate": {
+      "textures": "textures/items/pink_stained_glass_chestplate"
+    },
+    "vge_pink_stained_glass_leggings": {
+      "textures": "textures/items/pink_stained_glass_leggings"
+    },
+    "vge_pink_stained_glass_boots": {
+      "textures": "textures/items/pink_stained_glass_boots"
+    },
+    "vge_pink_stained_glass_boat": {
+      "textures": "textures/items/pink_stained_glass_boat"
+    },
+    "vge_pink_stained_glass_chest_boat": {
+      "textures": "textures/items/pink_stained_glass_chest_boat"
+    },
+    "vge_pink_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/pink_stained_glass_boat_with_glass_chest"
+    },
+    "vge_gray_stained_glass_sword": {
+      "textures": "textures/items/gray_stained_glass_sword"
+    },
+    "vge_gray_stained_glass_pickaxe": {
+      "textures": "textures/items/gray_stained_glass_pickaxe"
+    },
+    "vge_gray_stained_glass_axe": {
+      "textures": "textures/items/gray_stained_glass_axe"
+    },
+    "vge_gray_stained_glass_shovel": {
+      "textures": "textures/items/gray_stained_glass_shovel"
+    },
+    "vge_gray_stained_glass_hoe": {
+      "textures": "textures/items/gray_stained_glass_hoe"
+    },
+    "vge_gray_stained_glass_helmet": {
+      "textures": "textures/items/gray_stained_glass_helmet"
+    },
+    "vge_gray_stained_glass_chestplate": {
+      "textures": "textures/items/gray_stained_glass_chestplate"
+    },
+    "vge_gray_stained_glass_leggings": {
+      "textures": "textures/items/gray_stained_glass_leggings"
+    },
+    "vge_gray_stained_glass_boots": {
+      "textures": "textures/items/gray_stained_glass_boots"
+    },
+    "vge_gray_stained_glass_boat": {
+      "textures": "textures/items/gray_stained_glass_boat"
+    },
+    "vge_gray_stained_glass_chest_boat": {
+      "textures": "textures/items/gray_stained_glass_chest_boat"
+    },
+    "vge_gray_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/gray_stained_glass_boat_with_glass_chest"
+    },
+    "vge_light_gray_stained_glass_sword": {
+      "textures": "textures/items/light_gray_stained_glass_sword"
+    },
+    "vge_light_gray_stained_glass_pickaxe": {
+      "textures": "textures/items/light_gray_stained_glass_pickaxe"
+    },
+    "vge_light_gray_stained_glass_axe": {
+      "textures": "textures/items/light_gray_stained_glass_axe"
+    },
+    "vge_light_gray_stained_glass_shovel": {
+      "textures": "textures/items/light_gray_stained_glass_shovel"
+    },
+    "vge_light_gray_stained_glass_hoe": {
+      "textures": "textures/items/light_gray_stained_glass_hoe"
+    },
+    "vge_light_gray_stained_glass_helmet": {
+      "textures": "textures/items/light_gray_stained_glass_helmet"
+    },
+    "vge_light_gray_stained_glass_chestplate": {
+      "textures": "textures/items/light_gray_stained_glass_chestplate"
+    },
+    "vge_light_gray_stained_glass_leggings": {
+      "textures": "textures/items/light_gray_stained_glass_leggings"
+    },
+    "vge_light_gray_stained_glass_boots": {
+      "textures": "textures/items/light_gray_stained_glass_boots"
+    },
+    "vge_light_gray_stained_glass_boat": {
+      "textures": "textures/items/light_gray_stained_glass_boat"
+    },
+    "vge_light_gray_stained_glass_chest_boat": {
+      "textures": "textures/items/light_gray_stained_glass_chest_boat"
+    },
+    "vge_light_gray_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/light_gray_stained_glass_boat_with_glass_chest"
+    },
+    "vge_cyan_stained_glass_sword": {
+      "textures": "textures/items/cyan_stained_glass_sword"
+    },
+    "vge_cyan_stained_glass_pickaxe": {
+      "textures": "textures/items/cyan_stained_glass_pickaxe"
+    },
+    "vge_cyan_stained_glass_axe": {
+      "textures": "textures/items/cyan_stained_glass_axe"
+    },
+    "vge_cyan_stained_glass_shovel": {
+      "textures": "textures/items/cyan_stained_glass_shovel"
+    },
+    "vge_cyan_stained_glass_hoe": {
+      "textures": "textures/items/cyan_stained_glass_hoe"
+    },
+    "vge_cyan_stained_glass_helmet": {
+      "textures": "textures/items/cyan_stained_glass_helmet"
+    },
+    "vge_cyan_stained_glass_chestplate": {
+      "textures": "textures/items/cyan_stained_glass_chestplate"
+    },
+    "vge_cyan_stained_glass_leggings": {
+      "textures": "textures/items/cyan_stained_glass_leggings"
+    },
+    "vge_cyan_stained_glass_boots": {
+      "textures": "textures/items/cyan_stained_glass_boots"
+    },
+    "vge_cyan_stained_glass_boat": {
+      "textures": "textures/items/cyan_stained_glass_boat"
+    },
+    "vge_cyan_stained_glass_chest_boat": {
+      "textures": "textures/items/cyan_stained_glass_chest_boat"
+    },
+    "vge_cyan_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/cyan_stained_glass_boat_with_glass_chest"
+    },
+    "vge_purple_stained_glass_sword": {
+      "textures": "textures/items/purple_stained_glass_sword"
+    },
+    "vge_purple_stained_glass_pickaxe": {
+      "textures": "textures/items/purple_stained_glass_pickaxe"
+    },
+    "vge_purple_stained_glass_axe": {
+      "textures": "textures/items/purple_stained_glass_axe"
+    },
+    "vge_purple_stained_glass_shovel": {
+      "textures": "textures/items/purple_stained_glass_shovel"
+    },
+    "vge_purple_stained_glass_hoe": {
+      "textures": "textures/items/purple_stained_glass_hoe"
+    },
+    "vge_purple_stained_glass_helmet": {
+      "textures": "textures/items/purple_stained_glass_helmet"
+    },
+    "vge_purple_stained_glass_chestplate": {
+      "textures": "textures/items/purple_stained_glass_chestplate"
+    },
+    "vge_purple_stained_glass_leggings": {
+      "textures": "textures/items/purple_stained_glass_leggings"
+    },
+    "vge_purple_stained_glass_boots": {
+      "textures": "textures/items/purple_stained_glass_boots"
+    },
+    "vge_purple_stained_glass_boat": {
+      "textures": "textures/items/purple_stained_glass_boat"
+    },
+    "vge_purple_stained_glass_chest_boat": {
+      "textures": "textures/items/purple_stained_glass_chest_boat"
+    },
+    "vge_purple_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/purple_stained_glass_boat_with_glass_chest"
+    },
+    "vge_blue_stained_glass_sword": {
+      "textures": "textures/items/blue_stained_glass_sword"
+    },
+    "vge_blue_stained_glass_pickaxe": {
+      "textures": "textures/items/blue_stained_glass_pickaxe"
+    },
+    "vge_blue_stained_glass_axe": {
+      "textures": "textures/items/blue_stained_glass_axe"
+    },
+    "vge_blue_stained_glass_shovel": {
+      "textures": "textures/items/blue_stained_glass_shovel"
+    },
+    "vge_blue_stained_glass_hoe": {
+      "textures": "textures/items/blue_stained_glass_hoe"
+    },
+    "vge_blue_stained_glass_helmet": {
+      "textures": "textures/items/blue_stained_glass_helmet"
+    },
+    "vge_blue_stained_glass_chestplate": {
+      "textures": "textures/items/blue_stained_glass_chestplate"
+    },
+    "vge_blue_stained_glass_leggings": {
+      "textures": "textures/items/blue_stained_glass_leggings"
+    },
+    "vge_blue_stained_glass_boots": {
+      "textures": "textures/items/blue_stained_glass_boots"
+    },
+    "vge_blue_stained_glass_boat": {
+      "textures": "textures/items/blue_stained_glass_boat"
+    },
+    "vge_blue_stained_glass_chest_boat": {
+      "textures": "textures/items/blue_stained_glass_chest_boat"
+    },
+    "vge_blue_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/blue_stained_glass_boat_with_glass_chest"
+    },
+    "vge_brown_stained_glass_sword": {
+      "textures": "textures/items/brown_stained_glass_sword"
+    },
+    "vge_brown_stained_glass_pickaxe": {
+      "textures": "textures/items/brown_stained_glass_pickaxe"
+    },
+    "vge_brown_stained_glass_axe": {
+      "textures": "textures/items/brown_stained_glass_axe"
+    },
+    "vge_brown_stained_glass_shovel": {
+      "textures": "textures/items/brown_stained_glass_shovel"
+    },
+    "vge_brown_stained_glass_hoe": {
+      "textures": "textures/items/brown_stained_glass_hoe"
+    },
+    "vge_brown_stained_glass_helmet": {
+      "textures": "textures/items/brown_stained_glass_helmet"
+    },
+    "vge_brown_stained_glass_chestplate": {
+      "textures": "textures/items/brown_stained_glass_chestplate"
+    },
+    "vge_brown_stained_glass_leggings": {
+      "textures": "textures/items/brown_stained_glass_leggings"
+    },
+    "vge_brown_stained_glass_boots": {
+      "textures": "textures/items/brown_stained_glass_boots"
+    },
+    "vge_brown_stained_glass_boat": {
+      "textures": "textures/items/brown_stained_glass_boat"
+    },
+    "vge_brown_stained_glass_chest_boat": {
+      "textures": "textures/items/brown_stained_glass_chest_boat"
+    },
+    "vge_brown_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/brown_stained_glass_boat_with_glass_chest"
+    },
+    "vge_green_stained_glass_sword": {
+      "textures": "textures/items/green_stained_glass_sword"
+    },
+    "vge_green_stained_glass_pickaxe": {
+      "textures": "textures/items/green_stained_glass_pickaxe"
+    },
+    "vge_green_stained_glass_axe": {
+      "textures": "textures/items/green_stained_glass_axe"
+    },
+    "vge_green_stained_glass_shovel": {
+      "textures": "textures/items/green_stained_glass_shovel"
+    },
+    "vge_green_stained_glass_hoe": {
+      "textures": "textures/items/green_stained_glass_hoe"
+    },
+    "vge_green_stained_glass_helmet": {
+      "textures": "textures/items/green_stained_glass_helmet"
+    },
+    "vge_green_stained_glass_chestplate": {
+      "textures": "textures/items/green_stained_glass_chestplate"
+    },
+    "vge_green_stained_glass_leggings": {
+      "textures": "textures/items/green_stained_glass_leggings"
+    },
+    "vge_green_stained_glass_boots": {
+      "textures": "textures/items/green_stained_glass_boots"
+    },
+    "vge_green_stained_glass_boat": {
+      "textures": "textures/items/green_stained_glass_boat"
+    },
+    "vge_green_stained_glass_chest_boat": {
+      "textures": "textures/items/green_stained_glass_chest_boat"
+    },
+    "vge_green_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/green_stained_glass_boat_with_glass_chest"
+    },
+    "vge_red_stained_glass_sword": {
+      "textures": "textures/items/red_stained_glass_sword"
+    },
+    "vge_red_stained_glass_pickaxe": {
+      "textures": "textures/items/red_stained_glass_pickaxe"
+    },
+    "vge_red_stained_glass_axe": {
+      "textures": "textures/items/red_stained_glass_axe"
+    },
+    "vge_red_stained_glass_shovel": {
+      "textures": "textures/items/red_stained_glass_shovel"
+    },
+    "vge_red_stained_glass_hoe": {
+      "textures": "textures/items/red_stained_glass_hoe"
+    },
+    "vge_red_stained_glass_helmet": {
+      "textures": "textures/items/red_stained_glass_helmet"
+    },
+    "vge_red_stained_glass_chestplate": {
+      "textures": "textures/items/red_stained_glass_chestplate"
+    },
+    "vge_red_stained_glass_leggings": {
+      "textures": "textures/items/red_stained_glass_leggings"
+    },
+    "vge_red_stained_glass_boots": {
+      "textures": "textures/items/red_stained_glass_boots"
+    },
+    "vge_red_stained_glass_boat": {
+      "textures": "textures/items/red_stained_glass_boat"
+    },
+    "vge_red_stained_glass_chest_boat": {
+      "textures": "textures/items/red_stained_glass_chest_boat"
+    },
+    "vge_red_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/red_stained_glass_boat_with_glass_chest"
+    },
+    "vge_black_stained_glass_sword": {
+      "textures": "textures/items/black_stained_glass_sword"
+    },
+    "vge_black_stained_glass_pickaxe": {
+      "textures": "textures/items/black_stained_glass_pickaxe"
+    },
+    "vge_black_stained_glass_axe": {
+      "textures": "textures/items/black_stained_glass_axe"
+    },
+    "vge_black_stained_glass_shovel": {
+      "textures": "textures/items/black_stained_glass_shovel"
+    },
+    "vge_black_stained_glass_hoe": {
+      "textures": "textures/items/black_stained_glass_hoe"
+    },
+    "vge_black_stained_glass_helmet": {
+      "textures": "textures/items/black_stained_glass_helmet"
+    },
+    "vge_black_stained_glass_chestplate": {
+      "textures": "textures/items/black_stained_glass_chestplate"
+    },
+    "vge_black_stained_glass_leggings": {
+      "textures": "textures/items/black_stained_glass_leggings"
+    },
+    "vge_black_stained_glass_boots": {
+      "textures": "textures/items/black_stained_glass_boots"
+    },
+    "vge_black_stained_glass_boat": {
+      "textures": "textures/items/black_stained_glass_boat"
+    },
+    "vge_black_stained_glass_chest_boat": {
+      "textures": "textures/items/black_stained_glass_chest_boat"
+    },
+    "vge_black_stained_glass_boat_with_glass_chest": {
+      "textures": "textures/items/black_stained_glass_boat_with_glass_chest"
+    },
+    "vge_tinted_glass_sword": {
+      "textures": "textures/items/tinted_glass_sword"
+    },
+    "vge_tinted_glass_pickaxe": {
+      "textures": "textures/items/tinted_glass_pickaxe"
+    },
+    "vge_tinted_glass_axe": {
+      "textures": "textures/items/tinted_glass_axe"
+    },
+    "vge_tinted_glass_shovel": {
+      "textures": "textures/items/tinted_glass_shovel"
+    },
+    "vge_tinted_glass_hoe": {
+      "textures": "textures/items/tinted_glass_hoe"
+    },
+    "vge_tinted_glass_helmet": {
+      "textures": "textures/items/tinted_glass_helmet"
+    },
+    "vge_tinted_glass_chestplate": {
+      "textures": "textures/items/tinted_glass_chestplate"
+    },
+    "vge_tinted_glass_leggings": {
+      "textures": "textures/items/tinted_glass_leggings"
+    },
+    "vge_tinted_glass_boots": {
+      "textures": "textures/items/tinted_glass_boots"
+    },
+    "vge_tinted_glass_boat": {
+      "textures": "textures/items/tinted_glass_boat"
+    },
+    "vge_tinted_glass_chest_boat": {
+      "textures": "textures/items/tinted_glass_chest_boat"
+    },
+    "vge_tinted_glass_boat_with_glass_chest": {
+      "textures": "textures/items/tinted_glass_boat_with_glass_chest"
+    },
+    "vge_glass_shield": {
+      "textures": "textures/items/glass_shield"
+    },
+    "vge_glass_horse_armor": {
+      "textures": "textures/items/glass_horse_armor"
+    },
+    "vge_white_stained_glass_shield": {
+      "textures": "textures/items/white_stained_glass_shield"
+    },
+    "vge_white_stained_glass_horse_armor": {
+      "textures": "textures/items/white_stained_glass_horse_armor"
+    },
+    "vge_orange_stained_glass_shield": {
+      "textures": "textures/items/orange_stained_glass_shield"
+    },
+    "vge_orange_stained_glass_horse_armor": {
+      "textures": "textures/items/orange_stained_glass_horse_armor"
+    },
+    "vge_magenta_stained_glass_shield": {
+      "textures": "textures/items/magenta_stained_glass_shield"
+    },
+    "vge_magenta_stained_glass_horse_armor": {
+      "textures": "textures/items/magenta_stained_glass_horse_armor"
+    },
+    "vge_light_blue_stained_glass_shield": {
+      "textures": "textures/items/light_blue_stained_glass_shield"
+    },
+    "vge_light_blue_stained_glass_horse_armor": {
+      "textures": "textures/items/light_blue_stained_glass_horse_armor"
+    },
+    "vge_yellow_stained_glass_shield": {
+      "textures": "textures/items/yellow_stained_glass_shield"
+    },
+    "vge_yellow_stained_glass_horse_armor": {
+      "textures": "textures/items/yellow_stained_glass_horse_armor"
+    },
+    "vge_lime_stained_glass_shield": {
+      "textures": "textures/items/lime_stained_glass_shield"
+    },
+    "vge_lime_stained_glass_horse_armor": {
+      "textures": "textures/items/lime_stained_glass_horse_armor"
+    },
+    "vge_pink_stained_glass_shield": {
+      "textures": "textures/items/pink_stained_glass_shield"
+    },
+    "vge_pink_stained_glass_horse_armor": {
+      "textures": "textures/items/pink_stained_glass_horse_armor"
+    },
+    "vge_gray_stained_glass_shield": {
+      "textures": "textures/items/gray_stained_glass_shield"
+    },
+    "vge_gray_stained_glass_horse_armor": {
+      "textures": "textures/items/gray_stained_glass_horse_armor"
+    },
+    "vge_light_gray_stained_glass_shield": {
+      "textures": "textures/items/light_gray_stained_glass_shield"
+    },
+    "vge_light_gray_stained_glass_horse_armor": {
+      "textures": "textures/items/light_gray_stained_glass_horse_armor"
+    },
+    "vge_cyan_stained_glass_shield": {
+      "textures": "textures/items/cyan_stained_glass_shield"
+    },
+    "vge_cyan_stained_glass_horse_armor": {
+      "textures": "textures/items/cyan_stained_glass_horse_armor"
+    },
+    "vge_purple_stained_glass_shield": {
+      "textures": "textures/items/purple_stained_glass_shield"
+    },
+    "vge_purple_stained_glass_horse_armor": {
+      "textures": "textures/items/purple_stained_glass_horse_armor"
+    },
+    "vge_blue_stained_glass_shield": {
+      "textures": "textures/items/blue_stained_glass_shield"
+    },
+    "vge_blue_stained_glass_horse_armor": {
+      "textures": "textures/items/blue_stained_glass_horse_armor"
+    },
+    "vge_brown_stained_glass_shield": {
+      "textures": "textures/items/brown_stained_glass_shield"
+    },
+    "vge_brown_stained_glass_horse_armor": {
+      "textures": "textures/items/brown_stained_glass_horse_armor"
+    },
+    "vge_green_stained_glass_shield": {
+      "textures": "textures/items/green_stained_glass_shield"
+    },
+    "vge_green_stained_glass_horse_armor": {
+      "textures": "textures/items/green_stained_glass_horse_armor"
+    },
+    "vge_red_stained_glass_shield": {
+      "textures": "textures/items/red_stained_glass_shield"
+    },
+    "vge_red_stained_glass_horse_armor": {
+      "textures": "textures/items/red_stained_glass_horse_armor"
+    },
+    "vge_black_stained_glass_shield": {
+      "textures": "textures/items/black_stained_glass_shield"
+    },
+    "vge_black_stained_glass_horse_armor": {
+      "textures": "textures/items/black_stained_glass_horse_armor"
+    },
+    "vge_tinted_glass_shield": {
+      "textures": "textures/items/tinted_glass_shield"
+    },
+    "vge_tinted_glass_horse_armor": {
+      "textures": "textures/items/tinted_glass_horse_armor"
+    }
+  }
+}

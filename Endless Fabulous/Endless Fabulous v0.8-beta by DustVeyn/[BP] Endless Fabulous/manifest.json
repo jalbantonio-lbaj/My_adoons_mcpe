@@ -1,0 +1,64 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "[BP] §dEndless §bFabulous §f| §av0.8-beta",
+    "description": "pack.description",
+    "uuid": "d9893983-eb8a-4193-8f2a-7457eeb62e0d",
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ],
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ad70a21c-9d41-4c04-83a9-acbe8658286f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/dustveyn_ef/index.js",
+      "uuid": "d7326785-dde5-40b2-aa06-02046bfcf02e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": [
+      "DustVeyn"
+    ]
+  },
+  "dependencies": [
+    {
+      "uuid": "91ef2720-e4ef-4d88-b265-ea2f2b6a8912",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.2.0"
+    }
+  ]
+}

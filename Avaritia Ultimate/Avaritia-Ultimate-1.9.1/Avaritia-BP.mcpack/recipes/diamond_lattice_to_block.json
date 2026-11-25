@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:diamond_lattice_to_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:diamond_lattice"
+      }
+    },
+    "result": [
+      {
+        "item": "avaritia:diamond_lattice_block",
+        "count": 1
+      }
+    ]
+  }
+}

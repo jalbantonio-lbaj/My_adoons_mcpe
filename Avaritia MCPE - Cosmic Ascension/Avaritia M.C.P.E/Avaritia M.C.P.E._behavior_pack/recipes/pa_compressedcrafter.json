@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "compressedcrafter_3faef002"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:crafting_table",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:compressedcrafter",
+      "count": 1
+    }
+  }
+}

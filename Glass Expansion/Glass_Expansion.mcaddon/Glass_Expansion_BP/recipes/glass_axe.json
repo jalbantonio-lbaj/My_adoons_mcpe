@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:glass_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "#/",
+      " /"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:glass"
+      },
+      "/": {
+        "item": "vge:glass_stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glass"
+      }
+    ],
+    "result": {
+      "item": "vge:glass_axe",
+      "count": 1
+    }
+  }
+}

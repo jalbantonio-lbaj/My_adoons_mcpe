@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:disc_fragment",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "dustveyn_ef:disc_fragment",
+            "minecraft:display_name": {
+                "value": "§c%dustveyn_ef.disc_fragment.name\n§o§9Endless Fabulous"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

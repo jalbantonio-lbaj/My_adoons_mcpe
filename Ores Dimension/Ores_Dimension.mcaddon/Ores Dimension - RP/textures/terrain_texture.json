@@ -1,0 +1,218 @@
+{
+  "resource_pack_name": "oredim",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "coal_portal": {
+      "textures": "textures/blocks/coal_portal"
+    },
+    "coal_leaves": {
+      "textures": "textures/blocks/coal_leaves"
+    },
+    "coal_log_side": {
+      "textures": "textures/blocks/coal_log_side"
+    },
+    "coal_log_top": {
+      "textures": "textures/blocks/coal_log_top"
+    },
+    "coal_planks": {
+      "textures": "textures/blocks/coal_planks"
+    },
+    "coal_stripped_side": {
+      "textures": "textures/blocks/coal_stripped_side"
+    },
+    "coal_stripped_top": {
+      "textures": "textures/blocks/coal_stripped_top"
+    },
+    "copper_portal": {
+      "textures": "textures/blocks/copper_portal"
+    },
+    "copper_leaves": {
+      "textures": "textures/blocks/copper_leaves"
+    },
+    "copper_log_side": {
+      "textures": "textures/blocks/copper_log_side"
+    },
+    "copper_log_top": {
+      "textures": "textures/blocks/copper_log_top"
+    },
+    "copper_planks": {
+      "textures": "textures/blocks/copper_planks"
+    },
+    "copper_stripped_side": {
+      "textures": "textures/blocks/copper_stripped_side"
+    },
+    "copper_stripped_top": {
+      "textures": "textures/blocks/copper_stripped_top"
+    },
+    "iron_portal": {
+      "textures": "textures/blocks/iron_portal"
+    },
+    "iron_leaves": {
+      "textures": "textures/blocks/iron_leaves"
+    },
+    "iron_log_side": {
+      "textures": "textures/blocks/iron_log_side"
+    },
+    "iron_log_top": {
+      "textures": "textures/blocks/iron_log_top"
+    },
+    "iron_planks": {
+      "textures": "textures/blocks/iron_planks"
+    },
+    "iron_stripped_side": {
+      "textures": "textures/blocks/iron_stripped_side"
+    },
+    "iron_stripped_top": {
+      "textures": "textures/blocks/iron_stripped_top"
+    },
+    "gold_portal": {
+      "textures": "textures/blocks/gold_portal"
+    },
+    "gold_leaves": {
+      "textures": "textures/blocks/gold_leaves"
+    },
+    "gold_log_side": {
+      "textures": "textures/blocks/gold_log_side"
+    },
+    "gold_log_top": {
+      "textures": "textures/blocks/gold_log_top"
+    },
+    "gold_planks": {
+      "textures": "textures/blocks/gold_planks"
+    },
+    "gold_stripped_side": {
+      "textures": "textures/blocks/gold_stripped_side"
+    },
+    "gold_stripped_top": {
+      "textures": "textures/blocks/gold_stripped_top"
+    },
+    "redstone_portal": {
+      "textures": "textures/blocks/redstone_portal"
+    },
+    "redstone_leaves": {
+      "textures": "textures/blocks/redstone_leaves"
+    },
+    "redstone_log_side": {
+      "textures": "textures/blocks/redstone_log_side"
+    },
+    "redstone_log_top": {
+      "textures": "textures/blocks/redstone_log_top"
+    },
+    "redstone_planks": {
+      "textures": "textures/blocks/redstone_planks"
+    },
+    "redstone_stripped_side": {
+      "textures": "textures/blocks/redstone_stripped_side"
+    },
+    "redstone_stripped_top": {
+      "textures": "textures/blocks/redstone_stripped_top"
+    },
+    "lapis_portal": {
+      "textures": "textures/blocks/lapis_portal"
+    },
+    "lapis_leaves": {
+      "textures": "textures/blocks/lapis_leaves"
+    },
+    "lapis_log_side": {
+      "textures": "textures/blocks/lapis_log_side"
+    },
+    "lapis_log_top": {
+      "textures": "textures/blocks/lapis_log_top"
+    },
+    "lapis_planks": {
+      "textures": "textures/blocks/lapis_planks"
+    },
+    "lapis_stripped_side": {
+      "textures": "textures/blocks/lapis_stripped_side"
+    },
+    "lapis_stripped_top": {
+      "textures": "textures/blocks/lapis_stripped_top"
+    },
+    "diamond_portal": {
+      "textures": "textures/blocks/diamond_portal"
+    },
+    "diamond_leaves": {
+      "textures": "textures/blocks/diamond_leaves"
+    },
+    "diamond_log_side": {
+      "textures": "textures/blocks/diamond_log_side"
+    },
+    "diamond_log_top": {
+      "textures": "textures/blocks/diamond_log_top"
+    },
+    "diamond_planks": {
+      "textures": "textures/blocks/diamond_planks"
+    },
+    "diamond_stripped_side": {
+      "textures": "textures/blocks/diamond_stripped_side"
+    },
+    "diamond_stripped_top": {
+      "textures": "textures/blocks/diamond_stripped_top"
+    },
+    "emerald_portal": {
+      "textures": "textures/blocks/emerald_portal"
+    },
+    "emerald_leaves": {
+      "textures": "textures/blocks/emerald_leaves"
+    },
+    "emerald_log_side": {
+      "textures": "textures/blocks/emerald_log_side"
+    },
+    "emerald_log_top": {
+      "textures": "textures/blocks/emerald_log_top"
+    },
+    "emerald_planks": {
+      "textures": "textures/blocks/emerald_planks"
+    },
+    "emerald_stripped_side": {
+      "textures": "textures/blocks/emerald_stripped_side"
+    },
+    "emerald_stripped_top": {
+      "textures": "textures/blocks/emerald_stripped_top"
+    },
+    "quartz_portal": {
+      "textures": "textures/blocks/quartz_portal"
+    },
+    "quartz_leaves": {
+      "textures": "textures/blocks/quartz_leaves"
+    },
+    "quartz_log_side": {
+      "textures": "textures/blocks/quartz_log_side"
+    },
+    "quartz_log_top": {
+      "textures": "textures/blocks/quartz_log_top"
+    },
+    "quartz_planks": {
+      "textures": "textures/blocks/quartz_planks"
+    },
+    "quartz_stripped_side": {
+      "textures": "textures/blocks/quartz_stripped_side"
+    },
+    "quartz_stripped_top": {
+      "textures": "textures/blocks/quartz_stripped_top"
+    },
+    "netherite_portal": {
+      "textures": "textures/blocks/netherite_portal"
+    },
+    "netherite_leaves": {
+      "textures": "textures/blocks/netherite_leaves"
+    },
+    "netherite_log_side": {
+      "textures": "textures/blocks/netherite_log_side"
+    },
+    "netherite_log_top": {
+      "textures": "textures/blocks/netherite_log_top"
+    },
+    "netherite_planks": {
+      "textures": "textures/blocks/netherite_planks"
+    },
+    "netherite_stripped_side": {
+      "textures": "textures/blocks/netherite_stripped_side"
+    },
+    "netherite_stripped_top": {
+      "textures": "textures/blocks/netherite_stripped_top"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vge:light_gray_stained_glass_polished_from_stonecutting"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:light_gray_stained_glass"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:light_gray_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:light_gray_stained_glass_polished",
+      "count": 1
+    }
+  }
+}

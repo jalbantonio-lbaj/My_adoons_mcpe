@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_red_block_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_red_block",
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:red_terracotta"
+            },
+            "B": {
+                "item": "minecraft:glowstone"    
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_red_block",
+            "count": 8
+        }
+    }
+}

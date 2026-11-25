@@ -1,0 +1,186 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:altar",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
+    "component_groups": {
+      "open": {
+        "minecraft:entity_sensor": {
+          "sensor_range": 2.5,
+          "relative_range": false,
+          "minimum_count": 1,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "test": "has_container_open",
+                "operator": "!=",
+                "subject": "other"
+              }
+            ]
+          },
+          "event": "close"
+        }
+      },
+      "close": {
+        "minecraft:entity_sensor": {
+          "sensor_range": 2.5,
+          "relative_range": false,
+          "minimum_count": 1,
+          "event_filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "test": "has_container_open",
+                "subject": "other"
+              }
+            ]
+          },
+          "event": "open"
+        }
+      },
+      "avaritia:with_collision": {
+        "minecraft:collision_box": {
+          "width": 1.0,
+          "height": 1.0
+        }
+      },
+      "avaritia:no_collision": {
+        "minecraft:collision_box": {
+          "width": 0.0,
+          "height": 0.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "altar"
+        ]
+      },
+      "minecraft:inventory": {
+        "container_type": "minecart_chest",
+        "inventory_size": 91,
+        "can_be_siphoned_from": false
+      },
+      "minecraft:is_chested": {},
+      "minecraft:persistent": {},
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:breathable": {
+        "breathes_solids": true
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:health": {
+        "value": 1000,
+        "max": 1000
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:entity_sensor": {
+        "sensor_range": 2.5,
+        "relative_range": false,
+        "minimum_count": 1,
+        "event_filters": {
+          "all_of": [
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            {
+              "test": "has_container_open",
+              "subject": "other"
+            }
+          ]
+        },
+        "event": "open"
+      }
+    },
+    "events": {
+      "open": {
+        "add": {
+          "component_groups": [
+            "open"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "close"
+          ]
+        }
+      },
+      "close": {
+        "remove": {
+          "component_groups": [
+            "open"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "close"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [
+            "effect @s invisibility 1000000 0 true"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "avaritia:with_collision"
+          ]
+        }
+      },
+      "avaritia:add_collision": {
+        "add": {
+          "component_groups": [
+            "avaritia:with_collision"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "avaritia:no_collision"
+          ]
+        }
+      },
+      "avaritia:remove_collision": {
+        "add": {
+          "component_groups": [
+            "avaritia:no_collision"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "avaritia:with_collision"
+          ]
+        }
+      }
+    }
+  }
+}

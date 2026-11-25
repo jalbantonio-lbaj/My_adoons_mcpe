@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_cyber_center_purple_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_cyber_center_purple",
+        "pattern": [
+            "ABA",
+            "BBB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_black_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_purple_block"
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_cyber_center_purple",
+            "count": 9
+        }
+    }
+}

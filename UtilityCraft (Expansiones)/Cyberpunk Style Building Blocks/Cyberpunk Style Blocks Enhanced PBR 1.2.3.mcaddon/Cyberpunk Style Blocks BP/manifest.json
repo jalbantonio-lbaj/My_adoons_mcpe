@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cyberpunk Style Blocks BP",
+    "description": "§6Dorios Studio - §bCyberpunk Style Blocks BP - §a1.2.3",
+    "uuid": "ef84756e-9b03-4049-ac63-6c5b4b12e1b2",
+    "version": [1, 2, 3],
+    "min_engine_version": [1, 26, 10]
+  },
+  "metadata": {
+    "authors": ["MikeyZ - Dorios Studio "],
+    "product_type": "addon"
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [1, 2, 3],
+      "uuid": "f7f71335-f8bb-4894-bf1e-9ac6a7e9bad4",
+      "type": "data"
+    },
+    {
+      "uuid": "c8529a2b-1c77-4493-9e14-937cdf96476b",
+      "version": "1.2.3",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "17a35d08-d22b-460b-8382-1dd85896477f",
+      "version": [1, 2, 3]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ],
+  "capabilities": ["script_eval"]
+}

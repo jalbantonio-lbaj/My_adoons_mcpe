@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "denser_compressor_front",
+    "metalness_emissive_roughness": "denser_compressor_front_mer"
+  }
+}

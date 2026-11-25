@@ -1,0 +1,204 @@
+{
+  "resource_pack_name": "avaritia_bedrock",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "diamond_lattice": {
+      "textures": "textures/items/diamond_lattice"
+    },
+    "crystal_matrix_ingot": {
+      "textures": "textures/items/crystal_matrix_ingot"
+    },
+    "neutron_pile": {
+      "textures": "textures/items/neutron_pile"
+    },
+    "neutron_nugget": {
+      "textures": "textures/items/neutron_nugget"
+    },
+    "neutronium_ingot": {
+      "textures": "textures/items/neutronium_ingot"
+    },
+    "infinity_catalyst": {
+      "textures": "textures/items/infinity_catalyst"
+    },
+    "infinity_ingot": {
+      "textures": "textures/items/infinity_ingot"
+    },
+    "record_fragment": {
+      "textures": "textures/items/record_fragment"
+    },
+    "starfuel": {
+      "textures": "textures/items/starfuel"
+    },
+    "neutronium_gear": {
+      "textures": "textures/items/neutronium_gear"
+    },
+    "avaritia:ui_filler": {
+      "textures": "textures/ui/ui_filler"
+    },
+    "avaritia:collector_bar": {
+      "textures": "textures/ui/bar_full"
+    },
+    "avaritia:collector": {
+      "textures": "textures/blocks/collector_top"
+    },
+    "avaritia:dire_crafting_table": {
+      "textures": "textures/blocks/dire_crafting_top"
+    },
+    "avaritia:extreme_crafting_table": {
+      "textures": "textures/blocks/extreme_crafting_top"
+    },
+    "avaritia:infinity_block": {
+      "textures": "textures/blocks/infinity_block"
+    },
+    "avaritia:arrow_empty": {
+      "textures": "textures/ui/arrow_empty"
+    },
+    "avaritia:arrow_full": {
+      "textures": "textures/ui/arrow_full"
+    },
+    "singularity_iron": {
+      "textures": "textures/items/sings/singularity_iron"
+    },
+    "singularity_gold": {
+      "textures": "textures/items/sings/singularity_gold"
+    },
+    "singularity_lapis": {
+      "textures": "textures/items/sings/singularity_lapis"
+    },
+    "singularity_redstone": {
+      "textures": "textures/items/sings/singularity_redstone"
+    },
+    "singularity_quartz": {
+      "textures": "textures/items/sings/singularity_quartz"
+    },
+    "singularity_copper": {
+      "textures": "textures/items/sings/singularity_copper"
+    },
+    "singularity_lead": {
+      "textures": "textures/items/sings/singularity_lead"
+    },
+    "singularity_silver": {
+      "textures": "textures/items/sings/singularity_silver"
+    },
+    "singularity_nickel": {
+      "textures": "textures/items/sings/singularity_nickel"
+    },
+    "singularity_clay": {
+      "textures": "textures/items/sings/singularity_clay"
+    },
+    "singularity_emerald": {
+      "textures": "textures/items/sings/singularity_emerald"
+    },
+    "singularity_diamond": {
+      "textures": "textures/items/sings/singularity_diamond"
+    },
+    "singularity_coal": {
+      "textures": "textures/items/sings/singularity_coal"
+    },
+    "singularity_steel": {
+      "textures": "textures/items/sings/singularity_steel"
+    },
+    "singularity_netherite": {
+      "textures": "textures/items/sings/singularity_netherite"
+    },
+    "singularity_aetherium": {
+      "textures": "textures/items/sings/singularity_aetherium"
+    },
+    "singularity_titanium": {
+      "textures": "textures/items/sings/singularity_titanium"
+    },
+    "singularity_tin": {
+      "textures": "textures/items/sings/singularity_tin"
+    },
+    "singularity_uranium": {
+      "textures": "textures/items/sings/singularity_uranium"
+    },
+    "singularity_bronze": {
+      "textures": "textures/items/sings/singularity_bronze"
+    },
+    "singularity_energized_iron": {
+      "textures": "textures/items/sings/singularity_energized_iron"
+    },
+    "singularity_silicon": {
+      "textures": "textures/items/sings/singularity_silicon"
+    },
+    "singularity_tungsten": {
+      "textures": "textures/items/sings/singularity_tungsten"
+    },
+    "singularity_fluxite": {
+      "textures": "textures/items/sings/singularity_fluxite"
+    },
+    "endest_pearl": {
+      "textures": "textures/items/endest_pearl"
+    },
+    "avaritia_black_hole": {
+      "textures": "textures/items/black_hole"
+    },
+    "meatballs": {
+      "textures": "textures/items/meatballs"
+    },
+    "stew": {
+      "textures": "textures/items/stew"
+    },
+    "infinity_pickaxe": {
+      "textures": "textures/items/infinity_pickaxe"
+    },
+    "infinity_axe": {
+      "textures": "textures/items/infinity_axe"
+    },
+    "infinity_hoe": {
+      "textures": "textures/items/infinity_hoe"
+    },
+    "infinity_shovel": {
+      "textures": "textures/items/infinity_shovel"
+    },
+    "infinity_hammer": {
+      "textures": "textures/items/infinity_hammer"
+    },
+    "infinity_destroyer": {
+      "textures": "textures/items/infinity_destroyer"
+    },
+    "matter_cluster": {
+      "textures": "textures/items/mattercluster"
+    },
+    "critical_matter_cluster": {
+      "textures": "textures/items/mattercluster_full"
+    },
+    "infinity_upgrade": {
+      "textures": "textures/items/infinity_upgrade"
+    },
+    "infinity_mesh": {
+      "textures": "textures/items/meshes/infinity_mesh"
+    },
+    "infinity_net": {
+      "textures": "textures/items/nets/infinity_net"
+    },
+    "infinity_sword": {
+      "textures": "textures/items/infinity_sword"
+    },
+    "infinity_helmet": {
+      "textures": "textures/items/infinity_armor_0"
+    },
+    "infinity_breastplate": {
+      "textures": "textures/items/infinity_armor_1"
+    },
+    "infinity_pants": {
+      "textures": "textures/items/infinity_armor_2"
+    },
+    "infinity_boots": {
+      "textures": "textures/items/infinity_armor_3"
+    },
+    "infinity_bow_standby": {
+      "textures": "textures/items/infinity_bow_standby"
+    },
+    "infinity_bow_pulling_0": {
+      "textures": "textures/items/infinity_bow_pulling_0"
+    },
+    "infinity_bow_pulling_1": {
+      "textures": "textures/items/infinity_bow_pulling_1"
+    },
+    "infinity_bow_pulling_2": {
+      "textures": "textures/items/infinity_bow_pulling_2"
+    }
+  }
+}

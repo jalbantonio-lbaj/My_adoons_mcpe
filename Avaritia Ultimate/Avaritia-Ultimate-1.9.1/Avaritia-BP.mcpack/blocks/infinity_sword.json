@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_sword"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "avaritia_infinity_sword",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:geometry": "geometry.avaritia.animated_tool_hd",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "minecraft:structure_void"
+            ]
+          }
+        ]
+      },
+      "minecraft:destructible_by_mining": false
+    }
+  }
+}

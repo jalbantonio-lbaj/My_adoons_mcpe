@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "side_config_card",
+    "metalness_emissive_roughness": "side_config_card_mer"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_breastplate",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.animated_item_breastplate",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_breastplate",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

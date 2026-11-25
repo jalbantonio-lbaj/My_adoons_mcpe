@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:copper_singularity",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "frame_1": "textures/avaritia/machine_ui/3d/copper_singularity/frame_1",
+        "frame_2": "textures/avaritia/machine_ui/3d/copper_singularity/frame_2",
+        "frame_3": "textures/avaritia/machine_ui/3d/copper_singularity/frame_3",
+        "frame_4": "textures/avaritia/machine_ui/3d/copper_singularity/frame_4",
+        "frame_5": "textures/avaritia/machine_ui/3d/copper_singularity/frame_5",
+        "frame_6": "textures/avaritia/machine_ui/3d/copper_singularity/frame_6"
+      },
+      "geometry": {
+        "default": "geometry.custom.item"
+      },
+      "animations": {
+        "wield": "animation.hand_equipped.wield"
+      },
+      "scripts": {
+        "animate": [
+          "wield"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avui.copper_singularity"
+      ]
+    }
+  }
+}

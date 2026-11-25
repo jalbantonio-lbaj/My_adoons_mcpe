@@ -1,0 +1,108 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ubd:copper_fan",
+			"states": {
+				"ubd:powered": [0, 1]
+			},
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:facing_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:custom_components": ["ubd:fan"],
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+            "minecraft:tick": { 
+                "interval_range": [20, 20]
+            },
+			"minecraft:redstone_conductivity": {"redstone_conductor": true},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.fan",
+			"minecraft:map_color": "#ffffff"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('ubd:powered') == 0 ",
+				"components": {
+					"minecraft:material_instances": {
+				"*": {
+					"texture": "fan_block_stopped",
+					"render_method": "alpha_test"
+				}
+			}
+				}
+			},
+			{
+				"condition": "q.block_state('ubd:powered') == 1 ",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "fan_block",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'up' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [-90, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'down' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [90, 0, 0]
+					}
+				}
+			}
+		]
+	}
+}

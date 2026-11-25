@@ -1,0 +1,676 @@
+pack.name=Doplněk světových nástrojů	###Pack name
+pack.description=Výběr nových nástrojů a utilit, které vám vylepší hraní Minecraftu.	###Pack description
+
+item.gf_wu:end_frame_breaker=Přesouvač rámů portálu do Endu	###Name of the item in game
+item.gf_wu:explosive_pickaxe=Výbušný krumpáč	###Name of the item in game
+item.gf_wu:multiblock_pickaxe=Diamantové Víceblokový krumpáč	###Name of the item in game
+item.gf_wu:omni_tool=Diamantové Multifunkční nástroj	###Name of the item in game
+item.gf_wu:spawner_wrench=Přesouvač spawnerů	###Name of the item in game
+item.gf_wu:void_chest_item=Pohlcující truhla	###Name of the item in game
+item.gf_wu:void_chest=Pohlcující truhla	###Name of the item in game
+item.gf_wu:vein_miner=Dobývač rudných žil deaktivován	###Name of the item in game
+item.gf_wu:vein_miner_on=Dobývač rudných žil aktivován	###Name of the item in game
+item.gf_wu:treecapitator=Káceč stromů deaktivován	###Name of the item in game
+item.gf_wu:treecapitator_on=Káceč stromů aktivován	###Name of the item in game
+item.gf_wu:guide_book=Kniha návodů	###Name of the item in game
+item.gf_wu:experience_bottle=Čarovná láhev	###Name of the item in game
+item.gf_wu:experience_extractor_item=Čarovný extraktor	###Name of the item in game
+item.gf_wu:experience_extractor=Čarovný extraktor	###Name of the item in game
+item.gf_wu:lock=Zámek	###Name of the item in game
+item.gf_wu:magnet=Magnet deaktivovaný	###Name of the item in game
+item.gf_wu:magnet_on=Magnet aktivován	###Name of the item in game
+item.gf_wu:chunk_minion_spawn_egg=Chunk Minion	###Name of the item in game
+
+tile.gf_wu:void_chest.name=Pohlcující truhla	###Name of the block in game
+tile.gf_wu:experience_extractor.name=Čarovný extraktor	###Name of the block in game
+tile.gf_wu:bridge_builder1.name=Temporary Bridge Block 1	###Name of the block in game
+tile.gf_wu:bridge_builder2.name=Temporary Bridge Block 2	###Name of the block in game
+tile.gf_wu:bridge_builder3.name=Temporary Bridge Block 3	###Name of the block in game
+tile.gf_wu:bridge_builder4.name=Temporary Bridge Block 4	###Name of the block in game
+
+entity.gf_wu:void_chest_entity.name=Pohlcující truhla	###Name of the entity in game
+entity.gf_wu:death_waypoint.name=Bod úmrtí	###Name of the entity in game
+entity.gf_wu:chunk_minion.name=Chunk Minion	###Name of the entity in game
+entity.gf_wu:lock_barrier.name=Zámková bariéra	###Name of the entity in game
+entity.gf_wu:lock_barrier_double.name=Dvojitá zámková bariéra	###Name of the entity in game
+
+item.gf_wu:chunk_borders=Hraniční linie chunků deaktivovány	###Name of the item in game
+item.gf_wu:chunk_borders_on=Hraniční linie chunků aktivovány	###Name of the item in game
+item.gf_wu:homes=Domovy	###Name of the item in game
+item.gf_wu:miners_lantern=Hornická lucerna	###Name of the item in game
+
+item.gf_wu:harvester_hoe=Diamantové Sklízecí motyka	###Name of the item in game
+item.gf_wu:excavator_shovel=Diamantové Bagrová lopata	###Name of the item in game
+item.gf_wu:safari_net=Safari síť	###Name of the item in game
+item.gf_wu:miners_essentials=Základní nástroj horníka deaktivovaný	###Name of the item in game
+item.gf_wu:miners_essentials_on=Základní nástroj horníka aktivovaný	###Name of the item in game
+item.gf_wu:controller=Konfigurace světových nástrojů	###Name of the item in game
+item.gf_wu:update_book=Kniha aktualizací světových nástrojů	###Name of the item in game
+
+gf_wu:death_waypoint.message=Zemřeli jste na	###Death waypoint message
+gf_wu:death_waypoint.in= na 	###Death waypoint message
+
+gf_wu:death_waypoint.private=§cTento bod zájmu je soukromý	###Death waypoint message
+
+gf_wu:home_menu.name=Menu Domovů	###Homes Menu
+gf_wu:home_menu.add=Přidat domov	###Homes Menu
+gf_wu:home_menu.enter_name=Zadejte jméno	###Homes Menu
+gf_wu:home_menu.placeholder_name=Domov	###Homes Menu
+gf_wu:home_menu.home_added=§aDomov přidán	###Homes Menu
+gf_wu:home_menu.teleport=Teleportovat	###Homes Menu
+gf_wu:home_menu.edit_name=Upravit jméno	###Homes Menu
+gf_wu:home_menu.remove=Odstranit	###Homes Menu
+gf_wu:home_menu.too_long=§cTento název je příliš dlouhý!
+gf_wu:home_menu.duplicate_name=§cDomov s tímto názvem již existuje!
+
+gf_wu:home_menu.teleport_cancelled=§cTeleport zrušen!
+
+gf_wu:jig_computer.addon_stats=Statistiky světových nástrojů	###Header and button for stats in Computers Add-On
+gf_wu:stat_treecapitator=Pokácené stromy	###Name of the statistic
+gf_wu:stat_veinminer=Vytěženo rudných žil	###Name of the statistic
+gf_wu:stat_endframebreaker=Zničeno rámů portálů do Endu	###Name of the statistic
+gf_wu:stat_explosivepickaxe=Exploze vytvořené pomocí výbušeného krumpáče	###Name of the statistic
+gf_wu:stat_multiblockpickaxe=Použítí víceblokového krumpáče	###Name of the statistic
+gf_wu:stat_omnitool=Bloky zničené pomocí multifunkčního nástroje	###Name of the statistic
+gf_wu:stat_wrench=Zničené spawnery	###Name of the statistic
+gf_wu:stat_voidchest=Předměty zničené v pohlcující truhle	###Name of the statistic
+gf_wu:stat_minersessential=Roztavené rudy	###Name of the statistic
+gf_wu:stat_excavatorshovel=Použití bagrová lopaty	###Name of the statistic
+gf_wu:stat_harvesterhoe=Sklizené plodiny	###Name of the statistic
+gf_wu:stat_safarinet=Chycená stvoření	###Name of the statistic
+
+gf_wu:stat_experienceextractor=Počet EXP úrovní extrahováno	###Name of the statistic
+gf_wu:stat_magnet=Předměty sebrané magnetem	###Name of the statistic
+gf_wu:stat_lock=Truhly zamčené zámkem	###Name of the statistic
+gf_wu:stat_chunkminion=Počet umístění Chunk Miniona	###Name of the statistic
+
+gf_wu:credits.for.computers=World Utilities Add-On od Gamefam.	###Last line in the stats page
+
+
+gf_wu:info.header=§l§eDoplněk světových nástrojů	###Header of the guide book
+gf_wu:info.description=§7Vytvořilo Gamefam Studios!	###First line in guide book
+gf_wu:info.recipe=%1§r§l§6Recept na výrobu:	###Used as the global header for showing crafting recipes in guide book
+
+gf_wu:vein_miner.header=§l§cDobývač rudných žil	###Guide book menu title
+gf_wu:vein_miner.button=§l§4Dobývač rudných žil	###Guide book menu title
+gf_wu:vein_miner.description=Aktivujte nástroj Vein Miner interakcí s předmětem. Po aktivaci stačí vytěžit jakoukoli rudu a automaticky se vytěží celá žíla! Opětovnou interakcí jej deaktivujete. V Ovladači můžete nastavit, zda musí být předmět ve vašem inventáři, aby nástroj fungoval, a také upravit nastavení jeho odolnosti.	###Guide book menu description
+gf_wu:vein_miner.recipe_ingredients=§72x Železný ingot §f[§7I§f]%1§r§b1x Diamantový krumpáč §f[§bD§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:vein_miner.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:tree_capitator.header=§l§cKáceč stromů	###Guide book menu title
+gf_wu:tree_capitator.button=§l§4Káceč stromů	###Guide book menu title
+gf_wu:tree_capitator.description=Aktivujte nástroj Tree Capitator interakcí s předmětem. Po aktivaci stačí zničit jeden kmen a celý strom se automaticky pokácí! Opětovnou interakcí jej deaktivujete. V Ovladači můžete nastavit, zda musí být předmět ve vašem inventáři, aby nástroj fungoval, a také upravit nastavení jeho odolnosti.	###Guide book menu description
+gf_wu:tree_capitator.recipe_ingredients=§72x Železný ingot §f[§7I§f]%1§r§b1x Diamantová sekera §f[§bD§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r	###Recipe list for guide book
+gf_wu:tree_capitator.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§bD§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:explosive_pickaxe.header=§l§cVýbušný krumpáč	###Guide book menu title
+gf_wu:explosive_pickaxe.button=§l§4Výbušný krumpáč	###Guide book menu title
+gf_wu:explosive_pickaxe.description=Těžte s tímto nástrojem a vytvářejte kolem sebe malé exploze, které ničí bloky v cestě.	###Guide book menu description
+gf_wu:explosive_pickaxe.recipe_ingredients=§c3x TNT §f[§cT§f]%1§r§72x Klacík §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:explosive_pickaxe.recipe_table=§f[§cT§f][§cT§f][§cT§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:multiblock_pickaxe.header=§l§cVíceblokový krumpáč	###Guide book menu title
+gf_wu:multiblock_pickaxe.button=§l§4Víceblokový krumpáč	###Guide book menu title
+gf_wu:multiblock_pickaxe.description=Těžte rychleji než kdykoliv předtím a zničte najednou více bloků. Tento nástroj můžete vylepšit na verzi Netherite v kovárenském stole.	###Guide book menu description
+gf_wu:multiblock_pickaxe.recipe_ingredients=§b3x Diamantový krumpáč §f[§bD§f]%1§r§72x Klacík §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:multiblock_pickaxe.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:end_frame_breaker.header=§l§cPřesouvač rámů portálu do Endu	###Guide book menu title
+gf_wu:end_frame_breaker.button=§l§4Přesouvač rámů portálu do Endu	###Guide book menu title
+gf_wu:end_frame_breaker.description=Přemísťujte rámy portálů do Endu. Zničte rámy portálu a seberte je ze země. Umístěte je pak kamkoli budete chtít. Pozor, tento nástroj má pouze 12 trvanlivost!	###Guide book menu description
+gf_wu:end_frame_breaker.recipe_ingredients=§e3x Enderit §f[§eS§f]%1§r§b1x Diamantový krumpáč §f[§bD§f]%1§r§a3x Oko z enderu §f[§aE§f]%1§r	###Recipe list for guide book
+gf_wu:end_frame_breaker.recipe_table=§f[ ][§aE§f][ ]%1§r§f[§aE§f][§bD§f][§aE§f]%1§r§f[§eS§f][§eS§f][§eS§f]%1§r	###Recipe table
+
+gf_wu:omni_tool.header=§l§cMultifunkční nástroj	###Guide book menu title
+gf_wu:omni_tool.button=§l§4Multifunkční nástroj	###Guide book menu title
+gf_wu:omni_tool.description=Optimalizujte prostor v inventáři s tímto Multifunkčním nástrojem. Umožňuje vám ničit bloky, jako byste používali krumpáč, sekeru nebo lopatu. Tento nástroj můžete vylepšit na verzi Netherite v kovárenském stole.	###Guide book menu description
+gf_wu:omni_tool.recipe_ingredients=§66x Medový blok §f[§6H§f]%1§r§d1x Diamantová sekera §f[§dA§f]%1§r§b1x Diamantový krumpáč §f[§bP§f]%1§r§c1x Diamantová lopata §f[§cS§f]%1§r	###Recipe list for guide book
+gf_wu:omni_tool.recipe_table=§f[§6H§f][§dA§f][§6H§f]%1§r§f[§6H§f][§bP§f][§6H§f]%1§r§f[§6H§f][§cS§f][§6H§f]%1§r	###Recipe table
+
+gf_wu:spawner_wrench.header=§l§cPřesouvač spawnerů	###Guide book menu title
+gf_wu:spawner_wrench.button=§l§4Přesouvač spawnerů	###Guide book menu title
+gf_wu:spawner_wrench.description=Interakcí se spawnerem ho zničíte a můžete sebrat a poté umístit na nové místo! Ale pozor, nástroj má jen 3 trvanlivost!	###Guide book menu description
+gf_wu:spawner_wrench.recipe_ingredients=§74x Železný ingot §f[§7I§f]%1§r§51x Obsidián §f[§5O§f]%1§r	###Recipe list for guide book
+gf_wu:spawner_wrench.recipe_table=§f[§7I§f][§5O§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:void_chest.header=§l§cPohlcující truhla	###Guide book menu title
+gf_wu:void_chest.button=§l§4Pohlcující truhla	###Guide book menu title
+gf_wu:void_chest.description=Jste unavení z přeplněného inventáře? Umístěte tento předmět a interagujte s víkem, abyste se snadno zbavili nechtěných věcí. Abyste chytili určitá zvířata, jako jsou ochočení vlci, budete muset s tímto stvořením interagovat z větší vzdálenosti! Jednoduše vložte své položky do menu, zavřete ho a váš odpad je pryč!	###Guide book menu description
+gf_wu:void_chest.recipe_ingredients=§67x Lávový blok §f[§6M§f]%1§r§81x Truhla §f[§8C§f]%1§r§e1x Kbelík lávy §f[§eL§f]%1§r	###Recipe list for guide book
+gf_wu:void_chest.recipe_table=§f[§6M§f][§eL§f][§6M§f]%1§r§f[§6M§f][§8C§f][§6M§f]%1§r§f[§6M§f][§6M§f][§6M§f]%1§r	###Recipe table
+
+gf_wu:guide_book.header=§l§cKniha návodů	###Guide book menu title
+gf_wu:guide_book.button=§l§4Kniha návodů	###Guide book menu title
+gf_wu:guide_book.description=Tato kniha poskytuje informace o každé z utilit a nástrojů v tomto doplňku.	###Guide book menu description
+gf_wu:guide_book.recipe_ingredients=§c1x Kniha §f[§cB§f]%1§r§61x Dřevěný krumpáč §f[§6P§f]%1§r§71x Dřevěná lopata §f[§7S§f]%1§r§51x Dřevěná sekera §f[§5A§f]%1§r§a1x Dřevěný meč §f[§aW§f]%1§r	###Recipe list for guide book
+gf_wu:guide_book.recipe_table=§f[ ][§6S§f][ ]%1§r§f[§aW§f][§cB§f][§5A§f]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+gf_wu:guide.name=Kniha návodů pro světové nástroje	###Title of the guide book menu
+gf_wu:guide_back=Zpět	###Get back to guide book menu
+gf_wu:guide_exit=Opustit knihu návodů	###Guide book exit button
+
+gf_wu:help.header=§l§cPřipojte se na náš Discord!	###Guide book help menu title
+gf_wu:help.button=§l§4Nápověda a podpora	###Guide book help menu button
+gf_wu:help.description=Potřebujete pomoc s doplňkem World Utilities? Připojte se na náš Discord pomocí odkazu níže, kde získáte nejnovější informace o aktualizacích, můžete nahlásit chyby nebo nám navrhnout nové funkce!%1%1§r§9Discord: §r§fhttps://discord.gg/NVs5j7TaMa	###Guide book help menu description
+
+gf_wu:harvester_hoe.header=§l§cSklízecí motyka	###Guide book menu title
+gf_wu:harvester_hoe.button=§l§4Sklízecí motyka	###Guide book menu button
+gf_wu:harvester_hoe.description=Skizené plodiny budou automaticky znovu zasazeny a úroda bude přidána do vašeho inventáře, s výjimkou semen potřebných k zasazení! Funguje to na pšenici, mrkev, řepu, brambory, melouny, dýně, kakao a netheritový bradavičník. Tento nástroj můžete vylepšit na verzi Netherite v kovárenském stole.	###Guide book menu description
+gf_wu:harvester_hoe.recipe_ingredients=(bez tvaru)%1§r§s1x Diamantová motyka §f[§sH§f]%1§r§a1x Semínka §f[§aW§f]%1§r§b1x Melounová semínka §f[§bM§f]%1§r§f1x Dýňová semínka §f[§fU§f]%1§r§71x Kakaové boby §f[§7O§f]%1§r§21x Pšenice §f[§2H§f]%1§r§81x Semínka řepy §f[§8B§f]%1§r§61x Brambora §f[§6P§f]%1§r§c1x Mrkev §f[§cC§f]%1§r	###Recipe list for guide book
+gf_wu:harvester_hoe.recipe_table=§f[§aW§f][§bM§f][§fU§f]%1§r§f[§7O§f][§sH§f][§2H§f]%1§r§f[§8B§f][§6P§f][§cC§f]%1§r	###Recipe table
+
+gf_wu:excavator_shovel.header=§l§cBagrová lopata	###Guide book menu title
+gf_wu:excavator_shovel.button=§l§4Bagrová lopata	###Guide book menu button
+gf_wu:excavator_shovel.description=Těžte rychleji než kdy předtím a rozbijte více bloků najednou. Tento nástroj můžete vylepšit na verzi Netherite v kovárenském stole.	###Guide book menu description
+gf_wu:excavator_shovel.recipe_ingredients=§b3x Diamantová lopata §f[§bD§f]%1§r§72x Klacík §f[§7S§f]%1§r	###Recipe list for guide book
+gf_wu:excavator_shovel.recipe_table=§f[§bD§f][§bD§f][§bD§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r	###Recipe table
+
+gf_wu:safari_net.header=§l§cSafari síť	###Guide book menu title
+gf_wu:safari_net.button=§l§4Safari síť	###Guide book menu button
+gf_wu:safari_net.description=Interagujte se stvořením nebo zvířetem, zatímco držíte safari síťku, abyste ho chytili. Cestujte do jeho nového domova a znovu interagujte, abyste ho vypustili. Tato položka má pouze jednu odolnost, ale lze ji přepínat v ovladači.	###Guide book menu description
+gf_wu:safari_net.recipe_ingredients=§78x Vlákno §f[§7S§f]%1§r§61x Vejce (Standardní, Hnědá nebo Modrá) §f[§6E§f]%1§r	###Recipe list for guide book
+gf_wu:safari_net.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§6E§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r	###Recipe table
+
+gf_wu:miners_essentials.header=§l§cZákladní nástroj horníka	###Guide book menu title
+gf_wu:miners_essentials.button=§l§4Základní nástroj horníka	###Guide book menu button
+gf_wu:miners_essentials.description=Aktivujte tuto utilitu interakcí s předmětem. Jakmile je aktivována, těžte jakoukoli rudu a ta spadne ve formě již roztavené varianty. Znovu interagujte pro vypnutí. Můžete přepínat, zda potřebujete mít položku v inventáři, aby utilita fungovala v Kontroleru.	###Guide book menu description
+gf_wu:miners_essentials.recipe_ingredients=§b1x Diamantový krumpáč §f[§bD§f]%1§r§78x Pec §f[§7F§f]%1§r	###Recipe list for guide book
+gf_wu:miners_essentials.recipe_table=§f[§7F§f][§7F§f][§7F§f]%1§r§f[§7F§f][§bD§f][§7F§f]%1§r§f[§7F§f][§7F§f][§7F§f]%1§r	###Recipe table
+
+gf_wu:controller.header=§l§cKonfigurace	###Guide book menu title
+gf_wu:controller.button=§l§4Konfigurace	###Guide book menu button
+gf_wu:controller.description=Interagujte s Kontrolerem pro zapnutí nebo vypnutí různých nastavení, například odolnosti nástrojů. Můžete také povolit nebo zakázat konkrétní nástroje a utility, ideální pro hraní s přáteli! Toto mohou používat pouze hráči s OP/Admin právy ve světě.	###Guide book menu description
+gf_wu:controller.recipe_ingredients=§61x Klacík §f[§6D§f]%1§r§c1x Ruditový blok §f[§cR§f]%1§r§e1x Železný blok §f[§eI§f]%1§r§74x Kamenné kostky §f[§7C§f]%1§r	###Recipe list for guide book
+gf_wu:controller.recipe_table=§f[ ][§6S§f][ ]%1§r§f[§7C§f][§cR§f][§7C§f]%1§r§f[§7C§f][§eI§f][§7C§f]%1§r	###Recipe table
+
+gf_wu:homes.header=§l§cDomovy	###Guide book menu title
+gf_wu:homes.button=§l§4Domovy	###Guide book menu button
+gf_wu:homes.description=Nastavujte, upravujte a mazejte domovy, ke kterým se můžete kdykoliv teleportovat pomocí interakce s položkou Domovy. Uživatelé mohou nastavit až 3 domovy, což lze upravit v Ovládacím panelu.	###Guide book menu description
+gf_wu:homes.recipe_ingredients=§65x Kamenné kostky §f[§6C§f]%1§r§c1x Prkna z dubového dřeva §f[§cP§f]%1§r§e1x Dubové dveře §f[§eD§f]%1§r	###Recipe list for guide book
+gf_wu:homes.recipe_table=§f[ ][§cP§f][ ]%1§r§f[§6C§f][§eD§f][§6C§f]%1§r§f[§6C§f][§6C§f][§6C§f]%1§r	###Recipe table
+
+gf_wu:chunk_borders.header=§l§cHraniční linie chunků	###Guide book menu title
+gf_wu:chunk_borders.button=§l§4Hraniční linie chunků	###Guide book menu button
+gf_wu:chunk_borders.description=Aktivujte utilitu Hraniční linie chunků interakcí s položkou. Po aktivaci budou chunky označeny částicovým efektem. Slime chunky budou také zobrazeny odlišným efektem. Pro deaktivaci znovu interagujte. Můžete přepínat, zda potřebujete mít položku v inventáři, aby utilita fungovala v Kontroleru.	###Guide book menu description
+gf_wu:chunk_borders.recipe_ingredients=§62x Železný ingot §f[§6I§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r§e1x Ohňostrojová raketa §f[§eF§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_borders.recipe_table=§f[ ][§6I§f][ ]%1§r§f[§cR§f][§eF§f][§cR§f]%1§r§f[ ][§6I§f][ ]%1§r	###Recipe table
+
+gf_wu:death_waypoint.header=§l§cBod úmrtí	###Guide book menu title
+gf_wu:death_waypoint.button=§l§4Bod úmrtí	###Guide book menu button
+gf_wu:death_waypoint.description=Chcete získat své předměty po smrti? Nyní můžete! Zkontrolujte chat pro souřadnice svého úmrtí a navigujte zpět k nim. Všechny vaše předměty budou uloženy pro vás k vyzvednutí. Poznámka: Tato funkce bude ve výchozím nastavení deaktivována a může být aktivována v Ovládacím panelu.	###Guide book menu description
+
+gf_wu:miners_lantern.header=§l§cHornická lucerna	###Guide book menu title
+gf_wu:miners_lantern.button=§l§4Hornická lucerna	###Guide book menu button
+gf_wu:miners_lantern.description=Při prozkoumávání tmavých jeskyní a jeskyní držte tuto lucernu a kolem vás bude vyzařovat světlo. Můžete ji také držet v druhé ruce.	###Guide book menu description
+gf_wu:miners_lantern.recipe_ingredients=§65x Sklo §f[§6G§f]%1§r§c1x Pochodeň §f[§cT§f]%1§r§e3x Prkna z dubového dřeva §f[§eP§f]%1§r	###Recipe list for guide book
+gf_wu:miners_lantern.recipe_table=§f[§6G§f][§6G§f][§6G§f]%1§r§f[§6G§f][§cT§f][§6G§f]%1§r§f[§eP§f][§eP§f][§eP§f]%1§r	###Recipe table
+
+
+
+gf_wu:lock.header=§l§cZámek	###Guide book menu title
+gf_wu:lock.button=§l§4Zámek	###Guide book menu button
+gf_wu:lock.description=Interaguj s truhlou pro její uzamčení. Jakmile je uzamčena, můžeš k ní přistupovat pouze ty. Správci serveru mohou uzamčené truhly rozbít v kreativním režimu.	###Guide book menu description
+gf_wu:lock.recipe_ingredients=§c1x Ruditová pochodeň §f[§cR§f]%1§r§71x Páka §f[§7L§f]%1§r§e5x Zlatý ingot §f[§eG§f]%1§r	###Recipe list for guide book
+gf_wu:lock.recipe_table=§f[ ][§eG§f][ ]%1§r§f[§eG§f][§4R§f][§eG§f]%1§r§f[§eG§f][§7L§f][§eG§f]%1§r	###Recipe table
+
+gf_wu:experience_extractor.header=§l§cČarovný extraktor	###Guide book menu title
+gf_wu:experience_extractor.button=§l§4Čarovný extraktor	###Guide book menu button
+gf_wu:experience_extractor.description=Interaguj s Čarovným extraktorem, abys vybral a uložil požadované množství zkušeností ve formě láhve. Interaguj s láhví, abys EXP převedl zpět na sebe.	###Guide book menu description
+gf_wu:experience_extractor.recipe_ingredients=§f1x Skleněná lahvička §f[§fX§f]%1§r§71x Železný ingot §f[§7I§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r§63x Dřevěné prkno §f[§6P§f]%1§r	###Recipe list for guide book
+gf_wu:experience_extractor.recipe_table=§f[ ][§fX§f][ ]%1§r§f[§cR§f][§7I§f][§cR§f]%1§r§f[§6P§f][§6P§f][§6P§f]%1§r	###Recipe table
+
+gf_wu:magnet.header=§l§cMagnet	###Guide book menu title
+gf_wu:magnet.button=§l§4Magnet	###Guide book menu button
+gf_wu:magnet.description=Aktivuj funkci magnetu interakcí s tímto předmětem. Jakmile je aktivován, předměty kolem tebe budou automaticky sebrány a umístěny do tvého inventáře. Interaguj znovu pro deaktivaci. Můžete přepínat, zda potřebujete mít položku v inventáři, aby utilita fungovala v Kontroleru.	###Guide book menu description
+gf_wu:magnet.recipe_ingredients=§72x Železný ingot §f[§7I§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r§61x Medový blok §f[§6H§f]%1§r	###Recipe list for guide book
+gf_wu:magnet.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§6H§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:chunk_minion.header=§l§cChunk Minion	###Guide book menu title
+gf_wu:chunk_minion.button=§l§4Chunk Minion	###Guide book menu button
+gf_wu:chunk_minion.description=Umísti Chunk Miniona, aby byl okolní prostor neustále načten, což je ideální pro udržení provozu tvých farem. Můžeš upravit velikost oblasti interakcí s Chunk Minionem. Poznámka: Toto nebude fungovat pro farmy, které potřebují hráče v blízkosti.	###Guide book menu description
+gf_wu:chunk_minion.recipe_ingredients=§21x Perla z enderu §f[§2E§f]%1§r§74x Železný ingot §f[§7I§f]%1§r	###Recipe list for guide book
+gf_wu:chunk_minion.recipe_table=§f[ ][§2E§f][ ]%1§r§f[§7I§f][§7I§f][§7I§f]%1§r§f[ ][§7I§f][ ]%1§r	###Recipe table
+
+gf_wu:disenchanter.header=§l§cDisenchanter	###Guide book menu title
+gf_wu:disenchanter.button=§l§4Disenchanter	###Guide book menu button
+gf_wu:disenchanter.description=Držte svůj zaříkaný předmět a interagujte s Disenchanterem, abyste ho umístili na stůl. Interagujte znovu a zadejte požadovaný počet knih, který se liší v závislosti na počtu zaříkání na vašem předmětu. Jakmile bude vše hotovo, obdržíte každé zaříkání na samostatné knize, spolu s původním předmětem. Přikrčte se a použijte interakci pro zrušení aktuální transakce.	###Guide book menu description
+gf_wu:disenchanter.recipe_ingredients=§21x Smaragdový blok §f[§2E§f]%1§r§74x Obsidián §f[§7O§f]%1§r§n2x Kniha §f[§nB§f]%1§r	###Recipe list for guide book 
+gf_wu:disenchanter.recipe_table=[ ][§2E§r][ ]\n[§nB§r][§7O§r][§nB§r]\n[§7O§r][§7O§r][§7O§r]	###Recipe table
+
+gf_wu:portal_pad.header=§l§cPortálová podložka	###Guide book menu title
+gf_wu:portal_pad.button=§l§4Portálová podložka	###Guide book menu button
+gf_wu:portal_pad.description=Pohybujte se mezi různými úrovněmi ve vaší světě pomocí bloku podobného výtahu. Jednoduše umístěte Portal Pad s dalšími Portal Pads §ldříve§r nad nebo pod ním. Stůjte na bloku a skrčte se pro teleportování dolů, nebo skočte pro teleportování nahoru.	###Guide book menu description
+gf_wu:portal_pad.recipe_ingredients=§n1x Píst§r [§nP§r]\n§v1x nášlapná deska§r [§vO§r]\n	###Recipe list for guide book 
+gf_wu:portal_pad.recipe_table=[ ][ ][ ]\n[ ][§vO§r][ ]\n[ ][§nP§r][ ]\n	###Recipe table
+
+gf_wu:jetpack.header=§l§cJetpack	###Guide book menu title
+gf_wu:jetpack.button=§l§4Jetpack	###Guide book menu button
+gf_wu:jetpack.description=Equipujte Jetpack do slotu pro hruď, abyste vzlétli a letěli. Vyžaduje palivo, jako je uhlí nebo dřevěné uhlí, které se automaticky odebírá z vašeho inventáře při použití. Každý kus paliva poskytuje přibližně jednu minutu letového času. Dvojitým skokem začnete létat, použijte skok pro vzestup a crouch pro sestup.	###Guide book menu description 
+gf_wu:jetpack.recipe_ingredients=§n4x Měděný ingot§r [§nC§r]\n§72x Uhlí§r [§7X§r]\n§v1x Kbelík lávy§r [§vL§r]\n	###Recipe list for guide book 
+gf_wu:jetpack.recipe_table=[§nC§r][§7X§r][§nC§r]\n[§nC§r][§vL§r][§nC§r]\n[§nC§r][§7X§r][§nC§r]\n	###Recipe table
+
+gf_wu:grab_bag.header=§l§cGrab Bag	###Guide book menu title
+gf_wu:grab_bag.button=§l§4Grab Bag	###Guide book menu button
+gf_wu:grab_bag.description=Úložný předmět podobný Shulkerovi, který vám umožní nosit až pět dalších zásob předmětů v inventáři. Umístěte ho na zem a interagujte s ním pro otevření. Rozbijte tašku, abyste ji zvedli a vzali si své uložené předměty. Grab Bag můžete obarvit na jakoukoli barvu tím, že jej vyrobíte s barevnou vlnou nebo jej umístíte do pracovního stolu spolu s barvivem podle vašeho výběru.	###Guide book menu description
+gf_wu:grab_bag.recipe_ingredients=§h5x vlna§r [§hW§r]\n§e1x Truhla§r [§eC§r]\n§i1x Vlákno§r [§iS§r]\n	###Recipe list for guide book 
+gf_wu:grab_bag.recipe_table=[ ][§iS§r][ ]\n[§hW§r][§eC§r][§hW§r]\n[§hW§r][§hW§r][§hW§r]\n	###Recipe table
+
+gf_wu:fast_place.header=§l§cFast Place	###Guide book menu title
+gf_wu:fast_place.button=§l§4Fast Place	###Guide book menu button
+gf_wu:fast_place.description=Shift a interagujte s nástrojem Fast Place pro přepnutí nastavení, jako je směr umisťování bloků a množství. Aktivujte jej interakcí s předmětem. Po aktivaci bude umístění bloku automaticky rozšířeno podle vámi vybraných nastavení. Interagujte znovu pro deaktivaci. Můžete přepínat, zda potřebujete mít položku v inventáři, aby utilita fungovala v Kontroleru. ###Guide book menu description
+gf_wu:fast_place.recipe_ingredients=§i2x Železný ingot§r [§iI§r]\n§m2x Ruditový prášek§r [§mR§r]\n§h1x Pírko§r [§hF§r]\n	###Recipe list for guide book 
+gf_wu:fast_place.recipe_table=[ ][§iI§r][ ]\n[§mR§r][§hF§r][§mR§r]\n[ ][§iI§r][ ]\n	###Recipe table
+
+gf_wu:scuba_tank.header=§l§cScuba Tank	###Guide book menu title
+gf_wu:scuba_tank.button=§l§4Scuba Tank	###Guide book menu button
+gf_wu:scuba_tank.description=Umístěte tento předmět do vaší vedlejší ruky pro prodloužení doby dýchání pod vodou. Při ponoření bude zbývající kyslík zobrazen na akční liště. Chcete-li doplnit kyslík, jednoduše vyplavte na povrch, zatímco tank držíte v vedlejší ruce.	###Guide book menu description
+gf_wu:scuba_tank.recipe_ingredients=§n6x Měděný ingot§r [§nC§r]\n§73x Skleněná lahvička§r [§7G§r]\n	###Recipe list for guide book 
+gf_wu:scuba_tank.recipe_table=[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n[§nC§r][§7G§r][§nC§r]\n	###Recipe table
+
+gf_wu:warps.header=§l§cWarps	###Guide book menu title
+gf_wu:warps.button=§l§4Warps	###Guide book menu button
+gf_wu:warps.description=Vytvářejte, upravujte a mazat warpy, které vám a vašim přátelům umožní teleportaci kdykoliv. Warpy jsou dostupné pro všechny hráče ve vaší světě. Ve výchozím nastavení lze vytvořit až pět warpů, ale tento limit i oprávnění pro vytváření a mazání warpů mohou být upraveny v ovladači.	###Guide book menu description
+gf_wu:warps.recipe_ingredients=§75x Kamenné kostky§r [§7C§r]\n§n1x Prkna§r [§nP§r]\n§b1x Sklo§r [§bG§r]\n	###Recipe list for guide book 
+gf_wu:warps.recipe_table=[ ][§nP§r][ ]\n[§7C§r][§bG§r][§7C§r]\n[§7C§r][§7C§r][§7C§r]\n	###Recipe table
+
+gf_wu:update_book.name=Kniha aktualizací světových nástrojů	###Description of the update book menu
+gf_wu:update_book.thanks=§7§lDěkujeme, že používáte World Utilities Add-On!§r	###Description of the update book menu
+gf_wu:update_book.commit=§7Jsme odhodláni poskytovat neustálé aktualizace, abychom dále vylepšili váš zážitek ze survivalu. Přečtěte si náš changelog a podívejte se na všechny novinky v nejnovější aktualizaci:§r	###Description of the update book menu
+gf_wu:update_book.main=- Potřebuješ pomoc? Připoj se na náš nový Discord pro podporu: https://discord.gg/NVs5j7TaMa \n- Přidán Těžební krumpáč\n- Přidána Hlubinná lopata\n- Přidán Sušicí stojan\n- Přidán Ocean Rider\n- Přidány Hráčské trezory\n- Přidán Zloděj skrýší\n- Přidán nástroj Stavitel mostů\n- Knihy kouzel s více kouzly lze nyní v Odčarovávači rozdělit na více knih\n- Omni nástroj již neztrácí odolnost, pokud je při vytváření hliněných cest deaktivován\n- Koberce a půlbloky lze nyní pokládat na Portálové podložky\n- Konev lze nyní doplnit, i když není zcela prázdná\n- Konev nyní funguje i na Azalkách\n- Safari síť bude nyní zářit, pokud se v ní nachází entita\n- Omni nástroj nyní obsahuje schopnosti motyky i meče\n- Přidána podpora Tree Capitator pro všechny stromy z Biomes O' Plenty\n- Lopata Bagr s povolenými Miners Essentials nyní mění písek na sklo\n- Opravena chyba, kdy použití Jetpacku na výškovém limitu způsobovalo nekonečný efekt pomalého pádu a levitace\n- Opravena chyba, kdy se Potápěčská nádrž automaticky doplňovala po dosažení 0 %\n- Rozbíječ ametystu a Rozbíječ End portálových rámů nyní ztrácejí odolnost pouze při ničení ametystu a rámů End portálu\n- Přidána možnost nastavení pro Vein Miner a Tree Capitator, zda mají nástroje ztratit 1 bod odolnosti, nebo odolnost podle počtu vytěžených bloků\n- Opravena chyba, kdy se Konev rozbila při útoku na moby\n- 22 dalších oprav chyb, optimalizací výkonu a vylepšení!	###Description of the update book menu
+gf_wu:update_book.cta=§7Pokud se vám tento doplněk líbí, zvažte prosím zanechání hodnocení!§r	###Description of the update book menu
+gf_wu:update_book.stars=	###Description of the update book menu
+gf_wu:update_book.exit=Opustit knihu aktualizací	###Update book exit button
+
+
+gf_wu:configuration.name=Konfigurace	###Config menu
+gf_wu:configuration.durability=Životnost	###Config menu
+gf_wu:configuration.end_frame_breaker=Přesouvač rámů portálu do Endu	###Config menu
+gf_wu:configuration.excavator_shovel=Bagrová lopata	###Config menu
+gf_wu:configuration.explosive_pickaxe=Výbušný krumpáč	###Config menu
+gf_wu:configuration.harvester_hoe=Sklízecí motyka	###Config menu
+gf_wu:configuration.miners_essentials=Základní nástroj horníka	###Config menu
+gf_wu:configuration.multiblock_pickaxe=Víceblokový krumpáč	###Config menu
+gf_wu:configuration.omni_tool=Multifunkční nástroj	###Config menu
+gf_wu:configuration.safari_net=Safari síť	###Config menu
+gf_wu:configuration.spawner_wrench=Přesouvač spawnerů	###Config menu
+gf_wu:configuration.tree_capitator=Káceč stromů	###Config menu
+gf_wu:configuration.vein_miner=Dobývač rudných žil	###Config menu
+gf_wu:configuration.void_chest=Pohlcující truhla	###Config menu
+gf_wu:configuration.chunk_borders=Hraniční linie chunků	###Config menu
+gf_wu:configuration.homes=Domovy	###Config menu
+gf_wu:configuration.max_homes=Kolik domovů můžete nastavit?	###Config menu
+gf_wu:configuration.death_waypoint=Bod úmrtí	###Config menu
+gf_wu:configuration.miners_lantern=Hornická lucerna	###Config menu
+gf_wu:configuration.vein_miner_gravel=Dobývač rudných žil zničí i štěrk	###Config menu
+gf_wu:configuration.tree_capitator_leaves=Káceč stromů zničí i listí	###Config menu
+gf_wu:configuration.max_chunk_minions=Maximum Chunk Minionů	###Config menu
+gf_wu:configuration.chunk_minion=Chunk Minion	###Config menu
+gf_wu:configuration.magnet=Magnet	###Config menu
+gf_wu:configuration.magnet_range=Magnet - dosah v blocích	###Config menu
+gf_wu:configuration.experience_extractor=Čarovný extraktor	###Config menu
+gf_wu:configuration.lock=Zámek	###Config menu
+gf_wu:configuration.remove_all_chunk_minions=Odstranit všechny Chunk Miniony	###Config menu
+gf_wu:configuration.death_waypoint_accessible_to_all=Body smrti přístupné pro všechny	###Config menu  
+gf_wu:configuration.magnet_effects_xp=Magnetické účinky na EXP koule	###Config menu  
+gf_wu:configuration.home_teleport_time=Zpoždění teleportace domů	###Config menu
+gf_wu:configuration.fast_place=Rychlé umístění	###Config menu  
+gf_wu:configuration.scuba_tank=Potápěčská láhev	###Config menu  
+gf_wu:configuration.grab_bag=Tajemná taška	###Config menu  
+gf_wu:configuration.portal_pad=Portálová podložka	###Config menu  
+gf_wu:configuration.disenchanter=Odhmotňovač	###Config menu  
+gf_wu:configuration.jetpack=Jetpack	###Config menu  
+gf_wu:configuration.max_warps=Kolik portálů můžete nastavit?	###Config menu  
+gf_wu:configuration.warp_teleport_time=Zpoždění teleportace portálu	###Config menu  
+gf_wu:configuration.can_all_players_modify_warps=Mohou všichni hráči upravovat portály?	###Config menu  
+gf_wu:configuration.module_disabled1=§l§cModul je vypnutý. §r§7Kontaktujte správce nebo ho zapněte	###Config menu
+gf_wu:configuration.module_disabled2=§7v režimu tvoření pomocí menu v itemu konfigurace.	###Config menu
+gf_wu:configuration.requires_creative=§cTuto položku nemůžete použít, protože nejste v režimu tvoření!	###Controller message when not in creative mode
+
+gf_wu:cannot_place_chest=§cNejprve odemkněte truhlu!	###Warn message
+
+gf_wu:treecapitator.on=§a- [ Káceč stromů aktivován ] -	###Action bar messaging when enabling tree capitator
+gf_wu:treecapitator.off=§c- [ Káceč stromů deaktivován ] -	###Action bar messaging when disabling tree capitator
+gf_wu:veinminer.on=§a- [ Dobývač rudných žil aktivován ] -	###Action bar messaging when enabling vein miner
+gf_wu:veinminer.off=§c- [ Dobývač rudných žil deaktivován ] -	###Action bar messaging when disabling vein miner
+
+gf_wu:miners_essentials.on=§a- [ Základní nástroj horníka aktivovaný ] -	###Action bar messaging when enabling vein miner
+gf_wu:miners_essentials.off=§c- [ Základní nástroj horníka deaktivovaný ] -	###Action bar messaging when disabling vein miner
+
+gf_wu:chunk_borders.on=§a- [ Hraniční linie chunků aktivovány ] -	###Action bar messaging when enabling chunk borders
+gf_wu:chunk_borders.off=§c- [ Hraniční linie chunků deaktivovány ] -	###Action bar messaging when disabling chunk borders
+
+gf_wu:magnet.on=§a- [ Magnet aktivován ] -	###Action bar messaging when enabling magnet
+gf_wu:magnet.off=§c- [ Magnet deaktivován ] -	###Action bar messaging when disabling magnet
+
+
+gf_wu:chest.is_locked=§cTato truhla je zamčená a nemůžeš ji otevřít, dokud nebude odemčena.
+gf_wu:chest.unlocked=§aOdemčeno
+gf_wu:chest.locked=§cUzamčeno
+
+gf_wu:experience_extractor.title=Čarovný extraktor	### Experience Extractor Menu
+gf_wu:experience_extractor.info=Vyberte množství úrovňových bodů (EXP), které chcete vybrat od svého hráče. Získáte je ve formě lahve, abyste je mohli uložit na jindy!
+gf_wu:experience_extractor.withdraw_1=7 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_10=160 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_30=1395 EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_all=Všechny EXP	### Experience Extractor Menu
+gf_wu:experience_extractor.insufficient_xp=§cNemáš dostatek EXP pro tento převod!	### Experience Extractor Menu
+gf_wu:experience_extractor.withdraw_successful=§aVýběr byl úspěšný!	### Experience Extractor Menu
+
+gf_wu:chunk_minion_limit=§cDosáhl jsi limitu Chunk Minionů!
+gf_wu:chunk_minion_menu.title=Chunk Minion	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.radius=Velikost v chuncích	### Chunk Minion Menu
+gf_wu:chunk_minion_menu.remove=Odstranit	### Chunk Minion Menu
+
+entity.gf_wu:grab_bag_entity.name=Tajemná taška
+entity.gf_wu:lock_barrier_barrel.name=Zamčená bariérová truhla
+
+gf_wu:fast_place.direction=Směr
+gf_wu:fast_place.distance=Vzdálenost
+gf_wu:fast_place.horizontal=Horizontální
+gf_wu:fast_place.is_active=§cVarování! Rychlé umístění je právě aktivní!§r
+gf_wu:fast_place.incompatible_block=§cRychlé umístění není kompatibilní s tímto blokem!§r
+gf_wu:fast_place.title=Rychlé umístění
+gf_wu:fast_place.vertical=Vertikální
+gf_wu:fast_place.on=§a- [ Rychlé umístění aktivováno ] -	###Akční zpráva při aktivaci
+gf_wu:fast_place.off=§c- [ Rychlé umístění deaktivováno ] -	###Akční zpráva při deaktivaci
+
+gf_wu:portal_pad.none_found=§cPortál nebyl nalezen do 100 bloků!§r
+gf_wu:portal_pad.not_safe=§cNení bezpečné teleportovat!§r
+
+gf_wu:warp_menu.warp_added=§aWarp přidán!§r
+gf_wu:warp_menu.add=Přidat
+gf_wu:warp_menu.name=Menu Warp
+gf_wu:warp_menu.no_warps=§cŽádné warpy nebyly nalezeny!§r
+gf_wu:warp_menu.placeholder_name=Warp
+gf_wu:warp_menu.duplicate_name=§cWarp s tímto názvem již existuje!
+
+gf_wu:disenchanter.add_item_first=§cNejprve musíte přidat předmět!§r
+gf_wu:disenchanter.already_has_item=§cDisenchanter již obsahuje předmět!§r
+gf_wu:disenchanter.books_full=§cNedostatek místa pro knihy!§r
+gf_wu:disenchanter.requires_enchanted_item=§cTento předmět není enchantovaný!§r
+gf_wu:disenchanter.requires_book=§cTento předmět není kniha!§r
+
+gf_wu:jetpack.no_fuel=§cNemáte palivo. Pro doplnění paliva interagujte s uhlím nebo dřevěným uhlím.§r
+
+item.gf_wu:fast_place=Rychlé umístění deaktivovaný
+item.gf_wu:fast_place_on=Rychlé umístění aktivován
+## item.gf_wu:grab_bag=Tajemná taška
+item.gf_wu:scuba_tank=Potápěčská láhev
+item.gf_wu:warps=Warpy
+item.gf_wu:jetpack=Jetpack
+item.gf_wu:disenchanter=Odhmotňovač
+item.gf_wu:portal_pad=Portálová podložka
+
+item.gf_wu:amethyst_breaker=Rozbíječ ametystu
+item.gf_wu:suction_hopper=Nasávací hopper
+item.gf_wu:watering_can=Konev
+item.gf_wu:watering_can_filled=Naplněná konev
+
+gf_wu:amethsyt_breaker.header=§l§cRozbíječ ametystu	###Guide book menu title
+gf_wu:amethsyt_breaker.button=§l§4Rozbíječ ametystu	###Guide book menu button
+gf_wu:amethsyt_breaker.description=Snadno přemístěte krystalizující ametyst. Vytěžte krystalizující ametyst, aby spadl na zem. Zvedněte ho a umístěte kamkoli chcete. Pamatujte, tento nástroj má pouze 12 trvanlivost!	###Guide book menu description
+gf_wu:amethsyt_breaker.recipe_ingredients=§u4x Ametystový střep§r [§uA§r]\n§n1x Tyčka§r [§nS§r]\n	###Recipe list for guide book
+gf_wu:amethsyt_breaker.recipe_table=[§uA§r][§uA§r][ ]\n[§uA§r][§uA§r][ ]\n[ ][§nS§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.header=§l§cNasávací hopper	###Guide book menu title
+gf_wu:suction_hopper.button=§l§4Nasávací hopper	###Guide book menu button
+gf_wu:suction_hopper.description=Umístěte hopper a všechny předměty v určitém dosahu budou automaticky nasáty a uloženy do nádoby pod ním. Dosah sběru můžete upravit interakcí s hopperem, čímž se otevře nabídka. Hopper lze také zapnout nebo vypnout pomocí redstone.	###Guide book menu description
+gf_wu:suction_hopper.recipe_ingredients=§i5x Železný ingot§r [§iI§r]\n§n1x Truhla§r [§nC§r]\n§p1x Blok medu§r [§pH§r]\n	###Recipe list for guide book
+gf_wu:suction_hopper.recipe_table=[§iI§r][§pH§r][§iI§r]\n[§iI§r][§nC§r][§iI§r]\n[ ][§iI§r][ ]\n	###Recipe Recipe Table
+
+gf_wu:watering_can.header=§l§cKonev	###Guide book menu title
+gf_wu:watering_can.button=§l§4Konev	###Guide book menu button
+gf_wu:watering_can.description=Konev umožňuje urychlit růst plodin. Vyrobte ji, naplňte ji podržením předmětu a interakcí s vodou, poté znovu interagujte pro zalití. Má až 10 použití před nutností doplnění. Při použití mají plodiny v oblasti 3x3 šanci přeskočit růstová stádia. Můžete s ní také proměnit hlínu nebo trávu na ornou půdu.	###Guide book menu description
+gf_wu:watering_can.recipe_ingredients=§i4x Železný ingot§r [§iI§r]\n§81x Kbelík§r [§8B§r]\n	###Recipe list for guide book
+gf_wu:watering_can.recipe_table=[ ][ ][§iI§r]\n[§iI§r][§iI§r][ ]\n[§8B§r][§iI§r][ ]\n	###Recipe table
+
+gf_wu:suction_hopper.radius=Poloměr
+
+gf_wu:configuration.amethyst_breaker=Rozbíječ ametystu	###Config menu
+gf_wu:configuration.suction_hopper=Nasávací hopper	###Config menu
+gf_wu:configuration.watering_can=Konev	###Config menu
+
+### NEW ADDED LANGS
+gf_wu:configuration_hint.amethyst_breaker=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.choose_spawner=Povolte nebo zakažte, zda si můžete\nvybrat, který spawner chcete použít při\npoužívání Klíče spawneru. (Nápověda)
+gf_wu:configuration_hint.chunk_borders=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.death_waypoint=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.disenchanter=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.end_frame_breaker=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.excavator_shovel=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.experience_extractor=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.explosive_pickaxe=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.fast_place=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.grab_bag=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.harvester_hoe=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.jetpack=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.lock=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.magnet=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.miners_essentials=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.miners_lantern=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.multiblock_pickaxe=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.omni_tool=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.portal_pad=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.safari_net=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.scuba_tank=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.spawner_wrench=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.suction_hopper=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.tree_capitator=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.vein_miner=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.void_chest=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+gf_wu:configuration_hint.watering_can=Povolte nebo zakažte tuto funkci ve\nvašem světě. (Nápověda)
+
+gf_wu:configuration_hint.max_homes=Maximální počet domovů, které může\nkaždý uživatel nastavit ve vašem\nsvětě. (Nápověda)
+gf_wu:configuration_hint.home_teleport_time=Nastavte čas, který musí uživatelé\nčekat pro teleport. (Nápověda)
+gf_wu:configuration_hint.max_warps=Maximální počet warpů, které můžete mít\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.warp_teleport_time=Nastavte čas, který musí uživatelé\nčekat pro teleport. (Nápověda)
+gf_wu:configuration_hint.can_all_players_modify_warps=Povolit všem hráčům mazat a vytvářet\nnové Warpy. (Nápověda)
+gf_wu:configuration_hint.max_chunk_minions=Přepněte maximální počet Chunk Minionů,\nkteré chcete ve vašem světě. (Nápověda)
+gf_wu:configuration_hint.remove_all_chunk_minions=Povolte odstranění všech Chunk\nMinionů z vašeho světa. (Nápověda)
+gf_wu:configuration_hint.magnet_range=Dosah, v blocích, ze kterého bude\nMagnet fungovat. (Nápověda)
+gf_wu:configuration_hint.jetpack_speed=Zvolte vertikální rychlost Jetpacku, 1\nje nejpomalejší a 3 nejrychlejší.\n(Nápověda)
+
+gf_wu:configuration_hint.durability=Povolte nebo zakažte trvanlivost\npředmětů a nástrojů World Utilities\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.choose_spawner_durability=Přepněte trvanlivost Klíče spawneru\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.spawner_wrench_durability=Přepněte trvanlivost Klíče spawneru\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.amethyst_breaker_durability=Přepněte trvanlivost Rozbíječe ametystu\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.end_frame_breaker_durability=Přepněte trvanlivost Rozbíječe portálového rámu\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.excavator_shovel_durability=Přepněte trvanlivost Rýče bagru\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.explosive_pickaxe_durability=Přepněte trvanlivost Výbušné krumpáče\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.harvester_hoe_durability=Přepněte trvanlivost Sekačky motyky\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.multiblock_pickaxe_durability=Přepněte trvanlivost Víceblokového krumpáče\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.omni_tool_durability=Přepněte trvanlivost Omni-nástroje\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.safari_net_durability=Přepněte trvanlivost Safari sítě\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.watering_can_durability=Přepněte trvanlivost Konve\nzapnuto/vypnuto. (Nápověda)
+
+gf_wu:configuration_hint.vein_miner_gravel=Povolte nebo zakažte Vein Miner lámání\nštěrku. (Nápověda)
+gf_wu:configuration_hint.tree_capitator_leaves=Povolte nebo zakažte Tree Capitator\nlámání listů. (Nápověda)
+gf_wu:configuration_hint.death_waypoint_accessible_to_all=Povolte nebo zakažte Značku smrti\npřístupnou všem hráčům. (Nápověda)
+gf_wu:configuration_hint.magnet_effects_xp=Povolte nebo zakažte, aby Magnet\npřitahoval XP koule. (Nápověda)
+gf_wu:configuration_hint.need_item_in_inventory=Povolte nebo zakažte potřebu mít Utility\npředměty v inventáři, aby fungovaly,\njakmile byly povoleny. (Nápověda)
+
+gf_wu:configuration.requires_op=§cNemůžete tento předmět použít, protože nejste Admin!	
+gf_wu:configuration.jetpack_speed=Vertikální rychlost Jetpacku
+gf_wu:configuration.global=§l§4Globální nastavení
+gf_wu:configuration.need_item_in_inventory=Potřebujete Utilities ve svém inventáři?
+gf_wu:controller_exit=Opustit Controller
+
+gf_wu:configuration.explosive_pickaxe_durability=Trvanlivost
+gf_wu:configuration.spawner_wrench_durability=Trvanlivost
+gf_wu:configuration.amethyst_breaker_durability=Trvanlivost
+gf_wu:configuration.end_frame_breaker_durability=Trvanlivost
+gf_wu:configuration.excavator_shovel_durability=Trvanlivost
+gf_wu:configuration.harvester_hoe_durability=Trvanlivost
+gf_wu:configuration.multiblock_pickaxe_durability=Trvanlivost
+gf_wu:configuration.omni_tool_durability=Trvanlivost
+gf_wu:configuration.safari_net_durability=Trvanlivost
+gf_wu:configuration.watering_can_durability=Trvanlivost
+
+gf_wu:configuration.choose_spawner=Vyberte Spawner
+gf_wu:choose_spawner.menu=Klíč spawneru
+gf_wu:choose_spawner.destroy=Který spawner jste zničili?
+
+item.gf_wu:excavator_shovel_netherite=Netheritový Bagrová lopata
+item.gf_wu:omni_tool_netherite=Netheritový Multifunkční nástroj
+item.gf_wu:harvester_hoe_netherite=Netheritový Sklízecí motyka
+item.gf_wu:multiblock_pickaxe_netherite=Netheritový Víceblokový krumpáč
+
+item.gf_wu:grab_bag_empty=Hnědá tajemná taška
+item.gf_wu:grab_bag=Hnědá tajemná taška
+
+item.gf_wu:black_grab_bag_empty=Černá tajemná taška
+item.gf_wu:black_grab_bag=Černá tajemná taška
+
+item.gf_wu:blue_grab_bag_empty=Modrá tajemná taška
+item.gf_wu:blue_grab_bag=Modrá tajemná taška
+
+item.gf_wu:cyan_grab_bag_empty=Azurová tajemná taška
+item.gf_wu:cyan_grab_bag=Azurová tajemná taška
+
+item.gf_wu:gray_grab_bag_empty=Šedá tajemná taška
+item.gf_wu:gray_grab_bag=Šedá tajemná taška
+
+item.gf_wu:green_grab_bag_empty=Zelená tajemná taška
+item.gf_wu:green_grab_bag=Zelená tajemná taška
+
+item.gf_wu:light_blue_grab_bag_empty=Světlomodrá tajemná taška
+item.gf_wu:light_blue_grab_bag=Světlomodrá tajemná taška
+
+item.gf_wu:light_gray_grab_bag_empty=Světlá šedá tajemná taška
+item.gf_wu:light_gray_grab_bag=Světlá šedá tajemná taška
+
+item.gf_wu:lime_grab_bag_empty=Limetková tajemná taška
+item.gf_wu:lime_grab_bag=Limetková tajemná taška
+
+item.gf_wu:magenta_grab_bag_empty=Magenta tajemná taška
+item.gf_wu:magenta_grab_bag=Magenta tajemná taška
+
+item.gf_wu:orange_grab_bag_empty=Oranžová tajemná taška
+item.gf_wu:orange_grab_bag=Oranžová tajemná taška
+
+item.gf_wu:pink_grab_bag_empty=Růžová tajemná taška
+item.gf_wu:pink_grab_bag=Růžová tajemná taška
+
+item.gf_wu:purple_grab_bag_empty=Fialová tajemná taška
+item.gf_wu:purple_grab_bag=Fialová tajemná taška
+
+item.gf_wu:red_grab_bag_empty=Červená tajemná taška
+item.gf_wu:red_grab_bag=Červená tajemná taška
+
+item.gf_wu:white_grab_bag_empty=Bílá tajemná taška
+item.gf_wu:white_grab_bag=Bílá tajemná taška
+
+item.gf_wu:yellow_grab_bag_empty=Žlutá tajemná taška
+item.gf_wu:yellow_grab_bag=Žlutá tajemná taška
+
+item.gf_wu:quarry_pickaxe_netherite=Netheritský lomový krumpáč
+item.gf_wu:deep_digger_shovel_netherite=Netheritská hlubinná lopata
+
+gf_wu:quarry_pickaxe.header=§l§cLomový krumpáč
+gf_wu:quarry_pickaxe.button=§l§4Lomový krumpáč
+gf_wu:quarry_pickaxe.description=Stejně jako osvědčený vícenásobný krumpáč... ale ještě větší! Těží vše kolem vás v okruhu 5x5. Tento nástroj můžete v kovárně vylepšit na netheritskou verzi.
+gf_wu:quarry_pickaxe.recipe_ingredients=§b3x Vícenásobný krumpáč §f[§bM§f]%1§r§72x Klacík §f[§7S§f]%1§r
+gf_wu:quarry_pickaxe.recipe_table=§f[§bM§f][§bM§f][§bM§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:deep_digger_shovel.header=§l§cHlubinná lopata
+gf_wu:deep_digger_shovel.button=§l§4Hlubinná lopata
+gf_wu:deep_digger_shovel.description=Stejně jako osvědčená bagrovací lopata... ale ještě větší! Těží vše kolem vás v okruhu 5x5. Tento nástroj můžete v kovárně vylepšit na netheritskou verzi.
+gf_wu:deep_digger_shovel.recipe_ingredients=§b3x Bagrovací lopata §f[§bE§f]%1§r§72x Klacík §f[§7S§f]%1§r
+gf_wu:deep_digger_shovel.recipe_table=§f[§bE§f][§bE§f][§bE§f]%1§r§f[ ][§7S§f][ ]%1§r§f[ ][§7S§f][ ]%1§r
+
+gf_wu:configuration.quarry_pickaxe=Lomový krumpáč
+gf_wu:configuration.deep_digger_shovel=Hlubinná lopata
+gf_wu:configuration.quarry_pickaxe_durability=Odolnost
+gf_wu:configuration.deep_digger_shovel_durability=Odolnost
+
+gf_wu:configuration_hint.quarry_pickaxe=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.deep_digger_shovel=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.quarry_pickaxe_durability=Přepnout odolnost lomového krumpáče\nzapnuto/vypnuto. (Nápověda)
+gf_wu:configuration_hint.deep_digger_shovel_durability=Přepnout odolnost hlubinné lopaty\nzapnuto/vypnuto. (Nápověda)
+
+gf_wu:tanning_rack.header=§l§cKoželužský stojan
+gf_wu:tanning_rack.button=§l§4Koželužský stojan
+gf_wu:tanning_rack.description=Interakcí se stojanem a držení shnilého masa jej vyčiníte na kůži. Přikrčení + interakce se stackem umožní zpracovat více najednou!
+gf_wu:tanning_rack.recipe_ingredients=§75x Klacík §f[§7S§f]%1§r§f2x Vlákno §f[§fT§f]%1§r§62x Kůže §f[§6L§f]%1§r
+gf_wu:tanning_rack.recipe_table=§f[§fT§f][§7S§f][§fT§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r§f[§7S§f][§6L§f][§7S§f]%1§r
+
+gf_wu:configuration.tanning_rack=Koželužský stojan
+gf_wu:configuration_hint.tanning_rack=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+
+item.gf_wu:bridge_builder=Stavitel mostů (deaktivovaný)
+item.gf_wu:stash_snatcher=Zloděj skrýší
+item.gf_wu:stash_snatcher_full=Zloděj skrýší (uloženo)
+item.gf_wu:bridge_builder_on=Stavitel mostů (aktivní)
+
+gf_wu:bridge_builder.header=§l§cStavitel mostů
+gf_wu:bridge_builder.button=§l§4Stavitel mostů
+gf_wu:bridge_builder.description=Aktivací nástroje začne automaticky pokládat dočasné bloky mostu pod vámi při přecházení vody nebo lávy. Most se za vámi rozpadá a obnovuje původní kapalinu. Čas rozpadu lze upravit v Controlleru (výchozí 5 sekund).
+gf_wu:bridge_builder.recipe_ingredients=§72x Železný ingot §f[§7I§f]%1§r§c2x Ruditový prášek §f[§cR§f]%1§r§81x Kamenné kostky §f[§8C§f]%1§r
+gf_wu:bridge_builder.recipe_table=§f[ ][§7I§f][ ]%1§r§f[§cR§f][§8C§f][§cR§f]%1§r§f[ ][§7I§f][ ]%1§r
+gf_wu:bridge_builder.is_active=§cVarování! Stavitel mostů je právě aktivní!§r
+gf_wu:bridge_builder.on=§a- [ Stavitel mostů aktivován ] -
+gf_wu:bridge_builder.off=§c- [ Stavitel mostů deaktivován ] -
+
+gf_wu:configuration.bridge_builder=Stavitel mostů
+gf_wu:configuration.bridge_builder_water=Funguje ve vodě?
+gf_wu:configuration.bridge_builder_lava=Funguje v lávě?
+gf_wu:configuration.bridge_builder_decay_seconds=Sekundy rozpadu bloků
+
+gf_wu:configuration_hint.bridge_builder=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.bridge_builder_water=Povolte nebo zakažte Stavitele mostů\nve vodě. (Nápověda)
+gf_wu:configuration_hint.bridge_builder_lava=Povolte nebo zakažte Stavitele mostů\nv lávě. (Nápověda)
+gf_wu:configuration_hint.bridge_builder_decay_seconds=Nastavte, kolik sekund bloky\nvydrží před obnovením kapaliny. (Nápověda)
+
+gf_wu:configuration.stash_snatcher=Zloděj skrýší
+gf_wu:configuration.stash_snatcher_durability=Odolnost
+gf_wu:configuration_hint.stash_snatcher=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.stash_snatcher_durability=Přepnout odolnost zloděje skrýší\nzapnuto/vypnuto. (Nápověda)
+
+gf_wu:stash_snatcher.header=§l§cZloděj skrýší
+gf_wu:stash_snatcher.button=§l§4Zloděj skrýší
+gf_wu:stash_snatcher.description=Drž Stash Snatcher v ruce a interaguj s úložným blokem (například truhlou), abys ho zvedl. Truhla se poté uloží do předmětu a může být znovu umístěna na jiném místě dalším interakcí. Jednoduchý způsob, jak přesouvat předměty z jednoho místa na druhé! Upozorňujeme, že to nefunguje na dvojité truhly kvůli omezením.
+gf_wu:stash_snatcher.recipe_ingredients=§78x Vlákno §f[§7S§f]%1§r§c1x Truhla §f[§cC§f]%1§r
+gf_wu:stash_snatcher.recipe_table=§f[§7S§f][§7S§f][§7S§f]%1§r§f[§7S§f][§cC§f][§7S§f]%1§r§f[§7S§f][§7S§f][§7S§f]%1§r
+
+gf_wu:stash_snatcher.captured=§aKontejner byl úspěšně uložen!
+gf_wu:stash_snatcher.placed=§aKontejner byl umístěn!
+gf_wu:stash_snatcher.locked=§cUzamčené kontejnery nelze uložit!
+gf_wu:stash_snatcher.unsupported=§cTento kontejner nelze uložit. Pouze jednoduché truhly!
+gf_wu:stash_snatcher.double_chest=§cDvojité truhly nelze uložit. Nejdříve je rozdělte!
+gf_wu:stash_snatcher.no_space=§cNení dost místa pro umístění uloženého kontejneru!
+gf_wu:stash_snatcher.would_connect=§cTruhla se nesmí spojit s jinými truhlami!
+
+gf_wu:ocean_rider.header=§l§cOcean Rider
+gf_wu:ocean_rider.button=§l§4Ocean Rider
+gf_wu:ocean_rider.description=Velmi rychlý způsob cestování pod vodou! Umísti Ocean Rider, interakcí na něj nasedni a přikrčením sesedni. Během jízdy ho můžeš natankovat uhlím nebo dřevěným uhlím. Použij :_input_key.forward: a dívej se dolů pro potápění a nahoru pro návrat na hladinu! Dorazil jsi do cíle? Přikrčením sesedni a útokem Ocean Rider zničíš. Rychlost můžeš nastavit v Controlleru.
+gf_wu:ocean_rider.recipe_ingredients=§73x Sklo §f[§7G§f]%1§r§12x Uhlí §f[§1C§f]§r%1§r§b1x Čluny §f[§bB§f]§r%1§r§a3x Prkna §f[§aP§f]%1§r
+gf_wu:ocean_rider.recipe_table=§f[§7G§f][§7G§f][§7G§f]%1§r§f[§1C§f][§bB§f][§1C§f]%1§r§f[§aP§f][§aP§f][§aP§f]%1§r
+
+gf_wu:ocean_rider.on=§a- [ Ocean Rider připraven ] -
+gf_wu:ocean_rider.off=§c- [ Ocean Rider deaktivován ] -
+gf_wu:ocean_rider.no_water=§cOcean Rider lze umístit pouze do vody.
+gf_wu:ocean_rider.no_space=§cNení dost místa.
+gf_wu:ocean_rider.placed=§aOcean Rider umístěn!
+gf_wu:ocean_rider.picked_up=§aOcean Rider sebrán!
+gf_wu:ocean_rider.mounted=§aNasedli jste na Ocean Rider!
+gf_wu:configuration.ocean_rider=Ocean Rider
+gf_wu:configuration.ocean_rider_speed=Rychlost Ocean Rideru
+gf_wu:configuration_hint.ocean_rider=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+gf_wu:configuration_hint.ocean_rider_speed=Zvolte rychlost 1–3. (Nápověda)
+
+gf_wu:player_vaults.button=§l§4Hráčské trezory
+gf_wu:player_vaults.header=§l§cHráčské trezory
+gf_wu:player_vaults.description=Umísti trezor a interaguj s ním, abys ho otevřel jako normální truhlu. Trezor je soukromý a pouze ty máš přístup ke svým předmětům! Přikrč se a interaguj s trezorem, abys si vybral frekvenci od 0 do 50. Každá frekvence otevře novou truhlu, takže můžeš mít 50 truhel v jedné. Můžeš umístit více trezorů po svém světě, takže ke svým předmětům se dostaneš odkudkoli, stejně jako u ender truhly… ale lepší! Přikrč se a zaútoč, abys ho rozbil!
+gf_wu:player_vaults.recipe_ingredients=§74x Železný ingot §f[§7I§f]%1§r§c4x Ruditový prášek §f[§cR§f]§r%1§r§b1x Truhla §f[§bC§f]%1§r
+gf_wu:player_vaults.recipe_table=§f[§7I§f][§cR§f][§7I§f]%1§r§f[§cR§f][§bC§f][§cR§f]%1§r§f[§7I§f][§cR§f][§7I§f]%1§r
+
+gf_wu:configuration.player_vaults=Hráčské trezory
+gf_wu:configuration_hint.player_vaults=Povolte nebo zakažte tuto funkci\nve vašem světě. (Nápověda)
+
+gf_wu:player_vaults.select=Vybrat trezor
+gf_wu:player_vaults.number=Číslo trezoru
+gf_wu:player_vaults.updated=§aČíslo trezoru aktualizováno
+gf_wu:player_vaults.disabled=§cHráčské trezory jsou vypnuté
+gf_wu:player_vaults.already_viewed=§cTento trezor si právě prohlíží jiný hráč.
+item.gf_wu:ocean_rider=Ocean Rider
+action.hint.exit.gf_wu:ocean_rider=Pro vystoupení se přikrčte
+gf_wu:player_vaults.break_hint=§cPro rozbití trezoru se přikrčte a pak ho rozbijte!

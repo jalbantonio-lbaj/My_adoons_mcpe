@@ -1,0 +1,112 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.halo.neon_outline_helmet": {
+   "geometry": "Geometry.outline",
+   "materials": [
+    {
+     "*": "Material.outline"
+    }
+   ],
+   "textures": [
+    "Texture.outline"
+   ],
+   "ignore_lighting": true,
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.head', 0, 'halo:neon_helmet')"
+    }
+   ]
+  },
+  "controller.render.halo.neon_outline_chestplate": {
+   "geometry": "Geometry.outline",
+   "materials": [
+    {
+     "*": "Material.outline"
+    }
+   ],
+   "textures": [
+    "Texture.outline"
+   ],
+   "ignore_lighting": true,
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.chest', 0, 'halo:neon_chestplate')"
+    }
+   ]
+  },
+  "controller.render.halo.neon_outline_leggings": {
+   "geometry": "Geometry.outline",
+   "materials": [
+    {
+     "*": "Material.outline"
+    }
+   ],
+   "textures": [
+    "Texture.outline"
+   ],
+   "ignore_lighting": true,
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.legs', 0, 'halo:neon_leggings')"
+    }
+   ]
+  },
+  "controller.render.halo.neon_outline_boots": {
+   "geometry": "Geometry.outline",
+   "materials": [
+    {
+     "*": "Material.outline"
+    }
+   ],
+   "textures": [
+    "Texture.outline"
+   ],
+   "ignore_lighting": true,
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.feet', 0, 'halo:neon_boots')"
+    }
+   ]
+  },
+  "controller.render.halo.neon_wings": {
+   "geometry": "Geometry.wings",
+   "materials": [
+    {
+     "*": "Material.wings"
+    }
+   ],
+   "textures": [
+    "Texture.wings"
+   ],
+   "color": {
+    "r": "1.0",
+    "g": "1.0",
+    "b": "1.0",
+    "a": "0.6"
+   },
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.chest', 0, 'halo:neon_chestplate')"
+    }
+   ]
+  },
+  "controller.render.halo.neon_halo_ring": {
+   "geometry": "Geometry.ring",
+   "materials": [
+    {
+     "*": "Material.ring"
+    }
+   ],
+   "textures": [
+    "Texture.ring"
+   ],
+   "ignore_lighting": true,
+   "part_visibility": [
+    {
+     "*": "query.is_item_name_any('slot.armor.head', 0, 'halo:neon_helmet')"
+    }
+   ]
+  }
+ }
+}

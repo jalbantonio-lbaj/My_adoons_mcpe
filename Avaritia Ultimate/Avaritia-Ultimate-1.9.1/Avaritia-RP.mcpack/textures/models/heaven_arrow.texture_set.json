@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "heaven_arrow",
+    "metalness_emissive_roughness": "heaven_arrow_mer"
+  }
+}

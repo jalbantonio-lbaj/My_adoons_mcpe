@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:chunk_minion_spawn_egg"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" e ",
+			"iii",
+			" i "
+		],
+		"key": {
+			"e": {
+				"item": "minecraft:ender_pearl"
+			},
+			"i": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "gf_wu:chunk_minion_spawn_egg"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:ender_pearl"
+			}
+		]
+	}
+}

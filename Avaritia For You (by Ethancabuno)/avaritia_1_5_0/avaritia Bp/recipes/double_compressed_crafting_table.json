@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "avaritia:double_compressed_crafting_table"
+    },
+    "tags": [ "compressed_crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "avaritia:compressed_crafting_table"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:crafting_table"
+      }
+    ],
+    "result": {
+      "item": "avaritia:double_compressed_crafting_table"
+    }
+  }
+}

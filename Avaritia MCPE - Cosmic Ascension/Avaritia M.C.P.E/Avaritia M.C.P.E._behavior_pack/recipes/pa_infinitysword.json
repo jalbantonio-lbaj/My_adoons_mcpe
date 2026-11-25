@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinitysword_7f4d8d8f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      "BA ",
+      "CD "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:crystalmatrixblock",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:infinitycatalyst",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinitysword",
+      "count": 1
+    }
+  }
+}

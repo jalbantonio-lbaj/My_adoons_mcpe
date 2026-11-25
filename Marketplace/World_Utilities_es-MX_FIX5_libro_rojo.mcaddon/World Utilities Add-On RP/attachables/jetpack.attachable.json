@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "gf_wu:jetpack",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_glint"
+            },
+            "textures": {
+                "default": "textures/gamefam/world_utils/jetpack"
+            },
+            "geometry": {
+                "default": "geometry.gf_wu.jetpack"
+            },
+            "render_controllers": [ "controller.render.default" ]
+        }
+    }
+}

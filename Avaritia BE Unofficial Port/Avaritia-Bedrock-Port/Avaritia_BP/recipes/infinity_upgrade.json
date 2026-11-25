@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:infinity_upgrade"
+    },
+    "tags": [
+      "utilitycraft_workbench"
+    ],
+    "pattern": [
+      "NCN",
+      "MAM",
+      "NCN"
+    ],
+    "key": {
+      "A": {"item": "utilitycraft:base_upgrade"},
+      "N": { "item": "avaritia:neutronium_gear" },
+      "M": { "item": "avaritia:crystal_matrix_ingot" },
+      "C": { "item": "avaritia:infinity_catalyst" }
+    },
+    "result": [
+      {
+        "item": "avaritia:infinity_upgrade",
+        "count": 1
+      }
+    ]
+  }
+}

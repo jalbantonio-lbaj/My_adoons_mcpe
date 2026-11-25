@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gf_wu:orange_grab_bag",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:icon": "gf_wu:orange_grab_bag",
+      "minecraft:block_placer": {
+        "replace_block_item": true,
+        "block": "gf_wu:orange_grab_bag"
+      },
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

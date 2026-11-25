@@ -1,0 +1,135 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.avaritia_wp.vanilla_revert": {
+   "loop": true,
+   "bones": {
+    "rightarm": {
+     "position": [
+      "-this + 13.5 + (q.get_default_bone_pivot('rightarm',0) == 0 ? -5 : q.get_default_bone_pivot('rightarm',0))",
+      "-this - 10.0 - (q.get_default_bone_pivot('rightarm',1) == 0 ? 22 : q.get_default_bone_pivot('rightarm',1)) + 19.5",
+      "-this + 12.0"
+     ],
+     "rotation": [
+      "-this + 95.0 + v.is_using_vr * 7.5",
+      "-this - 45.0 + v.is_using_vr * 7.5",
+      "-this + 115.0 + v.is_using_vr * -2.5"
+     ]
+    }
+   }
+  },
+  "animation.avaritia_wp.item_sprite_32.ans_scaling": {
+   "loop": true,
+   "bones": {
+    "rightItem": {
+     "scale": 0.65
+    }
+   }
+  },
+  "animation.avaritia_wp.item_sprite_32.fpp": {
+   "loop": true,
+   "bones": {
+    "rightItem": {
+     "rotation": [
+      -17.76818,
+      74.36078,
+      -50.14033
+     ],
+     "position": [
+      7.10021,
+      -2.39774,
+      8.41479
+     ],
+     "scale": 0.8
+    }
+   }
+  },
+  "animation.avaritia_wp.item_sprite_32.fpp_attack": {
+   "animation_length": 0.2917,
+   "bones": {
+    "rightItem": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.0833": [
+       62.5,
+       -18,
+       -30
+      ],
+      "0.2083": [
+       108.58,
+       -21.72,
+       -5.71
+      ],
+      "0.2917": [
+       0,
+       0,
+       0
+      ]
+     },
+     "position": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.0833": [
+       1,
+       -1,
+       -13
+      ],
+      "0.1667": [
+       1.86,
+       3,
+       -8
+      ],
+      "0.2917": [
+       0,
+       0,
+       0
+      ]
+     }
+    }
+   }
+  },
+  "animation.avaritia_wp.item_sprite_16.fpp": {
+   "loop": true,
+   "bones": {
+    "rightItem": {
+     "rotation": [
+      -32.86,
+      66.57,
+      -57.71
+     ],
+     "position": [
+      -1.39979,
+      3.50226,
+      1.01479
+     ],
+     "scale": 0.8
+    }
+   }
+  },
+  "animation.avaritia_wp.halberd.item_sprite_32.fpp": {
+   "loop": true,
+   "bones": {
+    "rightItem": {
+     "rotation": [
+      -16.26818,
+      74.36078,
+      -50.14033
+     ],
+     "position": [
+      7.40021,
+      -3.79774,
+      7.41479
+     ],
+     "scale": 0.8
+    }
+   }
+  }
+ }
+}

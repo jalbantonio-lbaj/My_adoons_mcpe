@@ -1,0 +1,131 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.1",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.2",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.3",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.4",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.5",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description" : {
+        "identifier" : "geometry.singularity.6",
+        "texture_width" : 16.0,
+        "texture_height" : 16.0
+      },
+      "bones": [
+        {
+          "name": "rightitem",
+          "texture_meshes" : [
+            {
+              "local_pivot" : [ 6.0, 0.0, 6.0 ],
+              "position" : [ 2.0, 1.0, -2.0 ],
+              "rotation" : [ 0.0, -180.0, 0 ],
+              "scale" : [ 1.0, 1.0, 1.0 ],
+              "texture" : "animations.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

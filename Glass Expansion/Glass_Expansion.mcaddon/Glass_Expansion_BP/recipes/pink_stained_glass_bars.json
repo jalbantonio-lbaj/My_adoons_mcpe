@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:pink_stained_glass_bars"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:pink_stained_glass_pane"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:pink_stained_glass_pane"
+      }
+    ],
+    "result": {
+      "item": "vge:pink_stained_glass_bars",
+      "count": 16
+    }
+  }
+}

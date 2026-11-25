@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "endestpearl_3d8f4894"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCD",
+      "ADA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:end_stone",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:compressedpearl",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:endestpearl",
+      "count": 1
+    }
+  }
+}

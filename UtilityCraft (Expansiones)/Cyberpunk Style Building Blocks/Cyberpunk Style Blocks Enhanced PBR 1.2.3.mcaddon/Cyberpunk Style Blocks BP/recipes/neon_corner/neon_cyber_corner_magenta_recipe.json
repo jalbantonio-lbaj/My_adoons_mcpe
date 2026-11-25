@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_cyber_corner_magenta_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_cyber_corner_magenta",
+        "pattern": [
+            "ABA",
+            "ABB",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_black_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_magenta_block"
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_cyber_corner_magenta",
+            "count": 9
+        }
+    }
+}

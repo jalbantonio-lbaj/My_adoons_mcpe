@@ -1,0 +1,128 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:simple_neutron_collector",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.machines"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:facing_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.collector",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "simple_neutron_collector_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "simple_neutron_collector_top"
+        },
+        "down": {
+          "texture": "simple_neutron_collector_side"
+        },
+        "north": {
+          "texture": "simple_neutron_collector_front"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1200
+      },
+      "minecraft:light_emission": 3,
+      "minecraft:light_dampening": 15,
+      "avaritia:collector": {
+        "ticks": 15000,
+        "output": "avaritia:neutron_pile",
+        "title": "entity.avaritia:simple_neutron_collector.name"
+      },
+      "avaritia:grade": {
+        "tier": 1,
+        "cost": 0
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

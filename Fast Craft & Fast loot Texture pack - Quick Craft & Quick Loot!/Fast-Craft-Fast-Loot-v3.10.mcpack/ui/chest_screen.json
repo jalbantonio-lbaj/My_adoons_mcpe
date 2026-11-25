@@ -1,0 +1,53 @@
+{
+  "namespace": "chest",
+  "small_chest_panel/root_panel": {
+    "$fcql_is_container_screen": true,
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "fcql_toggle@fcQL.floating_toggle_panel": {
+              "$floating_anchor_from": "top_right",
+              "$floating_anchor_to": "top_right",
+              "$offset": [28, 0]
+            }
+          },
+          {
+            "status_text@fcQL.status_text_panel": {
+              "anchor_from": "top_middle",
+              "anchor_to": "bottom_middle",
+              "offset": [0, -5]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "large_chest_panel/root_panel": {
+    "$fcql_is_container_screen": true,
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "fcql_toggle@fcQL.floating_toggle_panel": {
+              "$floating_anchor_from": "top_right",
+              "$floating_anchor_to": "top_right",
+              "$offset": [28, 0]
+            }
+          },
+          {
+            "status_text@fcQL.status_text_panel": {
+              "anchor_from": "top_middle",
+              "anchor_to": "bottom_middle",
+              "offset": [0, -5]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

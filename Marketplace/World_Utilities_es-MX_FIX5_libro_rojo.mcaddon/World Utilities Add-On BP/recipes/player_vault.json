@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:player_vault_recipe"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"iri",
+			"rcr",
+			"iri"
+		],
+		"key": {
+			"i": {
+				"item": "minecraft:iron_ingot"
+			},
+			"c": {
+				"item": "minecraft:chest"
+			},
+      "r": {
+        "item": "minecraft:redstone"
+      }
+		},
+		"result": {
+			"item": "gf_wu:vault"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:chest"
+			}
+		]
+	}
+}

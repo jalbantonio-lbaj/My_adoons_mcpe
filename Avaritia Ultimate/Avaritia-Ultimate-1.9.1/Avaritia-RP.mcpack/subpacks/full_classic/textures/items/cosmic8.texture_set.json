@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "cosmic8",
+    "metalness_emissive_roughness": "cosmic8_mer"
+  }
+}

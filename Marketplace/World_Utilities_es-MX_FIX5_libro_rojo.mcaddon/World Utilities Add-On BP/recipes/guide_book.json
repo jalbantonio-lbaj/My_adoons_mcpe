@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:guide_book"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" p",
+			"sBa",
+			" w "
+		],
+		"key": {
+			"s": {
+				"item": "minecraft:wooden_sword"
+			},
+			"p": {
+				"item": "minecraft:wooden_pickaxe"
+			},
+			"a": {
+				"item": "minecraft:wooden_axe"
+			},
+			"w": {
+				"item": "minecraft:wooden_shovel"
+			},
+			"B": {
+				"item": "minecraft:book"
+			}
+		},
+		"result": {
+			"item": "gf_wu:guide_book"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:book"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "avaritia.gaping_void": {
+    "max_distance": 100.0,
+    "sounds": [
+      {
+        "name": "sounds/ambient/gapingVoid",
+        "stream": true,
+        "volume": 8.0,
+        "pitch": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

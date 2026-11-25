@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "gf_wu:scuba_tank",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": {
+				"value": 1
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:icon": "gf_wu:scuba_tank",
+			"minecraft:rarity": "uncommon"
+		}
+	}
+}

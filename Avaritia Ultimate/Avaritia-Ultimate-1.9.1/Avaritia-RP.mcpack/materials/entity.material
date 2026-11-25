@@ -1,0 +1,36 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "cosmic_shield:entity_alphatest": {
+      "+states": [
+        "Blending"
+      ],
+      "+defines": [
+        "ALPHA_TEST",
+        "Blending",
+        "USE_OVERLAY",
+        "USE_MASK"
+      ]
+    },
+
+    "mat_outline_inner:entity_alphatest": {
+      "+defines": [
+        "USE_OVERLAY",  // Permite overlay em cima da textura base
+        "USE_MASK"      // Caso use textura com máscara (alpha test)
+      ]
+    },
+
+    "mat_outline_outer:entity_alphatest": {
+      "+states": [
+        "DisableCulling",  // Renderiza os dois lados (evita buracos no contorno)
+        "Blending"      // Permite transparência leve (alpha_blend)
+      ],
+      "+defines": [
+        "USE_OVERLAY",
+        "Blending",
+        "USE_MASK"
+      ]
+    }
+  }
+}

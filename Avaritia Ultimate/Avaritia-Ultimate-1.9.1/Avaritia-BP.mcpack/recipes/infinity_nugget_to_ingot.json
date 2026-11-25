@@ -1,0 +1,46 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "avaritia:infinity_nugget_to_ingot"
+    },
+    "ingredients": [
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      },
+      {
+        "item": "avaritia:infinity_nugget"
+      }
+    ],
+    "result": [
+      {
+        "item": "avaritia:infinity_ingot",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "crafting_table"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "World Utilities Add-On §6BY Marketplace Trader§r",
+    "description": "Marketplace Trader\nTelegram: https://t.me/Marketplace_trader\nDownload Minecraft Bedrock Add-ons, Worlds, Skin Packs & Texture Packs",
+    "uuid": "7192c893-ba33-4f79-8e22-66203c64b5e0",
+    "pack_scope": "world",
+    "version": [
+      1,
+      1,
+      10
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "description": "pack.description",
+      "type": "resources",
+      "uuid": "516c9dbc-212d-4288-9502-fbe143334303",
+      "version": [
+        1,
+        1,
+        10
+      ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "c1240a22-2a7a-4ad2-a1a3-a03d99355265",
+      "version": [
+        1,
+        1,
+        10
+      ]
+    }
+  ]
+}

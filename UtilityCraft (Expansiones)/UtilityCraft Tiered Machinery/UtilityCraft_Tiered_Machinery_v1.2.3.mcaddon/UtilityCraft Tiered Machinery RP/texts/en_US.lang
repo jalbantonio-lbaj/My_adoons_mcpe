@@ -1,0 +1,51 @@
+tile.utilitycraft:basic_crusher.name=§eBasic Crusher
+tile.utilitycraft:basic_crusher.tooltip=§r §7 Processing Slots: 3\n §7 Rate: 20 DE/t\n §7 Energy Cap: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_crusher.name=§cAdvanced Crusher
+tile.utilitycraft:advanced_crusher.tooltip=§r §7 Processing Slots: 5\n §7 Rate: 20 DE/t\n §7 Energy Cap: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_crusher.name=§bExpert Crusher
+tile.utilitycraft:expert_crusher.tooltip=§r §7 Processing Slots: 7\n §7 Rate: 20 DE/t\n §7 Energy Cap: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_crusher.name=§8Ultimate Crusher
+tile.utilitycraft:ultimate_crusher.tooltip=§r §7 Processing Slots: 9\n §7 Rate: 20 DE/t\n §7 Energy Cap: 576k DE\n§o§9@UC: Tiered Machinery
+
+tile.utilitycraft:basic_electro_press.name=§eBasic Electro Press
+tile.utilitycraft:basic_electro_press.tooltip=§r §7 Processing Slots: 3\n §7 Rate: 20 DE/t\n §7 Energy Cap: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_electro_press.name=§cAdvanced Electro Press
+tile.utilitycraft:advanced_electro_press.tooltip=§r §7 Processing Slots: 5\n §7 Rate: 20 DE/t\n §7 Energy Cap: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_electro_press.name=§bExpert Electro Press
+tile.utilitycraft:expert_electro_press.tooltip=§r §7 Processing Slots: 7\n §7 Rate: 20 DE/t\n §7 Energy Cap: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_electro_press.name=§8Ultimate Electro Press
+tile.utilitycraft:ultimate_electro_press.tooltip=§r §7 Processing Slots: 9\n §7 Rate: 20 DE/t\n §7 Energy Cap: 576k DE\n§o§9@UC: Tiered Machinery
+
+tile.utilitycraft:basic_incinerator.name=§eBasic Incinerator
+tile.utilitycraft:basic_incinerator.tooltip=§r §7 Processing Slots: 3\n §7 Rate: 20 DE/t\n §7 Energy Cap: 192k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:advanced_incinerator.name=§cAdvanced Incinerator
+tile.utilitycraft:advanced_incinerator.tooltip=§r §7 Processing Slots: 5\n §7 Rate: 20 DE/t\n §7 Energy Cap: 320k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:expert_incinerator.name=§bExpert Incinerator
+tile.utilitycraft:expert_incinerator.tooltip=§r §7 Processing Slots: 7\n §7 Rate: 20 DE/t\n §7 Energy Cap: 448k DE\n§o§9@UC: Tiered Machinery
+tile.utilitycraft:ultimate_incinerator.name=§8Ultimate Incinerator
+tile.utilitycraft:ultimate_incinerator.tooltip=§r §7 Processing Slots: 9\n §7 Rate: 20 DE/t\n §7 Energy Cap: 576k DE\n§o§9@UC: Tiered Machinery
+
+entity.utilitycraft:basic_incinerator.name=Basic Incinerator
+entity.utilitycraft:advanced_incinerator.name=Advanced Incinerator
+entity.utilitycraft:expert_incinerator.name=Expert Incinerator
+entity.utilitycraft:ultimate_incinerator.name=Ultimate Incinerator
+
+entity.utilitycraft:basic_crusher.name=Basic Crusher
+entity.utilitycraft:advanced_crusher.name=Advanced Crusher
+entity.utilitycraft:expert_crusher.name=Expert Crusher
+entity.utilitycraft:ultimate_crusher.name=Ultimate Crusher
+
+entity.utilitycraft:basic_electro_press.name=Basic Electro Press
+entity.utilitycraft:advanced_electro_press.name=Advanced Electro Press
+entity.utilitycraft:expert_electro_press.name=Expert Electro Press
+entity.utilitycraft:ultimate_electro_press.name=Ultimate Electro Press
+
+dorios:itemGroup.name.tiered_machines=Tiered Machines
+
+ui.utilitycraft:info.tiered.crusher=Processes several registered Crusher recipes in parallel using §sDorios Energy§8. Every channel has its own input, progress, and output slot.\n\n§8I/O:\n- §9Input§8 exposes every input slot.\n- §cOutput§8 exposes every output slot.\n\n§8Accepted Upgrades:\n§d §8(8), §d §8(8)
+ui.utilitycraft:info.tiered.electro_press=Processes several registered Electro Press recipes in parallel using §sDorios Energy§8. Every channel has its own input, progress, and output slot.\n\n§8I/O:\n- §9Input§8 exposes every input slot.\n- §cOutput§8 exposes every output slot.\n\n§8Accepted Upgrades:\n§d §8(8), §d §8(8)
+ui.utilitycraft:info.tiered.incinerator=Processes several registered furnace recipes in parallel using §sDorios Energy§8. Every channel has its own input, progress, and output slot.\n\n§8I/O:\n- §9Input§8 exposes every input slot.\n- §cOutput§8 exposes every output slot.\n\n§8Accepted Upgrades:\n§d §8(8), §d §8(8)
+ui.utilitycraft:io.tiered_machine.items=I/O Modes:\n§r- §8Default\n§r- §9Input\n§r- §cOutput\n§r- §eDisabled
+
+## Quick Info addon name
+utilitycraft.identifier=§o§9@UtilityCraft

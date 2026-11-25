@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:gray_stained_glass_carpet_dyeing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#D#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "vge:glass_carpet"
+      },
+      "D": {
+        "item": "minecraft:gray_dye"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:gray_dye"
+      }
+    ],
+    "result": {
+      "item": "vge:gray_stained_glass_carpet",
+      "count": 8
+    }
+  }
+}

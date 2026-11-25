@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:ocean_rider_recipe"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"ggg",
+			"cbc",
+			"ppp"
+		],
+		"key": {
+			"b": {
+				"item": "minecraft:boat"
+			},
+			"c": {
+				"item": "minecraft:coal"
+			},
+      "g": {
+        "item": "minecraft:glass"
+      },
+      "p": {
+        "tag": "minecraft:planks"
+      }
+		},
+		"result": {
+			"item": "gf_wu:ocean_rider"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:oak_boat"
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mikeyz:pure_white_stairs_recipe"
+    },
+    "tags": [
+      "neon_workbench"
+    ],
+    "group": "pure_white_stairs",
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "mikeyz:pure_white_block"
+      }
+    },
+    "result": {
+      "item": "mikeyz:pure_white_stairs",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:experience_extractor_item"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" b ",
+			"rir",
+			"ppp"
+		],
+		"key": {
+			"b": {
+				"item": "minecraft:glass_bottle"
+			},
+			"r": {
+				"item": "minecraft:redstone"
+			},
+			"i": {
+				"item": "minecraft:iron_ingot"
+			},
+			"p": {
+				"tag": "minecraft:planks"
+			}
+		},
+		"result": {
+			"item": "gf_wu:experience_extractor"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:glass_bottle"
+			}
+		]
+	}
+}

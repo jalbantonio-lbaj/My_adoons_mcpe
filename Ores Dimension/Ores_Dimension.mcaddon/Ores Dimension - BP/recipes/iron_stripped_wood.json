@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:iron_stripped_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:iron_stripped_log"
+      }
+    },
+    "result": {
+      "item": "oredim:iron_stripped_wood",
+      "count": 3
+    },
+    "unlock": [
+      {
+        "item": "oredim:iron_stripped_log"
+      }
+    ]
+  }
+}

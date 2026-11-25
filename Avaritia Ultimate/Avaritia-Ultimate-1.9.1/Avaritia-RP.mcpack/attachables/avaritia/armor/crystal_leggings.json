@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:crystal_leggings",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/models/armor/crystal/armor"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.crystal_leggings"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal"
+      ]
+    }
+  }
+}

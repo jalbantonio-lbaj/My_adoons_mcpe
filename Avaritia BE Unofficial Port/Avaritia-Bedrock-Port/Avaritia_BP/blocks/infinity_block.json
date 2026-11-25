@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.blocks"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_pickaxe_item_destructible",
+          "minecraft:diamond_tier_destructible",
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "tag:minecraft:diamond_tier_destructible": {},
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_block",
+          "render_method": "opaque"
+        }
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 80
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 15
+    }
+  }
+}

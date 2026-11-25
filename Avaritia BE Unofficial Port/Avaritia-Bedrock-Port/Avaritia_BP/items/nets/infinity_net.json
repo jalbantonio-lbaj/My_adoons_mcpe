@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_fishing_net",
+      "menu_category": { "category": "construction", "group": "dorios:itemGroup.name.fishing_nets" }
+    },
+    "components": {
+      "utilitycraft:fishing_net": {
+        "tier": 999,
+        "speed": 1000,
+        "chance_multiplier": 100,
+        "amount_multiplier": 100,
+        "rolls": 100,
+        "luck": 999
+      },
+      "minecraft:icon": "infinity_net",
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:tags": {
+        "tags": ["ascendant:unclonnable", "avaritia:avaritia"]
+      }
+    }
+  }
+}

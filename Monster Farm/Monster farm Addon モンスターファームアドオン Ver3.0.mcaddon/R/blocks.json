@@ -1,0 +1,51 @@
+{
+  "format_version": [   1,  1, 0 ],
+  "tunekeshi:witch_farm": {
+    "textures": "witch_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:vindicator_farm": {
+    "textures": "vindicator_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:zombie_farm": {
+    "textures": "zombie_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:skeleton_farm": {
+    "textures": "skeleton_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:phantom_farm": {
+    "textures": "phantom_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:piglin_farm": {
+    "textures": "piglin_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:wither_skeleton_farm": {
+    "textures": "skeleton_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:blaze_farm": {
+    "textures": "blaze_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:slime_farm": {
+    "textures": "slime_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:iron_golem_farm": {
+    "textures": "iron_golem_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:enderman_farm": {
+    "textures": "enderman_farm",
+    "sound": "glass"
+  },
+  "tunekeshi:creeper_farm": {
+    "textures": "creeper_farm",
+    "sound": "glass"
+  }
+}

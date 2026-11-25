@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mikeyz:neon_magenta_light_recipe"
+        },
+        "tags": ["neon_workbench"],
+        "group": "neon_magenta_light",
+        "pattern": [
+            " A ",
+            "ABA",
+            " A "
+        ],
+        "key": {
+            "A": {
+                "item": "mikeyz:pure_black_block"
+            },
+            "B": {
+                "item": "mikeyz:neon_magenta_block"    
+            }
+        },
+        "result": {
+            "item": "mikeyz:neon_magenta_light",
+            "count": 4
+        }
+    }
+}

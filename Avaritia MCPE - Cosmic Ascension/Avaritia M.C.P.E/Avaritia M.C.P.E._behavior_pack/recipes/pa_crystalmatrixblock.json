@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "crystalmatrixblock_b6d85a95"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:crystalingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:crystalmatrixblock",
+      "count": 1
+    }
+  }
+}

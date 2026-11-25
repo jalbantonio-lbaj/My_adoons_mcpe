@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:infinity_tnt_primed",
+      "materials": { "default": "ender_pearl" },
+      "textures": { "default": "textures/blocks/infinity_tnt_side" },
+      "geometry": { "default": "geometry.item_sprite" },
+      "render_controllers": ["controller.render.item_sprite"]
+    }
+  }
+}

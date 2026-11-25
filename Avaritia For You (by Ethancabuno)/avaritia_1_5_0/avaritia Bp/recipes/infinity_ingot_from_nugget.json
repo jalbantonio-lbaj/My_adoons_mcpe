@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "avaritia:infinity_ingot_from_nugget"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "avaritia:infinity_nugget"
+      }
+    },
+	"unlock": [
+      {
+        "item": "avaritia:infinity_ingot"
+      }
+    ],
+    "result": {
+      "item": "avaritia:infinity_ingot"
+    }
+  }
+}

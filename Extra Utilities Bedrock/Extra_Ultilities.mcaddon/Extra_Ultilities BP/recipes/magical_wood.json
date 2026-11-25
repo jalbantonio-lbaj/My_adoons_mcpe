@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "extra_utilities:magical_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:gold_ingot",
+				"data": 0,
+				"count": 1
+			},
+			{
+				"item": "minecraft:bookshelf",
+				"data": 0,
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "extra_utilities:magical_wood",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

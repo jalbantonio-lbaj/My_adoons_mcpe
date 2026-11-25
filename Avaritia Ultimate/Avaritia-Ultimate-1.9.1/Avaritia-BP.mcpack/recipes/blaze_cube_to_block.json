@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:blaze_cube_to_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:blaze_cube"
+      }
+    },
+    "result": [
+      {
+        "item": "avaritia:blaze_cube_block",
+        "count": 1
+      }
+    ]
+  }
+}

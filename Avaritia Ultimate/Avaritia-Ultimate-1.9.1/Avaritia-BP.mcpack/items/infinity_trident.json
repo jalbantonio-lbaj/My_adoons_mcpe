@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_trident",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.trident",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "infinity_trident_icon"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§c%infinity_trident.name\n%attribute.infinity_trident_damage\n%addon.avaritia"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "infinity_tier",
+          "minecraft:is_trident"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:unbreakable": {},
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:enchantable": {
+        "value": 9999,
+        "slot": "spear"
+      },
+      "minecraft:damage": {
+        "value": 101
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 3600.0,
+        "movement_modifier": 0.35
+      },
+      "minecraft:cooldown": {
+        "category": "infinity_trident",
+        "duration": 0.0
+      }
+    }
+  }
+}

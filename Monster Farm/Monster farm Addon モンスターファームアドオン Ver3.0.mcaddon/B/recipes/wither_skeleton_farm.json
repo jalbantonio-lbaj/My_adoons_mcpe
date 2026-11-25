@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "tunekeshi:wither_skeleton_farm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CCC",
+      "CAC",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:soul_sand"
+      },
+      "B": {
+        "item": "minecraft:redstone"
+      },
+      "C": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "tunekeshi:wither_skeleton_farm"
+    }
+}
+}

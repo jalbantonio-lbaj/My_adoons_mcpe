@@ -1,0 +1,71 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:direcrafting",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#04FCF2",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 4,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_direcrafting_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "pa_direcrafting_up",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "pa_direcrafting_down",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "crafting_table",
+          "direcrafting"
+        ],
+        "table_name": "Dire Crafting Table"
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "tag:wood": {},
+      "pa_direcrafting:trigger": {}
+    },
+    "events": {}
+  }
+}

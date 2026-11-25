@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:singularity_tin",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:singularity_tin",
+        "use_on": [
+          "avaritia:singularity_tin"
+        ],
+        "replace_block_item": true
+      }
+    }
+  }
+}

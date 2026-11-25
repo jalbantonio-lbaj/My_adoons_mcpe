@@ -1,0 +1,46 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "gf_wu:lock_barrier_barrel",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "components": {
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:collision_box": {
+                "height": 1.05,
+                "width": 0.99
+            },
+            "minecraft:scale": {
+                "value": 1.001
+            },
+            "minecraft:health": {
+                "value": 1,
+                "min": 1
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:fire_immune": { },
+            "minecraft:inventory": {
+                "additional_slots_per_strength": 0,
+                "can_be_siphoned_from": false,
+                "inventory_size": 27,
+                "private": false,
+                "restrict_to_owner": false
+            }
+        }
+    }
+}

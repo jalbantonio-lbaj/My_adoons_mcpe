@@ -1,0 +1,12 @@
+## Fast-craft Pack Localization - 简体中文
+pack.name=§l快速合成与快速 loot v3.10
+pack.description=§o为 Minecraft 基岩版/PE 添加快速合成与快速 loot 功能
+
+fast_loot.status.on=快速 Loot：开启
+fast_loot.status.off=快速 Loot：关闭
+
+fast_loot.toggle.tts_name=快速 Loot
+fast_loot.toggle.tts_on=快速 Loot 已开启
+fast_loot.toggle.tts_off=快速 Loot 已关闭
+fast_craft.button.tts=快速合成
+fast_trade.button.tts=快速交易

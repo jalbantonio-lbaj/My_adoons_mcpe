@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vge:cyan_stained_glass_chest_boat",
+      "materials": {
+        "default": "entity_alphablend",
+        "chest": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/cyan_stained_glass_boat"
+      },
+      "geometry": {
+        "default": "geometry.vge.glass_chest_boat"
+      },
+      "animations": {
+        "rest": "animation.vge.glass_boat.paddle_rest",
+        "row": "animation.vge.glass_boat.paddle_row",
+        "paddles": "controller.animation.vge.glass_boat.paddles",
+        "lid_open": "animation.vge.glass_boat.lid_open",
+        "lid": "controller.animation.vge.glass_boat.lid"
+      },
+      "scripts": {
+        "animate": [
+          "paddles",
+          "lid"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.vge_glass_boat_blend"
+      ]
+    }
+  }
+}

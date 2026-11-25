@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:netherite_crystal",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "dustveyn_ef:netherite_crystal",
+            "minecraft:display_name": {
+                "value": "§j%dustveyn_ef.netherite_crystal.name\n§o§9Endless Fabulous"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

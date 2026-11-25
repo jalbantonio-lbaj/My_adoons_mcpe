@@ -1,0 +1,16 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "avaritia.gaping_void": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/ambient/gapingVoid",
+          "stream": true,
+          "volume": 8.0,
+          "pitch": 1.0
+        }
+      ]
+    }
+  }
+}

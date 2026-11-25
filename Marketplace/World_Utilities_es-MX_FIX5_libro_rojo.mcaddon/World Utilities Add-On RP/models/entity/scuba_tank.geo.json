@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.gf_wu.scuba_tank",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-1.5, -0.5, -3.5], "size": [3, 3, 9], "inflate": -0.2, "uv": [0, 0]},
+						{"origin": [-1.5, -0.5, -5], "size": [3, 3, 3], "uv": [0, 12]},
+						{"origin": [-1, 0.5, -4.5], "size": [2, 4, 2], "inflate": -0.2, "uv": [12, 12]},
+						{"origin": [0.5, 0, -4.5], "size": [2, 2, 2], "inflate": -0.2, "uv": [12, 21]},
+						{"origin": [-1, 3.5, -4.5], "size": [2, 1, 2], "inflate": 0.05, "uv": [0, 18]}
+					]
+				}
+			]
+		}
+	]
+}

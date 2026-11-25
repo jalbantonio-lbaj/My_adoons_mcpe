@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:eternal_fire_orange",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 15,
+      "minecraft:loot": "loot_tables/blocks/eternal_fire.json",
+      "minecraft:geometry": "geometry.flower",
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "avaritia_fire_orange",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      }
+    }
+  }
+}

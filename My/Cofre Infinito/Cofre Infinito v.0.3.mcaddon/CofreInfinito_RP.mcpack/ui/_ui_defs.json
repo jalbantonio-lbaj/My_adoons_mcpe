@@ -1,0 +1,23 @@
+{
+  "ui_defs": [
+    "ui/avaritia_close.json",
+    "ui/collector_panel.json",
+    "ui/compressor_panel.json",
+    "ui/extreme_craft_screen.json",
+    "ui/compressed_craft_screen.json",
+    "ui/double_compressed_craft_screen.json",
+    "ui/dense_collector_panel.json",
+    "ui/denser_collector_panel.json",
+    "ui/densest_collector_panel.json",
+    "ui/burner_panel.json",
+    "ui/smithing_screen.json",
+    "ui/compressed_chest_panel.json",
+    "ui/infinity_chest_panel.json",
+    "ui/xtreme_anvil_screen.json",
+    "ui/tesseract_panel.json",
+    "ui/neutron_ring_panel.json",
+    "ui/infinity_ring_panel.json",
+    "ui/infinitychest_standalone_close.json",
+    "ui/infinitychest_standalone_panel.json"
+  ]
+}

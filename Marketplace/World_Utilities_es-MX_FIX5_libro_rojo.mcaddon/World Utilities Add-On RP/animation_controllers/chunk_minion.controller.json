@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.gf_wu.chunk_minion.hat": {
+			"initial_state": "state_1",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "state_1": "query.is_croaking" }
+					]
+				},
+				"state_1": {
+					"animations": [ "hat" ],
+					"transitions": [
+						{ "default": "query.any_animation_finished" }
+					]
+				}
+			}
+		},
+		"controller.animation.gf_wu.weapon": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "attacking": "t.attack_duration > 0" }
+					]
+				},
+				"attacking": {
+					"animations": [ "attack" ],
+					"transitions": [
+						{ "default": "t.attack_duration <= 0" }
+					]
+				}
+			}
+		}
+	}
+}

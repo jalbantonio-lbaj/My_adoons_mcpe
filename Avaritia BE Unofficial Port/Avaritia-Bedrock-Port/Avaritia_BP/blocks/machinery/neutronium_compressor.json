@@ -1,0 +1,127 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:neutronium_compressor",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.machines"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      },
+      "states": {
+        "avaritia:on": [ false, true ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "tag:minecraft:diamond_tier_destructible": {},
+      "minecraft:geometry": "geometry.compressor",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "compressor_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "compressor_top"
+        },
+        "north": {
+          "texture": "compressor_front"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 40
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:light_emission": 5,
+            "minecraft:light_dampening": 15,
+                        "minecraft:tick": {
+                          "looping": true,
+                          "interval_range": [1, 1]
+                        },
+                        "avaritia:compressor_trigger": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('avaritia:on') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "compressor_side",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "compressor_top"
+            },
+            "north": {
+              "texture": "compressor_front_animated"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

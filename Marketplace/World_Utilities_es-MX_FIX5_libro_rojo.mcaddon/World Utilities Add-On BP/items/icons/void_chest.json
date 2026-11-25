@@ -1,0 +1,16 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "gf_wu:void_chest"
+        },
+        "components": {
+            "minecraft:icon": "gf_wu:void_chest",
+            "minecraft:block_placer": {
+                "replace_block_item": true,
+                "block": "gf_wu:void_chest"
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

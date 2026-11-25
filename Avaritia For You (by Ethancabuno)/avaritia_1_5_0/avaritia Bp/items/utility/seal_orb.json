@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:seal_orb",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "avaritia_seal_orb"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§d%seal_orb.name\n§7%seal_orb.desc\n%addon.avaritia"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": false
+    }
+  }
+}

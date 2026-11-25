@@ -1,0 +1,64 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"omni-science cloud"
+		]
+	},
+	"header": {
+		"name": "Redstone Lamps Plus v2.1",
+		"description": "Enjoy",
+		"min_engine_version": [
+			1,
+			21,
+			71
+		],
+		"uuid": "0d94a886-5317-4931-9305-4808b4a5071e",
+		"version": [
+			8,
+			8,
+			9
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d388cd06-8378-4b89-8429-8a280de8bc4f",
+			"version": [
+				8,
+				8,
+				9
+			]
+		},
+		{
+			"type": "script",
+			"entry": "scripts/main.js",
+			"language": "javascript",
+			"version": [
+				8,
+				8,
+				9
+			],
+			"uuid": "1675db54-34ee-42e1-9730-b1aad2fe8f10",
+			"description": "main script"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0f57ebc4-50a2-4648-b8a1-fc58445e0db7",
+			"version": [
+				8,
+				8,
+				9
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}

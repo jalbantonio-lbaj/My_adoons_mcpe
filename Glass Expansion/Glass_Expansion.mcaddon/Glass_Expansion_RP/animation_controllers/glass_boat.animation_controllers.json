@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.vge.glass_boat.lid": {
+      "initial_state": "closed",
+      "states": {
+        "closed": {
+          "blend_transition": 0.3,
+          "transitions": [
+            {
+              "open": "q.property('vge:chest_open')"
+            }
+          ]
+        },
+        "open": {
+          "animations": [
+            "lid_open"
+          ],
+          "blend_transition": 0.3,
+          "transitions": [
+            {
+              "closed": "!q.property('vge:chest_open')"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.vge.glass_boat.paddles": {
+      "initial_state": "rest",
+      "states": {
+        "rest": {
+          "animations": [
+            "rest"
+          ],
+          "blend_transition": 0.2,
+          "transitions": [
+            {
+              "row": "q.has_rider && q.ground_speed > 0.6"
+            }
+          ]
+        },
+        "row": {
+          "animations": [
+            "row"
+          ],
+          "blend_transition": 0.2,
+          "transitions": [
+            {
+              "rest": "!q.has_rider || q.ground_speed < 0.3"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

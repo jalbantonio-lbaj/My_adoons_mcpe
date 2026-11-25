@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "tesseract_core",
+    "metalness_emissive_roughness": "tesseract_core_mer"
+  }
+}

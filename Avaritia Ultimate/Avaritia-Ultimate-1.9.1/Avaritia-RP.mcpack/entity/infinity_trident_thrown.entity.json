@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:infinity_trident_thrown",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/items/infinity_trident"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.infinity_trident"
+      },
+      "animations": {
+        "fly": "animation.avaritia.infinity_trident_thrown.fly"
+      },
+      "scripts": {
+        "animate": ["fly"]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

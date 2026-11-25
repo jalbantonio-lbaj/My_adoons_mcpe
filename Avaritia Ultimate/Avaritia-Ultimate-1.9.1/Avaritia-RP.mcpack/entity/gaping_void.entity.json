@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:gaping_void",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/endest_pearl" },
+      "geometry": { "default": "geometry.void" },
+      "render_controllers": [ "controller.render.void" ],
+      "animations": { "scale": "animation.void.scale", "rotate": "animation.void.rotate" },
+      "scripts": { "animate": [ "scale", "rotate" ] }
+    }
+  }
+}

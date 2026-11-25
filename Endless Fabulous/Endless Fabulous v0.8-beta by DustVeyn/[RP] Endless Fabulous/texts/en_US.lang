@@ -1,0 +1,50 @@
+pack.description=§lDeveloped by §c@DustVeyn_ofc.
+
+## Blocks
+dustveyn_ef.extreme_crafting_table.name=Extreme Crafting Table
+dustveyn_ef.neutron_collector.name=Neutron Collector
+dustveyn_ef.neutronium_block.name=Block of Neutronium
+dustveyn_ef.crystal_matrix_block.name=Block of Crystal Matrix
+dustveyn_ef.neutronium_compressor.name=Neutronium Compressor
+dustveyn_ef.enhanced_neutron_collector.name=Enhanced Neutron Collector
+dustveyn_ef.supreme_neutron_collector.name=Supreme Neutron Collector
+
+## Infinity Armor
+dustveyn_ef.infinity_helmet.name=Infinity Helmet
+dustveyn_ef.infinity_chestplate.name=Infinity Chestplate
+dustveyn_ef.infinity_leggings.name=Infinity Leggings
+dustveyn_ef.infinity_boots.name=Infinity Boots
+
+## Infinity Tools
+dustveyn_ef.sword_of_the_death.name=Sword of the Death
+dustveyn_ef.sword_of_the_death.desc=§9+§cI§dN§aF§eI§cN§dI§9T§1Y §fAttack Damage§f
+dustveyn_ef.skullfire_sword.name=Skullfire Sword
+dustveyn_ef.skullfire_sword.desc=§jThey say that those who fall before her leave something far darker behind...
+dustveyn_ef.reality_shatterer.name=Reality Shatterer
+dustveyn_ef.reality_shatterer.desc=§7The greatest fortune of all.\nCapable of destroying the most indestructible rock.
+dustveyn_ef.reality_shatterer_hammer.desc=§7Capable of destroying the most indestructible rock.
+
+## Items
+dustveyn_ef.diamond_lattice.name=Diamond Lattice
+dustveyn_ef.crystal_matrix_ingot.name=Crystal Matrix Ingot
+dustveyn_ef.pile_of_neutron.name=Pile of Neutron
+dustveyn_ef.neutronium_nugget.name=Neutronium Nugget
+dustveyn_ef.neutronium_ingot.name=Neutronium Ingot
+dustveyn_ef.endest_pearl.name=Endest Pearl
+dustveyn_ef.disc_fragment.name=Disc Fragment
+dustveyn_ef.infinity_catalyst.name=Infinity Catalyst
+dustveyn_ef.infinity_ingot.name=Infinity Ingot
+dustveyn_ef.recipe_book.name=Recipe Book
+dustveyn_ef.matter_cluster.name=Matter Cluster
+dustveyn_ef.full_inv_matter.info=Your inventory is full! Make room before using the Matter Cluster.
+
+## Crystals
+dustveyn_ef.iron_crystal.name=Iron Crystal
+dustveyn_ef.copper_crystal.name=Copper Crystal
+dustveyn_ef.redstone_crystal.name=Redstone Crystal
+dustveyn_ef.netherite_crystal.name=Netherite Crystal
+dustveyn_ef.golden_crystal.name=Golden Crystal
+dustveyn_ef.amethyst_crystal.name=Amethyst Crystal
+dustveyn_ef.emerald_crystal.name=Emerald Crystal
+dustveyn_ef.diamond_crystal.name=Diamond Crystal
+dustveyn_ef.lapis_crystal.name=Lapis Lazuli Crystal

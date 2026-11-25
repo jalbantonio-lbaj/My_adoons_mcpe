@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cyberpunk Style Blocks RP",
+    "description": "§6Dorios Studio - §bCyberpunk Style Blocks RP - §a1.2.3",
+    "uuid": "17a35d08-d22b-460b-8382-1dd85896477f",
+    "version": [1, 2, 3],
+    "min_engine_version": [1, 26, 10]
+  },
+  "metadata": {
+    "authors": ["MikeyZ - Dorios Studio "]
+  },
+  "modules": [
+    {
+      "description": "Cyberpunk Style Blocks",
+      "type": "resources",
+      "uuid": "ccc59ae1-ef32-4ad2-8cb0-1983c49b8653",
+      "version": [1, 2, 3]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ef84756e-9b03-4049-ac63-6c5b4b12e1b2",
+      "version": [1, 2, 3]
+    }
+  ],
+  "capabilities": ["pbr"]
+}

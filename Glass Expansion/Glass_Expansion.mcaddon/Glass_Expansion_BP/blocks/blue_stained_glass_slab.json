@@ -1,0 +1,170 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "vge:blue_stained_glass_slab",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      },
+      "states": {
+        "vge:double": [
+          false,
+          true
+        ]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.vge.slab",
+        "culling": "vge:culling.glass_slab",
+        "bone_visibility": {
+          "bottom": "!q.block_state('vge:double') && q.block_state('minecraft:vertical_half') == 'bottom'",
+          "top": "!q.block_state('vge:double') && q.block_state('minecraft:vertical_half') == 'top'",
+          "full": "q.block_state('vge:double')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "vge_blue_stained_glass",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        },
+        "hw": {
+          "texture": "vge_blue_stained_glass_hw",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty_glass.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.5
+      },
+      "minecraft:sound": {
+        "sound": "glass"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.hat"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.vge.slab_item",
+        "material_instances": {
+          "*": {
+            "texture": "vge_blue_stained_glass",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          },
+          "hw": {
+            "texture": "vge_blue_stained_glass_hw",
+            "render_method": "blend",
+            "ambient_occlusion": 0.0
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          8.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          8.0,
+          16.0
+        ]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true
+          }
+        ]
+      },
+      "vge:slab": {}
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('vge:double') && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('vge:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              16.0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              16.0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

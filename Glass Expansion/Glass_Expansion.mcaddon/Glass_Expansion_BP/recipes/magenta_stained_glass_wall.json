@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:magenta_stained_glass_wall"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:magenta_stained_glass_pane"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:magenta_stained_glass_pane"
+      }
+    ],
+    "result": {
+      "item": "vge:magenta_stained_glass_wall",
+      "count": 6
+    }
+  }
+}

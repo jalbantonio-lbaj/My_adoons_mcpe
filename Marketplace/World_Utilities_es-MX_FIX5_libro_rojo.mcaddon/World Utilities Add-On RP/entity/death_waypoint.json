@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "gf_wu:death_waypoint",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/gamefam/world_utils/death_waypoint"
+      },
+      "geometry": {
+        "default": "geometry.gf_wu.death_waypoint"
+      },
+      "render_controllers": [ "controller.render.skeleton" ]
+    }
+  }
+}

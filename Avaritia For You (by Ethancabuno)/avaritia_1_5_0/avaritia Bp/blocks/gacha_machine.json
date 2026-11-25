@@ -1,0 +1,109 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:gacha_machine",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "gacha_machine_side",
+          "render_method": "opaque"
+        },
+        "side": {
+          "texture": "gacha_machine_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "gacha_machine_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "gacha_machine_bottom",
+          "render_method": "opaque"
+        },
+        "front": {
+          "texture": "gacha_machine_front",
+          "render_method": "opaque"
+        }
+      },
+      "tag:metal": {},
+      "tag:machine": {},
+      "tag:diamond_pick_diggable": {},
+      "tag:minecraft:diamond_tier_destructible": {},
+      "avaritia:gacha_interact": {},
+      "minecraft:display_name": "§d%gacha_machine.name\n%addon.avaritia",
+      "minecraft:light_emission": 8,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10
+      },
+      "minecraft:loot": "loot_tables/blocks/gacha_machine.json",
+      "minecraft:geometry": {
+        "identifier": "geometry.gacha_machine"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

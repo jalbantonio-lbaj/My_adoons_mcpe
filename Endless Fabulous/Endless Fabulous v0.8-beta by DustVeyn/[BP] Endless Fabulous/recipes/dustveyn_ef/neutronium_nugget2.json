@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:neutronium_nugget2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:neutronium_ingot"
+            }
+        },
+        "result": {
+            "item": "dustveyn_ef:neutronium_nugget",
+            "count": 9
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gf_wu:deep_digger_shovel_netherite",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "gf_wu:deep_digger_shovel_netherite"
+        }
+      },
+      "minecraft:damage": {
+        "value": 5
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+            },
+            "speed": 10
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "shovel",
+        "value": 15
+      },
+      "minecraft:durability": {
+        "max_durability": 2031
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:netherite_ingot"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:digger",
+          "minecraft:is_shovel",
+          "minecraft:netherite_tier"
+        ]
+      },
+      "gf_wu:tool_durability": {},
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

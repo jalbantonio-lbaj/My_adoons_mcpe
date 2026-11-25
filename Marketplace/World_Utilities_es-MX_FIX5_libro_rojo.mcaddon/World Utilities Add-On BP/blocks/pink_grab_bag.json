@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "gf_wu:pink_grab_bag",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "tag:gf_wu:grab_bags": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.gf_wu.grab_bag"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "ambient_occlusion": true,
+          "face_dimming": true,
+          "render_method": "alpha_test",
+          "texture": "gf_wu:pink_grab_bag"
+        }
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [15, 13, 15]
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [15, 13, 15]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_emission": 0,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ui_defs": [
+    "ui/ec_recipe_index.json",
+    "ui/infinity_chest.json",
+    "ui/admin/invsee_inventory.json",
+    "ui/abc_compass.json",
+    "ui/abc_structure_form.json",
+    "ui/abc_scrollbar.json"
+  ]
+}

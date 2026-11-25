@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_bucket",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_bucket",
+        "use_on": [
+          "avaritia:infinity_bucket"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:glint": true,
+      "minecraft:should_despawn": false,
+      "minecraft:display_name": {
+        "value": "§c%infinity_bucket.name\n%addon.avaritia"
+      }
+    }
+  }
+}

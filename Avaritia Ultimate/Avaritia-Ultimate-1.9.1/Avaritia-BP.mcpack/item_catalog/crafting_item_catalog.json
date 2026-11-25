@@ -1,0 +1,146 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "avaritia:infinity_block",
+              "name": "avaritia:itemGroup.name.blocks"
+            },
+            "items": [
+              "avaritia:crystal_matrix_block",
+              "avaritia:blaze_cube_block",
+              "avaritia:neutronium_block",
+              "avaritia:infinity_block",
+              "avaritia:gaia_block",
+              "avaritia:infinity_tnt",
+              "avaritia:diamond_lattice_block",
+              "avaritia:star_fuel_block_item",
+              "avaritia:refined_coal_block_item",
+              "avaritia:compressed_chest",
+              "avaritia:infinity_chest",
+              "avaritia:tesseract"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "avaritia:neutron_collector",
+              "name": "avaritia:itemGroup.name.machines"
+            },
+            "items": [
+              "avaritia:simple_neutron_collector",
+              "avaritia:neutron_collector",
+              "avaritia:dense_neutron_collector",
+              "avaritia:denser_neutron_collector",
+              "avaritia:densest_neutron_collector",
+              "avaritia:infinity_collector",
+              "avaritia:neutronium_compressor"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "avaritia:dire_crafting_table",
+              "name": "avaritia:itemGroup.name.tables"
+            },
+            "items": [
+              "avaritia:dire_crafting_table",
+              "avaritia:compressed_crafting_table",
+              "avaritia:double_compressed_crafting_table",
+              "avaritia:ctable",
+              "avaritia:dctable",
+              "avaritia:sculk_crafting_table",
+              "avaritia:extreme_smithing_table"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "avaritia:infinity_catalyst",
+              "name": "avaritia:itemGroup.name.materials"
+            },
+            "items": [
+              "avaritia:crystal_matrix_ingot",
+              "avaritia:blaze_cube",
+              "avaritia:diamond_lattice",
+              "avaritia:refined_coal",
+              "avaritia:infinity_catalyst",
+              "avaritia:infinity_ingot",
+              "avaritia:infinity_nugget",
+              "avaritia:neutronium_nugget",
+              "avaritia:neutron_pile",
+              "avaritia:neutronium_gear",
+              "avaritia:neutronium_ingot",
+              "avaritia:record_fragment",
+              "avaritia:starfuel",
+              "avaritia:cosmic_meatballs",
+              "avaritia:ultimate_stew",
+              "avaritia:star_dessert",
+              "avaritia:singularity_stew",
+              "avaritia:asgardandelion_item",
+              "avaritia:enhancement_core",
+              "avaritia:upgrade_smithing_template",
+              "avaritia:infinity_clock",
+              "avaritia:infinity_upgrade",
+              "avaritia:infinity_bucket",
+              "avaritia:endless_cake",
+              "avaritia:full_matter_cluster"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "avaritia:infinity_shears",
+              "name": "avaritia:itemGroup.name.utilities"
+            },
+            "items": [
+              "avaritia:infinity_elytra",
+              "avaritia:neutronium_wind_charge",
+              "avaritia:blaze_wind_charge",
+              "avaritia:crystal_wind_charge",
+              "avaritia:infinity_bottle",
+              "avaritia:infinity_book",
+              "avaritia:infinity_shears",
+              "avaritia:endest_pearl",
+              "avaritia:infinity_shield",
+              "avaritia:infinity_umbrella"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "avaritia:infinity_totem",
+              "name": "avaritia:itemGroup.name.gadgets"
+            },
+            "items": [
+              "avaritia:infinity_totem",
+              "avaritia:portable_blaze_burner",
+              "avaritia:neutronium_mobile",
+              "avaritia:neutron_ring",
+              "avaritia:infinity_ring"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "avaritia:infinity_mace",
+              "name": "avaritia:itemGroup.name.maces"
+            },
+            "items": [
+              "avaritia:infinity_mace",
+              "avaritia:neutronium_mace"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

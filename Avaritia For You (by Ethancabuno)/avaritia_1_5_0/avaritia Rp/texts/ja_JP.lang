@@ -1,0 +1,216 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=ニュートロニウムのブロック
+crystal_matrix_block.name=クリスタルマトリックスのブロック
+infinity_block.name=無限のブロック
+dire_crafting_table.name=ダイアクラフティングテーブル
+neutronium_compressor.name=ニュートロニウム圧縮機
+record_furnace.name=レコード炉
+neutron_collector.name=ニュートロンコレクター
+cosmic_collector.name=コズミックスターコレクター
+compressed_crafting_table.name=圧縮クラフティングテーブル
+double_compressed_crafting_table.name=ダブル圧縮クラフティングテーブル
+
+## Equipments
+infinity_sword.name=宇宙の剣
+infinity_axe.name=自然の遺跡
+infinity_pickaxe.name=ワールドブレイカー
+infinity_shovel.name=プラネットイーター
+infinity_hoe.name=緑の大地の鍬
+infinity_bow.name=天界のロングボウ
+infinity_helmet.name=無限のヘルメット
+infinity_chestplate.name=無限の胸当て
+infinity_leggings.name=無限のパンツ
+infinity_boots.name=無限のブーツ
+skullfire_sword.name=スカルファイアソード
+infinity_mace.name=無限のメイス
+attribute.mace_smash=§5グラビトンスマッシュ §7- 落下ダメージ：落下1ブロックにつき100 x 32、上限なし§f
+attribute.mace_hit=§7攻撃：対象を20秒間拘束し、周囲のモブを引き寄せる§f
+attribute.mace_vortex=§7使用：ブラックホールの渦（13ブロック） §8- §7無制限、クールダウン0.7秒§f
+
+## Items
+matter_cluster.name=物質クラスター
+asgardandelion.name=アスガルデンデリオン
+starfuel.name=スターフューエル
+endest_pearl.name=エンデストパール
+infinity_ingot.name=無限のインゴット
+infinity_nugget.name=無限のナゲット
+infinity_catalyst.name=無限の触媒
+crystal_matrix.name=クリスタルマトリックスインゴット
+diamond_lattice.name=ダイヤモンド格子
+neutronium_ingot.name=ニュートロニウムインゴット
+neutronium_nugget.name=ニュートロニウムナゲット
+neutronium_gear.name=ニュートロニウムギア
+neutronium_star.name=ニュートロニウムスター
+pile_of_neutrons.name=中性子の塊
+record_fragment.name=レコードのかけら
+cosmic_meatballs.name=コズミックミートボール
+ultimate_stew.name=究極のシチュー
+
+## Singularities
+ultimate_singularity.name=究極の特異点
+redstone_singularity.name=レッドストーンの特異点
+quartz_singularity.name=クォーツの特異点
+obsidian_singularity.name=黒曜石の特異点
+lapis_singularity.name=ラピスの特異点
+netherite_singularity.name=ネザライトの特異点
+amethyst_singularity.name=アメジストの特異点
+coal_singularity.name=石炭の特異点
+diamond_singularity.name=ダイヤモンドの特異点
+emerald_singularity.name=エメラルドの特異点
+experience_singularity.name=経験値の特異点
+gold_singularity.name=金の特異点
+iron_singularity.name=鉄の特異点
+copper_singularity.name=銅の特異点
+slime_singularity.name=スライムの特異点
+soul_sand_singularity.name=ソウルサンドの特異点
+honey_singularity.name=蜂蜜の特異点
+
+## Atributes
+attribute.infinity_damade=§7ダメージ§c+∞§f
+attribute.tree_capitator=§7木こり§f
+attribute.super_plow=§7スーパープラウ§f
+attribute.fly=§7飛行§f
+attribute.collect_skull=§7ウィザースカルの収集§f
+attribute.attack_radius=§9攻撃半径§f
+attribute.protection=§9保護§f
+attribute.movement_speed=§9移動速度§f
+attribute.knockback_resistance=§9ノックバック耐性§f
+
+## Messages
+message.avaritia.missing_ingredients=材料が不足しています！
+message.avaritia.confirm_recipe=このアイテムを作成しますか？
+message.avaritia.neutron=あなたは集めました：
+message.avaritia.neutron2=待ってください！ まだあります：
+message.avaritia.no_players_available=利用可能なプレーヤーがいません。
+message.avaritia.remove_coordinates=座標が削除されました!
+message.avaritia.no_coordinates_saved=保存された座標はありません。
+message.avaritia.is_not_coordinated=無効な文字が含まれています。もう一度お試しください。
+message.avaritia.coordinates_saved=座標を保存しました!
+message.avaritia.invalid_name=無効または既存の名前です。
+
+## Modes
+mode.desactive=非アクティブ
+mode.active=アクティブ
+mode.avaritia.intangible_mode=無形性
+mode.avaritia.magnetic=磁気
+
+## Warning
+avaritia.equip_the_helmet=インフィニティのヘルメットを装備してください。
+avaritia.equip_the_chestplate=インフィニティのブレストプレートを装備してください。
+avaritia.equip_the_leggings=インフィニティのパンツを装備してください。
+avaritia.equip_the_armor=インフィニティのアーマーを装備してください。
+
+## Containers
+gui.avaritia.extract_all=すべて抽出
+gui.avaritia.delete=すべて削除
+gui.collect=抽出
+extreme.avaritia.infinityItems=無限のアイテム
+extreme.avaritia.machines=機械
+extreme.avaritia.otherItems=その他のアイテム
+avaritia.ingredients=材料
+avaritia.amount=額
+container.extreme_crafting=エクストリームクラフティング
+container.extreme_compression=エクストリーム圧縮
+container.compressor.description=特異点を作成します！
+itemUi.avaritia.teleport_to_player=どの選手を訪問しますか?
+itemUi.avaritia.remove_coordinates=座標を削除
+itemUi.avaritia.choose_teleport=目的地を選択してください。
+itemUi.avaritia.save_coordinates=座標を保存
+itemUi.avaritia.save_coordinates.via_text=テキストで座標を保存
+itemUi.avaritia.name_coordinate=この座標に名前を付ける
+itemUi.avaritia.coordinates=座標を記入する
+itemUi.avaritia.name_example=例: 家、森、鉱山...
+
+## Extra
+avaritia.not_kill=§cこの個体は不死身です、剣で倒すことはできません
+entity.avaritia:heaven_arrow.name=§eヘブンアロー§f
+entity.avaritia:heaven_arrow.rain.name=§eヘブンアロー§f
+entity.avaritia:black_hole.name=§eブラックホール§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=エクストリームクラフティング祭壇
+action.interact.altar=9x9クラフティングテーブルを開く
+avaritia:itemGroup.name.infinity_mace=§d無限のメイス
+entity.avaritia:heaven_arrow_rain.name=§eヘブンアロー§f
+gacha_machine.name=ガチャマシン
+infinity_scythe.name=無限の大鎌
+attribute.scythe_reaper=§5ソウルリーパー §7- 疫病と出血§f
+attribute.scythe_growth=§7キルするたびにダメージが永続的に増加 §8- §7被害者の最大HP × ヒット数²、上限なし、アイテムに保存§f
+infinity_spear.name=無限の槍
+attribute.spear_lunge=§5コズミックランジ §7- 最大体力のランダム%§f
+infinity_shield.name=無限の盾
+attribute.shield_bulwark=§5コズミックバルワーク §7- すべてを防いで反射、スニーク中に離す＝ノヴァバースト§f
+tile.avaritia:infinity_shield.name=無限の盾
+infinity_trident.name=無限のトライデント
+attribute.trident_storm=§5スペクトラルアーマリー §7- タップ＝霊のトライデントを召喚/指示、スニーク中に離す＝激流§f
+entity.avaritia:infinity_trident_thrown.name=無限のトライデント
+infinity_crossbow.name=無限のクロスボウ
+attribute.crossbow_barrage=§5ラピッドバラージ §7- 弾薬無限、スニーク射撃＝エネルギービーム＆収束ビーム§f
+entity.avaritia:infinity_crossbow_arrow.name=無限の矢
+entity.avaritia:infinity_trident_spirit.name=霊のトライデント
+
+## Infinity Utility
+infinity_totem.name=永遠の再生のトーテム
+infinity_fishing_rod.name=果てなき海の釣り竿
+infinity_shears.name=機織りのハサミ
+infinity_bucket.name=虚空のバケツ
+infinity_flint_and_steel.name=創造の火花
+attribute.totem_eternal=§7決して壊れない §8- §7致死ダメージから身を守る§f
+attribute.rod_endless=§7水に投げる §8- §7即時に釣れる＋経験値§f
+attribute.shears_loom=§7あらゆるものを刈る §8- §7葉・羊毛・クモの巣がそのままドロップ§f
+attribute.bucket_void=§7Sneak+Use = Water / Lava / Suck §8- §7Infinite§f
+attribute.spark_creation=§7ブロック、TNT、クリーパーに点火 §8- §7決して壊れない§f
+
+## Infinity Totems
+infinity_totem_tide.name=潮のトーテム
+infinity_totem_ender.name=エンダーのトーテム
+infinity_totem_fortune.name=幸運のトーテム
+infinity_totem_berserker.name=狂戦士のトーテム
+infinity_totem_vitality.name=生命力のトーテム
+infinity_totem_gale.name=疾風のトーテム
+infinity_totem_mercy.name=慈悲のトーテム
+infinity_totem_clairvoyance.name=千里眼のトーテム
+infinity_totem_inferno.name=業火のトーテム
+infinity_totem_shadow.name=影のトーテム
+infinity_totem_frost.name=霜のトーテム
+infinity_totem_void.name=虚空のトーテム
+attribute.totem_tide=§7持つ：水中呼吸、高速水泳、コンジットパワー§f
+attribute.totem_ender=§7使用：最大64ブロック先へワープ §8- §7クールダウン1秒§f
+attribute.totem_fortune=§7持つ：採掘速度上昇IV、幸運III §8- §7キルで追加の経験値をドロップ§f
+attribute.totem_berserker=§7持つ：攻撃力上昇IV、移動速度上昇II、耐性 §8- §7キルで回復し吸収を付与§f
+attribute.totem_vitality=§7持つ：体力+10ハート、再生III、満腹度回復§f
+attribute.totem_gale=§7持つ：移動速度上昇IV、跳躍力上昇V §8- §7落下ダメージなし§f
+attribute.totem_mercy=§7持つ：自分と味方への回復オーラ（24ブロック）§f
+attribute.totem_clairvoyance=§7持つ：暗視、幸運 §8- §7敵対モブを可視化（48ブロック）§f
+attribute.totem_inferno=§7持つ：火炎耐性、攻撃力上昇II §8- §7攻撃者と周囲の敵対モブが燃える§f
+attribute.totem_shadow=§7持つ：透明化、移動速度上昇II、暗視 §8- §7回避率30%§f
+attribute.totem_frost=§7持つ：耐性II、火炎耐性 §8- §7敵対モブを鈍化・弱体化（16ブロック）§f
+attribute.totem_void=§7持つ：奈落と落下からの保護 §8- §7安全な地面に戻す§f
+infinity_destroyer.name=無限の破壊者
+infinity_hammer.name=無限のハンマー
+avaritia_biome_compass.name=バイオームコンパス
+attribute.biome_compass=§7使用：バイオームを選ぶ §8- §7最寄りの場所を指す§f
+infinity_chest.name=無限のチェスト
+infinity_chest.title=無限のチェスト
+
+## Neon Halo Armor
+item.halo:neon_helmet=ネオンハローのヘルメット
+item.halo:neon_chestplate=ネオンハローのチェストプレート
+item.halo:neon_leggings=ネオンハローのレギンス
+item.halo:neon_boots=ネオンハローのブーツ
+seal_orb.name=封印の宝珠
+seal_orb_full.name=封印の宝珠
+seal_orb.desc=生物を封印：右クリックで封印、もう一度使うと解放
+
+itemUi.avaritia.coordinates_example=例: 100 50 200
+item.halo:neon_crystal=ネオンクリスタル
+neon_crystal.name=ネオンクリスタル
+glowstone_singularity.name=グロウストーンの特異点
+prismarine_singularity.name=プリズマリンの特異点
+end_stone_singularity.name=エンドストーンの特異点
+magma_singularity.name=マグマの特異点
+bone_singularity.name=骨の特異点
+ice_singularity.name=氷の特異点
+netherrack_singularity.name=ネザーラックの特異点

@@ -1,0 +1,241 @@
+{
+  "namespace": "avaritia",
+  "compressed_hidden_slot_bg": {
+    "type": "panel",
+    "controls": [
+      {
+        "bg": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "compressed_cell": {
+    "type": "panel",
+    "$size|default": [
+      18,
+      18
+    ],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [
+      16,
+      16
+    ],
+    "$background_images|default": "avaritia.compressed_hidden_slot_bg",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "compressed_output_cell": {
+    "type": "panel",
+    "$size|default": [
+      24,
+      24
+    ],
+    "size": "$size",
+    "$item_collection_name|default": "container_items",
+    "$cell_overlay_ref|default": "common.cell_overlay",
+    "$item_renderer_size|default": [
+      16,
+      16
+    ],
+    "$background_images|default": "avaritia.compressed_hidden_slot_bg",
+    "$background_image_control_name|default": "bg",
+    "controls": [
+      {
+        "item@common.container_item": {
+          "size": "$size",
+          "$cell_image_size|default": "$size",
+          "$item_renderer_panel_size|default": "$size"
+        }
+      }
+    ]
+  },
+  "compressed_output_slot": {
+    "type": "collection_panel",
+    "collection_name": "container_items",
+    "$collection_index|default": 25,
+    "size": [
+      24,
+      24
+    ],
+    "controls": [
+      {
+        "cell@avaritia.compressed_output_cell": {
+          "collection_index": "$collection_index",
+          "size": [
+            24,
+            24
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  "compressed_craft_machine": {
+    "type": "panel",
+    "size": [
+      176,
+      120
+    ],
+    "controls": [
+      {
+        "compressed_grid": {
+          "type": "grid",
+          "grid_dimensions": [
+            5,
+            5
+          ],
+          "collection_name": "container_items",
+          "grid_item_template": "avaritia.compressed_cell",
+          "size": [
+            90,
+            90
+          ],
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            13,
+            17
+          ]
+        }
+      },
+      {
+        "output@avaritia.compressed_output_slot": {
+          "size": [
+            24,
+            24
+          ],
+          "layer": 6,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            138,
+            50
+          ],
+          "$collection_index": 25
+        }
+      }
+    ]
+  },
+  "compressed_craft_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [
+            176,
+            206
+          ],
+          "controls": [
+            {
+              "gui_art": {
+                "type": "image",
+                "texture": "textures/ui/nether_crafting_table_gui",
+                "size": [
+                  176,
+                  206
+                ],
+                "layer": 2,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "machine@avaritia.compressed_craft_machine": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_area": {
+                      "type": "panel",
+                      "size": [
+                        176,
+                        206
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        0,
+                        -1
+                      ],
+                      "controls": [
+                        {
+                          "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                        },
+                        {
+                          "hotbar_grid@common.hotbar_grid_template": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  },
+                  {
+                    "flying_item_renderer@common.flying_item_renderer": {
+                      "layer": 15
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            },
+            {
+              "avaritia_close_layer@avaritia_close.close_layer": {
+                "$frame_size": [
+                  176,
+                  206
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

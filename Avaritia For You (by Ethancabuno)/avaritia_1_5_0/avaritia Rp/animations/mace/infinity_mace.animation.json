@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.infinity_mace.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "scale": "c.is_first_person ?  1.13 : 1",
+          "position": [
+            "c.is_first_person ? 5 : 0.55",
+            "c.is_first_person ? -12 : -12.5",
+            "c.is_first_person ? -3 : -8.9"
+          ],
+          "rotation": [
+            "c.is_first_person ? 235 : 6.5",
+            "c.is_first_person ? -66 : 180",
+            "c.is_first_person ? 100 : -3.5"
+          ]
+        }
+      }
+    }
+  }
+}

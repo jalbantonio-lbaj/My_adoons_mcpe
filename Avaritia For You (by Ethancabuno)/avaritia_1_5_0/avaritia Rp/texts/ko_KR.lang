@@ -1,0 +1,216 @@
+addon.avaritia=§o§9Avaritia MCPE§r§7
+
+## Blocks
+neutronium_block.name=중성자 블록
+crystal_matrix_block.name=수정 매트릭스 블록
+infinity_block.name=무한의 블록
+dire_crafting_table.name=불굴의 제작 테이블
+neutronium_compressor.name=중성자 압축기
+record_furnace.name=레코드 용광로
+neutron_collector.name=중성자 수집기
+cosmic_collector.name=우주 별 수집기
+compressed_crafting_table.name=압축 제작 테이블
+double_compressed_crafting_table.name=이중 압축 제작 테이블
+
+## Equipments
+infinity_sword.name=우주의 검
+infinity_axe.name=자연의 유적
+infinity_pickaxe.name=세계 파괴자
+infinity_shovel.name=행성 섭취자
+infinity_hoe.name=녹색 대지의 괭이
+infinity_bow.name=하늘의 장궁
+infinity_helmet.name=무한 투구
+infinity_chestplate.name=무한 흉갑
+infinity_leggings.name=무한 바지
+infinity_boots.name=무한 부츠
+skullfire_sword.name=해골 불 검
+infinity_mace.name=무한의 철퇴
+attribute.mace_smash=§5그라비톤 스매시 §7- 낙하 피해: 떨어진 블록당 100 x 32, 상한 없음§f
+attribute.mace_hit=§7타격: 대상을 20초간 속박하고 주변 몹을 끌어당김§f
+attribute.mace_vortex=§7사용: 블랙홀 소용돌이 (13블록) §8- §7무제한, 재사용 대기시간 0.7초§f
+
+## Items
+matter_cluster.name=물질 클러스터
+asgardandelion.name=아스가르 덴델리온
+starfuel.name=별 연료
+endest_pearl.name=엔데스트 진주
+infinity_ingot.name=무한 주괴
+infinity_nugget.name=무한 파편
+infinity_catalyst.name=무한 촉매
+crystal_matrix.name=수정 매트릭스 주괴
+diamond_lattice.name=다이아몬드 격자
+neutronium_ingot.name=중성자 주괴
+neutronium_nugget.name=중성자 파편
+neutronium_gear.name=중성자 기어
+neutronium_star.name=중성자 별
+pile_of_neutrons.name=중성자 더미
+record_fragment.name=기록 조각
+cosmic_meatballs.name=우주 고기볼
+ultimate_stew.name=궁극의 스튜
+
+## Singularities
+ultimate_singularity.name=궁극의 특이점
+redstone_singularity.name=레드스톤 특이점
+quartz_singularity.name=석영 특이점
+obsidian_singularity.name=흑요석 특이점
+lapis_singularity.name=청금석 특이점
+netherite_singularity.name=네더라이트 특이점
+amethyst_singularity.name=자수정 특이점
+coal_singularity.name=석탄 특이점
+diamond_singularity.name=다이아몬드 특이점
+emerald_singularity.name=에메랄드 특이점
+experience_singularity.name=경험치 특이점
+gold_singularity.name=금 특이점
+iron_singularity.name=철 특이점
+copper_singularity.name=구리 특이점
+slime_singularity.name=슬라임 특이점
+soul_sand_singularity.name=영혼의 모래 특이점
+honey_singularity.name=꿀 특이점
+
+## Atributes
+attribute.infinity_damade=§7데미지 §c+∞§f
+attribute.tree_capitator=§7나무 제작기§f
+attribute.super_plow=§7슈퍼 플로우§f
+attribute.fly=§7비행§f
+attribute.collect_skull=§7위더 해골 수집§f
+attribute.attack_radius=§9공격 범위§f
+attribute.protection=§9보호§f
+attribute.movement_speed=§9이동 속도§f
+attribute.knockback_resistance=§9넉백 저항§f
+
+## Messages
+message.avaritia.missing_ingredients=재료 부족!
+message.avaritia.confirm_recipe=이 아이템을 생성하시겠습니까?
+message.avaritia.neutron=수집하였습니다:
+message.avaritia.neutron2=기다리다! 너는 아직 가지고있다:
+message.avaritia.no_players_available=이용 가능한 플레이어가 없습니다
+message.avaritia.remove_coordinates=좌표가 삭제되었습니다!
+message.avaritia.no_coordinates_saved=저장된 좌표가 없습니다
+message.avaritia.is_not_coordinated=잘못된 문자가 있습니다. 다시 시도해 주세요
+message.avaritia.coordinates_saved=좌표가 저장되었습니다!
+message.avaritia.invalid_name=잘못된 이름이거나 이미 존재하는 이름입니다
+
+## Modes
+mode.desactive=비활성화
+mode.active=활성화
+mode.avaritia.intangible_mode=만져서 알 수 없음
+mode.avaritia.magnetic=자기
+
+## Warning
+avaritia.equip_the_helmet=무한 헬멧을 착용하세요
+avaritia.equip_the_chestplate=무한 흉갑을 착용하세요
+avaritia.equip_the_leggings=무한 바지를 착용하세요
+avaritia.equip_the_armor=무한 갑옷을 착용하세요
+
+## Containers
+gui.avaritia.extract_all=모두 추출
+gui.avaritia.delete=모두 삭제
+gui.collect=추출
+extreme.avaritia.infinityItems=무한 아이템
+extreme.avaritia.machines=기계
+extreme.avaritia.otherItems=기타 아이템
+avaritia.ingredients=재료
+avaritia.amount=양
+container.extreme_crafting=극한 제작
+container.extreme_compression=극한 압축
+container.compressor.description=특이점을 만드세요!
+itemUi.avaritia.teleport_to_player=어떤 플레이어를 방문해야 할까?
+itemUi.avaritia.remove_coordinates=좌표 제거
+itemUi.avaritia.choose_teleport=목적지를 선택하세요
+itemUi.avaritia.save_coordinates=좌표 저장
+itemUi.avaritia.save_coordinates.via_text=텍스트를 통해 좌표 저장
+itemUi.avaritia.name_coordinate=이 좌표의 이름을 지정하세요
+itemUi.avaritia.coordinates=좌표를 쓰세요
+itemUi.avaritia.name_example=예: 집, 숲, 광산
+
+## Extra
+avaritia.not_kill=§c이 개체는 불멸입니다. 검으로 죽일 수 없습니다
+entity.avaritia:heaven_arrow.name=§e천국의 화살§f
+entity.avaritia:heaven_arrow.rain.name=§e천국의 화살§f
+entity.avaritia:black_hole.name=§e블랙 홀§f
+
+## Extreme Crafting (from v9)
+entity.avaritia:altar.name=익스트림 제작 제단
+action.interact.altar=9x9 제작대 열기
+avaritia:itemGroup.name.infinity_mace=§d무한의 철퇴
+entity.avaritia:heaven_arrow_rain.name=§e천국의 화살§f
+gacha_machine.name=가챠 머신
+infinity_scythe.name=무한의 낫
+attribute.scythe_reaper=§5영혼 수확자 §7- 역병 및 출혈§f
+attribute.scythe_growth=§7처치할 때마다 피해가 영구적으로 증가 §8- §7피해자 최대 체력 x 타격 횟수², 상한 없음, 아이템에 저장§f
+infinity_spear.name=무한의 창
+attribute.spear_lunge=§5우주 돌진 §7- 최대 체력의 무작위 %§f
+infinity_shield.name=무한의 방패
+attribute.shield_bulwark=§5우주의 보루 §7- 모든 것을 막고 반사; 웅크린 채 놓기 = 노바 폭발§f
+tile.avaritia:infinity_shield.name=무한의 방패
+infinity_trident.name=무한의 삼지창
+attribute.trident_storm=§5유령 무기고 §7- 탭 = 영혼 삼지창 소환/명령, 웅크린 채 놓기 = 급류§f
+entity.avaritia:infinity_trident_thrown.name=무한의 삼지창
+infinity_crossbow.name=무한의 쇠뇌
+attribute.crossbow_barrage=§5신속 연사 §7- 무한 탄약, 웅크린 채 발사 = 에너지 광선 및 수렴 광선§f
+entity.avaritia:infinity_crossbow_arrow.name=무한의 화살
+entity.avaritia:infinity_trident_spirit.name=영혼 삼지창
+
+## Infinity Utility
+infinity_totem.name=영원한 환생의 토템
+infinity_fishing_rod.name=끝없는 바다의 낚싯대
+infinity_shears.name=베틀의 가위
+infinity_bucket.name=공허의 양동이
+infinity_flint_and_steel.name=창조의 불꽃
+attribute.totem_eternal=§7절대 부서지지 않음 §8- §7치명적인 피해로부터 보호§f
+attribute.rod_endless=§7물에 던지기 §8- §7즉시 낚음 + 경험치§f
+attribute.shears_loom=§7모든 것을 깎음 §8- §7잎, 양털, 거미줄이 온전하게 드롭§f
+attribute.bucket_void=§7Sneak+Use = Water / Lava / Suck §8- §7Infinite§f
+attribute.spark_creation=§7블록, TNT, 크리퍼 점화 §8- §7절대 부서지지 않음§f
+
+## Infinity Totems
+infinity_totem_tide.name=파도의 토템
+infinity_totem_ender.name=엔더의 토템
+infinity_totem_fortune.name=행운의 토템
+infinity_totem_berserker.name=광전사의 토템
+infinity_totem_vitality.name=생명력의 토템
+infinity_totem_gale.name=질풍의 토템
+infinity_totem_mercy.name=자비의 토템
+infinity_totem_clairvoyance.name=천리안의 토템
+infinity_totem_inferno.name=지옥불의 토템
+infinity_totem_shadow.name=그림자의 토템
+infinity_totem_frost.name=서리의 토템
+infinity_totem_void.name=공허의 토템
+attribute.totem_tide=§7들고 있기: 수중 호흡, 빠른 수영, 전달체의 힘§f
+attribute.totem_ender=§7사용: 최대 64블록 순간이동 §8- §7재사용 대기시간 1초§f
+attribute.totem_fortune=§7들고 있기: 성급함 IV, 행운 III §8- §7처치 시 추가 경험치 드롭§f
+attribute.totem_berserker=§7들고 있기: 힘 IV, 신속 II, 저항 §8- §7처치 시 회복 및 흡수 부여§f
+attribute.totem_vitality=§7들고 있기: 체력 +10칸, 재생 III, 포화§f
+attribute.totem_gale=§7들고 있기: 신속 IV, 점프 강화 V §8- §7낙하 피해 없음§f
+attribute.totem_mercy=§7들고 있기: 자신과 아군에게 치유 오라 (24블록)§f
+attribute.totem_clairvoyance=§7들고 있기: 야간 투시, 행운 §8- §7적대적 몹 표시 (48블록)§f
+attribute.totem_inferno=§7들고 있기: 화염 면역, 힘 II §8- §7공격자와 주변 적대적 몹이 불탐§f
+attribute.totem_shadow=§7들고 있기: 투명화, 신속 II, 야간 투시 §8- §7회피 확률 30%§f
+attribute.totem_frost=§7들고 있기: 저항 II, 화염 저항 §8- §7적대적 몹을 둔화 및 약화 (16블록)§f
+attribute.totem_void=§7들고 있기: 공허 및 낙하 보호 §8- §7안전한 지면으로 되돌림§f
+infinity_destroyer.name=무한의 파괴자
+infinity_hammer.name=무한의 망치
+avaritia_biome_compass.name=바이옴 나침반
+attribute.biome_compass=§7사용: 바이옴 선택 §8- §7가장 가까운 곳을 가리킴§f
+infinity_chest.name=무한의 상자
+infinity_chest.title=무한의 상자
+
+## Neon Halo Armor
+item.halo:neon_helmet=네온 헤일로 투구
+item.halo:neon_chestplate=네온 헤일로 흉갑
+item.halo:neon_leggings=네온 헤일로 레깅스
+item.halo:neon_boots=네온 헤일로 부츠
+seal_orb.name=봉인의 구슬
+seal_orb_full.name=봉인의 구슬
+seal_orb.desc=생물 봉인: 우클릭으로 봉인, 다시 사용하면 해방
+
+itemUi.avaritia.coordinates_example=예: 100 50 200
+item.halo:neon_crystal=네온 크리스탈
+neon_crystal.name=네온 크리스탈
+glowstone_singularity.name=발광석 특이점
+prismarine_singularity.name=프리즈머린 특이점
+end_stone_singularity.name=엔드 스톤 특이점
+magma_singularity.name=마그마 특이점
+bone_singularity.name=뼈 특이점
+ice_singularity.name=얼음 특이점
+netherrack_singularity.name=네더랙 특이점

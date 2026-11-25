@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.avaritia.sword_cut_left": {
+      "loop": false,
+      "animation_length": 0.25,
+      "timeline": {
+        "0.0": ["v.avsw_skill_cut = 1;"],
+        "0.2": ["v.avsw_skill_cut = 0;"]
+      }
+    },
+    "animation.avaritia.sword_cut_right": {
+      "loop": false,
+      "animation_length": 0.25,
+      "timeline": {
+        "0.0": ["v.avsw_skill_cut = 2;"],
+        "0.2": ["v.avsw_skill_cut = 0;"]
+      }
+    }
+  }
+}

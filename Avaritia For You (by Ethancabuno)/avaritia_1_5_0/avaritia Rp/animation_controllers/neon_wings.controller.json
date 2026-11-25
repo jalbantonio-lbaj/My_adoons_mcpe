@@ -1,0 +1,60 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.halo.wings": {
+      "initial_state": "folded",
+      "states": {
+        "folded": {
+          "animations": [
+            "folded"
+          ],
+          "transitions": [
+            {
+              "opening": "variable.neon_fly > 0.5"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "opening": {
+          "animations": [
+            "opening"
+          ],
+          "transitions": [
+            {
+              "closing": "variable.neon_fly < 0.5"
+            },
+            {
+              "open": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.05
+        },
+        "open": {
+          "animations": [
+            "open"
+          ],
+          "transitions": [
+            {
+              "closing": "variable.neon_fly < 0.5"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "closing": {
+          "animations": [
+            "closing"
+          ],
+          "transitions": [
+            {
+              "opening": "variable.neon_fly > 0.5"
+            },
+            {
+              "folded": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

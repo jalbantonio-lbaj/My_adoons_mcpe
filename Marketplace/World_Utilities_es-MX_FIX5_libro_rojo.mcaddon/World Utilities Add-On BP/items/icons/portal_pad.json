@@ -1,0 +1,15 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "gf_wu:portal_pad"
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "gf_wu:portal_pad",
+                "replace_block_item": true
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

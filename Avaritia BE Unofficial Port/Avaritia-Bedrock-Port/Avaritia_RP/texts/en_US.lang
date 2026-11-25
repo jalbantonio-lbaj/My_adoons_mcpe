@@ -1,0 +1,187 @@
+pack.name=Avaritia
+pack.description=A parody mod to end all mods\n\nOriginal mod by SpitefulFox & TTFTCUTS all of the credit goes to them!\n  -Original: https://www.curseforge.com/minecraft/mc-mods/avaritia
+
+//Materials
+item.avaritia:diamond_lattice=Diamond Lattice\n§7§oDense material.\n§o§9@Avaritia§r
+item.avaritia:crystal_matrix_ingot=Crystal Matrix Ingot\n§7§oThis isn't even its final form.\n§o§9@Avaritia§r
+item.avaritia:neutron_pile=Pile of Neutrons\n§7§oTry not to think about it.\n§o§9@Avaritia§r
+item.avaritia:neutronium_nugget=Neutronium Nugget\n§7§oAbout 35.6 million metric tons.\n§o§9@Avaritia§r
+item.avaritia:neutronium_ingot=Neutronium Ingot\n§7§oThe dense heart of a star in a convenient ingot form.\n§o§9@Avaritia§r
+item.avaritia:neutronium_gear=Neutronium Gear\n§7§oThe secret to engeneering the impossible.\n§o§9@Avaritia§r
+item.avaritia:infinity_catalyst=§dInfinity Catalyst\n§7§oOne is all and all is one.\n§o§9@Avaritia§r
+item.avaritia:infinity_ingot=§cInfinity Ingot\n§7§oThe fury of the universe in the palm of your hand.\n§o§9@Avaritia§r
+item.avaritia:record_fragment=Record Fragment\n§7§oOne likes to belive in the power of music~\n§o§9@Avaritia§r
+item.avaritia:starfuel=Star Fuel\n§7§oINFINITE POWER!\n§o§9@Avaritia§r
+item.avaritia:endest_pearl=Endest Pearl\n§o§7Portable Black Hole\n§9@Avaritia§r
+item.avaritia:matter_cluster=§cMatter Cluster\n§o§9@Avaritia§r
+item.avaritia:critical_matter_cluster=§cCritical Matter Cluster\n§o§9@Avaritia§r
+
+
+//Foods
+item.avaritia:cosmic_meatballs=Cosmic Meatballs\n§o§7Pretty sure it's edible.\n§9@Avaritia§r
+item.avaritia:ultimate_stew=Ultimate Stew\n§o§7Full-course meal\n§9@Avaritia§r
+
+//Singularities
+item.avaritia:singularity_iron=Iron Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_gold=Golden Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_lapis=Lapis Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_redstone=Redstone Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_quartz=Nether Quartz Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_copper=Copper Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_tin=Tin Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_lead=Lead Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_silver=Silver Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_nickel=Nickel Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_clay=Clay Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_emerald=Emerald Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_netherite=Netherite Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_diamond=Diamond Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_coal=Coal Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_steel=Steel Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_uranium=Uranium Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_titanium=Titanium Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_silicon=Silicon Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_aetherium=Aetherium Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_energized_iron= Energized Iron Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_bronze=Bronze Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_tungsten=Tungsten Singularity\n§o§9@Avaritia§r
+item.avaritia:singularity_fluxite=Fluxite Singularity\n§o§9@Avaritia§r
+
+
+//Tools and armour
+item.avaritia:skullfire_sword=Skullfire Sword\n§7§oBeheads skeletons and scorches them black.\n§o§9@Avaritia§r
+item.avaritia:world_breaker=§cWorld Breaker\n§7Fortune X§r\n§o§9@Avaritia§r
+item.avaritia:world_breaker_hammer=§cWorld Breaker\n§7Fortune X§r\n§o§9@Avaritia§r
+item.avaritia:sword_of_the_cosmos=§cSword of The Cosmos§r\n§9+ §cI§6n§ef§ai§bn§9i§dt§cy §9Attack Damage\n§o§9@Avaritia§r
+item.avaritia:planet_eater=§cPlanet Eater\n§o§9@Avaritia§r
+item.avaritia:planet_destroyer=§cPlanet Eater\n§o§9@Avaritia§r
+item.avaritia:longbow_of_the_heavens=§cLongbow of The Heavens
+item.avaritia:natures_ruin=§cNature's Ruin\n§o§9@Avaritia§r
+item.avaritia:hoe_of_the_green_earth=§cHoe of The Green Earth\n§o§9@Avaritia§r
+item.avaritia:infinity_helmet=§cInfinity Helmet\n§o§9@Avaritia§r
+item.avaritia:infinity_breastplate=§cInfinity Breastplate\n§o§9@Avaritia§r
+item.avaritia:infinity_breastplate_winged=§cInfinity Breastplate\n§o§9@Avaritia§r
+item.avaritia:infinity_pants=§cInfinity Pants\n§o§9@Avaritia§r
+item.avaritia:infinity_boots=§cInfinity Boots\n§9+SANIC% Speed\n§o§9@Avaritia§r
+
+//Blocks
+tile.avaritia:crystal_matrix_block.name=Crystal Matrix\n§7§o18 stars and a hanfull of diamonds.\n§o§9@Avaritia§r
+tile.avaritia:neutronium_block.name=Neutronium Block\n§7§oScrew gravity.\n§o§9@Avaritia§r
+tile.avaritia:infinity_block.name=§cInfinity Block\n§7§oBecause you can always have more.\n§o§9@Avaritia§r
+tile.avaritia:gaia_block.name=Gaia Block\n§o§9@Avaritia§r
+tile.avaritia:neutronium_compressor.name=Neutronium Compressor\n§7§oBlack hole machine.\n§o§9@Avaritia§r
+tile.avaritia:neutron_collector.name=Neutron Collector\n§7§oNow we play the waiting game.\n§o§9@Avaritia§r
+tile.avaritia:compressed_crafting_table.name=Compressed Crafting Table\n§7§oTake it easy.\n§o§9@Avaritia§r
+tile.avaritia:double_compressed_crafting_table.name=Double Compressed Crafting Table\n§7§oJust dont forget this one.\n§o§9@Avaritia§r
+tile.avaritia:dire_crafting_table.name=Dire Crafting Table\n§7§oThis is just the beginning.\n§o§9@Avaritia§r
+
+//Utilitycraft Upgrades
+item.avaritia:infinity_upgrade=§cInfinity Upgrade\n§7§oTechnology faster than Light itself.\n§o§9@Avaritia§r
+upgrade.avaritia:infinity_upgrade.name=§cInfinity Upgrade§r
+
+//Utilitycraft nets and meshes
+item.avaritia:infinity_fishing_net=§cInfinity Fishing Net§r\n§7§oThere's always a bigger fish.\n§o§9@Avaritia§r
+item.avaritia:infinity_mesh=§cInfinity Mesh§r\n§7§oTo sieve the Universe.\n§o§9@Avaritia§r
+
+//Entities
+entity.avaritia:neutron_collector.name=Neutron Collector
+entity.avaritia:neutronium_compressor.name=Neutronium Compressor
+entity.avaritia:extreme_craft.name=Xtreme Crafting
+entity.avaritia:endest_pearl.name=Endest Pearl
+entity.avaritia:heaven_arrow.name=Heaven Arrow
+entity.avaritia:heaven_sub_arrow.name=Heaven Arrow
+
+//UIs
+ui.avaritia:recipes_panel.name=Recipes
+ui.avaritia:recipes_panel_xtreme.name=Xtreme Recipes
+ui.avaritia:recipes_panel_compressor.name=Compressor Recipes
+ui.avaritia:machine_view.name=Xtreme Crafting
+ui.avaritia:crafting_view.name=Crafting
+
+//Groups
+itemGroup.name.avaritia_machines=Machines
+itemGroup.name.avaritia_materials=Materials
+itemGroup.name.avaritia_tables=Tables
+itemGroup.name.avaritia_equipment=Avaritia equipment
+avaritia:itemGroup.name.blocks=Blocks
+avaritia:itemGroup.name.machines=Machines
+avaritia:itemGroup.name.tables=Tables
+avaritia:itemGroup.name.materials=Materials
+avaritia:itemGroup.name.equipment=Avaritia equipment
+
+//How To Play
+
+#category
+howtoplay.category.avaritia=Avaritia
+
+#sections
+howtoplay.avaritia:introduction=Introduction
+howtoplay.avaritia:introduction.title=Avaritia: Introduction
+howtoplay.avaritia:introduction.welcome=Welcome, to §o§bAvaritia§r.\n§o§bAvaritia§r is an §eEquipment§r and §eTechnology§r Addon ported to §aMinecraft Bedrock Edition§r by §o§gQuantumMaster§r.\nMore in the Addon's §dDescription§r.
+howtoplay.avaritia:introduction.welcome2=It introduces End-Game §eEquipment§r, 2 new §cMachines§r, and a new crafting table: §bThe Dire Crafting Table§r.\nIf you came here thinking that this would be an easy Addon to complete in 1-2 months, then I'm sorry but this is not what you expected.\nGet ready to Grind as Hard as you never did before, and to wait a long time. It may seem futile, but the Rewards WILL be worth it.
+howtoplay.avaritia:introduction.headeroverview=A brief overview
+howtoplay.avaritia:introduction.overview=§o§bAvaritia§r is the perfect mod for everyone who loves actually earning their absolutely OP §eEquipment§r.\nGet ready to grind like you never did, leave your device on overnight, and struggle a lot. 
+howtoplay.avaritia:introduction.headermaterials=Materials
+howtoplay.avaritia:introduction.materials=As said before, §o§bAvaritia§r introduces §eEquipment§r, §cMachines§r, and other blocks. But it also introduces §dMaterials§r. Let's take a look at them:
+howtoplay.avaritia:introduction.materials2=In order, they are:\n - §eRecord Fragment§r: Basic crafting material.\n - §eDiamond Lattice§r: Basic crafting material and the base for:\n - §eCrystal Matrix Ingot§r: 1 of the core materials of §o§bAvaritia§r.\n - §eNeutron Pile§r: Used for foods and to make the:\n - §eNeutronium Nugget§r: Useful only to make the §dInfinity Catalyst§r and the:\n - §eNeutronium Ingot§r: The other core material of §o§bAvaritia§r.\n - §eNeutronium Gear§r: No use in the §o§bAvaritia§r Addon.\n - §eSingularity§r: Your second Nightmare and the main material for the §dInfinity Catalyst§r.\n - §eEndest Pearl§r: Portable §0Black Hole§r and material for the:\n - §dInfinity Catalyst§r: Third core material of §o§bAvaritia§r, your worst Nightmare and base material for the:\n - §cInfinity Ingot§r: Fourth core material of §o§bAvaritia§r.\n - §eUltimate Stew§r and §eCosmic Meatballs§r: Materials for the §dInfinity Catalyst§r and OP foods.\n - §eStar Fuel§r: No use in the §o§bAvaritia§r Addon.
+howtoplay.avaritia:introduction.headermachines=The Machines
+howtoplay.avaritia:introduction.machines=Next up we have the §cMachines§r. In §b§oAvaritia§r there are 2 §cMachines§r in total:
+howtoplay.avaritia:introduction.machines2=These §cMachines§r will be your best friends for most of the Playthrough:\n - §bNeutron Collector§r: It's the basic machine, creates §eNeutron Piles§r over time.\n - §bNeutronium Compressor§r: Creates singularities.
+
+
+howtoplay.avaritia:getting_started=Getting Started
+howtoplay.avaritia:getting_started.title=Avaritia: Getting Started
+howtoplay.avaritia:getting_started.header1=The Tables
+howtoplay.avaritia:getting_started.gs1=In §o§bAvaritia§r you can actually start with the addon from the moment you get your hands on §eWood§r, but to acually progress you need §bNether Stars§r. The first thing you want to do is to craft a §cCompressed Crafting Table§r, and with 9 of those you can craft a §cDouble Compressed Crafting Table§r that will be needed for the §bDire Crafting Table§r.
+howtoplay.avaritia:getting_started.header2=Crystal Matrix Ingots
+howtoplay.avaritia:getting_started.gs2=One of the core materials in this addon is the §bCrystal Matrix Ingot§r. To obtain it, you first need to farm the §4Wither§r to gather §bNether Stars§r, Craft 5 §eDiamonds§r into 1 §eDiamond Lattice§r, then craft a §cCrystal Matrix Ingot§r with 2 §bNether Stars§r and 4 §eDiamond Lattices§r.
+howtoplay.avaritia:getting_started.gs3= Once you have 8 §bcrystal Matrix Ingots§r and a §cDouble Compressed Crafting Table§r, you can finally craft the §bDire Crafting Table§r, The beginning of your journey into §o§bAvaritia§r.
+
+
+howtoplay.avaritia:extreme_crafting=Extreme Crafting
+howtoplay.avaritia:extreme_crafting.title=Avaritia: Extreme Crafting
+howtoplay.avaritia:extreme_crafting.header1=The Dire Crafting Table
+howtoplay.avaritia:extreme_crafting.ec1=The §bDire Crafting Table§r doesn't have the classic 3x3 layout. Instead, it has a §e9x9 crafting grid§r.\nEvery ultimate weapon, tool, piece of armor, machine and some materials require §bXtreme recipes§r.
+howtoplay.avaritia:extreme_crafting.ec2=If you are having problems with the recipes, you can always check the §bXtreme Recipes§r tab to see all of the available recipes.
+howtoplay.avaritia:extreme_crafting.ec3=The first thing you should craft with the §bDire Crafting Table§r are the §eNeutron Collector§r and §eNeutronium Compressor§r, which will be your first step into the world of §o§bAvaritia§r.
+
+howtoplay.avaritia:machines=Machines
+howtoplay.avaritia:machines.title=Avaritia: Machines
+howtoplay.avaritia:machines.header1=The Machines
+howtoplay.avaritia:machines.m1=Machines are essential in this Addon, §o§bAvaritia§r adds two §cMachines§r:\n - The §bNeutron Collector§r: Passively pulls §eNeutrons§r from the air, creates a §eNeutron Pile§r after about 6 minutes.\n - The §bNeutronium Compressor§r: Compresses massive quantities of blocks into §eSingularities§r.\n Let's take a look at each one oh them.
+howtoplay.avaritia:machines.header2=The Neutron Collector
+howtoplay.avaritia:machines.m2=The §bNeutron Collector§r is the first machine you will craft in §o§bAvaritia§r and also the most important. It creates §eNeutron Piles§r over time, which can be crafted into §eNeutronium Nuggets§r and §eNeutronium Ingots§r, after about 6 minutes it will give a §eNeutron Pile§r in its slot (time indicated by a bar). I suggest you place as much of them as you can, and as early as possible.
+howtoplay.avaritia:machines.header3=The Neutronium Compressor
+howtoplay.avaritia:machines.m3=The §bNeutronium Compressor§r is the second and last machine you will craft in §o§bAvaritia§r. It creates §eSingularities§r, which are the main material for the §dInfinity Catalyst§r, from a big quantity of resources. It can create singularities for most of the minerals, including minerals from other addons such as utilitycraft, the amount of resources required can vary depending on the addons in the world.
+howtoplay.avaritia:machines.m4=If you are having difficulties with the recipes, you can always check the §bCompressor Recipes§r tab to check the recipes for each singularity.
+
+howtoplay.avaritia:singularities=Singularities
+howtoplay.avaritia:singularities.title=Avaritia: Singularities
+howtoplay.avaritia:singularities.header1=The Singularities
+howtoplay.avaritia:singularities.s1=§dSingularities§r are the main resource needed for the §dInfinity Catalyst§r.\nTo make a single singularity, you must pipe thousands of blocks of a specific material (like Iron, Copper, or Gold) directly into the compressor.
+howtoplay.avaritia:singularities.s2=The amount of resources required to make a singularity varies depending on the material and addons in your world. For example, an §eIron Singularity§r requires 400 §eIron Blocks§r, while a §eNetherite Singularity§r requires 100 §eNetherite Blocks§r. However, if you have §aUtilitycraft§r or one of its extensions installed in your world, the amount of resources required to make a singularity will be increased by a multiplier.\nAmong the singularities you can make there are some that are only available and used if you have §aUtilitycraft§r or its extensions installed, like the §eSteel Singularity§r, the §eEnergized Iron Singularity§r, etc. The recipe for them will still show up in the §bCompressor Recipes§r tab, but you won't be able or need to make them if you see a black and purple texture in the input slot.
+
+howtoplay.avaritia:infinity_catalyst=Infinity Catalyst
+howtoplay.avaritia:infinity_catalyst.title=Avaritia: Infinity Catalyst
+howtoplay.avaritia:infinity_catalyst.header1=The Infinity Catalyst
+howtoplay.avaritia:infinity_catalyst.ic1=The §dInfinity Catalyst§r is your worst nightmare and first big achivement. It is the gatekeeper to the endgame items.\nTo craft a single catalyst, you need almost every item crafted so far, including §eSingularities§r. Its recipe changes depending on the addons in your world, adding singularities to the recipe. The §bXtreme Recipes§r tab will show you every singularity even if some of them , depending on the addons, will not be needed. if you cannot craft some of them, just skip them and put in their place the next singularity you are able to make.
+howtoplay.avaritia:infinity_catalyst.ic2=Once crafted, combine 11 Catalysts with §eNeutronium Ingots§r and §bCrystal Matrix Ingots§r to make the §4Infinity Ingot§r.
+
+howtoplay.avaritia:tools_and_armour=Tools and Armour
+howtoplay.avaritia:tools_and_armour.title=Avaritia: Tools and Armour
+howtoplay.avaritia:tools_and_armour.header1=Tools and Armour
+howtoplay.avaritia:tools_and_armour.ta1=Once you have enough §4Infinity Ingots§r, you can craft OP gear.\nWe can divide this gear into 3 Categories:\n - §cWeapons§r: §cSword of the Cosmos§r and §cLongbow of the Heavens§r.\n - §cTools§r: §cWorld Breaker§r, §cPlanet Eater§r, §cNature's Ruin§r, §cHoe of the Green Earth§r.\n - §cArmour§r: §cInfinity Helmet§r, §cInfinity Breastplate§r, §cInfinity Pants§r, and §cInfinity Boots§r.
+howtoplay.avaritia:tools_and_armour.ta2=Let's start with the §cWeapons§r:\n - The §cSword of the Cosmos§r is a sword that has infinite attack damage and bypasses armour EXEPT for a full set of §cInfinity Armour§r.\n - The §cLongbow of the Heavens§r is a bow that shoots without needing ammunition, its arrows do a lot of damagen and if they miss, it unleashes a barrage of arrows from above.\n - The §cSkullfire Sword§r an additional weapon which is a sword that can be used to kill skeletons and make them drop a wither skull.\n\nNow let's look at the tools:\n - The §cWorld Breaker§r is a pickaxe that can mine any pickaxe-destroyable block in the game and bedrock too, it has §aFortune X§r and can be transformed into an §cHammer§r by using §e§lSneak + Interact§r, The hammer has special abilities that i will not spoil here.\n - The §cPlanet Eater§r is a shovel that can dig any shovel-destroyable block in the game and can be transformed into a special tool by using §e§lSneak + Interact§r, this tool has special abilities that i will not spoil here.\n - The §cNature's Ruin§r is an axe that can destroy any axe-destroyable block in the game, has built-in tree capitator and has a special ability activated by using §e§lSneak + Interact§r.\n - The §cHoe of the Green Earth§r is a hoe that can till and create farmland if the conditions allow it.\n\nNow let's look at the §cArmour§r:\n - The §cInfinity Helmet§r gives you infinite hunger.\n - The §cInfinity Breastplate§r makes you immune to negative effects and allows you to fly.\n - The §cInfinity Pants§r extinguish you when you are on fire.\n - The §cInfinity Boots§r give you a movement speed, swimming speed and flight seed increase, and more jump height.\n\nWearing the full set of the §cInfinity Armour§r makes you immune to all damage EXEPT for damage from the §cSword of the Cosmos§r or from the §cLongbow of the Heavens§r.
+
+howtoplay.avaritia:utilitycraft_compatibility=Utilitycraft Compatibility
+howtoplay.avaritia:utilitycraft_compatibility.title=Avaritia: Utilitycraft Compatibility
+howtoplay.avaritia:utilitycraft_compatibility.header1=Utilitycraft Compatibility
+howtoplay.avaritia:utilitycraft_compatibility.uc1=To help ease the extreme item requirements, this addon features built-in compatibility with §aUtilitycraft§r.\nUsing specialized machinery and high-tier resource generation from Utilitycraft, you can heavily accelerate your item collection.\nBesides having built-in compatibility, §bAvaritia§r also adds new items to §aUtilitycraft§r, like the §cInfinity Upgrade§r, which greatly increase speed and efficency of Utilitycraft's machines, and the §cInfinity Fishing Net§r and §cInfinity Mesh§r, which are top-tier items.\n §bAvaritia§r also adds new recipes to §aUtilitycraft§r, like the §bStar Fuel§r wich can be used in §aUtilitycraft§r's §cStar Generator§r to generate enormous amounts of power.
+
+# [PICTURE: A visual example showing Utilitycraft pipes or systems linking into Avaritia machines]
+
+
+howtoplay.avaritia:credits=Thank You
+howtoplay.avaritia:credits.title=Avaritia: Credits
+howtoplay.avaritia:credits.hcd1=A Big Thank You To:
+howtoplay.avaritia:credits.cd1=This Project would not have been possible without these People\n§o - §4SpitefulFox & TTFTCUTS (original Creators)§f\n - §pJAUNEWEEK2021 (batman)\n§f - §bFnordyelk WC\n§f - §uKauziin_\n§f - §tAxolotlblackwhite\n§f - §l§cYou§r, Yes You. Thank you For Playing.

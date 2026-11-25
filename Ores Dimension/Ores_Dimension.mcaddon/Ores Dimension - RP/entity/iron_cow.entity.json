@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:iron_cow",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cow",
+        "cold": "cow_cold"
+      },
+      "textures": {
+        "default": "textures/entity/oredim/iron/cow__default",
+        "warm": "textures/entity/oredim/iron/cow__warm",
+        "cold": "textures/entity/oredim/iron/cow__cold",
+        "baby_default": "textures/entity/oredim/iron/cow__baby_default",
+        "baby_cold": "textures/entity/oredim/iron/cow__baby_cold",
+        "baby_warm": "textures/entity/oredim/iron/cow__baby_warm"
+      },
+      "geometry": {
+        "default": "geometry.oredim.cow_v2",
+        "baby": "geometry.oredim.cow_baby",
+        "warm": "geometry.oredim.cow_warm",
+        "cold": "geometry.oredim.cow_cold"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "pre_animation": [
+          "t.variant = query.property('minecraft:climate_variant');",
+          "v.index = (t.variant == 'temperate') ? 0 : ((t.variant == 'warm') ? 1 : 2);",
+          "v.is_cold = t.variant == 'cold';"
+        ],
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.cow.v3"
+      ],
+      "spawn_egg": {
+        "base_color": "#54443a",
+        "overlay_color": "#eee2d8"
+      }
+    }
+  }
+}

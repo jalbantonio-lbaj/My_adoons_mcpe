@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "avaritia:black_hole",
+      "materials": {
+        "default": "agent"
+      },
+      "textures": {
+        "default": "textures/misc/black"
+      },
+      "geometry": {
+        "default": "geometry.black_hole"
+      },
+      "animations": {
+        "root": "animation.black_hole"
+      },
+      "scripts": {
+        "animate": [
+          "root"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

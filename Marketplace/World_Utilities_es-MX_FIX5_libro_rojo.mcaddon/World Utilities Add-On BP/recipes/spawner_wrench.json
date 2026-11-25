@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:spawner_wrench"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"iOi",
+			" i ",
+			" i "
+		],
+		"key": {
+			"i": {
+				"item": "minecraft:iron_ingot"
+			},
+			"O": {
+				"item": "minecraft:obsidian"
+			}
+		},
+		"result": {
+			"item": "gf_wu:spawner_wrench"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		]
+	}
+}

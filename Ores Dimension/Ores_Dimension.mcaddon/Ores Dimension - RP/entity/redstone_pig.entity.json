@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "oredim:redstone_pig",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "pig_v3"
+      },
+      "textures": {
+        "default": "textures/entity/oredim/redstone/pig__default",
+        "warm": "textures/entity/oredim/redstone/pig__warm",
+        "cold": "textures/entity/oredim/redstone/pig__cold",
+        "baby_default": "textures/entity/oredim/redstone/pig__baby_default",
+        "baby_warm": "textures/entity/oredim/redstone/pig__baby_warm",
+        "baby_cold": "textures/entity/oredim/redstone/pig__baby_cold",
+        "saddle": "textures/entity/oredim/redstone/pig__saddle"
+      },
+      "geometry": {
+        "default": "geometry.oredim.pig_v3",
+        "baby": "geometry.oredim.pig_baby"
+      },
+      "animations": {
+        "setup": "animation.pig.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0",
+        "pre_animation": [
+          "t.variant = query.property('minecraft:climate_variant');",
+          "v.index = (t.variant == 'temperate') ? 0 : ((t.variant == 'warm') ? 1 : 2);"
+        ],
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.saddle",
+        "controller.render.pig.v4"
+      ],
+      "spawn_egg": {
+        "base_color": "#360404",
+        "overlay_color": "#ff4a44"
+      }
+    }
+  }
+}

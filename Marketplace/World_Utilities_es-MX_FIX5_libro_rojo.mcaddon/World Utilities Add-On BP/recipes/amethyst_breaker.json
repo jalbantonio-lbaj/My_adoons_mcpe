@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:amethyst_breaker"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"AA ",
+			"AA ",
+			" S"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "gf_wu:amethyst_breaker"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_shard"
+			}
+		]
+	}
+}

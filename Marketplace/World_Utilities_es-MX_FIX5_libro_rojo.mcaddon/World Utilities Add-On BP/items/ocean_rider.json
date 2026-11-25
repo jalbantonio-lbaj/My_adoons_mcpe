@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gf_wu:ocean_rider",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "textures": {
+          "default": "gf_wu:ocean_rider"
+        }
+      },
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

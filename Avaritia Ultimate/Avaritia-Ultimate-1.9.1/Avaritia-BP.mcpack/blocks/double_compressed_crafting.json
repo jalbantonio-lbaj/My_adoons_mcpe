@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:double_compressed_crafting_table",
+      "menu_category": {
+        "category": "construction",
+        "group": "avaritia:itemGroup.name.tables"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "double_compressed_crafting_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "double_compressed_crafting_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "double_compressed_crafting_bottom",
+          "render_method": "opaque"
+        }
+      },
+      "avaritia:double_craft_trigger": {}
+    },
+    "permutations": []
+  }
+}

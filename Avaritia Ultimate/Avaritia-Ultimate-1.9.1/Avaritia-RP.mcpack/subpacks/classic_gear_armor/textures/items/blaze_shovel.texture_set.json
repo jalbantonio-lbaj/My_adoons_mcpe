@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "blaze_shovel",
+    "metalness_emissive_roughness": "blaze_shovel_mer"
+  }
+}

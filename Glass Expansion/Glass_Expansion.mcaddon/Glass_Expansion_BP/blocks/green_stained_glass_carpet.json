@@ -1,0 +1,77 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "vge:green_stained_glass_carpet",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.carpet"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.vge.carpet",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "vge_green_stained_glass",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        },
+        "hw": {
+          "texture": "vge_green_stained_glass_hw",
+          "render_method": "blend",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty_glass.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.5
+      },
+      "minecraft:sound": {
+        "sound": "glass"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.hat"
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          1.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          1.0,
+          16.0
+        ]
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      }
+    }
+  }
+}

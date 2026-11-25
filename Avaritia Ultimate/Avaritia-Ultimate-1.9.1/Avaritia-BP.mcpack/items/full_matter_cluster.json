@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:full_matter_cluster",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:full_matter_cluster",
+        "use_on": [
+          "avaritia:full_matter_cluster"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:rarity": {
+        "value": "epic"
+      }
+    }
+  }
+}

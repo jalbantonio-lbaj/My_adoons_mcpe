@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_pants",
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.animated_item_pants",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_pants",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

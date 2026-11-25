@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "utilitycraft:glow_berries",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/glow_berries_bonsai"
+			},
+			"geometry": {
+				"default": "geometry.utilitycraft_sugarcane"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"controller": "controller.animation.utilitycraft_bonsai_dynamic",
+				"grow_dynamic": "animation.utilitycraft_bonsai.grow_dynamic"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			}
+		}
+	}
+}

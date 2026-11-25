@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "infinity_pickaxe",
+		"metalness_emissive_roughness": "infinity_pickaxe_mer",
+		"heightmap": "infinity_pickaxe_height"
+	}
+}

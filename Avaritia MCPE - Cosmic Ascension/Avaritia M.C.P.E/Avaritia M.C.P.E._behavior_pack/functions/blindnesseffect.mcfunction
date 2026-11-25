@@ -1,0 +1,1 @@
+effect @e[r=8] blindness 4 20

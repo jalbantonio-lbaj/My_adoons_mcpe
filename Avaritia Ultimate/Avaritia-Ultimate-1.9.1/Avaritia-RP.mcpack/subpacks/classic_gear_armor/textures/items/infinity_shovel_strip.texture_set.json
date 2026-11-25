@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "infinity_shovel_strip",
+    "metalness_emissive_roughness": "infinity_shovel_strip_mer"
+  }
+}

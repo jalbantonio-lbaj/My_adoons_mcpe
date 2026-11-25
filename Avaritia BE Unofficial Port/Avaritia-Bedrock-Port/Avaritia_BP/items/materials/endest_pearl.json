@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:endest_pearl",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:materials"
+      }
+    },
+    "components": {
+      "minecraft:projectile": {
+        "projectile_entity": "avaritia:endest_pearl"
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:endest_pearl",
+        "use_on": [
+          "avaritia:endest_pearl"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:rarity": "epic",
+      "avaritia:endest_pearl_use": {},
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:explodable": false
+    }
+  }
+}

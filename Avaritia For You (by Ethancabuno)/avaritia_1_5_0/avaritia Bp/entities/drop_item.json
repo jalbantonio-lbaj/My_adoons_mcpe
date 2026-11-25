@@ -1,0 +1,80 @@
+{
+  "format_version": "1.19.40",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "add:drop_item",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:health": {
+        "value": 5,
+        "max": 5
+      },
+      "minecraft:knockback_resistance": {
+        "value": 50000000,
+        "max": 0
+      },
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate"
+        ]
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 0.05,
+        "time_down_event": {
+          "event": "drop",
+          "target": "self"
+        }
+      },
+      "minecraft:inventory": {
+        "container_type": "inventory",
+        "inventory_size": 1,
+        "restrict_to_owner": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:transformation": {
+          "into": "add:despawn",
+          "drop_inventory": true,
+          "delay": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "events": {
+      "drop": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      }
+    }
+  }
+}

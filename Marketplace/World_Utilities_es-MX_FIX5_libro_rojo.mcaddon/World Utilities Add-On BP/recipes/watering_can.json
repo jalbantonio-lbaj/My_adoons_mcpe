@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gf_wu:watering_can"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"  I",
+			"II",
+			"BI"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:bucket"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "gf_wu:watering_can"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:recipe_book"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:book"
+            },
+            "B": {
+                "item": "dustveyn_ef:diamond_lattice"
+            }
+        },
+        "unlock": [
+            {
+                "item": "dustveyn_ef:crystal_matrix_ingot"
+            },
+            {
+                "item": "minecraft:book"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:recipe_book"
+        }
+    }
+}

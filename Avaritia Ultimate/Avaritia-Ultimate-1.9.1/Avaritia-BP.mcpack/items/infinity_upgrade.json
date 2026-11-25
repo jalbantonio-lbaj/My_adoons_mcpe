@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:infinity_upgrade",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "avaritia:infinity_upgrade",
+        "use_on": [
+          "avaritia:infinity_upgrade"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:glint": true,
+      "minecraft:durability": {
+        "max_durability": 16
+      }
+    }
+  }
+}

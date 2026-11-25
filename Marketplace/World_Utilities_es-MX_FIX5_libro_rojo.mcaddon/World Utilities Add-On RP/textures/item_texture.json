@@ -1,0 +1,207 @@
+{
+  "resource_pack_name": "World Utilities RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "gf_wu:end_frame_breaker": {
+      "textures": "textures/gamefam/world_utils/items/end_frame_breaker"
+    },
+    "gf_wu:explosive_pickaxe": {
+      "textures": "textures/gamefam/world_utils/items/explosive_pickaxe"
+    },
+    "gf_wu:multiblock_pickaxe": {
+      "textures": "textures/gamefam/world_utils/items/multiblock_pickaxe"
+    },
+    "gf_wu:multiblock_pickaxe_netherite": {
+      "textures": "textures/gamefam/world_utils/items/multiblock_pickaxe_netherite"
+    },
+    "gf_wu:quarry_pickaxe": {
+      "textures": "textures/gamefam/world_utils/items/quarry_pickaxe"
+    },
+    "gf_wu:quarry_pickaxe_netherite": {
+      "textures": "textures/gamefam/world_utils/items/quarry_pickaxe_netherite"
+    },
+    "gf_wu:omni_tool": {
+      "textures": "textures/gamefam/world_utils/items/omni_tool"
+    },
+    "gf_wu:omni_tool_netherite": {
+      "textures": "textures/gamefam/world_utils/items/omni_tool_netherite"
+    },
+    "gf_wu:spawner_wrench": {
+      "textures": "textures/gamefam/world_utils/items/spawner_wrench"
+    },
+    "gf_wu:tree_capitator_off": {
+      "textures": "textures/gamefam/world_utils/items/tree_capitator_off"
+    },
+    "gf_wu:tree_capitator_on": {
+      "textures": "textures/gamefam/world_utils/items/tree_capitator_on"
+    },
+    "gf_wu:vein_miner_off": {
+      "textures": "textures/gamefam/world_utils/items/vein_miner_off"
+    },
+    "gf_wu:vein_miner_on": {
+      "textures": "textures/gamefam/world_utils/items/vein_miner_on"
+    },
+    "gf_wu:void_chest": {
+      "textures": "textures/gamefam/world_utils/items/void_chest"
+    },
+    "gf_wu:guide_book": {
+      "textures": "textures/gamefam/world_utils/items/guide_book"
+    },
+    "gf_wu:harvester_hoe": {
+      "textures": "textures/gamefam/world_utils/items/harvester_hoe"
+    },
+    "gf_wu:harvester_hoe_netherite": {
+      "textures": "textures/gamefam/world_utils/items/harvester_hoe_netherite"
+    },
+    "gf_wu:safari_net": {
+      "textures": "textures/gamefam/world_utils/items/safari_net"
+    },
+    "gf_wu:stash_snatcher": {
+      "textures": "textures/gamefam/world_utils/stash_snatcher/stash_snatcher1"
+    },
+    "gf_wu:stash_snatcher_full": {
+      "textures": "textures/gamefam/world_utils/stash_snatcher/stash_snatcher2"
+    },
+    "gf_wu:ocean_rider": {
+      "textures": "textures/gamefam/world_utils/ocean_rider"
+    },
+    "gf_wu:vault": {
+      "textures": "textures/gamefam/world_utils/items/vault"
+    },
+    "gf_wu:excavator_shovel": {
+      "textures": "textures/gamefam/world_utils/items/excavator_shovel"
+    },
+    "gf_wu:excavator_shovel_netherite": {
+      "textures": "textures/gamefam/world_utils/items/excavator_shovel_netherite"
+    },
+    "gf_wu:deep_digger_shovel": {
+      "textures": "textures/gamefam/world_utils/items/deep_digger_shovel"
+    },
+    "gf_wu:deep_digger_shovel_netherite": {
+      "textures": "textures/gamefam/world_utils/items/deep_digger_netherite"
+    },
+    "gf_wu:miners_essentials_off": {
+      "textures": "textures/gamefam/world_utils/items/miners_essentials_off"
+    },
+    "gf_wu:miners_essentials_on": {
+      "textures": "textures/gamefam/world_utils/items/miners_essentials_on"
+    },
+    "gf_wu:controller": {
+      "textures": "textures/gamefam/world_utils/items/controller"
+    },
+    "gf_wu:update_book": {
+      "textures": "textures/gamefam/world_utils/items/update_book"
+    },
+    "gf_wu:death_waypoint": {
+      "textures": "textures/gamefam/world_utils/items/death_waypoint"
+    },
+    "gf_wu:homes": {
+      "textures": "textures/gamefam/world_utils/items/homes"
+    },
+    "gf_wu:chunk_borders_off": {
+      "textures": "textures/gamefam/world_utils/items/chunk_borders_off"
+    },
+    "gf_wu:chunk_borders_on": {
+      "textures": "textures/gamefam/world_utils/items/chunk_borders_on"
+    },
+    "gf_wu:bridge_builder_off": {
+      "textures": "textures/gamefam/world_utils/items/bridge_builder_off"
+    },
+    "gf_wu:bridge_builder_on": {
+      "textures": "textures/gamefam/world_utils/items/bridge_builder_on"
+    },
+    "gf_wu:miners_lantern": {
+      "textures": "textures/gamefam/world_utils/items/miners_lantern"
+    },
+    "gf_wu:magnet_off": {
+      "textures": "textures/gamefam/world_utils/items/magnet_off"
+    },
+    "gf_wu:magnet_on": {
+      "textures": "textures/gamefam/world_utils/items/magnet_on"
+    },
+    "gf_wu:experience_bottle": {
+      "textures": "textures/gamefam/world_utils/items/experience_bottle"
+    },
+    "gf_wu:experience_extractor": {
+      "textures": "textures/gamefam/world_utils/items/experience_extractor"
+    },
+    "gf_wu:chunk_minion": {
+      "textures": "textures/gamefam/world_utils/items/chunk_minion"
+    },
+    "gf_wu:lock": {
+      "textures": "textures/gamefam/world_utils/items/lock"
+    },
+    "gf_wu:fast_place_off": {
+      "textures": "textures/gamefam/world_utils/items/fast_place_off"
+    },
+    "gf_wu:fast_place_on": {
+      "textures": "textures/gamefam/world_utils/items/fast_place_on"
+    },
+    "gf_wu:grab_bag": {
+      "textures": "textures/gamefam/world_utils/items/grab_bag"
+    },
+    "gf_wu:black_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/black_grab_bag"
+    },
+    "gf_wu:blue_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/blue_grab_bag"
+    },
+    "gf_wu:cyan_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/cyan_grab_bag"
+    },
+    "gf_wu:gray_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/gray_grab_bag"
+    },
+    "gf_wu:green_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/green_grab_bag"
+    },
+    "gf_wu:light_blue_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/light_blue_grab_bag"
+    },
+    "gf_wu:light_gray_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/light_gray_grab_bag"
+    },
+    "gf_wu:lime_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/lime_grab_bag"
+    },
+    "gf_wu:magenta_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/magenta_grab_bag"
+    },
+    "gf_wu:orange_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/orange_grab_bag"
+    },
+    "gf_wu:pink_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/pink_grab_bag"
+    },
+    "gf_wu:purple_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/purple_grab_bag"
+    },
+    "gf_wu:red_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/red_grab_bag"
+    },
+    "gf_wu:white_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/white_grab_bag"
+    },
+    "gf_wu:yellow_grab_bag": {
+      "textures": "textures/gamefam/world_utils/grab_bag_item/yellow_grab_bag"
+    },
+    "gf_wu:jetpack": {
+      "textures": "textures/gamefam/world_utils/items/jetpack"
+    },
+    "gf_wu:scuba_tank": {
+      "textures": "textures/gamefam/world_utils/items/scuba_tank"
+    },
+    "gf_wu:warps": {
+      "textures": "textures/gamefam/world_utils/items/warp"
+    },
+    "gf_wu:tanning_rack": {
+      "textures": "textures/gamefam/world_utils/items/tanning_rack"
+    },
+    "gf_wu:watering_can": {
+      "textures": "textures/gamefam/world_utils/items/watering_can"
+    },
+    "gf_wu:amethyst_breaker": {
+      "textures": "textures/gamefam/world_utils/items/amethyst_breaker"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "extra_utilities:angel_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"CBC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:obsidian",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:feather",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "extra_utilities:angel_block",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

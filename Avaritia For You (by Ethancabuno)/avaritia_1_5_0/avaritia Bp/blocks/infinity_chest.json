@@ -1,0 +1,195 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "avaritia:infinity_chest",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      },
+      "states": {
+        "avaritia:fake_selection": [
+          true,
+          false
+        ],
+        "avaritia:open": [
+          false,
+          true
+        ],
+        "avaritia:anim": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infinity_chest_side",
+          "render_method": "opaque"
+        },
+        "side": {
+          "texture": "infinity_chest_side",
+          "render_method": "opaque"
+        },
+        "top": {
+          "texture": "infinity_chest_top",
+          "render_method": "opaque"
+        },
+        "front": {
+          "texture": "infinity_chest_front",
+          "render_method": "opaque"
+        },
+        "inner": {
+          "texture": "infinity_chest_inner",
+          "render_method": "opaque"
+        }
+      },
+      "tag:metal": {},
+      "tag:machine": {},
+      "tag:dorios:item": {},
+      "tag:diamond_pick_diggable": {},
+      "tag:minecraft:diamond_tier_destructible": {},
+      "avaritia:player_interact": {},
+      "avaritia:on_tick": {},
+      "minecraft:display_name": "\u00a7d%infinity_chest.name\n%addon.avaritia",
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 12
+      },
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          20
+        ],
+        "looping": true
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.infinity_chest"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:fake_selection')",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -6.5,
+              1.5,
+              -6.5
+            ],
+            "size": [
+              13,
+              13,
+              13
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:anim') == 1",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.infinity_chest_anim1"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:anim') == 2",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.infinity_chest_anim2"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:anim') == 3",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.infinity_chest_anim3"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:anim') == 4",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.infinity_chest_anim4"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('avaritia:anim') == 5",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.infinity_chest_open"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.gaping_void": {
+      "geometry": "Geometry.default",
+      "materials": [
+        { "core": "Material.default" },
+        { "event_horizon": "Material.blend" }
+      ],
+      "textures": [
+        "Texture.core",
+        "Texture.event_horizon"
+      ],
+      "is_hurt_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  }
+}

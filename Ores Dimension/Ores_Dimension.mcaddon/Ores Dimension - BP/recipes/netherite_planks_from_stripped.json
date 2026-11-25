@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "oredim:netherite_planks_from_stripped"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "oredim:netherite_stripped_log"
+      }
+    ],
+    "result": {
+      "item": "oredim:netherite_planks",
+      "count": 4
+    },
+    "unlock": [
+      {
+        "item": "oredim:netherite_stripped_log"
+      }
+    ]
+  }
+}

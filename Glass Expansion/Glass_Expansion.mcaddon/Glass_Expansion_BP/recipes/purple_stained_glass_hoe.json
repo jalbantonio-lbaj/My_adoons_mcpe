@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:purple_stained_glass_hoe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      " /",
+      " /"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:purple_stained_glass"
+      },
+      "/": {
+        "item": "vge:glass_stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:purple_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:purple_stained_glass_hoe",
+      "count": 1
+    }
+  }
+}

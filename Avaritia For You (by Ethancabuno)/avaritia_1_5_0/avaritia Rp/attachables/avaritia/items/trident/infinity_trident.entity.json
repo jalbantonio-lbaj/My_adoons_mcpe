@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_trident",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/avaritia/trident/anim/1",
+        "frame_1": "textures/avaritia/trident/anim/1",
+        "frame_2": "textures/avaritia/trident/anim/2",
+        "frame_3": "textures/avaritia/trident/anim/3",
+        "frame_4": "textures/avaritia/trident/anim/4",
+        "frame_5": "textures/avaritia/trident/anim/5",
+        "frame_6": "textures/avaritia/trident/anim/6",
+        "frame_7": "textures/avaritia/trident/anim/7",
+        "frame_8": "textures/avaritia/trident/anim/8",
+        "frame_9": "textures/avaritia/trident/anim/9",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.infinity_trident"
+      },
+      "animations": {
+        "wield": "controller.animation.avaritia_trident.wield",
+        "controller_wield_first_person": "controller.animation.avaritia_trident.first_person_wield",
+        "wield_first_person": "animation.avaritia_trident.wield_first_person",
+        "wield_first_person_raise": "animation.avaritia_trident.wield_first_person_raise",
+        "wield_first_person_raise_shake": "animation.avaritia_trident.wield_first_person_raise_shake",
+        "wield_first_person_riptide": "animation.avaritia_trident.wield_first_person_riptide",
+        "wield_third_person": "animation.avaritia_trident.wield_third_person",
+        "wield_third_person_raise": "animation.avaritia_trident.wield_third_person_raise"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);"
+        ],
+        "animate": [
+          "wield"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia_trident.infinity_item"
+      ]
+    }
+  }
+}

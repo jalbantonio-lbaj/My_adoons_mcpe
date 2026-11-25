@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:infinity_fishing_net"
+    },
+    "tags": [
+      "utilitycraft_workbench"
+    ],
+    "pattern": [
+      "NCN",
+      "MAM",
+      "NCN"
+    ],
+    "key": {
+      "A": {
+        "item": "utilitycraft:netherite_fishing_net"
+      }, "N": { "item": "avaritia:neutronium_ingot" },
+      "M": { "item": "avaritia:crystal_matrix_ingot" },
+      "C": { "item": "avaritia:infinity_catalyst" }
+    },
+    "result": [
+      {
+        "item": "avaritia:infinity_fishing_net",
+        "count": 1
+      }
+    ]
+  }
+}

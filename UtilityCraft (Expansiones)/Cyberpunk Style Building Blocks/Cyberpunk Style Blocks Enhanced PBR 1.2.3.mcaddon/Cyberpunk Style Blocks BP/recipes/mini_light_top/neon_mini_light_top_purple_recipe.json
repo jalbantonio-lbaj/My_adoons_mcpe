@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "mikeyz:neon_mini_light_top_purple"
+    },
+    "tags": ["stonecutter"],
+    "group": "neon_mini_light_top_purple",
+    "ingredients": [
+      {
+        "item": "mikeyz:neon_purple_block"
+      }
+    ],
+    "result": {
+      "item": "mikeyz:neon_mini_light_top_purple",
+      "count": 4
+    }
+  }
+}

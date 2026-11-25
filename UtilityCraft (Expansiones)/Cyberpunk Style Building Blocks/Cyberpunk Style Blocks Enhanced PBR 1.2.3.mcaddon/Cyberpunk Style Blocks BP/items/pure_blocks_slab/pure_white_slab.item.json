@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mikeyz:pure_white_slab",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "mikeyz:pure_white_slab",
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "item.mikeyz:pure_white_slab.name"
+      }
+    }
+  }
+}

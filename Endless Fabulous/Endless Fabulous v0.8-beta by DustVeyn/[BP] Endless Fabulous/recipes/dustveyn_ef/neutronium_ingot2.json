@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dustveyn_ef:neutronium_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "dustveyn_ef:neutronium_nugget"
+            }
+        },
+        "unlock": [
+            {
+                "item": "dustveyn_ef:neutronium_nugget"
+            }
+        ],
+        "result": {
+            "item": "dustveyn_ef:neutronium_ingot",
+            "count": 1
+        }
+    }
+}

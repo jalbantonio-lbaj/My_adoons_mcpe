@@ -1,0 +1,129 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "vge:glass_chest",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "is_experimental": false,
+      "properties": {
+        "vge:open": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "vge:color": {
+          "type": "int",
+          "range": [
+            0,
+            31
+          ],
+          "default": 0,
+          "client_sync": true
+        },
+        "vge:half": {
+          "type": "int",
+          "range": [
+            0,
+            2
+          ],
+          "default": 0,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "vge:single": {
+        "minecraft:inventory": {
+          "container_type": "container",
+          "inventory_size": 27
+        }
+      },
+      "vge:double": {
+        "minecraft:inventory": {
+          "container_type": "container",
+          "inventory_size": 54
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "vge:single"
+          ]
+        }
+      },
+      "vge:to_double": {
+        "remove": {
+          "component_groups": [
+            "vge:single"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "vge:double"
+          ]
+        }
+      },
+      "vge:to_single": {
+        "remove": {
+          "component_groups": [
+            "vge:double"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "vge:single"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "vge_glass_chest",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.875,
+        "height": 0.25
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 27
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:breathable": {
+        "breathes_water": true,
+        "breathes_air": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "vge:white_stained_glass_button"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:white_stained_glass"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:white_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:white_stained_glass_button",
+      "count": 1
+    }
+  }
+}

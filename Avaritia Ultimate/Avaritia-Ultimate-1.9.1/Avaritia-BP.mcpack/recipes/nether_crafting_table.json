@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "avaritia:nether_crafting_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "cbc",
+      "dad",
+      "efe"
+    ],
+    "key": {
+      "a": {
+        "item": "avaritia:dctable"
+      },
+      "b": {
+        "item": "minecraft:respawn_anchor"
+      },
+      "c": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "d": {
+        "item": "minecraft:netherrack"
+      },
+      "e": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "f": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "avaritia:compressed_crafting_table",
+      "count": 1
+    }
+  }
+}

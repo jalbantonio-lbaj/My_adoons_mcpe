@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gf_wu:quarry_pickaxe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "MMM",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "M": {
+        "item": "gf_wu:multiblock_pickaxe"
+      }
+    },
+    "result": {
+      "item": "gf_wu:quarry_pickaxe"
+    },
+    "unlock": [
+      {
+        "item": "gf_wu:multiblock_pickaxe"
+      }
+    ]
+  }
+}

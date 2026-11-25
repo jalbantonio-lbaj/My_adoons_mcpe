@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vge:cyan_stained_glass_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cyan_stained_glass"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cyan_stained_glass"
+      }
+    ],
+    "result": {
+      "item": "vge:cyan_stained_glass_slab",
+      "count": 6
+    }
+  }
+}

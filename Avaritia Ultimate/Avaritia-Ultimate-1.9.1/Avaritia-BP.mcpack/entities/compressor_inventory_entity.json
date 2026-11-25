@@ -1,0 +1,70 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:compressor_inventory_entity",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.6, "height": 0.6 },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "avaritia:compressor_holder",
+          "dorios:container"
+        ]
+      },
+      "minecraft:nameable": {
+        "always_show": false,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:inventory": {
+        "inventory_size": 4,
+        "container_type": "container",
+        "stack_size": 64
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "test": "has_tag",
+            "value": "despawn"
+          },
+          "event": "despawn"
+        }
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "air"
+            },
+            "entered_block_event": {
+              "event": "despawn"
+            }
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "no"
+        }
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+    "events": {
+      "despawn": {
+        "remove": {}
+      }
+    }
+  }
+}

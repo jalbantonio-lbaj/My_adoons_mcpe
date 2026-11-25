@@ -1,0 +1,78 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "pa_compressedcrafter": {
+      "textures": [
+        "textures/blocks/pa_compressedcrafter"
+      ]
+    },
+    "ani_pa_crystalmatrixblock": {
+      "textures": [
+        "textures/blocks/pa_crystalmatrixblock"
+      ]
+    },
+    "pa_direcrafting_up": {
+      "textures": "textures/blocks/pa_direcrafting_up"
+    },
+    "pa_direcrafting_down": {
+      "textures": "textures/blocks/pa_direcrafting_down"
+    },
+    "pa_doublecompressedcrafter": {
+      "textures": [
+        "textures/blocks/pa_doublecompressedcrafter"
+      ]
+    },
+    "pa_direcrafting_side": {
+      "textures": "textures/blocks/pa_direcrafting_side"
+    },
+    "ani_pa_infinityblock": {
+      "textures": [
+        "textures/blocks/pa_infinityblock"
+      ]
+    },
+    "pa_neutroncompressor_up": {
+      "textures": "textures/blocks/pa_neutroncompressor_up"
+    },
+    "pa_neutronblock": {
+      "textures": [
+        "textures/blocks/pa_neutronblock"
+      ]
+    },
+    "pa_neutroncompressor_down": {
+      "textures": "textures/blocks/pa_neutroncompressor_down"
+    },
+    "pa_neutroncompressor_north": {
+      "textures": "textures/blocks/pa_neutroncompressor_north"
+    },
+    "pa_neutroncompressor_south": {
+      "textures": "textures/blocks/pa_neutroncompressor_south"
+    },
+    "pa_neutroncompressor_east": {
+      "textures": "textures/blocks/pa_neutroncompressor_east"
+    },
+    "pa_neutroncompressor_west": {
+      "textures": "textures/blocks/pa_neutroncompressor_west"
+    },
+    "pa_neutroniumcollector_up": {
+      "textures": "textures/blocks/pa_neutroniumcollector_up"
+    },
+    "pa_neutroniumcollector_down": {
+      "textures": "textures/blocks/pa_neutroniumcollector_down"
+    },
+    "pa_neutroniumcollector_north": {
+      "textures": "textures/blocks/pa_neutroniumcollector_north"
+    },
+    "pa_neutroniumcollector_south": {
+      "textures": "textures/blocks/pa_neutroniumcollector_south"
+    },
+    "pa_neutroniumcollector_east": {
+      "textures": "textures/blocks/pa_neutroniumcollector_east"
+    },
+    "pa_neutroniumcollector_west": {
+      "textures": "textures/blocks/pa_neutroniumcollector_west"
+    }
+  }
+}

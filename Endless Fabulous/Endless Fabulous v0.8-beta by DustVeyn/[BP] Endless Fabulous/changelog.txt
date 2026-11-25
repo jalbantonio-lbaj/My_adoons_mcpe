@@ -1,0 +1,64 @@
+## Infinity Armor
+[Imagem da armadura]
+### Infinity Helmet
+ - Concede Visão Noturna ao equipar. (Grants Night Vision when equipped.)
+ - Concede Respiração Aquática enquanto estiver na água. (Grants Water Breathing while in water.)
+ - Imunidade aos efeitos de Cegueira e Darkness. (Immunity to the effects of Blindness and Darkness.)
+ - Ao manter o olhar em um mob ou jogador por 3 segundos, causa 3 pontos de dano ao alvo. (By keeping your gaze fixed on a mob or player for 3 seconds, you deal 3 points of damage to the target.)
+
+ ### Infinity Chestplate (É obrigatório ativar a opção Education Edition. (It is mandatory to enable the Education Edition option.))
+  - Concede a habilidade de voar ao equipar. (Grants the ability to fly when equipped.)
+  - Concede imunidade a explosões. (Grants immunity to explosions.)
+  - Concede Regeneração enquanto a vida estiver abaixo do máximo. (Grants Regeneration while health is below maximum.)
+
+### Infinity Leggings
+ - Aumenta a velocidade ao correr. (Increases running speed.)
+ - Concede Queda Lenta ao cair de grandes alturas. (Grants Slow Fall when falling from great heights.)
+ - Concede imunidade ao efeito de Lentidão. (Grants immunity to the Slowness effect.)
+
+### Infinity Boots
+ - Concede Salto Aprimorado (Jump Boost) ao equipar. (Grants Jump Boost when equipped.)
+ - Concede imunidade a danos de queda. (Grants immunity to fall damage.)
+
+### Full Armor
+ - Concede imunidade a qualquer tipo de dano. (Grants immunity to any type of damage.)
+ - Concede imunidade ao comando /kill. (Grants immunity to the /kill command.)
+
+## Infinity Tools
+[GIF das ferramentas]
+### Sword of the Death
+ - Dano Infinito. (Infinite Damage.)
+ - Mata jogadores mesmo no modo Criativo. (It kills players even in Creative mode.)
+ - Não afeta quem estiver usando a Armadura do Infinito. (It does not affect whoever is wearing the Armor of Infinity.)
+
+
+ v0.6-beta
+  - Barra mostrando a quantidade de blocos no **Neutronium Compressor** quando a interface não está sendo acessada.
+  - **Skullfire Sword** adicionada!
+  - **Black Hole** adicionando!
+  - Novos níveis para o **Neutron Collector** (Enhanced e Supreme)
+  - Ferramentas e armaduras do infinito resistentes a cactos, fogo e ao void.
+Void: ao jogar o item no vazio, ele retorna para o local onde o jogador o jogou.
+
+v0.6-beta2
+ - Remake nas texturas dos cristais, do Crystal Matrix Ingot e do Recipe Book. E ainda vem muito mais remakes por aí!
+ - Skullfire Sword aplica fogo ao mob que o atingir durante 3 segundos.
+ - Corrigido o bug em que a Espada da Morte matava as entidades da Mesa Extrema e das máquinas.
+ - Corrigido o bug em que, ao tirar o Peitoral do Infinito no modo Criativo, o jogador ficava sem conseguir voar.
+
+v0.7-beta
+ - Reality Shatterer: Quebra bedrock, quebrar tudo super rápido, modo martelo: quebra area 7x7x7 
+ - As entidades das máquinas não morrem mais com o comando /kill.
+ - Pequena melhoria na animação dos Neutron Collectors.
+ - Corrigido o Neutronium Compressor: agora, ao quebrá-lo, os blocos armazenados serão dropados.
+
+v0.8-beta
+ - Add-On 100% estável, sem a necessidade de ativar opções experimentais!
+ - Projétil da Ender Pearl aprimorado para um lançamento melhor!
+ - A receita da SkullFire Sword agora aceita todos os tipos de madeira do jogo!
+ - Ao segurar a tela com a Sword of the Death, todas as entidades em um raio de 15 blocos serão mortas.
+ - Itens do Infinito no chão em um raio de 8 blocos impedem explosões de Creepers e TNT.
+ - Itens do Infinito não são mais perdidos ao morrer.
+ - Chuva de trovões removida da Endest Pearl.
+ - Buraco Negro aprimorado.
+ - Nova display mostrando a quantidade de blocos na interface do Neutronium Compressor.

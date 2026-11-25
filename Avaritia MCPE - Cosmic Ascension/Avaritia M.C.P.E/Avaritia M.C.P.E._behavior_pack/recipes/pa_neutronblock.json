@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "neutronblock_b9146e9e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:ingotneutron",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:neutronblock",
+      "count": 1
+    }
+  }
+}

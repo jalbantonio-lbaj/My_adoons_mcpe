@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:infinity_fishing_rod_cast",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/avaritia/fishing_rod/cast",
+        "cast": "textures/avaritia/fishing_rod/cast",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.avaritia.fishing_rod"
+      },
+      "animations": {
+        "fpp": "animation.avaritia.fishing_rod.fpp"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "fpp": "c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.avaritia.fishing_rod"
+      ]
+    }
+  }
+}

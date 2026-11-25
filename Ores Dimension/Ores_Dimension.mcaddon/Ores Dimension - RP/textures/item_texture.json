@@ -1,0 +1,156 @@
+{
+  "resource_pack_name": "oredim",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "oredim_coal_wood_sword": {
+      "textures": "textures/items/oredim_coal_wood_sword"
+    },
+    "oredim_coal_wood_pickaxe": {
+      "textures": "textures/items/oredim_coal_wood_pickaxe"
+    },
+    "oredim_coal_wood_axe": {
+      "textures": "textures/items/oredim_coal_wood_axe"
+    },
+    "oredim_coal_wood_shovel": {
+      "textures": "textures/items/oredim_coal_wood_shovel"
+    },
+    "oredim_coal_wood_hoe": {
+      "textures": "textures/items/oredim_coal_wood_hoe"
+    },
+    "oredim_copper_wood_sword": {
+      "textures": "textures/items/oredim_copper_wood_sword"
+    },
+    "oredim_copper_wood_pickaxe": {
+      "textures": "textures/items/oredim_copper_wood_pickaxe"
+    },
+    "oredim_copper_wood_axe": {
+      "textures": "textures/items/oredim_copper_wood_axe"
+    },
+    "oredim_copper_wood_shovel": {
+      "textures": "textures/items/oredim_copper_wood_shovel"
+    },
+    "oredim_copper_wood_hoe": {
+      "textures": "textures/items/oredim_copper_wood_hoe"
+    },
+    "oredim_iron_wood_sword": {
+      "textures": "textures/items/oredim_iron_wood_sword"
+    },
+    "oredim_iron_wood_pickaxe": {
+      "textures": "textures/items/oredim_iron_wood_pickaxe"
+    },
+    "oredim_iron_wood_axe": {
+      "textures": "textures/items/oredim_iron_wood_axe"
+    },
+    "oredim_iron_wood_shovel": {
+      "textures": "textures/items/oredim_iron_wood_shovel"
+    },
+    "oredim_iron_wood_hoe": {
+      "textures": "textures/items/oredim_iron_wood_hoe"
+    },
+    "oredim_gold_wood_sword": {
+      "textures": "textures/items/oredim_gold_wood_sword"
+    },
+    "oredim_gold_wood_pickaxe": {
+      "textures": "textures/items/oredim_gold_wood_pickaxe"
+    },
+    "oredim_gold_wood_axe": {
+      "textures": "textures/items/oredim_gold_wood_axe"
+    },
+    "oredim_gold_wood_shovel": {
+      "textures": "textures/items/oredim_gold_wood_shovel"
+    },
+    "oredim_gold_wood_hoe": {
+      "textures": "textures/items/oredim_gold_wood_hoe"
+    },
+    "oredim_redstone_wood_sword": {
+      "textures": "textures/items/oredim_redstone_wood_sword"
+    },
+    "oredim_redstone_wood_pickaxe": {
+      "textures": "textures/items/oredim_redstone_wood_pickaxe"
+    },
+    "oredim_redstone_wood_axe": {
+      "textures": "textures/items/oredim_redstone_wood_axe"
+    },
+    "oredim_redstone_wood_shovel": {
+      "textures": "textures/items/oredim_redstone_wood_shovel"
+    },
+    "oredim_redstone_wood_hoe": {
+      "textures": "textures/items/oredim_redstone_wood_hoe"
+    },
+    "oredim_lapis_wood_sword": {
+      "textures": "textures/items/oredim_lapis_wood_sword"
+    },
+    "oredim_lapis_wood_pickaxe": {
+      "textures": "textures/items/oredim_lapis_wood_pickaxe"
+    },
+    "oredim_lapis_wood_axe": {
+      "textures": "textures/items/oredim_lapis_wood_axe"
+    },
+    "oredim_lapis_wood_shovel": {
+      "textures": "textures/items/oredim_lapis_wood_shovel"
+    },
+    "oredim_lapis_wood_hoe": {
+      "textures": "textures/items/oredim_lapis_wood_hoe"
+    },
+    "oredim_diamond_wood_sword": {
+      "textures": "textures/items/oredim_diamond_wood_sword"
+    },
+    "oredim_diamond_wood_pickaxe": {
+      "textures": "textures/items/oredim_diamond_wood_pickaxe"
+    },
+    "oredim_diamond_wood_axe": {
+      "textures": "textures/items/oredim_diamond_wood_axe"
+    },
+    "oredim_diamond_wood_shovel": {
+      "textures": "textures/items/oredim_diamond_wood_shovel"
+    },
+    "oredim_diamond_wood_hoe": {
+      "textures": "textures/items/oredim_diamond_wood_hoe"
+    },
+    "oredim_emerald_wood_sword": {
+      "textures": "textures/items/oredim_emerald_wood_sword"
+    },
+    "oredim_emerald_wood_pickaxe": {
+      "textures": "textures/items/oredim_emerald_wood_pickaxe"
+    },
+    "oredim_emerald_wood_axe": {
+      "textures": "textures/items/oredim_emerald_wood_axe"
+    },
+    "oredim_emerald_wood_shovel": {
+      "textures": "textures/items/oredim_emerald_wood_shovel"
+    },
+    "oredim_emerald_wood_hoe": {
+      "textures": "textures/items/oredim_emerald_wood_hoe"
+    },
+    "oredim_quartz_wood_sword": {
+      "textures": "textures/items/oredim_quartz_wood_sword"
+    },
+    "oredim_quartz_wood_pickaxe": {
+      "textures": "textures/items/oredim_quartz_wood_pickaxe"
+    },
+    "oredim_quartz_wood_axe": {
+      "textures": "textures/items/oredim_quartz_wood_axe"
+    },
+    "oredim_quartz_wood_shovel": {
+      "textures": "textures/items/oredim_quartz_wood_shovel"
+    },
+    "oredim_quartz_wood_hoe": {
+      "textures": "textures/items/oredim_quartz_wood_hoe"
+    },
+    "oredim_netherite_wood_sword": {
+      "textures": "textures/items/oredim_netherite_wood_sword"
+    },
+    "oredim_netherite_wood_pickaxe": {
+      "textures": "textures/items/oredim_netherite_wood_pickaxe"
+    },
+    "oredim_netherite_wood_axe": {
+      "textures": "textures/items/oredim_netherite_wood_axe"
+    },
+    "oredim_netherite_wood_shovel": {
+      "textures": "textures/items/oredim_netherite_wood_shovel"
+    },
+    "oredim_netherite_wood_hoe": {
+      "textures": "textures/items/oredim_netherite_wood_hoe"
+    }
+  }
+}

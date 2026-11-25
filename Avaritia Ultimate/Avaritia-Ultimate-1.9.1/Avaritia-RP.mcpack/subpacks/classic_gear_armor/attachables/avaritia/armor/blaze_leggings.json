@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "avaritia:blaze_leggings",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/models/armor/blaze/blaze_cube_layer_2"
+      },
+      "geometry": {
+        "default": "geometry.player.armor.leggings"
+      },
+      "render_controllers": [
+        "controller.render.armor.normal"
+      ],
+      "scripts": {
+        "parent_setup": "variable.leg_layer_visible = 0.0;"
+      }
+    }
+  }
+}

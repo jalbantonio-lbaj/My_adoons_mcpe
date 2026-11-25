@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "avaritia:cosmic_meatballs",
+      "menu_category": {
+        "category": "items",
+        "group": "avaritia:itemGroup.name.materials"
+      }
+    },
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.6
+      },
+      "minecraft:block_placer": {
+        "block": "avaritia:cosmic_meatballs",
+        "use_on": [
+          "avaritia:cosmic_meatballs"
+        ],
+        "replace_block_item": true
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation_modifier": 3.0,
+        "can_always_eat": false
+      },
+      "avaritia:on_meatballs_eaten": {},
+      "minecraft:tags": {
+        "tags": [
+          "avaritia:avaritia",
+          "ascendant:unclonnable"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:explodable": false
+    }
+  }
+}

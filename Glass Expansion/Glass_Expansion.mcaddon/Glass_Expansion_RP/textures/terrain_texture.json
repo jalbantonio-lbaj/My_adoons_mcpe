@@ -1,0 +1,440 @@
+{
+  "resource_pack_name": "glass_expansion",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "vge_glass": {
+      "textures": "textures/blocks/glass_frames"
+    },
+    "vge_white_stained_glass": {
+      "textures": "textures/blocks/white_stained_glass_frames"
+    },
+    "vge_orange_stained_glass": {
+      "textures": "textures/blocks/orange_stained_glass_frames"
+    },
+    "vge_magenta_stained_glass": {
+      "textures": "textures/blocks/magenta_stained_glass_frames"
+    },
+    "vge_light_blue_stained_glass": {
+      "textures": "textures/blocks/light_blue_stained_glass_frames"
+    },
+    "vge_yellow_stained_glass": {
+      "textures": "textures/blocks/yellow_stained_glass_frames"
+    },
+    "vge_lime_stained_glass": {
+      "textures": "textures/blocks/lime_stained_glass_frames"
+    },
+    "vge_pink_stained_glass": {
+      "textures": "textures/blocks/pink_stained_glass_frames"
+    },
+    "vge_gray_stained_glass": {
+      "textures": "textures/blocks/gray_stained_glass_frames"
+    },
+    "vge_light_gray_stained_glass": {
+      "textures": "textures/blocks/light_gray_stained_glass_frames"
+    },
+    "vge_cyan_stained_glass": {
+      "textures": "textures/blocks/cyan_stained_glass_frames"
+    },
+    "vge_purple_stained_glass": {
+      "textures": "textures/blocks/purple_stained_glass_frames"
+    },
+    "vge_blue_stained_glass": {
+      "textures": "textures/blocks/blue_stained_glass_frames"
+    },
+    "vge_brown_stained_glass": {
+      "textures": "textures/blocks/brown_stained_glass_frames"
+    },
+    "vge_green_stained_glass": {
+      "textures": "textures/blocks/green_stained_glass_frames"
+    },
+    "vge_red_stained_glass": {
+      "textures": "textures/blocks/red_stained_glass_frames"
+    },
+    "vge_black_stained_glass": {
+      "textures": "textures/blocks/black_stained_glass_frames"
+    },
+    "vge_tinted_glass": {
+      "textures": "textures/blocks/tinted_glass_frames"
+    },
+    "vge_glass_hw": {
+      "textures": "textures/blocks/glass_hw"
+    },
+    "vge_white_stained_glass_hw": {
+      "textures": "textures/blocks/white_stained_glass_hw"
+    },
+    "vge_orange_stained_glass_hw": {
+      "textures": "textures/blocks/orange_stained_glass_hw"
+    },
+    "vge_magenta_stained_glass_hw": {
+      "textures": "textures/blocks/magenta_stained_glass_hw"
+    },
+    "vge_light_blue_stained_glass_hw": {
+      "textures": "textures/blocks/light_blue_stained_glass_hw"
+    },
+    "vge_yellow_stained_glass_hw": {
+      "textures": "textures/blocks/yellow_stained_glass_hw"
+    },
+    "vge_lime_stained_glass_hw": {
+      "textures": "textures/blocks/lime_stained_glass_hw"
+    },
+    "vge_pink_stained_glass_hw": {
+      "textures": "textures/blocks/pink_stained_glass_hw"
+    },
+    "vge_gray_stained_glass_hw": {
+      "textures": "textures/blocks/gray_stained_glass_hw"
+    },
+    "vge_light_gray_stained_glass_hw": {
+      "textures": "textures/blocks/light_gray_stained_glass_hw"
+    },
+    "vge_cyan_stained_glass_hw": {
+      "textures": "textures/blocks/cyan_stained_glass_hw"
+    },
+    "vge_purple_stained_glass_hw": {
+      "textures": "textures/blocks/purple_stained_glass_hw"
+    },
+    "vge_blue_stained_glass_hw": {
+      "textures": "textures/blocks/blue_stained_glass_hw"
+    },
+    "vge_brown_stained_glass_hw": {
+      "textures": "textures/blocks/brown_stained_glass_hw"
+    },
+    "vge_green_stained_glass_hw": {
+      "textures": "textures/blocks/green_stained_glass_hw"
+    },
+    "vge_red_stained_glass_hw": {
+      "textures": "textures/blocks/red_stained_glass_hw"
+    },
+    "vge_black_stained_glass_hw": {
+      "textures": "textures/blocks/black_stained_glass_hw"
+    },
+    "vge_tinted_glass_hw": {
+      "textures": "textures/blocks/tinted_glass_hw"
+    },
+    "vge_glass_bricks": {
+      "textures": "textures/blocks/glass_bricks"
+    },
+    "vge_glass_bricks_cracked": {
+      "textures": "textures/blocks/glass_bricks_cracked"
+    },
+    "vge_glass_tiles": {
+      "textures": "textures/blocks/glass_tiles"
+    },
+    "vge_glass_tiles_cracked": {
+      "textures": "textures/blocks/glass_tiles_cracked"
+    },
+    "vge_glass_chiseled": {
+      "textures": "textures/blocks/glass_chiseled"
+    },
+    "vge_glass_polished": {
+      "textures": "textures/blocks/glass_polished"
+    },
+    "vge_white_stained_glass_bricks": {
+      "textures": "textures/blocks/white_stained_glass_bricks"
+    },
+    "vge_white_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/white_stained_glass_bricks_cracked"
+    },
+    "vge_white_stained_glass_tiles": {
+      "textures": "textures/blocks/white_stained_glass_tiles"
+    },
+    "vge_white_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/white_stained_glass_tiles_cracked"
+    },
+    "vge_white_stained_glass_chiseled": {
+      "textures": "textures/blocks/white_stained_glass_chiseled"
+    },
+    "vge_white_stained_glass_polished": {
+      "textures": "textures/blocks/white_stained_glass_polished"
+    },
+    "vge_orange_stained_glass_bricks": {
+      "textures": "textures/blocks/orange_stained_glass_bricks"
+    },
+    "vge_orange_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/orange_stained_glass_bricks_cracked"
+    },
+    "vge_orange_stained_glass_tiles": {
+      "textures": "textures/blocks/orange_stained_glass_tiles"
+    },
+    "vge_orange_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/orange_stained_glass_tiles_cracked"
+    },
+    "vge_orange_stained_glass_chiseled": {
+      "textures": "textures/blocks/orange_stained_glass_chiseled"
+    },
+    "vge_orange_stained_glass_polished": {
+      "textures": "textures/blocks/orange_stained_glass_polished"
+    },
+    "vge_magenta_stained_glass_bricks": {
+      "textures": "textures/blocks/magenta_stained_glass_bricks"
+    },
+    "vge_magenta_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/magenta_stained_glass_bricks_cracked"
+    },
+    "vge_magenta_stained_glass_tiles": {
+      "textures": "textures/blocks/magenta_stained_glass_tiles"
+    },
+    "vge_magenta_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/magenta_stained_glass_tiles_cracked"
+    },
+    "vge_magenta_stained_glass_chiseled": {
+      "textures": "textures/blocks/magenta_stained_glass_chiseled"
+    },
+    "vge_magenta_stained_glass_polished": {
+      "textures": "textures/blocks/magenta_stained_glass_polished"
+    },
+    "vge_light_blue_stained_glass_bricks": {
+      "textures": "textures/blocks/light_blue_stained_glass_bricks"
+    },
+    "vge_light_blue_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/light_blue_stained_glass_bricks_cracked"
+    },
+    "vge_light_blue_stained_glass_tiles": {
+      "textures": "textures/blocks/light_blue_stained_glass_tiles"
+    },
+    "vge_light_blue_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/light_blue_stained_glass_tiles_cracked"
+    },
+    "vge_light_blue_stained_glass_chiseled": {
+      "textures": "textures/blocks/light_blue_stained_glass_chiseled"
+    },
+    "vge_light_blue_stained_glass_polished": {
+      "textures": "textures/blocks/light_blue_stained_glass_polished"
+    },
+    "vge_yellow_stained_glass_bricks": {
+      "textures": "textures/blocks/yellow_stained_glass_bricks"
+    },
+    "vge_yellow_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/yellow_stained_glass_bricks_cracked"
+    },
+    "vge_yellow_stained_glass_tiles": {
+      "textures": "textures/blocks/yellow_stained_glass_tiles"
+    },
+    "vge_yellow_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/yellow_stained_glass_tiles_cracked"
+    },
+    "vge_yellow_stained_glass_chiseled": {
+      "textures": "textures/blocks/yellow_stained_glass_chiseled"
+    },
+    "vge_yellow_stained_glass_polished": {
+      "textures": "textures/blocks/yellow_stained_glass_polished"
+    },
+    "vge_lime_stained_glass_bricks": {
+      "textures": "textures/blocks/lime_stained_glass_bricks"
+    },
+    "vge_lime_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/lime_stained_glass_bricks_cracked"
+    },
+    "vge_lime_stained_glass_tiles": {
+      "textures": "textures/blocks/lime_stained_glass_tiles"
+    },
+    "vge_lime_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/lime_stained_glass_tiles_cracked"
+    },
+    "vge_lime_stained_glass_chiseled": {
+      "textures": "textures/blocks/lime_stained_glass_chiseled"
+    },
+    "vge_lime_stained_glass_polished": {
+      "textures": "textures/blocks/lime_stained_glass_polished"
+    },
+    "vge_pink_stained_glass_bricks": {
+      "textures": "textures/blocks/pink_stained_glass_bricks"
+    },
+    "vge_pink_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/pink_stained_glass_bricks_cracked"
+    },
+    "vge_pink_stained_glass_tiles": {
+      "textures": "textures/blocks/pink_stained_glass_tiles"
+    },
+    "vge_pink_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/pink_stained_glass_tiles_cracked"
+    },
+    "vge_pink_stained_glass_chiseled": {
+      "textures": "textures/blocks/pink_stained_glass_chiseled"
+    },
+    "vge_pink_stained_glass_polished": {
+      "textures": "textures/blocks/pink_stained_glass_polished"
+    },
+    "vge_gray_stained_glass_bricks": {
+      "textures": "textures/blocks/gray_stained_glass_bricks"
+    },
+    "vge_gray_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/gray_stained_glass_bricks_cracked"
+    },
+    "vge_gray_stained_glass_tiles": {
+      "textures": "textures/blocks/gray_stained_glass_tiles"
+    },
+    "vge_gray_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/gray_stained_glass_tiles_cracked"
+    },
+    "vge_gray_stained_glass_chiseled": {
+      "textures": "textures/blocks/gray_stained_glass_chiseled"
+    },
+    "vge_gray_stained_glass_polished": {
+      "textures": "textures/blocks/gray_stained_glass_polished"
+    },
+    "vge_light_gray_stained_glass_bricks": {
+      "textures": "textures/blocks/light_gray_stained_glass_bricks"
+    },
+    "vge_light_gray_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/light_gray_stained_glass_bricks_cracked"
+    },
+    "vge_light_gray_stained_glass_tiles": {
+      "textures": "textures/blocks/light_gray_stained_glass_tiles"
+    },
+    "vge_light_gray_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/light_gray_stained_glass_tiles_cracked"
+    },
+    "vge_light_gray_stained_glass_chiseled": {
+      "textures": "textures/blocks/light_gray_stained_glass_chiseled"
+    },
+    "vge_light_gray_stained_glass_polished": {
+      "textures": "textures/blocks/light_gray_stained_glass_polished"
+    },
+    "vge_cyan_stained_glass_bricks": {
+      "textures": "textures/blocks/cyan_stained_glass_bricks"
+    },
+    "vge_cyan_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/cyan_stained_glass_bricks_cracked"
+    },
+    "vge_cyan_stained_glass_tiles": {
+      "textures": "textures/blocks/cyan_stained_glass_tiles"
+    },
+    "vge_cyan_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/cyan_stained_glass_tiles_cracked"
+    },
+    "vge_cyan_stained_glass_chiseled": {
+      "textures": "textures/blocks/cyan_stained_glass_chiseled"
+    },
+    "vge_cyan_stained_glass_polished": {
+      "textures": "textures/blocks/cyan_stained_glass_polished"
+    },
+    "vge_purple_stained_glass_bricks": {
+      "textures": "textures/blocks/purple_stained_glass_bricks"
+    },
+    "vge_purple_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/purple_stained_glass_bricks_cracked"
+    },
+    "vge_purple_stained_glass_tiles": {
+      "textures": "textures/blocks/purple_stained_glass_tiles"
+    },
+    "vge_purple_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/purple_stained_glass_tiles_cracked"
+    },
+    "vge_purple_stained_glass_chiseled": {
+      "textures": "textures/blocks/purple_stained_glass_chiseled"
+    },
+    "vge_purple_stained_glass_polished": {
+      "textures": "textures/blocks/purple_stained_glass_polished"
+    },
+    "vge_blue_stained_glass_bricks": {
+      "textures": "textures/blocks/blue_stained_glass_bricks"
+    },
+    "vge_blue_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/blue_stained_glass_bricks_cracked"
+    },
+    "vge_blue_stained_glass_tiles": {
+      "textures": "textures/blocks/blue_stained_glass_tiles"
+    },
+    "vge_blue_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/blue_stained_glass_tiles_cracked"
+    },
+    "vge_blue_stained_glass_chiseled": {
+      "textures": "textures/blocks/blue_stained_glass_chiseled"
+    },
+    "vge_blue_stained_glass_polished": {
+      "textures": "textures/blocks/blue_stained_glass_polished"
+    },
+    "vge_brown_stained_glass_bricks": {
+      "textures": "textures/blocks/brown_stained_glass_bricks"
+    },
+    "vge_brown_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/brown_stained_glass_bricks_cracked"
+    },
+    "vge_brown_stained_glass_tiles": {
+      "textures": "textures/blocks/brown_stained_glass_tiles"
+    },
+    "vge_brown_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/brown_stained_glass_tiles_cracked"
+    },
+    "vge_brown_stained_glass_chiseled": {
+      "textures": "textures/blocks/brown_stained_glass_chiseled"
+    },
+    "vge_brown_stained_glass_polished": {
+      "textures": "textures/blocks/brown_stained_glass_polished"
+    },
+    "vge_green_stained_glass_bricks": {
+      "textures": "textures/blocks/green_stained_glass_bricks"
+    },
+    "vge_green_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/green_stained_glass_bricks_cracked"
+    },
+    "vge_green_stained_glass_tiles": {
+      "textures": "textures/blocks/green_stained_glass_tiles"
+    },
+    "vge_green_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/green_stained_glass_tiles_cracked"
+    },
+    "vge_green_stained_glass_chiseled": {
+      "textures": "textures/blocks/green_stained_glass_chiseled"
+    },
+    "vge_green_stained_glass_polished": {
+      "textures": "textures/blocks/green_stained_glass_polished"
+    },
+    "vge_red_stained_glass_bricks": {
+      "textures": "textures/blocks/red_stained_glass_bricks"
+    },
+    "vge_red_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/red_stained_glass_bricks_cracked"
+    },
+    "vge_red_stained_glass_tiles": {
+      "textures": "textures/blocks/red_stained_glass_tiles"
+    },
+    "vge_red_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/red_stained_glass_tiles_cracked"
+    },
+    "vge_red_stained_glass_chiseled": {
+      "textures": "textures/blocks/red_stained_glass_chiseled"
+    },
+    "vge_red_stained_glass_polished": {
+      "textures": "textures/blocks/red_stained_glass_polished"
+    },
+    "vge_black_stained_glass_bricks": {
+      "textures": "textures/blocks/black_stained_glass_bricks"
+    },
+    "vge_black_stained_glass_bricks_cracked": {
+      "textures": "textures/blocks/black_stained_glass_bricks_cracked"
+    },
+    "vge_black_stained_glass_tiles": {
+      "textures": "textures/blocks/black_stained_glass_tiles"
+    },
+    "vge_black_stained_glass_tiles_cracked": {
+      "textures": "textures/blocks/black_stained_glass_tiles_cracked"
+    },
+    "vge_black_stained_glass_chiseled": {
+      "textures": "textures/blocks/black_stained_glass_chiseled"
+    },
+    "vge_black_stained_glass_polished": {
+      "textures": "textures/blocks/black_stained_glass_polished"
+    },
+    "vge_tinted_glass_bricks": {
+      "textures": "textures/blocks/tinted_glass_bricks"
+    },
+    "vge_tinted_glass_bricks_cracked": {
+      "textures": "textures/blocks/tinted_glass_bricks_cracked"
+    },
+    "vge_tinted_glass_tiles": {
+      "textures": "textures/blocks/tinted_glass_tiles"
+    },
+    "vge_tinted_glass_tiles_cracked": {
+      "textures": "textures/blocks/tinted_glass_tiles_cracked"
+    },
+    "vge_tinted_glass_chiseled": {
+      "textures": "textures/blocks/tinted_glass_chiseled"
+    },
+    "vge_tinted_glass_polished": {
+      "textures": "textures/blocks/tinted_glass_polished"
+    }
+  }
+}

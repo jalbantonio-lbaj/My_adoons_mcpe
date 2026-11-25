@@ -1,0 +1,40 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dustveyn_ef:sword_of_the_death",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:damage": {
+                "value": 1
+            },
+            "minecraft:block_placer": {
+                "block": "dustveyn_ef:sword_of_the_death",
+                "replace_block_item": true
+            },
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 20
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "minecraft:is_sword"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "§c%dustveyn_ef.sword_of_the_death.name\n%dustveyn_ef.sword_of_the_death.desc\n§o§9Endless Fabulous"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 1,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:fire_resistant": {
+                "value": true
+            },
+            "minecraft:should_despawn": true
+        }
+    }
+}

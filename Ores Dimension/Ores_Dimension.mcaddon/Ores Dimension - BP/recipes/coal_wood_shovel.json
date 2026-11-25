@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oredim:coal_wood_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "S",
+      "S"
+    ],
+    "key": {
+      "A": {
+        "item": "oredim:coal_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "oredim:coal_wood_shovel",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "oredim:coal_planks"
+      }
+    ]
+  }
+}

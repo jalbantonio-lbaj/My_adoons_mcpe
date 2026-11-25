@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinityingot_bc8f00df"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinitynugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinityingot",
+      "count": 1
+    }
+  }
+}

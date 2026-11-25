@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mikeyz:neon_red_stairs_recipe"
+    },
+    "tags": [
+      "neon_workbench"
+    ],
+    "group": "neon_red_stairs",
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "mikeyz:neon_red_block"
+      }
+    },
+    "result": {
+      "item": "mikeyz:neon_red_stairs",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "avaritia:heaven_arrow",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow",
+      "properties": {
+        "avaritia:rain": {
+          "type": "bool",
+          "default": true
+        }
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      },
+      "minecraft:player_arrow": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "despawn",
+                "target": "self"
+              }
+            },
+            "impact_damage": {
+              "damage": 75,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": false,
+              "max_critical_damage": 160,
+              "min_critical_damage": 140,
+              "power_multiplier": 2.5
+            },
+            "stick_in_ground": {
+              "shake_time": 0.35
+            },
+            "arrow_effect": {}
+          },
+          "hit_sound": "bow.hit",
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "hit_filter": {
+            "test": "is_family",
+            "subject": "other",
+            "operator": "!=",
+            "value": "arrow"
+          }
+        }
+      },
+      "ground_delay": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 1.5,
+          "time_down_event": {
+            "event": "instant_despawn_now",
+            "target": "self"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "despawn",
+              "target": "self"
+            }
+          },
+          "impact_damage": {
+            "damage": 60,
+            "knockback": true,
+            "semi_random_diff_damage": true,
+            "destroy_on_hit": false,
+            "max_critical_damage": 120,
+            "min_critical_damage": 115,
+            "power_multiplier": 2
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 5.0,
+        "gravity": 0.05,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "hit_filter": {
+          "test": "is_family",
+          "subject": "other",
+          "operator": "!=",
+          "value": "arrow"
+        }
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          3,
+          5
+        ],
+        "time_down_event": {
+          "event": "despawn",
+          "target": "self"
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow",
+          "inanimate"
+        ]
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "filters": {
+          "test": "is_family",
+          "subject": "other",
+          "value": "player"
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:player_arrow"
+          ]
+        }
+      },
+      "arrow_rain": {
+        "sequence": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "bool_property",
+                  "domain": "avaritia:rain",
+                  "operator": "==",
+                  "value": true
+                }
+              ]
+            },
+            "queue_command": {
+              "command": [
+                "execute as @e[r=5,c=15,family=!inanimate,type=!item,type=!xp_orb] at @s anchored eyes positioned ~~2~ run summon avaritia:heaven_arrow ^^^0.5 facing ~~~ not_rain",
+                "execute as @e[r=5,c=15,family=!inanimate,type=!item,type=!xp_orb] at @s anchored eyes positioned ~~2~ run summon avaritia:heaven_arrow ^^^-0.5 facing ~~~ not_rain",
+                "execute as @e[r=5,c=15,family=!inanimate,type=!item,type=!xp_orb] at @s anchored eyes positioned ~~2~ run summon avaritia:heaven_arrow ^0.5^^ facing ~~~ not_rain",
+                "execute as @e[r=5,c=15,family=!inanimate,type=!item,type=!xp_orb] at @s anchored eyes positioned ~~2~ run summon avaritia:heaven_arrow ^-0.5^^ facing ~~~ not_rain"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "despawn"
+              ]
+            }
+          }
+        ]
+      },
+      "not_rain": {
+        "set_property": {
+          "avaritia:rain": false
+        }
+      },
+      "despawn": {
+        "add": {
+          "component_groups": [
+            "ground_delay"
+          ]
+        }
+      },
+      "instant_despawn_now": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinitypickaxe_52aaa87b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      " C ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:crystalmatrixblock",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:ingotneutron",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:neutronblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinitypickaxe",
+      "count": 1
+    }
+  }
+}

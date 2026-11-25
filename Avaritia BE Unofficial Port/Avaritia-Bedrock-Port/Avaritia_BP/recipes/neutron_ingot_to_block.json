@@ -1,0 +1,46 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "avaritia:neutron_ingot_to_block"
+    },
+    "ingredients": [
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      },
+      {
+        "item": "avaritia:neutronium_ingot"
+      }
+    ],
+    "result": [
+      {
+        "item": "avaritia:neutronium_block",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "crafting_table"
+    ]
+  }
+}

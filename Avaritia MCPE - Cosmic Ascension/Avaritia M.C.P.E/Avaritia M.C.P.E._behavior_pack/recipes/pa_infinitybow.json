@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infinitybow_daea1fb6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "C D",
+      " AB"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:infinityblock",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:cyan_wool",
+        "data": 0
+      },
+      "C": {
+        "item": "pa:crystalmatrixblock",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:light_blue_wool",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:infinitybow",
+      "count": 1
+    }
+  }
+}

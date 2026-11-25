@@ -1,0 +1,1 @@
+execute as @p[scores={timer=0}] run scoreboard players reset @p timer
