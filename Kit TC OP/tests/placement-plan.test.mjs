@@ -1,5 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readdirSync } from "node:fs";
+import { resolve } from "node:path";
 import {
   createKitOpPlan,
   createKitNPlan,
@@ -39,4 +41,16 @@ test("rotation accepts negative and wrapped quarter-turns", () => {
   assert.deepEqual(rotateOffset(1, 0, -1), { x: 0, z: -1 });
   assert.deepEqual(rotateOffset(1, 0, 5), { x: 0, z: 1 });
   assert.throws(() => rotateOffset(1, 0, 1.5), TypeError);
+});
+
+test("all rotated KitOP template IDs exist in the behavior pack", () => {
+  const directory = resolve("Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack/structures/kitop");
+  const available = new Set(readdirSync(directory));
+  for (let rotation = 0; rotation < 4; rotation++) {
+    const plan = createKitOpPlan({ x: 0, y: 64, z: 0 }, rotation);
+    for (const entry of [...plan.units, ...plan.stands]) {
+      const file = entry.id.split(":")[1] + ".mcstructure";
+      assert.ok(available.has(file), `Missing rotation template: ${file}`);
+    }
+  }
 });
