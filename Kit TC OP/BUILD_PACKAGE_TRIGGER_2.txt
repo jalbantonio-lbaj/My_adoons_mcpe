@@ -1,0 +1,1 @@
+Re-run packaging after fixing resource-pack source path.
