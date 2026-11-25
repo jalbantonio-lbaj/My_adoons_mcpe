@@ -1,10 +1,8 @@
-import { world, system, CommandPermissionLevel, CustomCommandStatus } from "@minecraft/server";
+import { system, CommandPermissionLevel, CustomCommandStatus } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
 import { isValidPlayer } from "./core/helpers.js";
 import { handleKitOp } from "./commands/kitop.js";
 import { handleKitN } from "./commands/kitn.js";
-
-const KIT_SELECTOR_ID = "tc:kit_selector";
 
 function showKitSystem(player) {
   if (!isValidPlayer(player)) return;
@@ -35,16 +33,15 @@ function showKitSystem(player) {
   });
 }
 
-// The Kit Selector opens Kit System with one right-click/use action.
-world.afterEvents.itemUse.subscribe((event) => {
-  if (event.itemStack.typeId !== KIT_SELECTOR_ID) return;
-  const player = event.source;
-  if (!isValidPlayer(player)) return;
-  system.run(() => showKitSystem(player));
-});
+system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandRegistry }) => {
+  itemComponentRegistry.registerCustomComponent("tc:kit_selector_use", {
+    onUse(event) {
+      const player = event.source;
+      if (!isValidPlayer(player)) return;
+      system.run(() => showKitSystem(player));
+    }
+  });
 
-// Alternative commands remain available.
-system.beforeEvents.startup.subscribe(({ customCommandRegistry }) => {
   customCommandRegistry.registerCommand(
     {
       name: "tc:kitop",
