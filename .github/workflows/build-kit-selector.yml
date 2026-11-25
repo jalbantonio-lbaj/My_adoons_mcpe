@@ -119,9 +119,6 @@ jobs:
           assert "STRUCTURE_ROTATIONS[session.rotation]" in preview
           assert "createKitNPlan(anchor, rotation)" in preview
           assert "rotation: rotationByTurns[rotation]" in kitn
-          assert "STRUCTURE_ROTATIONS[session.rotation]" in preview
-          assert "createKitNPlan(anchor, rotation)" in preview
-          assert "rotation: rotationByTurns[rotation]" in kitn
           print("Static pack linkage and menu integration checks passed.")
           PY
 
@@ -148,9 +145,9 @@ jobs:
           (cd "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_BP_v1.2.0.mcpack" .)
           (cd "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_RP_v1.2.0.mcpack" .)
           cd dist
-          zip -q TC_KitOP_Kit_Selector_v1.2.0.mcaddon TC_KitOP_BP_v1.1.1.mcpack TC_KitOP_RP_v1.1.1.mcpack
+          zip -q TC_KitOP_Kit_Selector_v1.2.0.mcaddon TC_KitOP_BP_v1.2.0.mcpack TC_KitOP_RP_v1.2.0.mcpack
           unzip -t TC_KitOP_Kit_Selector_v1.2.0.mcaddon
-          unzip -l TC_KitOP_Kit_Selector_v1.1.1.mcaddon
+          unzip -l TC_KitOP_Kit_Selector_v1.2.0.mcaddon
 
       - uses: actions/upload-artifact@v4
         with:
