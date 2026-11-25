@@ -15,7 +15,7 @@ function showKitSystem(player) {
 
   const form = new ActionFormData()
     .title("Kit System")
-    .body("Select the kit you want to prepare.")
+    .body("KitN opens a placement preview. KitOP places the operator kit directly.")
     .button("KitOP")
     .button("KitN");
 
