@@ -3,9 +3,9 @@
 TC KitOP adds a **Kit Selector** item: a black enchanted-book-style item that opens the **Kit System** menu with one use/click.
 
 - **KitOP** (Operators only) — spawns the full supply room: 11 storage units, four armor stands, enchanted gear, and the original automatic equipment transfer.
-- **KitN** (everyone) — spawns the original double chest with vanilla survival-max enchanted gear.
+- **KitN** (everyone) — opens a live double-chest placement preview with four-way rotation, confirmation, and cancellation. The original chest generator remains available through `/tc:kitn`.
 
-The alternative commands remain available:
+The preview controls are `/tc:preview_rotate_left`, `/tc:preview_rotate_right`, `/tc:preview_confirm`, and `/tc:preview_cancel`.\n\nThe alternative commands remain available:
 - `/tc:kitop` (Operators only)
 - `/tc:kitn` (everyone)
 
