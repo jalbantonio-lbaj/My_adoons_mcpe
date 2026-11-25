@@ -1,8 +1,16 @@
 # Changelog
 
+## [1.1.1] - 2026-11-25
+
+- Added the Kit Selector item, styled as a black enchanted book.
+- Added the Kit System menu with KitOP and KitN choices.
+- Kept /tc:kitop and /tc:kitn as alternative commands.
+- KitOP remains operator-only when launched from the menu.
+- Added a linked resource pack for the custom book icon.
+
 ## [1.1.0] - 2026-11-22
 
-- Fix: `/tc:kitop` and `/tc:kitn` now resolve structure templates by namespaced,
+- Fix: /tc:kitop and /tc:kitn now resolve structure templates by namespaced,
   bare, or slash-form identifier, so a template lookup mismatch no longer makes
   the kit spawn silently fail.
 - Fix: chest and armor stand placement retries nearby heights when the target
@@ -17,17 +25,8 @@
 
 ## [1.0.0] - 2026-10-14
 
-- `/tc:kitop` (Operators only): spawns a 4x4 supply room around you on two
-  tiers — 11 double-chest clusters on colored plinths with hanging sign labels
-  (Combat, Minerals, Build, Food, Tools, Redstone, Nether-End, Treasure, Armor,
-  Weapons, plus the player gear chest). Every chest front faces the room
-  center; every chest is filled to all 54 slots with named, color-coded
-  shulker boxes, every shulker filled to all 27 slots.
-- 394 unique items with no overlap between categories, full enchant level
-  1000 gear sets including Density/Breach/Wind Burst maces and the exclusive
-  Lunge enchant on all 7 spear tiers.
-- 4 armor stands at the room corners wearing level 1000 armor sets.
-- Automatic armor equip from the kit chest; leftovers stay in the chest.
-- `/tc:kitn` (everyone): one plain double chest with vanilla survival-max
+- /tc:kitop (Operators only): spawns the 4x4 supply room with 11 storage units,
+  394 unique items, enchanted gear, four armor stands, and automatic equipment.
+- /tc:kitn (everyone): spawns one plain double chest with vanilla survival-max
   enchants, no room layout, no auto-equip.
 - All user-facing text in English. No cheats required, stable APIs only.
