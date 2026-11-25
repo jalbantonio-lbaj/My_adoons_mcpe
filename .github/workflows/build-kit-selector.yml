@@ -33,6 +33,7 @@ jobs:
           test -f "$BP/scripts/core/helpers.js"
           test -f "$BP/scripts/core/placement_plan.js"
           test -f "$BP/scripts/core/preview_structures.js"
+          test -f "$BP/scripts/commands/kitn_preview.js"
           test -f "$BP/items/kit_selector.json"
           test -f "$RP/manifest.json"
           test -f "$RP/textures/item_texture.json"
@@ -80,20 +81,31 @@ jobs:
           main = (bp / "scripts/main.js").read_text(encoding="utf-8")
           kitop = (bp / "scripts/commands/kitop.js").read_text(encoding="utf-8")
           kitn = (bp / "scripts/commands/kitn.js").read_text(encoding="utf-8")
+          preview = (bp / "scripts/commands/kitn_preview.js").read_text(encoding="utf-8")
+          preview_structures = (bp / "scripts/core/preview_structures.js").read_text(encoding="utf-8")
 
           for required in (
               'registerCustomComponent("tc:kit_selector_use"',
               'name: "tc:kitop"',
               'name: "tc:kitn"',
               "handleKitOp({ sourceEntity: player })",
-              "handleKitN({ sourceEntity: player })",
+              "startKitNPreview(player)",
+              'name: "tc:preview_confirm"',
+              'name: "tc:preview_cancel"',
+              "confirmKitNPreview(player)",
+              "cancelKitNPreview(player)",
               "CommandPermissionLevel.GameDirectors",
               "CommandPermissionLevel.Any",
           ):
               assert required in main, f"Missing menu/command integration: {required}"
 
           assert "export function handleKitOp(origin, options = {})" in kitop
-          assert "export function handleKitN(origin)" in kitn
+          assert "export function handleKitN(origin, options = {})" in kitn
+          assert "getInventoryFreePreviewStructure" in preview
+          assert "placeInventoryFreePreview" in preview
+          assert "includeEntities: false" in preview_structures
+          assert "block.setType(\"minecraft:air\")" in preview
+          assert "isEmptyContainer(block)" in preview
           print("Static pack linkage and menu integration checks passed.")
           PY
 
