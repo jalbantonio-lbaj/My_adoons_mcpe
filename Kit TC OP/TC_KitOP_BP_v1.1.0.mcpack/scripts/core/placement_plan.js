@@ -37,7 +37,7 @@ export function rotateOffset(dx, dz, quarterTurns = 0) {
   for (let i = 0; i < normalizeQuarterTurns(quarterTurns); i++) {
     [x, z] = [-z, x];
   }
-  return { x, z };
+  return { x: Object.is(x, -0) ? 0 : x, z: Object.is(z, -0) ? 0 : z };
 }
 
 function rotateStructureId(id, quarterTurns) {
