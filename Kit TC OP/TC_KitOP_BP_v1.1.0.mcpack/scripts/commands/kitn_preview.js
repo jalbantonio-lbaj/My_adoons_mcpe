@@ -1,5 +1,5 @@
 import { system, Direction, StructureRotation } from "@minecraft/server";
-import { isValidPlayer, reportIssue } from "../core/helpers.js";
+import { isValidPlayer, reportIssue, doubleBase } from "../core/helpers.js";
 import {
   getInventoryFreePreviewStructure,
   placeInventoryFreePreview
@@ -93,6 +93,12 @@ function getPreviewCells(structure, dimension, anchor, rotation) {
     }
   }
   return cells;
+}
+
+function resolvePlacementBase(dimension, target, rotation) {
+  const footprint = createKitNPlan({ x: 0, y: 0, z: 0 }, rotation).cells
+    .map(({ x, z }) => ({ x, z }));
+  return doubleBase(dimension, target, footprint);
 }
 
 function isFootprintClear(dimension, anchor, rotation) {
@@ -196,6 +202,17 @@ function updateSession(player, session) {
     player.onScreenDisplay.setActionBar("KitN preview: aim at a block face within 8 blocks");
     return;
   }
+
+  const base = resolvePlacementBase(session.dimension, target, session.rotation);
+  if (!base) {
+    if (session.cells.length && !removePreview(session)) {
+      finishSession(player, session, "stopped because the previous preview was modified");
+      return;
+    }
+    player.onScreenDisplay.setActionBar("KitN preview: no safe space at this target");
+    return;
+  }
+  target = base;
 
   const key = targetKey(target, session.rotation);
   if (key === session.anchorKey) {
