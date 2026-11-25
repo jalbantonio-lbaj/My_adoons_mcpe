@@ -92,6 +92,10 @@ jobs:
               "startKitNPreview(player)",
               'name: "tc:preview_confirm"',
               'name: "tc:preview_cancel"',
+              'name: "tc:preview_rotate_left"',
+              'name: "tc:preview_rotate_right"',
+              "rotateKitNPreview(player, -1)",
+              "rotateKitNPreview(player, 1)",
               "confirmKitNPreview(player)",
               "cancelKitNPreview(player)",
               "CommandPermissionLevel.GameDirectors",
@@ -106,6 +110,9 @@ jobs:
           assert "includeEntities: false" in preview_structures
           assert "block.setType(\"minecraft:air\")" in preview
           assert "isEmptyContainer(block)" in preview
+          assert "STRUCTURE_ROTATIONS[session.rotation]" in preview
+          assert "createKitNPlan(anchor, rotation)" in preview
+          assert "rotation: rotationByTurns[rotation]" in kitn
           print("Static pack linkage and menu integration checks passed.")
           PY
 
