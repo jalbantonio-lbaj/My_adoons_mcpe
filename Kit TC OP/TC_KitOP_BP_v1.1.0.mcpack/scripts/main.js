@@ -84,6 +84,40 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
 
   customCommandRegistry.registerCommand(
     {
+      name: "tc:preview_rotate_left",
+      description: "Rotate the active KitN preview 90 degrees left",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) rotateKitNPreview(player, -1);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_rotate_right",
+      description: "Rotate the active KitN preview 90 degrees right",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) rotateKitNPreview(player, 1);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
       name: "tc:preview_cancel",
       description: "Cancel the active kit preview",
       cheatsRequired: false,
