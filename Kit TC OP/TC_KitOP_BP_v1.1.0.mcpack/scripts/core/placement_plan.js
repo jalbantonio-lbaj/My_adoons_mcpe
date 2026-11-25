@@ -23,7 +23,7 @@ export const KITOP_STAND_DEFINITIONS = [
 ];
 
 const KITOP_KIT_ANCHOR = { dx: -1, dy: 0, dz: -3 };
-const KITN_CELLS = [{ x: 0, z: 0 }, { x: 1, z: 0 }];
+export const KITN_FOOTPRINT = [{ x: 0, z: 0 }, { x: 1, z: 0 }];
 const CARDINALS = ["n", "e", "s", "w"];
 
 function normalizeQuarterTurns(value) {
@@ -90,7 +90,7 @@ export function createKitOpPlan(anchor, quarterTurns = 0) {
 
 export function createKitNPlan(anchor, quarterTurns = 0) {
   const turns = normalizeQuarterTurns(quarterTurns);
-  const cells = KITN_CELLS.map(({ x, z }) => {
+  const cells = KITN_FOOTPRINT.map(({ x, z }) => {
     const offset = rotateOffset(x, z, turns);
     return {
       x: Math.floor(anchor.x) + offset.x,
