@@ -1,6 +1,6 @@
 # TC Kit System — Preview implementation contract
 
-Status: design checkpoint based on the working v1.1.1 Kit Selector branch.
+Status: placement planner is implemented and tested; inventory-free preview-template cloning is implemented, pending runtime validation in Bedrock.
 Target branch: `feature/kit-selector-menu`.
 Do not edit the original `main` branch or replace the working v1.1.1 base.
 
