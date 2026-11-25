@@ -1,9 +1,9 @@
-import { world, system } from "@minecraft/server";
+import { world, system, StructureRotation } from "@minecraft/server";
 import { isValidPlayer, sendFeedback, facePoint, doubleBase, resolveStructure, reportIssue, formatCoords } from "../core/helpers.js";
-import { KITN_FOOTPRINT } from "../core/placement_plan.js";
+import { createKitNPlan } from "../core/placement_plan.js";
 
 const PLAIN_ID = "kitop:kit_plain";
-const CELLS_X = [{ x: 0, z: 0 }, { x: 1, z: 0 }];
+
 
 // -- Command: spawn only the normal survival-max gear chest in front of the player.
 export function handleKitN(origin, options = {}) {
@@ -25,13 +25,26 @@ function spawnKitNChest(player, options = {}) {
     player.sendMessage("[TC] Error: KitN chest template is missing from the pack.");
     return;
   }
-  const base = doubleBase(dimension, options.base ?? facePoint(player, 2.0), KITN_FOOTPRINT);
+  const rotation = ((options.rotation ?? 0) % 4 + 4) % 4;
+  const footprint = createKitNPlan({ x: 0, y: 0, z: 0 }, rotation).cells
+    .map(({ x, z }) => ({ x, z }));
+  const base = doubleBase(dimension, options.base ?? facePoint(player, 2.0), footprint);
   if (!base) {
     sendFeedback(player, "No room in front of you for the KitN chest. Face open ground and try again.");
     return;
   }
   const chest = { x: base.x, y: base.y, z: base.z };
-  world.structureManager.place(structure, dimension, base, { includeBlocks: true, includeEntities: false });
+  const rotationByTurns = [
+    StructureRotation.None,
+    StructureRotation.Rotate90,
+    StructureRotation.Rotate180,
+    StructureRotation.Rotate270
+  ];
+  world.structureManager.place(structure, dimension, base, {
+    includeBlocks: true,
+    includeEntities: false,
+    rotation: rotationByTurns[rotation]
+  });
   player.playSound("random.chestopen");
   player.playSound("random.levelup");
   sendFeedback(player, "Spawned your KitN chest in front of you. Survival-max gear, take what you need.");
