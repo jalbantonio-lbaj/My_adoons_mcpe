@@ -1,6 +1,6 @@
 # TC Kit System — Preview implementation contract
 
-Status: placement planner is implemented and tested; inventory-free preview-template cloning is implemented, pending runtime validation in Bedrock.
+Status: placement planner and inventory-free template cloning are implemented. KitN preview now has live target tracking, four-way rotation, confirm/cancel commands, obstruction checks, and guarded cleanup. Static CI and package validation are pending; in-world Bedrock validation remains required.
 Target branch: `feature/kit-selector-menu`.
 Do not edit the original `main` branch or replace the working v1.1.1 base.
 
