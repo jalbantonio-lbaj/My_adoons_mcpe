@@ -287,6 +287,7 @@ export function rotateKitNPreview(player, direction) {
   }
   if (!Number.isInteger(direction)) return false;
   session.rotation = (session.rotation + direction + 4) % 4;
+  session.anchor = undefined;
   session.anchorKey = "";
   reportIssue(player, `KitN preview rotation: ${session.rotation * 90} degrees.`);
   return true;
