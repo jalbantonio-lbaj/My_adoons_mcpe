@@ -1,4 +1,4 @@
-import { world, system, Direction, StructureRotation } from "@minecraft/server";
+import { system, Direction, StructureRotation } from "@minecraft/server";
 import { isValidPlayer, reportIssue } from "../core/helpers.js";
 import {
   getInventoryFreePreviewStructure,
@@ -11,6 +11,12 @@ const KITN_TEMPLATE = "kitop:kit_plain";
 const MAX_TARGET_DISTANCE = 8;
 const UPDATE_INTERVAL = 5;
 const MAX_SESSION_TICKS = 6000;
+const STRUCTURE_ROTATIONS = [
+  StructureRotation.None,
+  StructureRotation.Rotate90,
+  StructureRotation.Rotate180,
+  StructureRotation.Rotate270
+];
 const sessions = new Map();
 
 function sameStates(a, b) {
@@ -30,7 +36,7 @@ function isEmptyContainer(block) {
   return true;
 }
 
-function getTarget(player, rotation = 0) {
+function getTarget(player, rotation) {
   const hit = player.getBlockFromViewDirection({
     maxDistance: MAX_TARGET_DISTANCE,
     includeLiquidBlocks: false,
@@ -38,32 +44,24 @@ function getTarget(player, rotation = 0) {
   });
   if (!hit?.block?.isValid) return undefined;
 
-  const p = hit.block.location;
-  let offset;
+  let normal;
   switch (hit.face) {
-    case Direction.Up: offset = { x: 0, y: 1, z: 0 }; break;
-    case Direction.Down: offset = { x: 0, y: -1, z: 0 }; break;
-    case Direction.North: offset = { x: 0, y: 0, z: -1 }; break;
-    case Direction.South: offset = { x: 0, y: 0, z: 1 }; break;
-    case Direction.East: offset = { x: 1, y: 0, z: 0 }; break;
-    case Direction.West: offset = { x: -1, y: 0, z: 0 }; break;
+    case Direction.Up: normal = { x: 0, y: 1, z: 0 }; break;
+    case Direction.Down: normal = { x: 0, y: -1, z: 0 }; break;
+    case Direction.North: normal = { x: 0, y: 0, z: -1 }; break;
+    case Direction.South: normal = { x: 0, y: 0, z: 1 }; break;
+    case Direction.East: normal = { x: 1, y: 0, z: 0 }; break;
+    case Direction.West: normal = { x: -1, y: 0, z: 0 }; break;
     default: return undefined;
   }
 
+  const p = hit.block.location;
   const target = {
-    x: Math.floor(p.x + offset.x),
-    y: Math.floor(p.y + offset.y),
-    z: Math.floor(p.z + offset.z)
+    x: Math.floor(p.x + normal.x),
+    y: Math.floor(p.y + normal.y),
+    z: Math.floor(p.z + normal.z)
   };
   const footprintDirection = rotateOffset(1, 0, rotation);
-  const normal = {
-    [Direction.Up]: { x: 0, y: 1, z: 0 },
-    [Direction.Down]: { x: 0, y: -1, z: 0 },
-    [Direction.North]: { x: 0, y: 0, z: -1 },
-    [Direction.South]: { x: 0, y: 0, z: 1 },
-    [Direction.East]: { x: 1, y: 0, z: 0 },
-    [Direction.West]: { x: -1, y: 0, z: 0 }
-  }[hit.face];
   if (footprintDirection.x * normal.x + footprintDirection.z * normal.z < 0) {
     target.x += normal.x;
     target.z += normal.z;
@@ -71,8 +69,8 @@ function getTarget(player, rotation = 0) {
   return target;
 }
 
-function targetKey(location) {
-  return location ? `${location.x},${location.y},${location.z}` : "";
+function targetKey(location, rotation) {
+  return location ? `${location.x},${location.y},${location.z}|${rotation}` : "";
 }
 
 function getPreviewCells(structure, dimension, anchor, rotation) {
@@ -81,10 +79,13 @@ function getPreviewCells(structure, dimension, anchor, rotation) {
   for (let x = 0; x < size.x; x++) {
     for (let y = 0; y < size.y; y++) {
       for (let z = 0; z < size.z; z++) {
-        const sourcePermutation = structure.getBlockPermutation({ x, y, z });
-        if (!sourcePermutation) continue;
+        if (!structure.getBlockPermutation({ x, y, z })) continue;
         const offset = rotateOffset(x, z, rotation);
-        const location = { x: anchor.x + offset.x, y: anchor.y + y, z: anchor.z + offset.z };
+        const location = {
+          x: anchor.x + offset.x,
+          y: anchor.y + y,
+          z: anchor.z + offset.z
+        };
         const placed = dimension.getBlock(location);
         if (!placed?.isValid || placed.isAir) continue;
         cells.push({ location, permutation: placed.permutation });
@@ -94,23 +95,25 @@ function getPreviewCells(structure, dimension, anchor, rotation) {
   return cells;
 }
 
-function isFootprintClear(dimension, structure, anchor) {
-  const size = structure.size;
-  for (let x = 0; x < size.x; x++) {
-    for (let y = 0; y < size.y; y++) {
-      for (let z = 0; z < size.z; z++) {
-        const at = { x: anchor.x + x, y: anchor.y + y, z: anchor.z + z };
-        if (at.y < dimension.heightRange.min || at.y >= dimension.heightRange.max) return false;
-        if (!dimension.isChunkLoaded(at)) return false;
-      const block = dimension.getBlock(at);
-      if (!block?.isValid || !block.isAir) return false;
+function isFootprintClear(dimension, anchor, rotation) {
+  const cells = createKitNPlan(anchor, rotation).cells;
+  for (const at of cells) {
+    if (at.y < dimension.heightRange.min || at.y >= dimension.heightRange.max) return false;
+    if (!dimension.isChunkLoaded(at)) return false;
+    const block = dimension.getBlock(at);
+    if (!block?.isValid || !block.isAir) return false;
   }
   return true;
 }
 
-// Returns false if any preview block was changed or filled by a player.
+// Never clear a preview block that changed or now contains player items.
 function removePreview(session) {
-  if (!session.cells.length) return true;
+  if (!session.cells.length) {
+    session.anchor = undefined;
+    session.anchorKey = "";
+    return true;
+  }
+
   let safe = true;
   for (const cell of session.cells) {
     const block = session.dimension.getBlock(cell.location);
@@ -123,6 +126,7 @@ function removePreview(session) {
     }
     block.setType("minecraft:air");
   }
+
   session.cells = [];
   session.anchor = undefined;
   session.anchorKey = "";
@@ -140,7 +144,10 @@ function finishSession(player, session, reason, confirm = false) {
     return;
   }
   if (confirm) {
-    handleKitN({ sourceEntity: player }, { base: session.confirmAnchor, rotation: session.rotation });
+    handleKitN(
+      { sourceEntity: player },
+      { base: session.confirmAnchor, rotation: session.rotation }
+    );
     reportIssue(player, "KitN preview confirmed.");
   } else if (!safe) {
     reportIssue(player, "KitN preview ended. A modified or filled preview chest was preserved.");
@@ -180,15 +187,21 @@ function updateSession(player, session) {
   } catch {
     target = undefined;
   }
+
   if (!target) {
-    if (session.cells.length) removePreview(session);
+    if (session.cells.length && !removePreview(session)) {
+      finishSession(player, session, "stopped because the preview was modified");
+      return;
+    }
     player.onScreenDisplay.setActionBar("KitN preview: aim at a block face within 8 blocks");
     return;
   }
 
-  const key = `${targetKey(target)}|${session.rotation}`;
+  const key = targetKey(target, session.rotation);
   if (key === session.anchorKey) {
-    player.onScreenDisplay.setActionBar("KitN | /tc:preview_rotate_left  /tc:preview_rotate_right  /tc:preview_confirm  /tc:preview_cancel");
+    player.onScreenDisplay.setActionBar(
+      "KitN | /tc:preview_rotate_left  /tc:preview_rotate_right  /tc:preview_confirm  /tc:preview_cancel"
+    );
     return;
   }
 
@@ -197,17 +210,30 @@ function updateSession(player, session) {
     return;
   }
 
-  if (!isFootprintClear(session.dimension, session.structure, target, session.rotation)) {
+  if (!isFootprintClear(session.dimension, target, session.rotation)) {
     player.onScreenDisplay.setActionBar("KitN preview: target obstructed or chunk not loaded");
     return;
   }
 
   try {
-    placeInventoryFreePreview(KITN_TEMPLATE, session.dimension, target);
-    session.cells = getPreviewCells(session.structure, target);
+    placeInventoryFreePreview(
+      KITN_TEMPLATE,
+      session.dimension,
+      target,
+      STRUCTURE_ROTATIONS[session.rotation]
+    );
+    session.cells = getPreviewCells(
+      session.structure,
+      session.dimension,
+      target,
+      session.rotation
+    );
+    if (!session.cells.length) throw new Error("Preview template contains no placeable blocks.");
     session.anchor = target;
     session.anchorKey = key;
-    player.onScreenDisplay.setActionBar("KitN preview | /tc:preview_confirm  |  /tc:preview_cancel");
+    player.onScreenDisplay.setActionBar(
+      "KitN | /tc:preview_rotate_left  /tc:preview_rotate_right  /tc:preview_confirm  /tc:preview_cancel"
+    );
   } catch (error) {
     finishSession(player, session, "failed while placing preview");
     reportIssue(player, `KitN preview error: ${String(error)}`);
@@ -222,6 +248,10 @@ export function startKitNPreview(player) {
   let structure;
   try {
     structure = getInventoryFreePreviewStructure(KITN_TEMPLATE);
+    const size = structure.size;
+    if (size.x !== 2 || size.y !== 1 || size.z !== 1) {
+      throw new Error(`Unexpected KitN template size: ${size.x}x${size.y}x${size.z}`);
+    }
   } catch (error) {
     reportIssue(player, `KitN preview unavailable: ${String(error)}`);
     return false;
@@ -235,13 +265,30 @@ export function startKitNPreview(player) {
     anchor: undefined,
     confirmAnchor: undefined,
     anchorKey: "",
+    rotation: 0,
     cells: [],
     elapsed: 0,
     interval: undefined
   };
   sessions.set(player.id, session);
-  reportIssue(player, "KitN preview started. Aim at a block face; confirm with /tc:preview_confirm or cancel with /tc:preview_cancel.");
+  reportIssue(
+    player,
+    "KitN preview started. Aim at a block face. Use /tc:preview_rotate_left or /tc:preview_rotate_right, then /tc:preview_confirm or /tc:preview_cancel."
+  );
   session.interval = system.runInterval(() => updateSession(player, session), UPDATE_INTERVAL);
+  return true;
+}
+
+export function rotateKitNPreview(player, direction) {
+  const session = sessions.get(player.id);
+  if (!session) {
+    reportIssue(player, "You do not have an active KitN preview.");
+    return false;
+  }
+  if (!Number.isInteger(direction)) return false;
+  session.rotation = (session.rotation + direction + 4) % 4;
+  session.anchorKey = "";
+  reportIssue(player, `KitN preview rotation: ${session.rotation * 90} degrees.`);
   return true;
 }
 
