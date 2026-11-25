@@ -1,23 +1,16 @@
-# TC KitOP
+# TC KitOP — Kit System
 
-Two commands spawn enchanted gear rooms, chests, shulkers, armor stands.
+TC KitOP adds a **Kit Selector** item: a black enchanted-book-style item that opens the **Kit System** menu with one use/click.
 
-TC KitOP adds two simple slash commands for Minecraft Bedrock (no cheats required):
+- **KitOP** (Operators only) — spawns the full supply room: 11 storage units, four armor stands, enchanted gear, and the original automatic equipment transfer.
+- **KitN** (everyone) — spawns the original double chest with vanilla survival-max enchanted gear.
 
-- `/tc:kitop` (Operators only) — spawns a 4x4 supply room around you on two tiers:
-  11 double-chest clusters on colored plinths with hanging sign labels (Combat,
-  Minerals, Build, Food, Tools, Redstone, Nether-End, Treasure, Armor, Weapons),
-  every chest filled to all 54 slots with named, color-coded shulker boxes.
-  Full enchant level 1000 gear sets, 394 unique items, 4 armor stands wearing
-  level 1000 armor, plus automatic armor equip from the kit chest.
-- `/tc:kitn` (everyone) — spawns one plain double chest with vanilla
-  survival-max enchants (Sharpness V, Protection IV, no overflows).
+The alternative commands remain available:
+- `/tc:kitop` (Operators only)
+- `/tc:kitn` (everyone)
 
-Works on 1.21.0 and newer, stable Script APIs only, no experimental toggles.
+The original structure templates, chest contents, equipment, and placement routines are retained.
+
+Works on Minecraft Bedrock 1.21.0 and newer. No experimental toggles required.
 
 By ToanCao.
-
-- Support: https://ko-fi.com/toancao
-- YouTube: https://www.youtube.com/@toancaomc
-- Discord: https://discord.gg/9rch87H9yM
-- CurseForge: https://www.curseforge.com/members/toancao/projects
