@@ -6,7 +6,7 @@ import {
   createKitOpPlan,
   createKitNPlan,
   rotateOffset
-} from "../Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack/scripts/core/placement_plan.js";
+} from "../TC_KitOP_BP_v1.1.0.mcpack/scripts/core/placement_plan.js";
 
 test("zero-turn KitOP plan exactly preserves original offsets and structure IDs", () => {
   const plan = createKitOpPlan({ x: 100, y: 64, z: -50 }, 0);
