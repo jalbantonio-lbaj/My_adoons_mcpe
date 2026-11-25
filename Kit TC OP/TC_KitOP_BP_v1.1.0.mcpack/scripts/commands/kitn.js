@@ -1,5 +1,6 @@
 import { world, system } from "@minecraft/server";
 import { isValidPlayer, sendFeedback, facePoint, doubleBase, resolveStructure, reportIssue, formatCoords } from "../core/helpers.js";
+import { KITN_FOOTPRINT } from "../core/placement_plan.js";
 
 const PLAIN_ID = "kitop:kit_plain";
 const CELLS_X = [{ x: 0, z: 0 }, { x: 1, z: 0 }];
@@ -24,7 +25,7 @@ function spawnKitNChest(player) {
     player.sendMessage("[TC] Error: KitN chest template is missing from the pack.");
     return;
   }
-  const base = doubleBase(dimension, facePoint(player, 2.0), CELLS_X);
+  const base = doubleBase(dimension, facePoint(player, 2.0), KITN_FOOTPRINT);
   if (!base) {
     sendFeedback(player, "No room in front of you for the KitN chest. Face open ground and try again.");
     return;
