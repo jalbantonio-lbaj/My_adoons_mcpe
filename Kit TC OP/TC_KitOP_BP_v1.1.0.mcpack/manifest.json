@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "TC KitOP - Kit System BP",
+    "name": "TC KitOP - Kit System BP v1.2.0",
     "description": "TC KitOP and KitN with Kit Selector menu",
     "uuid": "34b2022f-34f8-43d6-bfa0-9fa4468d65e3",
-    "version": [1, 1, 1],
+    "version": [1, 2, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
@@ -13,7 +13,7 @@
       "type": "script",
       "language": "javascript",
       "uuid": "e8af6c00-ef44-4093-8f4d-0d188be44b95",
-      "version": [1, 1, 1],
+      "version": [1, 2, 0],
       "entry": "scripts/main.js"
     }
   ],
