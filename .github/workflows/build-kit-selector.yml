@@ -104,6 +104,12 @@ jobs:
             node --input-type=module --check < "$file"
           done
 
+      - name: Test placement planner rotations
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --test "Kit TC OP/tests/placement-plan.test.mjs"
+
       - name: Package mcpack and mcaddon
         shell: bash
         run: |
