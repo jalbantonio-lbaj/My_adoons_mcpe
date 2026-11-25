@@ -31,6 +31,8 @@ jobs:
           test -f "$BP/scripts/commands/kitop.js"
           test -f "$BP/scripts/commands/kitn.js"
           test -f "$BP/scripts/core/helpers.js"
+          test -f "$BP/scripts/core/placement_plan.js"
+          test -f "$BP/scripts/core/preview_structures.js"
           test -f "$BP/items/kit_selector.json"
           test -f "$RP/manifest.json"
           test -f "$RP/textures/item_texture.json"
