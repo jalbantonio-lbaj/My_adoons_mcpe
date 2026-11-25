@@ -108,7 +108,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          node --test "Kit TC OP/tests/placement-plan.test.mjs"
+          node --experimental-default-type=module --test "Kit TC OP/tests/placement-plan.test.mjs"
 
       - name: Package mcpack and mcaddon
         shell: bash
