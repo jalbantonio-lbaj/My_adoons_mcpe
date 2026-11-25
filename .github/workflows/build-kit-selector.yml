@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euo pipefail
           BP="Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack"
-          RP="Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack"
+          RP="Kit TC OP/TC_KitOP_RP_v1.2.0.mcpack"
           test -f "$BP/manifest.json"
           test -f "$BP/scripts/main.js"
           test -f "$BP/scripts/commands/kitop.js"
@@ -61,8 +61,8 @@ jobs:
 
           bp_header = bp_manifest["header"]
           rp_header = rp_manifest["header"]
-          assert bp_header["version"] == [1, 1, 1], "Unexpected BP version"
-          assert rp_header["version"] == [1, 1, 1], "BP/RP versions must match"
+          assert bp_header["version"] == [1, 2, 0], "Unexpected BP version"
+          assert rp_header["version"] == [1, 2, 0], "BP/RP versions must match"
           assert any(
               d.get("uuid") == rp_header["uuid"] and d.get("version") == rp_header["version"]
               for d in bp_manifest.get("dependencies", [])
@@ -105,11 +105,18 @@ jobs:
 
           assert "export function handleKitOp(origin, options = {})" in kitop
           assert "export function handleKitN(origin, options = {})" in kitn
+          assert main.count('name: "tc:preview_rotate_left"') == 1
+          assert main.count('name: "tc:preview_rotate_right"') == 1
+          assert main.count('name: "tc:preview_confirm"') == 1
+          assert main.count('name: "tc:preview_cancel"') == 1
           assert "getInventoryFreePreviewStructure" in preview
           assert "placeInventoryFreePreview" in preview
           assert "includeEntities: false" in preview_structures
           assert "block.setType(\"minecraft:air\")" in preview
           assert "isEmptyContainer(block)" in preview
+          assert "STRUCTURE_ROTATIONS[session.rotation]" in preview
+          assert "createKitNPlan(anchor, rotation)" in preview
+          assert "rotation: rotationByTurns[rotation]" in kitn
           assert "STRUCTURE_ROTATIONS[session.rotation]" in preview
           assert "createKitNPlan(anchor, rotation)" in preview
           assert "rotation: rotationByTurns[rotation]" in kitn
@@ -136,16 +143,16 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist
-          (cd "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_BP_v1.1.1.mcpack" .)
+          (cd "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_BP_v1.2.0.mcpack" .)
           (cd "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_RP_v1.1.1.mcpack" .)
           cd dist
-          zip -q TC_KitOP_Kit_Selector_v1.1.1.mcaddon TC_KitOP_BP_v1.1.1.mcpack TC_KitOP_RP_v1.1.1.mcpack
+          zip -q TC_KitOP_Kit_Selector_v1.2.0.mcaddon TC_KitOP_BP_v1.1.1.mcpack TC_KitOP_RP_v1.1.1.mcpack
           unzip -t TC_KitOP_Kit_Selector_v1.1.1.mcaddon
           unzip -l TC_KitOP_Kit_Selector_v1.1.1.mcaddon
 
       - uses: actions/upload-artifact@v4
         with:
-          name: TC_KitOP_Kit_Selector_v1.1.1
+          name: TC_KitOP_Kit_Selector_v1.2.0
           path: dist/TC_KitOP_Kit_Selector_v1.1.1.mcaddon
           if-no-files-found: error
           retention-days: 30
