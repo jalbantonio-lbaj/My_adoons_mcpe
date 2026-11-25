@@ -1,10 +1,11 @@
-import { world, system, Direction } from "@minecraft/server";
+import { world, system, Direction, StructureRotation } from "@minecraft/server";
 import { isValidPlayer, reportIssue } from "../core/helpers.js";
 import {
   getInventoryFreePreviewStructure,
   placeInventoryFreePreview
 } from "../core/preview_structures.js";
 import { handleKitN } from "./kitn.js";
+import { createKitNPlan, rotateOffset } from "../core/placement_plan.js";
 
 const KITN_TEMPLATE = "kitop:kit_plain";
 const MAX_TARGET_DISTANCE = 8;
@@ -29,7 +30,7 @@ function isEmptyContainer(block) {
   return true;
 }
 
-function getTarget(player) {
+function getTarget(player, rotation = 0) {
   const hit = player.getBlockFromViewDirection({
     maxDistance: MAX_TARGET_DISTANCE,
     includeLiquidBlocks: false,
@@ -54,9 +55,19 @@ function getTarget(player) {
     y: Math.floor(p.y + offset.y),
     z: Math.floor(p.z + offset.z)
   };
-  // The current KitN template is two blocks wide on X.
-  // Keep both chest halves outside the clicked block on west-facing placement.
-  if (hit.face === Direction.West) target.x -= 1;
+  const footprintDirection = rotateOffset(1, 0, rotation);
+  const normal = {
+    [Direction.Up]: { x: 0, y: 1, z: 0 },
+    [Direction.Down]: { x: 0, y: -1, z: 0 },
+    [Direction.North]: { x: 0, y: 0, z: -1 },
+    [Direction.South]: { x: 0, y: 0, z: 1 },
+    [Direction.East]: { x: 1, y: 0, z: 0 },
+    [Direction.West]: { x: -1, y: 0, z: 0 }
+  }[hit.face];
+  if (footprintDirection.x * normal.x + footprintDirection.z * normal.z < 0) {
+    target.x += normal.x;
+    target.z += normal.z;
+  }
   return target;
 }
 
@@ -64,19 +75,19 @@ function targetKey(location) {
   return location ? `${location.x},${location.y},${location.z}` : "";
 }
 
-function getPreviewCells(structure, anchor) {
+function getPreviewCells(structure, dimension, anchor, rotation) {
   const size = structure.size;
   const cells = [];
   for (let x = 0; x < size.x; x++) {
     for (let y = 0; y < size.y; y++) {
       for (let z = 0; z < size.z; z++) {
-        const local = { x, y, z };
-        const permutation = structure.getBlockPermutation(local);
-        if (!permutation) continue;
-        cells.push({
-          location: { x: anchor.x + x, y: anchor.y + y, z: anchor.z + z },
-          permutation
-        });
+        const sourcePermutation = structure.getBlockPermutation({ x, y, z });
+        if (!sourcePermutation) continue;
+        const offset = rotateOffset(x, z, rotation);
+        const location = { x: anchor.x + offset.x, y: anchor.y + y, z: anchor.z + offset.z };
+        const placed = dimension.getBlock(location);
+        if (!placed?.isValid || placed.isAir) continue;
+        cells.push({ location, permutation: placed.permutation });
       }
     }
   }
@@ -91,10 +102,8 @@ function isFootprintClear(dimension, structure, anchor) {
         const at = { x: anchor.x + x, y: anchor.y + y, z: anchor.z + z };
         if (at.y < dimension.heightRange.min || at.y >= dimension.heightRange.max) return false;
         if (!dimension.isChunkLoaded(at)) return false;
-        const block = dimension.getBlock(at);
-        if (!block?.isValid || !block.isAir) return false;
-      }
-    }
+      const block = dimension.getBlock(at);
+      if (!block?.isValid || !block.isAir) return false;
   }
   return true;
 }
@@ -131,7 +140,7 @@ function finishSession(player, session, reason, confirm = false) {
     return;
   }
   if (confirm) {
-    handleKitN({ sourceEntity: player }, { base: session.confirmAnchor });
+    handleKitN({ sourceEntity: player }, { base: session.confirmAnchor, rotation: session.rotation });
     reportIssue(player, "KitN preview confirmed.");
   } else if (!safe) {
     reportIssue(player, "KitN preview ended. A modified or filled preview chest was preserved.");
@@ -167,7 +176,7 @@ function updateSession(player, session) {
 
   let target;
   try {
-    target = getTarget(player);
+    target = getTarget(player, session.rotation);
   } catch {
     target = undefined;
   }
@@ -177,9 +186,9 @@ function updateSession(player, session) {
     return;
   }
 
-  const key = targetKey(target);
+  const key = `${targetKey(target)}|${session.rotation}`;
   if (key === session.anchorKey) {
-    player.onScreenDisplay.setActionBar("KitN preview | /tc:preview_confirm  |  /tc:preview_cancel");
+    player.onScreenDisplay.setActionBar("KitN | /tc:preview_rotate_left  /tc:preview_rotate_right  /tc:preview_confirm  /tc:preview_cancel");
     return;
   }
 
@@ -188,7 +197,7 @@ function updateSession(player, session) {
     return;
   }
 
-  if (!isFootprintClear(session.dimension, session.structure, target)) {
+  if (!isFootprintClear(session.dimension, session.structure, target, session.rotation)) {
     player.onScreenDisplay.setActionBar("KitN preview: target obstructed or chunk not loaded");
     return;
   }
