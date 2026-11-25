@@ -3,6 +3,11 @@ import { ActionFormData } from "@minecraft/server-ui";
 import { isValidPlayer } from "./core/helpers.js";
 import { handleKitOp } from "./commands/kitop.js";
 import { handleKitN } from "./commands/kitn.js";
+import {
+  startKitNPreview,
+  confirmKitNPreview,
+  cancelKitNPreview
+} from "./commands/kitn_preview.js";
 
 function showKitSystem(player) {
   if (!isValidPlayer(player)) return;
@@ -26,7 +31,7 @@ function showKitSystem(player) {
     }
 
     if (response.selection === 1) {
-      handleKitN({ sourceEntity: player });
+      startKitNPreview(player);
     }
   }).catch(() => {
     if (player.isValid) player.sendMessage("§cKit System could not be opened right now.");
@@ -55,6 +60,40 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       system.run(() => {
         if (!player.isValid) return;
         handleKitOp(origin);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_confirm",
+      description: "Confirm the active KitN preview",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) confirmKitNPreview(player);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_cancel",
+      description: "Cancel the active kit preview",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) cancelKitNPreview(player);
       });
       return { status: CustomCommandStatus.Success };
     }
