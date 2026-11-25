@@ -6,7 +6,8 @@ import { handleKitN } from "./commands/kitn.js";
 import {
   startKitNPreview,
   confirmKitNPreview,
-  cancelKitNPreview
+  cancelKitNPreview,
+  rotateKitNPreview
 } from "./commands/kitn_preview.js";
 
 function showKitSystem(player) {
@@ -60,6 +61,40 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       system.run(() => {
         if (!player.isValid) return;
         handleKitOp(origin);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_rotate_left",
+      description: "Rotate the active KitN preview 90 degrees left",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) rotateKitNPreview(player, -1);
+      });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_rotate_right",
+      description: "Rotate the active KitN preview 90 degrees right",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => {
+        if (player.isValid) rotateKitNPreview(player, 1);
       });
       return { status: CustomCommandStatus.Success };
     }
