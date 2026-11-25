@@ -37,6 +37,26 @@ test("KitN footprint rotates as one two-cell structure", () => {
   ]);
 });
 
+
+test("KitN footprint positions are stable for all four quarter-turns", () => {
+  assert.deepEqual(createKitNPlan({ x: 10, y: 64, z: 20 }, 0).cells, [
+    { x: 10, y: 64, z: 20 },
+    { x: 11, y: 64, z: 20 }
+  ]);
+  assert.deepEqual(createKitNPlan({ x: 10, y: 64, z: 20 }, 1).cells, [
+    { x: 10, y: 64, z: 20 },
+    { x: 10, y: 64, z: 21 }
+  ]);
+  assert.deepEqual(createKitNPlan({ x: 10, y: 64, z: 20 }, 2).cells, [
+    { x: 10, y: 64, z: 20 },
+    { x: 9, y: 64, z: 20 }
+  ]);
+  assert.deepEqual(createKitNPlan({ x: 10, y: 64, z: 20 }, 3).cells, [
+    { x: 10, y: 64, z: 20 },
+    { x: 10, y: 64, z: 19 }
+  ]);
+});
+
 test("rotation accepts negative and wrapped quarter-turns", () => {
   assert.deepEqual(rotateOffset(1, 0, -1), { x: 0, z: -1 });
   assert.deepEqual(rotateOffset(1, 0, 5), { x: 0, z: 1 });
