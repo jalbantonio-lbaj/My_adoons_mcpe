@@ -5,7 +5,6 @@ on:
       - feature/kit-selector-menu
     paths:
       - "Kit TC OP/**"
-      - "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack/**"
       - ".github/workflows/build-kit-selector.yml"
   workflow_dispatch:
 
@@ -16,16 +15,95 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Validate pack sources
         shell: bash
         run: |
           set -euo pipefail
-          test -f "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack/manifest.json"
-          test -f "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack/scripts/main.js"
-          test -f "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack/items/kit_selector.json"
-          test -f "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack/manifest.json"
-          test -f "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack/textures/item_texture.json"
-          test -f "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack/textures/items/kit_selector.png"
+          BP="Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack"
+          RP="Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack"
+          test -f "$BP/manifest.json"
+          test -f "$BP/scripts/main.js"
+          test -f "$BP/scripts/commands/kitop.js"
+          test -f "$BP/scripts/commands/kitn.js"
+          test -f "$BP/scripts/core/helpers.js"
+          test -f "$BP/items/kit_selector.json"
+          test -f "$RP/manifest.json"
+          test -f "$RP/textures/item_texture.json"
+          test -f "$RP/textures/items/kit_selector.png"
+
+      - name: Validate JSON, pack linkage and menu integration
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          bp = Path("Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack")
+          rp = Path("Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack")
+
+          def load(path):
+              with path.open(encoding="utf-8") as f:
+                  return json.load(f)
+
+          bp_manifest = load(bp / "manifest.json")
+          rp_manifest = load(rp / "manifest.json")
+          item = load(bp / "items/kit_selector.json")
+          atlas = load(rp / "textures/item_texture.json")
+
+          bp_header = bp_manifest["header"]
+          rp_header = rp_manifest["header"]
+          assert bp_header["version"] == [1, 1, 1], "Unexpected BP version"
+          assert rp_header["version"] == [1, 1, 1], "BP/RP versions must match"
+          assert any(
+              d.get("uuid") == rp_header["uuid"] and d.get("version") == rp_header["version"]
+              for d in bp_manifest.get("dependencies", [])
+          ), "BP does not depend on the matching RP UUID/version"
+
+          item_data = item["minecraft:item"]
+          assert item_data["description"]["identifier"] == "tc:kit_selector"
+          components = item_data["components"]
+          custom_id = components["minecraft:custom_components"][0]
+          texture_key = components["minecraft:icon"]["textures"]["default"]
+          assert custom_id == "tc:kit_selector_use"
+          assert texture_key in atlas["texture_data"], "Item icon key is missing from RP atlas"
+          texture_path = rp / (atlas["texture_data"][texture_key]["textures"] + ".png")
+          assert texture_path.is_file(), f"Missing item texture: {texture_path}"
+
+          main = (bp / "scripts/main.js").read_text(encoding="utf-8")
+          kitop = (bp / "scripts/commands/kitop.js").read_text(encoding="utf-8")
+          kitn = (bp / "scripts/commands/kitn.js").read_text(encoding="utf-8")
+
+          for required in (
+              'registerCustomComponent("tc:kit_selector_use"',
+              'name: "tc:kitop"',
+              'name: "tc:kitn"',
+              "handleKitOp({ sourceEntity: player })",
+              "handleKitN({ sourceEntity: player })",
+              "CommandPermissionLevel.GameDirectors",
+              "CommandPermissionLevel.Any",
+          ):
+              assert required in main, f"Missing menu/command integration: {required}"
+
+          assert "export function handleKitOp(origin)" in kitop
+          assert "export function handleKitN(origin)" in kitn
+          print("Static pack linkage and menu integration checks passed.")
+          PY
+
+      - name: Check JavaScript syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          BP="Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack"
+          for file in "$BP"/scripts/main.js "$BP"/scripts/commands/*.js "$BP"/scripts/core/*.js; do
+            node --input-type=module --check < "$file"
+          done
+
       - name: Package mcpack and mcaddon
         shell: bash
         run: |
@@ -37,6 +115,7 @@ jobs:
           zip -q TC_KitOP_Kit_Selector_v1.1.1.mcaddon TC_KitOP_BP_v1.1.1.mcpack TC_KitOP_RP_v1.1.1.mcpack
           unzip -t TC_KitOP_Kit_Selector_v1.1.1.mcaddon
           unzip -l TC_KitOP_Kit_Selector_v1.1.1.mcaddon
+
       - uses: actions/upload-artifact@v4
         with:
           name: TC_KitOP_Kit_Selector_v1.1.1
