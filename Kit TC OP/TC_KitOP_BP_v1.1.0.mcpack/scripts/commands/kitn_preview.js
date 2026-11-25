@@ -49,11 +49,15 @@ function getTarget(player) {
     default: return undefined;
   }
 
-  return {
+  const target = {
     x: Math.floor(p.x + offset.x),
     y: Math.floor(p.y + offset.y),
     z: Math.floor(p.z + offset.z)
   };
+  // The current KitN template is two blocks wide on X.
+  // Keep both chest halves outside the clicked block on west-facing placement.
+  if (hit.face === Direction.West) target.x -= 1;
+  return target;
 }
 
 function targetKey(location) {
