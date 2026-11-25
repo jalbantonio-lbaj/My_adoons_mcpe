@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euo pipefail
           BP="Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack"
-          RP="Kit TC OP/TC_KitOP_RP_v1.2.0.mcpack"
+          RP="Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack"
           test -f "$BP/manifest.json"
           test -f "$BP/scripts/main.js"
           test -f "$BP/scripts/commands/kitop.js"
@@ -63,6 +63,8 @@ jobs:
           rp_header = rp_manifest["header"]
           assert bp_header["version"] == [1, 2, 0], "Unexpected BP version"
           assert rp_header["version"] == [1, 2, 0], "BP/RP versions must match"
+          assert bp_manifest["modules"][0]["version"] == [1, 2, 0]
+          assert rp_manifest["modules"][0]["version"] == [1, 2, 0]
           assert any(
               d.get("uuid") == rp_header["uuid"] and d.get("version") == rp_header["version"]
               for d in bp_manifest.get("dependencies", [])
@@ -144,15 +146,15 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           (cd "Kit TC OP/TC_KitOP_BP_v1.1.0.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_BP_v1.2.0.mcpack" .)
-          (cd "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_RP_v1.1.1.mcpack" .)
+          (cd "Kit TC OP/TC_KitOP_RP_v1.1.1.mcpack" && zip -qr "$GITHUB_WORKSPACE/dist/TC_KitOP_RP_v1.2.0.mcpack" .)
           cd dist
           zip -q TC_KitOP_Kit_Selector_v1.2.0.mcaddon TC_KitOP_BP_v1.1.1.mcpack TC_KitOP_RP_v1.1.1.mcpack
-          unzip -t TC_KitOP_Kit_Selector_v1.1.1.mcaddon
+          unzip -t TC_KitOP_Kit_Selector_v1.2.0.mcaddon
           unzip -l TC_KitOP_Kit_Selector_v1.1.1.mcaddon
 
       - uses: actions/upload-artifact@v4
         with:
           name: TC_KitOP_Kit_Selector_v1.2.0
-          path: dist/TC_KitOP_Kit_Selector_v1.1.1.mcaddon
+          path: dist/TC_KitOP_Kit_Selector_v1.2.0.mcaddon
           if-no-files-found: error
           retention-days: 30
