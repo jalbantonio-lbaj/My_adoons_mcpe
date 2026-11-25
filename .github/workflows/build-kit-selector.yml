@@ -90,7 +90,7 @@ jobs:
           ):
               assert required in main, f"Missing menu/command integration: {required}"
 
-          assert "export function handleKitOp(origin)" in kitop
+          assert "export function handleKitOp(origin, options = {})" in kitop
           assert "export function handleKitN(origin)" in kitn
           print("Static pack linkage and menu integration checks passed.")
           PY
