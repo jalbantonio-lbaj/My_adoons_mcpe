@@ -56,11 +56,12 @@ export function getInventoryFreePreviewStructure(sourceId) {
 }
 
 /** Places a sanitized visual copy. Callers must validate the full footprint first. */
-export function placeInventoryFreePreview(sourceId, dimension, location) {
+export function placeInventoryFreePreview(sourceId, dimension, location, rotation) {
   const structure = getInventoryFreePreviewStructure(sourceId);
   world.structureManager.place(structure, dimension, location, {
     includeBlocks: true,
-    includeEntities: false
+    includeEntities: false,
+    rotation
   });
   return structure;
 }
