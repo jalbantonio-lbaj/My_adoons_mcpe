@@ -1,6 +1,6 @@
 import { system, Direction } from "@minecraft/server";
 import { isValidPlayer, reportIssue, doubleBase } from "../core/helpers.js";
-import { createKitOpPlan, createKitNPlan } from "../core/placement_plan.js";
+import { createKitNPlan } from "../core/placement_plan.js";
 import { handleKitOp } from "./kitop.js";
 import { handleKitN } from "./kitn.js";
 const MAX_DISTANCE=8, TICK_RATE=5, HOLOGRAM_ID="tc:kit_preview";
