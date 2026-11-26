@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tc:kit_preview",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/sea_lantern"
+      },
+      "geometry": {
+        "kitop": "geometry.tc.kit_preview.kitop",
+        "kitn": "geometry.tc.kit_preview.kitn"
+      },
+      "render_controllers": [
+        "controller.render.tc.kit_preview"
+      ]
+    }
+  }
+}
