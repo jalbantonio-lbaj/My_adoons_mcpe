@@ -4,18 +4,15 @@ import { isValidPlayer } from "./core/helpers.js";
 import { handleKitOp } from "./commands/kitop.js";
 import { handleKitN } from "./commands/kitn.js";
 import {
-  startKitNPreview,
-  confirmKitNPreview,
-  cancelKitNPreview,
-  rotateKitNPreview
-} from "./commands/kitn_preview.js";
+  startKitPreview, togglePreviewLock, confirmPreview, cancelPreview, rotatePreview
+} from "./commands/kit_preview.js";
 
 function showKitSystem(player) {
   if (!isValidPlayer(player)) return;
 
   const form = new ActionFormData()
     .title("Kit System")
-    .body("KitN opens a placement preview. KitOP places the operator kit directly.")
+    .body("Choose a kit to open its ghost placement preview.")
     .button("KitOP")
     .button("KitN");
 
@@ -27,12 +24,12 @@ function showKitSystem(player) {
         player.sendMessage("§cKitOP is available to operators only.");
         return;
       }
-      handleKitOp({ sourceEntity: player });
+      startKitPreview(player, "KitOP");
       return;
     }
 
     if (response.selection === 1) {
-      startKitNPreview(player);
+      startKitPreview(player, "KitN");
     }
   }).catch(() => {
     if (player.isValid) player.sendMessage("§cKit System could not be opened right now.");
@@ -77,7 +74,7 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       const player = origin.sourceEntity;
       if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
       system.run(() => {
-        if (player.isValid) rotateKitNPreview(player, -1);
+        if (player.isValid) rotatePreview(player, -1);
       });
       return { status: CustomCommandStatus.Success };
     }
@@ -94,8 +91,23 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       const player = origin.sourceEntity;
       if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
       system.run(() => {
-        if (player.isValid) rotateKitNPreview(player, 1);
+        if (player.isValid) rotatePreview(player, 1);
       });
+      return { status: CustomCommandStatus.Success };
+    }
+  );
+
+  customCommandRegistry.registerCommand(
+    {
+      name: "tc:preview_lock",
+      description: "Fix or resume the active ghost preview position",
+      cheatsRequired: false,
+      permissionLevel: CommandPermissionLevel.Any
+    },
+    (origin) => {
+      const player = origin.sourceEntity;
+      if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
+      system.run(() => { if (player.isValid) togglePreviewLock(player); });
       return { status: CustomCommandStatus.Success };
     }
   );
@@ -111,7 +123,7 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       const player = origin.sourceEntity;
       if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
       system.run(() => {
-        if (player.isValid) confirmKitNPreview(player);
+        if (player.isValid) confirmPreview(player);
       });
       return { status: CustomCommandStatus.Success };
     }
@@ -128,7 +140,7 @@ system.beforeEvents.startup.subscribe(({ itemComponentRegistry, customCommandReg
       const player = origin.sourceEntity;
       if (!isValidPlayer(player)) return { status: CustomCommandStatus.Failure };
       system.run(() => {
-        if (player.isValid) cancelKitNPreview(player);
+        if (player.isValid) cancelPreview(player);
       });
       return { status: CustomCommandStatus.Success };
     }
