@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.tc.kit_preview": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.kitop",
+            "Geometry.kitn"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.property('tc:kit_kind')]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "overlay_color": {
+        "r": 0,
+        "g": 0.88,
+        "b": 1,
+        "a": 0.5
+      }
+    }
+  }
+}
