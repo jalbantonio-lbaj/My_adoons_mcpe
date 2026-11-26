@@ -1,0 +1,80 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tc:kit_preview",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "tc:kit_kind": {
+          "type": "int",
+          "range": [
+            0,
+            1
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "tc:valid": {
+          "type": "bool",
+          "client_sync": true,
+          "default": true
+        }
+      }
+    },
+    "component_groups": {
+      "instant_despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "tc",
+          "tc:kit_preview"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:transient": {},
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "test": "has_damage",
+                "value": "void"
+              },
+              "event": "despawn"
+            },
+            "deals_damage": "no"
+          },
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      }
+    },
+    "events": {
+      "despawn": {
+        "add": {
+          "component_groups": [
+            "instant_despawn"
+          ]
+        }
+      }
+    }
+  }
+}
