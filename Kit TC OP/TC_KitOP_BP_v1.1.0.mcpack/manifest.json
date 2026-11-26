@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "TC KitOP - Kit System BP v1.2.0",
-    "description": "TC KitOP and KitN with Kit Selector menu",
+    "name": "TC KitOP - Kit System BP v1.3.0",
+    "description": "TC KitOP and KitN with particle ghost placement preview",
     "uuid": "34b2022f-34f8-43d6-bfa0-9fa4468d65e3",
-    "version": [1, 2, 0],
+    "version": [1, 3, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
@@ -13,26 +13,14 @@
       "type": "script",
       "language": "javascript",
       "uuid": "e8af6c00-ef44-4093-8f4d-0d188be44b95",
-      "version": [1, 2, 0],
+      "version": [1, 3, 0],
       "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
-    {
-      "module_name": "@minecraft/server",
-      "version": "2.8.0"
-    },
-    {
-      "module_name": "@minecraft/server-ui",
-      "version": "2.0.0"
-    },
-    {
-      "uuid": "a61f6f82-1a5e-4c7b-9e11-6d4b9f0c2a31",
-      "version": [1, 2, 0]
-    }
+    { "module_name": "@minecraft/server", "version": "2.8.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.0.0" },
+    { "uuid": "a61f6f82-1a5e-4c7b-9e11-6d4b9f0c2a31", "version": [1, 3, 0] }
   ],
-  "metadata": {
-    "product_type": "addon",
-    "authors": ["ToanCao"]
-  }
+  "metadata": { "product_type": "addon", "authors": ["ToanCao"] }
 }
