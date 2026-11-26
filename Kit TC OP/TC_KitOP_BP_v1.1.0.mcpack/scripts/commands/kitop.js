@@ -8,19 +8,19 @@ export function handleKitOp(origin, options = {}) {
   if (!isValidPlayer(player)) return;
   system.run(() => {
     if (!player.isValid) return;
-    spawnKitOpSet(player, options.rotation ?? 0);
+    spawnKitOpSet(player, options.rotation ?? 0, options.anchor);
   });
 }
 
 // -- Spawn: 11 units on 2 tiers plus 4 armor stands around the player.
-function spawnKitOpSet(player, rotation = 0) {
+function spawnKitOpSet(player, rotation = 0, anchorOverride) {
   if (!isValidPlayer(player)) return;
   const dimension = player.dimension;
   if (!dimension) return;
-  const feet = {
-    x: Math.floor(player.location.x),
-    y: Math.floor(player.location.y),
-    z: Math.floor(player.location.z)
+  const feet = anchorOverride ? {
+    x: Math.floor(anchorOverride.x), y: Math.floor(anchorOverride.y), z: Math.floor(anchorOverride.z)
+  } : {
+    x: Math.floor(player.location.x), y: Math.floor(player.location.y), z: Math.floor(player.location.z)
   };
   const plan = createKitOpPlan(feet, rotation);
   const stats = { units: 0, stands: 0, missing: 0, unloaded: 0, blocked: 0, floorless: 0 };
